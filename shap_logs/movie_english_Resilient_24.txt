@@ -1,0 +1,121 @@
+
+=== Processing text ===
+Resilient. Highly contagious. Once an idea has taken hold of the brain, it's almost impossible to eradicate.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000793
+Res             | 'Res'                | 0     | 3     | -0.030887
+ilien           | 'ilien'              | 3     | 8     | -0.040927
+t               | 't'                  | 8     | 9     | -0.017820
+.               | '.'                  | 9     | 10    | -0.021399
+High            | 'High'               | 11    | 15    | -0.003738
+ly              | 'ly'                 | 15    | 17    | +0.012872
+conta           | 'conta'              | 18    | 23    | +0.098932
+gio             | 'gio'                | 23    | 26    | +0.042107
+us              | 'us'                 | 26    | 28    | +0.001705
+.               | '.'                  | 28    | 29    | +0.004536
+Once            | 'Once'               | 30    | 34    | +0.019463
+an              | 'an'                 | 35    | 37    | +0.012448
+idea            | 'idea'               | 38    | 42    | +0.053957
+has             | 'has'                | 43    | 46    | -0.019080
+taken           | 'taken'              | 47    | 52    | +0.000314
+hold            | 'hold'               | 53    | 57    | +0.000314
+of              | 'of'                 | 58    | 60    | +0.002536
+the             | 'the'                | 61    | 64    | +0.002536
+brain           | 'brain'              | 65    | 70    | +0.006150
+,               | ','                  | 70    | 71    | +0.012081
+it              | 'it'                 | 72    | 74    | +0.002978
+'               | "'"                  | 74    | 75    | +0.002978
+s               | 's'                  | 75    | 76    | -0.003247
+almost          | 'almost'             | 77    | 83    | -0.013626
+impossible      | 'impossible'         | 84    | 94    | +0.118850
+to              | 'to'                 | 95    | 97    | +0.015440
+era             | 'era'                | 98    | 101   | +0.064361
+dicate          | 'dicate'             | 101   | 107   | +0.049145
+.               | '.'                  | 107   | 108   | +0.008286
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Res' (0-3) as 'Res'
+  Added token 'ilien' (3-8) as 'ilien'
+  Added token 't' (8-9) as 't'
+  Added token '. ' (9-10) as '.'
+
+Saved word: 'Resilient.' with SHAP -0.111033
+  Added token 'High' (11-15) as 'High'
+  Added token 'ly ' (15-17) as 'ly'
+
+Saved word: 'Highly' with SHAP +0.009134
+  Added token 'conta' (18-23) as 'conta'
+  Added token 'gio' (23-26) as 'gio'
+  Added token 'us' (26-28) as 'us'
+  Added token '. ' (28-29) as '.'
+
+Saved word: 'contagious.' with SHAP +0.147280
+  Added token 'Once ' (30-34) as 'Once'
+
+Saved word: 'Once' with SHAP +0.019463
+  Added token 'an ' (35-37) as 'an'
+
+Saved word: 'an' with SHAP +0.012448
+  Added token 'idea ' (38-42) as 'idea'
+
+Saved word: 'idea' with SHAP +0.053957
+  Added token 'has ' (43-46) as 'has'
+
+Saved word: 'has' with SHAP -0.019080
+  Added token 'taken ' (47-52) as 'taken'
+
+Saved word: 'taken' with SHAP +0.000314
+  Added token 'hold ' (53-57) as 'hold'
+
+Saved word: 'hold' with SHAP +0.000314
+  Added token 'of ' (58-60) as 'of'
+
+Saved word: 'of' with SHAP +0.002536
+  Added token 'the ' (61-64) as 'the'
+
+Saved word: 'the' with SHAP +0.002536
+  Added token 'brain' (65-70) as 'brain'
+  Added token ', ' (70-71) as ','
+
+Saved word: 'brain,' with SHAP +0.018231
+  Added token 'it' (72-74) as 'it'
+  Added token ''' (74-75) as '''
+  Added token 's ' (75-76) as 's'
+
+Saved word: 'it's' with SHAP +0.002710
+  Added token 'almost ' (77-83) as 'almost'
+
+Saved word: 'almost' with SHAP -0.013626
+  Added token 'impossible ' (84-94) as 'impossible'
+
+Saved word: 'impossible' with SHAP +0.118850
+  Added token 'to ' (95-97) as 'to'
+
+Saved word: 'to' with SHAP +0.015440
+  Added token 'era' (98-101) as 'era'
+  Added token 'dicate' (101-107) as 'dicate'
+  Added token '.' (107-108) as '.'
+
+Saved final word: 'eradicate.' with SHAP +0.121793
+
+=== Final Word Contributions ===
+contagious.               +0.147280 (POS)
+eradicate.                +0.121793 (POS)
+impossible                +0.118850 (POS)
+Resilient.                -0.111033 (NEG)
+idea                      +0.053957 (POS)
+Once                      +0.019463 (POS)
+has                       -0.019080 (NEG)
+brain,                    +0.018231 (POS)
+to                        +0.015440 (POS)
+almost                    -0.013626 (NEG)
+an                        +0.012448 (POS)
+Highly                    +0.009134 (POS)
+it's                      +0.002710 (POS)
+of                        +0.002536 (POS)
+the                       +0.002536 (POS)
+taken                     +0.000314 (POS)
+hold                      +0.000314 (POS)

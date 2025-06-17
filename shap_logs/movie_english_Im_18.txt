@@ -1,0 +1,72 @@
+
+=== Processing text ===
+I'm going to make him an offer he can't refuse.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+I               | 'I'                  | 0     | 1     | +0.014922
+'               | "'"                  | 1     | 2     | -0.003066
+m               | 'm'                  | 2     | 3     | +0.013113
+going           | 'going'              | 4     | 9     | +0.017703
+to              | 'to'                 | 10    | 12    | +0.010800
+make            | 'make'               | 13    | 17    | +0.012366
+him             | 'him'                | 18    | 21    | -0.050350
+an              | 'an'                 | 22    | 24    | +0.000442
+offer           | 'offer'              | 25    | 30    | +0.043234
+he              | 'he'                 | 31    | 33    | -0.017947
+can             | 'can'                | 34    | 37    | +0.011373
+'               | "'"                  | 37    | 38    | +0.014203
+t               | 't'                  | 38    | 39    | +0.000441
+refuse          | 'refuse'             | 40    | 46    | +0.021988
+.               | '.'                  | 46    | 47    | +0.034180
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'I' (0-1) as 'I'
+  Added token ''' (1-2) as '''
+  Added token 'm ' (2-3) as 'm'
+
+Saved word: 'I'm' with SHAP +0.024969
+  Added token 'going ' (4-9) as 'going'
+
+Saved word: 'going' with SHAP +0.017703
+  Added token 'to ' (10-12) as 'to'
+
+Saved word: 'to' with SHAP +0.010800
+  Added token 'make ' (13-17) as 'make'
+
+Saved word: 'make' with SHAP +0.012366
+  Added token 'him ' (18-21) as 'him'
+
+Saved word: 'him' with SHAP -0.050350
+  Added token 'an ' (22-24) as 'an'
+
+Saved word: 'an' with SHAP +0.000442
+  Added token 'offer ' (25-30) as 'offer'
+
+Saved word: 'offer' with SHAP +0.043234
+  Added token 'he ' (31-33) as 'he'
+
+Saved word: 'he' with SHAP -0.017947
+  Added token 'can' (34-37) as 'can'
+  Added token ''' (37-38) as '''
+  Added token 't ' (38-39) as 't'
+
+Saved word: 'can't' with SHAP +0.026017
+  Added token 'refuse' (40-46) as 'refuse'
+  Added token '.' (46-47) as '.'
+
+Saved final word: 'refuse.' with SHAP +0.056168
+
+=== Final Word Contributions ===
+refuse.                   +0.056168 (POS)
+him                       -0.050350 (NEG)
+offer                     +0.043234 (POS)
+can't                     +0.026017 (POS)
+I'm                       +0.024969 (POS)
+he                        -0.017947 (NEG)
+going                     +0.017703 (POS)
+make                      +0.012366 (POS)
+to                        +0.010800 (POS)
+an                        +0.000442 (POS)

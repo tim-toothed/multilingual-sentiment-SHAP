@@ -1,0 +1,346 @@
+
+=== Processing text ===
+The providers of general-purpose AI models that are released under a free and open-source licence, and whose parameters, including the weights, the information on the model architecture, and the information on model usage, are made publicly available should be subject to exceptions as regards the transparency-related requirements imposed on general-purpose AI models, unless they can be considered to present a systemic risk.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000052
+The             | 'The'                | 0     | 3     | +0.000052
+providers       | 'providers'          | 4     | 13    | -0.001509
+of              | 'of'                 | 14    | 16    | -0.001509
+general         | 'general'            | 17    | 24    | +0.007152
+-               | '-'                  | 24    | 25    | +0.007152
+purpose         | 'purpose'            | 25    | 32    | +0.007041
+AI              | 'AI'                 | 33    | 35    | +0.007041
+models          | 'models'             | 36    | 42    | +0.009379
+that            | 'that'               | 43    | 47    | +0.009379
+are             | 'are'                | 48    | 51    | +0.009379
+released        | 'released'           | 52    | 60    | +0.009379
+under           | 'under'              | 61    | 66    | +0.003763
+a               | 'a'                  | 67    | 68    | +0.003763
+free            | 'free'               | 69    | 73    | +0.003763
+and             | 'and'                | 74    | 77    | +0.003763
+open            | 'open'               | 78    | 82    | +0.004827
+-               | '-'                  | 82    | 83    | +0.004827
+source          | 'source'             | 83    | 89    | +0.004827
+licence         | 'licence'            | 90    | 97    | +0.004827
+,               | ','                  | 97    | 98    | +0.007345
+and             | 'and'                | 99    | 102   | +0.008920
+whose           | 'whose'              | 103   | 108   | +0.019132
+parameters      | 'parameters'         | 109   | 119   | +0.019132
+,               | ','                  | 119   | 120   | +0.010019
+including       | 'including'          | 121   | 130   | +0.010025
+the             | 'the'                | 131   | 134   | +0.010025
+weight          | 'weight'             | 135   | 141   | +0.008791
+s               | 's'                  | 141   | 142   | +0.008791
+,               | ','                  | 142   | 143   | +0.012351
+the             | 'the'                | 144   | 147   | +0.008250
+information     | 'information'        | 148   | 159   | +0.008250
+on              | 'on'                 | 160   | 162   | +0.006913
+the             | 'the'                | 163   | 166   | +0.006913
+model           | 'model'              | 167   | 172   | +0.005728
+architecture    | 'architecture'       | 173   | 185   | +0.005728
+,               | ','                  | 185   | 186   | +0.005405
+and             | 'and'                | 187   | 190   | +0.006410
+the             | 'the'                | 191   | 194   | +0.005884
+information     | 'information'        | 195   | 206   | +0.005884
+on              | 'on'                 | 207   | 209   | +0.003280
+model           | 'model'              | 210   | 215   | +0.003280
+usage           | 'usage'              | 216   | 221   | +0.003280
+,               | ','                  | 221   | 222   | +0.004441
+are             | 'are'                | 223   | 226   | +0.003495
+made            | 'made'               | 227   | 231   | +0.003495
+publicly        | 'publicly'           | 232   | 240   | +0.003495
+available       | 'available'          | 241   | 250   | +0.003495
+should          | 'should'             | 251   | 257   | +0.011639
+be              | 'be'                 | 258   | 260   | +0.011639
+subject         | 'subject'            | 261   | 268   | +0.009317
+to              | 'to'                 | 269   | 271   | +0.009317
+exceptions      | 'exceptions'         | 272   | 282   | +0.020571
+as              | 'as'                 | 283   | 285   | +0.020571
+regard          | 'regard'             | 286   | 292   | +0.011611
+s               | 's'                  | 292   | 293   | +0.011611
+the             | 'the'                | 294   | 297   | +0.011611
+trans           | 'trans'              | 298   | 303   | +0.007247
+pare            | 'pare'               | 303   | 307   | +0.007247
+ncy             | 'ncy'                | 307   | 310   | +0.007247
+-               | '-'                  | 310   | 311   | +0.008107
+related         | 'related'            | 311   | 318   | +0.008107
+requirements    | 'requirements'       | 319   | 331   | +0.008107
+imposed         | 'imposed'            | 332   | 339   | +0.008107
+on              | 'on'                 | 340   | 342   | +0.006785
+general         | 'general'            | 343   | 350   | +0.006785
+-               | '-'                  | 350   | 351   | +0.006699
+purpose         | 'purpose'            | 351   | 358   | +0.006699
+AI              | 'AI'                 | 359   | 361   | +0.007132
+models          | 'models'             | 362   | 368   | +0.007132
+,               | ','                  | 368   | 369   | +0.007132
+unless          | 'unless'             | 370   | 376   | +0.011955
+they            | 'they'               | 377   | 381   | +0.011955
+can             | 'can'                | 382   | 385   | +0.011526
+be              | 'be'                 | 386   | 388   | +0.011526
+considered      | 'considered'         | 389   | 399   | +0.002909
+to              | 'to'                 | 400   | 402   | +0.002909
+present         | 'present'            | 403   | 410   | +0.002909
+a               | 'a'                  | 411   | 412   | +0.002909
+system          | 'system'             | 413   | 419   | -0.004862
+ic              | 'ic'                 | 419   | 421   | -0.004862
+risk            | 'risk'               | 422   | 426   | -0.029470
+.               | '.'                  | 426   | 427   | +0.013066
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP +0.000052
+  Added token 'providers ' (4-13) as 'providers'
+
+Saved word: 'providers' with SHAP -0.001509
+  Added token 'of ' (14-16) as 'of'
+
+Saved word: 'of' with SHAP -0.001509
+  Added token 'general' (17-24) as 'general'
+  Added token '-' (24-25) as '-'
+  Added token 'purpose ' (25-32) as 'purpose'
+
+Saved word: 'general-purpose' with SHAP +0.021344
+  Added token 'AI ' (33-35) as 'AI'
+
+Saved word: 'AI' with SHAP +0.007041
+  Added token 'models ' (36-42) as 'models'
+
+Saved word: 'models' with SHAP +0.009379
+  Added token 'that ' (43-47) as 'that'
+
+Saved word: 'that' with SHAP +0.009379
+  Added token 'are ' (48-51) as 'are'
+
+Saved word: 'are' with SHAP +0.009379
+  Added token 'released ' (52-60) as 'released'
+
+Saved word: 'released' with SHAP +0.009379
+  Added token 'under ' (61-66) as 'under'
+
+Saved word: 'under' with SHAP +0.003763
+  Added token 'a ' (67-68) as 'a'
+
+Saved word: 'a' with SHAP +0.003763
+  Added token 'free ' (69-73) as 'free'
+
+Saved word: 'free' with SHAP +0.003763
+  Added token 'and ' (74-77) as 'and'
+
+Saved word: 'and' with SHAP +0.003763
+  Added token 'open' (78-82) as 'open'
+  Added token '-' (82-83) as '-'
+  Added token 'source ' (83-89) as 'source'
+
+Saved word: 'open-source' with SHAP +0.014481
+  Added token 'licence' (90-97) as 'licence'
+  Added token ', ' (97-98) as ','
+
+Saved word: 'licence,' with SHAP +0.012172
+  Added token 'and ' (99-102) as 'and'
+
+Saved word: 'and' with SHAP +0.008920
+  Added token 'whose ' (103-108) as 'whose'
+
+Saved word: 'whose' with SHAP +0.019132
+  Added token 'parameters' (109-119) as 'parameters'
+  Added token ', ' (119-120) as ','
+
+Saved word: 'parameters,' with SHAP +0.029150
+  Added token 'including ' (121-130) as 'including'
+
+Saved word: 'including' with SHAP +0.010025
+  Added token 'the ' (131-134) as 'the'
+
+Saved word: 'the' with SHAP +0.010025
+  Added token 'weight' (135-141) as 'weight'
+  Added token 's' (141-142) as 's'
+  Added token ', ' (142-143) as ','
+
+Saved word: 'weights,' with SHAP +0.029932
+  Added token 'the ' (144-147) as 'the'
+
+Saved word: 'the' with SHAP +0.008250
+  Added token 'information ' (148-159) as 'information'
+
+Saved word: 'information' with SHAP +0.008250
+  Added token 'on ' (160-162) as 'on'
+
+Saved word: 'on' with SHAP +0.006913
+  Added token 'the ' (163-166) as 'the'
+
+Saved word: 'the' with SHAP +0.006913
+  Added token 'model ' (167-172) as 'model'
+
+Saved word: 'model' with SHAP +0.005728
+  Added token 'architecture' (173-185) as 'architecture'
+  Added token ', ' (185-186) as ','
+
+Saved word: 'architecture,' with SHAP +0.011133
+  Added token 'and ' (187-190) as 'and'
+
+Saved word: 'and' with SHAP +0.006410
+  Added token 'the ' (191-194) as 'the'
+
+Saved word: 'the' with SHAP +0.005884
+  Added token 'information ' (195-206) as 'information'
+
+Saved word: 'information' with SHAP +0.005884
+  Added token 'on ' (207-209) as 'on'
+
+Saved word: 'on' with SHAP +0.003280
+  Added token 'model ' (210-215) as 'model'
+
+Saved word: 'model' with SHAP +0.003280
+  Added token 'usage' (216-221) as 'usage'
+  Added token ', ' (221-222) as ','
+
+Saved word: 'usage,' with SHAP +0.007722
+  Added token 'are ' (223-226) as 'are'
+
+Saved word: 'are' with SHAP +0.003495
+  Added token 'made ' (227-231) as 'made'
+
+Saved word: 'made' with SHAP +0.003495
+  Added token 'publicly ' (232-240) as 'publicly'
+
+Saved word: 'publicly' with SHAP +0.003495
+  Added token 'available ' (241-250) as 'available'
+
+Saved word: 'available' with SHAP +0.003495
+  Added token 'should ' (251-257) as 'should'
+
+Saved word: 'should' with SHAP +0.011639
+  Added token 'be ' (258-260) as 'be'
+
+Saved word: 'be' with SHAP +0.011639
+  Added token 'subject ' (261-268) as 'subject'
+
+Saved word: 'subject' with SHAP +0.009317
+  Added token 'to ' (269-271) as 'to'
+
+Saved word: 'to' with SHAP +0.009317
+  Added token 'exceptions ' (272-282) as 'exceptions'
+
+Saved word: 'exceptions' with SHAP +0.020571
+  Added token 'as ' (283-285) as 'as'
+
+Saved word: 'as' with SHAP +0.020571
+  Added token 'regard' (286-292) as 'regard'
+  Added token 's ' (292-293) as 's'
+
+Saved word: 'regards' with SHAP +0.023223
+  Added token 'the ' (294-297) as 'the'
+
+Saved word: 'the' with SHAP +0.011611
+  Added token 'trans' (298-303) as 'trans'
+  Added token 'pare' (303-307) as 'pare'
+  Added token 'ncy' (307-310) as 'ncy'
+  Added token '-' (310-311) as '-'
+  Added token 'related ' (311-318) as 'related'
+
+Saved word: 'transparency-related' with SHAP +0.037956
+  Added token 'requirements ' (319-331) as 'requirements'
+
+Saved word: 'requirements' with SHAP +0.008107
+  Added token 'imposed ' (332-339) as 'imposed'
+
+Saved word: 'imposed' with SHAP +0.008107
+  Added token 'on ' (340-342) as 'on'
+
+Saved word: 'on' with SHAP +0.006785
+  Added token 'general' (343-350) as 'general'
+  Added token '-' (350-351) as '-'
+  Added token 'purpose ' (351-358) as 'purpose'
+
+Saved word: 'general-purpose' with SHAP +0.020184
+  Added token 'AI ' (359-361) as 'AI'
+
+Saved word: 'AI' with SHAP +0.007132
+  Added token 'models' (362-368) as 'models'
+  Added token ', ' (368-369) as ','
+
+Saved word: 'models,' with SHAP +0.014264
+  Added token 'unless ' (370-376) as 'unless'
+
+Saved word: 'unless' with SHAP +0.011955
+  Added token 'they ' (377-381) as 'they'
+
+Saved word: 'they' with SHAP +0.011955
+  Added token 'can ' (382-385) as 'can'
+
+Saved word: 'can' with SHAP +0.011526
+  Added token 'be ' (386-388) as 'be'
+
+Saved word: 'be' with SHAP +0.011526
+  Added token 'considered ' (389-399) as 'considered'
+
+Saved word: 'considered' with SHAP +0.002909
+  Added token 'to ' (400-402) as 'to'
+
+Saved word: 'to' with SHAP +0.002909
+  Added token 'present ' (403-410) as 'present'
+
+Saved word: 'present' with SHAP +0.002909
+  Added token 'a ' (411-412) as 'a'
+
+Saved word: 'a' with SHAP +0.002909
+  Added token 'system' (413-419) as 'system'
+  Added token 'ic ' (419-421) as 'ic'
+
+Saved word: 'systemic' with SHAP -0.009724
+  Added token 'risk' (422-426) as 'risk'
+  Added token '.' (426-427) as '.'
+
+Saved final word: 'risk.' with SHAP -0.016404
+
+=== Final Word Contributions ===
+transparency-related      +0.037956 (POS)
+weights,                  +0.029932 (POS)
+parameters,               +0.029150 (POS)
+regards                   +0.023223 (POS)
+exceptions                +0.020571 (POS)
+as                        +0.020571 (POS)
+general-purpose           +0.020184 (POS)
+whose                     +0.019132 (POS)
+risk.                     -0.016404 (NEG)
+open-source               +0.014481 (POS)
+models,                   +0.014264 (POS)
+licence,                  +0.012172 (POS)
+unless                    +0.011955 (POS)
+they                      +0.011955 (POS)
+should                    +0.011639 (POS)
+the                       +0.011611 (POS)
+be                        +0.011526 (POS)
+can                       +0.011526 (POS)
+architecture,             +0.011133 (POS)
+including                 +0.010025 (POS)
+systemic                  -0.009724 (NEG)
+models                    +0.009379 (POS)
+that                      +0.009379 (POS)
+released                  +0.009379 (POS)
+subject                   +0.009317 (POS)
+requirements              +0.008107 (POS)
+imposed                   +0.008107 (POS)
+usage,                    +0.007722 (POS)
+AI                        +0.007132 (POS)
+on                        +0.006785 (POS)
+and                       +0.006410 (POS)
+information               +0.005884 (POS)
+under                     +0.003763 (POS)
+free                      +0.003763 (POS)
+are                       +0.003495 (POS)
+made                      +0.003495 (POS)
+publicly                  +0.003495 (POS)
+available                 +0.003495 (POS)
+model                     +0.003280 (POS)
+a                         +0.002909 (POS)
+to                        +0.002909 (POS)
+considered                +0.002909 (POS)
+present                   +0.002909 (POS)
+providers                 -0.001509 (NEG)
+of                        -0.001509 (NEG)
+The                       +0.000052 (POS)

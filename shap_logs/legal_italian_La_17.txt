@@ -1,0 +1,325 @@
+
+=== Processing text ===
+La robustezza tecnica è un requisito fondamentale dei sistemi di IA ad alto rischio. Essi dovrebbero essere resilienti in relazione a comportamenti dannosi o altrimenti indesiderati che possono derivare da limitazioni all'interno dei sistemi o dell'ambiente in cui i sistemi funzionano (ad esempio errori, guasti, incongruenze, situazioni impreviste).
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002137
+La              | 'La'                 | 0     | 2     | +0.006932
+ro              | 'ro'                 | 3     | 5     | +0.005607
+bust            | 'bust'               | 5     | 9     | +0.007900
+ez              | 'ez'                 | 9     | 11    | -0.003944
+za              | 'za'                 | 11    | 13    | -0.003331
+tecnica         | 'tecnica'            | 14    | 21    | +0.005128
+è               | 'è'                  | 22    | 23    | +0.005128
+un              | 'un'                 | 24    | 26    | +0.017207
+re              | 're'                 | 27    | 29    | +0.023858
+quis            | 'quis'               | 29    | 33    | +0.027107
+ito             | 'ito'                | 33    | 36    | +0.009123
+fondamentale    | 'fondamentale'       | 37    | 49    | +0.006215
+dei             | 'dei'                | 50    | 53    | +0.006379
+sistemi         | 'sistemi'            | 54    | 61    | +0.010356
+di              | 'di'                 | 62    | 64    | +0.013625
+IA              | 'IA'                 | 65    | 67    | +0.005016
+ad              | 'ad'                 | 68    | 70    | +0.005016
+alto            | 'alto'               | 71    | 75    | -0.066408
+rischio         | 'rischio'            | 76    | 83    | -0.016664
+.               | '.'                  | 83    | 84    | +0.008824
+Es              | 'Es'                 | 85    | 87    | +0.006961
+si              | 'si'                 | 87    | 89    | +0.006961
+do              | 'do'                 | 90    | 92    | +0.018141
+vre             | 'vre'                | 92    | 95    | +0.016646
+bber            | 'bber'               | 95    | 99    | +0.003436
+o               | 'o'                  | 99    | 100   | +0.003436
+essere          | 'essere'             | 101   | 107   | +0.003241
+res             | 'res'                | 108   | 111   | +0.003241
+ilien           | 'ilien'              | 111   | 116   | +0.003241
+ti              | 'ti'                 | 116   | 118   | +0.003241
+in              | 'in'                 | 119   | 121   | +0.009882
+relazione       | 'relazione'          | 122   | 131   | +0.009882
+a               | 'a'                  | 132   | 133   | +0.009882
+comporta        | 'comporta'           | 134   | 142   | +0.005366
+menti           | 'menti'              | 142   | 147   | +0.005366
+danno           | 'danno'              | 148   | 153   | +0.002697
+si              | 'si'                 | 153   | 155   | +0.002697
+o               | 'o'                  | 156   | 157   | +0.002697
+altri           | 'altri'              | 158   | 163   | +0.002697
+menti           | 'menti'              | 163   | 168   | +0.002697
+inde            | 'inde'               | 169   | 173   | +0.003695
+side            | 'side'               | 173   | 177   | +0.003695
+rati            | 'rati'               | 177   | 181   | +0.003695
+che             | 'che'                | 182   | 185   | +0.003695
+possono         | 'possono'            | 186   | 193   | +0.003695
+deriva          | 'deriva'             | 194   | 200   | +0.000498
+re              | 're'                 | 200   | 202   | +0.000498
+da              | 'da'                 | 203   | 205   | +0.000498
+limita          | 'limita'             | 206   | 212   | +0.000808
+zioni           | 'zioni'              | 212   | 217   | +0.000808
+all             | 'all'                | 218   | 221   | +0.000808
+'               | "'"                  | 221   | 222   | +0.000808
+interno         | 'interno'            | 222   | 229   | +0.001434
+dei             | 'dei'                | 230   | 233   | +0.001434
+sistemi         | 'sistemi'            | 234   | 241   | +0.001434
+o               | 'o'                  | 242   | 243   | +0.001434
+dell            | 'dell'               | 244   | 248   | +0.000585
+'               | "'"                  | 248   | 249   | +0.000585
+ambiente        | 'ambiente'           | 249   | 257   | +0.000585
+in              | 'in'                 | 258   | 260   | +0.000585
+cui             | 'cui'                | 261   | 264   | +0.002405
+i               | 'i'                  | 265   | 266   | +0.002405
+sistemi         | 'sistemi'            | 267   | 274   | +0.002405
+fun             | 'fun'                | 275   | 278   | +0.002514
+zion            | 'zion'               | 278   | 282   | +0.002514
+ano             | 'ano'                | 282   | 285   | +0.002514
+(               | '('                  | 286   | 287   | +0.017570
+ad              | 'ad'                 | 287   | 289   | +0.004234
+esempio         | 'esempio'            | 290   | 297   | +0.004234
+error           | 'error'              | 298   | 303   | +0.004234
+i               | 'i'                  | 303   | 304   | +0.004234
+,               | ','                  | 304   | 305   | +0.003984
+gu              | 'gu'                 | 306   | 308   | +0.009266
+asti            | 'asti'               | 308   | 312   | +0.009266
+,               | ','                  | 312   | 313   | +0.009266
+in              | 'in'                 | 314   | 316   | +0.009574
+con             | 'con'                | 316   | 319   | +0.009574
+gru             | 'gru'                | 319   | 322   | +0.009574
+enze            | 'enze'               | 322   | 326   | +0.009574
+,               | ','                  | 326   | 327   | +0.009574
+situa           | 'situa'              | 328   | 333   | +0.006207
+zioni           | 'zioni'              | 333   | 338   | +0.006207
+im              | 'im'                 | 339   | 341   | +0.008305
+pre             | 'pre'                | 341   | 344   | +0.008305
+viste           | 'viste'              | 344   | 349   | +0.008305
+)               | ')'                  | 349   | 350   | +0.008305
+.               | '.'                  | 350   | 351   | +0.008076
+                | ''                   | 0     | 0     | +0.003850
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.006932
+  Added token 'ro' (3-5) as 'ro'
+  Added token 'bust' (5-9) as 'bust'
+  Added token 'ez' (9-11) as 'ez'
+  Added token 'za ' (11-13) as 'za'
+
+Saved word: 'robustezza' with SHAP +0.006232
+  Added token 'tecnica ' (14-21) as 'tecnica'
+
+Saved word: 'tecnica' with SHAP +0.005128
+  Added token 'è ' (22-23) as 'è'
+
+Saved word: 'è' with SHAP +0.005128
+  Added token 'un ' (24-26) as 'un'
+
+Saved word: 'un' with SHAP +0.017207
+  Added token 're' (27-29) as 're'
+  Added token 'quis' (29-33) as 'quis'
+  Added token 'ito ' (33-36) as 'ito'
+
+Saved word: 'requisito' with SHAP +0.060088
+  Added token 'fondamentale ' (37-49) as 'fondamentale'
+
+Saved word: 'fondamentale' with SHAP +0.006215
+  Added token 'dei ' (50-53) as 'dei'
+
+Saved word: 'dei' with SHAP +0.006379
+  Added token 'sistemi ' (54-61) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.010356
+  Added token 'di ' (62-64) as 'di'
+
+Saved word: 'di' with SHAP +0.013625
+  Added token 'IA ' (65-67) as 'IA'
+
+Saved word: 'IA' with SHAP +0.005016
+  Added token 'ad ' (68-70) as 'ad'
+
+Saved word: 'ad' with SHAP +0.005016
+  Added token 'alto ' (71-75) as 'alto'
+
+Saved word: 'alto' with SHAP -0.066408
+  Added token 'rischio' (76-83) as 'rischio'
+  Added token '. ' (83-84) as '.'
+
+Saved word: 'rischio.' with SHAP -0.007841
+  Added token 'Es' (85-87) as 'Es'
+  Added token 'si ' (87-89) as 'si'
+
+Saved word: 'Essi' with SHAP +0.013922
+  Added token 'do' (90-92) as 'do'
+  Added token 'vre' (92-95) as 'vre'
+  Added token 'bber' (95-99) as 'bber'
+  Added token 'o ' (99-100) as 'o'
+
+Saved word: 'dovrebbero' with SHAP +0.041660
+  Added token 'essere ' (101-107) as 'essere'
+
+Saved word: 'essere' with SHAP +0.003241
+  Added token 'res' (108-111) as 'res'
+  Added token 'ilien' (111-116) as 'ilien'
+  Added token 'ti ' (116-118) as 'ti'
+
+Saved word: 'resilienti' with SHAP +0.009722
+  Added token 'in ' (119-121) as 'in'
+
+Saved word: 'in' with SHAP +0.009882
+  Added token 'relazione ' (122-131) as 'relazione'
+
+Saved word: 'relazione' with SHAP +0.009882
+  Added token 'a ' (132-133) as 'a'
+
+Saved word: 'a' with SHAP +0.009882
+  Added token 'comporta' (134-142) as 'comporta'
+  Added token 'menti ' (142-147) as 'menti'
+
+Saved word: 'comportamenti' with SHAP +0.010731
+  Added token 'danno' (148-153) as 'danno'
+  Added token 'si ' (153-155) as 'si'
+
+Saved word: 'dannosi' with SHAP +0.005393
+  Added token 'o ' (156-157) as 'o'
+
+Saved word: 'o' with SHAP +0.002697
+  Added token 'altri' (158-163) as 'altri'
+  Added token 'menti ' (163-168) as 'menti'
+
+Saved word: 'altrimenti' with SHAP +0.005393
+  Added token 'inde' (169-173) as 'inde'
+  Added token 'side' (173-177) as 'side'
+  Added token 'rati ' (177-181) as 'rati'
+
+Saved word: 'indesiderati' with SHAP +0.011086
+  Added token 'che ' (182-185) as 'che'
+
+Saved word: 'che' with SHAP +0.003695
+  Added token 'possono ' (186-193) as 'possono'
+
+Saved word: 'possono' with SHAP +0.003695
+  Added token 'deriva' (194-200) as 'deriva'
+  Added token 're ' (200-202) as 're'
+
+Saved word: 'derivare' with SHAP +0.000997
+  Added token 'da ' (203-205) as 'da'
+
+Saved word: 'da' with SHAP +0.000498
+  Added token 'limita' (206-212) as 'limita'
+  Added token 'zioni ' (212-217) as 'zioni'
+
+Saved word: 'limitazioni' with SHAP +0.001617
+  Added token 'all' (218-221) as 'all'
+  Added token ''' (221-222) as '''
+  Added token 'interno ' (222-229) as 'interno'
+
+Saved word: 'all'interno' with SHAP +0.003051
+  Added token 'dei ' (230-233) as 'dei'
+
+Saved word: 'dei' with SHAP +0.001434
+  Added token 'sistemi ' (234-241) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.001434
+  Added token 'o ' (242-243) as 'o'
+
+Saved word: 'o' with SHAP +0.001434
+  Added token 'dell' (244-248) as 'dell'
+  Added token ''' (248-249) as '''
+  Added token 'ambiente ' (249-257) as 'ambiente'
+
+Saved word: 'dell'ambiente' with SHAP +0.001754
+  Added token 'in ' (258-260) as 'in'
+
+Saved word: 'in' with SHAP +0.000585
+  Added token 'cui ' (261-264) as 'cui'
+
+Saved word: 'cui' with SHAP +0.002405
+  Added token 'i ' (265-266) as 'i'
+
+Saved word: 'i' with SHAP +0.002405
+  Added token 'sistemi ' (267-274) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.002405
+  Added token 'fun' (275-278) as 'fun'
+  Added token 'zion' (278-282) as 'zion'
+  Added token 'ano ' (282-285) as 'ano'
+
+Saved word: 'funzionano' with SHAP +0.007543
+  Added token '(' (286-287) as '('
+  Added token 'ad ' (287-289) as 'ad'
+
+Saved word: '(ad' with SHAP +0.021804
+  Added token 'esempio ' (290-297) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.004234
+  Added token 'error' (298-303) as 'error'
+  Added token 'i' (303-304) as 'i'
+  Added token ', ' (304-305) as ','
+
+Saved word: 'errori,' with SHAP +0.012452
+  Added token 'gu' (306-308) as 'gu'
+  Added token 'asti' (308-312) as 'asti'
+  Added token ', ' (312-313) as ','
+
+Saved word: 'guasti,' with SHAP +0.027798
+  Added token 'in' (314-316) as 'in'
+  Added token 'con' (316-319) as 'con'
+  Added token 'gru' (319-322) as 'gru'
+  Added token 'enze' (322-326) as 'enze'
+  Added token ', ' (326-327) as ','
+
+Saved word: 'incongruenze,' with SHAP +0.047870
+  Added token 'situa' (328-333) as 'situa'
+  Added token 'zioni ' (333-338) as 'zioni'
+
+Saved word: 'situazioni' with SHAP +0.012413
+  Added token 'im' (339-341) as 'im'
+  Added token 'pre' (341-344) as 'pre'
+  Added token 'viste' (344-349) as 'viste'
+  Added token ')' (349-350) as ')'
+  Added token '.' (350-351) as '.'
+
+Saved final word: 'impreviste).' with SHAP +0.041297
+
+=== Final Word Contributions ===
+alto                      -0.066408 (NEG)
+requisito                 +0.060088 (POS)
+incongruenze,             +0.047870 (POS)
+dovrebbero                +0.041660 (POS)
+impreviste).              +0.041297 (POS)
+guasti,                   +0.027798 (POS)
+(ad                       +0.021804 (POS)
+un                        +0.017207 (POS)
+Essi                      +0.013922 (POS)
+di                        +0.013625 (POS)
+errori,                   +0.012452 (POS)
+situazioni                +0.012413 (POS)
+indesiderati              +0.011086 (POS)
+comportamenti             +0.010731 (POS)
+relazione                 +0.009882 (POS)
+a                         +0.009882 (POS)
+resilienti                +0.009722 (POS)
+rischio.                  -0.007841 (NEG)
+funzionano                +0.007543 (POS)
+La                        +0.006932 (POS)
+robustezza                +0.006232 (POS)
+fondamentale              +0.006215 (POS)
+altrimenti                +0.005393 (POS)
+dannosi                   +0.005393 (POS)
+tecnica                   +0.005128 (POS)
+è                         +0.005128 (POS)
+IA                        +0.005016 (POS)
+ad                        +0.005016 (POS)
+esempio                   +0.004234 (POS)
+che                       +0.003695 (POS)
+possono                   +0.003695 (POS)
+essere                    +0.003241 (POS)
+all'interno               +0.003051 (POS)
+sistemi                   +0.002405 (POS)
+cui                       +0.002405 (POS)
+i                         +0.002405 (POS)
+dell'ambiente             +0.001754 (POS)
+limitazioni               +0.001617 (POS)
+dei                       +0.001434 (POS)
+o                         +0.001434 (POS)
+derivare                  +0.000997 (POS)
+in                        +0.000585 (POS)
+da                        +0.000498 (POS)

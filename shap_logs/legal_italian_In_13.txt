@@ -1,0 +1,572 @@
+
+=== Processing text ===
+In linea con la presunzione di innocenza, le persone fisiche nell'Unione dovrebbero sempre essere giudicate in base al loro comportamento effettivo. Le persone fisiche non dovrebbero mai essere giudicate sulla base di un comportamento previsto dall'IA basato unicamente sulla profilazione, sui tratti della personalità o su caratteristiche quali la cittadinanza, il luogo di nascita, il luogo di residenza, il numero di figli, il livello di indebitamento o il tipo di automobile, senza che vi sia un ragionevole sospetto che la persona sia coinvolta in un'attività criminosa sulla base di fatti oggettivi verificabili e senza una valutazione umana al riguardo.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005938
+In              | 'In'                 | 0     | 2     | +0.005938
+linea           | 'linea'              | 3     | 8     | +0.011900
+con             | 'con'                | 9     | 12    | +0.011900
+la              | 'la'                 | 13    | 15    | +0.007765
+pre             | 'pre'                | 16    | 19    | +0.000628
+sun             | 'sun'                | 19    | 22    | +0.000628
+zione           | 'zione'              | 22    | 27    | +0.000628
+di              | 'di'                 | 28    | 30    | +0.000628
+inn             | 'inn'                | 31    | 34    | +0.000016
+oce             | 'oce'                | 34    | 37    | +0.000016
+nza             | 'nza'                | 37    | 40    | +0.000016
+,               | ','                  | 40    | 41    | +0.000016
+le              | 'le'                 | 42    | 44    | +0.003678
+persone         | 'persone'            | 45    | 52    | +0.003678
+fi              | 'fi'                 | 53    | 55    | +0.003164
+sic             | 'sic'                | 55    | 58    | +0.003164
+he              | 'he'                 | 58    | 60    | +0.003164
+nell            | 'nell'               | 61    | 65    | +0.003742
+'               | "'"                  | 65    | 66    | +0.003742
+Unione          | 'Unione'             | 66    | 72    | +0.003742
+do              | 'do'                 | 73    | 75    | +0.007224
+vre             | 'vre'                | 75    | 78    | +0.007224
+bber            | 'bber'               | 78    | 82    | +0.005770
+o               | 'o'                  | 82    | 83    | +0.005770
+sempre          | 'sempre'             | 84    | 90    | +0.002915
+essere          | 'essere'             | 91    | 97    | +0.002915
+gi              | 'gi'                 | 98    | 100   | +0.001823
+udi             | 'udi'                | 100   | 103   | +0.001823
+cate            | 'cate'               | 103   | 107   | +0.001823
+in              | 'in'                 | 108   | 110   | +0.006214
+base            | 'base'               | 111   | 115   | +0.006214
+al              | 'al'                 | 116   | 118   | +0.005110
+loro            | 'loro'               | 119   | 123   | +0.005110
+comportamento   | 'comportamento'      | 124   | 137   | +0.005110
+effetti         | 'effetti'            | 138   | 145   | +0.001135
+vo              | 'vo'                 | 145   | 147   | +0.001135
+.               | '.'                  | 147   | 148   | +0.001135
+Le              | 'Le'                 | 149   | 151   | +0.002378
+persone         | 'persone'            | 152   | 159   | +0.002378
+fi              | 'fi'                 | 160   | 162   | +0.002378
+sic             | 'sic'                | 162   | 165   | +0.002378
+he              | 'he'                 | 165   | 167   | +0.002378
+non             | 'non'                | 168   | 171   | +0.002378
+do              | 'do'                 | 172   | 174   | -0.000167
+vre             | 'vre'                | 174   | 177   | -0.000167
+bber            | 'bber'               | 177   | 181   | -0.000167
+o               | 'o'                  | 181   | 182   | -0.000167
+mai             | 'mai'                | 183   | 186   | -0.001894
+essere          | 'essere'             | 187   | 193   | -0.001894
+gi              | 'gi'                 | 194   | 196   | -0.001103
+udi             | 'udi'                | 196   | 199   | -0.001103
+cate            | 'cate'               | 199   | 203   | -0.001103
+sulla           | 'sulla'              | 204   | 209   | +0.002689
+base            | 'base'               | 210   | 214   | +0.002689
+di              | 'di'                 | 215   | 217   | +0.002689
+un              | 'un'                 | 218   | 220   | +0.002689
+comportamento   | 'comportamento'      | 221   | 234   | +0.002874
+previsto        | 'previsto'           | 235   | 243   | +0.002874
+dall            | 'dall'               | 244   | 248   | +0.002874
+'               | "'"                  | 248   | 249   | +0.002874
+IA              | 'IA'                 | 249   | 251   | +0.005158
+basato          | 'basato'             | 252   | 258   | +0.005158
+unica           | 'unica'              | 259   | 264   | +0.005158
+mente           | 'mente'              | 264   | 269   | +0.005158
+sulla           | 'sulla'              | 270   | 275   | +0.005158
+profil          | 'profil'             | 276   | 282   | +0.003938
+azione          | 'azione'             | 282   | 288   | +0.003938
+,               | ','                  | 288   | 289   | +0.003938
+sui             | 'sui'                | 290   | 293   | +0.003437
+tratti          | 'tratti'             | 294   | 300   | +0.003437
+della           | 'della'              | 301   | 306   | +0.003164
+personalità     | 'personalità'        | 307   | 318   | +0.003164
+o               | 'o'                  | 319   | 320   | +0.004042
+su              | 'su'                 | 321   | 323   | +0.004042
+caratteristiche  | 'caratteristiche'    | 324   | 339   | +0.004042
+quali           | 'quali'              | 340   | 345   | +0.004042
+la              | 'la'                 | 346   | 348   | +0.004042
+cittadina       | 'cittadina'          | 349   | 358   | +0.002489
+nza             | 'nza'                | 358   | 361   | +0.002489
+,               | ','                  | 361   | 362   | +0.002489
+il              | 'il'                 | 363   | 365   | +0.003890
+luogo           | 'luogo'              | 366   | 371   | +0.003890
+di              | 'di'                 | 372   | 374   | +0.003890
+nascita         | 'nascita'            | 375   | 382   | +0.003890
+,               | ','                  | 382   | 383   | +0.003890
+il              | 'il'                 | 384   | 386   | +0.003640
+luogo           | 'luogo'              | 387   | 392   | +0.003640
+di              | 'di'                 | 393   | 395   | +0.003640
+residenza       | 'residenza'          | 396   | 405   | +0.003640
+,               | ','                  | 405   | 406   | +0.003640
+il              | 'il'                 | 407   | 409   | +0.002156
+numero          | 'numero'             | 410   | 416   | +0.002156
+di              | 'di'                 | 417   | 419   | +0.002156
+figli           | 'figli'              | 420   | 425   | +0.002156
+,               | ','                  | 425   | 426   | +0.002156
+il              | 'il'                 | 427   | 429   | +0.005061
+livello         | 'livello'            | 430   | 437   | +0.005061
+di              | 'di'                 | 438   | 440   | +0.005061
+inde            | 'inde'               | 441   | 445   | +0.003165
+bita            | 'bita'               | 445   | 449   | +0.003165
+mento           | 'mento'              | 449   | 454   | +0.003165
+o               | 'o'                  | 455   | 456   | +0.005436
+il              | 'il'                 | 457   | 459   | +0.005436
+tipo            | 'tipo'               | 460   | 464   | +0.004933
+di              | 'di'                 | 465   | 467   | +0.004933
+automobile      | 'automobile'         | 468   | 478   | +0.004933
+,               | ','                  | 478   | 479   | +0.007101
+senza           | 'senza'              | 480   | 485   | +0.018142
+che             | 'che'                | 486   | 489   | +0.018716
+vi              | 'vi'                 | 490   | 492   | +0.017937
+sia             | 'sia'                | 493   | 496   | +0.017937
+un              | 'un'                 | 497   | 499   | +0.010185
+ragione         | 'ragione'            | 500   | 507   | +0.006175
+vole            | 'vole'               | 507   | 511   | +0.006175
+sos             | 'sos'                | 512   | 515   | +0.006175
+petto           | 'petto'              | 515   | 520   | +0.006175
+che             | 'che'                | 521   | 524   | +0.008293
+la              | 'la'                 | 525   | 527   | +0.008293
+persona         | 'persona'            | 528   | 535   | +0.013951
+sia             | 'sia'                | 536   | 539   | +0.013951
+coin            | 'coin'               | 540   | 544   | +0.001604
+volta           | 'volta'              | 544   | 549   | +0.001604
+in              | 'in'                 | 550   | 552   | +0.001604
+un              | 'un'                 | 553   | 555   | +0.001604
+'               | "'"                  | 555   | 556   | +0.001604
+attività        | 'attività'           | 556   | 564   | +0.001604
+c               | 'c'                  | 565   | 566   | -0.006526
+rimi            | 'rimi'               | 566   | 570   | -0.006526
+nosa            | 'nosa'               | 570   | 574   | -0.006526
+sulla           | 'sulla'              | 575   | 580   | -0.001111
+base            | 'base'               | 581   | 585   | -0.001111
+di              | 'di'                 | 586   | 588   | -0.001111
+fatti           | 'fatti'              | 589   | 594   | -0.001111
+oggetti         | 'oggetti'            | 595   | 602   | +0.003958
+vi              | 'vi'                 | 602   | 604   | +0.003958
+veri            | 'veri'               | 605   | 609   | +0.003958
+fica            | 'fica'               | 609   | 613   | +0.003958
+bili            | 'bili'               | 613   | 617   | +0.003958
+e               | 'e'                  | 618   | 619   | +0.003550
+senza           | 'senza'              | 620   | 625   | +0.003550
+una             | 'una'                | 626   | 629   | +0.003550
+val             | 'val'                | 630   | 633   | +0.003452
+utazione        | 'utazione'           | 633   | 641   | +0.003452
+umana           | 'umana'              | 642   | 647   | +0.000704
+al              | 'al'                 | 648   | 650   | +0.000704
+riguardo        | 'riguardo'           | 651   | 659   | +0.000704
+.               | '.'                  | 659   | 660   | -0.003039
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'In ' (0-2) as 'In'
+
+Saved word: 'In' with SHAP +0.005938
+  Added token 'linea ' (3-8) as 'linea'
+
+Saved word: 'linea' with SHAP +0.011900
+  Added token 'con ' (9-12) as 'con'
+
+Saved word: 'con' with SHAP +0.011900
+  Added token 'la ' (13-15) as 'la'
+
+Saved word: 'la' with SHAP +0.007765
+  Added token 'pre' (16-19) as 'pre'
+  Added token 'sun' (19-22) as 'sun'
+  Added token 'zione ' (22-27) as 'zione'
+
+Saved word: 'presunzione' with SHAP +0.001883
+  Added token 'di ' (28-30) as 'di'
+
+Saved word: 'di' with SHAP +0.000628
+  Added token 'inn' (31-34) as 'inn'
+  Added token 'oce' (34-37) as 'oce'
+  Added token 'nza' (37-40) as 'nza'
+  Added token ', ' (40-41) as ','
+
+Saved word: 'innocenza,' with SHAP +0.000063
+  Added token 'le ' (42-44) as 'le'
+
+Saved word: 'le' with SHAP +0.003678
+  Added token 'persone ' (45-52) as 'persone'
+
+Saved word: 'persone' with SHAP +0.003678
+  Added token 'fi' (53-55) as 'fi'
+  Added token 'sic' (55-58) as 'sic'
+  Added token 'he ' (58-60) as 'he'
+
+Saved word: 'fisiche' with SHAP +0.009491
+  Added token 'nell' (61-65) as 'nell'
+  Added token ''' (65-66) as '''
+  Added token 'Unione ' (66-72) as 'Unione'
+
+Saved word: 'nell'Unione' with SHAP +0.011227
+  Added token 'do' (73-75) as 'do'
+  Added token 'vre' (75-78) as 'vre'
+  Added token 'bber' (78-82) as 'bber'
+  Added token 'o ' (82-83) as 'o'
+
+Saved word: 'dovrebbero' with SHAP +0.025990
+  Added token 'sempre ' (84-90) as 'sempre'
+
+Saved word: 'sempre' with SHAP +0.002915
+  Added token 'essere ' (91-97) as 'essere'
+
+Saved word: 'essere' with SHAP +0.002915
+  Added token 'gi' (98-100) as 'gi'
+  Added token 'udi' (100-103) as 'udi'
+  Added token 'cate ' (103-107) as 'cate'
+
+Saved word: 'giudicate' with SHAP +0.005470
+  Added token 'in ' (108-110) as 'in'
+
+Saved word: 'in' with SHAP +0.006214
+  Added token 'base ' (111-115) as 'base'
+
+Saved word: 'base' with SHAP +0.006214
+  Added token 'al ' (116-118) as 'al'
+
+Saved word: 'al' with SHAP +0.005110
+  Added token 'loro ' (119-123) as 'loro'
+
+Saved word: 'loro' with SHAP +0.005110
+  Added token 'comportamento ' (124-137) as 'comportamento'
+
+Saved word: 'comportamento' with SHAP +0.005110
+  Added token 'effetti' (138-145) as 'effetti'
+  Added token 'vo' (145-147) as 'vo'
+  Added token '. ' (147-148) as '.'
+
+Saved word: 'effettivo.' with SHAP +0.003404
+  Added token 'Le ' (149-151) as 'Le'
+
+Saved word: 'Le' with SHAP +0.002378
+  Added token 'persone ' (152-159) as 'persone'
+
+Saved word: 'persone' with SHAP +0.002378
+  Added token 'fi' (160-162) as 'fi'
+  Added token 'sic' (162-165) as 'sic'
+  Added token 'he ' (165-167) as 'he'
+
+Saved word: 'fisiche' with SHAP +0.007134
+  Added token 'non ' (168-171) as 'non'
+
+Saved word: 'non' with SHAP +0.002378
+  Added token 'do' (172-174) as 'do'
+  Added token 'vre' (174-177) as 'vre'
+  Added token 'bber' (177-181) as 'bber'
+  Added token 'o ' (181-182) as 'o'
+
+Saved word: 'dovrebbero' with SHAP -0.000668
+  Added token 'mai ' (183-186) as 'mai'
+
+Saved word: 'mai' with SHAP -0.001894
+  Added token 'essere ' (187-193) as 'essere'
+
+Saved word: 'essere' with SHAP -0.001894
+  Added token 'gi' (194-196) as 'gi'
+  Added token 'udi' (196-199) as 'udi'
+  Added token 'cate ' (199-203) as 'cate'
+
+Saved word: 'giudicate' with SHAP -0.003310
+  Added token 'sulla ' (204-209) as 'sulla'
+
+Saved word: 'sulla' with SHAP +0.002689
+  Added token 'base ' (210-214) as 'base'
+
+Saved word: 'base' with SHAP +0.002689
+  Added token 'di ' (215-217) as 'di'
+
+Saved word: 'di' with SHAP +0.002689
+  Added token 'un ' (218-220) as 'un'
+
+Saved word: 'un' with SHAP +0.002689
+  Added token 'comportamento ' (221-234) as 'comportamento'
+
+Saved word: 'comportamento' with SHAP +0.002874
+  Added token 'previsto ' (235-243) as 'previsto'
+
+Saved word: 'previsto' with SHAP +0.002874
+  Added token 'dall' (244-248) as 'dall'
+  Added token ''' (248-249) as '''
+  Added token 'IA ' (249-251) as 'IA'
+
+Saved word: 'dall'IA' with SHAP +0.010907
+  Added token 'basato ' (252-258) as 'basato'
+
+Saved word: 'basato' with SHAP +0.005158
+  Added token 'unica' (259-264) as 'unica'
+  Added token 'mente ' (264-269) as 'mente'
+
+Saved word: 'unicamente' with SHAP +0.010317
+  Added token 'sulla ' (270-275) as 'sulla'
+
+Saved word: 'sulla' with SHAP +0.005158
+  Added token 'profil' (276-282) as 'profil'
+  Added token 'azione' (282-288) as 'azione'
+  Added token ', ' (288-289) as ','
+
+Saved word: 'profilazione,' with SHAP +0.011813
+  Added token 'sui ' (290-293) as 'sui'
+
+Saved word: 'sui' with SHAP +0.003437
+  Added token 'tratti ' (294-300) as 'tratti'
+
+Saved word: 'tratti' with SHAP +0.003437
+  Added token 'della ' (301-306) as 'della'
+
+Saved word: 'della' with SHAP +0.003164
+  Added token 'personalità ' (307-318) as 'personalità'
+
+Saved word: 'personalità' with SHAP +0.003164
+  Added token 'o ' (319-320) as 'o'
+
+Saved word: 'o' with SHAP +0.004042
+  Added token 'su ' (321-323) as 'su'
+
+Saved word: 'su' with SHAP +0.004042
+  Added token 'caratteristiche ' (324-339) as 'caratteristiche'
+
+Saved word: 'caratteristiche' with SHAP +0.004042
+  Added token 'quali ' (340-345) as 'quali'
+
+Saved word: 'quali' with SHAP +0.004042
+  Added token 'la ' (346-348) as 'la'
+
+Saved word: 'la' with SHAP +0.004042
+  Added token 'cittadina' (349-358) as 'cittadina'
+  Added token 'nza' (358-361) as 'nza'
+  Added token ', ' (361-362) as ','
+
+Saved word: 'cittadinanza,' with SHAP +0.007468
+  Added token 'il ' (363-365) as 'il'
+
+Saved word: 'il' with SHAP +0.003890
+  Added token 'luogo ' (366-371) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.003890
+  Added token 'di ' (372-374) as 'di'
+
+Saved word: 'di' with SHAP +0.003890
+  Added token 'nascita' (375-382) as 'nascita'
+  Added token ', ' (382-383) as ','
+
+Saved word: 'nascita,' with SHAP +0.007779
+  Added token 'il ' (384-386) as 'il'
+
+Saved word: 'il' with SHAP +0.003640
+  Added token 'luogo ' (387-392) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.003640
+  Added token 'di ' (393-395) as 'di'
+
+Saved word: 'di' with SHAP +0.003640
+  Added token 'residenza' (396-405) as 'residenza'
+  Added token ', ' (405-406) as ','
+
+Saved word: 'residenza,' with SHAP +0.007279
+  Added token 'il ' (407-409) as 'il'
+
+Saved word: 'il' with SHAP +0.002156
+  Added token 'numero ' (410-416) as 'numero'
+
+Saved word: 'numero' with SHAP +0.002156
+  Added token 'di ' (417-419) as 'di'
+
+Saved word: 'di' with SHAP +0.002156
+  Added token 'figli' (420-425) as 'figli'
+  Added token ', ' (425-426) as ','
+
+Saved word: 'figli,' with SHAP +0.004313
+  Added token 'il ' (427-429) as 'il'
+
+Saved word: 'il' with SHAP +0.005061
+  Added token 'livello ' (430-437) as 'livello'
+
+Saved word: 'livello' with SHAP +0.005061
+  Added token 'di ' (438-440) as 'di'
+
+Saved word: 'di' with SHAP +0.005061
+  Added token 'inde' (441-445) as 'inde'
+  Added token 'bita' (445-449) as 'bita'
+  Added token 'mento ' (449-454) as 'mento'
+
+Saved word: 'indebitamento' with SHAP +0.009496
+  Added token 'o ' (455-456) as 'o'
+
+Saved word: 'o' with SHAP +0.005436
+  Added token 'il ' (457-459) as 'il'
+
+Saved word: 'il' with SHAP +0.005436
+  Added token 'tipo ' (460-464) as 'tipo'
+
+Saved word: 'tipo' with SHAP +0.004933
+  Added token 'di ' (465-467) as 'di'
+
+Saved word: 'di' with SHAP +0.004933
+  Added token 'automobile' (468-478) as 'automobile'
+  Added token ', ' (478-479) as ','
+
+Saved word: 'automobile,' with SHAP +0.012034
+  Added token 'senza ' (480-485) as 'senza'
+
+Saved word: 'senza' with SHAP +0.018142
+  Added token 'che ' (486-489) as 'che'
+
+Saved word: 'che' with SHAP +0.018716
+  Added token 'vi ' (490-492) as 'vi'
+
+Saved word: 'vi' with SHAP +0.017937
+  Added token 'sia ' (493-496) as 'sia'
+
+Saved word: 'sia' with SHAP +0.017937
+  Added token 'un ' (497-499) as 'un'
+
+Saved word: 'un' with SHAP +0.010185
+  Added token 'ragione' (500-507) as 'ragione'
+  Added token 'vole ' (507-511) as 'vole'
+
+Saved word: 'ragionevole' with SHAP +0.012349
+  Added token 'sos' (512-515) as 'sos'
+  Added token 'petto ' (515-520) as 'petto'
+
+Saved word: 'sospetto' with SHAP +0.012349
+  Added token 'che ' (521-524) as 'che'
+
+Saved word: 'che' with SHAP +0.008293
+  Added token 'la ' (525-527) as 'la'
+
+Saved word: 'la' with SHAP +0.008293
+  Added token 'persona ' (528-535) as 'persona'
+
+Saved word: 'persona' with SHAP +0.013951
+  Added token 'sia ' (536-539) as 'sia'
+
+Saved word: 'sia' with SHAP +0.013951
+  Added token 'coin' (540-544) as 'coin'
+  Added token 'volta ' (544-549) as 'volta'
+
+Saved word: 'coinvolta' with SHAP +0.003208
+  Added token 'in ' (550-552) as 'in'
+
+Saved word: 'in' with SHAP +0.001604
+  Added token 'un' (553-555) as 'un'
+  Added token ''' (555-556) as '''
+  Added token 'attività ' (556-564) as 'attività'
+
+Saved word: 'un'attività' with SHAP +0.004812
+  Added token 'c' (565-566) as 'c'
+  Added token 'rimi' (566-570) as 'rimi'
+  Added token 'nosa ' (570-574) as 'nosa'
+
+Saved word: 'criminosa' with SHAP -0.019577
+  Added token 'sulla ' (575-580) as 'sulla'
+
+Saved word: 'sulla' with SHAP -0.001111
+  Added token 'base ' (581-585) as 'base'
+
+Saved word: 'base' with SHAP -0.001111
+  Added token 'di ' (586-588) as 'di'
+
+Saved word: 'di' with SHAP -0.001111
+  Added token 'fatti ' (589-594) as 'fatti'
+
+Saved word: 'fatti' with SHAP -0.001111
+  Added token 'oggetti' (595-602) as 'oggetti'
+  Added token 'vi ' (602-604) as 'vi'
+
+Saved word: 'oggettivi' with SHAP +0.007916
+  Added token 'veri' (605-609) as 'veri'
+  Added token 'fica' (609-613) as 'fica'
+  Added token 'bili ' (613-617) as 'bili'
+
+Saved word: 'verificabili' with SHAP +0.011875
+  Added token 'e ' (618-619) as 'e'
+
+Saved word: 'e' with SHAP +0.003550
+  Added token 'senza ' (620-625) as 'senza'
+
+Saved word: 'senza' with SHAP +0.003550
+  Added token 'una ' (626-629) as 'una'
+
+Saved word: 'una' with SHAP +0.003550
+  Added token 'val' (630-633) as 'val'
+  Added token 'utazione ' (633-641) as 'utazione'
+
+Saved word: 'valutazione' with SHAP +0.006904
+  Added token 'umana ' (642-647) as 'umana'
+
+Saved word: 'umana' with SHAP +0.000704
+  Added token 'al ' (648-650) as 'al'
+
+Saved word: 'al' with SHAP +0.000704
+  Added token 'riguardo' (651-659) as 'riguardo'
+  Added token '.' (659-660) as '.'
+
+Saved final word: 'riguardo.' with SHAP -0.002335
+
+=== Final Word Contributions ===
+criminosa                 -0.019577 (NEG)
+vi                        +0.017937 (POS)
+sia                       +0.013951 (POS)
+persona                   +0.013951 (POS)
+ragionevole               +0.012349 (POS)
+sospetto                  +0.012349 (POS)
+automobile,               +0.012034 (POS)
+linea                     +0.011900 (POS)
+con                       +0.011900 (POS)
+verificabili              +0.011875 (POS)
+profilazione,             +0.011813 (POS)
+nell'Unione               +0.011227 (POS)
+dall'IA                   +0.010907 (POS)
+unicamente                +0.010317 (POS)
+un                        +0.010185 (POS)
+indebitamento             +0.009496 (POS)
+la                        +0.008293 (POS)
+che                       +0.008293 (POS)
+oggettivi                 +0.007916 (POS)
+nascita,                  +0.007779 (POS)
+cittadinanza,             +0.007468 (POS)
+residenza,                +0.007279 (POS)
+fisiche                   +0.007134 (POS)
+valutazione               +0.006904 (POS)
+In                        +0.005938 (POS)
+o                         +0.005436 (POS)
+il                        +0.005436 (POS)
+basato                    +0.005158 (POS)
+loro                      +0.005110 (POS)
+livello                   +0.005061 (POS)
+tipo                      +0.004933 (POS)
+un'attività               +0.004812 (POS)
+figli,                    +0.004313 (POS)
+su                        +0.004042 (POS)
+caratteristiche           +0.004042 (POS)
+quali                     +0.004042 (POS)
+le                        +0.003678 (POS)
+luogo                     +0.003640 (POS)
+senza                     +0.003550 (POS)
+e                         +0.003550 (POS)
+una                       +0.003550 (POS)
+sui                       +0.003437 (POS)
+tratti                    +0.003437 (POS)
+effettivo.                +0.003404 (POS)
+giudicate                 -0.003310 (NEG)
+coinvolta                 +0.003208 (POS)
+della                     +0.003164 (POS)
+personalità               +0.003164 (POS)
+sempre                    +0.002915 (POS)
+comportamento             +0.002874 (POS)
+previsto                  +0.002874 (POS)
+persone                   +0.002378 (POS)
+Le                        +0.002378 (POS)
+non                       +0.002378 (POS)
+riguardo.                 -0.002335 (NEG)
+numero                    +0.002156 (POS)
+essere                    -0.001894 (NEG)
+mai                       -0.001894 (NEG)
+presunzione               +0.001883 (POS)
+in                        +0.001604 (POS)
+di                        -0.001111 (NEG)
+base                      -0.001111 (NEG)
+sulla                     -0.001111 (NEG)
+fatti                     -0.001111 (NEG)
+al                        +0.000704 (POS)
+umana                     +0.000704 (POS)
+dovrebbero                -0.000668 (NEG)
+innocenza,                +0.000063 (POS)

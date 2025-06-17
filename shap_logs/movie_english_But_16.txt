@@ -1,0 +1,191 @@
+
+=== Processing text ===
+But you don't ask with respect. You don't offer friendship. You don't even think to call me Godfather. You come on my daughter's wedding day and ask me to murder for money.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000749
+But             | 'But'                | 0     | 3     | +0.000749
+you             | 'you'                | 4     | 7     | +0.000854
+don             | 'don'                | 8     | 11    | +0.008401
+'               | "'"                  | 11    | 12    | +0.005530
+t               | 't'                  | 12    | 13    | +0.058346
+ask             | 'ask'                | 14    | 17    | +0.008348
+with            | 'with'               | 18    | 22    | +0.001492
+respect         | 'respect'            | 23    | 30    | +0.002238
+.               | '.'                  | 30    | 31    | +0.043352
+You             | 'You'                | 32    | 35    | +0.012389
+don             | 'don'                | 36    | 39    | +0.006341
+'               | "'"                  | 39    | 40    | +0.001989
+t               | 't'                  | 40    | 41    | +0.115215
+offer           | 'offer'              | 42    | 47    | -0.001855
+friendship      | 'friendship'         | 48    | 58    | -0.070573
+.               | '.'                  | 58    | 59    | +0.026393
+You             | 'You'                | 60    | 63    | +0.005954
+don             | 'don'                | 64    | 67    | -0.000874
+'               | "'"                  | 67    | 68    | -0.000874
+t               | 't'                  | 68    | 69    | +0.020746
+even            | 'even'               | 70    | 74    | +0.018279
+think           | 'think'              | 75    | 80    | +0.010247
+to              | 'to'                 | 81    | 83    | +0.001368
+call            | 'call'               | 84    | 88    | +0.001368
+me              | 'me'                 | 89    | 91    | -0.004685
+God             | 'God'                | 92    | 95    | +0.003729
+father          | 'father'             | 95    | 101   | +0.013969
+.               | '.'                  | 101   | 102   | +0.003495
+You             | 'You'                | 103   | 106   | -0.005998
+come            | 'come'               | 107   | 111   | -0.005998
+on              | 'on'                 | 112   | 114   | -0.006371
+my              | 'my'                 | 115   | 117   | -0.006371
+daughter        | 'daughter'           | 118   | 126   | +0.000520
+'               | "'"                  | 126   | 127   | +0.000520
+s               | 's'                  | 127   | 128   | +0.000520
+wedding         | 'wedding'            | 129   | 136   | -0.005351
+day             | 'day'                | 137   | 140   | -0.005351
+and             | 'and'                | 141   | 144   | -0.003633
+ask             | 'ask'                | 145   | 148   | +0.000220
+me              | 'me'                 | 149   | 151   | +0.000220
+to              | 'to'                 | 152   | 154   | +0.005698
+murder          | 'murder'             | 155   | 161   | +0.005698
+for             | 'for'                | 162   | 165   | -0.000422
+money           | 'money'              | 166   | 171   | -0.000422
+.               | '.'                  | 171   | 172   | -0.007494
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'But ' (0-3) as 'But'
+
+Saved word: 'But' with SHAP +0.000749
+  Added token 'you ' (4-7) as 'you'
+
+Saved word: 'you' with SHAP +0.000854
+  Added token 'don' (8-11) as 'don'
+  Added token ''' (11-12) as '''
+  Added token 't ' (12-13) as 't'
+
+Saved word: 'don't' with SHAP +0.072277
+  Added token 'ask ' (14-17) as 'ask'
+
+Saved word: 'ask' with SHAP +0.008348
+  Added token 'with ' (18-22) as 'with'
+
+Saved word: 'with' with SHAP +0.001492
+  Added token 'respect' (23-30) as 'respect'
+  Added token '. ' (30-31) as '.'
+
+Saved word: 'respect.' with SHAP +0.045590
+  Added token 'You ' (32-35) as 'You'
+
+Saved word: 'You' with SHAP +0.012389
+  Added token 'don' (36-39) as 'don'
+  Added token ''' (39-40) as '''
+  Added token 't ' (40-41) as 't'
+
+Saved word: 'don't' with SHAP +0.123545
+  Added token 'offer ' (42-47) as 'offer'
+
+Saved word: 'offer' with SHAP -0.001855
+  Added token 'friendship' (48-58) as 'friendship'
+  Added token '. ' (58-59) as '.'
+
+Saved word: 'friendship.' with SHAP -0.044180
+  Added token 'You ' (60-63) as 'You'
+
+Saved word: 'You' with SHAP +0.005954
+  Added token 'don' (64-67) as 'don'
+  Added token ''' (67-68) as '''
+  Added token 't ' (68-69) as 't'
+
+Saved word: 'don't' with SHAP +0.018998
+  Added token 'even ' (70-74) as 'even'
+
+Saved word: 'even' with SHAP +0.018279
+  Added token 'think ' (75-80) as 'think'
+
+Saved word: 'think' with SHAP +0.010247
+  Added token 'to ' (81-83) as 'to'
+
+Saved word: 'to' with SHAP +0.001368
+  Added token 'call ' (84-88) as 'call'
+
+Saved word: 'call' with SHAP +0.001368
+  Added token 'me ' (89-91) as 'me'
+
+Saved word: 'me' with SHAP -0.004685
+  Added token 'God' (92-95) as 'God'
+  Added token 'father' (95-101) as 'father'
+  Added token '. ' (101-102) as '.'
+
+Saved word: 'Godfather.' with SHAP +0.021193
+  Added token 'You ' (103-106) as 'You'
+
+Saved word: 'You' with SHAP -0.005998
+  Added token 'come ' (107-111) as 'come'
+
+Saved word: 'come' with SHAP -0.005998
+  Added token 'on ' (112-114) as 'on'
+
+Saved word: 'on' with SHAP -0.006371
+  Added token 'my ' (115-117) as 'my'
+
+Saved word: 'my' with SHAP -0.006371
+  Added token 'daughter' (118-126) as 'daughter'
+  Added token ''' (126-127) as '''
+  Added token 's ' (127-128) as 's'
+
+Saved word: 'daughter's' with SHAP +0.001559
+  Added token 'wedding ' (129-136) as 'wedding'
+
+Saved word: 'wedding' with SHAP -0.005351
+  Added token 'day ' (137-140) as 'day'
+
+Saved word: 'day' with SHAP -0.005351
+  Added token 'and ' (141-144) as 'and'
+
+Saved word: 'and' with SHAP -0.003633
+  Added token 'ask ' (145-148) as 'ask'
+
+Saved word: 'ask' with SHAP +0.000220
+  Added token 'me ' (149-151) as 'me'
+
+Saved word: 'me' with SHAP +0.000220
+  Added token 'to ' (152-154) as 'to'
+
+Saved word: 'to' with SHAP +0.005698
+  Added token 'murder ' (155-161) as 'murder'
+
+Saved word: 'murder' with SHAP +0.005698
+  Added token 'for ' (162-165) as 'for'
+
+Saved word: 'for' with SHAP -0.000422
+  Added token 'money' (166-171) as 'money'
+  Added token '.' (171-172) as '.'
+
+Saved final word: 'money.' with SHAP -0.007916
+
+=== Final Word Contributions ===
+respect.                  +0.045590 (POS)
+friendship.               -0.044180 (NEG)
+Godfather.                +0.021193 (POS)
+don't                     +0.018998 (POS)
+even                      +0.018279 (POS)
+think                     +0.010247 (POS)
+money.                    -0.007916 (NEG)
+on                        -0.006371 (NEG)
+my                        -0.006371 (NEG)
+You                       -0.005998 (NEG)
+come                      -0.005998 (NEG)
+to                        +0.005698 (POS)
+murder                    +0.005698 (POS)
+wedding                   -0.005351 (NEG)
+day                       -0.005351 (NEG)
+and                       -0.003633 (NEG)
+offer                     -0.001855 (NEG)
+daughter's                +0.001559 (POS)
+with                      +0.001492 (POS)
+call                      +0.001368 (POS)
+you                       +0.000854 (POS)
+But                       +0.000749 (POS)
+for                       -0.000422 (NEG)
+ask                       +0.000220 (POS)
+me                        +0.000220 (POS)

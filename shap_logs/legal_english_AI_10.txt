@@ -1,0 +1,121 @@
+
+=== Processing text ===
+AI literacy should equip providers, deployers and affected persons with the necessary notions to make informed decisions regarding AI systems.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001767
+AI              | 'AI'                 | 0     | 2     | +0.006864
+literacy        | 'literacy'           | 3     | 11    | -0.023620
+should          | 'should'             | 12    | 18    | +0.052418
+equip           | 'equip'              | 19    | 24    | +0.044013
+providers       | 'providers'          | 25    | 34    | +0.035317
+,               | ','                  | 34    | 35    | +0.032497
+de              | 'de'                 | 36    | 38    | +0.023676
+ploy            | 'ploy'               | 38    | 42    | +0.043105
+ers             | 'ers'                | 42    | 45    | -0.001922
+and             | 'and'                | 46    | 49    | +0.005611
+affected        | 'affected'           | 50    | 58    | -0.008952
+persons         | 'persons'            | 59    | 66    | -0.008952
+with            | 'with'               | 67    | 71    | +0.014451
+the             | 'the'                | 72    | 75    | +0.014451
+necessary       | 'necessary'          | 76    | 85    | +0.027863
+notion          | 'notion'             | 86    | 92    | +0.016602
+s               | 's'                  | 92    | 93    | +0.016602
+to              | 'to'                 | 94    | 96    | +0.012792
+make            | 'make'               | 97    | 101   | +0.012792
+informed        | 'informed'           | 102   | 110   | +0.025794
+decisions       | 'decisions'          | 111   | 120   | +0.020822
+regarding       | 'regarding'          | 121   | 130   | +0.026019
+AI              | 'AI'                 | 131   | 133   | +0.024218
+systems         | 'systems'            | 134   | 141   | +0.019135
+.               | '.'                  | 141   | 142   | +0.034516
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'AI ' (0-2) as 'AI'
+
+Saved word: 'AI' with SHAP +0.006864
+  Added token 'literacy ' (3-11) as 'literacy'
+
+Saved word: 'literacy' with SHAP -0.023620
+  Added token 'should ' (12-18) as 'should'
+
+Saved word: 'should' with SHAP +0.052418
+  Added token 'equip ' (19-24) as 'equip'
+
+Saved word: 'equip' with SHAP +0.044013
+  Added token 'providers' (25-34) as 'providers'
+  Added token ', ' (34-35) as ','
+
+Saved word: 'providers,' with SHAP +0.067813
+  Added token 'de' (36-38) as 'de'
+  Added token 'ploy' (38-42) as 'ploy'
+  Added token 'ers ' (42-45) as 'ers'
+
+Saved word: 'deployers' with SHAP +0.064859
+  Added token 'and ' (46-49) as 'and'
+
+Saved word: 'and' with SHAP +0.005611
+  Added token 'affected ' (50-58) as 'affected'
+
+Saved word: 'affected' with SHAP -0.008952
+  Added token 'persons ' (59-66) as 'persons'
+
+Saved word: 'persons' with SHAP -0.008952
+  Added token 'with ' (67-71) as 'with'
+
+Saved word: 'with' with SHAP +0.014451
+  Added token 'the ' (72-75) as 'the'
+
+Saved word: 'the' with SHAP +0.014451
+  Added token 'necessary ' (76-85) as 'necessary'
+
+Saved word: 'necessary' with SHAP +0.027863
+  Added token 'notion' (86-92) as 'notion'
+  Added token 's ' (92-93) as 's'
+
+Saved word: 'notions' with SHAP +0.033205
+  Added token 'to ' (94-96) as 'to'
+
+Saved word: 'to' with SHAP +0.012792
+  Added token 'make ' (97-101) as 'make'
+
+Saved word: 'make' with SHAP +0.012792
+  Added token 'informed ' (102-110) as 'informed'
+
+Saved word: 'informed' with SHAP +0.025794
+  Added token 'decisions ' (111-120) as 'decisions'
+
+Saved word: 'decisions' with SHAP +0.020822
+  Added token 'regarding ' (121-130) as 'regarding'
+
+Saved word: 'regarding' with SHAP +0.026019
+  Added token 'AI ' (131-133) as 'AI'
+
+Saved word: 'AI' with SHAP +0.024218
+  Added token 'systems' (134-141) as 'systems'
+  Added token '.' (141-142) as '.'
+
+Saved final word: 'systems.' with SHAP +0.053650
+
+=== Final Word Contributions ===
+providers,                +0.067813 (POS)
+deployers                 +0.064859 (POS)
+systems.                  +0.053650 (POS)
+should                    +0.052418 (POS)
+equip                     +0.044013 (POS)
+notions                   +0.033205 (POS)
+necessary                 +0.027863 (POS)
+regarding                 +0.026019 (POS)
+informed                  +0.025794 (POS)
+AI                        +0.024218 (POS)
+literacy                  -0.023620 (NEG)
+decisions                 +0.020822 (POS)
+with                      +0.014451 (POS)
+the                       +0.014451 (POS)
+to                        +0.012792 (POS)
+make                      +0.012792 (POS)
+affected                  -0.008952 (NEG)
+persons                   -0.008952 (NEG)
+and                       +0.005611 (POS)

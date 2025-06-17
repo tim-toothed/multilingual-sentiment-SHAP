@@ -1,0 +1,118 @@
+
+=== Processing text ===
+The capacity of an AI system to infer transcends basic data processing by enabling learning, reasoning or modelling.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.006002
+The             | 'The'                | 0     | 3     | +0.014453
+capacity        | 'capacity'           | 4     | 12    | +0.026466
+of              | 'of'                 | 13    | 15    | -0.003040
+an              | 'an'                 | 16    | 18    | +0.005123
+AI              | 'AI'                 | 19    | 21    | +0.006288
+system          | 'system'             | 22    | 28    | +0.002873
+to              | 'to'                 | 29    | 31    | -0.023463
+in              | 'in'                 | 32    | 34    | +0.019426
+fer             | 'fer'                | 34    | 37    | +0.018075
+trans           | 'trans'              | 38    | 43    | +0.078476
+cend            | 'cend'               | 43    | 47    | +0.085947
+s               | 's'                  | 47    | 48    | +0.010878
+basic           | 'basic'              | 49    | 54    | -0.040177
+data            | 'data'               | 55    | 59    | -0.021585
+processing      | 'processing'         | 60    | 70    | +0.017407
+by              | 'by'                 | 71    | 73    | -0.000713
+ena             | 'ena'                | 74    | 77    | +0.009978
+bling           | 'bling'              | 77    | 82    | +0.022718
+learning        | 'learning'           | 83    | 91    | +0.028070
+,               | ','                  | 91    | 92    | +0.019380
+reason          | 'reason'             | 93    | 99    | +0.021856
+ing             | 'ing'                | 99    | 102   | +0.005079
+or              | 'or'                 | 103   | 105   | +0.009200
+modelli         | 'modelli'            | 106   | 113   | +0.008985
+ng              | 'ng'                 | 113   | 115   | -0.004403
+.               | '.'                  | 115   | 116   | -0.025386
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP +0.014453
+  Added token 'capacity ' (4-12) as 'capacity'
+
+Saved word: 'capacity' with SHAP +0.026466
+  Added token 'of ' (13-15) as 'of'
+
+Saved word: 'of' with SHAP -0.003040
+  Added token 'an ' (16-18) as 'an'
+
+Saved word: 'an' with SHAP +0.005123
+  Added token 'AI ' (19-21) as 'AI'
+
+Saved word: 'AI' with SHAP +0.006288
+  Added token 'system ' (22-28) as 'system'
+
+Saved word: 'system' with SHAP +0.002873
+  Added token 'to ' (29-31) as 'to'
+
+Saved word: 'to' with SHAP -0.023463
+  Added token 'in' (32-34) as 'in'
+  Added token 'fer ' (34-37) as 'fer'
+
+Saved word: 'infer' with SHAP +0.037501
+  Added token 'trans' (38-43) as 'trans'
+  Added token 'cend' (43-47) as 'cend'
+  Added token 's ' (47-48) as 's'
+
+Saved word: 'transcends' with SHAP +0.175302
+  Added token 'basic ' (49-54) as 'basic'
+
+Saved word: 'basic' with SHAP -0.040177
+  Added token 'data ' (55-59) as 'data'
+
+Saved word: 'data' with SHAP -0.021585
+  Added token 'processing ' (60-70) as 'processing'
+
+Saved word: 'processing' with SHAP +0.017407
+  Added token 'by ' (71-73) as 'by'
+
+Saved word: 'by' with SHAP -0.000713
+  Added token 'ena' (74-77) as 'ena'
+  Added token 'bling ' (77-82) as 'bling'
+
+Saved word: 'enabling' with SHAP +0.032696
+  Added token 'learning' (83-91) as 'learning'
+  Added token ', ' (91-92) as ','
+
+Saved word: 'learning,' with SHAP +0.047450
+  Added token 'reason' (93-99) as 'reason'
+  Added token 'ing ' (99-102) as 'ing'
+
+Saved word: 'reasoning' with SHAP +0.026935
+  Added token 'or ' (103-105) as 'or'
+
+Saved word: 'or' with SHAP +0.009200
+  Added token 'modelli' (106-113) as 'modelli'
+  Added token 'ng' (113-115) as 'ng'
+  Added token '.' (115-116) as '.'
+
+Saved final word: 'modelling.' with SHAP -0.020804
+
+=== Final Word Contributions ===
+transcends                +0.175302 (POS)
+learning,                 +0.047450 (POS)
+basic                     -0.040177 (NEG)
+infer                     +0.037501 (POS)
+enabling                  +0.032696 (POS)
+reasoning                 +0.026935 (POS)
+capacity                  +0.026466 (POS)
+to                        -0.023463 (NEG)
+data                      -0.021585 (NEG)
+modelling.                -0.020804 (NEG)
+processing                +0.017407 (POS)
+The                       +0.014453 (POS)
+or                        +0.009200 (POS)
+AI                        +0.006288 (POS)
+an                        +0.005123 (POS)
+of                        -0.003040 (NEG)
+system                    +0.002873 (POS)
+by                        -0.000713 (NEG)

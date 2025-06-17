@@ -1,0 +1,190 @@
+
+=== Processing text ===
+I was too weak. I can never put right what I've done wrong. There's nothing to put right! You understand? Nothing. I moved the ty... Forgive me, forgive me...
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.011848
+I               | 'I'                  | 0     | 1     | +0.017014
+was             | 'was'                | 2     | 5     | +0.021248
+too             | 'too'                | 6     | 9     | +0.033337
+weak            | 'weak'               | 10    | 14    | +0.056026
+.               | '.'                  | 14    | 15    | +0.033889
+I               | 'I'                  | 16    | 17    | +0.013287
+can             | 'can'                | 18    | 21    | +0.012209
+never           | 'never'              | 22    | 27    | +0.081287
+put             | 'put'                | 28    | 31    | +0.035039
+right           | 'right'              | 32    | 37    | +0.005746
+what            | 'what'               | 38    | 42    | +0.005746
+I               | 'I'                  | 43    | 44    | +0.008297
+'               | "'"                  | 44    | 45    | +0.007182
+ve              | 've'                 | 45    | 47    | +0.005148
+done            | 'done'               | 48    | 52    | +0.005148
+wrong           | 'wrong'              | 53    | 58    | +0.041943
+.               | '.'                  | 58    | 59    | +0.015124
+There           | 'There'              | 60    | 65    | -0.003754
+'               | "'"                  | 65    | 66    | -0.003754
+s               | 's'                  | 66    | 67    | -0.004262
+nothing         | 'nothing'            | 68    | 75    | +0.016310
+to              | 'to'                 | 76    | 78    | +0.016310
+put             | 'put'                | 79    | 82    | +0.003953
+right           | 'right'              | 83    | 88    | +0.003953
+!               | '!'                  | 88    | 89    | +0.013992
+You             | 'You'                | 90    | 93    | +0.005997
+understand      | 'understand'         | 94    | 104   | +0.005997
+?               | '?'                  | 104   | 105   | +0.010172
+Nothing         | 'Nothing'            | 106   | 113   | +0.034191
+.               | '.'                  | 113   | 114   | +0.014867
+I               | 'I'                  | 115   | 116   | +0.003670
+moved           | 'moved'              | 117   | 122   | +0.003670
+the             | 'the'                | 123   | 126   | +0.014288
+ty              | 'ty'                 | 127   | 129   | +0.014505
+.               | '.'                  | 129   | 130   | +0.009686
+.               | '.'                  | 130   | 131   | -0.000276
+.               | '.'                  | 131   | 132   | -0.000285
+For             | 'For'                | 133   | 136   | +0.005396
+give            | 'give'               | 136   | 140   | +0.005396
+me              | 'me'                 | 141   | 143   | +0.005396
+,               | ','                  | 143   | 144   | +0.005396
+for             | 'for'                | 145   | 148   | +0.003572
+give            | 'give'               | 148   | 152   | +0.003572
+me              | 'me'                 | 153   | 155   | +0.003572
+.               | '.'                  | 155   | 156   | +0.003572
+.               | '.'                  | 156   | 157   | +0.003214
+.               | '.'                  | 157   | 158   | -0.007022
+                | ''                   | 0     | 0     | -0.000714
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP +0.017014
+  Added token 'was ' (2-5) as 'was'
+
+Saved word: 'was' with SHAP +0.021248
+  Added token 'too ' (6-9) as 'too'
+
+Saved word: 'too' with SHAP +0.033337
+  Added token 'weak' (10-14) as 'weak'
+  Added token '. ' (14-15) as '.'
+
+Saved word: 'weak.' with SHAP +0.089916
+  Added token 'I ' (16-17) as 'I'
+
+Saved word: 'I' with SHAP +0.013287
+  Added token 'can ' (18-21) as 'can'
+
+Saved word: 'can' with SHAP +0.012209
+  Added token 'never ' (22-27) as 'never'
+
+Saved word: 'never' with SHAP +0.081287
+  Added token 'put ' (28-31) as 'put'
+
+Saved word: 'put' with SHAP +0.035039
+  Added token 'right ' (32-37) as 'right'
+
+Saved word: 'right' with SHAP +0.005746
+  Added token 'what ' (38-42) as 'what'
+
+Saved word: 'what' with SHAP +0.005746
+  Added token 'I' (43-44) as 'I'
+  Added token ''' (44-45) as '''
+  Added token 've ' (45-47) as 've'
+
+Saved word: 'I've' with SHAP +0.020627
+  Added token 'done ' (48-52) as 'done'
+
+Saved word: 'done' with SHAP +0.005148
+  Added token 'wrong' (53-58) as 'wrong'
+  Added token '. ' (58-59) as '.'
+
+Saved word: 'wrong.' with SHAP +0.057067
+  Added token 'There' (60-65) as 'There'
+  Added token ''' (65-66) as '''
+  Added token 's ' (66-67) as 's'
+
+Saved word: 'There's' with SHAP -0.011770
+  Added token 'nothing ' (68-75) as 'nothing'
+
+Saved word: 'nothing' with SHAP +0.016310
+  Added token 'to ' (76-78) as 'to'
+
+Saved word: 'to' with SHAP +0.016310
+  Added token 'put ' (79-82) as 'put'
+
+Saved word: 'put' with SHAP +0.003953
+  Added token 'right' (83-88) as 'right'
+  Added token '! ' (88-89) as '!'
+
+Saved word: 'right!' with SHAP +0.017944
+  Added token 'You ' (90-93) as 'You'
+
+Saved word: 'You' with SHAP +0.005997
+  Added token 'understand' (94-104) as 'understand'
+  Added token '? ' (104-105) as '?'
+
+Saved word: 'understand?' with SHAP +0.016169
+  Added token 'Nothing' (106-113) as 'Nothing'
+  Added token '. ' (113-114) as '.'
+
+Saved word: 'Nothing.' with SHAP +0.049058
+  Added token 'I ' (115-116) as 'I'
+
+Saved word: 'I' with SHAP +0.003670
+  Added token 'moved ' (117-122) as 'moved'
+
+Saved word: 'moved' with SHAP +0.003670
+  Added token 'the ' (123-126) as 'the'
+
+Saved word: 'the' with SHAP +0.014288
+  Added token 'ty' (127-129) as 'ty'
+  Added token '.' (129-130) as '.'
+  Added token '.' (130-131) as '.'
+  Added token '. ' (131-132) as '.'
+
+Saved word: 'ty...' with SHAP +0.023629
+  Added token 'For' (133-136) as 'For'
+  Added token 'give ' (136-140) as 'give'
+
+Saved word: 'Forgive' with SHAP +0.010792
+  Added token 'me' (141-143) as 'me'
+  Added token ', ' (143-144) as ','
+
+Saved word: 'me,' with SHAP +0.010792
+  Added token 'for' (145-148) as 'for'
+  Added token 'give ' (148-152) as 'give'
+
+Saved word: 'forgive' with SHAP +0.007145
+  Added token 'me' (153-155) as 'me'
+  Added token '.' (155-156) as '.'
+  Added token '.' (156-157) as '.'
+  Added token '.' (157-158) as '.'
+
+Saved final word: 'me...' with SHAP +0.003337
+
+=== Final Word Contributions ===
+weak.                     +0.089916 (POS)
+never                     +0.081287 (POS)
+wrong.                    +0.057067 (POS)
+Nothing.                  +0.049058 (POS)
+too                       +0.033337 (POS)
+ty...                     +0.023629 (POS)
+was                       +0.021248 (POS)
+I've                      +0.020627 (POS)
+right!                    +0.017944 (POS)
+nothing                   +0.016310 (POS)
+to                        +0.016310 (POS)
+understand?               +0.016169 (POS)
+the                       +0.014288 (POS)
+can                       +0.012209 (POS)
+There's                   -0.011770 (NEG)
+Forgive                   +0.010792 (POS)
+me,                       +0.010792 (POS)
+forgive                   +0.007145 (POS)
+You                       +0.005997 (POS)
+right                     +0.005746 (POS)
+what                      +0.005746 (POS)
+done                      +0.005148 (POS)
+put                       +0.003953 (POS)
+I                         +0.003670 (POS)
+moved                     +0.003670 (POS)
+me...                     +0.003337 (POS)

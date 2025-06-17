@@ -1,0 +1,158 @@
+
+=== Processing text ===
+As a prerequisite, AI should be a human-centric technology. It should serve as a tool for people, with the ultimate aim of increasing human well-being.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000248
+As              | 'As'                 | 0     | 2     | -0.019088
+a               | 'a'                  | 3     | 4     | +0.011926
+pre             | 'pre'                | 5     | 8     | -0.013484
+re              | 're'                 | 8     | 10    | -0.040039
+quis            | 'quis'               | 10    | 14    | +0.011780
+ite             | 'ite'                | 14    | 17    | -0.000273
+,               | ','                  | 17    | 18    | +0.015764
+AI              | 'AI'                 | 19    | 21    | +0.003025
+should          | 'should'             | 22    | 28    | +0.023100
+be              | 'be'                 | 29    | 31    | +0.007863
+a               | 'a'                  | 32    | 33    | +0.007035
+human           | 'human'              | 34    | 39    | +0.003617
+-               | '-'                  | 39    | 40    | +0.001523
+centri          | 'centri'             | 40    | 46    | -0.000607
+c               | 'c'                  | 46    | 47    | -0.000607
+technology      | 'technology'         | 48    | 58    | -0.001214
+.               | '.'                  | 58    | 59    | +0.034260
+It              | 'It'                 | 60    | 62    | +0.009544
+should          | 'should'             | 63    | 69    | +0.047699
+serve           | 'serve'              | 70    | 75    | +0.005246
+as              | 'as'                 | 76    | 78    | +0.002815
+a               | 'a'                  | 79    | 80    | +0.004457
+tool            | 'tool'               | 81    | 85    | +0.004457
+for             | 'for'                | 86    | 89    | +0.004713
+people          | 'people'             | 90    | 96    | +0.004713
+,               | ','                  | 96    | 97    | +0.008570
+with            | 'with'               | 98    | 102   | +0.016470
+the             | 'the'                | 103   | 106   | +0.015973
+ultimate        | 'ultimate'           | 107   | 115   | -0.038000
+aim             | 'aim'                | 116   | 119   | +0.003101
+of              | 'of'                 | 120   | 122   | +0.001576
+increasing      | 'increasing'         | 123   | 133   | +0.001576
+human           | 'human'              | 134   | 139   | +0.000451
+well            | 'well'               | 140   | 144   | +0.000451
+-               | '-'                  | 144   | 145   | +0.005843
+being           | 'being'              | 145   | 150   | +0.005843
+.               | '.'                  | 150   | 151   | +0.009272
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'As ' (0-2) as 'As'
+
+Saved word: 'As' with SHAP -0.019088
+  Added token 'a ' (3-4) as 'a'
+
+Saved word: 'a' with SHAP +0.011926
+  Added token 'pre' (5-8) as 'pre'
+  Added token 're' (8-10) as 're'
+  Added token 'quis' (10-14) as 'quis'
+  Added token 'ite' (14-17) as 'ite'
+  Added token ', ' (17-18) as ','
+
+Saved word: 'prerequisite,' with SHAP -0.026252
+  Added token 'AI ' (19-21) as 'AI'
+
+Saved word: 'AI' with SHAP +0.003025
+  Added token 'should ' (22-28) as 'should'
+
+Saved word: 'should' with SHAP +0.023100
+  Added token 'be ' (29-31) as 'be'
+
+Saved word: 'be' with SHAP +0.007863
+  Added token 'a ' (32-33) as 'a'
+
+Saved word: 'a' with SHAP +0.007035
+  Added token 'human' (34-39) as 'human'
+  Added token '-' (39-40) as '-'
+  Added token 'centri' (40-46) as 'centri'
+  Added token 'c ' (46-47) as 'c'
+
+Saved word: 'human-centric' with SHAP +0.003927
+  Added token 'technology' (48-58) as 'technology'
+  Added token '. ' (58-59) as '.'
+
+Saved word: 'technology.' with SHAP +0.033046
+  Added token 'It ' (60-62) as 'It'
+
+Saved word: 'It' with SHAP +0.009544
+  Added token 'should ' (63-69) as 'should'
+
+Saved word: 'should' with SHAP +0.047699
+  Added token 'serve ' (70-75) as 'serve'
+
+Saved word: 'serve' with SHAP +0.005246
+  Added token 'as ' (76-78) as 'as'
+
+Saved word: 'as' with SHAP +0.002815
+  Added token 'a ' (79-80) as 'a'
+
+Saved word: 'a' with SHAP +0.004457
+  Added token 'tool ' (81-85) as 'tool'
+
+Saved word: 'tool' with SHAP +0.004457
+  Added token 'for ' (86-89) as 'for'
+
+Saved word: 'for' with SHAP +0.004713
+  Added token 'people' (90-96) as 'people'
+  Added token ', ' (96-97) as ','
+
+Saved word: 'people,' with SHAP +0.013283
+  Added token 'with ' (98-102) as 'with'
+
+Saved word: 'with' with SHAP +0.016470
+  Added token 'the ' (103-106) as 'the'
+
+Saved word: 'the' with SHAP +0.015973
+  Added token 'ultimate ' (107-115) as 'ultimate'
+
+Saved word: 'ultimate' with SHAP -0.038000
+  Added token 'aim ' (116-119) as 'aim'
+
+Saved word: 'aim' with SHAP +0.003101
+  Added token 'of ' (120-122) as 'of'
+
+Saved word: 'of' with SHAP +0.001576
+  Added token 'increasing ' (123-133) as 'increasing'
+
+Saved word: 'increasing' with SHAP +0.001576
+  Added token 'human ' (134-139) as 'human'
+
+Saved word: 'human' with SHAP +0.000451
+  Added token 'well' (140-144) as 'well'
+  Added token '-' (144-145) as '-'
+  Added token 'being' (145-150) as 'being'
+  Added token '.' (150-151) as '.'
+
+Saved final word: 'well-being.' with SHAP +0.021408
+
+=== Final Word Contributions ===
+should                    +0.047699 (POS)
+ultimate                  -0.038000 (NEG)
+technology.               +0.033046 (POS)
+prerequisite,             -0.026252 (NEG)
+well-being.               +0.021408 (POS)
+As                        -0.019088 (NEG)
+with                      +0.016470 (POS)
+the                       +0.015973 (POS)
+people,                   +0.013283 (POS)
+It                        +0.009544 (POS)
+be                        +0.007863 (POS)
+serve                     +0.005246 (POS)
+for                       +0.004713 (POS)
+a                         +0.004457 (POS)
+tool                      +0.004457 (POS)
+human-centric             +0.003927 (POS)
+aim                       +0.003101 (POS)
+AI                        +0.003025 (POS)
+as                        +0.002815 (POS)
+of                        +0.001576 (POS)
+increasing                +0.001576 (POS)
+human                     +0.000451 (POS)

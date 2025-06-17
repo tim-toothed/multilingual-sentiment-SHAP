@@ -1,0 +1,370 @@
+
+=== Processing text ===
+Inoltre, nel contesto dell'occupazione e della protezione dei lavoratori, il presente regolamento non dovrebbe pertanto incidere sul diritto dell'Unione in materia di politica sociale né sul diritto del lavoro nazionale, in conformità del diritto dell'Unione, per quanto riguarda le condizioni di impiego e le condizioni di lavoro, comprese la salute e la sicurezza sul luogo di lavoro, e il rapporto tra datori di lavoro e lavoratori.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003240
+Inoltre         | 'Inoltre'            | 0     | 7     | +0.005249
+,               | ','                  | 7     | 8     | -0.005105
+nel             | 'nel'                | 9     | 12    | +0.013967
+contesto        | 'contesto'           | 13    | 21    | +0.015296
+dell            | 'dell'               | 22    | 26    | +0.002905
+'               | "'"                  | 26    | 27    | +0.002905
+occupazione     | 'occupazione'        | 27    | 38    | +0.000277
+e               | 'e'                  | 39    | 40    | +0.000277
+della           | 'della'              | 41    | 46    | +0.000277
+protezione      | 'protezione'         | 47    | 57    | +0.000277
+dei             | 'dei'                | 58    | 61    | +0.000277
+lavorato        | 'lavorato'           | 62    | 70    | -0.002548
+ri              | 'ri'                 | 70    | 72    | -0.002548
+,               | ','                  | 72    | 73    | -0.005629
+il              | 'il'                 | 74    | 76    | -0.001078
+presente        | 'presente'           | 77    | 85    | -0.001078
+re              | 're'                 | 86    | 88    | +0.003687
+gola            | 'gola'               | 88    | 92    | +0.003687
+mento           | 'mento'              | 92    | 97    | +0.003687
+non             | 'non'                | 98    | 101   | -0.022520
+do              | 'do'                 | 102   | 104   | -0.000193
+vre             | 'vre'                | 104   | 107   | +0.000632
+bbe             | 'bbe'                | 107   | 110   | +0.002125
+pertanto        | 'pertanto'           | 111   | 119   | +0.009743
+in              | 'in'                 | 120   | 122   | +0.004591
+cide            | 'cide'               | 122   | 126   | +0.004591
+re              | 're'                 | 126   | 128   | +0.002853
+sul             | 'sul'                | 129   | 132   | +0.010613
+diritto         | 'diritto'            | 133   | 140   | +0.010613
+dell            | 'dell'               | 141   | 145   | +0.006908
+'               | "'"                  | 145   | 146   | +0.006908
+Unione          | 'Unione'             | 146   | 152   | +0.006034
+in              | 'in'                 | 153   | 155   | +0.006034
+materia         | 'materia'            | 156   | 163   | +0.007241
+di              | 'di'                 | 164   | 166   | +0.007241
+politica        | 'politica'           | 167   | 175   | +0.005190
+sociale         | 'sociale'            | 176   | 183   | +0.005190
+né              | 'né'                 | 184   | 186   | +0.005669
+sul             | 'sul'                | 187   | 190   | +0.005669
+diritto         | 'diritto'            | 191   | 198   | +0.005294
+del             | 'del'                | 199   | 202   | +0.005294
+lavoro          | 'lavoro'             | 203   | 209   | +0.005294
+nazionale       | 'nazionale'          | 210   | 219   | +0.005294
+,               | ','                  | 219   | 220   | +0.005858
+in              | 'in'                 | 221   | 223   | +0.007349
+conform         | 'conform'            | 224   | 231   | +0.009695
+ità             | 'ità'                | 231   | 234   | +0.009695
+del             | 'del'                | 235   | 238   | +0.002697
+diritto         | 'diritto'            | 239   | 246   | +0.002697
+dell            | 'dell'               | 247   | 251   | +0.003486
+'               | "'"                  | 251   | 252   | +0.003486
+Unione          | 'Unione'             | 252   | 258   | +0.003486
+,               | ','                  | 258   | 259   | +0.005814
+per             | 'per'                | 260   | 263   | +0.005066
+quanto          | 'quanto'             | 264   | 270   | +0.005066
+riguarda        | 'riguarda'           | 271   | 279   | +0.007274
+le              | 'le'                 | 280   | 282   | +0.007274
+condizioni      | 'condizioni'         | 283   | 293   | +0.001957
+di              | 'di'                 | 294   | 296   | +0.001957
+impiego         | 'impiego'            | 297   | 304   | +0.001957
+e               | 'e'                  | 305   | 306   | +0.001957
+le              | 'le'                 | 307   | 309   | +0.004610
+condizioni      | 'condizioni'         | 310   | 320   | +0.004610
+di              | 'di'                 | 321   | 323   | +0.004610
+lavoro          | 'lavoro'             | 324   | 330   | +0.004610
+,               | ','                  | 330   | 331   | +0.011926
+com             | 'com'                | 332   | 335   | +0.003532
+prese           | 'prese'              | 335   | 340   | +0.003532
+la              | 'la'                 | 341   | 343   | +0.003079
+salute          | 'salute'             | 344   | 350   | +0.003079
+e               | 'e'                  | 351   | 352   | +0.005576
+la              | 'la'                 | 353   | 355   | +0.005576
+sicurezza       | 'sicurezza'          | 356   | 365   | +0.004376
+sul             | 'sul'                | 366   | 369   | +0.004376
+luogo           | 'luogo'              | 370   | 375   | +0.009010
+di              | 'di'                 | 376   | 378   | +0.009010
+lavoro          | 'lavoro'             | 379   | 385   | +0.009010
+,               | ','                  | 385   | 386   | +0.018980
+e               | 'e'                  | 387   | 388   | +0.007793
+il              | 'il'                 | 389   | 391   | +0.007793
+rapporto        | 'rapporto'           | 392   | 400   | +0.016614
+tra             | 'tra'                | 401   | 404   | +0.016614
+dato            | 'dato'               | 405   | 409   | +0.002912
+ri              | 'ri'                 | 409   | 411   | +0.002912
+di              | 'di'                 | 412   | 414   | +0.002912
+lavoro          | 'lavoro'             | 415   | 421   | +0.002912
+e               | 'e'                  | 422   | 423   | +0.002912
+lavorato        | 'lavorato'           | 424   | 432   | +0.003408
+ri              | 'ri'                 | 432   | 434   | +0.003408
+.               | '.'                  | 434   | 435   | +0.003408
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Inoltre' (0-7) as 'Inoltre'
+  Added token ', ' (7-8) as ','
+
+Saved word: 'Inoltre,' with SHAP +0.000144
+  Added token 'nel ' (9-12) as 'nel'
+
+Saved word: 'nel' with SHAP +0.013967
+  Added token 'contesto ' (13-21) as 'contesto'
+
+Saved word: 'contesto' with SHAP +0.015296
+  Added token 'dell' (22-26) as 'dell'
+  Added token ''' (26-27) as '''
+  Added token 'occupazione ' (27-38) as 'occupazione'
+
+Saved word: 'dell'occupazione' with SHAP +0.006088
+  Added token 'e ' (39-40) as 'e'
+
+Saved word: 'e' with SHAP +0.000277
+  Added token 'della ' (41-46) as 'della'
+
+Saved word: 'della' with SHAP +0.000277
+  Added token 'protezione ' (47-57) as 'protezione'
+
+Saved word: 'protezione' with SHAP +0.000277
+  Added token 'dei ' (58-61) as 'dei'
+
+Saved word: 'dei' with SHAP +0.000277
+  Added token 'lavorato' (62-70) as 'lavorato'
+  Added token 'ri' (70-72) as 'ri'
+  Added token ', ' (72-73) as ','
+
+Saved word: 'lavoratori,' with SHAP -0.010725
+  Added token 'il ' (74-76) as 'il'
+
+Saved word: 'il' with SHAP -0.001078
+  Added token 'presente ' (77-85) as 'presente'
+
+Saved word: 'presente' with SHAP -0.001078
+  Added token 're' (86-88) as 're'
+  Added token 'gola' (88-92) as 'gola'
+  Added token 'mento ' (92-97) as 'mento'
+
+Saved word: 'regolamento' with SHAP +0.011061
+  Added token 'non ' (98-101) as 'non'
+
+Saved word: 'non' with SHAP -0.022520
+  Added token 'do' (102-104) as 'do'
+  Added token 'vre' (104-107) as 'vre'
+  Added token 'bbe ' (107-110) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.002564
+  Added token 'pertanto ' (111-119) as 'pertanto'
+
+Saved word: 'pertanto' with SHAP +0.009743
+  Added token 'in' (120-122) as 'in'
+  Added token 'cide' (122-126) as 'cide'
+  Added token 're ' (126-128) as 're'
+
+Saved word: 'incidere' with SHAP +0.012034
+  Added token 'sul ' (129-132) as 'sul'
+
+Saved word: 'sul' with SHAP +0.010613
+  Added token 'diritto ' (133-140) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.010613
+  Added token 'dell' (141-145) as 'dell'
+  Added token ''' (145-146) as '''
+  Added token 'Unione ' (146-152) as 'Unione'
+
+Saved word: 'dell'Unione' with SHAP +0.019850
+  Added token 'in ' (153-155) as 'in'
+
+Saved word: 'in' with SHAP +0.006034
+  Added token 'materia ' (156-163) as 'materia'
+
+Saved word: 'materia' with SHAP +0.007241
+  Added token 'di ' (164-166) as 'di'
+
+Saved word: 'di' with SHAP +0.007241
+  Added token 'politica ' (167-175) as 'politica'
+
+Saved word: 'politica' with SHAP +0.005190
+  Added token 'sociale ' (176-183) as 'sociale'
+
+Saved word: 'sociale' with SHAP +0.005190
+  Added token 'né ' (184-186) as 'né'
+
+Saved word: 'né' with SHAP +0.005669
+  Added token 'sul ' (187-190) as 'sul'
+
+Saved word: 'sul' with SHAP +0.005669
+  Added token 'diritto ' (191-198) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.005294
+  Added token 'del ' (199-202) as 'del'
+
+Saved word: 'del' with SHAP +0.005294
+  Added token 'lavoro ' (203-209) as 'lavoro'
+
+Saved word: 'lavoro' with SHAP +0.005294
+  Added token 'nazionale' (210-219) as 'nazionale'
+  Added token ', ' (219-220) as ','
+
+Saved word: 'nazionale,' with SHAP +0.011151
+  Added token 'in ' (221-223) as 'in'
+
+Saved word: 'in' with SHAP +0.007349
+  Added token 'conform' (224-231) as 'conform'
+  Added token 'ità ' (231-234) as 'ità'
+
+Saved word: 'conformità' with SHAP +0.019391
+  Added token 'del ' (235-238) as 'del'
+
+Saved word: 'del' with SHAP +0.002697
+  Added token 'diritto ' (239-246) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.002697
+  Added token 'dell' (247-251) as 'dell'
+  Added token ''' (251-252) as '''
+  Added token 'Unione' (252-258) as 'Unione'
+  Added token ', ' (258-259) as ','
+
+Saved word: 'dell'Unione,' with SHAP +0.016273
+  Added token 'per ' (260-263) as 'per'
+
+Saved word: 'per' with SHAP +0.005066
+  Added token 'quanto ' (264-270) as 'quanto'
+
+Saved word: 'quanto' with SHAP +0.005066
+  Added token 'riguarda ' (271-279) as 'riguarda'
+
+Saved word: 'riguarda' with SHAP +0.007274
+  Added token 'le ' (280-282) as 'le'
+
+Saved word: 'le' with SHAP +0.007274
+  Added token 'condizioni ' (283-293) as 'condizioni'
+
+Saved word: 'condizioni' with SHAP +0.001957
+  Added token 'di ' (294-296) as 'di'
+
+Saved word: 'di' with SHAP +0.001957
+  Added token 'impiego ' (297-304) as 'impiego'
+
+Saved word: 'impiego' with SHAP +0.001957
+  Added token 'e ' (305-306) as 'e'
+
+Saved word: 'e' with SHAP +0.001957
+  Added token 'le ' (307-309) as 'le'
+
+Saved word: 'le' with SHAP +0.004610
+  Added token 'condizioni ' (310-320) as 'condizioni'
+
+Saved word: 'condizioni' with SHAP +0.004610
+  Added token 'di ' (321-323) as 'di'
+
+Saved word: 'di' with SHAP +0.004610
+  Added token 'lavoro' (324-330) as 'lavoro'
+  Added token ', ' (330-331) as ','
+
+Saved word: 'lavoro,' with SHAP +0.016536
+  Added token 'com' (332-335) as 'com'
+  Added token 'prese ' (335-340) as 'prese'
+
+Saved word: 'comprese' with SHAP +0.007065
+  Added token 'la ' (341-343) as 'la'
+
+Saved word: 'la' with SHAP +0.003079
+  Added token 'salute ' (344-350) as 'salute'
+
+Saved word: 'salute' with SHAP +0.003079
+  Added token 'e ' (351-352) as 'e'
+
+Saved word: 'e' with SHAP +0.005576
+  Added token 'la ' (353-355) as 'la'
+
+Saved word: 'la' with SHAP +0.005576
+  Added token 'sicurezza ' (356-365) as 'sicurezza'
+
+Saved word: 'sicurezza' with SHAP +0.004376
+  Added token 'sul ' (366-369) as 'sul'
+
+Saved word: 'sul' with SHAP +0.004376
+  Added token 'luogo ' (370-375) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.009010
+  Added token 'di ' (376-378) as 'di'
+
+Saved word: 'di' with SHAP +0.009010
+  Added token 'lavoro' (379-385) as 'lavoro'
+  Added token ', ' (385-386) as ','
+
+Saved word: 'lavoro,' with SHAP +0.027990
+  Added token 'e ' (387-388) as 'e'
+
+Saved word: 'e' with SHAP +0.007793
+  Added token 'il ' (389-391) as 'il'
+
+Saved word: 'il' with SHAP +0.007793
+  Added token 'rapporto ' (392-400) as 'rapporto'
+
+Saved word: 'rapporto' with SHAP +0.016614
+  Added token 'tra ' (401-404) as 'tra'
+
+Saved word: 'tra' with SHAP +0.016614
+  Added token 'dato' (405-409) as 'dato'
+  Added token 'ri ' (409-411) as 'ri'
+
+Saved word: 'datori' with SHAP +0.005824
+  Added token 'di ' (412-414) as 'di'
+
+Saved word: 'di' with SHAP +0.002912
+  Added token 'lavoro ' (415-421) as 'lavoro'
+
+Saved word: 'lavoro' with SHAP +0.002912
+  Added token 'e ' (422-423) as 'e'
+
+Saved word: 'e' with SHAP +0.002912
+  Added token 'lavorato' (424-432) as 'lavorato'
+  Added token 'ri' (432-434) as 'ri'
+  Added token '.' (434-435) as '.'
+
+Saved final word: 'lavoratori.' with SHAP +0.010223
+
+=== Final Word Contributions ===
+lavoro,                   +0.027990 (POS)
+non                       -0.022520 (NEG)
+dell'Unione               +0.019850 (POS)
+conformità                +0.019391 (POS)
+rapporto                  +0.016614 (POS)
+tra                       +0.016614 (POS)
+dell'Unione,              +0.016273 (POS)
+contesto                  +0.015296 (POS)
+nel                       +0.013967 (POS)
+incidere                  +0.012034 (POS)
+nazionale,                +0.011151 (POS)
+regolamento               +0.011061 (POS)
+lavoratori,               -0.010725 (NEG)
+lavoratori.               +0.010223 (POS)
+pertanto                  +0.009743 (POS)
+luogo                     +0.009010 (POS)
+il                        +0.007793 (POS)
+in                        +0.007349 (POS)
+riguarda                  +0.007274 (POS)
+materia                   +0.007241 (POS)
+comprese                  +0.007065 (POS)
+dell'occupazione          +0.006088 (POS)
+datori                    +0.005824 (POS)
+né                        +0.005669 (POS)
+la                        +0.005576 (POS)
+politica                  +0.005190 (POS)
+sociale                   +0.005190 (POS)
+per                       +0.005066 (POS)
+quanto                    +0.005066 (POS)
+le                        +0.004610 (POS)
+condizioni                +0.004610 (POS)
+sul                       +0.004376 (POS)
+sicurezza                 +0.004376 (POS)
+salute                    +0.003079 (POS)
+e                         +0.002912 (POS)
+di                        +0.002912 (POS)
+lavoro                    +0.002912 (POS)
+diritto                   +0.002697 (POS)
+del                       +0.002697 (POS)
+dovrebbe                  +0.002564 (POS)
+impiego                   +0.001957 (POS)
+presente                  -0.001078 (NEG)
+della                     +0.000277 (POS)
+protezione                +0.000277 (POS)
+dei                       +0.000277 (POS)
+Inoltre,                  +0.000144 (POS)

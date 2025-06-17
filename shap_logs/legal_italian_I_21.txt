@@ -1,0 +1,434 @@
+
+=== Processing text ===
+I fornitori di modelli di IA per finalità generali che sono rilasciati con licenza libera e open source e i cui parametri, compresi i pesi, le informazioni sull'architettura del modello e le informazioni sull'uso del modello, sono messi pubblicamente a disposizione dovrebbero essere soggetti ad eccezioni per quanto riguarda i requisiti relativi alla trasparenza imposti ai modelli di IA per finalità generali, a meno che non si possa ritenere che presentino un rischio sistemico
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000330
+I               | 'I'                  | 0     | 1     | -0.000330
+for             | 'for'                | 2     | 5     | -0.000275
+nito            | 'nito'               | 5     | 9     | -0.000275
+ri              | 'ri'                 | 9     | 11    | -0.000275
+di              | 'di'                 | 12    | 14    | +0.006097
+modelli         | 'modelli'            | 15    | 22    | +0.006097
+di              | 'di'                 | 23    | 25    | +0.002033
+IA              | 'IA'                 | 26    | 28    | +0.002033
+per             | 'per'                | 29    | 32    | +0.002033
+finali          | 'finali'             | 33    | 39    | +0.004181
+tà              | 'tà'                 | 39    | 41    | +0.004181
+generali        | 'generali'           | 42    | 50    | +0.005259
+che             | 'che'                | 51    | 54    | +0.005259
+sono            | 'sono'               | 55    | 59    | +0.005259
+ri              | 'ri'                 | 60    | 62    | +0.002979
+las             | 'las'                | 62    | 65    | +0.002979
+cia             | 'cia'                | 65    | 68    | +0.002979
+ti              | 'ti'                 | 68    | 70    | +0.002979
+con             | 'con'                | 71    | 74    | +0.002892
+licenza         | 'licenza'            | 75    | 82    | +0.002892
+libera          | 'libera'             | 83    | 89    | +0.002892
+e               | 'e'                  | 90    | 91    | +0.002892
+open            | 'open'               | 92    | 96    | +0.004908
+source          | 'source'             | 97    | 103   | +0.004908
+e               | 'e'                  | 104   | 105   | +0.004908
+i               | 'i'                  | 106   | 107   | +0.004908
+cui             | 'cui'                | 108   | 111   | +0.004908
+para            | 'para'               | 112   | 116   | +0.008717
+metri           | 'metri'              | 116   | 121   | +0.008717
+,               | ','                  | 121   | 122   | +0.008717
+com             | 'com'                | 123   | 126   | +0.010110
+presi           | 'presi'              | 126   | 131   | +0.010110
+i               | 'i'                  | 132   | 133   | +0.020657
+pes             | 'pes'                | 134   | 137   | -0.046970
+i               | 'i'                  | 137   | 138   | +0.006878
+,               | ','                  | 138   | 139   | +0.007930
+le              | 'le'                 | 140   | 142   | +0.003737
+informazioni    | 'informazioni'       | 143   | 155   | +0.003737
+sull            | 'sull'               | 156   | 160   | +0.003289
+'               | "'"                  | 160   | 161   | +0.003289
+architettura    | 'architettura'       | 161   | 173   | +0.000317
+del             | 'del'                | 174   | 177   | +0.000317
+modello         | 'modello'            | 178   | 185   | +0.000317
+e               | 'e'                  | 186   | 187   | +0.000317
+le              | 'le'                 | 188   | 190   | +0.003869
+informazioni    | 'informazioni'       | 191   | 203   | +0.003869
+sull            | 'sull'               | 204   | 208   | +0.003304
+'               | "'"                  | 208   | 209   | +0.003304
+uso             | 'uso'                | 209   | 212   | -0.000031
+del             | 'del'                | 213   | 216   | -0.000031
+modello         | 'modello'            | 217   | 224   | -0.000031
+,               | ','                  | 224   | 225   | -0.000031
+sono            | 'sono'               | 226   | 230   | -0.007152
+mes             | 'mes'                | 231   | 234   | -0.006518
+si              | 'si'                 | 234   | 236   | -0.006518
+pubblica        | 'pubblica'           | 237   | 245   | -0.006867
+mente           | 'mente'              | 245   | 250   | -0.006867
+a               | 'a'                  | 251   | 252   | -0.007068
+disposizione    | 'disposizione'       | 253   | 265   | -0.007068
+do              | 'do'                 | 266   | 268   | +0.004230
+vre             | 'vre'                | 268   | 271   | +0.004230
+bber            | 'bber'               | 271   | 275   | +0.002646
+o               | 'o'                  | 275   | 276   | +0.002646
+essere          | 'essere'             | 277   | 283   | +0.001791
+soggetti        | 'soggetti'           | 284   | 292   | +0.001791
+ad              | 'ad'                 | 293   | 295   | +0.018786
+ecc             | 'ecc'                | 296   | 299   | -0.036235
+ezi             | 'ezi'                | 299   | 302   | -0.030674
+oni             | 'oni'                | 302   | 305   | -0.001436
+per             | 'per'                | 306   | 309   | +0.007250
+quanto          | 'quanto'             | 310   | 316   | +0.007250
+riguarda        | 'riguarda'           | 317   | 325   | +0.006394
+i               | 'i'                  | 326   | 327   | +0.006394
+re              | 're'                 | 328   | 330   | +0.001858
+quis            | 'quis'               | 330   | 334   | +0.001858
+iti             | 'iti'                | 334   | 337   | +0.001858
+relativ         | 'relativ'            | 338   | 345   | +0.003170
+i               | 'i'                  | 345   | 346   | +0.003170
+alla            | 'alla'               | 347   | 351   | +0.003170
+tras            | 'tras'               | 352   | 356   | +0.002195
+pare            | 'pare'               | 356   | 360   | +0.002195
+nza             | 'nza'                | 360   | 363   | +0.002195
+im              | 'im'                 | 364   | 366   | +0.002196
+posti           | 'posti'              | 366   | 371   | +0.002196
+ai              | 'ai'                 | 372   | 374   | +0.002196
+modelli         | 'modelli'            | 375   | 382   | +0.002196
+di              | 'di'                 | 383   | 385   | +0.001268
+IA              | 'IA'                 | 386   | 388   | +0.001268
+per             | 'per'                | 389   | 392   | +0.001268
+finali          | 'finali'             | 393   | 399   | +0.002381
+tà              | 'tà'                 | 399   | 401   | +0.002381
+generali        | 'generali'           | 402   | 410   | +0.002381
+,               | ','                  | 410   | 411   | +0.002381
+a               | 'a'                  | 412   | 413   | +0.007367
+meno            | 'meno'               | 414   | 418   | +0.027153
+che             | 'che'                | 419   | 422   | +0.005027
+non             | 'non'                | 423   | 426   | +0.005100
+si              | 'si'                 | 427   | 429   | +0.001730
+possa           | 'possa'              | 430   | 435   | +0.003879
+rit             | 'rit'                | 436   | 439   | -0.002165
+ener            | 'ener'               | 439   | 443   | -0.002165
+e               | 'e'                  | 443   | 444   | -0.002165
+che             | 'che'                | 445   | 448   | +0.005109
+presenti        | 'presenti'           | 449   | 457   | +0.005109
+no              | 'no'                 | 457   | 459   | +0.005109
+un              | 'un'                 | 460   | 462   | +0.002091
+rischio         | 'rischio'            | 463   | 470   | +0.001127
+sistemi         | 'sistemi'            | 471   | 478   | -0.003641
+co              | 'co'                 | 478   | 480   | -0.003641
+                | ''                   | 0     | 0     | -0.003641
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP -0.000330
+  Added token 'for' (2-5) as 'for'
+  Added token 'nito' (5-9) as 'nito'
+  Added token 'ri ' (9-11) as 'ri'
+
+Saved word: 'fornitori' with SHAP -0.000826
+  Added token 'di ' (12-14) as 'di'
+
+Saved word: 'di' with SHAP +0.006097
+  Added token 'modelli ' (15-22) as 'modelli'
+
+Saved word: 'modelli' with SHAP +0.006097
+  Added token 'di ' (23-25) as 'di'
+
+Saved word: 'di' with SHAP +0.002033
+  Added token 'IA ' (26-28) as 'IA'
+
+Saved word: 'IA' with SHAP +0.002033
+  Added token 'per ' (29-32) as 'per'
+
+Saved word: 'per' with SHAP +0.002033
+  Added token 'finali' (33-39) as 'finali'
+  Added token 'tà ' (39-41) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.008362
+  Added token 'generali ' (42-50) as 'generali'
+
+Saved word: 'generali' with SHAP +0.005259
+  Added token 'che ' (51-54) as 'che'
+
+Saved word: 'che' with SHAP +0.005259
+  Added token 'sono ' (55-59) as 'sono'
+
+Saved word: 'sono' with SHAP +0.005259
+  Added token 'ri' (60-62) as 'ri'
+  Added token 'las' (62-65) as 'las'
+  Added token 'cia' (65-68) as 'cia'
+  Added token 'ti ' (68-70) as 'ti'
+
+Saved word: 'rilasciati' with SHAP +0.011914
+  Added token 'con ' (71-74) as 'con'
+
+Saved word: 'con' with SHAP +0.002892
+  Added token 'licenza ' (75-82) as 'licenza'
+
+Saved word: 'licenza' with SHAP +0.002892
+  Added token 'libera ' (83-89) as 'libera'
+
+Saved word: 'libera' with SHAP +0.002892
+  Added token 'e ' (90-91) as 'e'
+
+Saved word: 'e' with SHAP +0.002892
+  Added token 'open ' (92-96) as 'open'
+
+Saved word: 'open' with SHAP +0.004908
+  Added token 'source ' (97-103) as 'source'
+
+Saved word: 'source' with SHAP +0.004908
+  Added token 'e ' (104-105) as 'e'
+
+Saved word: 'e' with SHAP +0.004908
+  Added token 'i ' (106-107) as 'i'
+
+Saved word: 'i' with SHAP +0.004908
+  Added token 'cui ' (108-111) as 'cui'
+
+Saved word: 'cui' with SHAP +0.004908
+  Added token 'para' (112-116) as 'para'
+  Added token 'metri' (116-121) as 'metri'
+  Added token ', ' (121-122) as ','
+
+Saved word: 'parametri,' with SHAP +0.026150
+  Added token 'com' (123-126) as 'com'
+  Added token 'presi ' (126-131) as 'presi'
+
+Saved word: 'compresi' with SHAP +0.020220
+  Added token 'i ' (132-133) as 'i'
+
+Saved word: 'i' with SHAP +0.020657
+  Added token 'pes' (134-137) as 'pes'
+  Added token 'i' (137-138) as 'i'
+  Added token ', ' (138-139) as ','
+
+Saved word: 'pesi,' with SHAP -0.032161
+  Added token 'le ' (140-142) as 'le'
+
+Saved word: 'le' with SHAP +0.003737
+  Added token 'informazioni ' (143-155) as 'informazioni'
+
+Saved word: 'informazioni' with SHAP +0.003737
+  Added token 'sull' (156-160) as 'sull'
+  Added token ''' (160-161) as '''
+  Added token 'architettura ' (161-173) as 'architettura'
+
+Saved word: 'sull'architettura' with SHAP +0.006896
+  Added token 'del ' (174-177) as 'del'
+
+Saved word: 'del' with SHAP +0.000317
+  Added token 'modello ' (178-185) as 'modello'
+
+Saved word: 'modello' with SHAP +0.000317
+  Added token 'e ' (186-187) as 'e'
+
+Saved word: 'e' with SHAP +0.000317
+  Added token 'le ' (188-190) as 'le'
+
+Saved word: 'le' with SHAP +0.003869
+  Added token 'informazioni ' (191-203) as 'informazioni'
+
+Saved word: 'informazioni' with SHAP +0.003869
+  Added token 'sull' (204-208) as 'sull'
+  Added token ''' (208-209) as '''
+  Added token 'uso ' (209-212) as 'uso'
+
+Saved word: 'sull'uso' with SHAP +0.006577
+  Added token 'del ' (213-216) as 'del'
+
+Saved word: 'del' with SHAP -0.000031
+  Added token 'modello' (217-224) as 'modello'
+  Added token ', ' (224-225) as ','
+
+Saved word: 'modello,' with SHAP -0.000061
+  Added token 'sono ' (226-230) as 'sono'
+
+Saved word: 'sono' with SHAP -0.007152
+  Added token 'mes' (231-234) as 'mes'
+  Added token 'si ' (234-236) as 'si'
+
+Saved word: 'messi' with SHAP -0.013036
+  Added token 'pubblica' (237-245) as 'pubblica'
+  Added token 'mente ' (245-250) as 'mente'
+
+Saved word: 'pubblicamente' with SHAP -0.013734
+  Added token 'a ' (251-252) as 'a'
+
+Saved word: 'a' with SHAP -0.007068
+  Added token 'disposizione ' (253-265) as 'disposizione'
+
+Saved word: 'disposizione' with SHAP -0.007068
+  Added token 'do' (266-268) as 'do'
+  Added token 'vre' (268-271) as 'vre'
+  Added token 'bber' (271-275) as 'bber'
+  Added token 'o ' (275-276) as 'o'
+
+Saved word: 'dovrebbero' with SHAP +0.013752
+  Added token 'essere ' (277-283) as 'essere'
+
+Saved word: 'essere' with SHAP +0.001791
+  Added token 'soggetti ' (284-292) as 'soggetti'
+
+Saved word: 'soggetti' with SHAP +0.001791
+  Added token 'ad ' (293-295) as 'ad'
+
+Saved word: 'ad' with SHAP +0.018786
+  Added token 'ecc' (296-299) as 'ecc'
+  Added token 'ezi' (299-302) as 'ezi'
+  Added token 'oni ' (302-305) as 'oni'
+
+Saved word: 'eccezioni' with SHAP -0.068345
+  Added token 'per ' (306-309) as 'per'
+
+Saved word: 'per' with SHAP +0.007250
+  Added token 'quanto ' (310-316) as 'quanto'
+
+Saved word: 'quanto' with SHAP +0.007250
+  Added token 'riguarda ' (317-325) as 'riguarda'
+
+Saved word: 'riguarda' with SHAP +0.006394
+  Added token 'i ' (326-327) as 'i'
+
+Saved word: 'i' with SHAP +0.006394
+  Added token 're' (328-330) as 're'
+  Added token 'quis' (330-334) as 'quis'
+  Added token 'iti ' (334-337) as 'iti'
+
+Saved word: 'requisiti' with SHAP +0.005573
+  Added token 'relativ' (338-345) as 'relativ'
+  Added token 'i ' (345-346) as 'i'
+
+Saved word: 'relativi' with SHAP +0.006340
+  Added token 'alla ' (347-351) as 'alla'
+
+Saved word: 'alla' with SHAP +0.003170
+  Added token 'tras' (352-356) as 'tras'
+  Added token 'pare' (356-360) as 'pare'
+  Added token 'nza ' (360-363) as 'nza'
+
+Saved word: 'trasparenza' with SHAP +0.006585
+  Added token 'im' (364-366) as 'im'
+  Added token 'posti ' (366-371) as 'posti'
+
+Saved word: 'imposti' with SHAP +0.004393
+  Added token 'ai ' (372-374) as 'ai'
+
+Saved word: 'ai' with SHAP +0.002196
+  Added token 'modelli ' (375-382) as 'modelli'
+
+Saved word: 'modelli' with SHAP +0.002196
+  Added token 'di ' (383-385) as 'di'
+
+Saved word: 'di' with SHAP +0.001268
+  Added token 'IA ' (386-388) as 'IA'
+
+Saved word: 'IA' with SHAP +0.001268
+  Added token 'per ' (389-392) as 'per'
+
+Saved word: 'per' with SHAP +0.001268
+  Added token 'finali' (393-399) as 'finali'
+  Added token 'tà ' (399-401) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.004761
+  Added token 'generali' (402-410) as 'generali'
+  Added token ', ' (410-411) as ','
+
+Saved word: 'generali,' with SHAP +0.004761
+  Added token 'a ' (412-413) as 'a'
+
+Saved word: 'a' with SHAP +0.007367
+  Added token 'meno ' (414-418) as 'meno'
+
+Saved word: 'meno' with SHAP +0.027153
+  Added token 'che ' (419-422) as 'che'
+
+Saved word: 'che' with SHAP +0.005027
+  Added token 'non ' (423-426) as 'non'
+
+Saved word: 'non' with SHAP +0.005100
+  Added token 'si ' (427-429) as 'si'
+
+Saved word: 'si' with SHAP +0.001730
+  Added token 'possa ' (430-435) as 'possa'
+
+Saved word: 'possa' with SHAP +0.003879
+  Added token 'rit' (436-439) as 'rit'
+  Added token 'ener' (439-443) as 'ener'
+  Added token 'e ' (443-444) as 'e'
+
+Saved word: 'ritenere' with SHAP -0.006494
+  Added token 'che ' (445-448) as 'che'
+
+Saved word: 'che' with SHAP +0.005109
+  Added token 'presenti' (449-457) as 'presenti'
+  Added token 'no ' (457-459) as 'no'
+
+Saved word: 'presentino' with SHAP +0.010218
+  Added token 'un ' (460-462) as 'un'
+
+Saved word: 'un' with SHAP +0.002091
+  Added token 'rischio ' (463-470) as 'rischio'
+
+Saved word: 'rischio' with SHAP +0.001127
+  Added token 'sistemi' (471-478) as 'sistemi'
+  Added token 'co' (478-480) as 'co'
+
+Saved final word: 'sistemico' with SHAP -0.007283
+
+=== Final Word Contributions ===
+eccezioni                 -0.068345 (NEG)
+pesi,                     -0.032161 (NEG)
+meno                      +0.027153 (POS)
+parametri,                +0.026150 (POS)
+compresi                  +0.020220 (POS)
+ad                        +0.018786 (POS)
+dovrebbero                +0.013752 (POS)
+pubblicamente             -0.013734 (NEG)
+messi                     -0.013036 (NEG)
+rilasciati                +0.011914 (POS)
+presentino                +0.010218 (POS)
+a                         +0.007367 (POS)
+sistemico                 -0.007283 (NEG)
+quanto                    +0.007250 (POS)
+sono                      -0.007152 (NEG)
+disposizione              -0.007068 (NEG)
+sull'architettura         +0.006896 (POS)
+trasparenza               +0.006585 (POS)
+sull'uso                  +0.006577 (POS)
+ritenere                  -0.006494 (NEG)
+i                         +0.006394 (POS)
+riguarda                  +0.006394 (POS)
+relativi                  +0.006340 (POS)
+requisiti                 +0.005573 (POS)
+generali                  +0.005259 (POS)
+che                       +0.005109 (POS)
+non                       +0.005100 (POS)
+cui                       +0.004908 (POS)
+open                      +0.004908 (POS)
+source                    +0.004908 (POS)
+finalità                  +0.004761 (POS)
+generali,                 +0.004761 (POS)
+imposti                   +0.004393 (POS)
+possa                     +0.003879 (POS)
+le                        +0.003869 (POS)
+informazioni              +0.003869 (POS)
+alla                      +0.003170 (POS)
+con                       +0.002892 (POS)
+licenza                   +0.002892 (POS)
+libera                    +0.002892 (POS)
+modelli                   +0.002196 (POS)
+ai                        +0.002196 (POS)
+un                        +0.002091 (POS)
+essere                    +0.001791 (POS)
+soggetti                  +0.001791 (POS)
+si                        +0.001730 (POS)
+di                        +0.001268 (POS)
+IA                        +0.001268 (POS)
+per                       +0.001268 (POS)
+rischio                   +0.001127 (POS)
+fornitori                 -0.000826 (NEG)
+I                         -0.000330 (NEG)
+e                         +0.000317 (POS)
+modello                   +0.000317 (POS)
+modello,                  -0.000061 (NEG)
+del                       -0.000031 (NEG)

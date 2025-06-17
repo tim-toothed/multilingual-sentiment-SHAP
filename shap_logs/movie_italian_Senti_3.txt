@@ -1,0 +1,104 @@
+
+=== Processing text ===
+Senti. Se non possiamo rompere il ghiaccio, che ne dici di affogarlo con questa?
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Sent            | 'Sent'               | 0     | 4     | +0.059865
+i               | 'i'                  | 4     | 5     | -0.022560
+.               | '.'                  | 5     | 6     | -0.031012
+Se              | 'Se'                 | 7     | 9     | -0.006142
+non             | 'non'                | 10    | 13    | -0.048401
+pos             | 'pos'                | 14    | 17    | -0.011513
+sia             | 'sia'                | 17    | 20    | -0.009408
+mo              | 'mo'                 | 20    | 22    | -0.005655
+rom             | 'rom'                | 23    | 26    | +0.020483
+pere            | 'pere'               | 26    | 30    | +0.018554
+il              | 'il'                 | 31    | 33    | +0.009332
+ghiaccio        | 'ghiaccio'           | 34    | 42    | +0.009332
+,               | ','                  | 42    | 43    | +0.008428
+che             | 'che'                | 44    | 47    | +0.021070
+ne              | 'ne'                 | 48    | 50    | -0.005271
+di              | 'di'                 | 51    | 53    | +0.016464
+ci              | 'ci'                 | 53    | 55    | +0.013319
+di              | 'di'                 | 56    | 58    | +0.028739
+af              | 'af'                 | 59    | 61    | +0.011798
+fo              | 'fo'                 | 61    | 63    | +0.006704
+gar             | 'gar'                | 63    | 66    | +0.032711
+lo              | 'lo'                 | 66    | 68    | +0.015814
+con             | 'con'                | 69    | 72    | +0.012556
+questa          | 'questa'             | 73    | 79    | +0.015864
+?               | '?'                  | 79    | 80    | +0.009407
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Sent' (0-4) as 'Sent'
+  Added token 'i' (4-5) as 'i'
+  Added token '. ' (5-6) as '.'
+
+Saved word: 'Senti.' with SHAP +0.006293
+  Added token 'Se ' (7-9) as 'Se'
+
+Saved word: 'Se' with SHAP -0.006142
+  Added token 'non ' (10-13) as 'non'
+
+Saved word: 'non' with SHAP -0.048401
+  Added token 'pos' (14-17) as 'pos'
+  Added token 'sia' (17-20) as 'sia'
+  Added token 'mo ' (20-22) as 'mo'
+
+Saved word: 'possiamo' with SHAP -0.026577
+  Added token 'rom' (23-26) as 'rom'
+  Added token 'pere ' (26-30) as 'pere'
+
+Saved word: 'rompere' with SHAP +0.039037
+  Added token 'il ' (31-33) as 'il'
+
+Saved word: 'il' with SHAP +0.009332
+  Added token 'ghiaccio' (34-42) as 'ghiaccio'
+  Added token ', ' (42-43) as ','
+
+Saved word: 'ghiaccio,' with SHAP +0.017760
+  Added token 'che ' (44-47) as 'che'
+
+Saved word: 'che' with SHAP +0.021070
+  Added token 'ne ' (48-50) as 'ne'
+
+Saved word: 'ne' with SHAP -0.005271
+  Added token 'di' (51-53) as 'di'
+  Added token 'ci ' (53-55) as 'ci'
+
+Saved word: 'dici' with SHAP +0.029783
+  Added token 'di ' (56-58) as 'di'
+
+Saved word: 'di' with SHAP +0.028739
+  Added token 'af' (59-61) as 'af'
+  Added token 'fo' (61-63) as 'fo'
+  Added token 'gar' (63-66) as 'gar'
+  Added token 'lo ' (66-68) as 'lo'
+
+Saved word: 'affogarlo' with SHAP +0.067027
+  Added token 'con ' (69-72) as 'con'
+
+Saved word: 'con' with SHAP +0.012556
+  Added token 'questa' (73-79) as 'questa'
+  Added token '?' (79-80) as '?'
+
+Saved final word: 'questa?' with SHAP +0.025271
+
+=== Final Word Contributions ===
+affogarlo                 +0.067027 (POS)
+non                       -0.048401 (NEG)
+rompere                   +0.039037 (POS)
+dici                      +0.029783 (POS)
+di                        +0.028739 (POS)
+possiamo                  -0.026577 (NEG)
+questa?                   +0.025271 (POS)
+che                       +0.021070 (POS)
+ghiaccio,                 +0.017760 (POS)
+con                       +0.012556 (POS)
+il                        +0.009332 (POS)
+Senti.                    +0.006293 (POS)
+Se                        -0.006142 (NEG)
+ne                        -0.005271 (NEG)

@@ -1,0 +1,150 @@
+
+=== Processing text ===
+Diverging national rules may lead to the fragmentation of the internal market and may decrease legal certainty for operators that develop, import or use AI systems
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Di              | 'Di'                 | 0     | 2     | -0.001022
+ver             | 'ver'                | 2     | 5     | -0.004045
+ging            | 'ging'               | 5     | 9     | +0.020173
+national        | 'national'           | 10    | 18    | -0.000474
+rules           | 'rules'              | 19    | 24    | +0.008247
+may             | 'may'                | 25    | 28    | +0.050305
+lead            | 'lead'               | 29    | 33    | +0.027283
+to              | 'to'                 | 34    | 36    | +0.028183
+the             | 'the'                | 37    | 40    | +0.007395
+fragment        | 'fragment'           | 41    | 49    | +0.065775
+ation           | 'ation'              | 49    | 54    | +0.007713
+of              | 'of'                 | 55    | 57    | +0.014186
+the             | 'the'                | 58    | 61    | +0.010334
+internal        | 'internal'           | 62    | 70    | +0.017587
+market          | 'market'             | 71    | 77    | +0.005980
+and             | 'and'                | 78    | 81    | +0.017180
+may             | 'may'                | 82    | 85    | +0.014093
+decrease        | 'decrease'           | 86    | 94    | +0.040646
+legal           | 'legal'              | 95    | 100   | +0.012050
+certain         | 'certain'            | 101   | 108   | +0.003603
+ty              | 'ty'                 | 108   | 110   | +0.003165
+for             | 'for'                | 111   | 114   | +0.010705
+operators       | 'operators'          | 115   | 124   | +0.010003
+that            | 'that'               | 125   | 129   | -0.002069
+develop         | 'develop'            | 130   | 137   | -0.002069
+,               | ','                  | 137   | 138   | -0.010269
+import          | 'import'             | 139   | 145   | +0.012922
+or              | 'or'                 | 146   | 148   | +0.012870
+use             | 'use'                | 149   | 152   | +0.008115
+AI              | 'AI'                 | 153   | 155   | +0.006711
+systems         | 'systems'            | 156   | 163   | +0.017882
+                | ''                   | 0     | 0     | +0.001159
+  Added token 'Di' (0-2) as 'Di'
+  Added token 'ver' (2-5) as 'ver'
+  Added token 'ging ' (5-9) as 'ging'
+
+Saved word: 'Diverging' with SHAP +0.015106
+  Added token 'national ' (10-18) as 'national'
+
+Saved word: 'national' with SHAP -0.000474
+  Added token 'rules ' (19-24) as 'rules'
+
+Saved word: 'rules' with SHAP +0.008247
+  Added token 'may ' (25-28) as 'may'
+
+Saved word: 'may' with SHAP +0.050305
+  Added token 'lead ' (29-33) as 'lead'
+
+Saved word: 'lead' with SHAP +0.027283
+  Added token 'to ' (34-36) as 'to'
+
+Saved word: 'to' with SHAP +0.028183
+  Added token 'the ' (37-40) as 'the'
+
+Saved word: 'the' with SHAP +0.007395
+  Added token 'fragment' (41-49) as 'fragment'
+  Added token 'ation ' (49-54) as 'ation'
+
+Saved word: 'fragmentation' with SHAP +0.073488
+  Added token 'of ' (55-57) as 'of'
+
+Saved word: 'of' with SHAP +0.014186
+  Added token 'the ' (58-61) as 'the'
+
+Saved word: 'the' with SHAP +0.010334
+  Added token 'internal ' (62-70) as 'internal'
+
+Saved word: 'internal' with SHAP +0.017587
+  Added token 'market ' (71-77) as 'market'
+
+Saved word: 'market' with SHAP +0.005980
+  Added token 'and ' (78-81) as 'and'
+
+Saved word: 'and' with SHAP +0.017180
+  Added token 'may ' (82-85) as 'may'
+
+Saved word: 'may' with SHAP +0.014093
+  Added token 'decrease ' (86-94) as 'decrease'
+
+Saved word: 'decrease' with SHAP +0.040646
+  Added token 'legal ' (95-100) as 'legal'
+
+Saved word: 'legal' with SHAP +0.012050
+  Added token 'certain' (101-108) as 'certain'
+  Added token 'ty ' (108-110) as 'ty'
+
+Saved word: 'certainty' with SHAP +0.006769
+  Added token 'for ' (111-114) as 'for'
+
+Saved word: 'for' with SHAP +0.010705
+  Added token 'operators ' (115-124) as 'operators'
+
+Saved word: 'operators' with SHAP +0.010003
+  Added token 'that ' (125-129) as 'that'
+
+Saved word: 'that' with SHAP -0.002069
+  Added token 'develop' (130-137) as 'develop'
+  Added token ', ' (137-138) as ','
+
+Saved word: 'develop,' with SHAP -0.012338
+  Added token 'import ' (139-145) as 'import'
+
+Saved word: 'import' with SHAP +0.012922
+  Added token 'or ' (146-148) as 'or'
+
+Saved word: 'or' with SHAP +0.012870
+  Added token 'use ' (149-152) as 'use'
+
+Saved word: 'use' with SHAP +0.008115
+  Added token 'AI ' (153-155) as 'AI'
+
+Saved word: 'AI' with SHAP +0.006711
+  Added token 'systems' (156-163) as 'systems'
+
+Saved final word: 'systems' with SHAP +0.017882
+
+=== Final Word Contributions ===
+fragmentation             +0.073488 (POS)
+decrease                  +0.040646 (POS)
+to                        +0.028183 (POS)
+lead                      +0.027283 (POS)
+systems                   +0.017882 (POS)
+internal                  +0.017587 (POS)
+and                       +0.017180 (POS)
+Diverging                 +0.015106 (POS)
+of                        +0.014186 (POS)
+may                       +0.014093 (POS)
+import                    +0.012922 (POS)
+or                        +0.012870 (POS)
+develop,                  -0.012338 (NEG)
+legal                     +0.012050 (POS)
+for                       +0.010705 (POS)
+the                       +0.010334 (POS)
+operators                 +0.010003 (POS)
+rules                     +0.008247 (POS)
+use                       +0.008115 (POS)
+certainty                 +0.006769 (POS)
+AI                        +0.006711 (POS)
+market                    +0.005980 (POS)
+that                      -0.002069 (NEG)
+national                  -0.000474 (NEG)

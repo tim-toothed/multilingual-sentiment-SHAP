@@ -1,0 +1,412 @@
+
+=== Processing text ===
+I modelli di IA per finalità generali potrebbero comportare rischi sistemici che includono, tra l'altro, qualsiasi effetto negativo effettivo o ragionevolmente prevedibile in relazione a incidenti gravi, perturbazioni di settori critici e serie conseguenze per la salute e la sicurezza pubbliche; eventuali effetti negativi, effettivi o ragionevolmente prevedibili, sui processi democratici e sulla sicurezza pubblica ed economica; la diffusione di contenuti illegali, mendaci o discriminatori.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003929
+I               | 'I'                  | 0     | 1     | +0.003929
+modelli         | 'modelli'            | 2     | 9     | +0.003696
+di              | 'di'                 | 10    | 12    | +0.003696
+IA              | 'IA'                 | 13    | 15    | +0.006429
+per             | 'per'                | 16    | 19    | +0.006429
+finali          | 'finali'             | 20    | 26    | +0.003807
+tà              | 'tà'                 | 26    | 28    | +0.003807
+generali        | 'generali'           | 29    | 37    | +0.003807
+potrebbe        | 'potrebbe'           | 38    | 46    | -0.007990
+ro              | 'ro'                 | 46    | 48    | -0.007990
+comporta        | 'comporta'           | 49    | 57    | -0.004881
+re              | 're'                 | 57    | 59    | -0.004881
+ri              | 'ri'                 | 60    | 62    | +0.018419
+schi            | 'schi'               | 62    | 66    | +0.018419
+sistemi         | 'sistemi'            | 67    | 74    | +0.009437
+ci              | 'ci'                 | 74    | 76    | +0.009437
+che             | 'che'                | 77    | 80    | +0.009437
+in              | 'in'                 | 81    | 83    | -0.009157
+clu             | 'clu'                | 83    | 86    | -0.009157
+dono            | 'dono'               | 86    | 90    | -0.007585
+,               | ','                  | 90    | 91    | -0.012802
+tra             | 'tra'                | 92    | 95    | -0.009585
+l               | 'l'                  | 96    | 97    | -0.002709
+'               | "'"                  | 97    | 98    | -0.002709
+altro           | 'altro'              | 98    | 103   | +0.000585
+,               | ','                  | 103   | 104   | +0.003525
+qualsiasi       | 'qualsiasi'          | 105   | 114   | +0.012707
+effetto         | 'effetto'            | 115   | 122   | +0.012707
+negativo        | 'negativo'           | 123   | 131   | +0.019387
+effetti         | 'effetti'            | 132   | 139   | +0.000112
+vo              | 'vo'                 | 139   | 141   | +0.000112
+o               | 'o'                  | 142   | 143   | +0.000112
+ragione         | 'ragione'            | 144   | 151   | -0.002083
+volmente        | 'volmente'           | 151   | 159   | -0.002083
+pre             | 'pre'                | 160   | 163   | -0.001912
+ved             | 'ved'                | 163   | 166   | -0.001912
+ibile           | 'ibile'              | 166   | 171   | -0.001912
+in              | 'in'                 | 172   | 174   | -0.002596
+relazione       | 'relazione'          | 175   | 184   | -0.002596
+a               | 'a'                  | 185   | 186   | -0.002596
+incident        | 'incident'           | 187   | 195   | -0.000228
+i               | 'i'                  | 195   | 196   | -0.000228
+gravi           | 'gravi'              | 197   | 202   | -0.000228
+,               | ','                  | 202   | 203   | -0.000228
+per             | 'per'                | 204   | 207   | +0.012561
+tur             | 'tur'                | 207   | 210   | +0.012561
+ba              | 'ba'                 | 210   | 212   | +0.005482
+zioni           | 'zioni'              | 212   | 217   | +0.005482
+di              | 'di'                 | 218   | 220   | +0.003467
+sett            | 'sett'               | 221   | 225   | +0.003467
+ori             | 'ori'                | 225   | 228   | +0.003467
+critici         | 'critici'            | 229   | 236   | +0.005208
+e               | 'e'                  | 237   | 238   | +0.005208
+serie           | 'serie'              | 239   | 244   | +0.005208
+consegue        | 'consegue'           | 245   | 253   | +0.004910
+nze             | 'nze'                | 253   | 256   | +0.004910
+per             | 'per'                | 257   | 260   | +0.004910
+la              | 'la'                 | 261   | 263   | +0.004910
+salute          | 'salute'             | 264   | 270   | +0.010252
+e               | 'e'                  | 271   | 272   | +0.010252
+la              | 'la'                 | 273   | 275   | +0.007914
+sicurezza       | 'sicurezza'          | 276   | 285   | +0.007914
+pub             | 'pub'                | 286   | 289   | +0.010775
+bliche          | 'bliche'             | 289   | 295   | +0.010775
+;               | ';'                  | 295   | 296   | +0.010775
+eventual        | 'eventual'           | 297   | 305   | +0.010402
+i               | 'i'                  | 305   | 306   | +0.010402
+effetti         | 'effetti'            | 307   | 314   | +0.010402
+negativ         | 'negativ'            | 315   | 322   | +0.020969
+i               | 'i'                  | 322   | 323   | +0.020969
+,               | ','                  | 323   | 324   | +0.012979
+effetti         | 'effetti'            | 325   | 332   | +0.006346
+vi              | 'vi'                 | 332   | 334   | +0.006346
+o               | 'o'                  | 335   | 336   | +0.006346
+ragione         | 'ragione'            | 337   | 344   | +0.004822
+volmente        | 'volmente'           | 344   | 352   | +0.004822
+pre             | 'pre'                | 353   | 356   | +0.004861
+ved             | 'ved'                | 356   | 359   | +0.004861
+ibil            | 'ibil'               | 359   | 363   | +0.004861
+i               | 'i'                  | 363   | 364   | +0.004861
+,               | ','                  | 364   | 365   | +0.004861
+sui             | 'sui'                | 366   | 369   | +0.004998
+processi        | 'processi'           | 370   | 378   | +0.004998
+democratic      | 'democratic'         | 379   | 389   | +0.004998
+i               | 'i'                  | 389   | 390   | +0.004998
+e               | 'e'                  | 391   | 392   | +0.005681
+sulla           | 'sulla'              | 393   | 398   | +0.005681
+sicurezza       | 'sicurezza'          | 399   | 408   | +0.005681
+pubblica        | 'pubblica'           | 409   | 417   | +0.005681
+ed              | 'ed'                 | 418   | 420   | +0.015620
+economica       | 'economica'          | 421   | 430   | +0.015620
+;               | ';'                  | 430   | 431   | +0.015620
+la              | 'la'                 | 432   | 434   | +0.015620
+diffusione      | 'diffusione'         | 435   | 445   | +0.011965
+di              | 'di'                 | 446   | 448   | +0.011965
+contenuti       | 'contenuti'          | 449   | 458   | +0.011965
+illegal         | 'illegal'            | 459   | 466   | +0.011965
+i               | 'i'                  | 466   | 467   | +0.011965
+,               | ','                  | 467   | 468   | +0.011965
+men             | 'men'                | 469   | 472   | +0.003571
+da              | 'da'                 | 472   | 474   | +0.003571
+ci              | 'ci'                 | 474   | 476   | +0.003571
+o               | 'o'                  | 477   | 478   | +0.003571
+disc            | 'disc'               | 479   | 483   | +0.005313
+rimi            | 'rimi'               | 483   | 487   | +0.005313
+nato            | 'nato'               | 487   | 491   | +0.005313
+ri              | 'ri'                 | 491   | 493   | +0.005313
+.               | '.'                  | 493   | 494   | +0.005313
+                | ''                   | 0     | 0     | +0.000099
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP +0.003929
+  Added token 'modelli ' (2-9) as 'modelli'
+
+Saved word: 'modelli' with SHAP +0.003696
+  Added token 'di ' (10-12) as 'di'
+
+Saved word: 'di' with SHAP +0.003696
+  Added token 'IA ' (13-15) as 'IA'
+
+Saved word: 'IA' with SHAP +0.006429
+  Added token 'per ' (16-19) as 'per'
+
+Saved word: 'per' with SHAP +0.006429
+  Added token 'finali' (20-26) as 'finali'
+  Added token 'tà ' (26-28) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.007614
+  Added token 'generali ' (29-37) as 'generali'
+
+Saved word: 'generali' with SHAP +0.003807
+  Added token 'potrebbe' (38-46) as 'potrebbe'
+  Added token 'ro ' (46-48) as 'ro'
+
+Saved word: 'potrebbero' with SHAP -0.015981
+  Added token 'comporta' (49-57) as 'comporta'
+  Added token 're ' (57-59) as 're'
+
+Saved word: 'comportare' with SHAP -0.009762
+  Added token 'ri' (60-62) as 'ri'
+  Added token 'schi ' (62-66) as 'schi'
+
+Saved word: 'rischi' with SHAP +0.036838
+  Added token 'sistemi' (67-74) as 'sistemi'
+  Added token 'ci ' (74-76) as 'ci'
+
+Saved word: 'sistemici' with SHAP +0.018874
+  Added token 'che ' (77-80) as 'che'
+
+Saved word: 'che' with SHAP +0.009437
+  Added token 'in' (81-83) as 'in'
+  Added token 'clu' (83-86) as 'clu'
+  Added token 'dono' (86-90) as 'dono'
+  Added token ', ' (90-91) as ','
+
+Saved word: 'includono,' with SHAP -0.038701
+  Added token 'tra ' (92-95) as 'tra'
+
+Saved word: 'tra' with SHAP -0.009585
+  Added token 'l' (96-97) as 'l'
+  Added token ''' (97-98) as '''
+  Added token 'altro' (98-103) as 'altro'
+  Added token ', ' (103-104) as ','
+
+Saved word: 'l'altro,' with SHAP -0.001308
+  Added token 'qualsiasi ' (105-114) as 'qualsiasi'
+
+Saved word: 'qualsiasi' with SHAP +0.012707
+  Added token 'effetto ' (115-122) as 'effetto'
+
+Saved word: 'effetto' with SHAP +0.012707
+  Added token 'negativo ' (123-131) as 'negativo'
+
+Saved word: 'negativo' with SHAP +0.019387
+  Added token 'effetti' (132-139) as 'effetti'
+  Added token 'vo ' (139-141) as 'vo'
+
+Saved word: 'effettivo' with SHAP +0.000223
+  Added token 'o ' (142-143) as 'o'
+
+Saved word: 'o' with SHAP +0.000112
+  Added token 'ragione' (144-151) as 'ragione'
+  Added token 'volmente ' (151-159) as 'volmente'
+
+Saved word: 'ragionevolmente' with SHAP -0.004167
+  Added token 'pre' (160-163) as 'pre'
+  Added token 'ved' (163-166) as 'ved'
+  Added token 'ibile ' (166-171) as 'ibile'
+
+Saved word: 'prevedibile' with SHAP -0.005735
+  Added token 'in ' (172-174) as 'in'
+
+Saved word: 'in' with SHAP -0.002596
+  Added token 'relazione ' (175-184) as 'relazione'
+
+Saved word: 'relazione' with SHAP -0.002596
+  Added token 'a ' (185-186) as 'a'
+
+Saved word: 'a' with SHAP -0.002596
+  Added token 'incident' (187-195) as 'incident'
+  Added token 'i ' (195-196) as 'i'
+
+Saved word: 'incidenti' with SHAP -0.000456
+  Added token 'gravi' (197-202) as 'gravi'
+  Added token ', ' (202-203) as ','
+
+Saved word: 'gravi,' with SHAP -0.000456
+  Added token 'per' (204-207) as 'per'
+  Added token 'tur' (207-210) as 'tur'
+  Added token 'ba' (210-212) as 'ba'
+  Added token 'zioni ' (212-217) as 'zioni'
+
+Saved word: 'perturbazioni' with SHAP +0.036086
+  Added token 'di ' (218-220) as 'di'
+
+Saved word: 'di' with SHAP +0.003467
+  Added token 'sett' (221-225) as 'sett'
+  Added token 'ori ' (225-228) as 'ori'
+
+Saved word: 'settori' with SHAP +0.006933
+  Added token 'critici ' (229-236) as 'critici'
+
+Saved word: 'critici' with SHAP +0.005208
+  Added token 'e ' (237-238) as 'e'
+
+Saved word: 'e' with SHAP +0.005208
+  Added token 'serie ' (239-244) as 'serie'
+
+Saved word: 'serie' with SHAP +0.005208
+  Added token 'consegue' (245-253) as 'consegue'
+  Added token 'nze ' (253-256) as 'nze'
+
+Saved word: 'conseguenze' with SHAP +0.009820
+  Added token 'per ' (257-260) as 'per'
+
+Saved word: 'per' with SHAP +0.004910
+  Added token 'la ' (261-263) as 'la'
+
+Saved word: 'la' with SHAP +0.004910
+  Added token 'salute ' (264-270) as 'salute'
+
+Saved word: 'salute' with SHAP +0.010252
+  Added token 'e ' (271-272) as 'e'
+
+Saved word: 'e' with SHAP +0.010252
+  Added token 'la ' (273-275) as 'la'
+
+Saved word: 'la' with SHAP +0.007914
+  Added token 'sicurezza ' (276-285) as 'sicurezza'
+
+Saved word: 'sicurezza' with SHAP +0.007914
+  Added token 'pub' (286-289) as 'pub'
+  Added token 'bliche' (289-295) as 'bliche'
+  Added token '; ' (295-296) as ';'
+
+Saved word: 'pubbliche;' with SHAP +0.032326
+  Added token 'eventual' (297-305) as 'eventual'
+  Added token 'i ' (305-306) as 'i'
+
+Saved word: 'eventuali' with SHAP +0.020803
+  Added token 'effetti ' (307-314) as 'effetti'
+
+Saved word: 'effetti' with SHAP +0.010402
+  Added token 'negativ' (315-322) as 'negativ'
+  Added token 'i' (322-323) as 'i'
+  Added token ', ' (323-324) as ','
+
+Saved word: 'negativi,' with SHAP +0.054916
+  Added token 'effetti' (325-332) as 'effetti'
+  Added token 'vi ' (332-334) as 'vi'
+
+Saved word: 'effettivi' with SHAP +0.012692
+  Added token 'o ' (335-336) as 'o'
+
+Saved word: 'o' with SHAP +0.006346
+  Added token 'ragione' (337-344) as 'ragione'
+  Added token 'volmente ' (344-352) as 'volmente'
+
+Saved word: 'ragionevolmente' with SHAP +0.009644
+  Added token 'pre' (353-356) as 'pre'
+  Added token 'ved' (356-359) as 'ved'
+  Added token 'ibil' (359-363) as 'ibil'
+  Added token 'i' (363-364) as 'i'
+  Added token ', ' (364-365) as ','
+
+Saved word: 'prevedibili,' with SHAP +0.024305
+  Added token 'sui ' (366-369) as 'sui'
+
+Saved word: 'sui' with SHAP +0.004998
+  Added token 'processi ' (370-378) as 'processi'
+
+Saved word: 'processi' with SHAP +0.004998
+  Added token 'democratic' (379-389) as 'democratic'
+  Added token 'i ' (389-390) as 'i'
+
+Saved word: 'democratici' with SHAP +0.009995
+  Added token 'e ' (391-392) as 'e'
+
+Saved word: 'e' with SHAP +0.005681
+  Added token 'sulla ' (393-398) as 'sulla'
+
+Saved word: 'sulla' with SHAP +0.005681
+  Added token 'sicurezza ' (399-408) as 'sicurezza'
+
+Saved word: 'sicurezza' with SHAP +0.005681
+  Added token 'pubblica ' (409-417) as 'pubblica'
+
+Saved word: 'pubblica' with SHAP +0.005681
+  Added token 'ed ' (418-420) as 'ed'
+
+Saved word: 'ed' with SHAP +0.015620
+  Added token 'economica' (421-430) as 'economica'
+  Added token '; ' (430-431) as ';'
+
+Saved word: 'economica;' with SHAP +0.031240
+  Added token 'la ' (432-434) as 'la'
+
+Saved word: 'la' with SHAP +0.015620
+  Added token 'diffusione ' (435-445) as 'diffusione'
+
+Saved word: 'diffusione' with SHAP +0.011965
+  Added token 'di ' (446-448) as 'di'
+
+Saved word: 'di' with SHAP +0.011965
+  Added token 'contenuti ' (449-458) as 'contenuti'
+
+Saved word: 'contenuti' with SHAP +0.011965
+  Added token 'illegal' (459-466) as 'illegal'
+  Added token 'i' (466-467) as 'i'
+  Added token ', ' (467-468) as ','
+
+Saved word: 'illegali,' with SHAP +0.035895
+  Added token 'men' (469-472) as 'men'
+  Added token 'da' (472-474) as 'da'
+  Added token 'ci ' (474-476) as 'ci'
+
+Saved word: 'mendaci' with SHAP +0.010712
+  Added token 'o ' (477-478) as 'o'
+
+Saved word: 'o' with SHAP +0.003571
+  Added token 'disc' (479-483) as 'disc'
+  Added token 'rimi' (483-487) as 'rimi'
+  Added token 'nato' (487-491) as 'nato'
+  Added token 'ri' (491-493) as 'ri'
+  Added token '.' (493-494) as '.'
+
+Saved final word: 'discriminatori.' with SHAP +0.026567
+
+=== Final Word Contributions ===
+negativi,                 +0.054916 (POS)
+includono,                -0.038701 (NEG)
+rischi                    +0.036838 (POS)
+perturbazioni             +0.036086 (POS)
+illegali,                 +0.035895 (POS)
+pubbliche;                +0.032326 (POS)
+economica;                +0.031240 (POS)
+discriminatori.           +0.026567 (POS)
+prevedibili,              +0.024305 (POS)
+eventuali                 +0.020803 (POS)
+negativo                  +0.019387 (POS)
+sistemici                 +0.018874 (POS)
+potrebbero                -0.015981 (NEG)
+la                        +0.015620 (POS)
+ed                        +0.015620 (POS)
+qualsiasi                 +0.012707 (POS)
+effetto                   +0.012707 (POS)
+effettivi                 +0.012692 (POS)
+di                        +0.011965 (POS)
+diffusione                +0.011965 (POS)
+contenuti                 +0.011965 (POS)
+mendaci                   +0.010712 (POS)
+effetti                   +0.010402 (POS)
+salute                    +0.010252 (POS)
+democratici               +0.009995 (POS)
+conseguenze               +0.009820 (POS)
+comportare                -0.009762 (NEG)
+ragionevolmente           +0.009644 (POS)
+tra                       -0.009585 (NEG)
+che                       +0.009437 (POS)
+finalità                  +0.007614 (POS)
+settori                   +0.006933 (POS)
+IA                        +0.006429 (POS)
+prevedibile               -0.005735 (NEG)
+e                         +0.005681 (POS)
+sicurezza                 +0.005681 (POS)
+sulla                     +0.005681 (POS)
+pubblica                  +0.005681 (POS)
+critici                   +0.005208 (POS)
+serie                     +0.005208 (POS)
+sui                       +0.004998 (POS)
+processi                  +0.004998 (POS)
+per                       +0.004910 (POS)
+I                         +0.003929 (POS)
+generali                  +0.003807 (POS)
+modelli                   +0.003696 (POS)
+o                         +0.003571 (POS)
+in                        -0.002596 (NEG)
+relazione                 -0.002596 (NEG)
+a                         -0.002596 (NEG)
+l'altro,                  -0.001308 (NEG)
+incidenti                 -0.000456 (NEG)
+gravi,                    -0.000456 (NEG)
+effettivo                 +0.000223 (POS)

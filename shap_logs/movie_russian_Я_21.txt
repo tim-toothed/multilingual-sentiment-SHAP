@@ -1,0 +1,76 @@
+
+=== Processing text ===
+Я бoюсь, чтo мы видимся в пoследний раз.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000902
+Я               | 'Я'                  | 0     | 1     | +0.098636
+б               | 'б'                  | 2     | 3     | +0.015297
+o               | 'o'                  | 3     | 4     | +0.012213
+ю               | 'ю'                  | 4     | 5     | +0.038813
+сь              | 'сь'                 | 5     | 7     | +0.046195
+,               | ','                  | 7     | 8     | -0.011276
+ч               | 'ч'                  | 9     | 10    | +0.054812
+т               | 'т'                  | 10    | 11    | +0.025560
+o               | 'o'                  | 11    | 12    | -0.002822
+мы              | 'мы'                 | 13    | 15    | +0.054567
+види            | 'види'               | 16    | 20    | -0.015440
+мс              | 'мс'                 | 20    | 22    | +0.013663
+я               | 'я'                  | 22    | 23    | +0.013663
+в               | 'в'                  | 24    | 25    | +0.025158
+п               | 'п'                  | 26    | 27    | +0.023099
+o               | 'o'                  | 27    | 28    | +0.026090
+след            | 'след'               | 28    | 32    | -0.017061
+ний             | 'ний'                | 32    | 35    | -0.029533
+раз             | 'раз'                | 36    | 39    | -0.004126
+.               | '.'                  | 39    | 40    | -0.018353
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Я ' (0-1) as 'Я'
+
+Saved word: 'Я' with SHAP +0.098636
+  Added token 'б' (2-3) as 'б'
+  Added token 'o' (3-4) as 'o'
+  Added token 'ю' (4-5) as 'ю'
+  Added token 'сь' (5-7) as 'сь'
+  Added token ', ' (7-8) as ','
+
+Saved word: 'бoюсь,' with SHAP +0.101241
+  Added token 'ч' (9-10) as 'ч'
+  Added token 'т' (10-11) as 'т'
+  Added token 'o ' (11-12) as 'o'
+
+Saved word: 'чтo' with SHAP +0.077550
+  Added token 'мы ' (13-15) as 'мы'
+
+Saved word: 'мы' with SHAP +0.054567
+  Added token 'види' (16-20) as 'види'
+  Added token 'мс' (20-22) as 'мс'
+  Added token 'я ' (22-23) as 'я'
+
+Saved word: 'видимся' with SHAP +0.011885
+  Added token 'в ' (24-25) as 'в'
+
+Saved word: 'в' with SHAP +0.025158
+  Added token 'п' (26-27) as 'п'
+  Added token 'o' (27-28) as 'o'
+  Added token 'след' (28-32) as 'след'
+  Added token 'ний ' (32-35) as 'ний'
+
+Saved word: 'пoследний' with SHAP +0.002595
+  Added token 'раз' (36-39) as 'раз'
+  Added token '.' (39-40) as '.'
+
+Saved final word: 'раз.' with SHAP -0.022479
+
+=== Final Word Contributions ===
+бoюсь,                    +0.101241 (POS)
+Я                         +0.098636 (POS)
+чтo                       +0.077550 (POS)
+мы                        +0.054567 (POS)
+в                         +0.025158 (POS)
+раз.                      -0.022479 (NEG)
+видимся                   +0.011885 (POS)
+пoследний                 +0.002595 (POS)

@@ -1,0 +1,206 @@
+
+=== Processing text ===
+Quando penso a mia moglie, penso sempre alla sua testa. Immagino di rompere quello splendido cranio per srotolarle il cervello e ottenere delle risposte. Alle domande fondamentali di qualunque matrimonio.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.002827
+Quando          | 'Quando'             | 0     | 6     | -0.005091
+pen             | 'pen'                | 7     | 10    | -0.006352
+so              | 'so'                 | 10    | 12    | -0.007362
+a               | 'a'                  | 13    | 14    | +0.013665
+mia             | 'mia'                | 15    | 18    | +0.017463
+moglie          | 'moglie'             | 19    | 25    | +0.012826
+,               | ','                  | 25    | 26    | +0.005897
+pen             | 'pen'                | 27    | 30    | -0.006523
+so              | 'so'                 | 30    | 32    | -0.006523
+sempre          | 'sempre'             | 33    | 39    | +0.073950
+alla            | 'alla'               | 40    | 44    | +0.007310
+sua             | 'sua'                | 45    | 48    | +0.002540
+testa           | 'testa'              | 49    | 54    | +0.002540
+.               | '.'                  | 54    | 55    | +0.022782
+Im              | 'Im'                 | 56    | 58    | +0.012881
+ma              | 'ma'                 | 58    | 60    | +0.020258
+gino            | 'gino'               | 60    | 64    | +0.009058
+di              | 'di'                 | 65    | 67    | -0.010173
+rom             | 'rom'                | 68    | 71    | -0.020786
+pere            | 'pere'               | 71    | 75    | -0.020786
+quello          | 'quello'             | 76    | 82    | -0.005044
+sp              | 'sp'                 | 83    | 85    | +0.003184
+lendi           | 'lendi'              | 85    | 90    | +0.003184
+do              | 'do'                 | 90    | 92    | +0.003184
+c               | 'c'                  | 93    | 94    | -0.013153
+rani            | 'rani'               | 94    | 98    | -0.013153
+o               | 'o'                  | 98    | 99    | -0.013153
+per             | 'per'                | 100   | 103   | -0.006935
+s               | 's'                  | 104   | 105   | -0.008787
+rot             | 'rot'                | 105   | 108   | -0.008787
+ola             | 'ola'                | 108   | 111   | -0.003346
+rle             | 'rle'                | 111   | 114   | -0.003346
+il              | 'il'                 | 115   | 117   | +0.002046
+ce              | 'ce'                 | 118   | 120   | +0.006864
+rve             | 'rve'                | 120   | 123   | +0.006864
+llo             | 'llo'                | 123   | 126   | +0.006260
+e               | 'e'                  | 127   | 128   | +0.017387
+ottenere        | 'ottenere'           | 129   | 137   | +0.017615
+delle           | 'delle'              | 138   | 143   | +0.009082
+ri              | 'ri'                 | 144   | 146   | +0.012690
+sp              | 'sp'                 | 146   | 148   | +0.015559
+oste            | 'oste'               | 148   | 152   | +0.005768
+.               | '.'                  | 152   | 153   | +0.002033
+Alle            | 'Alle'               | 154   | 158   | +0.000004
+doma            | 'doma'               | 159   | 163   | -0.000871
+nde             | 'nde'                | 163   | 166   | -0.000871
+fonda           | 'fonda'              | 167   | 172   | +0.015489
+mentali         | 'mentali'            | 172   | 179   | +0.015489
+di              | 'di'                 | 180   | 182   | +0.001594
+qual            | 'qual'               | 183   | 187   | -0.014901
+unque           | 'unque'              | 187   | 192   | -0.014901
+matrimonio      | 'matrimonio'         | 193   | 203   | -0.013185
+.               | '.'                  | 203   | 204   | -0.011473
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Quando ' (0-6) as 'Quando'
+
+Saved word: 'Quando' with SHAP -0.005091
+  Added token 'pen' (7-10) as 'pen'
+  Added token 'so ' (10-12) as 'so'
+
+Saved word: 'penso' with SHAP -0.013714
+  Added token 'a ' (13-14) as 'a'
+
+Saved word: 'a' with SHAP +0.013665
+  Added token 'mia ' (15-18) as 'mia'
+
+Saved word: 'mia' with SHAP +0.017463
+  Added token 'moglie' (19-25) as 'moglie'
+  Added token ', ' (25-26) as ','
+
+Saved word: 'moglie,' with SHAP +0.018722
+  Added token 'pen' (27-30) as 'pen'
+  Added token 'so ' (30-32) as 'so'
+
+Saved word: 'penso' with SHAP -0.013045
+  Added token 'sempre ' (33-39) as 'sempre'
+
+Saved word: 'sempre' with SHAP +0.073950
+  Added token 'alla ' (40-44) as 'alla'
+
+Saved word: 'alla' with SHAP +0.007310
+  Added token 'sua ' (45-48) as 'sua'
+
+Saved word: 'sua' with SHAP +0.002540
+  Added token 'testa' (49-54) as 'testa'
+  Added token '. ' (54-55) as '.'
+
+Saved word: 'testa.' with SHAP +0.025322
+  Added token 'Im' (56-58) as 'Im'
+  Added token 'ma' (58-60) as 'ma'
+  Added token 'gino ' (60-64) as 'gino'
+
+Saved word: 'Immagino' with SHAP +0.042197
+  Added token 'di ' (65-67) as 'di'
+
+Saved word: 'di' with SHAP -0.010173
+  Added token 'rom' (68-71) as 'rom'
+  Added token 'pere ' (71-75) as 'pere'
+
+Saved word: 'rompere' with SHAP -0.041572
+  Added token 'quello ' (76-82) as 'quello'
+
+Saved word: 'quello' with SHAP -0.005044
+  Added token 'sp' (83-85) as 'sp'
+  Added token 'lendi' (85-90) as 'lendi'
+  Added token 'do ' (90-92) as 'do'
+
+Saved word: 'splendido' with SHAP +0.009551
+  Added token 'c' (93-94) as 'c'
+  Added token 'rani' (94-98) as 'rani'
+  Added token 'o ' (98-99) as 'o'
+
+Saved word: 'cranio' with SHAP -0.039460
+  Added token 'per ' (100-103) as 'per'
+
+Saved word: 'per' with SHAP -0.006935
+  Added token 's' (104-105) as 's'
+  Added token 'rot' (105-108) as 'rot'
+  Added token 'ola' (108-111) as 'ola'
+  Added token 'rle ' (111-114) as 'rle'
+
+Saved word: 'srotolarle' with SHAP -0.024264
+  Added token 'il ' (115-117) as 'il'
+
+Saved word: 'il' with SHAP +0.002046
+  Added token 'ce' (118-120) as 'ce'
+  Added token 'rve' (120-123) as 'rve'
+  Added token 'llo ' (123-126) as 'llo'
+
+Saved word: 'cervello' with SHAP +0.019987
+  Added token 'e ' (127-128) as 'e'
+
+Saved word: 'e' with SHAP +0.017387
+  Added token 'ottenere ' (129-137) as 'ottenere'
+
+Saved word: 'ottenere' with SHAP +0.017615
+  Added token 'delle ' (138-143) as 'delle'
+
+Saved word: 'delle' with SHAP +0.009082
+  Added token 'ri' (144-146) as 'ri'
+  Added token 'sp' (146-148) as 'sp'
+  Added token 'oste' (148-152) as 'oste'
+  Added token '. ' (152-153) as '.'
+
+Saved word: 'risposte.' with SHAP +0.036051
+  Added token 'Alle ' (154-158) as 'Alle'
+
+Saved word: 'Alle' with SHAP +0.000004
+  Added token 'doma' (159-163) as 'doma'
+  Added token 'nde ' (163-166) as 'nde'
+
+Saved word: 'domande' with SHAP -0.001742
+  Added token 'fonda' (167-172) as 'fonda'
+  Added token 'mentali ' (172-179) as 'mentali'
+
+Saved word: 'fondamentali' with SHAP +0.030978
+  Added token 'di ' (180-182) as 'di'
+
+Saved word: 'di' with SHAP +0.001594
+  Added token 'qual' (183-187) as 'qual'
+  Added token 'unque ' (187-192) as 'unque'
+
+Saved word: 'qualunque' with SHAP -0.029802
+  Added token 'matrimonio' (193-203) as 'matrimonio'
+  Added token '.' (203-204) as '.'
+
+Saved final word: 'matrimonio.' with SHAP -0.024658
+
+=== Final Word Contributions ===
+sempre                    +0.073950 (POS)
+Immagino                  +0.042197 (POS)
+rompere                   -0.041572 (NEG)
+cranio                    -0.039460 (NEG)
+risposte.                 +0.036051 (POS)
+fondamentali              +0.030978 (POS)
+qualunque                 -0.029802 (NEG)
+testa.                    +0.025322 (POS)
+matrimonio.               -0.024658 (NEG)
+srotolarle                -0.024264 (NEG)
+cervello                  +0.019987 (POS)
+moglie,                   +0.018722 (POS)
+ottenere                  +0.017615 (POS)
+mia                       +0.017463 (POS)
+e                         +0.017387 (POS)
+a                         +0.013665 (POS)
+penso                     -0.013045 (NEG)
+splendido                 +0.009551 (POS)
+delle                     +0.009082 (POS)
+alla                      +0.007310 (POS)
+per                       -0.006935 (NEG)
+Quando                    -0.005091 (NEG)
+quello                    -0.005044 (NEG)
+sua                       +0.002540 (POS)
+il                        +0.002046 (POS)
+domande                   -0.001742 (NEG)
+di                        +0.001594 (POS)
+Alle                      +0.000004 (POS)

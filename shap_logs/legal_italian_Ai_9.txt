@@ -1,0 +1,743 @@
+
+=== Processing text ===
+Ai fini del presente regolamento la nozione di «spazio accessibile al pubblico» dovrebbe essere intesa come riferita a qualsiasi luogo fisico accessibile a un numero indeterminato di persone fisiche e a prescindere dal fatto che il luogo in questione sia di proprietà pubblica o privata, indipendentemente dall'attività per la quale il luogo può essere utilizzato, quali il commercio (ad esempio negozi, ristoranti, bar), i servizi (ad esempio banche, attività professionali, ospitalità), lo sport (ad esempio piscine, palestre, stadi), i trasporti (ad esempio stazioni di autobus, metropolitane e ferroviarie, aeroporti, mezzi di trasporto), l'intrattenimento (ad esempio cinema, teatri, musei, sale da concerto e sale conferenze), il tempo libero o altro (ad esempio strade e piazze pubbliche, parchi, foreste, parchi giochi).
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002174
+Ai              | 'Ai'                 | 0     | 2     | +0.002174
+fini            | 'fini'               | 3     | 7     | +0.003345
+del             | 'del'                | 8     | 11    | +0.003345
+presente        | 'presente'           | 12    | 20    | +0.003345
+re              | 're'                 | 21    | 23    | +0.004209
+gola            | 'gola'               | 23    | 27    | +0.004209
+mento           | 'mento'              | 27    | 32    | +0.004209
+la              | 'la'                 | 33    | 35    | +0.003647
+no              | 'no'                 | 36    | 38    | +0.003647
+zione           | 'zione'              | 38    | 43    | +0.003647
+di              | 'di'                 | 44    | 46    | +0.001070
+«               | '«'                  | 47    | 48    | +0.001070
+spazio          | 'spazio'             | 48    | 54    | +0.001070
+access          | 'access'             | 55    | 61    | +0.000640
+ibile           | 'ibile'              | 61    | 66    | +0.000640
+al              | 'al'                 | 67    | 69    | +0.000889
+pubblico        | 'pubblico'           | 70    | 78    | +0.000889
+»               | '»'                  | 78    | 79    | +0.000889
+do              | 'do'                 | 80    | 82    | +0.005958
+vre             | 'vre'                | 82    | 85    | +0.005958
+bbe             | 'bbe'                | 85    | 88    | +0.004809
+essere          | 'essere'             | 89    | 95    | +0.004524
+inte            | 'inte'               | 96    | 100   | +0.004033
+sa              | 'sa'                 | 100   | 102   | +0.004033
+come            | 'come'               | 103   | 107   | -0.000402
+ri              | 'ri'                 | 108   | 110   | -0.000402
+ferita          | 'ferita'             | 110   | 116   | -0.000402
+a               | 'a'                  | 117   | 118   | +0.007783
+qualsiasi       | 'qualsiasi'          | 119   | 128   | +0.007783
+luogo           | 'luogo'              | 129   | 134   | +0.004769
+fisico          | 'fisico'             | 135   | 141   | +0.004769
+access          | 'access'             | 142   | 148   | +0.006167
+ibile           | 'ibile'              | 148   | 153   | +0.006167
+a               | 'a'                  | 154   | 155   | +0.007334
+un              | 'un'                 | 156   | 158   | +0.007334
+numero          | 'numero'             | 159   | 165   | +0.007334
+inde            | 'inde'               | 166   | 170   | +0.001099
+ter             | 'ter'                | 170   | 173   | +0.001099
+minato          | 'minato'             | 173   | 179   | +0.001099
+di              | 'di'                 | 180   | 182   | +0.001099
+persone         | 'persone'            | 183   | 190   | +0.001099
+fi              | 'fi'                 | 191   | 193   | +0.002935
+sic             | 'sic'                | 193   | 196   | +0.002935
+he              | 'he'                 | 196   | 198   | +0.002935
+e               | 'e'                  | 199   | 200   | +0.002935
+a               | 'a'                  | 201   | 202   | +0.002935
+pre             | 'pre'                | 203   | 206   | +0.001179
+sci             | 'sci'                | 206   | 209   | +0.001179
+nder            | 'nder'               | 209   | 213   | +0.001179
+e               | 'e'                  | 213   | 214   | +0.001179
+dal             | 'dal'                | 215   | 218   | +0.001156
+fatto           | 'fatto'              | 219   | 224   | +0.001156
+che             | 'che'                | 225   | 228   | +0.001156
+il              | 'il'                 | 229   | 231   | +0.001156
+luogo           | 'luogo'              | 232   | 237   | +0.002729
+in              | 'in'                 | 238   | 240   | +0.002729
+questione       | 'questione'          | 241   | 250   | +0.003965
+sia             | 'sia'                | 251   | 254   | +0.003965
+di              | 'di'                 | 255   | 257   | +0.001623
+proprietà       | 'proprietà'          | 258   | 267   | +0.001623
+pubblica        | 'pubblica'           | 268   | 276   | +0.003305
+o               | 'o'                  | 277   | 278   | +0.003305
+privata         | 'privata'            | 279   | 286   | +0.003305
+,               | ','                  | 286   | 287   | +0.001840
+indipendente    | 'indipendente'       | 288   | 300   | +0.004520
+mente           | 'mente'              | 300   | 305   | +0.004520
+dall            | 'dall'               | 306   | 310   | +0.004520
+'               | "'"                  | 310   | 311   | +0.004520
+attività        | 'attività'           | 311   | 319   | +0.004520
+per             | 'per'                | 320   | 323   | +0.004520
+la              | 'la'                 | 324   | 326   | +0.004520
+quale           | 'quale'              | 327   | 332   | +0.004520
+il              | 'il'                 | 333   | 335   | +0.005895
+luogo           | 'luogo'              | 336   | 341   | +0.005895
+può             | 'può'                | 342   | 345   | +0.005895
+essere          | 'essere'             | 346   | 352   | +0.005895
+utilizzato      | 'utilizzato'         | 353   | 363   | +0.005895
+,               | ','                  | 363   | 364   | +0.005895
+quali           | 'quali'              | 365   | 370   | +0.004615
+il              | 'il'                 | 371   | 373   | +0.004615
+commercio       | 'commercio'          | 374   | 383   | +0.004615
+(               | '('                  | 384   | 385   | +0.003064
+ad              | 'ad'                 | 385   | 387   | +0.003064
+esempio         | 'esempio'            | 388   | 395   | +0.003064
+nego            | 'nego'               | 396   | 400   | +0.003064
+zi              | 'zi'                 | 400   | 402   | +0.003064
+,               | ','                  | 402   | 403   | +0.003064
+ri              | 'ri'                 | 404   | 406   | +0.003064
+stor            | 'stor'               | 406   | 410   | +0.003064
+anti            | 'anti'               | 410   | 414   | +0.003064
+,               | ','                  | 414   | 415   | +0.003064
+bar             | 'bar'                | 416   | 419   | +0.003064
+)               | ')'                  | 419   | 420   | +0.003064
+,               | ','                  | 420   | 421   | +0.002592
+i               | 'i'                  | 422   | 423   | +0.002592
+servizi         | 'servizi'            | 424   | 431   | +0.002592
+(               | '('                  | 432   | 433   | +0.002740
+ad              | 'ad'                 | 433   | 435   | +0.002740
+esempio         | 'esempio'            | 436   | 443   | +0.002740
+ban             | 'ban'                | 444   | 447   | +0.002740
+che             | 'che'                | 447   | 450   | +0.002740
+,               | ','                  | 450   | 451   | +0.002740
+attività        | 'attività'           | 452   | 460   | +0.002325
+professional    | 'professional'       | 461   | 473   | +0.002325
+i               | 'i'                  | 473   | 474   | +0.002325
+,               | ','                  | 474   | 475   | +0.002325
+ospita          | 'ospita'             | 476   | 482   | +0.002325
+lità            | 'lità'               | 482   | 486   | +0.002325
+)               | ')'                  | 486   | 487   | +0.002325
+,               | ','                  | 487   | 488   | +0.002166
+lo              | 'lo'                 | 489   | 491   | +0.002166
+sport           | 'sport'              | 492   | 497   | +0.002166
+(               | '('                  | 498   | 499   | +0.003349
+ad              | 'ad'                 | 499   | 501   | +0.003349
+esempio         | 'esempio'            | 502   | 509   | +0.003349
+pis             | 'pis'                | 510   | 513   | +0.003349
+cine            | 'cine'               | 513   | 517   | +0.003349
+,               | ','                  | 517   | 518   | +0.003349
+pale            | 'pale'               | 519   | 523   | +0.002918
+stre            | 'stre'               | 523   | 527   | +0.002918
+,               | ','                  | 527   | 528   | +0.002918
+stad            | 'stad'               | 529   | 533   | +0.002918
+i               | 'i'                  | 533   | 534   | +0.002918
+)               | ')'                  | 534   | 535   | +0.002918
+,               | ','                  | 535   | 536   | +0.002282
+i               | 'i'                  | 537   | 538   | +0.002282
+tras            | 'tras'               | 539   | 543   | +0.002282
+port            | 'port'               | 543   | 547   | +0.002282
+i               | 'i'                  | 547   | 548   | +0.002282
+(               | '('                  | 549   | 550   | +0.003515
+ad              | 'ad'                 | 550   | 552   | +0.003515
+esempio         | 'esempio'            | 553   | 560   | +0.003515
+stazioni        | 'stazioni'           | 561   | 569   | +0.003515
+di              | 'di'                 | 570   | 572   | +0.003515
+autobus         | 'autobus'            | 573   | 580   | +0.003515
+,               | ','                  | 580   | 581   | +0.003515
+metropolitan    | 'metropolitan'       | 582   | 594   | +0.002963
+e               | 'e'                  | 594   | 595   | +0.002963
+e               | 'e'                  | 596   | 597   | +0.002963
+ferrovia        | 'ferrovia'           | 598   | 606   | +0.002963
+rie             | 'rie'                | 606   | 609   | +0.002963
+,               | ','                  | 609   | 610   | +0.002963
+ae              | 'ae'                 | 611   | 613   | +0.002190
+rop             | 'rop'                | 613   | 616   | +0.002190
+ort             | 'ort'                | 616   | 619   | +0.002190
+i               | 'i'                  | 619   | 620   | +0.002190
+,               | ','                  | 620   | 621   | +0.002190
+mezzi           | 'mezzi'              | 622   | 627   | +0.002542
+di              | 'di'                 | 628   | 630   | +0.002542
+trasporto       | 'trasporto'          | 631   | 640   | +0.002542
+)               | ')'                  | 640   | 641   | +0.002542
+,               | ','                  | 641   | 642   | +0.000863
+l               | 'l'                  | 643   | 644   | +0.000263
+'               | "'"                  | 644   | 645   | +0.000263
+intrat          | 'intrat'             | 645   | 651   | +0.000263
+tenimento       | 'tenimento'          | 651   | 660   | +0.000263
+(               | '('                  | 661   | 662   | +0.001417
+ad              | 'ad'                 | 662   | 664   | +0.001417
+esempio         | 'esempio'            | 665   | 672   | +0.001417
+cinema          | 'cinema'             | 673   | 679   | +0.001417
+,               | ','                  | 679   | 680   | +0.001417
+teatri          | 'teatri'             | 681   | 687   | +0.000767
+,               | ','                  | 687   | 688   | +0.000767
+mu              | 'mu'                 | 689   | 691   | +0.000767
+sei             | 'sei'                | 691   | 694   | +0.000767
+,               | ','                  | 694   | 695   | +0.000767
+sale            | 'sale'               | 696   | 700   | +0.000579
+da              | 'da'                 | 701   | 703   | +0.000579
+concerto        | 'concerto'           | 704   | 712   | +0.000579
+e               | 'e'                  | 713   | 714   | +0.000579
+sale            | 'sale'               | 715   | 719   | +0.000579
+con             | 'con'                | 720   | 723   | +0.000579
+fere            | 'fere'               | 723   | 727   | +0.000579
+nze             | 'nze'                | 727   | 730   | +0.000579
+)               | ')'                  | 730   | 731   | +0.000579
+,               | ','                  | 731   | 732   | +0.003314
+il              | 'il'                 | 733   | 735   | +0.003619
+tempo           | 'tempo'              | 736   | 741   | +0.003619
+libero          | 'libero'             | 742   | 748   | +0.003619
+o               | 'o'                  | 749   | 750   | +0.003619
+altro           | 'altro'              | 751   | 756   | +0.003619
+(               | '('                  | 757   | 758   | +0.001646
+ad              | 'ad'                 | 758   | 760   | +0.001646
+esempio         | 'esempio'            | 761   | 768   | +0.001646
+strade          | 'strade'             | 769   | 775   | +0.001646
+e               | 'e'                  | 776   | 777   | +0.001646
+pia             | 'pia'                | 778   | 781   | +0.001646
+zze             | 'zze'                | 781   | 784   | +0.001646
+pub             | 'pub'                | 785   | 788   | +0.001646
+bliche          | 'bliche'             | 788   | 794   | +0.001646
+,               | ','                  | 794   | 795   | +0.001646
+parc            | 'parc'               | 796   | 800   | +0.001697
+hi              | 'hi'                 | 800   | 802   | +0.001697
+,               | ','                  | 802   | 803   | +0.001697
+forest          | 'forest'             | 804   | 810   | +0.001697
+e               | 'e'                  | 810   | 811   | +0.001697
+,               | ','                  | 811   | 812   | +0.001697
+parc            | 'parc'               | 813   | 817   | +0.001697
+hi              | 'hi'                 | 817   | 819   | +0.001697
+giochi          | 'giochi'             | 820   | 826   | +0.001697
+)               | ')'                  | 826   | 827   | +0.001697
+.               | '.'                  | 827   | 828   | +0.003922
+                | ''                   | 0     | 0     | +0.002441
+  Added token 'Ai ' (0-2) as 'Ai'
+
+Saved word: 'Ai' with SHAP +0.002174
+  Added token 'fini ' (3-7) as 'fini'
+
+Saved word: 'fini' with SHAP +0.003345
+  Added token 'del ' (8-11) as 'del'
+
+Saved word: 'del' with SHAP +0.003345
+  Added token 'presente ' (12-20) as 'presente'
+
+Saved word: 'presente' with SHAP +0.003345
+  Added token 're' (21-23) as 're'
+  Added token 'gola' (23-27) as 'gola'
+  Added token 'mento ' (27-32) as 'mento'
+
+Saved word: 'regolamento' with SHAP +0.012627
+  Added token 'la ' (33-35) as 'la'
+
+Saved word: 'la' with SHAP +0.003647
+  Added token 'no' (36-38) as 'no'
+  Added token 'zione ' (38-43) as 'zione'
+
+Saved word: 'nozione' with SHAP +0.007294
+  Added token 'di ' (44-46) as 'di'
+
+Saved word: 'di' with SHAP +0.001070
+  Added token '«' (47-48) as '«'
+  Added token 'spazio ' (48-54) as 'spazio'
+
+Saved word: '«spazio' with SHAP +0.002141
+  Added token 'access' (55-61) as 'access'
+  Added token 'ibile ' (61-66) as 'ibile'
+
+Saved word: 'accessibile' with SHAP +0.001281
+  Added token 'al ' (67-69) as 'al'
+
+Saved word: 'al' with SHAP +0.000889
+  Added token 'pubblico' (70-78) as 'pubblico'
+  Added token '» ' (78-79) as '»'
+
+Saved word: 'pubblico»' with SHAP +0.001779
+  Added token 'do' (80-82) as 'do'
+  Added token 'vre' (82-85) as 'vre'
+  Added token 'bbe ' (85-88) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.016725
+  Added token 'essere ' (89-95) as 'essere'
+
+Saved word: 'essere' with SHAP +0.004524
+  Added token 'inte' (96-100) as 'inte'
+  Added token 'sa ' (100-102) as 'sa'
+
+Saved word: 'intesa' with SHAP +0.008065
+  Added token 'come ' (103-107) as 'come'
+
+Saved word: 'come' with SHAP -0.000402
+  Added token 'ri' (108-110) as 'ri'
+  Added token 'ferita ' (110-116) as 'ferita'
+
+Saved word: 'riferita' with SHAP -0.000805
+  Added token 'a ' (117-118) as 'a'
+
+Saved word: 'a' with SHAP +0.007783
+  Added token 'qualsiasi ' (119-128) as 'qualsiasi'
+
+Saved word: 'qualsiasi' with SHAP +0.007783
+  Added token 'luogo ' (129-134) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.004769
+  Added token 'fisico ' (135-141) as 'fisico'
+
+Saved word: 'fisico' with SHAP +0.004769
+  Added token 'access' (142-148) as 'access'
+  Added token 'ibile ' (148-153) as 'ibile'
+
+Saved word: 'accessibile' with SHAP +0.012335
+  Added token 'a ' (154-155) as 'a'
+
+Saved word: 'a' with SHAP +0.007334
+  Added token 'un ' (156-158) as 'un'
+
+Saved word: 'un' with SHAP +0.007334
+  Added token 'numero ' (159-165) as 'numero'
+
+Saved word: 'numero' with SHAP +0.007334
+  Added token 'inde' (166-170) as 'inde'
+  Added token 'ter' (170-173) as 'ter'
+  Added token 'minato ' (173-179) as 'minato'
+
+Saved word: 'indeterminato' with SHAP +0.003297
+  Added token 'di ' (180-182) as 'di'
+
+Saved word: 'di' with SHAP +0.001099
+  Added token 'persone ' (183-190) as 'persone'
+
+Saved word: 'persone' with SHAP +0.001099
+  Added token 'fi' (191-193) as 'fi'
+  Added token 'sic' (193-196) as 'sic'
+  Added token 'he ' (196-198) as 'he'
+
+Saved word: 'fisiche' with SHAP +0.008805
+  Added token 'e ' (199-200) as 'e'
+
+Saved word: 'e' with SHAP +0.002935
+  Added token 'a ' (201-202) as 'a'
+
+Saved word: 'a' with SHAP +0.002935
+  Added token 'pre' (203-206) as 'pre'
+  Added token 'sci' (206-209) as 'sci'
+  Added token 'nder' (209-213) as 'nder'
+  Added token 'e ' (213-214) as 'e'
+
+Saved word: 'prescindere' with SHAP +0.004715
+  Added token 'dal ' (215-218) as 'dal'
+
+Saved word: 'dal' with SHAP +0.001156
+  Added token 'fatto ' (219-224) as 'fatto'
+
+Saved word: 'fatto' with SHAP +0.001156
+  Added token 'che ' (225-228) as 'che'
+
+Saved word: 'che' with SHAP +0.001156
+  Added token 'il ' (229-231) as 'il'
+
+Saved word: 'il' with SHAP +0.001156
+  Added token 'luogo ' (232-237) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.002729
+  Added token 'in ' (238-240) as 'in'
+
+Saved word: 'in' with SHAP +0.002729
+  Added token 'questione ' (241-250) as 'questione'
+
+Saved word: 'questione' with SHAP +0.003965
+  Added token 'sia ' (251-254) as 'sia'
+
+Saved word: 'sia' with SHAP +0.003965
+  Added token 'di ' (255-257) as 'di'
+
+Saved word: 'di' with SHAP +0.001623
+  Added token 'proprietà ' (258-267) as 'proprietà'
+
+Saved word: 'proprietà' with SHAP +0.001623
+  Added token 'pubblica ' (268-276) as 'pubblica'
+
+Saved word: 'pubblica' with SHAP +0.003305
+  Added token 'o ' (277-278) as 'o'
+
+Saved word: 'o' with SHAP +0.003305
+  Added token 'privata' (279-286) as 'privata'
+  Added token ', ' (286-287) as ','
+
+Saved word: 'privata,' with SHAP +0.005145
+  Added token 'indipendente' (288-300) as 'indipendente'
+  Added token 'mente ' (300-305) as 'mente'
+
+Saved word: 'indipendentemente' with SHAP +0.009040
+  Added token 'dall' (306-310) as 'dall'
+  Added token ''' (310-311) as '''
+  Added token 'attività ' (311-319) as 'attività'
+
+Saved word: 'dall'attività' with SHAP +0.013560
+  Added token 'per ' (320-323) as 'per'
+
+Saved word: 'per' with SHAP +0.004520
+  Added token 'la ' (324-326) as 'la'
+
+Saved word: 'la' with SHAP +0.004520
+  Added token 'quale ' (327-332) as 'quale'
+
+Saved word: 'quale' with SHAP +0.004520
+  Added token 'il ' (333-335) as 'il'
+
+Saved word: 'il' with SHAP +0.005895
+  Added token 'luogo ' (336-341) as 'luogo'
+
+Saved word: 'luogo' with SHAP +0.005895
+  Added token 'può ' (342-345) as 'può'
+
+Saved word: 'può' with SHAP +0.005895
+  Added token 'essere ' (346-352) as 'essere'
+
+Saved word: 'essere' with SHAP +0.005895
+  Added token 'utilizzato' (353-363) as 'utilizzato'
+  Added token ', ' (363-364) as ','
+
+Saved word: 'utilizzato,' with SHAP +0.011790
+  Added token 'quali ' (365-370) as 'quali'
+
+Saved word: 'quali' with SHAP +0.004615
+  Added token 'il ' (371-373) as 'il'
+
+Saved word: 'il' with SHAP +0.004615
+  Added token 'commercio ' (374-383) as 'commercio'
+
+Saved word: 'commercio' with SHAP +0.004615
+  Added token '(' (384-385) as '('
+  Added token 'ad ' (385-387) as 'ad'
+
+Saved word: '(ad' with SHAP +0.006129
+  Added token 'esempio ' (388-395) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.003064
+  Added token 'nego' (396-400) as 'nego'
+  Added token 'zi' (400-402) as 'zi'
+  Added token ', ' (402-403) as ','
+
+Saved word: 'negozi,' with SHAP +0.009193
+  Added token 'ri' (404-406) as 'ri'
+  Added token 'stor' (406-410) as 'stor'
+  Added token 'anti' (410-414) as 'anti'
+  Added token ', ' (414-415) as ','
+
+Saved word: 'ristoranti,' with SHAP +0.012258
+  Added token 'bar' (416-419) as 'bar'
+  Added token ')' (419-420) as ')'
+  Added token ', ' (420-421) as ','
+
+Saved word: 'bar),' with SHAP +0.008721
+  Added token 'i ' (422-423) as 'i'
+
+Saved word: 'i' with SHAP +0.002592
+  Added token 'servizi ' (424-431) as 'servizi'
+
+Saved word: 'servizi' with SHAP +0.002592
+  Added token '(' (432-433) as '('
+  Added token 'ad ' (433-435) as 'ad'
+
+Saved word: '(ad' with SHAP +0.005480
+  Added token 'esempio ' (436-443) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.002740
+  Added token 'ban' (444-447) as 'ban'
+  Added token 'che' (447-450) as 'che'
+  Added token ', ' (450-451) as ','
+
+Saved word: 'banche,' with SHAP +0.008220
+  Added token 'attività ' (452-460) as 'attività'
+
+Saved word: 'attività' with SHAP +0.002325
+  Added token 'professional' (461-473) as 'professional'
+  Added token 'i' (473-474) as 'i'
+  Added token ', ' (474-475) as ','
+
+Saved word: 'professionali,' with SHAP +0.006974
+  Added token 'ospita' (476-482) as 'ospita'
+  Added token 'lità' (482-486) as 'lità'
+  Added token ')' (486-487) as ')'
+  Added token ', ' (487-488) as ','
+
+Saved word: 'ospitalità),' with SHAP +0.009140
+  Added token 'lo ' (489-491) as 'lo'
+
+Saved word: 'lo' with SHAP +0.002166
+  Added token 'sport ' (492-497) as 'sport'
+
+Saved word: 'sport' with SHAP +0.002166
+  Added token '(' (498-499) as '('
+  Added token 'ad ' (499-501) as 'ad'
+
+Saved word: '(ad' with SHAP +0.006697
+  Added token 'esempio ' (502-509) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.003349
+  Added token 'pis' (510-513) as 'pis'
+  Added token 'cine' (513-517) as 'cine'
+  Added token ', ' (517-518) as ','
+
+Saved word: 'piscine,' with SHAP +0.010046
+  Added token 'pale' (519-523) as 'pale'
+  Added token 'stre' (523-527) as 'stre'
+  Added token ', ' (527-528) as ','
+
+Saved word: 'palestre,' with SHAP +0.008755
+  Added token 'stad' (529-533) as 'stad'
+  Added token 'i' (533-534) as 'i'
+  Added token ')' (534-535) as ')'
+  Added token ', ' (535-536) as ','
+
+Saved word: 'stadi),' with SHAP +0.011037
+  Added token 'i ' (537-538) as 'i'
+
+Saved word: 'i' with SHAP +0.002282
+  Added token 'tras' (539-543) as 'tras'
+  Added token 'port' (543-547) as 'port'
+  Added token 'i ' (547-548) as 'i'
+
+Saved word: 'trasporti' with SHAP +0.006845
+  Added token '(' (549-550) as '('
+  Added token 'ad ' (550-552) as 'ad'
+
+Saved word: '(ad' with SHAP +0.007029
+  Added token 'esempio ' (553-560) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.003515
+  Added token 'stazioni ' (561-569) as 'stazioni'
+
+Saved word: 'stazioni' with SHAP +0.003515
+  Added token 'di ' (570-572) as 'di'
+
+Saved word: 'di' with SHAP +0.003515
+  Added token 'autobus' (573-580) as 'autobus'
+  Added token ', ' (580-581) as ','
+
+Saved word: 'autobus,' with SHAP +0.007029
+  Added token 'metropolitan' (582-594) as 'metropolitan'
+  Added token 'e ' (594-595) as 'e'
+
+Saved word: 'metropolitane' with SHAP +0.005927
+  Added token 'e ' (596-597) as 'e'
+
+Saved word: 'e' with SHAP +0.002963
+  Added token 'ferrovia' (598-606) as 'ferrovia'
+  Added token 'rie' (606-609) as 'rie'
+  Added token ', ' (609-610) as ','
+
+Saved word: 'ferroviarie,' with SHAP +0.008890
+  Added token 'ae' (611-613) as 'ae'
+  Added token 'rop' (613-616) as 'rop'
+  Added token 'ort' (616-619) as 'ort'
+  Added token 'i' (619-620) as 'i'
+  Added token ', ' (620-621) as ','
+
+Saved word: 'aeroporti,' with SHAP +0.010952
+  Added token 'mezzi ' (622-627) as 'mezzi'
+
+Saved word: 'mezzi' with SHAP +0.002542
+  Added token 'di ' (628-630) as 'di'
+
+Saved word: 'di' with SHAP +0.002542
+  Added token 'trasporto' (631-640) as 'trasporto'
+  Added token ')' (640-641) as ')'
+  Added token ', ' (641-642) as ','
+
+Saved word: 'trasporto),' with SHAP +0.005947
+  Added token 'l' (643-644) as 'l'
+  Added token ''' (644-645) as '''
+  Added token 'intrat' (645-651) as 'intrat'
+  Added token 'tenimento ' (651-660) as 'tenimento'
+
+Saved word: 'l'intrattenimento' with SHAP +0.001050
+  Added token '(' (661-662) as '('
+  Added token 'ad ' (662-664) as 'ad'
+
+Saved word: '(ad' with SHAP +0.002834
+  Added token 'esempio ' (665-672) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.001417
+  Added token 'cinema' (673-679) as 'cinema'
+  Added token ', ' (679-680) as ','
+
+Saved word: 'cinema,' with SHAP +0.002834
+  Added token 'teatri' (681-687) as 'teatri'
+  Added token ', ' (687-688) as ','
+
+Saved word: 'teatri,' with SHAP +0.001534
+  Added token 'mu' (689-691) as 'mu'
+  Added token 'sei' (691-694) as 'sei'
+  Added token ', ' (694-695) as ','
+
+Saved word: 'musei,' with SHAP +0.002301
+  Added token 'sale ' (696-700) as 'sale'
+
+Saved word: 'sale' with SHAP +0.000579
+  Added token 'da ' (701-703) as 'da'
+
+Saved word: 'da' with SHAP +0.000579
+  Added token 'concerto ' (704-712) as 'concerto'
+
+Saved word: 'concerto' with SHAP +0.000579
+  Added token 'e ' (713-714) as 'e'
+
+Saved word: 'e' with SHAP +0.000579
+  Added token 'sale ' (715-719) as 'sale'
+
+Saved word: 'sale' with SHAP +0.000579
+  Added token 'con' (720-723) as 'con'
+  Added token 'fere' (723-727) as 'fere'
+  Added token 'nze' (727-730) as 'nze'
+  Added token ')' (730-731) as ')'
+  Added token ', ' (731-732) as ','
+
+Saved word: 'conferenze),' with SHAP +0.005630
+  Added token 'il ' (733-735) as 'il'
+
+Saved word: 'il' with SHAP +0.003619
+  Added token 'tempo ' (736-741) as 'tempo'
+
+Saved word: 'tempo' with SHAP +0.003619
+  Added token 'libero ' (742-748) as 'libero'
+
+Saved word: 'libero' with SHAP +0.003619
+  Added token 'o ' (749-750) as 'o'
+
+Saved word: 'o' with SHAP +0.003619
+  Added token 'altro ' (751-756) as 'altro'
+
+Saved word: 'altro' with SHAP +0.003619
+  Added token '(' (757-758) as '('
+  Added token 'ad ' (758-760) as 'ad'
+
+Saved word: '(ad' with SHAP +0.003293
+  Added token 'esempio ' (761-768) as 'esempio'
+
+Saved word: 'esempio' with SHAP +0.001646
+  Added token 'strade ' (769-775) as 'strade'
+
+Saved word: 'strade' with SHAP +0.001646
+  Added token 'e ' (776-777) as 'e'
+
+Saved word: 'e' with SHAP +0.001646
+  Added token 'pia' (778-781) as 'pia'
+  Added token 'zze ' (781-784) as 'zze'
+
+Saved word: 'piazze' with SHAP +0.003293
+  Added token 'pub' (785-788) as 'pub'
+  Added token 'bliche' (788-794) as 'bliche'
+  Added token ', ' (794-795) as ','
+
+Saved word: 'pubbliche,' with SHAP +0.004939
+  Added token 'parc' (796-800) as 'parc'
+  Added token 'hi' (800-802) as 'hi'
+  Added token ', ' (802-803) as ','
+
+Saved word: 'parchi,' with SHAP +0.005090
+  Added token 'forest' (804-810) as 'forest'
+  Added token 'e' (810-811) as 'e'
+  Added token ', ' (811-812) as ','
+
+Saved word: 'foreste,' with SHAP +0.005090
+  Added token 'parc' (813-817) as 'parc'
+  Added token 'hi ' (817-819) as 'hi'
+
+Saved word: 'parchi' with SHAP +0.003394
+  Added token 'giochi' (820-826) as 'giochi'
+  Added token ')' (826-827) as ')'
+  Added token '.' (827-828) as '.'
+
+Saved final word: 'giochi).' with SHAP +0.007316
+
+=== Final Word Contributions ===
+dovrebbe                  +0.016725 (POS)
+dall'attività             +0.013560 (POS)
+regolamento               +0.012627 (POS)
+accessibile               +0.012335 (POS)
+ristoranti,               +0.012258 (POS)
+utilizzato,               +0.011790 (POS)
+stadi),                   +0.011037 (POS)
+aeroporti,                +0.010952 (POS)
+piscine,                  +0.010046 (POS)
+negozi,                   +0.009193 (POS)
+ospitalità),              +0.009140 (POS)
+indipendentemente         +0.009040 (POS)
+ferroviarie,              +0.008890 (POS)
+fisiche                   +0.008805 (POS)
+palestre,                 +0.008755 (POS)
+bar),                     +0.008721 (POS)
+banche,                   +0.008220 (POS)
+intesa                    +0.008065 (POS)
+qualsiasi                 +0.007783 (POS)
+un                        +0.007334 (POS)
+numero                    +0.007334 (POS)
+giochi).                  +0.007316 (POS)
+nozione                   +0.007294 (POS)
+autobus,                  +0.007029 (POS)
+professionali,            +0.006974 (POS)
+trasporti                 +0.006845 (POS)
+trasporto),               +0.005947 (POS)
+metropolitane             +0.005927 (POS)
+essere                    +0.005895 (POS)
+può                       +0.005895 (POS)
+luogo                     +0.005895 (POS)
+conferenze),              +0.005630 (POS)
+privata,                  +0.005145 (POS)
+parchi,                   +0.005090 (POS)
+foreste,                  +0.005090 (POS)
+pubbliche,                +0.004939 (POS)
+fisico                    +0.004769 (POS)
+prescindere               +0.004715 (POS)
+quali                     +0.004615 (POS)
+commercio                 +0.004615 (POS)
+la                        +0.004520 (POS)
+per                       +0.004520 (POS)
+quale                     +0.004520 (POS)
+questione                 +0.003965 (POS)
+sia                       +0.003965 (POS)
+il                        +0.003619 (POS)
+o                         +0.003619 (POS)
+tempo                     +0.003619 (POS)
+libero                    +0.003619 (POS)
+altro                     +0.003619 (POS)
+stazioni                  +0.003515 (POS)
+parchi                    +0.003394 (POS)
+fini                      +0.003345 (POS)
+del                       +0.003345 (POS)
+presente                  +0.003345 (POS)
+pubblica                  +0.003305 (POS)
+indeterminato             +0.003297 (POS)
+(ad                       +0.003293 (POS)
+piazze                    +0.003293 (POS)
+a                         +0.002935 (POS)
+cinema,                   +0.002834 (POS)
+in                        +0.002729 (POS)
+servizi                   +0.002592 (POS)
+di                        +0.002542 (POS)
+mezzi                     +0.002542 (POS)
+attività                  +0.002325 (POS)
+musei,                    +0.002301 (POS)
+i                         +0.002282 (POS)
+Ai                        +0.002174 (POS)
+lo                        +0.002166 (POS)
+sport                     +0.002166 (POS)
+«spazio                   +0.002141 (POS)
+pubblico»                 +0.001779 (POS)
+e                         +0.001646 (POS)
+esempio                   +0.001646 (POS)
+strade                    +0.001646 (POS)
+proprietà                 +0.001623 (POS)
+teatri,                   +0.001534 (POS)
+dal                       +0.001156 (POS)
+fatto                     +0.001156 (POS)
+che                       +0.001156 (POS)
+persone                   +0.001099 (POS)
+l'intrattenimento         +0.001050 (POS)
+al                        +0.000889 (POS)
+riferita                  -0.000805 (NEG)
+sale                      +0.000579 (POS)
+da                        +0.000579 (POS)
+concerto                  +0.000579 (POS)
+come                      -0.000402 (NEG)

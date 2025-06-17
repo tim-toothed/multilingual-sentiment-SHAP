@@ -1,0 +1,140 @@
+
+=== Processing text ===
+Adattabile. Altamente contagiosa. Una volta che l'idea si e' insediata nel cervello, e' quasi impossibile da sradicare.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000812
+Ada             | 'Ada'                | 0     | 3     | -0.009908
+tta             | 'tta'                | 3     | 6     | +0.008146
+bile            | 'bile'               | 6     | 10    | +0.003354
+.               | '.'                  | 10    | 11    | -0.020545
+Alta            | 'Alta'               | 12    | 16    | -0.016346
+mente           | 'mente'              | 16    | 21    | +0.012905
+conta           | 'conta'              | 22    | 27    | +0.007318
+gios            | 'gios'               | 27    | 31    | +0.026446
+a               | 'a'                  | 31    | 32    | +0.002227
+.               | '.'                  | 32    | 33    | -0.023250
+Una             | 'Una'                | 34    | 37    | +0.013001
+volta           | 'volta'              | 38    | 43    | -0.000045
+che             | 'che'                | 44    | 47    | +0.014303
+l               | 'l'                  | 48    | 49    | +0.011032
+'               | "'"                  | 49    | 50    | +0.011032
+idea            | 'idea'               | 50    | 54    | +0.007371
+si              | 'si'                 | 55    | 57    | +0.007371
+e               | 'e'                  | 58    | 59    | +0.000931
+'               | "'"                  | 59    | 60    | +0.000931
+ins             | 'ins'                | 61    | 64    | +0.034022
+edia            | 'edia'               | 64    | 68    | +0.029766
+ta              | 'ta'                 | 68    | 70    | +0.016041
+nel             | 'nel'                | 71    | 74    | +0.004103
+ce              | 'ce'                 | 75    | 77    | +0.011762
+rve             | 'rve'                | 77    | 80    | +0.010350
+llo             | 'llo'                | 80    | 83    | +0.012143
+,               | ','                  | 83    | 84    | +0.006560
+e               | 'e'                  | 85    | 86    | -0.002361
+'               | "'"                  | 86    | 87    | -0.002361
+quasi           | 'quasi'              | 88    | 93    | -0.001878
+im              | 'im'                 | 94    | 96    | +0.055829
+pos             | 'pos'                | 96    | 99    | +0.035832
+si              | 'si'                 | 99    | 101   | +0.015971
+bile            | 'bile'               | 101   | 105   | +0.015971
+da              | 'da'                 | 106   | 108   | +0.005691
+s               | 's'                  | 109   | 110   | +0.007583
+radi            | 'radi'               | 110   | 114   | +0.007583
+care            | 'care'               | 114   | 118   | +0.007583
+.               | '.'                  | 118   | 119   | +0.008825
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ada' (0-3) as 'Ada'
+  Added token 'tta' (3-6) as 'tta'
+  Added token 'bile' (6-10) as 'bile'
+  Added token '. ' (10-11) as '.'
+
+Saved word: 'Adattabile.' with SHAP -0.018954
+  Added token 'Alta' (12-16) as 'Alta'
+  Added token 'mente ' (16-21) as 'mente'
+
+Saved word: 'Altamente' with SHAP -0.003441
+  Added token 'conta' (22-27) as 'conta'
+  Added token 'gios' (27-31) as 'gios'
+  Added token 'a' (31-32) as 'a'
+  Added token '. ' (32-33) as '.'
+
+Saved word: 'contagiosa.' with SHAP +0.012741
+  Added token 'Una ' (34-37) as 'Una'
+
+Saved word: 'Una' with SHAP +0.013001
+  Added token 'volta ' (38-43) as 'volta'
+
+Saved word: 'volta' with SHAP -0.000045
+  Added token 'che ' (44-47) as 'che'
+
+Saved word: 'che' with SHAP +0.014303
+  Added token 'l' (48-49) as 'l'
+  Added token ''' (49-50) as '''
+  Added token 'idea ' (50-54) as 'idea'
+
+Saved word: 'l'idea' with SHAP +0.029434
+  Added token 'si ' (55-57) as 'si'
+
+Saved word: 'si' with SHAP +0.007371
+  Added token 'e' (58-59) as 'e'
+  Added token '' ' (59-60) as '''
+
+Saved word: 'e'' with SHAP +0.001863
+  Added token 'ins' (61-64) as 'ins'
+  Added token 'edia' (64-68) as 'edia'
+  Added token 'ta ' (68-70) as 'ta'
+
+Saved word: 'insediata' with SHAP +0.079829
+  Added token 'nel ' (71-74) as 'nel'
+
+Saved word: 'nel' with SHAP +0.004103
+  Added token 'ce' (75-77) as 'ce'
+  Added token 'rve' (77-80) as 'rve'
+  Added token 'llo' (80-83) as 'llo'
+  Added token ', ' (83-84) as ','
+
+Saved word: 'cervello,' with SHAP +0.040817
+  Added token 'e' (85-86) as 'e'
+  Added token '' ' (86-87) as '''
+
+Saved word: 'e'' with SHAP -0.004721
+  Added token 'quasi ' (88-93) as 'quasi'
+
+Saved word: 'quasi' with SHAP -0.001878
+  Added token 'im' (94-96) as 'im'
+  Added token 'pos' (96-99) as 'pos'
+  Added token 'si' (99-101) as 'si'
+  Added token 'bile ' (101-105) as 'bile'
+
+Saved word: 'impossibile' with SHAP +0.123602
+  Added token 'da ' (106-108) as 'da'
+
+Saved word: 'da' with SHAP +0.005691
+  Added token 's' (109-110) as 's'
+  Added token 'radi' (110-114) as 'radi'
+  Added token 'care' (114-118) as 'care'
+  Added token '.' (118-119) as '.'
+
+Saved final word: 'sradicare.' with SHAP +0.031575
+
+=== Final Word Contributions ===
+impossibile               +0.123602 (POS)
+insediata                 +0.079829 (POS)
+cervello,                 +0.040817 (POS)
+sradicare.                +0.031575 (POS)
+l'idea                    +0.029434 (POS)
+Adattabile.               -0.018954 (NEG)
+che                       +0.014303 (POS)
+Una                       +0.013001 (POS)
+contagiosa.               +0.012741 (POS)
+si                        +0.007371 (POS)
+da                        +0.005691 (POS)
+e'                        -0.004721 (NEG)
+nel                       +0.004103 (POS)
+Altamente                 -0.003441 (NEG)
+quasi                     -0.001878 (NEG)
+volta                     -0.000045 (NEG)

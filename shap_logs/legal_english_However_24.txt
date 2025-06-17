@@ -1,0 +1,328 @@
+
+=== Processing text ===
+However, changes occurring to the algorithm and the performance of AI systems which continue to ‘learn’ after being placed on the market or put into service, namely automatically adapting how functions are carried out, should not constitute a substantial modification, provided that those changes have been pre-determined by the provider and assessed at the moment of the conformity assessment.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000141
+However         | 'However'            | 0     | 7     | +0.004142
+,               | ','                  | 7     | 8     | -0.001954
+changes         | 'changes'            | 9     | 16    | +0.011975
+occurring       | 'occurring'          | 17    | 26    | +0.011975
+to              | 'to'                 | 27    | 29    | +0.006290
+the             | 'the'                | 30    | 33    | +0.006290
+algorithm       | 'algorithm'          | 34    | 43    | +0.006290
+and             | 'and'                | 44    | 47    | +0.006133
+the             | 'the'                | 48    | 51    | +0.005717
+performance     | 'performance'        | 52    | 63    | +0.005717
+of              | 'of'                 | 64    | 66    | +0.005717
+AI              | 'AI'                 | 67    | 69    | +0.005717
+systems         | 'systems'            | 70    | 77    | +0.006929
+which           | 'which'              | 78    | 83    | +0.006929
+continue        | 'continue'           | 84    | 92    | +0.006243
+to              | 'to'                 | 93    | 95    | +0.006243
+‘               | '‘'                  | 96    | 97    | +0.001109
+learn           | 'learn'              | 97    | 102   | +0.001109
+’               | '’'                  | 102   | 103   | +0.001109
+after           | 'after'              | 104   | 109   | +0.001109
+being           | 'being'              | 110   | 115   | +0.002896
+placed          | 'placed'             | 116   | 122   | +0.002896
+on              | 'on'                 | 123   | 125   | +0.004973
+the             | 'the'                | 126   | 129   | +0.004973
+market          | 'market'             | 130   | 136   | +0.004973
+or              | 'or'                 | 137   | 139   | +0.014807
+put             | 'put'                | 140   | 143   | +0.005096
+into            | 'into'               | 144   | 148   | +0.005096
+service         | 'service'            | 149   | 156   | +0.005096
+,               | ','                  | 156   | 157   | +0.005096
+namely          | 'namely'             | 158   | 164   | +0.005805
+automatically   | 'automatically'      | 165   | 178   | +0.005980
+ada             | 'ada'                | 179   | 182   | +0.004702
+pti             | 'pti'                | 182   | 185   | +0.004702
+ng              | 'ng'                 | 185   | 187   | +0.004702
+how             | 'how'                | 188   | 191   | +0.015313
+functions       | 'functions'          | 192   | 201   | +0.013510
+are             | 'are'                | 202   | 205   | +0.006960
+carried         | 'carried'            | 206   | 213   | +0.006960
+out             | 'out'                | 214   | 217   | +0.006960
+,               | ','                  | 217   | 218   | +0.006411
+should          | 'should'             | 219   | 225   | +0.016552
+not             | 'not'                | 226   | 229   | +0.018188
+con             | 'con'                | 230   | 233   | +0.003243
+stitute         | 'stitute'            | 233   | 240   | +0.003243
+a               | 'a'                  | 241   | 242   | +0.002652
+substantial     | 'substantial'        | 243   | 254   | +0.002652
+modification    | 'modification'       | 255   | 267   | +0.002652
+,               | ','                  | 267   | 268   | +0.002760
+provided        | 'provided'           | 269   | 277   | +0.003869
+that            | 'that'               | 278   | 282   | +0.003869
+those           | 'those'              | 283   | 288   | +0.003869
+changes         | 'changes'            | 289   | 296   | +0.003869
+have            | 'have'               | 297   | 301   | +0.002577
+been            | 'been'               | 302   | 306   | +0.002577
+pre             | 'pre'                | 307   | 310   | +0.002577
+-               | '-'                  | 310   | 311   | +0.002577
+determined      | 'determined'         | 311   | 321   | +0.007741
+by              | 'by'                 | 322   | 324   | +0.007741
+the             | 'the'                | 325   | 328   | +0.007741
+provider        | 'provider'           | 329   | 337   | +0.007741
+and             | 'and'                | 338   | 341   | +0.007741
+ass             | 'ass'                | 342   | 345   | +0.005528
+esse            | 'esse'               | 345   | 349   | +0.005528
+d               | 'd'                  | 349   | 350   | +0.005528
+at              | 'at'                 | 351   | 353   | +0.005528
+the             | 'the'                | 354   | 357   | +0.005528
+moment          | 'moment'             | 358   | 364   | +0.006812
+of              | 'of'                 | 365   | 367   | +0.006812
+the             | 'the'                | 368   | 371   | +0.006812
+conform         | 'conform'            | 372   | 379   | +0.013201
+ity             | 'ity'                | 379   | 382   | +0.013201
+assessment      | 'assessment'         | 383   | 393   | +0.013201
+.               | '.'                  | 393   | 394   | +0.013045
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'However' (0-7) as 'However'
+  Added token ', ' (7-8) as ','
+
+Saved word: 'However,' with SHAP +0.002188
+  Added token 'changes ' (9-16) as 'changes'
+
+Saved word: 'changes' with SHAP +0.011975
+  Added token 'occurring ' (17-26) as 'occurring'
+
+Saved word: 'occurring' with SHAP +0.011975
+  Added token 'to ' (27-29) as 'to'
+
+Saved word: 'to' with SHAP +0.006290
+  Added token 'the ' (30-33) as 'the'
+
+Saved word: 'the' with SHAP +0.006290
+  Added token 'algorithm ' (34-43) as 'algorithm'
+
+Saved word: 'algorithm' with SHAP +0.006290
+  Added token 'and ' (44-47) as 'and'
+
+Saved word: 'and' with SHAP +0.006133
+  Added token 'the ' (48-51) as 'the'
+
+Saved word: 'the' with SHAP +0.005717
+  Added token 'performance ' (52-63) as 'performance'
+
+Saved word: 'performance' with SHAP +0.005717
+  Added token 'of ' (64-66) as 'of'
+
+Saved word: 'of' with SHAP +0.005717
+  Added token 'AI ' (67-69) as 'AI'
+
+Saved word: 'AI' with SHAP +0.005717
+  Added token 'systems ' (70-77) as 'systems'
+
+Saved word: 'systems' with SHAP +0.006929
+  Added token 'which ' (78-83) as 'which'
+
+Saved word: 'which' with SHAP +0.006929
+  Added token 'continue ' (84-92) as 'continue'
+
+Saved word: 'continue' with SHAP +0.006243
+  Added token 'to ' (93-95) as 'to'
+
+Saved word: 'to' with SHAP +0.006243
+  Added token '‘' (96-97) as '‘'
+  Added token 'learn' (97-102) as 'learn'
+  Added token '’ ' (102-103) as '’'
+
+Saved word: '‘learn’' with SHAP +0.003328
+  Added token 'after ' (104-109) as 'after'
+
+Saved word: 'after' with SHAP +0.001109
+  Added token 'being ' (110-115) as 'being'
+
+Saved word: 'being' with SHAP +0.002896
+  Added token 'placed ' (116-122) as 'placed'
+
+Saved word: 'placed' with SHAP +0.002896
+  Added token 'on ' (123-125) as 'on'
+
+Saved word: 'on' with SHAP +0.004973
+  Added token 'the ' (126-129) as 'the'
+
+Saved word: 'the' with SHAP +0.004973
+  Added token 'market ' (130-136) as 'market'
+
+Saved word: 'market' with SHAP +0.004973
+  Added token 'or ' (137-139) as 'or'
+
+Saved word: 'or' with SHAP +0.014807
+  Added token 'put ' (140-143) as 'put'
+
+Saved word: 'put' with SHAP +0.005096
+  Added token 'into ' (144-148) as 'into'
+
+Saved word: 'into' with SHAP +0.005096
+  Added token 'service' (149-156) as 'service'
+  Added token ', ' (156-157) as ','
+
+Saved word: 'service,' with SHAP +0.010191
+  Added token 'namely ' (158-164) as 'namely'
+
+Saved word: 'namely' with SHAP +0.005805
+  Added token 'automatically ' (165-178) as 'automatically'
+
+Saved word: 'automatically' with SHAP +0.005980
+  Added token 'ada' (179-182) as 'ada'
+  Added token 'pti' (182-185) as 'pti'
+  Added token 'ng ' (185-187) as 'ng'
+
+Saved word: 'adapting' with SHAP +0.014106
+  Added token 'how ' (188-191) as 'how'
+
+Saved word: 'how' with SHAP +0.015313
+  Added token 'functions ' (192-201) as 'functions'
+
+Saved word: 'functions' with SHAP +0.013510
+  Added token 'are ' (202-205) as 'are'
+
+Saved word: 'are' with SHAP +0.006960
+  Added token 'carried ' (206-213) as 'carried'
+
+Saved word: 'carried' with SHAP +0.006960
+  Added token 'out' (214-217) as 'out'
+  Added token ', ' (217-218) as ','
+
+Saved word: 'out,' with SHAP +0.013371
+  Added token 'should ' (219-225) as 'should'
+
+Saved word: 'should' with SHAP +0.016552
+  Added token 'not ' (226-229) as 'not'
+
+Saved word: 'not' with SHAP +0.018188
+  Added token 'con' (230-233) as 'con'
+  Added token 'stitute ' (233-240) as 'stitute'
+
+Saved word: 'constitute' with SHAP +0.006486
+  Added token 'a ' (241-242) as 'a'
+
+Saved word: 'a' with SHAP +0.002652
+  Added token 'substantial ' (243-254) as 'substantial'
+
+Saved word: 'substantial' with SHAP +0.002652
+  Added token 'modification' (255-267) as 'modification'
+  Added token ', ' (267-268) as ','
+
+Saved word: 'modification,' with SHAP +0.005412
+  Added token 'provided ' (269-277) as 'provided'
+
+Saved word: 'provided' with SHAP +0.003869
+  Added token 'that ' (278-282) as 'that'
+
+Saved word: 'that' with SHAP +0.003869
+  Added token 'those ' (283-288) as 'those'
+
+Saved word: 'those' with SHAP +0.003869
+  Added token 'changes ' (289-296) as 'changes'
+
+Saved word: 'changes' with SHAP +0.003869
+  Added token 'have ' (297-301) as 'have'
+
+Saved word: 'have' with SHAP +0.002577
+  Added token 'been ' (302-306) as 'been'
+
+Saved word: 'been' with SHAP +0.002577
+  Added token 'pre' (307-310) as 'pre'
+  Added token '-' (310-311) as '-'
+  Added token 'determined ' (311-321) as 'determined'
+
+Saved word: 'pre-determined' with SHAP +0.012895
+  Added token 'by ' (322-324) as 'by'
+
+Saved word: 'by' with SHAP +0.007741
+  Added token 'the ' (325-328) as 'the'
+
+Saved word: 'the' with SHAP +0.007741
+  Added token 'provider ' (329-337) as 'provider'
+
+Saved word: 'provider' with SHAP +0.007741
+  Added token 'and ' (338-341) as 'and'
+
+Saved word: 'and' with SHAP +0.007741
+  Added token 'ass' (342-345) as 'ass'
+  Added token 'esse' (345-349) as 'esse'
+  Added token 'd ' (349-350) as 'd'
+
+Saved word: 'assessed' with SHAP +0.016583
+  Added token 'at ' (351-353) as 'at'
+
+Saved word: 'at' with SHAP +0.005528
+  Added token 'the ' (354-357) as 'the'
+
+Saved word: 'the' with SHAP +0.005528
+  Added token 'moment ' (358-364) as 'moment'
+
+Saved word: 'moment' with SHAP +0.006812
+  Added token 'of ' (365-367) as 'of'
+
+Saved word: 'of' with SHAP +0.006812
+  Added token 'the ' (368-371) as 'the'
+
+Saved word: 'the' with SHAP +0.006812
+  Added token 'conform' (372-379) as 'conform'
+  Added token 'ity ' (379-382) as 'ity'
+
+Saved word: 'conformity' with SHAP +0.026401
+  Added token 'assessment' (383-393) as 'assessment'
+  Added token '.' (393-394) as '.'
+
+Saved final word: 'assessment.' with SHAP +0.026245
+
+=== Final Word Contributions ===
+conformity                +0.026401 (POS)
+assessment.               +0.026245 (POS)
+not                       +0.018188 (POS)
+assessed                  +0.016583 (POS)
+should                    +0.016552 (POS)
+how                       +0.015313 (POS)
+or                        +0.014807 (POS)
+adapting                  +0.014106 (POS)
+functions                 +0.013510 (POS)
+out,                      +0.013371 (POS)
+pre-determined            +0.012895 (POS)
+occurring                 +0.011975 (POS)
+service,                  +0.010191 (POS)
+and                       +0.007741 (POS)
+by                        +0.007741 (POS)
+provider                  +0.007741 (POS)
+are                       +0.006960 (POS)
+carried                   +0.006960 (POS)
+systems                   +0.006929 (POS)
+which                     +0.006929 (POS)
+the                       +0.006812 (POS)
+of                        +0.006812 (POS)
+moment                    +0.006812 (POS)
+constitute                +0.006486 (POS)
+algorithm                 +0.006290 (POS)
+to                        +0.006243 (POS)
+continue                  +0.006243 (POS)
+automatically             +0.005980 (POS)
+namely                    +0.005805 (POS)
+performance               +0.005717 (POS)
+AI                        +0.005717 (POS)
+at                        +0.005528 (POS)
+modification,             +0.005412 (POS)
+put                       +0.005096 (POS)
+into                      +0.005096 (POS)
+on                        +0.004973 (POS)
+market                    +0.004973 (POS)
+changes                   +0.003869 (POS)
+provided                  +0.003869 (POS)
+that                      +0.003869 (POS)
+those                     +0.003869 (POS)
+‘learn’                   +0.003328 (POS)
+being                     +0.002896 (POS)
+placed                    +0.002896 (POS)
+a                         +0.002652 (POS)
+substantial               +0.002652 (POS)
+have                      +0.002577 (POS)
+been                      +0.002577 (POS)
+However,                  +0.002188 (POS)
+after                     +0.001109 (POS)

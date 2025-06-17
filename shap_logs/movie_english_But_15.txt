@@ -1,0 +1,137 @@
+
+=== Processing text ===
+But you know, Alan, sometimes it's the very people who no one imagines anything of who do the things no one can imagine.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001144
+But             | 'But'                | 0     | 3     | +0.051518
+you             | 'you'                | 4     | 7     | +0.009706
+know            | 'know'               | 8     | 12    | +0.022785
+,               | ','                  | 12    | 13    | +0.043732
+Alan            | 'Alan'               | 14    | 18    | +0.021853
+,               | ','                  | 18    | 19    | -0.012133
+sometimes       | 'sometimes'          | 20    | 29    | -0.041161
+it              | 'it'                 | 30    | 32    | +0.011283
+'               | "'"                  | 32    | 33    | +0.011283
+s               | 's'                  | 33    | 34    | +0.017413
+the             | 'the'                | 35    | 38    | +0.029861
+very            | 'very'               | 39    | 43    | +0.075821
+people          | 'people'             | 44    | 50    | +0.019285
+who             | 'who'                | 51    | 54    | +0.023811
+no              | 'no'                 | 55    | 57    | +0.007348
+one             | 'one'                | 58    | 61    | +0.006397
+ima             | 'ima'                | 62    | 65    | +0.003358
+gines           | 'gines'              | 65    | 70    | +0.003358
+anything        | 'anything'           | 71    | 79    | -0.008609
+of              | 'of'                 | 80    | 82    | -0.008609
+who             | 'who'                | 83    | 86    | -0.005859
+do              | 'do'                 | 87    | 89    | -0.005859
+the             | 'the'                | 90    | 93    | -0.003548
+things          | 'things'             | 94    | 100   | -0.002061
+no              | 'no'                 | 101   | 103   | +0.000099
+one             | 'one'                | 104   | 107   | +0.000099
+can             | 'can'                | 108   | 111   | +0.001385
+ima             | 'ima'                | 112   | 115   | -0.001647
+gine            | 'gine'               | 115   | 119   | -0.001676
+.               | '.'                  | 119   | 120   | -0.006369
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'But ' (0-3) as 'But'
+
+Saved word: 'But' with SHAP +0.051518
+  Added token 'you ' (4-7) as 'you'
+
+Saved word: 'you' with SHAP +0.009706
+  Added token 'know' (8-12) as 'know'
+  Added token ', ' (12-13) as ','
+
+Saved word: 'know,' with SHAP +0.066517
+  Added token 'Alan' (14-18) as 'Alan'
+  Added token ', ' (18-19) as ','
+
+Saved word: 'Alan,' with SHAP +0.009720
+  Added token 'sometimes ' (20-29) as 'sometimes'
+
+Saved word: 'sometimes' with SHAP -0.041161
+  Added token 'it' (30-32) as 'it'
+  Added token ''' (32-33) as '''
+  Added token 's ' (33-34) as 's'
+
+Saved word: 'it's' with SHAP +0.039980
+  Added token 'the ' (35-38) as 'the'
+
+Saved word: 'the' with SHAP +0.029861
+  Added token 'very ' (39-43) as 'very'
+
+Saved word: 'very' with SHAP +0.075821
+  Added token 'people ' (44-50) as 'people'
+
+Saved word: 'people' with SHAP +0.019285
+  Added token 'who ' (51-54) as 'who'
+
+Saved word: 'who' with SHAP +0.023811
+  Added token 'no ' (55-57) as 'no'
+
+Saved word: 'no' with SHAP +0.007348
+  Added token 'one ' (58-61) as 'one'
+
+Saved word: 'one' with SHAP +0.006397
+  Added token 'ima' (62-65) as 'ima'
+  Added token 'gines ' (65-70) as 'gines'
+
+Saved word: 'imagines' with SHAP +0.006716
+  Added token 'anything ' (71-79) as 'anything'
+
+Saved word: 'anything' with SHAP -0.008609
+  Added token 'of ' (80-82) as 'of'
+
+Saved word: 'of' with SHAP -0.008609
+  Added token 'who ' (83-86) as 'who'
+
+Saved word: 'who' with SHAP -0.005859
+  Added token 'do ' (87-89) as 'do'
+
+Saved word: 'do' with SHAP -0.005859
+  Added token 'the ' (90-93) as 'the'
+
+Saved word: 'the' with SHAP -0.003548
+  Added token 'things ' (94-100) as 'things'
+
+Saved word: 'things' with SHAP -0.002061
+  Added token 'no ' (101-103) as 'no'
+
+Saved word: 'no' with SHAP +0.000099
+  Added token 'one ' (104-107) as 'one'
+
+Saved word: 'one' with SHAP +0.000099
+  Added token 'can ' (108-111) as 'can'
+
+Saved word: 'can' with SHAP +0.001385
+  Added token 'ima' (112-115) as 'ima'
+  Added token 'gine' (115-119) as 'gine'
+  Added token '.' (119-120) as '.'
+
+Saved final word: 'imagine.' with SHAP -0.009692
+
+=== Final Word Contributions ===
+very                      +0.075821 (POS)
+know,                     +0.066517 (POS)
+But                       +0.051518 (POS)
+sometimes                 -0.041161 (NEG)
+it's                      +0.039980 (POS)
+people                    +0.019285 (POS)
+Alan,                     +0.009720 (POS)
+you                       +0.009706 (POS)
+imagine.                  -0.009692 (NEG)
+anything                  -0.008609 (NEG)
+of                        -0.008609 (NEG)
+imagines                  +0.006716 (POS)
+who                       -0.005859 (NEG)
+do                        -0.005859 (NEG)
+the                       -0.003548 (NEG)
+things                    -0.002061 (NEG)
+can                       +0.001385 (POS)
+no                        +0.000099 (POS)
+one                       +0.000099 (POS)

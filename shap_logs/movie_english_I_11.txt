@@ -1,0 +1,186 @@
+
+=== Processing text ===
+I will not kill you. It is the way! And it is good. I will be remembered. I fought with Toruk Macto! And we were brothers. And he was my last shadow.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001889
+I               | 'I'                  | 0     | 1     | +0.032284
+will            | 'will'               | 2     | 6     | +0.018207
+not             | 'not'                | 7     | 10    | +0.013956
+kill            | 'kill'               | 11    | 15    | +0.013087
+you             | 'you'                | 16    | 19    | +0.035360
+.               | '.'                  | 19    | 20    | -0.007291
+It              | 'It'                 | 21    | 23    | +0.014019
+is              | 'is'                 | 24    | 26    | +0.010958
+the             | 'the'                | 27    | 30    | +0.005504
+way             | 'way'                | 31    | 34    | +0.007671
+!               | '!'                  | 34    | 35    | +0.040055
+And             | 'And'                | 36    | 39    | +0.010770
+it              | 'it'                 | 40    | 42    | +0.010188
+is              | 'is'                 | 43    | 45    | +0.015970
+good            | 'good'               | 46    | 50    | +0.011746
+.               | '.'                  | 50    | 51    | +0.031431
+I               | 'I'                  | 52    | 53    | +0.007290
+will            | 'will'               | 54    | 58    | +0.019914
+be              | 'be'                 | 59    | 61    | +0.015169
+remembered      | 'remembered'         | 62    | 72    | +0.026103
+.               | '.'                  | 72    | 73    | +0.026139
+I               | 'I'                  | 74    | 75    | +0.000261
+fought          | 'fought'             | 76    | 82    | -0.013298
+with            | 'with'               | 83    | 87    | +0.004387
+Tor             | 'Tor'                | 88    | 91    | +0.005920
+uk              | 'uk'                 | 91    | 93    | +0.005920
+Mac             | 'Mac'                | 94    | 97    | +0.005409
+to              | 'to'                 | 97    | 99    | +0.005409
+!               | '!'                  | 99    | 100   | +0.038151
+And             | 'And'                | 101   | 104   | +0.012340
+we              | 'we'                 | 105   | 107   | +0.011795
+were            | 'were'               | 108   | 112   | +0.008100
+brothers        | 'brothers'           | 113   | 121   | +0.009079
+.               | '.'                  | 121   | 122   | +0.018486
+And             | 'And'                | 123   | 126   | +0.007196
+he              | 'he'                 | 127   | 129   | +0.007196
+was             | 'was'                | 130   | 133   | +0.016955
+my              | 'my'                 | 134   | 136   | +0.016955
+last            | 'last'               | 137   | 141   | +0.021174
+sh              | 'sh'                 | 142   | 144   | +0.012493
+adow            | 'adow'               | 144   | 148   | +0.013579
+.               | '.'                  | 148   | 149   | +0.007226
+                | ''                   | 0     | 0     | +0.000201
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP +0.032284
+  Added token 'will ' (2-6) as 'will'
+
+Saved word: 'will' with SHAP +0.018207
+  Added token 'not ' (7-10) as 'not'
+
+Saved word: 'not' with SHAP +0.013956
+  Added token 'kill ' (11-15) as 'kill'
+
+Saved word: 'kill' with SHAP +0.013087
+  Added token 'you' (16-19) as 'you'
+  Added token '. ' (19-20) as '.'
+
+Saved word: 'you.' with SHAP +0.028069
+  Added token 'It ' (21-23) as 'It'
+
+Saved word: 'It' with SHAP +0.014019
+  Added token 'is ' (24-26) as 'is'
+
+Saved word: 'is' with SHAP +0.010958
+  Added token 'the ' (27-30) as 'the'
+
+Saved word: 'the' with SHAP +0.005504
+  Added token 'way' (31-34) as 'way'
+  Added token '! ' (34-35) as '!'
+
+Saved word: 'way!' with SHAP +0.047726
+  Added token 'And ' (36-39) as 'And'
+
+Saved word: 'And' with SHAP +0.010770
+  Added token 'it ' (40-42) as 'it'
+
+Saved word: 'it' with SHAP +0.010188
+  Added token 'is ' (43-45) as 'is'
+
+Saved word: 'is' with SHAP +0.015970
+  Added token 'good' (46-50) as 'good'
+  Added token '. ' (50-51) as '.'
+
+Saved word: 'good.' with SHAP +0.043177
+  Added token 'I ' (52-53) as 'I'
+
+Saved word: 'I' with SHAP +0.007290
+  Added token 'will ' (54-58) as 'will'
+
+Saved word: 'will' with SHAP +0.019914
+  Added token 'be ' (59-61) as 'be'
+
+Saved word: 'be' with SHAP +0.015169
+  Added token 'remembered' (62-72) as 'remembered'
+  Added token '. ' (72-73) as '.'
+
+Saved word: 'remembered.' with SHAP +0.052242
+  Added token 'I ' (74-75) as 'I'
+
+Saved word: 'I' with SHAP +0.000261
+  Added token 'fought ' (76-82) as 'fought'
+
+Saved word: 'fought' with SHAP -0.013298
+  Added token 'with ' (83-87) as 'with'
+
+Saved word: 'with' with SHAP +0.004387
+  Added token 'Tor' (88-91) as 'Tor'
+  Added token 'uk ' (91-93) as 'uk'
+
+Saved word: 'Toruk' with SHAP +0.011839
+  Added token 'Mac' (94-97) as 'Mac'
+  Added token 'to' (97-99) as 'to'
+  Added token '! ' (99-100) as '!'
+
+Saved word: 'Macto!' with SHAP +0.048968
+  Added token 'And ' (101-104) as 'And'
+
+Saved word: 'And' with SHAP +0.012340
+  Added token 'we ' (105-107) as 'we'
+
+Saved word: 'we' with SHAP +0.011795
+  Added token 'were ' (108-112) as 'were'
+
+Saved word: 'were' with SHAP +0.008100
+  Added token 'brothers' (113-121) as 'brothers'
+  Added token '. ' (121-122) as '.'
+
+Saved word: 'brothers.' with SHAP +0.027565
+  Added token 'And ' (123-126) as 'And'
+
+Saved word: 'And' with SHAP +0.007196
+  Added token 'he ' (127-129) as 'he'
+
+Saved word: 'he' with SHAP +0.007196
+  Added token 'was ' (130-133) as 'was'
+
+Saved word: 'was' with SHAP +0.016955
+  Added token 'my ' (134-136) as 'my'
+
+Saved word: 'my' with SHAP +0.016955
+  Added token 'last ' (137-141) as 'last'
+
+Saved word: 'last' with SHAP +0.021174
+  Added token 'sh' (142-144) as 'sh'
+  Added token 'adow' (144-148) as 'adow'
+  Added token '.' (148-149) as '.'
+
+Saved final word: 'shadow.' with SHAP +0.033298
+
+=== Final Word Contributions ===
+remembered.               +0.052242 (POS)
+Macto!                    +0.048968 (POS)
+way!                      +0.047726 (POS)
+good.                     +0.043177 (POS)
+shadow.                   +0.033298 (POS)
+you.                      +0.028069 (POS)
+brothers.                 +0.027565 (POS)
+last                      +0.021174 (POS)
+will                      +0.019914 (POS)
+was                       +0.016955 (POS)
+my                        +0.016955 (POS)
+is                        +0.015970 (POS)
+be                        +0.015169 (POS)
+It                        +0.014019 (POS)
+not                       +0.013956 (POS)
+fought                    -0.013298 (NEG)
+kill                      +0.013087 (POS)
+Toruk                     +0.011839 (POS)
+we                        +0.011795 (POS)
+it                        +0.010188 (POS)
+were                      +0.008100 (POS)
+And                       +0.007196 (POS)
+he                        +0.007196 (POS)
+the                       +0.005504 (POS)
+with                      +0.004387 (POS)
+I                         +0.000261 (POS)

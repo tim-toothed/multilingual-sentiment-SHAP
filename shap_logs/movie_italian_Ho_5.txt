@@ -1,0 +1,95 @@
+
+=== Processing text ===
+Ho chiamato in teatro e ho detto loro che non ti senti bene. Devo andare!
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Ho              | 'Ho'                 | 0     | 2     | +0.006317
+chiamato        | 'chiamato'           | 3     | 11    | +0.008450
+in              | 'in'                 | 12    | 14    | -0.021363
+teatro          | 'teatro'             | 15    | 21    | -0.040653
+e               | 'e'                  | 22    | 23    | -0.025185
+ho              | 'ho'                 | 24    | 26    | -0.023959
+detto           | 'detto'              | 27    | 32    | +0.012492
+loro            | 'loro'               | 33    | 37    | +0.027207
+che             | 'che'                | 38    | 41    | +0.019604
+non             | 'non'                | 42    | 45    | +0.252749
+ti              | 'ti'                 | 46    | 48    | +0.009366
+sent            | 'sent'               | 49    | 53    | +0.002614
+i               | 'i'                  | 53    | 54    | +0.003047
+bene            | 'bene'               | 55    | 59    | -0.009844
+.               | '.'                  | 59    | 60    | +0.062537
+Dev             | 'Dev'                | 61    | 64    | -0.005534
+o               | 'o'                  | 64    | 65    | +0.004592
+andare          | 'andare'             | 66    | 72    | -0.016914
+!               | '!'                  | 72    | 73    | +0.044773
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ho ' (0-2) as 'Ho'
+
+Saved word: 'Ho' with SHAP +0.006317
+  Added token 'chiamato ' (3-11) as 'chiamato'
+
+Saved word: 'chiamato' with SHAP +0.008450
+  Added token 'in ' (12-14) as 'in'
+
+Saved word: 'in' with SHAP -0.021363
+  Added token 'teatro ' (15-21) as 'teatro'
+
+Saved word: 'teatro' with SHAP -0.040653
+  Added token 'e ' (22-23) as 'e'
+
+Saved word: 'e' with SHAP -0.025185
+  Added token 'ho ' (24-26) as 'ho'
+
+Saved word: 'ho' with SHAP -0.023959
+  Added token 'detto ' (27-32) as 'detto'
+
+Saved word: 'detto' with SHAP +0.012492
+  Added token 'loro ' (33-37) as 'loro'
+
+Saved word: 'loro' with SHAP +0.027207
+  Added token 'che ' (38-41) as 'che'
+
+Saved word: 'che' with SHAP +0.019604
+  Added token 'non ' (42-45) as 'non'
+
+Saved word: 'non' with SHAP +0.252749
+  Added token 'ti ' (46-48) as 'ti'
+
+Saved word: 'ti' with SHAP +0.009366
+  Added token 'sent' (49-53) as 'sent'
+  Added token 'i ' (53-54) as 'i'
+
+Saved word: 'senti' with SHAP +0.005661
+  Added token 'bene' (55-59) as 'bene'
+  Added token '. ' (59-60) as '.'
+
+Saved word: 'bene.' with SHAP +0.052693
+  Added token 'Dev' (61-64) as 'Dev'
+  Added token 'o ' (64-65) as 'o'
+
+Saved word: 'Devo' with SHAP -0.000943
+  Added token 'andare' (66-72) as 'andare'
+  Added token '!' (72-73) as '!'
+
+Saved final word: 'andare!' with SHAP +0.027859
+
+=== Final Word Contributions ===
+non                       +0.252749 (POS)
+bene.                     +0.052693 (POS)
+teatro                    -0.040653 (NEG)
+andare!                   +0.027859 (POS)
+loro                      +0.027207 (POS)
+e                         -0.025185 (NEG)
+ho                        -0.023959 (NEG)
+in                        -0.021363 (NEG)
+che                       +0.019604 (POS)
+detto                     +0.012492 (POS)
+ti                        +0.009366 (POS)
+chiamato                  +0.008450 (POS)
+Ho                        +0.006317 (POS)
+senti                     +0.005661 (POS)
+Devo                      -0.000943 (NEG)

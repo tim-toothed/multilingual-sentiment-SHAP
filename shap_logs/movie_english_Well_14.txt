@@ -1,0 +1,194 @@
+
+=== Processing text ===
+Well, Newton discovered binomial theorem aged 22. Einstein wrote four papers that changed the world by the age of 26. As far as I can tell, I've... I've barely made par.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.006200
+Well            | 'Well'               | 0     | 4     | -0.027362
+,               | ','                  | 4     | 5     | -0.006332
+Newton          | 'Newton'             | 6     | 12    | +0.011010
+discovered      | 'discovered'         | 13    | 23    | +0.010191
+bin             | 'bin'                | 24    | 27    | +0.020384
+omial           | 'omial'              | 27    | 32    | +0.020014
+theorem         | 'theorem'            | 33    | 40    | -0.010713
+aged            | 'aged'               | 41    | 45    | -0.010713
+22              | '22'                 | 46    | 48    | -0.010713
+.               | '.'                  | 48    | 49    | -0.004533
+Einstein        | 'Einstein'           | 50    | 58    | +0.034512
+wrote           | 'wrote'              | 59    | 64    | +0.038907
+four            | 'four'               | 65    | 69    | +0.032598
+papers          | 'papers'             | 70    | 76    | +0.034300
+that            | 'that'               | 77    | 81    | +0.001829
+changed         | 'changed'            | 82    | 89    | +0.000467
+the             | 'the'                | 90    | 93    | -0.002155
+world           | 'world'              | 94    | 99    | -0.012622
+by              | 'by'                 | 100   | 102   | +0.001163
+the             | 'the'                | 103   | 106   | +0.001163
+age             | 'age'                | 107   | 110   | +0.000027
+of              | 'of'                 | 111   | 113   | +0.000027
+26              | '26'                 | 114   | 116   | -0.000833
+.               | '.'                  | 116   | 117   | -0.001569
+As              | 'As'                 | 118   | 120   | +0.001198
+far             | 'far'                | 121   | 124   | +0.001198
+as              | 'as'                 | 125   | 127   | +0.003314
+I               | 'I'                  | 128   | 129   | +0.003314
+can             | 'can'                | 130   | 133   | +0.009051
+tell            | 'tell'               | 134   | 138   | +0.009051
+,               | ','                  | 138   | 139   | +0.006001
+I               | 'I'                  | 140   | 141   | +0.000674
+'               | "'"                  | 141   | 142   | +0.000674
+ve              | 've'                 | 142   | 144   | +0.000674
+.               | '.'                  | 144   | 145   | +0.000031
+.               | '.'                  | 145   | 146   | -0.000598
+.               | '.'                  | 146   | 147   | +0.001369
+I               | 'I'                  | 148   | 149   | -0.003392
+'               | "'"                  | 149   | 150   | -0.003392
+ve              | 've'                 | 150   | 152   | -0.001314
+bare            | 'bare'               | 153   | 157   | +0.007232
+ly              | 'ly'                 | 157   | 159   | +0.007232
+made            | 'made'               | 160   | 164   | +0.007232
+par             | 'par'                | 165   | 168   | +0.007232
+.               | '.'                  | 168   | 169   | +0.003634
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Well' (0-4) as 'Well'
+  Added token ', ' (4-5) as ','
+
+Saved word: 'Well,' with SHAP -0.033694
+  Added token 'Newton ' (6-12) as 'Newton'
+
+Saved word: 'Newton' with SHAP +0.011010
+  Added token 'discovered ' (13-23) as 'discovered'
+
+Saved word: 'discovered' with SHAP +0.010191
+  Added token 'bin' (24-27) as 'bin'
+  Added token 'omial ' (27-32) as 'omial'
+
+Saved word: 'binomial' with SHAP +0.040398
+  Added token 'theorem ' (33-40) as 'theorem'
+
+Saved word: 'theorem' with SHAP -0.010713
+  Added token 'aged ' (41-45) as 'aged'
+
+Saved word: 'aged' with SHAP -0.010713
+  Added token '22' (46-48) as '22'
+  Added token '. ' (48-49) as '.'
+
+Saved word: '22.' with SHAP -0.015246
+  Added token 'Einstein ' (50-58) as 'Einstein'
+
+Saved word: 'Einstein' with SHAP +0.034512
+  Added token 'wrote ' (59-64) as 'wrote'
+
+Saved word: 'wrote' with SHAP +0.038907
+  Added token 'four ' (65-69) as 'four'
+
+Saved word: 'four' with SHAP +0.032598
+  Added token 'papers ' (70-76) as 'papers'
+
+Saved word: 'papers' with SHAP +0.034300
+  Added token 'that ' (77-81) as 'that'
+
+Saved word: 'that' with SHAP +0.001829
+  Added token 'changed ' (82-89) as 'changed'
+
+Saved word: 'changed' with SHAP +0.000467
+  Added token 'the ' (90-93) as 'the'
+
+Saved word: 'the' with SHAP -0.002155
+  Added token 'world ' (94-99) as 'world'
+
+Saved word: 'world' with SHAP -0.012622
+  Added token 'by ' (100-102) as 'by'
+
+Saved word: 'by' with SHAP +0.001163
+  Added token 'the ' (103-106) as 'the'
+
+Saved word: 'the' with SHAP +0.001163
+  Added token 'age ' (107-110) as 'age'
+
+Saved word: 'age' with SHAP +0.000027
+  Added token 'of ' (111-113) as 'of'
+
+Saved word: 'of' with SHAP +0.000027
+  Added token '26' (114-116) as '26'
+  Added token '. ' (116-117) as '.'
+
+Saved word: '26.' with SHAP -0.002402
+  Added token 'As ' (118-120) as 'As'
+
+Saved word: 'As' with SHAP +0.001198
+  Added token 'far ' (121-124) as 'far'
+
+Saved word: 'far' with SHAP +0.001198
+  Added token 'as ' (125-127) as 'as'
+
+Saved word: 'as' with SHAP +0.003314
+  Added token 'I ' (128-129) as 'I'
+
+Saved word: 'I' with SHAP +0.003314
+  Added token 'can ' (130-133) as 'can'
+
+Saved word: 'can' with SHAP +0.009051
+  Added token 'tell' (134-138) as 'tell'
+  Added token ', ' (138-139) as ','
+
+Saved word: 'tell,' with SHAP +0.015052
+  Added token 'I' (140-141) as 'I'
+  Added token ''' (141-142) as '''
+  Added token 've' (142-144) as 've'
+  Added token '.' (144-145) as '.'
+  Added token '.' (145-146) as '.'
+  Added token '. ' (146-147) as '.'
+
+Saved word: 'I've...' with SHAP +0.002824
+  Added token 'I' (148-149) as 'I'
+  Added token ''' (149-150) as '''
+  Added token 've ' (150-152) as 've'
+
+Saved word: 'I've' with SHAP -0.008098
+  Added token 'bare' (153-157) as 'bare'
+  Added token 'ly ' (157-159) as 'ly'
+
+Saved word: 'barely' with SHAP +0.014464
+  Added token 'made ' (160-164) as 'made'
+
+Saved word: 'made' with SHAP +0.007232
+  Added token 'par' (165-168) as 'par'
+  Added token '.' (168-169) as '.'
+
+Saved final word: 'par.' with SHAP +0.010866
+
+=== Final Word Contributions ===
+binomial                  +0.040398 (POS)
+wrote                     +0.038907 (POS)
+Einstein                  +0.034512 (POS)
+papers                    +0.034300 (POS)
+Well,                     -0.033694 (NEG)
+four                      +0.032598 (POS)
+22.                       -0.015246 (NEG)
+tell,                     +0.015052 (POS)
+barely                    +0.014464 (POS)
+world                     -0.012622 (NEG)
+Newton                    +0.011010 (POS)
+par.                      +0.010866 (POS)
+theorem                   -0.010713 (NEG)
+aged                      -0.010713 (NEG)
+discovered                +0.010191 (POS)
+can                       +0.009051 (POS)
+I've                      -0.008098 (NEG)
+made                      +0.007232 (POS)
+as                        +0.003314 (POS)
+I                         +0.003314 (POS)
+I've...                   +0.002824 (POS)
+26.                       -0.002402 (NEG)
+that                      +0.001829 (POS)
+As                        +0.001198 (POS)
+far                       +0.001198 (POS)
+the                       +0.001163 (POS)
+by                        +0.001163 (POS)
+changed                   +0.000467 (POS)
+age                       +0.000027 (POS)
+of                        +0.000027 (POS)

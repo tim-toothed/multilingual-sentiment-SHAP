@@ -1,0 +1,150 @@
+
+=== Processing text ===
+L'archeologia ricerca i fatti... non la verità. Se siete interessati alla verità, il corso di filosofia si tiene in fondo al corridoio.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001158
+L               | 'L'                  | 0     | 1     | +0.003441
+'               | "'"                  | 1     | 2     | +0.004005
+arch            | 'arch'               | 2     | 6     | -0.010394
+eo              | 'eo'                 | 6     | 8     | +0.000940
+logia           | 'logia'              | 8     | 13    | -0.005719
+ricerca         | 'ricerca'            | 14    | 21    | -0.007929
+i               | 'i'                  | 22    | 23    | -0.005645
+fatti           | 'fatti'              | 24    | 29    | -0.002982
+.               | '.'                  | 29    | 30    | -0.021359
+.               | '.'                  | 30    | 31    | +0.007403
+.               | '.'                  | 31    | 32    | +0.013637
+non             | 'non'                | 33    | 36    | +0.044787
+la              | 'la'                 | 37    | 39    | +0.004338
+verità          | 'verità'             | 40    | 46    | +0.020289
+.               | '.'                  | 46    | 47    | +0.003181
+Se              | 'Se'                 | 48    | 50    | +0.005546
+siete           | 'siete'              | 51    | 56    | +0.005546
+interes         | 'interes'            | 57    | 64    | -0.001736
+sat             | 'sat'                | 64    | 67    | -0.001736
+i               | 'i'                  | 67    | 68    | -0.001736
+alla            | 'alla'               | 69    | 73    | +0.015632
+verità          | 'verità'             | 74    | 80    | +0.015632
+,               | ','                  | 80    | 81    | +0.010179
+il              | 'il'                 | 82    | 84    | +0.011240
+corso           | 'corso'              | 85    | 90    | +0.011240
+di              | 'di'                 | 91    | 93    | +0.009017
+filosofia       | 'filosofia'          | 94    | 103   | +0.009017
+si              | 'si'                 | 104   | 106   | +0.001377
+tiene           | 'tiene'              | 107   | 112   | +0.001377
+in              | 'in'                 | 113   | 115   | +0.000215
+fondo           | 'fondo'              | 116   | 121   | +0.000215
+al              | 'al'                 | 122   | 124   | +0.000215
+cor             | 'cor'                | 125   | 128   | +0.031229
+rido            | 'rido'               | 128   | 132   | +0.031229
+io              | 'io'                 | 132   | 134   | +0.019457
+.               | '.'                  | 134   | 135   | +0.014575
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'L' (0-1) as 'L'
+  Added token ''' (1-2) as '''
+  Added token 'arch' (2-6) as 'arch'
+  Added token 'eo' (6-8) as 'eo'
+  Added token 'logia ' (8-13) as 'logia'
+
+Saved word: 'L'archeologia' with SHAP -0.007727
+  Added token 'ricerca ' (14-21) as 'ricerca'
+
+Saved word: 'ricerca' with SHAP -0.007929
+  Added token 'i ' (22-23) as 'i'
+
+Saved word: 'i' with SHAP -0.005645
+  Added token 'fatti' (24-29) as 'fatti'
+  Added token '.' (29-30) as '.'
+  Added token '.' (30-31) as '.'
+  Added token '. ' (31-32) as '.'
+
+Saved word: 'fatti...' with SHAP -0.003300
+  Added token 'non ' (33-36) as 'non'
+
+Saved word: 'non' with SHAP +0.044787
+  Added token 'la ' (37-39) as 'la'
+
+Saved word: 'la' with SHAP +0.004338
+  Added token 'verità' (40-46) as 'verità'
+  Added token '. ' (46-47) as '.'
+
+Saved word: 'verità.' with SHAP +0.023470
+  Added token 'Se ' (48-50) as 'Se'
+
+Saved word: 'Se' with SHAP +0.005546
+  Added token 'siete ' (51-56) as 'siete'
+
+Saved word: 'siete' with SHAP +0.005546
+  Added token 'interes' (57-64) as 'interes'
+  Added token 'sat' (64-67) as 'sat'
+  Added token 'i ' (67-68) as 'i'
+
+Saved word: 'interessati' with SHAP -0.005207
+  Added token 'alla ' (69-73) as 'alla'
+
+Saved word: 'alla' with SHAP +0.015632
+  Added token 'verità' (74-80) as 'verità'
+  Added token ', ' (80-81) as ','
+
+Saved word: 'verità,' with SHAP +0.025811
+  Added token 'il ' (82-84) as 'il'
+
+Saved word: 'il' with SHAP +0.011240
+  Added token 'corso ' (85-90) as 'corso'
+
+Saved word: 'corso' with SHAP +0.011240
+  Added token 'di ' (91-93) as 'di'
+
+Saved word: 'di' with SHAP +0.009017
+  Added token 'filosofia ' (94-103) as 'filosofia'
+
+Saved word: 'filosofia' with SHAP +0.009017
+  Added token 'si ' (104-106) as 'si'
+
+Saved word: 'si' with SHAP +0.001377
+  Added token 'tiene ' (107-112) as 'tiene'
+
+Saved word: 'tiene' with SHAP +0.001377
+  Added token 'in ' (113-115) as 'in'
+
+Saved word: 'in' with SHAP +0.000215
+  Added token 'fondo ' (116-121) as 'fondo'
+
+Saved word: 'fondo' with SHAP +0.000215
+  Added token 'al ' (122-124) as 'al'
+
+Saved word: 'al' with SHAP +0.000215
+  Added token 'cor' (125-128) as 'cor'
+  Added token 'rido' (128-132) as 'rido'
+  Added token 'io' (132-134) as 'io'
+  Added token '.' (134-135) as '.'
+
+Saved final word: 'corridoio.' with SHAP +0.096490
+
+=== Final Word Contributions ===
+corridoio.                +0.096490 (POS)
+non                       +0.044787 (POS)
+verità,                   +0.025811 (POS)
+verità.                   +0.023470 (POS)
+alla                      +0.015632 (POS)
+il                        +0.011240 (POS)
+corso                     +0.011240 (POS)
+di                        +0.009017 (POS)
+filosofia                 +0.009017 (POS)
+ricerca                   -0.007929 (NEG)
+L'archeologia             -0.007727 (NEG)
+i                         -0.005645 (NEG)
+Se                        +0.005546 (POS)
+siete                     +0.005546 (POS)
+interessati               -0.005207 (NEG)
+la                        +0.004338 (POS)
+fatti...                  -0.003300 (NEG)
+si                        +0.001377 (POS)
+tiene                     +0.001377 (POS)
+in                        +0.000215 (POS)
+fondo                     +0.000215 (POS)
+al                        +0.000215 (POS)

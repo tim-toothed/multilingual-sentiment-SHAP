@@ -1,0 +1,109 @@
+
+=== Processing text ===
+Per l'amor del cielo, non c'è motivo che tu ci lasci se... Vieni con me.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003029
+Per             | 'Per'                | 0     | 3     | -0.026282
+l               | 'l'                  | 4     | 5     | -0.018237
+'               | "'"                  | 5     | 6     | -0.023667
+amor            | 'amor'               | 6     | 10    | +0.107640
+del             | 'del'                | 11    | 14    | +0.013797
+cielo           | 'cielo'              | 15    | 20    | +0.130424
+,               | ','                  | 20    | 21    | +0.051166
+non             | 'non'                | 22    | 25    | -0.185688
+c               | 'c'                  | 26    | 27    | +0.019014
+'               | "'"                  | 27    | 28    | +0.002736
+è               | 'è'                  | 28    | 29    | +0.013963
+motivo          | 'motivo'             | 30    | 36    | -0.060478
+che             | 'che'                | 37    | 40    | +0.043055
+tu              | 'tu'                 | 41    | 43    | +0.044843
+ci              | 'ci'                 | 44    | 46    | -0.001038
+las             | 'las'                | 47    | 50    | +0.016992
+ci              | 'ci'                 | 50    | 52    | +0.012987
+se              | 'se'                 | 53    | 55    | +0.010745
+.               | '.'                  | 55    | 56    | +0.000334
+.               | '.'                  | 56    | 57    | -0.002214
+.               | '.'                  | 57    | 58    | -0.020073
+Vie             | 'Vie'                | 59    | 62    | +0.108315
+ni              | 'ni'                 | 62    | 64    | -0.047281
+con             | 'con'                | 65    | 68    | -0.004366
+me              | 'me'                 | 69    | 71    | +0.001412
+.               | '.'                  | 71    | 72    | -0.025188
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Per ' (0-3) as 'Per'
+
+Saved word: 'Per' with SHAP -0.026282
+  Added token 'l' (4-5) as 'l'
+  Added token ''' (5-6) as '''
+  Added token 'amor ' (6-10) as 'amor'
+
+Saved word: 'l'amor' with SHAP +0.065736
+  Added token 'del ' (11-14) as 'del'
+
+Saved word: 'del' with SHAP +0.013797
+  Added token 'cielo' (15-20) as 'cielo'
+  Added token ', ' (20-21) as ','
+
+Saved word: 'cielo,' with SHAP +0.181590
+  Added token 'non ' (22-25) as 'non'
+
+Saved word: 'non' with SHAP -0.185688
+  Added token 'c' (26-27) as 'c'
+  Added token ''' (27-28) as '''
+  Added token 'è ' (28-29) as 'è'
+
+Saved word: 'c'è' with SHAP +0.035714
+  Added token 'motivo ' (30-36) as 'motivo'
+
+Saved word: 'motivo' with SHAP -0.060478
+  Added token 'che ' (37-40) as 'che'
+
+Saved word: 'che' with SHAP +0.043055
+  Added token 'tu ' (41-43) as 'tu'
+
+Saved word: 'tu' with SHAP +0.044843
+  Added token 'ci ' (44-46) as 'ci'
+
+Saved word: 'ci' with SHAP -0.001038
+  Added token 'las' (47-50) as 'las'
+  Added token 'ci ' (50-52) as 'ci'
+
+Saved word: 'lasci' with SHAP +0.029980
+  Added token 'se' (53-55) as 'se'
+  Added token '.' (55-56) as '.'
+  Added token '.' (56-57) as '.'
+  Added token '. ' (57-58) as '.'
+
+Saved word: 'se...' with SHAP -0.011208
+  Added token 'Vie' (59-62) as 'Vie'
+  Added token 'ni ' (62-64) as 'ni'
+
+Saved word: 'Vieni' with SHAP +0.061034
+  Added token 'con ' (65-68) as 'con'
+
+Saved word: 'con' with SHAP -0.004366
+  Added token 'me' (69-71) as 'me'
+  Added token '.' (71-72) as '.'
+
+Saved final word: 'me.' with SHAP -0.023777
+
+=== Final Word Contributions ===
+non                       -0.185688 (NEG)
+cielo,                    +0.181590 (POS)
+l'amor                    +0.065736 (POS)
+Vieni                     +0.061034 (POS)
+motivo                    -0.060478 (NEG)
+tu                        +0.044843 (POS)
+che                       +0.043055 (POS)
+c'è                       +0.035714 (POS)
+lasci                     +0.029980 (POS)
+Per                       -0.026282 (NEG)
+me.                       -0.023777 (NEG)
+del                       +0.013797 (POS)
+se...                     -0.011208 (NEG)
+con                       -0.004366 (NEG)
+ci                        -0.001038 (NEG)

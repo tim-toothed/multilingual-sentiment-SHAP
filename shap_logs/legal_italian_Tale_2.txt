@@ -1,0 +1,118 @@
+
+=== Processing text ===
+Tale pregiudizio può essere sia materiale sia immateriale, compreso il pregiudizio fisico, psicologico, sociale o economico.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000768
+Tale            | 'Tale'               | 0     | 4     | -0.012267
+pre             | 'pre'                | 5     | 8     | +0.044205
+giu             | 'giu'                | 8     | 11    | +0.021856
+di              | 'di'                 | 11    | 13    | +0.043810
+zio             | 'zio'                | 13    | 16    | -0.004752
+può             | 'può'                | 17    | 20    | +0.085252
+essere          | 'essere'             | 21    | 27    | +0.033649
+sia             | 'sia'                | 28    | 31    | +0.071954
+materiale       | 'materiale'          | 32    | 41    | +0.070053
+sia             | 'sia'                | 42    | 45    | +0.088931
+im              | 'im'                 | 46    | 48    | -0.044400
+material        | 'material'           | 48    | 56    | +0.017175
+e               | 'e'                  | 56    | 57    | +0.009846
+,               | ','                  | 57    | 58    | +0.021536
+compreso        | 'compreso'           | 59    | 67    | +0.021542
+il              | 'il'                 | 68    | 70    | +0.016706
+pre             | 'pre'                | 71    | 74    | +0.000728
+giu             | 'giu'                | 74    | 77    | +0.001157
+di              | 'di'                 | 77    | 79    | +0.002728
+zio             | 'zio'                | 79    | 82    | +0.004094
+fisico          | 'fisico'             | 83    | 89    | +0.008193
+,               | ','                  | 89    | 90    | +0.025530
+psi             | 'psi'                | 91    | 94    | +0.008204
+colo            | 'colo'               | 94    | 98    | +0.009240
+gico            | 'gico'               | 98    | 102   | +0.006125
+,               | ','                  | 102   | 103   | +0.017270
+sociale         | 'sociale'            | 104   | 111   | +0.027159
+o               | 'o'                  | 112   | 113   | +0.026953
+economico       | 'economico'          | 114   | 123   | +0.011716
+.               | '.'                  | 123   | 124   | +0.008641
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Tale ' (0-4) as 'Tale'
+
+Saved word: 'Tale' with SHAP -0.012267
+  Added token 'pre' (5-8) as 'pre'
+  Added token 'giu' (8-11) as 'giu'
+  Added token 'di' (11-13) as 'di'
+  Added token 'zio ' (13-16) as 'zio'
+
+Saved word: 'pregiudizio' with SHAP +0.105119
+  Added token 'può ' (17-20) as 'può'
+
+Saved word: 'può' with SHAP +0.085252
+  Added token 'essere ' (21-27) as 'essere'
+
+Saved word: 'essere' with SHAP +0.033649
+  Added token 'sia ' (28-31) as 'sia'
+
+Saved word: 'sia' with SHAP +0.071954
+  Added token 'materiale ' (32-41) as 'materiale'
+
+Saved word: 'materiale' with SHAP +0.070053
+  Added token 'sia ' (42-45) as 'sia'
+
+Saved word: 'sia' with SHAP +0.088931
+  Added token 'im' (46-48) as 'im'
+  Added token 'material' (48-56) as 'material'
+  Added token 'e' (56-57) as 'e'
+  Added token ', ' (57-58) as ','
+
+Saved word: 'immateriale,' with SHAP +0.004157
+  Added token 'compreso ' (59-67) as 'compreso'
+
+Saved word: 'compreso' with SHAP +0.021542
+  Added token 'il ' (68-70) as 'il'
+
+Saved word: 'il' with SHAP +0.016706
+  Added token 'pre' (71-74) as 'pre'
+  Added token 'giu' (74-77) as 'giu'
+  Added token 'di' (77-79) as 'di'
+  Added token 'zio ' (79-82) as 'zio'
+
+Saved word: 'pregiudizio' with SHAP +0.008708
+  Added token 'fisico' (83-89) as 'fisico'
+  Added token ', ' (89-90) as ','
+
+Saved word: 'fisico,' with SHAP +0.033724
+  Added token 'psi' (91-94) as 'psi'
+  Added token 'colo' (94-98) as 'colo'
+  Added token 'gico' (98-102) as 'gico'
+  Added token ', ' (102-103) as ','
+
+Saved word: 'psicologico,' with SHAP +0.040839
+  Added token 'sociale ' (104-111) as 'sociale'
+
+Saved word: 'sociale' with SHAP +0.027159
+  Added token 'o ' (112-113) as 'o'
+
+Saved word: 'o' with SHAP +0.026953
+  Added token 'economico' (114-123) as 'economico'
+  Added token '.' (123-124) as '.'
+
+Saved final word: 'economico.' with SHAP +0.020357
+
+=== Final Word Contributions ===
+sia                       +0.088931 (POS)
+può                       +0.085252 (POS)
+materiale                 +0.070053 (POS)
+psicologico,              +0.040839 (POS)
+fisico,                   +0.033724 (POS)
+essere                    +0.033649 (POS)
+sociale                   +0.027159 (POS)
+o                         +0.026953 (POS)
+compreso                  +0.021542 (POS)
+economico.                +0.020357 (POS)
+il                        +0.016706 (POS)
+Tale                      -0.012267 (NEG)
+pregiudizio               +0.008708 (POS)
+immateriale,              +0.004157 (POS)

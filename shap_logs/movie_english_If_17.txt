@@ -1,0 +1,218 @@
+
+=== Processing text ===
+If you'd come in friendship, the scum that ruined your daughter would be suffering this very day. And if an honest man like you should make enemies, they'd be my enemies. And then they would fear you.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001641
+If              | 'If'                 | 0     | 2     | +0.040892
+you             | 'you'                | 3     | 6     | +0.038153
+'               | "'"                  | 6     | 7     | +0.017061
+d               | 'd'                  | 7     | 8     | -0.009517
+come            | 'come'               | 9     | 13    | -0.017709
+in              | 'in'                 | 14    | 16    | -0.018374
+friendship      | 'friendship'         | 17    | 27    | -0.050200
+,               | ','                  | 27    | 28    | +0.005845
+the             | 'the'                | 29    | 32    | +0.019372
+s               | 's'                  | 33    | 34    | +0.009984
+cum             | 'cum'                | 34    | 37    | +0.009984
+that            | 'that'               | 38    | 42    | +0.001374
+ru              | 'ru'                 | 43    | 45    | +0.094816
+ined            | 'ined'               | 45    | 49    | +0.056849
+your            | 'your'               | 50    | 54    | +0.019288
+daughter        | 'daughter'           | 55    | 63    | +0.009518
+would           | 'would'              | 64    | 69    | -0.006344
+be              | 'be'                 | 70    | 72    | -0.003311
+suffering       | 'suffering'          | 73    | 82    | +0.113833
+this            | 'this'               | 83    | 87    | +0.054517
+very            | 'very'               | 88    | 92    | +0.008091
+day             | 'day'                | 93    | 96    | +0.008091
+.               | '.'                  | 96    | 97    | +0.006733
+And             | 'And'                | 98    | 101   | -0.001563
+if              | 'if'                 | 102   | 104   | -0.001563
+an              | 'an'                 | 105   | 107   | -0.001524
+hon             | 'hon'                | 108   | 111   | +0.001057
+est             | 'est'                | 111   | 114   | +0.001057
+man             | 'man'                | 115   | 118   | +0.001057
+like            | 'like'               | 119   | 123   | +0.001057
+you             | 'you'                | 124   | 127   | -0.001982
+should          | 'should'             | 128   | 134   | -0.001982
+make            | 'make'               | 135   | 139   | -0.001982
+enemies         | 'enemies'            | 140   | 147   | -0.001982
+,               | ','                  | 147   | 148   | -0.005455
+they            | 'they'               | 149   | 153   | -0.001535
+'               | "'"                  | 153   | 154   | -0.001535
+d               | 'd'                  | 154   | 155   | -0.001535
+be              | 'be'                 | 156   | 158   | -0.001535
+my              | 'my'                 | 159   | 161   | -0.000745
+enemies         | 'enemies'            | 162   | 169   | -0.000745
+.               | '.'                  | 169   | 170   | +0.000133
+And             | 'And'                | 171   | 174   | -0.015544
+then            | 'then'               | 175   | 179   | -0.020191
+they            | 'they'               | 180   | 184   | -0.003509
+would           | 'would'              | 185   | 190   | -0.003509
+fear            | 'fear'               | 191   | 195   | +0.004831
+you             | 'you'                | 196   | 199   | +0.004831
+.               | '.'                  | 199   | 200   | +0.007144
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'If ' (0-2) as 'If'
+
+Saved word: 'If' with SHAP +0.040892
+  Added token 'you' (3-6) as 'you'
+  Added token ''' (6-7) as '''
+  Added token 'd ' (7-8) as 'd'
+
+Saved word: 'you'd' with SHAP +0.045697
+  Added token 'come ' (9-13) as 'come'
+
+Saved word: 'come' with SHAP -0.017709
+  Added token 'in ' (14-16) as 'in'
+
+Saved word: 'in' with SHAP -0.018374
+  Added token 'friendship' (17-27) as 'friendship'
+  Added token ', ' (27-28) as ','
+
+Saved word: 'friendship,' with SHAP -0.044355
+  Added token 'the ' (29-32) as 'the'
+
+Saved word: 'the' with SHAP +0.019372
+  Added token 's' (33-34) as 's'
+  Added token 'cum ' (34-37) as 'cum'
+
+Saved word: 'scum' with SHAP +0.019967
+  Added token 'that ' (38-42) as 'that'
+
+Saved word: 'that' with SHAP +0.001374
+  Added token 'ru' (43-45) as 'ru'
+  Added token 'ined ' (45-49) as 'ined'
+
+Saved word: 'ruined' with SHAP +0.151665
+  Added token 'your ' (50-54) as 'your'
+
+Saved word: 'your' with SHAP +0.019288
+  Added token 'daughter ' (55-63) as 'daughter'
+
+Saved word: 'daughter' with SHAP +0.009518
+  Added token 'would ' (64-69) as 'would'
+
+Saved word: 'would' with SHAP -0.006344
+  Added token 'be ' (70-72) as 'be'
+
+Saved word: 'be' with SHAP -0.003311
+  Added token 'suffering ' (73-82) as 'suffering'
+
+Saved word: 'suffering' with SHAP +0.113833
+  Added token 'this ' (83-87) as 'this'
+
+Saved word: 'this' with SHAP +0.054517
+  Added token 'very ' (88-92) as 'very'
+
+Saved word: 'very' with SHAP +0.008091
+  Added token 'day' (93-96) as 'day'
+  Added token '. ' (96-97) as '.'
+
+Saved word: 'day.' with SHAP +0.014824
+  Added token 'And ' (98-101) as 'And'
+
+Saved word: 'And' with SHAP -0.001563
+  Added token 'if ' (102-104) as 'if'
+
+Saved word: 'if' with SHAP -0.001563
+  Added token 'an ' (105-107) as 'an'
+
+Saved word: 'an' with SHAP -0.001524
+  Added token 'hon' (108-111) as 'hon'
+  Added token 'est ' (111-114) as 'est'
+
+Saved word: 'honest' with SHAP +0.002113
+  Added token 'man ' (115-118) as 'man'
+
+Saved word: 'man' with SHAP +0.001057
+  Added token 'like ' (119-123) as 'like'
+
+Saved word: 'like' with SHAP +0.001057
+  Added token 'you ' (124-127) as 'you'
+
+Saved word: 'you' with SHAP -0.001982
+  Added token 'should ' (128-134) as 'should'
+
+Saved word: 'should' with SHAP -0.001982
+  Added token 'make ' (135-139) as 'make'
+
+Saved word: 'make' with SHAP -0.001982
+  Added token 'enemies' (140-147) as 'enemies'
+  Added token ', ' (147-148) as ','
+
+Saved word: 'enemies,' with SHAP -0.007437
+  Added token 'they' (149-153) as 'they'
+  Added token ''' (153-154) as '''
+  Added token 'd ' (154-155) as 'd'
+
+Saved word: 'they'd' with SHAP -0.004606
+  Added token 'be ' (156-158) as 'be'
+
+Saved word: 'be' with SHAP -0.001535
+  Added token 'my ' (159-161) as 'my'
+
+Saved word: 'my' with SHAP -0.000745
+  Added token 'enemies' (162-169) as 'enemies'
+  Added token '. ' (169-170) as '.'
+
+Saved word: 'enemies.' with SHAP -0.000612
+  Added token 'And ' (171-174) as 'And'
+
+Saved word: 'And' with SHAP -0.015544
+  Added token 'then ' (175-179) as 'then'
+
+Saved word: 'then' with SHAP -0.020191
+  Added token 'they ' (180-184) as 'they'
+
+Saved word: 'they' with SHAP -0.003509
+  Added token 'would ' (185-190) as 'would'
+
+Saved word: 'would' with SHAP -0.003509
+  Added token 'fear ' (191-195) as 'fear'
+
+Saved word: 'fear' with SHAP +0.004831
+  Added token 'you' (196-199) as 'you'
+  Added token '.' (199-200) as '.'
+
+Saved final word: 'you.' with SHAP +0.011975
+
+=== Final Word Contributions ===
+ruined                    +0.151665 (POS)
+suffering                 +0.113833 (POS)
+this                      +0.054517 (POS)
+you'd                     +0.045697 (POS)
+friendship,               -0.044355 (NEG)
+If                        +0.040892 (POS)
+then                      -0.020191 (NEG)
+scum                      +0.019967 (POS)
+the                       +0.019372 (POS)
+your                      +0.019288 (POS)
+in                        -0.018374 (NEG)
+come                      -0.017709 (NEG)
+And                       -0.015544 (NEG)
+day.                      +0.014824 (POS)
+you.                      +0.011975 (POS)
+daughter                  +0.009518 (POS)
+very                      +0.008091 (POS)
+enemies,                  -0.007437 (NEG)
+fear                      +0.004831 (POS)
+they'd                    -0.004606 (NEG)
+would                     -0.003509 (NEG)
+they                      -0.003509 (NEG)
+honest                    +0.002113 (POS)
+you                       -0.001982 (NEG)
+should                    -0.001982 (NEG)
+make                      -0.001982 (NEG)
+if                        -0.001563 (NEG)
+be                        -0.001535 (NEG)
+an                        -0.001524 (NEG)
+that                      +0.001374 (POS)
+man                       +0.001057 (POS)
+like                      +0.001057 (POS)
+my                        -0.000745 (NEG)
+enemies.                  -0.000612 (NEG)

@@ -1,0 +1,217 @@
+
+=== Processing text ===
+The notion of ‘emotion recognition system’ referred to in this Regulation should be defined as an AI system for the purpose of identifying or inferring emotions or intentions of natural persons on the basis of their biometric data.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005873
+The             | 'The'                | 0     | 3     | +0.005873
+notion          | 'notion'             | 4     | 10    | +0.026869
+of              | 'of'                 | 11    | 13    | +0.020222
+‘               | '‘'                  | 14    | 15    | -0.000404
+em              | 'em'                 | 15    | 17    | +0.001458
+otion           | 'otion'              | 17    | 22    | -0.004479
+recognition     | 'recognition'        | 23    | 34    | -0.008350
+system          | 'system'             | 35    | 41    | -0.003125
+’               | '’'                  | 41    | 42    | +0.003955
+referred        | 'referred'           | 43    | 51    | +0.003955
+to              | 'to'                 | 52    | 54    | +0.003992
+in              | 'in'                 | 55    | 57    | +0.003992
+this            | 'this'               | 58    | 62    | +0.003992
+Reg             | 'Reg'                | 63    | 66    | +0.011003
+ulation         | 'ulation'            | 66    | 73    | +0.011003
+should          | 'should'             | 74    | 80    | +0.024016
+be              | 'be'                 | 81    | 83    | +0.024016
+defined         | 'defined'            | 84    | 91    | +0.024285
+as              | 'as'                 | 92    | 94    | +0.024285
+an              | 'an'                 | 95    | 97    | +0.010003
+AI              | 'AI'                 | 98    | 100   | +0.010003
+system          | 'system'             | 101   | 107   | +0.004476
+for             | 'for'                | 108   | 111   | +0.004476
+the             | 'the'                | 112   | 115   | +0.014533
+purpose         | 'purpose'            | 116   | 123   | +0.014533
+of              | 'of'                 | 124   | 126   | +0.013020
+identify        | 'identify'           | 127   | 135   | +0.032836
+ing             | 'ing'                | 135   | 138   | +0.014039
+or              | 'or'                 | 139   | 141   | +0.023986
+in              | 'in'                 | 142   | 144   | +0.003843
+fer             | 'fer'                | 144   | 147   | +0.003843
+ring            | 'ring'               | 147   | 151   | +0.003843
+em              | 'em'                 | 152   | 154   | +0.007084
+otions          | 'otions'             | 154   | 160   | +0.007084
+or              | 'or'                 | 161   | 163   | +0.023620
+intentions      | 'intentions'         | 164   | 174   | +0.013982
+of              | 'of'                 | 175   | 177   | +0.013982
+natural         | 'natural'            | 178   | 185   | +0.010480
+persons         | 'persons'            | 186   | 193   | +0.010480
+on              | 'on'                 | 194   | 196   | +0.008773
+the             | 'the'                | 197   | 200   | +0.008773
+basis           | 'basis'              | 201   | 206   | +0.023873
+of              | 'of'                 | 207   | 209   | +0.023873
+their           | 'their'              | 210   | 215   | +0.012411
+bio             | 'bio'                | 216   | 219   | +0.010012
+metric          | 'metric'             | 219   | 225   | +0.010012
+data            | 'data'               | 226   | 230   | +0.010012
+.               | '.'                  | 230   | 231   | +0.022491
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP +0.005873
+  Added token 'notion ' (4-10) as 'notion'
+
+Saved word: 'notion' with SHAP +0.026869
+  Added token 'of ' (11-13) as 'of'
+
+Saved word: 'of' with SHAP +0.020222
+  Added token '‘' (14-15) as '‘'
+  Added token 'em' (15-17) as 'em'
+  Added token 'otion ' (17-22) as 'otion'
+
+Saved word: '‘emotion' with SHAP -0.003425
+  Added token 'recognition ' (23-34) as 'recognition'
+
+Saved word: 'recognition' with SHAP -0.008350
+  Added token 'system' (35-41) as 'system'
+  Added token '’ ' (41-42) as '’'
+
+Saved word: 'system’' with SHAP +0.000830
+  Added token 'referred ' (43-51) as 'referred'
+
+Saved word: 'referred' with SHAP +0.003955
+  Added token 'to ' (52-54) as 'to'
+
+Saved word: 'to' with SHAP +0.003992
+  Added token 'in ' (55-57) as 'in'
+
+Saved word: 'in' with SHAP +0.003992
+  Added token 'this ' (58-62) as 'this'
+
+Saved word: 'this' with SHAP +0.003992
+  Added token 'Reg' (63-66) as 'Reg'
+  Added token 'ulation ' (66-73) as 'ulation'
+
+Saved word: 'Regulation' with SHAP +0.022007
+  Added token 'should ' (74-80) as 'should'
+
+Saved word: 'should' with SHAP +0.024016
+  Added token 'be ' (81-83) as 'be'
+
+Saved word: 'be' with SHAP +0.024016
+  Added token 'defined ' (84-91) as 'defined'
+
+Saved word: 'defined' with SHAP +0.024285
+  Added token 'as ' (92-94) as 'as'
+
+Saved word: 'as' with SHAP +0.024285
+  Added token 'an ' (95-97) as 'an'
+
+Saved word: 'an' with SHAP +0.010003
+  Added token 'AI ' (98-100) as 'AI'
+
+Saved word: 'AI' with SHAP +0.010003
+  Added token 'system ' (101-107) as 'system'
+
+Saved word: 'system' with SHAP +0.004476
+  Added token 'for ' (108-111) as 'for'
+
+Saved word: 'for' with SHAP +0.004476
+  Added token 'the ' (112-115) as 'the'
+
+Saved word: 'the' with SHAP +0.014533
+  Added token 'purpose ' (116-123) as 'purpose'
+
+Saved word: 'purpose' with SHAP +0.014533
+  Added token 'of ' (124-126) as 'of'
+
+Saved word: 'of' with SHAP +0.013020
+  Added token 'identify' (127-135) as 'identify'
+  Added token 'ing ' (135-138) as 'ing'
+
+Saved word: 'identifying' with SHAP +0.046875
+  Added token 'or ' (139-141) as 'or'
+
+Saved word: 'or' with SHAP +0.023986
+  Added token 'in' (142-144) as 'in'
+  Added token 'fer' (144-147) as 'fer'
+  Added token 'ring ' (147-151) as 'ring'
+
+Saved word: 'inferring' with SHAP +0.011530
+  Added token 'em' (152-154) as 'em'
+  Added token 'otions ' (154-160) as 'otions'
+
+Saved word: 'emotions' with SHAP +0.014168
+  Added token 'or ' (161-163) as 'or'
+
+Saved word: 'or' with SHAP +0.023620
+  Added token 'intentions ' (164-174) as 'intentions'
+
+Saved word: 'intentions' with SHAP +0.013982
+  Added token 'of ' (175-177) as 'of'
+
+Saved word: 'of' with SHAP +0.013982
+  Added token 'natural ' (178-185) as 'natural'
+
+Saved word: 'natural' with SHAP +0.010480
+  Added token 'persons ' (186-193) as 'persons'
+
+Saved word: 'persons' with SHAP +0.010480
+  Added token 'on ' (194-196) as 'on'
+
+Saved word: 'on' with SHAP +0.008773
+  Added token 'the ' (197-200) as 'the'
+
+Saved word: 'the' with SHAP +0.008773
+  Added token 'basis ' (201-206) as 'basis'
+
+Saved word: 'basis' with SHAP +0.023873
+  Added token 'of ' (207-209) as 'of'
+
+Saved word: 'of' with SHAP +0.023873
+  Added token 'their ' (210-215) as 'their'
+
+Saved word: 'their' with SHAP +0.012411
+  Added token 'bio' (216-219) as 'bio'
+  Added token 'metric ' (219-225) as 'metric'
+
+Saved word: 'biometric' with SHAP +0.020025
+  Added token 'data' (226-230) as 'data'
+  Added token '.' (230-231) as '.'
+
+Saved final word: 'data.' with SHAP +0.032503
+
+=== Final Word Contributions ===
+identifying               +0.046875 (POS)
+data.                     +0.032503 (POS)
+notion                    +0.026869 (POS)
+defined                   +0.024285 (POS)
+as                        +0.024285 (POS)
+should                    +0.024016 (POS)
+be                        +0.024016 (POS)
+of                        +0.023873 (POS)
+basis                     +0.023873 (POS)
+or                        +0.023620 (POS)
+Regulation                +0.022007 (POS)
+biometric                 +0.020025 (POS)
+purpose                   +0.014533 (POS)
+emotions                  +0.014168 (POS)
+intentions                +0.013982 (POS)
+their                     +0.012411 (POS)
+inferring                 +0.011530 (POS)
+natural                   +0.010480 (POS)
+persons                   +0.010480 (POS)
+an                        +0.010003 (POS)
+AI                        +0.010003 (POS)
+the                       +0.008773 (POS)
+on                        +0.008773 (POS)
+recognition               -0.008350 (NEG)
+The                       +0.005873 (POS)
+system                    +0.004476 (POS)
+for                       +0.004476 (POS)
+to                        +0.003992 (POS)
+in                        +0.003992 (POS)
+this                      +0.003992 (POS)
+referred                  +0.003955 (POS)
+‘emotion                  -0.003425 (NEG)
+system’                   +0.000830 (POS)

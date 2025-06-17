@@ -1,0 +1,147 @@
+
+=== Processing text ===
+Great deeds come at great cost, Mr. Parcher. Conviction, it turns out, is a luxury of those on the sidelines, Mr. Nash.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004894
+Great           | 'Great'              | 0     | 5     | -0.013987
+deed            | 'deed'               | 6     | 10    | +0.009464
+s               | 's'                  | 10    | 11    | +0.008789
+come            | 'come'               | 12    | 16    | +0.001505
+at              | 'at'                 | 17    | 19    | +0.001505
+great           | 'great'              | 20    | 25    | +0.009703
+cost            | 'cost'               | 26    | 30    | +0.009703
+,               | ','                  | 30    | 31    | +0.017219
+Mr              | 'Mr'                 | 32    | 34    | +0.037305
+.               | '.'                  | 34    | 35    | -0.000324
+Parc            | 'Parc'               | 36    | 40    | -0.017267
+her             | 'her'                | 40    | 43    | +0.001042
+.               | '.'                  | 43    | 44    | +0.015466
+Con             | 'Con'                | 45    | 48    | +0.023346
+vic             | 'vic'                | 48    | 51    | +0.023294
+tion            | 'tion'               | 51    | 55    | +0.018621
+,               | ','                  | 55    | 56    | +0.010639
+it              | 'it'                 | 57    | 59    | -0.001736
+turns           | 'turns'              | 60    | 65    | -0.001736
+out             | 'out'                | 66    | 69    | -0.015937
+,               | ','                  | 69    | 70    | +0.001007
+is              | 'is'                 | 71    | 73    | +0.007398
+a               | 'a'                  | 74    | 75    | +0.007398
+luxury          | 'luxury'             | 76    | 82    | +0.052744
+of              | 'of'                 | 83    | 85    | +0.030531
+those           | 'those'              | 86    | 91    | -0.016193
+on              | 'on'                 | 92    | 94    | -0.016193
+the             | 'the'                | 95    | 98    | -0.016710
+side            | 'side'               | 99    | 103   | -0.004502
+lines           | 'lines'              | 103   | 108   | -0.004502
+,               | ','                  | 108   | 109   | -0.004502
+Mr              | 'Mr'                 | 110   | 112   | +0.008650
+.               | '.'                  | 112   | 113   | -0.003335
+Nash            | 'Nash'               | 114   | 118   | -0.013463
+.               | '.'                  | 118   | 119   | +0.001857
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Great ' (0-5) as 'Great'
+
+Saved word: 'Great' with SHAP -0.013987
+  Added token 'deed' (6-10) as 'deed'
+  Added token 's ' (10-11) as 's'
+
+Saved word: 'deeds' with SHAP +0.018254
+  Added token 'come ' (12-16) as 'come'
+
+Saved word: 'come' with SHAP +0.001505
+  Added token 'at ' (17-19) as 'at'
+
+Saved word: 'at' with SHAP +0.001505
+  Added token 'great ' (20-25) as 'great'
+
+Saved word: 'great' with SHAP +0.009703
+  Added token 'cost' (26-30) as 'cost'
+  Added token ', ' (30-31) as ','
+
+Saved word: 'cost,' with SHAP +0.026922
+  Added token 'Mr' (32-34) as 'Mr'
+  Added token '. ' (34-35) as '.'
+
+Saved word: 'Mr.' with SHAP +0.036982
+  Added token 'Parc' (36-40) as 'Parc'
+  Added token 'her' (40-43) as 'her'
+  Added token '. ' (43-44) as '.'
+
+Saved word: 'Parcher.' with SHAP -0.000759
+  Added token 'Con' (45-48) as 'Con'
+  Added token 'vic' (48-51) as 'vic'
+  Added token 'tion' (51-55) as 'tion'
+  Added token ', ' (55-56) as ','
+
+Saved word: 'Conviction,' with SHAP +0.075899
+  Added token 'it ' (57-59) as 'it'
+
+Saved word: 'it' with SHAP -0.001736
+  Added token 'turns ' (60-65) as 'turns'
+
+Saved word: 'turns' with SHAP -0.001736
+  Added token 'out' (66-69) as 'out'
+  Added token ', ' (69-70) as ','
+
+Saved word: 'out,' with SHAP -0.014930
+  Added token 'is ' (71-73) as 'is'
+
+Saved word: 'is' with SHAP +0.007398
+  Added token 'a ' (74-75) as 'a'
+
+Saved word: 'a' with SHAP +0.007398
+  Added token 'luxury ' (76-82) as 'luxury'
+
+Saved word: 'luxury' with SHAP +0.052744
+  Added token 'of ' (83-85) as 'of'
+
+Saved word: 'of' with SHAP +0.030531
+  Added token 'those ' (86-91) as 'those'
+
+Saved word: 'those' with SHAP -0.016193
+  Added token 'on ' (92-94) as 'on'
+
+Saved word: 'on' with SHAP -0.016193
+  Added token 'the ' (95-98) as 'the'
+
+Saved word: 'the' with SHAP -0.016710
+  Added token 'side' (99-103) as 'side'
+  Added token 'lines' (103-108) as 'lines'
+  Added token ', ' (108-109) as ','
+
+Saved word: 'sidelines,' with SHAP -0.013505
+  Added token 'Mr' (110-112) as 'Mr'
+  Added token '. ' (112-113) as '.'
+
+Saved word: 'Mr.' with SHAP +0.005315
+  Added token 'Nash' (114-118) as 'Nash'
+  Added token '.' (118-119) as '.'
+
+Saved final word: 'Nash.' with SHAP -0.011606
+
+=== Final Word Contributions ===
+Conviction,               +0.075899 (POS)
+luxury                    +0.052744 (POS)
+of                        +0.030531 (POS)
+cost,                     +0.026922 (POS)
+deeds                     +0.018254 (POS)
+the                       -0.016710 (NEG)
+those                     -0.016193 (NEG)
+on                        -0.016193 (NEG)
+out,                      -0.014930 (NEG)
+Great                     -0.013987 (NEG)
+sidelines,                -0.013505 (NEG)
+Nash.                     -0.011606 (NEG)
+great                     +0.009703 (POS)
+is                        +0.007398 (POS)
+a                         +0.007398 (POS)
+Mr.                       +0.005315 (POS)
+it                        -0.001736 (NEG)
+turns                     -0.001736 (NEG)
+come                      +0.001505 (POS)
+at                        +0.001505 (POS)
+Parcher.                  -0.000759 (NEG)

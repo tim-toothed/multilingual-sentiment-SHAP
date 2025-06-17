@@ -1,0 +1,360 @@
+
+=== Processing text ===
+Tenuto conto del loro ruolo e della loro responsabilità, le azioni delle autorità di contrasto che prevedono determinati usi dei sistemi di IA sono caratterizzate da un livello significativo di squilibrio di potere e possono portare alla sorveglianza, all'arresto o alla privazione della libertà di una persona fisica, come pure avere altri impatti negativi sui diritti fondamentali garantiti nella Carta.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000029
+Ten             | 'Ten'                | 0     | 3     | -0.000029
+uto             | 'uto'                | 3     | 6     | -0.000029
+conto           | 'conto'              | 7     | 12    | +0.008863
+del             | 'del'                | 13    | 16    | +0.008863
+loro            | 'loro'               | 17    | 21    | +0.010727
+ruolo           | 'ruolo'              | 22    | 27    | +0.010727
+e               | 'e'                  | 28    | 29    | +0.000299
+della           | 'della'              | 30    | 35    | +0.000299
+loro            | 'loro'               | 36    | 40    | +0.000299
+resp            | 'resp'               | 41    | 45    | -0.002062
+onsabilità      | 'onsabilità'         | 45    | 55    | -0.002062
+,               | ','                  | 55    | 56    | -0.002062
+le              | 'le'                 | 57    | 59    | +0.000965
+azioni          | 'azioni'             | 60    | 66    | +0.000965
+delle           | 'delle'              | 67    | 72    | +0.000965
+autorità        | 'autorità'           | 73    | 81    | +0.000965
+di              | 'di'                 | 82    | 84    | +0.000965
+contrast        | 'contrast'           | 85    | 93    | +0.001866
+o               | 'o'                  | 93    | 94    | +0.001866
+che             | 'che'                | 95    | 98    | +0.001866
+pre             | 'pre'                | 99    | 102   | +0.001891
+vedo            | 'vedo'               | 102   | 106   | +0.001891
+no              | 'no'                 | 106   | 108   | +0.001891
+determina       | 'determina'          | 109   | 118   | +0.009612
+ti              | 'ti'                 | 118   | 120   | +0.005967
+us              | 'us'                 | 121   | 123   | +0.005094
+i               | 'i'                  | 123   | 124   | +0.005094
+dei             | 'dei'                | 125   | 128   | +0.003809
+sistemi         | 'sistemi'            | 129   | 136   | +0.003809
+di              | 'di'                 | 137   | 139   | +0.003809
+IA              | 'IA'                 | 140   | 142   | +0.003809
+sono            | 'sono'               | 143   | 147   | +0.003809
+cara            | 'cara'               | 148   | 152   | +0.024126
+tteri           | 'tteri'              | 152   | 157   | +0.013596
+zzate           | 'zzate'              | 157   | 162   | +0.001800
+da              | 'da'                 | 163   | 165   | -0.007487
+un              | 'un'                 | 166   | 168   | -0.005604
+livello         | 'livello'            | 169   | 176   | +0.002279
+significativo   | 'significativo'      | 177   | 190   | +0.002279
+di              | 'di'                 | 191   | 193   | +0.003089
+sq              | 'sq'                 | 194   | 196   | -0.022541
+uil             | 'uil'                | 196   | 199   | -0.018459
+ib              | 'ib'                 | 199   | 201   | -0.001300
+rio             | 'rio'                | 201   | 204   | -0.001300
+di              | 'di'                 | 205   | 207   | +0.005686
+potere          | 'potere'             | 208   | 214   | +0.005686
+e               | 'e'                  | 215   | 216   | +0.007992
+possono         | 'possono'            | 217   | 224   | +0.021696
+portare         | 'portare'            | 225   | 232   | -0.006621
+alla            | 'alla'               | 233   | 237   | -0.001730
+sor             | 'sor'                | 238   | 241   | -0.001170
+veg             | 'veg'                | 241   | 244   | -0.001170
+lian            | 'lian'               | 244   | 248   | -0.001170
+za              | 'za'                 | 248   | 250   | -0.001170
+,               | ','                  | 250   | 251   | +0.001036
+all             | 'all'                | 252   | 255   | -0.005732
+'               | "'"                  | 255   | 256   | -0.005732
+arresto         | 'arresto'            | 256   | 263   | -0.003423
+o               | 'o'                  | 264   | 265   | -0.003423
+alla            | 'alla'               | 266   | 270   | -0.001177
+pri             | 'pri'                | 271   | 274   | -0.011436
+vazione         | 'vazione'            | 274   | 281   | -0.000955
+della           | 'della'              | 282   | 287   | +0.001429
+libertà         | 'libertà'            | 288   | 295   | +0.001429
+di              | 'di'                 | 296   | 298   | -0.000758
+una             | 'una'                | 299   | 302   | -0.000758
+persona         | 'persona'            | 303   | 310   | -0.003359
+fisica          | 'fisica'             | 311   | 317   | -0.003359
+,               | ','                  | 317   | 318   | +0.017946
+come            | 'come'               | 319   | 323   | +0.002288
+pure            | 'pure'               | 324   | 328   | +0.002288
+avere           | 'avere'              | 329   | 334   | +0.002288
+altri           | 'altri'              | 335   | 340   | +0.002288
+im              | 'im'                 | 341   | 343   | +0.002288
+pat             | 'pat'                | 343   | 346   | +0.002288
+ti              | 'ti'                 | 346   | 348   | +0.002288
+negativ         | 'negativ'            | 349   | 356   | -0.042074
+i               | 'i'                  | 356   | 357   | +0.013663
+sui             | 'sui'                | 358   | 361   | +0.006396
+diritti         | 'diritti'            | 362   | 369   | +0.006396
+fonda           | 'fonda'              | 370   | 375   | +0.002671
+mentali         | 'mentali'            | 375   | 382   | +0.002671
+gara            | 'gara'               | 383   | 387   | +0.003513
+nti             | 'nti'                | 387   | 390   | +0.003513
+ti              | 'ti'                 | 390   | 392   | +0.003513
+nella           | 'nella'              | 393   | 398   | +0.008601
+Carta           | 'Carta'              | 399   | 404   | +0.008601
+.               | '.'                  | 404   | 405   | +0.008601
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ten' (0-3) as 'Ten'
+  Added token 'uto ' (3-6) as 'uto'
+
+Saved word: 'Tenuto' with SHAP -0.000059
+  Added token 'conto ' (7-12) as 'conto'
+
+Saved word: 'conto' with SHAP +0.008863
+  Added token 'del ' (13-16) as 'del'
+
+Saved word: 'del' with SHAP +0.008863
+  Added token 'loro ' (17-21) as 'loro'
+
+Saved word: 'loro' with SHAP +0.010727
+  Added token 'ruolo ' (22-27) as 'ruolo'
+
+Saved word: 'ruolo' with SHAP +0.010727
+  Added token 'e ' (28-29) as 'e'
+
+Saved word: 'e' with SHAP +0.000299
+  Added token 'della ' (30-35) as 'della'
+
+Saved word: 'della' with SHAP +0.000299
+  Added token 'loro ' (36-40) as 'loro'
+
+Saved word: 'loro' with SHAP +0.000299
+  Added token 'resp' (41-45) as 'resp'
+  Added token 'onsabilità' (45-55) as 'onsabilità'
+  Added token ', ' (55-56) as ','
+
+Saved word: 'responsabilità,' with SHAP -0.006186
+  Added token 'le ' (57-59) as 'le'
+
+Saved word: 'le' with SHAP +0.000965
+  Added token 'azioni ' (60-66) as 'azioni'
+
+Saved word: 'azioni' with SHAP +0.000965
+  Added token 'delle ' (67-72) as 'delle'
+
+Saved word: 'delle' with SHAP +0.000965
+  Added token 'autorità ' (73-81) as 'autorità'
+
+Saved word: 'autorità' with SHAP +0.000965
+  Added token 'di ' (82-84) as 'di'
+
+Saved word: 'di' with SHAP +0.000965
+  Added token 'contrast' (85-93) as 'contrast'
+  Added token 'o ' (93-94) as 'o'
+
+Saved word: 'contrasto' with SHAP +0.003732
+  Added token 'che ' (95-98) as 'che'
+
+Saved word: 'che' with SHAP +0.001866
+  Added token 'pre' (99-102) as 'pre'
+  Added token 'vedo' (102-106) as 'vedo'
+  Added token 'no ' (106-108) as 'no'
+
+Saved word: 'prevedono' with SHAP +0.005674
+  Added token 'determina' (109-118) as 'determina'
+  Added token 'ti ' (118-120) as 'ti'
+
+Saved word: 'determinati' with SHAP +0.015579
+  Added token 'us' (121-123) as 'us'
+  Added token 'i ' (123-124) as 'i'
+
+Saved word: 'usi' with SHAP +0.010188
+  Added token 'dei ' (125-128) as 'dei'
+
+Saved word: 'dei' with SHAP +0.003809
+  Added token 'sistemi ' (129-136) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.003809
+  Added token 'di ' (137-139) as 'di'
+
+Saved word: 'di' with SHAP +0.003809
+  Added token 'IA ' (140-142) as 'IA'
+
+Saved word: 'IA' with SHAP +0.003809
+  Added token 'sono ' (143-147) as 'sono'
+
+Saved word: 'sono' with SHAP +0.003809
+  Added token 'cara' (148-152) as 'cara'
+  Added token 'tteri' (152-157) as 'tteri'
+  Added token 'zzate ' (157-162) as 'zzate'
+
+Saved word: 'caratterizzate' with SHAP +0.039521
+  Added token 'da ' (163-165) as 'da'
+
+Saved word: 'da' with SHAP -0.007487
+  Added token 'un ' (166-168) as 'un'
+
+Saved word: 'un' with SHAP -0.005604
+  Added token 'livello ' (169-176) as 'livello'
+
+Saved word: 'livello' with SHAP +0.002279
+  Added token 'significativo ' (177-190) as 'significativo'
+
+Saved word: 'significativo' with SHAP +0.002279
+  Added token 'di ' (191-193) as 'di'
+
+Saved word: 'di' with SHAP +0.003089
+  Added token 'sq' (194-196) as 'sq'
+  Added token 'uil' (196-199) as 'uil'
+  Added token 'ib' (199-201) as 'ib'
+  Added token 'rio ' (201-204) as 'rio'
+
+Saved word: 'squilibrio' with SHAP -0.043600
+  Added token 'di ' (205-207) as 'di'
+
+Saved word: 'di' with SHAP +0.005686
+  Added token 'potere ' (208-214) as 'potere'
+
+Saved word: 'potere' with SHAP +0.005686
+  Added token 'e ' (215-216) as 'e'
+
+Saved word: 'e' with SHAP +0.007992
+  Added token 'possono ' (217-224) as 'possono'
+
+Saved word: 'possono' with SHAP +0.021696
+  Added token 'portare ' (225-232) as 'portare'
+
+Saved word: 'portare' with SHAP -0.006621
+  Added token 'alla ' (233-237) as 'alla'
+
+Saved word: 'alla' with SHAP -0.001730
+  Added token 'sor' (238-241) as 'sor'
+  Added token 'veg' (241-244) as 'veg'
+  Added token 'lian' (244-248) as 'lian'
+  Added token 'za' (248-250) as 'za'
+  Added token ', ' (250-251) as ','
+
+Saved word: 'sorveglianza,' with SHAP -0.003645
+  Added token 'all' (252-255) as 'all'
+  Added token ''' (255-256) as '''
+  Added token 'arresto ' (256-263) as 'arresto'
+
+Saved word: 'all'arresto' with SHAP -0.014888
+  Added token 'o ' (264-265) as 'o'
+
+Saved word: 'o' with SHAP -0.003423
+  Added token 'alla ' (266-270) as 'alla'
+
+Saved word: 'alla' with SHAP -0.001177
+  Added token 'pri' (271-274) as 'pri'
+  Added token 'vazione ' (274-281) as 'vazione'
+
+Saved word: 'privazione' with SHAP -0.012392
+  Added token 'della ' (282-287) as 'della'
+
+Saved word: 'della' with SHAP +0.001429
+  Added token 'libertà ' (288-295) as 'libertà'
+
+Saved word: 'libertà' with SHAP +0.001429
+  Added token 'di ' (296-298) as 'di'
+
+Saved word: 'di' with SHAP -0.000758
+  Added token 'una ' (299-302) as 'una'
+
+Saved word: 'una' with SHAP -0.000758
+  Added token 'persona ' (303-310) as 'persona'
+
+Saved word: 'persona' with SHAP -0.003359
+  Added token 'fisica' (311-317) as 'fisica'
+  Added token ', ' (317-318) as ','
+
+Saved word: 'fisica,' with SHAP +0.014587
+  Added token 'come ' (319-323) as 'come'
+
+Saved word: 'come' with SHAP +0.002288
+  Added token 'pure ' (324-328) as 'pure'
+
+Saved word: 'pure' with SHAP +0.002288
+  Added token 'avere ' (329-334) as 'avere'
+
+Saved word: 'avere' with SHAP +0.002288
+  Added token 'altri ' (335-340) as 'altri'
+
+Saved word: 'altri' with SHAP +0.002288
+  Added token 'im' (341-343) as 'im'
+  Added token 'pat' (343-346) as 'pat'
+  Added token 'ti ' (346-348) as 'ti'
+
+Saved word: 'impatti' with SHAP +0.006864
+  Added token 'negativ' (349-356) as 'negativ'
+  Added token 'i ' (356-357) as 'i'
+
+Saved word: 'negativi' with SHAP -0.028412
+  Added token 'sui ' (358-361) as 'sui'
+
+Saved word: 'sui' with SHAP +0.006396
+  Added token 'diritti ' (362-369) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.006396
+  Added token 'fonda' (370-375) as 'fonda'
+  Added token 'mentali ' (375-382) as 'mentali'
+
+Saved word: 'fondamentali' with SHAP +0.005341
+  Added token 'gara' (383-387) as 'gara'
+  Added token 'nti' (387-390) as 'nti'
+  Added token 'ti ' (390-392) as 'ti'
+
+Saved word: 'garantiti' with SHAP +0.010539
+  Added token 'nella ' (393-398) as 'nella'
+
+Saved word: 'nella' with SHAP +0.008601
+  Added token 'Carta' (399-404) as 'Carta'
+  Added token '.' (404-405) as '.'
+
+Saved final word: 'Carta.' with SHAP +0.017201
+
+=== Final Word Contributions ===
+squilibrio                -0.043600 (NEG)
+caratterizzate            +0.039521 (POS)
+negativi                  -0.028412 (NEG)
+possono                   +0.021696 (POS)
+Carta.                    +0.017201 (POS)
+determinati               +0.015579 (POS)
+all'arresto               -0.014888 (NEG)
+fisica,                   +0.014587 (POS)
+privazione                -0.012392 (NEG)
+ruolo                     +0.010727 (POS)
+garantiti                 +0.010539 (POS)
+usi                       +0.010188 (POS)
+conto                     +0.008863 (POS)
+del                       +0.008863 (POS)
+nella                     +0.008601 (POS)
+e                         +0.007992 (POS)
+da                        -0.007487 (NEG)
+impatti                   +0.006864 (POS)
+portare                   -0.006621 (NEG)
+sui                       +0.006396 (POS)
+diritti                   +0.006396 (POS)
+responsabilità,           -0.006186 (NEG)
+potere                    +0.005686 (POS)
+prevedono                 +0.005674 (POS)
+un                        -0.005604 (NEG)
+fondamentali              +0.005341 (POS)
+dei                       +0.003809 (POS)
+sistemi                   +0.003809 (POS)
+IA                        +0.003809 (POS)
+sono                      +0.003809 (POS)
+contrasto                 +0.003732 (POS)
+sorveglianza,             -0.003645 (NEG)
+o                         -0.003423 (NEG)
+persona                   -0.003359 (NEG)
+come                      +0.002288 (POS)
+pure                      +0.002288 (POS)
+avere                     +0.002288 (POS)
+altri                     +0.002288 (POS)
+livello                   +0.002279 (POS)
+significativo             +0.002279 (POS)
+che                       +0.001866 (POS)
+della                     +0.001429 (POS)
+libertà                   +0.001429 (POS)
+alla                      -0.001177 (NEG)
+le                        +0.000965 (POS)
+azioni                    +0.000965 (POS)
+delle                     +0.000965 (POS)
+autorità                  +0.000965 (POS)
+di                        -0.000758 (NEG)
+una                       -0.000758 (NEG)
+loro                      +0.000299 (POS)
+Tenuto                    -0.000059 (NEG)

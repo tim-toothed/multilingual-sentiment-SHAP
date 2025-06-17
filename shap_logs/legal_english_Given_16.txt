@@ -1,0 +1,291 @@
+
+=== Processing text ===
+Given their role and responsibility, actions by law enforcement authorities involving certain uses of AI systems are characterised by a significant degree of power imbalance and may lead to surveillance, arrest or deprivation of a natural person’s liberty as well as other adverse impacts on fundamental rights guaranteed in the Charter.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002599
+Given           | 'Given'              | 0     | 5     | -0.005373
+their           | 'their'              | 6     | 11    | -0.000349
+role            | 'role'               | 12    | 16    | +0.010772
+and             | 'and'                | 17    | 20    | -0.005431
+responsibility  | 'responsibility'     | 21    | 35    | +0.001480
+,               | ','                  | 35    | 36    | +0.002479
+actions         | 'actions'            | 37    | 44    | +0.011274
+by              | 'by'                 | 45    | 47    | +0.011274
+law             | 'law'                | 48    | 51    | +0.009598
+enforcement     | 'enforcement'        | 52    | 63    | +0.009598
+authorities     | 'authorities'        | 64    | 75    | +0.009663
+involving       | 'involving'          | 76    | 85    | +0.009663
+certain         | 'certain'            | 86    | 93    | +0.017321
+uses            | 'uses'               | 94    | 98    | +0.017321
+of              | 'of'                 | 99    | 101   | +0.004902
+AI              | 'AI'                 | 102   | 104   | +0.004902
+systems         | 'systems'            | 105   | 112   | +0.007331
+are             | 'are'                | 113   | 116   | +0.007331
+character       | 'character'          | 117   | 126   | +0.021571
+ised            | 'ised'               | 126   | 130   | +0.021571
+by              | 'by'                 | 131   | 133   | +0.012727
+a               | 'a'                  | 134   | 135   | +0.012727
+significant     | 'significant'        | 136   | 147   | -0.026248
+degree          | 'degree'             | 148   | 154   | -0.013084
+of              | 'of'                 | 155   | 157   | +0.000118
+power           | 'power'              | 158   | 163   | +0.000118
+im              | 'im'                 | 164   | 166   | -0.004490
+bala            | 'bala'               | 166   | 170   | -0.004490
+nce             | 'nce'                | 170   | 173   | -0.004490
+and             | 'and'                | 174   | 177   | -0.004837
+may             | 'may'                | 178   | 181   | +0.025653
+lead            | 'lead'               | 182   | 186   | +0.016785
+to              | 'to'                 | 187   | 189   | +0.006334
+surveillance    | 'surveillance'       | 190   | 202   | +0.006334
+,               | ','                  | 202   | 203   | +0.002564
+arrest          | 'arrest'             | 204   | 210   | +0.007412
+or              | 'or'                 | 211   | 213   | +0.007412
+de              | 'de'                 | 214   | 216   | +0.001767
+pri             | 'pri'                | 216   | 219   | +0.001767
+vation          | 'vation'             | 219   | 225   | +0.001767
+of              | 'of'                 | 226   | 228   | +0.002793
+a               | 'a'                  | 229   | 230   | +0.002793
+natural         | 'natural'            | 231   | 238   | +0.002793
+person          | 'person'             | 239   | 245   | +0.002793
+’               | '’'                  | 245   | 246   | +0.007847
+s               | 's'                  | 246   | 247   | +0.007847
+liber           | 'liber'              | 248   | 253   | +0.003285
+ty              | 'ty'                 | 253   | 255   | +0.003285
+as              | 'as'                 | 256   | 258   | +0.003958
+well            | 'well'               | 259   | 263   | +0.003958
+as              | 'as'                 | 264   | 266   | +0.003958
+other           | 'other'              | 267   | 272   | +0.003958
+ad              | 'ad'                 | 273   | 275   | +0.014234
+verse           | 'verse'              | 275   | 280   | +0.014234
+impact          | 'impact'             | 281   | 287   | +0.009545
+s               | 's'                  | 287   | 288   | +0.009545
+on              | 'on'                 | 289   | 291   | +0.002954
+fundamental     | 'fundamental'        | 292   | 303   | +0.002954
+rights          | 'rights'             | 304   | 310   | +0.002954
+gu              | 'gu'                 | 311   | 313   | +0.002954
+aran            | 'aran'               | 313   | 317   | +0.002954
+teed            | 'teed'               | 317   | 321   | +0.002954
+in              | 'in'                 | 322   | 324   | +0.004458
+the             | 'the'                | 325   | 328   | +0.004458
+Charter         | 'Charter'            | 329   | 336   | +0.004458
+.               | '.'                  | 336   | 337   | +0.005083
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Given ' (0-5) as 'Given'
+
+Saved word: 'Given' with SHAP -0.005373
+  Added token 'their ' (6-11) as 'their'
+
+Saved word: 'their' with SHAP -0.000349
+  Added token 'role ' (12-16) as 'role'
+
+Saved word: 'role' with SHAP +0.010772
+  Added token 'and ' (17-20) as 'and'
+
+Saved word: 'and' with SHAP -0.005431
+  Added token 'responsibility' (21-35) as 'responsibility'
+  Added token ', ' (35-36) as ','
+
+Saved word: 'responsibility,' with SHAP +0.003960
+  Added token 'actions ' (37-44) as 'actions'
+
+Saved word: 'actions' with SHAP +0.011274
+  Added token 'by ' (45-47) as 'by'
+
+Saved word: 'by' with SHAP +0.011274
+  Added token 'law ' (48-51) as 'law'
+
+Saved word: 'law' with SHAP +0.009598
+  Added token 'enforcement ' (52-63) as 'enforcement'
+
+Saved word: 'enforcement' with SHAP +0.009598
+  Added token 'authorities ' (64-75) as 'authorities'
+
+Saved word: 'authorities' with SHAP +0.009663
+  Added token 'involving ' (76-85) as 'involving'
+
+Saved word: 'involving' with SHAP +0.009663
+  Added token 'certain ' (86-93) as 'certain'
+
+Saved word: 'certain' with SHAP +0.017321
+  Added token 'uses ' (94-98) as 'uses'
+
+Saved word: 'uses' with SHAP +0.017321
+  Added token 'of ' (99-101) as 'of'
+
+Saved word: 'of' with SHAP +0.004902
+  Added token 'AI ' (102-104) as 'AI'
+
+Saved word: 'AI' with SHAP +0.004902
+  Added token 'systems ' (105-112) as 'systems'
+
+Saved word: 'systems' with SHAP +0.007331
+  Added token 'are ' (113-116) as 'are'
+
+Saved word: 'are' with SHAP +0.007331
+  Added token 'character' (117-126) as 'character'
+  Added token 'ised ' (126-130) as 'ised'
+
+Saved word: 'characterised' with SHAP +0.043142
+  Added token 'by ' (131-133) as 'by'
+
+Saved word: 'by' with SHAP +0.012727
+  Added token 'a ' (134-135) as 'a'
+
+Saved word: 'a' with SHAP +0.012727
+  Added token 'significant ' (136-147) as 'significant'
+
+Saved word: 'significant' with SHAP -0.026248
+  Added token 'degree ' (148-154) as 'degree'
+
+Saved word: 'degree' with SHAP -0.013084
+  Added token 'of ' (155-157) as 'of'
+
+Saved word: 'of' with SHAP +0.000118
+  Added token 'power ' (158-163) as 'power'
+
+Saved word: 'power' with SHAP +0.000118
+  Added token 'im' (164-166) as 'im'
+  Added token 'bala' (166-170) as 'bala'
+  Added token 'nce ' (170-173) as 'nce'
+
+Saved word: 'imbalance' with SHAP -0.013469
+  Added token 'and ' (174-177) as 'and'
+
+Saved word: 'and' with SHAP -0.004837
+  Added token 'may ' (178-181) as 'may'
+
+Saved word: 'may' with SHAP +0.025653
+  Added token 'lead ' (182-186) as 'lead'
+
+Saved word: 'lead' with SHAP +0.016785
+  Added token 'to ' (187-189) as 'to'
+
+Saved word: 'to' with SHAP +0.006334
+  Added token 'surveillance' (190-202) as 'surveillance'
+  Added token ', ' (202-203) as ','
+
+Saved word: 'surveillance,' with SHAP +0.008898
+  Added token 'arrest ' (204-210) as 'arrest'
+
+Saved word: 'arrest' with SHAP +0.007412
+  Added token 'or ' (211-213) as 'or'
+
+Saved word: 'or' with SHAP +0.007412
+  Added token 'de' (214-216) as 'de'
+  Added token 'pri' (216-219) as 'pri'
+  Added token 'vation ' (219-225) as 'vation'
+
+Saved word: 'deprivation' with SHAP +0.005302
+  Added token 'of ' (226-228) as 'of'
+
+Saved word: 'of' with SHAP +0.002793
+  Added token 'a ' (229-230) as 'a'
+
+Saved word: 'a' with SHAP +0.002793
+  Added token 'natural ' (231-238) as 'natural'
+
+Saved word: 'natural' with SHAP +0.002793
+  Added token 'person' (239-245) as 'person'
+  Added token '’' (245-246) as '’'
+  Added token 's ' (246-247) as 's'
+
+Saved word: 'person’s' with SHAP +0.018487
+  Added token 'liber' (248-253) as 'liber'
+  Added token 'ty ' (253-255) as 'ty'
+
+Saved word: 'liberty' with SHAP +0.006570
+  Added token 'as ' (256-258) as 'as'
+
+Saved word: 'as' with SHAP +0.003958
+  Added token 'well ' (259-263) as 'well'
+
+Saved word: 'well' with SHAP +0.003958
+  Added token 'as ' (264-266) as 'as'
+
+Saved word: 'as' with SHAP +0.003958
+  Added token 'other ' (267-272) as 'other'
+
+Saved word: 'other' with SHAP +0.003958
+  Added token 'ad' (273-275) as 'ad'
+  Added token 'verse ' (275-280) as 'verse'
+
+Saved word: 'adverse' with SHAP +0.028467
+  Added token 'impact' (281-287) as 'impact'
+  Added token 's ' (287-288) as 's'
+
+Saved word: 'impacts' with SHAP +0.019091
+  Added token 'on ' (289-291) as 'on'
+
+Saved word: 'on' with SHAP +0.002954
+  Added token 'fundamental ' (292-303) as 'fundamental'
+
+Saved word: 'fundamental' with SHAP +0.002954
+  Added token 'rights ' (304-310) as 'rights'
+
+Saved word: 'rights' with SHAP +0.002954
+  Added token 'gu' (311-313) as 'gu'
+  Added token 'aran' (313-317) as 'aran'
+  Added token 'teed ' (317-321) as 'teed'
+
+Saved word: 'guaranteed' with SHAP +0.008862
+  Added token 'in ' (322-324) as 'in'
+
+Saved word: 'in' with SHAP +0.004458
+  Added token 'the ' (325-328) as 'the'
+
+Saved word: 'the' with SHAP +0.004458
+  Added token 'Charter' (329-336) as 'Charter'
+  Added token '.' (336-337) as '.'
+
+Saved final word: 'Charter.' with SHAP +0.009540
+
+=== Final Word Contributions ===
+characterised             +0.043142 (POS)
+adverse                   +0.028467 (POS)
+significant               -0.026248 (NEG)
+may                       +0.025653 (POS)
+impacts                   +0.019091 (POS)
+person’s                  +0.018487 (POS)
+certain                   +0.017321 (POS)
+uses                      +0.017321 (POS)
+lead                      +0.016785 (POS)
+imbalance                 -0.013469 (NEG)
+degree                    -0.013084 (NEG)
+by                        +0.012727 (POS)
+actions                   +0.011274 (POS)
+role                      +0.010772 (POS)
+authorities               +0.009663 (POS)
+involving                 +0.009663 (POS)
+law                       +0.009598 (POS)
+enforcement               +0.009598 (POS)
+Charter.                  +0.009540 (POS)
+surveillance,             +0.008898 (POS)
+guaranteed                +0.008862 (POS)
+arrest                    +0.007412 (POS)
+or                        +0.007412 (POS)
+systems                   +0.007331 (POS)
+are                       +0.007331 (POS)
+liberty                   +0.006570 (POS)
+to                        +0.006334 (POS)
+Given                     -0.005373 (NEG)
+deprivation               +0.005302 (POS)
+AI                        +0.004902 (POS)
+and                       -0.004837 (NEG)
+in                        +0.004458 (POS)
+the                       +0.004458 (POS)
+responsibility,           +0.003960 (POS)
+as                        +0.003958 (POS)
+well                      +0.003958 (POS)
+other                     +0.003958 (POS)
+on                        +0.002954 (POS)
+fundamental               +0.002954 (POS)
+rights                    +0.002954 (POS)
+of                        +0.002793 (POS)
+a                         +0.002793 (POS)
+natural                   +0.002793 (POS)
+their                     -0.000349 (NEG)
+power                     +0.000118 (POS)

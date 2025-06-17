@@ -1,0 +1,155 @@
+
+=== Processing text ===
+Ma sai una cosa, Alan? A volte sono proprio le persone che nessuno immagina che possano fare certe cose quelle che fanno cose che nessuno immagina.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001492
+Ma              | 'Ma'                 | 0     | 2     | -0.036934
+sai             | 'sai'                | 3     | 6     | -0.004036
+una             | 'una'                | 7     | 10    | +0.022051
+cosa            | 'cosa'               | 11    | 15    | +0.000666
+,               | ','                  | 15    | 16    | +0.008925
+Alan            | 'Alan'               | 17    | 21    | -0.004230
+?               | '?'                  | 21    | 22    | -0.001591
+A               | 'A'                  | 23    | 24    | +0.018981
+volte           | 'volte'              | 25    | 30    | +0.047049
+sono            | 'sono'               | 31    | 35    | +0.011666
+proprio         | 'proprio'            | 36    | 43    | -0.012291
+le              | 'le'                 | 44    | 46    | +0.015592
+persone         | 'persone'            | 47    | 54    | +0.016652
+che             | 'che'                | 55    | 58    | -0.000172
+nessuno         | 'nessuno'            | 59    | 66    | +0.024110
+im              | 'im'                 | 67    | 69    | -0.001472
+ma              | 'ma'                 | 69    | 71    | -0.001472
+gina            | 'gina'               | 71    | 75    | -0.000104
+che             | 'che'                | 76    | 79    | +0.005021
+possa           | 'possa'              | 80    | 85    | +0.005021
+no              | 'no'                 | 85    | 87    | +0.005021
+fare            | 'fare'               | 88    | 92    | +0.006994
+ce              | 'ce'                 | 93    | 95    | +0.006994
+rte             | 'rte'                | 95    | 98    | +0.006994
+cose            | 'cose'               | 99    | 103   | +0.009410
+quelle          | 'quelle'             | 104   | 110   | +0.009410
+che             | 'che'                | 111   | 114   | +0.008024
+fanno           | 'fanno'              | 115   | 120   | +0.008024
+cose            | 'cose'               | 121   | 125   | +0.007750
+che             | 'che'                | 126   | 129   | +0.007708
+nessuno         | 'nessuno'            | 130   | 137   | +0.005729
+im              | 'im'                 | 138   | 140   | +0.000335
+ma              | 'ma'                 | 140   | 142   | +0.000335
+gina            | 'gina'               | 142   | 146   | +0.000458
+.               | '.'                  | 146   | 147   | +0.005213
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ma ' (0-2) as 'Ma'
+
+Saved word: 'Ma' with SHAP -0.036934
+  Added token 'sai ' (3-6) as 'sai'
+
+Saved word: 'sai' with SHAP -0.004036
+  Added token 'una ' (7-10) as 'una'
+
+Saved word: 'una' with SHAP +0.022051
+  Added token 'cosa' (11-15) as 'cosa'
+  Added token ', ' (15-16) as ','
+
+Saved word: 'cosa,' with SHAP +0.009591
+  Added token 'Alan' (17-21) as 'Alan'
+  Added token '? ' (21-22) as '?'
+
+Saved word: 'Alan?' with SHAP -0.005821
+  Added token 'A ' (23-24) as 'A'
+
+Saved word: 'A' with SHAP +0.018981
+  Added token 'volte ' (25-30) as 'volte'
+
+Saved word: 'volte' with SHAP +0.047049
+  Added token 'sono ' (31-35) as 'sono'
+
+Saved word: 'sono' with SHAP +0.011666
+  Added token 'proprio ' (36-43) as 'proprio'
+
+Saved word: 'proprio' with SHAP -0.012291
+  Added token 'le ' (44-46) as 'le'
+
+Saved word: 'le' with SHAP +0.015592
+  Added token 'persone ' (47-54) as 'persone'
+
+Saved word: 'persone' with SHAP +0.016652
+  Added token 'che ' (55-58) as 'che'
+
+Saved word: 'che' with SHAP -0.000172
+  Added token 'nessuno ' (59-66) as 'nessuno'
+
+Saved word: 'nessuno' with SHAP +0.024110
+  Added token 'im' (67-69) as 'im'
+  Added token 'ma' (69-71) as 'ma'
+  Added token 'gina ' (71-75) as 'gina'
+
+Saved word: 'immagina' with SHAP -0.003048
+  Added token 'che ' (76-79) as 'che'
+
+Saved word: 'che' with SHAP +0.005021
+  Added token 'possa' (80-85) as 'possa'
+  Added token 'no ' (85-87) as 'no'
+
+Saved word: 'possano' with SHAP +0.010043
+  Added token 'fare ' (88-92) as 'fare'
+
+Saved word: 'fare' with SHAP +0.006994
+  Added token 'ce' (93-95) as 'ce'
+  Added token 'rte ' (95-98) as 'rte'
+
+Saved word: 'certe' with SHAP +0.013987
+  Added token 'cose ' (99-103) as 'cose'
+
+Saved word: 'cose' with SHAP +0.009410
+  Added token 'quelle ' (104-110) as 'quelle'
+
+Saved word: 'quelle' with SHAP +0.009410
+  Added token 'che ' (111-114) as 'che'
+
+Saved word: 'che' with SHAP +0.008024
+  Added token 'fanno ' (115-120) as 'fanno'
+
+Saved word: 'fanno' with SHAP +0.008024
+  Added token 'cose ' (121-125) as 'cose'
+
+Saved word: 'cose' with SHAP +0.007750
+  Added token 'che ' (126-129) as 'che'
+
+Saved word: 'che' with SHAP +0.007708
+  Added token 'nessuno ' (130-137) as 'nessuno'
+
+Saved word: 'nessuno' with SHAP +0.005729
+  Added token 'im' (138-140) as 'im'
+  Added token 'ma' (140-142) as 'ma'
+  Added token 'gina' (142-146) as 'gina'
+  Added token '.' (146-147) as '.'
+
+Saved final word: 'immagina.' with SHAP +0.006341
+
+=== Final Word Contributions ===
+volte                     +0.047049 (POS)
+Ma                        -0.036934 (NEG)
+una                       +0.022051 (POS)
+A                         +0.018981 (POS)
+persone                   +0.016652 (POS)
+le                        +0.015592 (POS)
+certe                     +0.013987 (POS)
+proprio                   -0.012291 (NEG)
+sono                      +0.011666 (POS)
+possano                   +0.010043 (POS)
+cosa,                     +0.009591 (POS)
+quelle                    +0.009410 (POS)
+fanno                     +0.008024 (POS)
+cose                      +0.007750 (POS)
+che                       +0.007708 (POS)
+fare                      +0.006994 (POS)
+immagina.                 +0.006341 (POS)
+Alan?                     -0.005821 (NEG)
+nessuno                   +0.005729 (POS)
+sai                       -0.004036 (NEG)
+immagina                  -0.003048 (NEG)

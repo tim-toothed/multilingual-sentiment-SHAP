@@ -1,0 +1,119 @@
+
+=== Processing text ===
+Mathematicians won the war. Mathematicians broke the Japanese codes and built the A-bomb. Mathematicians, like you.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Math            | 'Math'               | 0     | 4     | +0.007547
+ema             | 'ema'                | 4     | 7     | +0.005923
+tician          | 'tician'             | 7     | 13    | +0.018786
+s               | 's'                  | 13    | 14    | +0.000399
+won             | 'won'                | 15    | 18    | -0.056389
+the             | 'the'                | 19    | 22    | -0.014218
+war             | 'war'                | 23    | 26    | +0.089403
+.               | '.'                  | 26    | 27    | +0.018657
+Math            | 'Math'               | 28    | 32    | +0.009696
+ema             | 'ema'                | 32    | 35    | +0.001574
+tician          | 'tician'             | 35    | 41    | +0.002578
+s               | 's'                  | 41    | 42    | +0.002578
+broke           | 'broke'              | 43    | 48    | +0.152341
+the             | 'the'                | 49    | 52    | +0.002272
+Japanese        | 'Japanese'           | 53    | 61    | +0.001973
+codes           | 'codes'              | 62    | 67    | -0.012448
+and             | 'and'                | 68    | 71    | -0.012251
+built           | 'built'              | 72    | 77    | -0.065106
+the             | 'the'                | 78    | 81    | -0.023483
+A               | 'A'                  | 82    | 83    | +0.011853
+-               | '-'                  | 83    | 84    | +0.011853
+bomb            | 'bomb'               | 84    | 88    | +0.059936
+.               | '.'                  | 88    | 89    | +0.029892
+Math            | 'Math'               | 90    | 94    | +0.000499
+ema             | 'ema'                | 94    | 97    | +0.000499
+tician          | 'tician'             | 97    | 103   | +0.011271
+s               | 's'                  | 103   | 104   | +0.004246
+,               | ','                  | 104   | 105   | -0.003118
+like            | 'like'               | 106   | 110   | -0.006785
+you             | 'you'                | 111   | 114   | -0.009767
+.               | '.'                  | 114   | 115   | -0.007627
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Math' (0-4) as 'Math'
+  Added token 'ema' (4-7) as 'ema'
+  Added token 'tician' (7-13) as 'tician'
+  Added token 's ' (13-14) as 's'
+
+Saved word: 'Mathematicians' with SHAP +0.032655
+  Added token 'won ' (15-18) as 'won'
+
+Saved word: 'won' with SHAP -0.056389
+  Added token 'the ' (19-22) as 'the'
+
+Saved word: 'the' with SHAP -0.014218
+  Added token 'war' (23-26) as 'war'
+  Added token '. ' (26-27) as '.'
+
+Saved word: 'war.' with SHAP +0.108061
+  Added token 'Math' (28-32) as 'Math'
+  Added token 'ema' (32-35) as 'ema'
+  Added token 'tician' (35-41) as 'tician'
+  Added token 's ' (41-42) as 's'
+
+Saved word: 'Mathematicians' with SHAP +0.016426
+  Added token 'broke ' (43-48) as 'broke'
+
+Saved word: 'broke' with SHAP +0.152341
+  Added token 'the ' (49-52) as 'the'
+
+Saved word: 'the' with SHAP +0.002272
+  Added token 'Japanese ' (53-61) as 'Japanese'
+
+Saved word: 'Japanese' with SHAP +0.001973
+  Added token 'codes ' (62-67) as 'codes'
+
+Saved word: 'codes' with SHAP -0.012448
+  Added token 'and ' (68-71) as 'and'
+
+Saved word: 'and' with SHAP -0.012251
+  Added token 'built ' (72-77) as 'built'
+
+Saved word: 'built' with SHAP -0.065106
+  Added token 'the ' (78-81) as 'the'
+
+Saved word: 'the' with SHAP -0.023483
+  Added token 'A' (82-83) as 'A'
+  Added token '-' (83-84) as '-'
+  Added token 'bomb' (84-88) as 'bomb'
+  Added token '. ' (88-89) as '.'
+
+Saved word: 'A-bomb.' with SHAP +0.113532
+  Added token 'Math' (90-94) as 'Math'
+  Added token 'ema' (94-97) as 'ema'
+  Added token 'tician' (97-103) as 'tician'
+  Added token 's' (103-104) as 's'
+  Added token ', ' (104-105) as ','
+
+Saved word: 'Mathematicians,' with SHAP +0.013396
+  Added token 'like ' (106-110) as 'like'
+
+Saved word: 'like' with SHAP -0.006785
+  Added token 'you' (111-114) as 'you'
+  Added token '.' (114-115) as '.'
+
+Saved final word: 'you.' with SHAP -0.017395
+
+=== Final Word Contributions ===
+broke                     +0.152341 (POS)
+A-bomb.                   +0.113532 (POS)
+war.                      +0.108061 (POS)
+built                     -0.065106 (NEG)
+won                       -0.056389 (NEG)
+the                       -0.023483 (NEG)
+you.                      -0.017395 (NEG)
+Mathematicians            +0.016426 (POS)
+Mathematicians,           +0.013396 (POS)
+codes                     -0.012448 (NEG)
+and                       -0.012251 (NEG)
+like                      -0.006785 (NEG)
+Japanese                  +0.001973 (POS)

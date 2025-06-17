@@ -1,0 +1,261 @@
+
+=== Processing text ===
+Biometric categorisation systems that are based on natural persons’ biometric data, such as an individual person’s face or fingerprint, to deduce or infer an individuals’ political opinions, trade union membership, religious or philosophical beliefs, race, sex life or sexual orientation should be prohibited.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001042
+Bio             | 'Bio'                | 0     | 3     | +0.000635
+metric          | 'metric'             | 3     | 9     | +0.009485
+cat             | 'cat'                | 10    | 13    | +0.069288
+ego             | 'ego'                | 13    | 16    | -0.005029
+ris             | 'ris'                | 16    | 19    | -0.029899
+ation           | 'ation'              | 19    | 24    | +0.007187
+systems         | 'systems'            | 25    | 32    | +0.005802
+that            | 'that'               | 33    | 37    | +0.005802
+are             | 'are'                | 38    | 41    | +0.014089
+based           | 'based'              | 42    | 47    | +0.016748
+on              | 'on'                 | 48    | 50    | +0.010344
+natural         | 'natural'            | 51    | 58    | +0.010344
+persons         | 'persons'            | 59    | 66    | +0.006995
+’               | '’'                  | 66    | 67    | +0.006995
+bio             | 'bio'                | 68    | 71    | +0.012844
+metric          | 'metric'             | 71    | 77    | +0.012844
+data            | 'data'               | 78    | 82    | +0.012583
+,               | ','                  | 82    | 83    | +0.017743
+such            | 'such'               | 84    | 88    | +0.011210
+as              | 'as'                 | 89    | 91    | +0.011210
+an              | 'an'                 | 92    | 94    | +0.010830
+individual      | 'individual'         | 95    | 105   | +0.010830
+person          | 'person'             | 106   | 112   | +0.006915
+’               | '’'                  | 112   | 113   | +0.006915
+s               | 's'                  | 113   | 114   | +0.006310
+face            | 'face'               | 115   | 119   | +0.006310
+or              | 'or'                 | 120   | 122   | +0.023015
+finger          | 'finger'             | 123   | 129   | -0.001135
+print           | 'print'              | 129   | 134   | -0.001135
+,               | ','                  | 134   | 135   | -0.001135
+to              | 'to'                 | 136   | 138   | +0.008567
+de              | 'de'                 | 139   | 141   | +0.008163
+duce            | 'duce'               | 141   | 145   | +0.008163
+or              | 'or'                 | 146   | 148   | +0.020572
+in              | 'in'                 | 149   | 151   | -0.000619
+fer             | 'fer'                | 151   | 154   | -0.000619
+an              | 'an'                 | 155   | 157   | +0.000187
+individuals     | 'individuals'        | 158   | 169   | +0.000187
+’               | '’'                  | 169   | 170   | +0.005627
+political       | 'political'          | 171   | 180   | +0.005627
+opinions        | 'opinions'           | 181   | 189   | +0.005627
+,               | ','                  | 189   | 190   | +0.004456
+trade           | 'trade'              | 191   | 196   | +0.005793
+union           | 'union'              | 197   | 202   | +0.005793
+membership      | 'membership'         | 203   | 213   | +0.007721
+,               | ','                  | 213   | 214   | +0.012543
+religious       | 'religious'          | 215   | 224   | +0.013628
+or              | 'or'                 | 225   | 227   | +0.013628
+philosophical   | 'philosophical'      | 228   | 241   | +0.009936
+beliefs         | 'beliefs'            | 242   | 249   | +0.009936
+,               | ','                  | 249   | 250   | +0.009936
+race            | 'race'               | 251   | 255   | +0.011263
+,               | ','                  | 255   | 256   | +0.011263
+sex             | 'sex'                | 257   | 260   | +0.008127
+life            | 'life'               | 261   | 265   | +0.008127
+or              | 'or'                 | 266   | 268   | +0.030557
+sexual          | 'sexual'             | 269   | 275   | +0.011084
+orientation     | 'orientation'        | 276   | 287   | +0.011084
+should          | 'should'             | 288   | 294   | +0.008963
+be              | 'be'                 | 295   | 297   | +0.008963
+prohibited      | 'prohibited'         | 298   | 308   | +0.008963
+.               | '.'                  | 308   | 309   | +0.020525
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Bio' (0-3) as 'Bio'
+  Added token 'metric ' (3-9) as 'metric'
+
+Saved word: 'Biometric' with SHAP +0.010120
+  Added token 'cat' (10-13) as 'cat'
+  Added token 'ego' (13-16) as 'ego'
+  Added token 'ris' (16-19) as 'ris'
+  Added token 'ation ' (19-24) as 'ation'
+
+Saved word: 'categorisation' with SHAP +0.041547
+  Added token 'systems ' (25-32) as 'systems'
+
+Saved word: 'systems' with SHAP +0.005802
+  Added token 'that ' (33-37) as 'that'
+
+Saved word: 'that' with SHAP +0.005802
+  Added token 'are ' (38-41) as 'are'
+
+Saved word: 'are' with SHAP +0.014089
+  Added token 'based ' (42-47) as 'based'
+
+Saved word: 'based' with SHAP +0.016748
+  Added token 'on ' (48-50) as 'on'
+
+Saved word: 'on' with SHAP +0.010344
+  Added token 'natural ' (51-58) as 'natural'
+
+Saved word: 'natural' with SHAP +0.010344
+  Added token 'persons' (59-66) as 'persons'
+  Added token '’ ' (66-67) as '’'
+
+Saved word: 'persons’' with SHAP +0.013991
+  Added token 'bio' (68-71) as 'bio'
+  Added token 'metric ' (71-77) as 'metric'
+
+Saved word: 'biometric' with SHAP +0.025689
+  Added token 'data' (78-82) as 'data'
+  Added token ', ' (82-83) as ','
+
+Saved word: 'data,' with SHAP +0.030326
+  Added token 'such ' (84-88) as 'such'
+
+Saved word: 'such' with SHAP +0.011210
+  Added token 'as ' (89-91) as 'as'
+
+Saved word: 'as' with SHAP +0.011210
+  Added token 'an ' (92-94) as 'an'
+
+Saved word: 'an' with SHAP +0.010830
+  Added token 'individual ' (95-105) as 'individual'
+
+Saved word: 'individual' with SHAP +0.010830
+  Added token 'person' (106-112) as 'person'
+  Added token '’' (112-113) as '’'
+  Added token 's ' (113-114) as 's'
+
+Saved word: 'person’s' with SHAP +0.020141
+  Added token 'face ' (115-119) as 'face'
+
+Saved word: 'face' with SHAP +0.006310
+  Added token 'or ' (120-122) as 'or'
+
+Saved word: 'or' with SHAP +0.023015
+  Added token 'finger' (123-129) as 'finger'
+  Added token 'print' (129-134) as 'print'
+  Added token ', ' (134-135) as ','
+
+Saved word: 'fingerprint,' with SHAP -0.003405
+  Added token 'to ' (136-138) as 'to'
+
+Saved word: 'to' with SHAP +0.008567
+  Added token 'de' (139-141) as 'de'
+  Added token 'duce ' (141-145) as 'duce'
+
+Saved word: 'deduce' with SHAP +0.016327
+  Added token 'or ' (146-148) as 'or'
+
+Saved word: 'or' with SHAP +0.020572
+  Added token 'in' (149-151) as 'in'
+  Added token 'fer ' (151-154) as 'fer'
+
+Saved word: 'infer' with SHAP -0.001237
+  Added token 'an ' (155-157) as 'an'
+
+Saved word: 'an' with SHAP +0.000187
+  Added token 'individuals' (158-169) as 'individuals'
+  Added token '’ ' (169-170) as '’'
+
+Saved word: 'individuals’' with SHAP +0.005814
+  Added token 'political ' (171-180) as 'political'
+
+Saved word: 'political' with SHAP +0.005627
+  Added token 'opinions' (181-189) as 'opinions'
+  Added token ', ' (189-190) as ','
+
+Saved word: 'opinions,' with SHAP +0.010083
+  Added token 'trade ' (191-196) as 'trade'
+
+Saved word: 'trade' with SHAP +0.005793
+  Added token 'union ' (197-202) as 'union'
+
+Saved word: 'union' with SHAP +0.005793
+  Added token 'membership' (203-213) as 'membership'
+  Added token ', ' (213-214) as ','
+
+Saved word: 'membership,' with SHAP +0.020264
+  Added token 'religious ' (215-224) as 'religious'
+
+Saved word: 'religious' with SHAP +0.013628
+  Added token 'or ' (225-227) as 'or'
+
+Saved word: 'or' with SHAP +0.013628
+  Added token 'philosophical ' (228-241) as 'philosophical'
+
+Saved word: 'philosophical' with SHAP +0.009936
+  Added token 'beliefs' (242-249) as 'beliefs'
+  Added token ', ' (249-250) as ','
+
+Saved word: 'beliefs,' with SHAP +0.019872
+  Added token 'race' (251-255) as 'race'
+  Added token ', ' (255-256) as ','
+
+Saved word: 'race,' with SHAP +0.022525
+  Added token 'sex ' (257-260) as 'sex'
+
+Saved word: 'sex' with SHAP +0.008127
+  Added token 'life ' (261-265) as 'life'
+
+Saved word: 'life' with SHAP +0.008127
+  Added token 'or ' (266-268) as 'or'
+
+Saved word: 'or' with SHAP +0.030557
+  Added token 'sexual ' (269-275) as 'sexual'
+
+Saved word: 'sexual' with SHAP +0.011084
+  Added token 'orientation ' (276-287) as 'orientation'
+
+Saved word: 'orientation' with SHAP +0.011084
+  Added token 'should ' (288-294) as 'should'
+
+Saved word: 'should' with SHAP +0.008963
+  Added token 'be ' (295-297) as 'be'
+
+Saved word: 'be' with SHAP +0.008963
+  Added token 'prohibited' (298-308) as 'prohibited'
+  Added token '.' (308-309) as '.'
+
+Saved final word: 'prohibited.' with SHAP +0.029488
+
+=== Final Word Contributions ===
+categorisation            +0.041547 (POS)
+or                        +0.030557 (POS)
+data,                     +0.030326 (POS)
+prohibited.               +0.029488 (POS)
+biometric                 +0.025689 (POS)
+race,                     +0.022525 (POS)
+membership,               +0.020264 (POS)
+person’s                  +0.020141 (POS)
+beliefs,                  +0.019872 (POS)
+based                     +0.016748 (POS)
+deduce                    +0.016327 (POS)
+are                       +0.014089 (POS)
+persons’                  +0.013991 (POS)
+religious                 +0.013628 (POS)
+such                      +0.011210 (POS)
+as                        +0.011210 (POS)
+sexual                    +0.011084 (POS)
+orientation               +0.011084 (POS)
+individual                +0.010830 (POS)
+on                        +0.010344 (POS)
+natural                   +0.010344 (POS)
+Biometric                 +0.010120 (POS)
+opinions,                 +0.010083 (POS)
+philosophical             +0.009936 (POS)
+should                    +0.008963 (POS)
+be                        +0.008963 (POS)
+to                        +0.008567 (POS)
+sex                       +0.008127 (POS)
+life                      +0.008127 (POS)
+face                      +0.006310 (POS)
+individuals’              +0.005814 (POS)
+systems                   +0.005802 (POS)
+that                      +0.005802 (POS)
+trade                     +0.005793 (POS)
+union                     +0.005793 (POS)
+political                 +0.005627 (POS)
+fingerprint,              -0.003405 (NEG)
+infer                     -0.001237 (NEG)
+an                        +0.000187 (POS)

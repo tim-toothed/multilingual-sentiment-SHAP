@@ -1,0 +1,380 @@
+
+=== Processing text ===
+Al fine di aumentare la trasparenza sui dati utilizzati nelle fasi di pre-addestramento e addestramento dei modelli di IA per finalità generali, compresi testo e dati protetti dalla normativa sul diritto d'autore, è opportuno che i fornitori di tali modelli elaborino e mettano a disposizione del pubblico una sintesi sufficientemente dettagliata dei contenuti utilizzati per l'addestramento del modello di IA per finalità generali.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003793
+Al              | 'Al'                 | 0     | 2     | +0.003793
+fine            | 'fine'               | 3     | 7     | +0.005507
+di              | 'di'                 | 8     | 10    | +0.005507
+aumentar        | 'aumentar'           | 11    | 19    | +0.004792
+e               | 'e'                  | 19    | 20    | +0.004792
+la              | 'la'                 | 21    | 23    | +0.004792
+tras            | 'tras'               | 24    | 28    | +0.003137
+pare            | 'pare'               | 28    | 32    | +0.003137
+nza             | 'nza'                | 32    | 35    | +0.003137
+sui             | 'sui'                | 36    | 39    | +0.014621
+dati            | 'dati'               | 40    | 44    | +0.014903
+utilizzati      | 'utilizzati'         | 45    | 55    | +0.014814
+nelle           | 'nelle'              | 56    | 61    | +0.014571
+fasi            | 'fasi'               | 62    | 66    | +0.011887
+di              | 'di'                 | 67    | 69    | +0.011887
+pre             | 'pre'                | 70    | 73    | +0.006833
+-               | '-'                  | 73    | 74    | +0.006833
+add             | 'add'                | 74    | 77    | +0.002468
+est             | 'est'                | 77    | 80    | +0.002468
+ramento         | 'ramento'            | 80    | 87    | +0.002468
+e               | 'e'                  | 88    | 89    | +0.001771
+add             | 'add'                | 90    | 93    | +0.006404
+est             | 'est'                | 93    | 96    | +0.006404
+ramento         | 'ramento'            | 96    | 103   | +0.006404
+dei             | 'dei'                | 104   | 107   | +0.006112
+modelli         | 'modelli'            | 108   | 115   | +0.006112
+di              | 'di'                 | 116   | 118   | +0.007864
+IA              | 'IA'                 | 119   | 121   | +0.007864
+per             | 'per'                | 122   | 125   | +0.007864
+finali          | 'finali'             | 126   | 132   | +0.007325
+tà              | 'tà'                 | 132   | 134   | +0.007325
+generali        | 'generali'           | 135   | 143   | +0.007325
+,               | ','                  | 143   | 144   | +0.007561
+com             | 'com'                | 145   | 148   | +0.004281
+presi           | 'presi'              | 148   | 153   | +0.004281
+testo           | 'testo'              | 154   | 159   | +0.004065
+e               | 'e'                  | 160   | 161   | +0.004065
+dati            | 'dati'               | 162   | 166   | +0.012350
+pro             | 'pro'                | 167   | 170   | +0.002952
+tett            | 'tett'               | 170   | 174   | +0.002952
+i               | 'i'                  | 174   | 175   | +0.002952
+dalla           | 'dalla'              | 176   | 181   | +0.008253
+normativa       | 'normativa'          | 182   | 191   | +0.008253
+sul             | 'sul'                | 192   | 195   | +0.007504
+diritto         | 'diritto'            | 196   | 203   | +0.007504
+d               | 'd'                  | 204   | 205   | +0.002885
+'               | "'"                  | 205   | 206   | +0.002885
+autore          | 'autore'             | 206   | 212   | +0.002885
+,               | ','                  | 212   | 213   | +0.002885
+è               | 'è'                  | 214   | 215   | +0.011806
+opp             | 'opp'                | 216   | 219   | +0.047960
+ort             | 'ort'                | 219   | 222   | +0.035721
+uno             | 'uno'                | 222   | 225   | +0.000301
+che             | 'che'                | 226   | 229   | +0.009151
+i               | 'i'                  | 230   | 231   | +0.009151
+for             | 'for'                | 232   | 235   | +0.003802
+nito            | 'nito'               | 235   | 239   | +0.003802
+ri              | 'ri'                 | 239   | 241   | +0.003802
+di              | 'di'                 | 242   | 244   | -0.000266
+tali            | 'tali'               | 245   | 249   | -0.000266
+modelli         | 'modelli'            | 250   | 257   | -0.000266
+ela             | 'ela'                | 258   | 261   | -0.000266
+bori            | 'bori'               | 261   | 265   | -0.000266
+no              | 'no'                 | 265   | 267   | -0.000266
+e               | 'e'                  | 268   | 269   | +0.000215
+met             | 'met'                | 270   | 273   | +0.000215
+tano            | 'tano'               | 273   | 277   | +0.000215
+a               | 'a'                  | 278   | 279   | +0.000215
+disposizione    | 'disposizione'       | 280   | 292   | +0.000215
+del             | 'del'                | 293   | 296   | -0.002412
+pubblico        | 'pubblico'           | 297   | 305   | -0.002412
+una             | 'una'                | 306   | 309   | -0.002494
+sin             | 'sin'                | 310   | 313   | +0.002508
+tesi            | 'tesi'               | 313   | 317   | +0.002508
+sufficient      | 'sufficient'         | 318   | 328   | +0.008147
+emente          | 'emente'             | 328   | 334   | +0.008147
+detta           | 'detta'              | 335   | 340   | +0.004577
+glia            | 'glia'               | 340   | 344   | +0.004577
+ta              | 'ta'                 | 344   | 346   | +0.004577
+dei             | 'dei'                | 347   | 350   | +0.005130
+contenuti       | 'contenuti'          | 351   | 360   | +0.005130
+utilizzati      | 'utilizzati'         | 361   | 371   | +0.005130
+per             | 'per'                | 372   | 375   | +0.005130
+l               | 'l'                  | 376   | 377   | +0.002377
+'               | "'"                  | 377   | 378   | +0.002377
+add             | 'add'                | 378   | 381   | +0.002488
+est             | 'est'                | 381   | 384   | +0.002488
+ramento         | 'ramento'            | 384   | 391   | +0.002488
+del             | 'del'                | 392   | 395   | +0.004710
+modello         | 'modello'            | 396   | 403   | +0.004710
+di              | 'di'                 | 404   | 406   | +0.004710
+IA              | 'IA'                 | 407   | 409   | +0.004710
+per             | 'per'                | 410   | 413   | +0.004710
+finali          | 'finali'             | 414   | 420   | +0.006391
+tà              | 'tà'                 | 420   | 422   | +0.006391
+generali        | 'generali'           | 423   | 431   | +0.006391
+.               | '.'                  | 431   | 432   | +0.006577
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Al ' (0-2) as 'Al'
+
+Saved word: 'Al' with SHAP +0.003793
+  Added token 'fine ' (3-7) as 'fine'
+
+Saved word: 'fine' with SHAP +0.005507
+  Added token 'di ' (8-10) as 'di'
+
+Saved word: 'di' with SHAP +0.005507
+  Added token 'aumentar' (11-19) as 'aumentar'
+  Added token 'e ' (19-20) as 'e'
+
+Saved word: 'aumentare' with SHAP +0.009583
+  Added token 'la ' (21-23) as 'la'
+
+Saved word: 'la' with SHAP +0.004792
+  Added token 'tras' (24-28) as 'tras'
+  Added token 'pare' (28-32) as 'pare'
+  Added token 'nza ' (32-35) as 'nza'
+
+Saved word: 'trasparenza' with SHAP +0.009411
+  Added token 'sui ' (36-39) as 'sui'
+
+Saved word: 'sui' with SHAP +0.014621
+  Added token 'dati ' (40-44) as 'dati'
+
+Saved word: 'dati' with SHAP +0.014903
+  Added token 'utilizzati ' (45-55) as 'utilizzati'
+
+Saved word: 'utilizzati' with SHAP +0.014814
+  Added token 'nelle ' (56-61) as 'nelle'
+
+Saved word: 'nelle' with SHAP +0.014571
+  Added token 'fasi ' (62-66) as 'fasi'
+
+Saved word: 'fasi' with SHAP +0.011887
+  Added token 'di ' (67-69) as 'di'
+
+Saved word: 'di' with SHAP +0.011887
+  Added token 'pre' (70-73) as 'pre'
+  Added token '-' (73-74) as '-'
+  Added token 'add' (74-77) as 'add'
+  Added token 'est' (77-80) as 'est'
+  Added token 'ramento ' (80-87) as 'ramento'
+
+Saved word: 'pre-addestramento' with SHAP +0.021072
+  Added token 'e ' (88-89) as 'e'
+
+Saved word: 'e' with SHAP +0.001771
+  Added token 'add' (90-93) as 'add'
+  Added token 'est' (93-96) as 'est'
+  Added token 'ramento ' (96-103) as 'ramento'
+
+Saved word: 'addestramento' with SHAP +0.019212
+  Added token 'dei ' (104-107) as 'dei'
+
+Saved word: 'dei' with SHAP +0.006112
+  Added token 'modelli ' (108-115) as 'modelli'
+
+Saved word: 'modelli' with SHAP +0.006112
+  Added token 'di ' (116-118) as 'di'
+
+Saved word: 'di' with SHAP +0.007864
+  Added token 'IA ' (119-121) as 'IA'
+
+Saved word: 'IA' with SHAP +0.007864
+  Added token 'per ' (122-125) as 'per'
+
+Saved word: 'per' with SHAP +0.007864
+  Added token 'finali' (126-132) as 'finali'
+  Added token 'tà ' (132-134) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.014649
+  Added token 'generali' (135-143) as 'generali'
+  Added token ', ' (143-144) as ','
+
+Saved word: 'generali,' with SHAP +0.014886
+  Added token 'com' (145-148) as 'com'
+  Added token 'presi ' (148-153) as 'presi'
+
+Saved word: 'compresi' with SHAP +0.008562
+  Added token 'testo ' (154-159) as 'testo'
+
+Saved word: 'testo' with SHAP +0.004065
+  Added token 'e ' (160-161) as 'e'
+
+Saved word: 'e' with SHAP +0.004065
+  Added token 'dati ' (162-166) as 'dati'
+
+Saved word: 'dati' with SHAP +0.012350
+  Added token 'pro' (167-170) as 'pro'
+  Added token 'tett' (170-174) as 'tett'
+  Added token 'i ' (174-175) as 'i'
+
+Saved word: 'protetti' with SHAP +0.008856
+  Added token 'dalla ' (176-181) as 'dalla'
+
+Saved word: 'dalla' with SHAP +0.008253
+  Added token 'normativa ' (182-191) as 'normativa'
+
+Saved word: 'normativa' with SHAP +0.008253
+  Added token 'sul ' (192-195) as 'sul'
+
+Saved word: 'sul' with SHAP +0.007504
+  Added token 'diritto ' (196-203) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.007504
+  Added token 'd' (204-205) as 'd'
+  Added token ''' (205-206) as '''
+  Added token 'autore' (206-212) as 'autore'
+  Added token ', ' (212-213) as ','
+
+Saved word: 'd'autore,' with SHAP +0.011541
+  Added token 'è ' (214-215) as 'è'
+
+Saved word: 'è' with SHAP +0.011806
+  Added token 'opp' (216-219) as 'opp'
+  Added token 'ort' (219-222) as 'ort'
+  Added token 'uno ' (222-225) as 'uno'
+
+Saved word: 'opportuno' with SHAP +0.083981
+  Added token 'che ' (226-229) as 'che'
+
+Saved word: 'che' with SHAP +0.009151
+  Added token 'i ' (230-231) as 'i'
+
+Saved word: 'i' with SHAP +0.009151
+  Added token 'for' (232-235) as 'for'
+  Added token 'nito' (235-239) as 'nito'
+  Added token 'ri ' (239-241) as 'ri'
+
+Saved word: 'fornitori' with SHAP +0.011407
+  Added token 'di ' (242-244) as 'di'
+
+Saved word: 'di' with SHAP -0.000266
+  Added token 'tali ' (245-249) as 'tali'
+
+Saved word: 'tali' with SHAP -0.000266
+  Added token 'modelli ' (250-257) as 'modelli'
+
+Saved word: 'modelli' with SHAP -0.000266
+  Added token 'ela' (258-261) as 'ela'
+  Added token 'bori' (261-265) as 'bori'
+  Added token 'no ' (265-267) as 'no'
+
+Saved word: 'elaborino' with SHAP -0.000798
+  Added token 'e ' (268-269) as 'e'
+
+Saved word: 'e' with SHAP +0.000215
+  Added token 'met' (270-273) as 'met'
+  Added token 'tano ' (273-277) as 'tano'
+
+Saved word: 'mettano' with SHAP +0.000430
+  Added token 'a ' (278-279) as 'a'
+
+Saved word: 'a' with SHAP +0.000215
+  Added token 'disposizione ' (280-292) as 'disposizione'
+
+Saved word: 'disposizione' with SHAP +0.000215
+  Added token 'del ' (293-296) as 'del'
+
+Saved word: 'del' with SHAP -0.002412
+  Added token 'pubblico ' (297-305) as 'pubblico'
+
+Saved word: 'pubblico' with SHAP -0.002412
+  Added token 'una ' (306-309) as 'una'
+
+Saved word: 'una' with SHAP -0.002494
+  Added token 'sin' (310-313) as 'sin'
+  Added token 'tesi ' (313-317) as 'tesi'
+
+Saved word: 'sintesi' with SHAP +0.005017
+  Added token 'sufficient' (318-328) as 'sufficient'
+  Added token 'emente ' (328-334) as 'emente'
+
+Saved word: 'sufficientemente' with SHAP +0.016294
+  Added token 'detta' (335-340) as 'detta'
+  Added token 'glia' (340-344) as 'glia'
+  Added token 'ta ' (344-346) as 'ta'
+
+Saved word: 'dettagliata' with SHAP +0.013732
+  Added token 'dei ' (347-350) as 'dei'
+
+Saved word: 'dei' with SHAP +0.005130
+  Added token 'contenuti ' (351-360) as 'contenuti'
+
+Saved word: 'contenuti' with SHAP +0.005130
+  Added token 'utilizzati ' (361-371) as 'utilizzati'
+
+Saved word: 'utilizzati' with SHAP +0.005130
+  Added token 'per ' (372-375) as 'per'
+
+Saved word: 'per' with SHAP +0.005130
+  Added token 'l' (376-377) as 'l'
+  Added token ''' (377-378) as '''
+  Added token 'add' (378-381) as 'add'
+  Added token 'est' (381-384) as 'est'
+  Added token 'ramento ' (384-391) as 'ramento'
+
+Saved word: 'l'addestramento' with SHAP +0.012220
+  Added token 'del ' (392-395) as 'del'
+
+Saved word: 'del' with SHAP +0.004710
+  Added token 'modello ' (396-403) as 'modello'
+
+Saved word: 'modello' with SHAP +0.004710
+  Added token 'di ' (404-406) as 'di'
+
+Saved word: 'di' with SHAP +0.004710
+  Added token 'IA ' (407-409) as 'IA'
+
+Saved word: 'IA' with SHAP +0.004710
+  Added token 'per ' (410-413) as 'per'
+
+Saved word: 'per' with SHAP +0.004710
+  Added token 'finali' (414-420) as 'finali'
+  Added token 'tà ' (420-422) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.012782
+  Added token 'generali' (423-431) as 'generali'
+  Added token '.' (431-432) as '.'
+
+Saved final word: 'generali.' with SHAP +0.012967
+
+=== Final Word Contributions ===
+opportuno                 +0.083981 (POS)
+pre-addestramento         +0.021072 (POS)
+addestramento             +0.019212 (POS)
+sufficientemente          +0.016294 (POS)
+generali,                 +0.014886 (POS)
+sui                       +0.014621 (POS)
+nelle                     +0.014571 (POS)
+dettagliata               +0.013732 (POS)
+generali.                 +0.012967 (POS)
+finalità                  +0.012782 (POS)
+dati                      +0.012350 (POS)
+l'addestramento           +0.012220 (POS)
+fasi                      +0.011887 (POS)
+è                         +0.011806 (POS)
+d'autore,                 +0.011541 (POS)
+fornitori                 +0.011407 (POS)
+aumentare                 +0.009583 (POS)
+trasparenza               +0.009411 (POS)
+che                       +0.009151 (POS)
+i                         +0.009151 (POS)
+protetti                  +0.008856 (POS)
+compresi                  +0.008562 (POS)
+dalla                     +0.008253 (POS)
+normativa                 +0.008253 (POS)
+sul                       +0.007504 (POS)
+diritto                   +0.007504 (POS)
+fine                      +0.005507 (POS)
+utilizzati                +0.005130 (POS)
+dei                       +0.005130 (POS)
+contenuti                 +0.005130 (POS)
+sintesi                   +0.005017 (POS)
+la                        +0.004792 (POS)
+di                        +0.004710 (POS)
+IA                        +0.004710 (POS)
+per                       +0.004710 (POS)
+del                       +0.004710 (POS)
+modello                   +0.004710 (POS)
+testo                     +0.004065 (POS)
+Al                        +0.003793 (POS)
+una                       -0.002494 (NEG)
+pubblico                  -0.002412 (NEG)
+elaborino                 -0.000798 (NEG)
+mettano                   +0.000430 (POS)
+modelli                   -0.000266 (NEG)
+tali                      -0.000266 (NEG)
+e                         +0.000215 (POS)
+a                         +0.000215 (POS)
+disposizione              +0.000215 (POS)

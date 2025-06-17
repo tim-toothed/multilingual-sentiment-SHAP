@@ -1,0 +1,243 @@
+
+=== Processing text ===
+La nozione di «sistema di riconoscimento delle emozioni» di cui al presente regolamento dovrebbe essere definita come un sistema di IA finalizzato a identificare o inferire emozioni o intenzioni di persone fisiche, sulla base dei loro dati biometrici.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004770
+La              | 'La'                 | 0     | 2     | +0.004770
+no              | 'no'                 | 3     | 5     | +0.004822
+zione           | 'zione'              | 5     | 10    | +0.004822
+di              | 'di'                 | 11    | 13    | +0.011855
+«               | '«'                  | 14    | 15    | +0.012804
+sistema         | 'sistema'            | 15    | 22    | +0.009584
+di              | 'di'                 | 23    | 25    | +0.010401
+riconoscimento  | 'riconoscimento'     | 26    | 40    | +0.009805
+delle           | 'delle'              | 41    | 46    | +0.011003
+em              | 'em'                 | 47    | 49    | +0.007296
+oz              | 'oz'                 | 49    | 51    | +0.007296
+ioni            | 'ioni'               | 51    | 55    | +0.007148
+»               | '»'                  | 55    | 56    | +0.015968
+di              | 'di'                 | 57    | 59    | +0.010524
+cui             | 'cui'                | 60    | 63    | +0.003108
+al              | 'al'                 | 64    | 66    | +0.003108
+presente        | 'presente'           | 67    | 75    | +0.005824
+re              | 're'                 | 76    | 78    | +0.009868
+gola            | 'gola'               | 78    | 82    | +0.009868
+mento           | 'mento'              | 82    | 87    | +0.003155
+do              | 'do'                 | 88    | 90    | +0.007319
+vre             | 'vre'                | 90    | 93    | +0.007319
+bbe             | 'bbe'                | 93    | 96    | +0.005341
+essere          | 'essere'             | 97    | 103   | +0.014315
+definita        | 'definita'           | 104   | 112   | +0.013781
+come            | 'come'               | 113   | 117   | -0.000966
+un              | 'un'                 | 118   | 120   | -0.001448
+sistema         | 'sistema'            | 121   | 128   | +0.008748
+di              | 'di'                 | 129   | 131   | +0.008748
+IA              | 'IA'                 | 132   | 134   | +0.013774
+finali          | 'finali'             | 135   | 141   | +0.007221
+zzato           | 'zzato'              | 141   | 146   | +0.007221
+a               | 'a'                  | 147   | 148   | +0.006359
+identificar     | 'identificar'        | 149   | 160   | +0.015777
+e               | 'e'                  | 160   | 161   | +0.015777
+o               | 'o'                  | 162   | 163   | +0.018584
+in              | 'in'                 | 164   | 166   | +0.001676
+feri            | 'feri'               | 166   | 170   | +0.001676
+re              | 're'                 | 170   | 172   | +0.001676
+em              | 'em'                 | 173   | 175   | +0.006118
+oz              | 'oz'                 | 175   | 177   | +0.006118
+ioni            | 'ioni'               | 177   | 181   | +0.006118
+o               | 'o'                  | 182   | 183   | +0.020648
+inte            | 'inte'               | 184   | 188   | +0.008787
+nzio            | 'nzio'               | 188   | 192   | +0.008787
+ni              | 'ni'                 | 192   | 194   | +0.008787
+di              | 'di'                 | 195   | 197   | +0.011266
+persone         | 'persone'            | 198   | 205   | +0.011266
+fi              | 'fi'                 | 206   | 208   | +0.007088
+sic             | 'sic'                | 208   | 211   | +0.007088
+he              | 'he'                 | 211   | 213   | +0.006484
+,               | ','                  | 213   | 214   | +0.028929
+sulla           | 'sulla'              | 215   | 220   | +0.023780
+base            | 'base'               | 221   | 225   | +0.034742
+dei             | 'dei'                | 226   | 229   | +0.013557
+loro            | 'loro'               | 230   | 234   | +0.013557
+dati            | 'dati'               | 235   | 239   | +0.020562
+bio             | 'bio'                | 240   | 243   | +0.013019
+metric          | 'metric'             | 243   | 249   | +0.013019
+i               | 'i'                  | 249   | 250   | +0.008513
+.               | '.'                  | 250   | 251   | +0.027032
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.004770
+  Added token 'no' (3-5) as 'no'
+  Added token 'zione ' (5-10) as 'zione'
+
+Saved word: 'nozione' with SHAP +0.009644
+  Added token 'di ' (11-13) as 'di'
+
+Saved word: 'di' with SHAP +0.011855
+  Added token '«' (14-15) as '«'
+  Added token 'sistema ' (15-22) as 'sistema'
+
+Saved word: '«sistema' with SHAP +0.022388
+  Added token 'di ' (23-25) as 'di'
+
+Saved word: 'di' with SHAP +0.010401
+  Added token 'riconoscimento ' (26-40) as 'riconoscimento'
+
+Saved word: 'riconoscimento' with SHAP +0.009805
+  Added token 'delle ' (41-46) as 'delle'
+
+Saved word: 'delle' with SHAP +0.011003
+  Added token 'em' (47-49) as 'em'
+  Added token 'oz' (49-51) as 'oz'
+  Added token 'ioni' (51-55) as 'ioni'
+  Added token '» ' (55-56) as '»'
+
+Saved word: 'emozioni»' with SHAP +0.037707
+  Added token 'di ' (57-59) as 'di'
+
+Saved word: 'di' with SHAP +0.010524
+  Added token 'cui ' (60-63) as 'cui'
+
+Saved word: 'cui' with SHAP +0.003108
+  Added token 'al ' (64-66) as 'al'
+
+Saved word: 'al' with SHAP +0.003108
+  Added token 'presente ' (67-75) as 'presente'
+
+Saved word: 'presente' with SHAP +0.005824
+  Added token 're' (76-78) as 're'
+  Added token 'gola' (78-82) as 'gola'
+  Added token 'mento ' (82-87) as 'mento'
+
+Saved word: 'regolamento' with SHAP +0.022892
+  Added token 'do' (88-90) as 'do'
+  Added token 'vre' (90-93) as 'vre'
+  Added token 'bbe ' (93-96) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.019978
+  Added token 'essere ' (97-103) as 'essere'
+
+Saved word: 'essere' with SHAP +0.014315
+  Added token 'definita ' (104-112) as 'definita'
+
+Saved word: 'definita' with SHAP +0.013781
+  Added token 'come ' (113-117) as 'come'
+
+Saved word: 'come' with SHAP -0.000966
+  Added token 'un ' (118-120) as 'un'
+
+Saved word: 'un' with SHAP -0.001448
+  Added token 'sistema ' (121-128) as 'sistema'
+
+Saved word: 'sistema' with SHAP +0.008748
+  Added token 'di ' (129-131) as 'di'
+
+Saved word: 'di' with SHAP +0.008748
+  Added token 'IA ' (132-134) as 'IA'
+
+Saved word: 'IA' with SHAP +0.013774
+  Added token 'finali' (135-141) as 'finali'
+  Added token 'zzato ' (141-146) as 'zzato'
+
+Saved word: 'finalizzato' with SHAP +0.014442
+  Added token 'a ' (147-148) as 'a'
+
+Saved word: 'a' with SHAP +0.006359
+  Added token 'identificar' (149-160) as 'identificar'
+  Added token 'e ' (160-161) as 'e'
+
+Saved word: 'identificare' with SHAP +0.031555
+  Added token 'o ' (162-163) as 'o'
+
+Saved word: 'o' with SHAP +0.018584
+  Added token 'in' (164-166) as 'in'
+  Added token 'feri' (166-170) as 'feri'
+  Added token 're ' (170-172) as 're'
+
+Saved word: 'inferire' with SHAP +0.005029
+  Added token 'em' (173-175) as 'em'
+  Added token 'oz' (175-177) as 'oz'
+  Added token 'ioni ' (177-181) as 'ioni'
+
+Saved word: 'emozioni' with SHAP +0.018353
+  Added token 'o ' (182-183) as 'o'
+
+Saved word: 'o' with SHAP +0.020648
+  Added token 'inte' (184-188) as 'inte'
+  Added token 'nzio' (188-192) as 'nzio'
+  Added token 'ni ' (192-194) as 'ni'
+
+Saved word: 'intenzioni' with SHAP +0.026362
+  Added token 'di ' (195-197) as 'di'
+
+Saved word: 'di' with SHAP +0.011266
+  Added token 'persone ' (198-205) as 'persone'
+
+Saved word: 'persone' with SHAP +0.011266
+  Added token 'fi' (206-208) as 'fi'
+  Added token 'sic' (208-211) as 'sic'
+  Added token 'he' (211-213) as 'he'
+  Added token ', ' (213-214) as ','
+
+Saved word: 'fisiche,' with SHAP +0.049590
+  Added token 'sulla ' (215-220) as 'sulla'
+
+Saved word: 'sulla' with SHAP +0.023780
+  Added token 'base ' (221-225) as 'base'
+
+Saved word: 'base' with SHAP +0.034742
+  Added token 'dei ' (226-229) as 'dei'
+
+Saved word: 'dei' with SHAP +0.013557
+  Added token 'loro ' (230-234) as 'loro'
+
+Saved word: 'loro' with SHAP +0.013557
+  Added token 'dati ' (235-239) as 'dati'
+
+Saved word: 'dati' with SHAP +0.020562
+  Added token 'bio' (240-243) as 'bio'
+  Added token 'metric' (243-249) as 'metric'
+  Added token 'i' (249-250) as 'i'
+  Added token '.' (250-251) as '.'
+
+Saved final word: 'biometrici.' with SHAP +0.061584
+
+=== Final Word Contributions ===
+biometrici.               +0.061584 (POS)
+fisiche,                  +0.049590 (POS)
+emozioni»                 +0.037707 (POS)
+base                      +0.034742 (POS)
+identificare              +0.031555 (POS)
+intenzioni                +0.026362 (POS)
+sulla                     +0.023780 (POS)
+regolamento               +0.022892 (POS)
+«sistema                  +0.022388 (POS)
+o                         +0.020648 (POS)
+dati                      +0.020562 (POS)
+dovrebbe                  +0.019978 (POS)
+emozioni                  +0.018353 (POS)
+finalizzato               +0.014442 (POS)
+essere                    +0.014315 (POS)
+definita                  +0.013781 (POS)
+IA                        +0.013774 (POS)
+dei                       +0.013557 (POS)
+loro                      +0.013557 (POS)
+di                        +0.011266 (POS)
+persone                   +0.011266 (POS)
+delle                     +0.011003 (POS)
+riconoscimento            +0.009805 (POS)
+nozione                   +0.009644 (POS)
+sistema                   +0.008748 (POS)
+a                         +0.006359 (POS)
+presente                  +0.005824 (POS)
+inferire                  +0.005029 (POS)
+La                        +0.004770 (POS)
+cui                       +0.003108 (POS)
+al                        +0.003108 (POS)
+un                        -0.001448 (NEG)
+come                      -0.000966 (NEG)

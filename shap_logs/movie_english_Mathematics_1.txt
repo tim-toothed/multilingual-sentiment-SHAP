@@ -1,0 +1,145 @@
+
+=== Processing text ===
+Mathematics... Mathematics is never going to lead you to a higher truth. And you know why? Because it's boring. It's really boring.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000484
+Mathematics     | 'Mathematics'        | 0     | 11    | -0.017304
+.               | '.'                  | 11    | 12    | +0.011445
+.               | '.'                  | 12    | 13    | +0.023631
+.               | '.'                  | 13    | 14    | +0.015737
+Mathematics     | 'Mathematics'        | 15    | 26    | -0.013621
+is              | 'is'                 | 27    | 29    | -0.011666
+never           | 'never'              | 30    | 35    | +0.131403
+going           | 'going'              | 36    | 41    | +0.015449
+to              | 'to'                 | 42    | 44    | +0.001790
+lead            | 'lead'               | 45    | 49    | +0.001790
+you             | 'you'                | 50    | 53    | +0.001184
+to              | 'to'                 | 54    | 56    | +0.001184
+a               | 'a'                  | 57    | 58    | -0.016613
+higher          | 'higher'             | 59    | 65    | -0.016613
+truth           | 'truth'              | 66    | 71    | -0.007851
+.               | '.'                  | 71    | 72    | +0.024075
+And             | 'And'                | 73    | 76    | -0.000901
+you             | 'you'                | 77    | 80    | -0.000901
+know            | 'know'               | 81    | 85    | -0.001472
+why             | 'why'                | 86    | 89    | -0.001472
+?               | '?'                  | 89    | 90    | +0.020523
+Because         | 'Because'            | 91    | 98    | +0.010427
+it              | 'it'                 | 99    | 101   | +0.004523
+'               | "'"                  | 101   | 102   | +0.004523
+s               | 's'                  | 102   | 103   | +0.004523
+bor             | 'bor'                | 104   | 107   | +0.045221
+ing             | 'ing'                | 107   | 110   | +0.021028
+.               | '.'                  | 110   | 111   | +0.040895
+It              | 'It'                 | 112   | 114   | +0.005392
+'               | "'"                  | 114   | 115   | +0.005392
+s               | 's'                  | 115   | 116   | +0.007041
+really          | 'really'             | 117   | 123   | +0.014788
+bor             | 'bor'                | 124   | 127   | +0.042636
+ing             | 'ing'                | 127   | 130   | +0.042636
+.               | '.'                  | 130   | 131   | +0.009955
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Mathematics' (0-11) as 'Mathematics'
+  Added token '.' (11-12) as '.'
+  Added token '.' (12-13) as '.'
+  Added token '. ' (13-14) as '.'
+
+Saved word: 'Mathematics...' with SHAP +0.033510
+  Added token 'Mathematics ' (15-26) as 'Mathematics'
+
+Saved word: 'Mathematics' with SHAP -0.013621
+  Added token 'is ' (27-29) as 'is'
+
+Saved word: 'is' with SHAP -0.011666
+  Added token 'never ' (30-35) as 'never'
+
+Saved word: 'never' with SHAP +0.131403
+  Added token 'going ' (36-41) as 'going'
+
+Saved word: 'going' with SHAP +0.015449
+  Added token 'to ' (42-44) as 'to'
+
+Saved word: 'to' with SHAP +0.001790
+  Added token 'lead ' (45-49) as 'lead'
+
+Saved word: 'lead' with SHAP +0.001790
+  Added token 'you ' (50-53) as 'you'
+
+Saved word: 'you' with SHAP +0.001184
+  Added token 'to ' (54-56) as 'to'
+
+Saved word: 'to' with SHAP +0.001184
+  Added token 'a ' (57-58) as 'a'
+
+Saved word: 'a' with SHAP -0.016613
+  Added token 'higher ' (59-65) as 'higher'
+
+Saved word: 'higher' with SHAP -0.016613
+  Added token 'truth' (66-71) as 'truth'
+  Added token '. ' (71-72) as '.'
+
+Saved word: 'truth.' with SHAP +0.016224
+  Added token 'And ' (73-76) as 'And'
+
+Saved word: 'And' with SHAP -0.000901
+  Added token 'you ' (77-80) as 'you'
+
+Saved word: 'you' with SHAP -0.000901
+  Added token 'know ' (81-85) as 'know'
+
+Saved word: 'know' with SHAP -0.001472
+  Added token 'why' (86-89) as 'why'
+  Added token '? ' (89-90) as '?'
+
+Saved word: 'why?' with SHAP +0.019050
+  Added token 'Because ' (91-98) as 'Because'
+
+Saved word: 'Because' with SHAP +0.010427
+  Added token 'it' (99-101) as 'it'
+  Added token ''' (101-102) as '''
+  Added token 's ' (102-103) as 's'
+
+Saved word: 'it's' with SHAP +0.013568
+  Added token 'bor' (104-107) as 'bor'
+  Added token 'ing' (107-110) as 'ing'
+  Added token '. ' (110-111) as '.'
+
+Saved word: 'boring.' with SHAP +0.107145
+  Added token 'It' (112-114) as 'It'
+  Added token ''' (114-115) as '''
+  Added token 's ' (115-116) as 's'
+
+Saved word: 'It's' with SHAP +0.017825
+  Added token 'really ' (117-123) as 'really'
+
+Saved word: 'really' with SHAP +0.014788
+  Added token 'bor' (124-127) as 'bor'
+  Added token 'ing' (127-130) as 'ing'
+  Added token '.' (130-131) as '.'
+
+Saved final word: 'boring.' with SHAP +0.095226
+
+=== Final Word Contributions ===
+never                     +0.131403 (POS)
+boring.                   +0.095226 (POS)
+Mathematics...            +0.033510 (POS)
+why?                      +0.019050 (POS)
+It's                      +0.017825 (POS)
+a                         -0.016613 (NEG)
+higher                    -0.016613 (NEG)
+truth.                    +0.016224 (POS)
+going                     +0.015449 (POS)
+really                    +0.014788 (POS)
+Mathematics               -0.013621 (NEG)
+it's                      +0.013568 (POS)
+is                        -0.011666 (NEG)
+Because                   +0.010427 (POS)
+lead                      +0.001790 (POS)
+know                      -0.001472 (NEG)
+to                        +0.001184 (POS)
+you                       -0.000901 (NEG)
+And                       -0.000901 (NEG)

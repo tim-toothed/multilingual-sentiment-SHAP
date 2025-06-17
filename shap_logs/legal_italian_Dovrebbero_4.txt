@@ -1,0 +1,235 @@
+
+=== Processing text ===
+Dovrebbero inoltre tenere conto della dichiarazione europea sui diritti e i principi digitali per il decennio digitale e degli orientamenti etici per un'IA affidabile del gruppo di esperti ad alto livello sull'intelligenza artificiale (AI HLEG).
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000415
+Dov             | 'Dov'                | 0     | 3     | +0.026865
+rebbe           | 'rebbe'              | 3     | 8     | +0.015607
+ro              | 'ro'                 | 8     | 10    | +0.005787
+inoltre         | 'inoltre'            | 11    | 18    | +0.035400
+tenere          | 'tenere'             | 19    | 25    | +0.011875
+conto           | 'conto'              | 26    | 31    | +0.011710
+della           | 'della'              | 32    | 37    | +0.012646
+dich            | 'dich'               | 38    | 42    | -0.007846
+iara            | 'iara'               | 42    | 46    | -0.006256
+zione           | 'zione'              | 46    | 51    | -0.004349
+europea         | 'europea'            | 52    | 59    | -0.002572
+sui             | 'sui'                | 60    | 63    | -0.002572
+diritti         | 'diritti'            | 64    | 71    | -0.004245
+e               | 'e'                  | 72    | 73    | +0.001346
+i               | 'i'                  | 74    | 75    | +0.004717
+principi        | 'principi'           | 76    | 84    | +0.004717
+digital         | 'digital'            | 85    | 92    | +0.005822
+i               | 'i'                  | 92    | 93    | +0.005822
+per             | 'per'                | 94    | 97    | +0.001451
+il              | 'il'                 | 98    | 100   | +0.001451
+decenni         | 'decenni'            | 101   | 108   | -0.000778
+o               | 'o'                  | 108   | 109   | -0.001889
+digitale        | 'digitale'           | 110   | 118   | +0.006429
+e               | 'e'                  | 119   | 120   | +0.006429
+degli           | 'degli'              | 121   | 126   | -0.000126
+ori             | 'ori'                | 127   | 130   | -0.000778
+enta            | 'enta'               | 130   | 134   | -0.000778
+menti           | 'menti'              | 134   | 139   | -0.000778
+et              | 'et'                 | 140   | 142   | +0.000402
+ici             | 'ici'                | 142   | 145   | +0.000402
+per             | 'per'                | 146   | 149   | +0.000402
+un              | 'un'                 | 150   | 152   | +0.000402
+'               | "'"                  | 152   | 153   | +0.000402
+IA              | 'IA'                 | 153   | 155   | +0.000402
+af              | 'af'                 | 156   | 158   | +0.005548
+fida            | 'fida'               | 158   | 162   | +0.005548
+bile            | 'bile'               | 162   | 166   | +0.005548
+del             | 'del'                | 167   | 170   | +0.003128
+gruppo          | 'gruppo'             | 171   | 177   | +0.003128
+di              | 'di'                 | 178   | 180   | +0.003128
+es              | 'es'                 | 181   | 183   | +0.011218
+pert            | 'pert'               | 183   | 187   | +0.011218
+i               | 'i'                  | 187   | 188   | +0.010122
+ad              | 'ad'                 | 189   | 191   | +0.004486
+alto            | 'alto'               | 192   | 196   | +0.004486
+livello         | 'livello'            | 197   | 204   | +0.004486
+sull            | 'sull'               | 205   | 209   | +0.004027
+'               | "'"                  | 209   | 210   | +0.004027
+intel           | 'intel'              | 210   | 215   | -0.001373
+ligen           | 'ligen'              | 215   | 220   | -0.001373
+za              | 'za'                 | 220   | 222   | -0.001373
+artificial      | 'artificial'         | 223   | 233   | -0.006370
+e               | 'e'                  | 233   | 234   | -0.006370
+(               | '('                  | 235   | 236   | +0.001057
+AI              | 'AI'                 | 236   | 238   | +0.001057
+H               | 'H'                  | 239   | 240   | +0.001530
+LE              | 'LE'                 | 240   | 242   | +0.001530
+G               | 'G'                  | 242   | 243   | +0.001530
+)               | ')'                  | 243   | 244   | +0.001530
+.               | '.'                  | 244   | 245   | -0.003257
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Dov' (0-3) as 'Dov'
+  Added token 'rebbe' (3-8) as 'rebbe'
+  Added token 'ro ' (8-10) as 'ro'
+
+Saved word: 'Dovrebbero' with SHAP +0.048259
+  Added token 'inoltre ' (11-18) as 'inoltre'
+
+Saved word: 'inoltre' with SHAP +0.035400
+  Added token 'tenere ' (19-25) as 'tenere'
+
+Saved word: 'tenere' with SHAP +0.011875
+  Added token 'conto ' (26-31) as 'conto'
+
+Saved word: 'conto' with SHAP +0.011710
+  Added token 'della ' (32-37) as 'della'
+
+Saved word: 'della' with SHAP +0.012646
+  Added token 'dich' (38-42) as 'dich'
+  Added token 'iara' (42-46) as 'iara'
+  Added token 'zione ' (46-51) as 'zione'
+
+Saved word: 'dichiarazione' with SHAP -0.018451
+  Added token 'europea ' (52-59) as 'europea'
+
+Saved word: 'europea' with SHAP -0.002572
+  Added token 'sui ' (60-63) as 'sui'
+
+Saved word: 'sui' with SHAP -0.002572
+  Added token 'diritti ' (64-71) as 'diritti'
+
+Saved word: 'diritti' with SHAP -0.004245
+  Added token 'e ' (72-73) as 'e'
+
+Saved word: 'e' with SHAP +0.001346
+  Added token 'i ' (74-75) as 'i'
+
+Saved word: 'i' with SHAP +0.004717
+  Added token 'principi ' (76-84) as 'principi'
+
+Saved word: 'principi' with SHAP +0.004717
+  Added token 'digital' (85-92) as 'digital'
+  Added token 'i ' (92-93) as 'i'
+
+Saved word: 'digitali' with SHAP +0.011644
+  Added token 'per ' (94-97) as 'per'
+
+Saved word: 'per' with SHAP +0.001451
+  Added token 'il ' (98-100) as 'il'
+
+Saved word: 'il' with SHAP +0.001451
+  Added token 'decenni' (101-108) as 'decenni'
+  Added token 'o ' (108-109) as 'o'
+
+Saved word: 'decennio' with SHAP -0.002667
+  Added token 'digitale ' (110-118) as 'digitale'
+
+Saved word: 'digitale' with SHAP +0.006429
+  Added token 'e ' (119-120) as 'e'
+
+Saved word: 'e' with SHAP +0.006429
+  Added token 'degli ' (121-126) as 'degli'
+
+Saved word: 'degli' with SHAP -0.000126
+  Added token 'ori' (127-130) as 'ori'
+  Added token 'enta' (130-134) as 'enta'
+  Added token 'menti ' (134-139) as 'menti'
+
+Saved word: 'orientamenti' with SHAP -0.002335
+  Added token 'et' (140-142) as 'et'
+  Added token 'ici ' (142-145) as 'ici'
+
+Saved word: 'etici' with SHAP +0.000805
+  Added token 'per ' (146-149) as 'per'
+
+Saved word: 'per' with SHAP +0.000402
+  Added token 'un' (150-152) as 'un'
+  Added token ''' (152-153) as '''
+  Added token 'IA ' (153-155) as 'IA'
+
+Saved word: 'un'IA' with SHAP +0.001207
+  Added token 'af' (156-158) as 'af'
+  Added token 'fida' (158-162) as 'fida'
+  Added token 'bile ' (162-166) as 'bile'
+
+Saved word: 'affidabile' with SHAP +0.016645
+  Added token 'del ' (167-170) as 'del'
+
+Saved word: 'del' with SHAP +0.003128
+  Added token 'gruppo ' (171-177) as 'gruppo'
+
+Saved word: 'gruppo' with SHAP +0.003128
+  Added token 'di ' (178-180) as 'di'
+
+Saved word: 'di' with SHAP +0.003128
+  Added token 'es' (181-183) as 'es'
+  Added token 'pert' (183-187) as 'pert'
+  Added token 'i ' (187-188) as 'i'
+
+Saved word: 'esperti' with SHAP +0.032558
+  Added token 'ad ' (189-191) as 'ad'
+
+Saved word: 'ad' with SHAP +0.004486
+  Added token 'alto ' (192-196) as 'alto'
+
+Saved word: 'alto' with SHAP +0.004486
+  Added token 'livello ' (197-204) as 'livello'
+
+Saved word: 'livello' with SHAP +0.004486
+  Added token 'sull' (205-209) as 'sull'
+  Added token ''' (209-210) as '''
+  Added token 'intel' (210-215) as 'intel'
+  Added token 'ligen' (215-220) as 'ligen'
+  Added token 'za ' (220-222) as 'za'
+
+Saved word: 'sull'intelligenza' with SHAP +0.003935
+  Added token 'artificial' (223-233) as 'artificial'
+  Added token 'e ' (233-234) as 'e'
+
+Saved word: 'artificiale' with SHAP -0.012740
+  Added token '(' (235-236) as '('
+  Added token 'AI ' (236-238) as 'AI'
+
+Saved word: '(AI' with SHAP +0.002114
+  Added token 'H' (239-240) as 'H'
+  Added token 'LE' (240-242) as 'LE'
+  Added token 'G' (242-243) as 'G'
+  Added token ')' (243-244) as ')'
+  Added token '.' (244-245) as '.'
+
+Saved final word: 'HLEG).' with SHAP +0.002864
+
+=== Final Word Contributions ===
+Dovrebbero                +0.048259 (POS)
+inoltre                   +0.035400 (POS)
+esperti                   +0.032558 (POS)
+dichiarazione             -0.018451 (NEG)
+affidabile                +0.016645 (POS)
+artificiale               -0.012740 (NEG)
+della                     +0.012646 (POS)
+tenere                    +0.011875 (POS)
+conto                     +0.011710 (POS)
+digitali                  +0.011644 (POS)
+e                         +0.006429 (POS)
+digitale                  +0.006429 (POS)
+i                         +0.004717 (POS)
+principi                  +0.004717 (POS)
+ad                        +0.004486 (POS)
+alto                      +0.004486 (POS)
+livello                   +0.004486 (POS)
+diritti                   -0.004245 (NEG)
+sull'intelligenza         +0.003935 (POS)
+del                       +0.003128 (POS)
+gruppo                    +0.003128 (POS)
+di                        +0.003128 (POS)
+HLEG).                    +0.002864 (POS)
+decennio                  -0.002667 (NEG)
+europea                   -0.002572 (NEG)
+sui                       -0.002572 (NEG)
+orientamenti              -0.002335 (NEG)
+(AI                       +0.002114 (POS)
+il                        +0.001451 (POS)
+un'IA                     +0.001207 (POS)
+etici                     +0.000805 (POS)
+per                       +0.000402 (POS)
+degli                     -0.000126 (NEG)

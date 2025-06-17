@@ -1,0 +1,344 @@
+
+=== Processing text ===
+Dovrebbero essere vietati i sistemi di categorizzazione biometrica basati sui dati biometrici di persone fisiche, quali il volto o le impronte digitali, per trarre deduzioni o inferenze in merito alle opinioni politiche, all'appartenenza sindacale, alle convinzioni religiose o filosofiche, alla razza, alla vita sessuale o all'orientamento sessuale di una persona.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000509
+Dov             | 'Dov'                | 0     | 3     | +0.000040
+rebbe           | 'rebbe'              | 3     | 8     | +0.000040
+ro              | 'ro'                 | 8     | 10    | +0.000040
+essere          | 'essere'             | 11    | 17    | +0.002419
+vieta           | 'vieta'              | 18    | 23    | -0.012111
+ti              | 'ti'                 | 23    | 25    | -0.009641
+i               | 'i'                  | 26    | 27    | -0.001610
+sistemi         | 'sistemi'            | 28    | 35    | -0.001610
+di              | 'di'                 | 36    | 38    | -0.002365
+cat             | 'cat'                | 39    | 42    | +0.011528
+ego             | 'ego'                | 42    | 45    | +0.006545
+riz             | 'riz'                | 45    | 48    | +0.003618
+za              | 'za'                 | 48    | 50    | +0.003618
+zione           | 'zione'              | 50    | 55    | +0.003618
+bio             | 'bio'                | 56    | 59    | +0.008355
+metric          | 'metric'             | 59    | 65    | +0.008355
+a               | 'a'                  | 65    | 66    | +0.008355
+basa            | 'basa'               | 67    | 71    | +0.010449
+ti              | 'ti'                 | 71    | 73    | +0.010449
+sui             | 'sui'                | 74    | 77    | +0.010297
+dati            | 'dati'               | 78    | 82    | +0.010297
+bio             | 'bio'                | 83    | 86    | +0.008081
+metric          | 'metric'             | 86    | 92    | +0.008081
+i               | 'i'                  | 92    | 93    | +0.008081
+di              | 'di'                 | 94    | 96    | +0.005800
+persone         | 'persone'            | 97    | 104   | +0.005800
+fi              | 'fi'                 | 105   | 107   | +0.006615
+sic             | 'sic'                | 107   | 110   | +0.006615
+he              | 'he'                 | 110   | 112   | +0.006615
+,               | ','                  | 112   | 113   | +0.006615
+quali           | 'quali'              | 114   | 119   | +0.010406
+il              | 'il'                 | 120   | 122   | +0.009057
+volto           | 'volto'              | 123   | 128   | +0.009535
+o               | 'o'                  | 129   | 130   | +0.009535
+le              | 'le'                 | 131   | 133   | +0.008266
+im              | 'im'                 | 134   | 136   | -0.001083
+pron            | 'pron'               | 136   | 140   | -0.001083
+te              | 'te'                 | 140   | 142   | -0.001083
+digital         | 'digital'            | 143   | 150   | +0.005784
+i               | 'i'                  | 150   | 151   | +0.005784
+,               | ','                  | 151   | 152   | +0.005797
+per             | 'per'                | 153   | 156   | -0.000732
+tra             | 'tra'                | 157   | 160   | -0.000732
+rre             | 'rre'                | 160   | 163   | -0.000732
+de              | 'de'                 | 164   | 166   | +0.003677
+duz             | 'duz'                | 166   | 169   | +0.003677
+ioni            | 'ioni'               | 169   | 173   | +0.003677
+o               | 'o'                  | 174   | 175   | +0.003677
+in              | 'in'                 | 176   | 178   | +0.002120
+fere            | 'fere'               | 178   | 182   | +0.002120
+nze             | 'nze'                | 182   | 185   | +0.002120
+in              | 'in'                 | 186   | 188   | +0.001943
+merito          | 'merito'             | 189   | 195   | +0.001943
+alle            | 'alle'               | 196   | 200   | +0.001943
+opinion         | 'opinion'            | 201   | 208   | +0.006581
+i               | 'i'                  | 208   | 209   | +0.006581
+politiche       | 'politiche'          | 210   | 219   | +0.006581
+,               | ','                  | 219   | 220   | +0.006581
+all             | 'all'                | 221   | 224   | +0.003947
+'               | "'"                  | 224   | 225   | +0.003947
+app             | 'app'                | 225   | 228   | +0.004690
+arten           | 'arten'              | 228   | 233   | +0.004690
+enza            | 'enza'               | 233   | 237   | +0.004690
+sind            | 'sind'               | 238   | 242   | +0.002941
+aca             | 'aca'                | 242   | 245   | +0.002941
+le              | 'le'                 | 245   | 247   | +0.002941
+,               | ','                  | 247   | 248   | +0.007423
+alle            | 'alle'               | 249   | 253   | +0.006427
+con             | 'con'                | 254   | 257   | +0.006427
+vin             | 'vin'                | 257   | 260   | +0.006427
+zioni           | 'zioni'              | 260   | 265   | +0.006427
+re              | 're'                 | 266   | 268   | +0.006229
+ligi            | 'ligi'               | 268   | 272   | +0.006229
+ose             | 'ose'                | 272   | 275   | +0.006229
+o               | 'o'                  | 276   | 277   | +0.013412
+filosofi        | 'filosofi'           | 278   | 286   | +0.013412
+che             | 'che'                | 286   | 289   | +0.013412
+,               | ','                  | 289   | 290   | +0.013293
+alla            | 'alla'               | 291   | 295   | +0.003131
+razza           | 'razza'              | 296   | 301   | +0.003131
+,               | ','                  | 301   | 302   | +0.003627
+alla            | 'alla'               | 303   | 307   | +0.008853
+vita            | 'vita'               | 308   | 312   | +0.008853
+sessuale        | 'sessuale'           | 313   | 321   | +0.013444
+o               | 'o'                  | 322   | 323   | +0.013444
+all             | 'all'                | 324   | 327   | +0.005711
+'               | "'"                  | 327   | 328   | +0.005711
+ori             | 'ori'                | 328   | 331   | +0.005711
+enta            | 'enta'               | 331   | 335   | +0.005711
+mento           | 'mento'              | 335   | 340   | +0.005711
+sessuale        | 'sessuale'           | 341   | 349   | +0.004148
+di              | 'di'                 | 350   | 352   | +0.004148
+una             | 'una'                | 353   | 356   | +0.004095
+persona         | 'persona'            | 357   | 364   | +0.004095
+.               | '.'                  | 364   | 365   | +0.013834
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Dov' (0-3) as 'Dov'
+  Added token 'rebbe' (3-8) as 'rebbe'
+  Added token 'ro ' (8-10) as 'ro'
+
+Saved word: 'Dovrebbero' with SHAP +0.000120
+  Added token 'essere ' (11-17) as 'essere'
+
+Saved word: 'essere' with SHAP +0.002419
+  Added token 'vieta' (18-23) as 'vieta'
+  Added token 'ti ' (23-25) as 'ti'
+
+Saved word: 'vietati' with SHAP -0.021751
+  Added token 'i ' (26-27) as 'i'
+
+Saved word: 'i' with SHAP -0.001610
+  Added token 'sistemi ' (28-35) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP -0.001610
+  Added token 'di ' (36-38) as 'di'
+
+Saved word: 'di' with SHAP -0.002365
+  Added token 'cat' (39-42) as 'cat'
+  Added token 'ego' (42-45) as 'ego'
+  Added token 'riz' (45-48) as 'riz'
+  Added token 'za' (48-50) as 'za'
+  Added token 'zione ' (50-55) as 'zione'
+
+Saved word: 'categorizzazione' with SHAP +0.028926
+  Added token 'bio' (56-59) as 'bio'
+  Added token 'metric' (59-65) as 'metric'
+  Added token 'a ' (65-66) as 'a'
+
+Saved word: 'biometrica' with SHAP +0.025064
+  Added token 'basa' (67-71) as 'basa'
+  Added token 'ti ' (71-73) as 'ti'
+
+Saved word: 'basati' with SHAP +0.020899
+  Added token 'sui ' (74-77) as 'sui'
+
+Saved word: 'sui' with SHAP +0.010297
+  Added token 'dati ' (78-82) as 'dati'
+
+Saved word: 'dati' with SHAP +0.010297
+  Added token 'bio' (83-86) as 'bio'
+  Added token 'metric' (86-92) as 'metric'
+  Added token 'i ' (92-93) as 'i'
+
+Saved word: 'biometrici' with SHAP +0.024244
+  Added token 'di ' (94-96) as 'di'
+
+Saved word: 'di' with SHAP +0.005800
+  Added token 'persone ' (97-104) as 'persone'
+
+Saved word: 'persone' with SHAP +0.005800
+  Added token 'fi' (105-107) as 'fi'
+  Added token 'sic' (107-110) as 'sic'
+  Added token 'he' (110-112) as 'he'
+  Added token ', ' (112-113) as ','
+
+Saved word: 'fisiche,' with SHAP +0.026458
+  Added token 'quali ' (114-119) as 'quali'
+
+Saved word: 'quali' with SHAP +0.010406
+  Added token 'il ' (120-122) as 'il'
+
+Saved word: 'il' with SHAP +0.009057
+  Added token 'volto ' (123-128) as 'volto'
+
+Saved word: 'volto' with SHAP +0.009535
+  Added token 'o ' (129-130) as 'o'
+
+Saved word: 'o' with SHAP +0.009535
+  Added token 'le ' (131-133) as 'le'
+
+Saved word: 'le' with SHAP +0.008266
+  Added token 'im' (134-136) as 'im'
+  Added token 'pron' (136-140) as 'pron'
+  Added token 'te ' (140-142) as 'te'
+
+Saved word: 'impronte' with SHAP -0.003250
+  Added token 'digital' (143-150) as 'digital'
+  Added token 'i' (150-151) as 'i'
+  Added token ', ' (151-152) as ','
+
+Saved word: 'digitali,' with SHAP +0.017365
+  Added token 'per ' (153-156) as 'per'
+
+Saved word: 'per' with SHAP -0.000732
+  Added token 'tra' (157-160) as 'tra'
+  Added token 'rre ' (160-163) as 'rre'
+
+Saved word: 'trarre' with SHAP -0.001465
+  Added token 'de' (164-166) as 'de'
+  Added token 'duz' (166-169) as 'duz'
+  Added token 'ioni ' (169-173) as 'ioni'
+
+Saved word: 'deduzioni' with SHAP +0.011031
+  Added token 'o ' (174-175) as 'o'
+
+Saved word: 'o' with SHAP +0.003677
+  Added token 'in' (176-178) as 'in'
+  Added token 'fere' (178-182) as 'fere'
+  Added token 'nze ' (182-185) as 'nze'
+
+Saved word: 'inferenze' with SHAP +0.006361
+  Added token 'in ' (186-188) as 'in'
+
+Saved word: 'in' with SHAP +0.001943
+  Added token 'merito ' (189-195) as 'merito'
+
+Saved word: 'merito' with SHAP +0.001943
+  Added token 'alle ' (196-200) as 'alle'
+
+Saved word: 'alle' with SHAP +0.001943
+  Added token 'opinion' (201-208) as 'opinion'
+  Added token 'i ' (208-209) as 'i'
+
+Saved word: 'opinioni' with SHAP +0.013162
+  Added token 'politiche' (210-219) as 'politiche'
+  Added token ', ' (219-220) as ','
+
+Saved word: 'politiche,' with SHAP +0.013162
+  Added token 'all' (221-224) as 'all'
+  Added token ''' (224-225) as '''
+  Added token 'app' (225-228) as 'app'
+  Added token 'arten' (228-233) as 'arten'
+  Added token 'enza ' (233-237) as 'enza'
+
+Saved word: 'all'appartenenza' with SHAP +0.021965
+  Added token 'sind' (238-242) as 'sind'
+  Added token 'aca' (242-245) as 'aca'
+  Added token 'le' (245-247) as 'le'
+  Added token ', ' (247-248) as ','
+
+Saved word: 'sindacale,' with SHAP +0.016247
+  Added token 'alle ' (249-253) as 'alle'
+
+Saved word: 'alle' with SHAP +0.006427
+  Added token 'con' (254-257) as 'con'
+  Added token 'vin' (257-260) as 'vin'
+  Added token 'zioni ' (260-265) as 'zioni'
+
+Saved word: 'convinzioni' with SHAP +0.019281
+  Added token 're' (266-268) as 're'
+  Added token 'ligi' (268-272) as 'ligi'
+  Added token 'ose ' (272-275) as 'ose'
+
+Saved word: 'religiose' with SHAP +0.018686
+  Added token 'o ' (276-277) as 'o'
+
+Saved word: 'o' with SHAP +0.013412
+  Added token 'filosofi' (278-286) as 'filosofi'
+  Added token 'che' (286-289) as 'che'
+  Added token ', ' (289-290) as ','
+
+Saved word: 'filosofiche,' with SHAP +0.040118
+  Added token 'alla ' (291-295) as 'alla'
+
+Saved word: 'alla' with SHAP +0.003131
+  Added token 'razza' (296-301) as 'razza'
+  Added token ', ' (301-302) as ','
+
+Saved word: 'razza,' with SHAP +0.006758
+  Added token 'alla ' (303-307) as 'alla'
+
+Saved word: 'alla' with SHAP +0.008853
+  Added token 'vita ' (308-312) as 'vita'
+
+Saved word: 'vita' with SHAP +0.008853
+  Added token 'sessuale ' (313-321) as 'sessuale'
+
+Saved word: 'sessuale' with SHAP +0.013444
+  Added token 'o ' (322-323) as 'o'
+
+Saved word: 'o' with SHAP +0.013444
+  Added token 'all' (324-327) as 'all'
+  Added token ''' (327-328) as '''
+  Added token 'ori' (328-331) as 'ori'
+  Added token 'enta' (331-335) as 'enta'
+  Added token 'mento ' (335-340) as 'mento'
+
+Saved word: 'all'orientamento' with SHAP +0.028556
+  Added token 'sessuale ' (341-349) as 'sessuale'
+
+Saved word: 'sessuale' with SHAP +0.004148
+  Added token 'di ' (350-352) as 'di'
+
+Saved word: 'di' with SHAP +0.004148
+  Added token 'una ' (353-356) as 'una'
+
+Saved word: 'una' with SHAP +0.004095
+  Added token 'persona' (357-364) as 'persona'
+  Added token '.' (364-365) as '.'
+
+Saved final word: 'persona.' with SHAP +0.017929
+
+=== Final Word Contributions ===
+filosofiche,              +0.040118 (POS)
+categorizzazione          +0.028926 (POS)
+all'orientamento          +0.028556 (POS)
+fisiche,                  +0.026458 (POS)
+biometrica                +0.025064 (POS)
+biometrici                +0.024244 (POS)
+all'appartenenza          +0.021965 (POS)
+vietati                   -0.021751 (NEG)
+basati                    +0.020899 (POS)
+convinzioni               +0.019281 (POS)
+religiose                 +0.018686 (POS)
+persona.                  +0.017929 (POS)
+digitali,                 +0.017365 (POS)
+sindacale,                +0.016247 (POS)
+o                         +0.013444 (POS)
+politiche,                +0.013162 (POS)
+opinioni                  +0.013162 (POS)
+deduzioni                 +0.011031 (POS)
+quali                     +0.010406 (POS)
+sui                       +0.010297 (POS)
+dati                      +0.010297 (POS)
+volto                     +0.009535 (POS)
+il                        +0.009057 (POS)
+alla                      +0.008853 (POS)
+vita                      +0.008853 (POS)
+le                        +0.008266 (POS)
+razza,                    +0.006758 (POS)
+alle                      +0.006427 (POS)
+inferenze                 +0.006361 (POS)
+persone                   +0.005800 (POS)
+di                        +0.004148 (POS)
+sessuale                  +0.004148 (POS)
+una                       +0.004095 (POS)
+impronte                  -0.003250 (NEG)
+essere                    +0.002419 (POS)
+in                        +0.001943 (POS)
+merito                    +0.001943 (POS)
+i                         -0.001610 (NEG)
+sistemi                   -0.001610 (NEG)
+trarre                    -0.001465 (NEG)
+per                       -0.000732 (NEG)
+Dovrebbero                +0.000120 (POS)

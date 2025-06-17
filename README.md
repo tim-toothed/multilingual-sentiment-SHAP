@@ -17,7 +17,7 @@ Originally created on: Windows 11 (64-bit), NVIDIA GeForce RTX 4060, VS Code
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/tim-toothed/multilingual-sentiment-SHAP.git
 cd SHAP_project
 ```
 

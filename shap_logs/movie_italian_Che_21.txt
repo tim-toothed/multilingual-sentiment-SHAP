@@ -1,0 +1,48 @@
+
+=== Processing text ===
+Che non ci rivedremo mai più.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Che             | 'Che'                | 0     | 3     | +0.029371
+non             | 'non'                | 4     | 7     | +0.107812
+ci              | 'ci'                 | 8     | 10    | +0.016721
+rive            | 'rive'               | 11    | 15    | +0.044926
+dre             | 'dre'                | 15    | 18    | +0.034931
+mo              | 'mo'                 | 18    | 20    | +0.016068
+mai             | 'mai'                | 21    | 24    | +0.051071
+più             | 'più'                | 25    | 28    | +0.012680
+.               | '.'                  | 28    | 29    | +0.004666
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Che ' (0-3) as 'Che'
+
+Saved word: 'Che' with SHAP +0.029371
+  Added token 'non ' (4-7) as 'non'
+
+Saved word: 'non' with SHAP +0.107812
+  Added token 'ci ' (8-10) as 'ci'
+
+Saved word: 'ci' with SHAP +0.016721
+  Added token 'rive' (11-15) as 'rive'
+  Added token 'dre' (15-18) as 'dre'
+  Added token 'mo ' (18-20) as 'mo'
+
+Saved word: 'rivedremo' with SHAP +0.095925
+  Added token 'mai ' (21-24) as 'mai'
+
+Saved word: 'mai' with SHAP +0.051071
+  Added token 'più' (25-28) as 'più'
+  Added token '.' (28-29) as '.'
+
+Saved final word: 'più.' with SHAP +0.017346
+
+=== Final Word Contributions ===
+non                       +0.107812 (POS)
+rivedremo                 +0.095925 (POS)
+mai                       +0.051071 (POS)
+Che                       +0.029371 (POS)
+più.                      +0.017346 (POS)
+ci                        +0.016721 (POS)

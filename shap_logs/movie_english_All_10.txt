@@ -1,0 +1,95 @@
+
+=== Processing text ===
+All I ever wanted in my sorry-ass life was a single thing worth fighting for.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000233
+All             | 'All'                | 0     | 3     | -0.040759
+I               | 'I'                  | 4     | 5     | +0.009620
+ever            | 'ever'               | 6     | 10    | -0.007854
+wanted          | 'wanted'             | 11    | 17    | +0.009358
+in              | 'in'                 | 18    | 20    | +0.020840
+my              | 'my'                 | 21    | 23    | +0.031125
+sor             | 'sor'                | 24    | 27    | -0.035290
+ry              | 'ry'                 | 27    | 29    | -0.010242
+-               | '-'                  | 29    | 30    | +0.002376
+ass             | 'ass'                | 30    | 33    | +0.003810
+life            | 'life'               | 34    | 38    | -0.027112
+was             | 'was'                | 39    | 42    | -0.001981
+a               | 'a'                  | 43    | 44    | +0.033312
+single          | 'single'             | 45    | 51    | +0.078384
+thing           | 'thing'              | 52    | 57    | +0.033311
+worth           | 'worth'              | 58    | 63    | +0.015818
+fighting        | 'fighting'           | 64    | 72    | -0.007736
+for             | 'for'                | 73    | 76    | -0.004802
+.               | '.'                  | 76    | 77    | +0.017075
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'All ' (0-3) as 'All'
+
+Saved word: 'All' with SHAP -0.040759
+  Added token 'I ' (4-5) as 'I'
+
+Saved word: 'I' with SHAP +0.009620
+  Added token 'ever ' (6-10) as 'ever'
+
+Saved word: 'ever' with SHAP -0.007854
+  Added token 'wanted ' (11-17) as 'wanted'
+
+Saved word: 'wanted' with SHAP +0.009358
+  Added token 'in ' (18-20) as 'in'
+
+Saved word: 'in' with SHAP +0.020840
+  Added token 'my ' (21-23) as 'my'
+
+Saved word: 'my' with SHAP +0.031125
+  Added token 'sor' (24-27) as 'sor'
+  Added token 'ry' (27-29) as 'ry'
+  Added token '-' (29-30) as '-'
+  Added token 'ass ' (30-33) as 'ass'
+
+Saved word: 'sorry-ass' with SHAP -0.039346
+  Added token 'life ' (34-38) as 'life'
+
+Saved word: 'life' with SHAP -0.027112
+  Added token 'was ' (39-42) as 'was'
+
+Saved word: 'was' with SHAP -0.001981
+  Added token 'a ' (43-44) as 'a'
+
+Saved word: 'a' with SHAP +0.033312
+  Added token 'single ' (45-51) as 'single'
+
+Saved word: 'single' with SHAP +0.078384
+  Added token 'thing ' (52-57) as 'thing'
+
+Saved word: 'thing' with SHAP +0.033311
+  Added token 'worth ' (58-63) as 'worth'
+
+Saved word: 'worth' with SHAP +0.015818
+  Added token 'fighting ' (64-72) as 'fighting'
+
+Saved word: 'fighting' with SHAP -0.007736
+  Added token 'for' (73-76) as 'for'
+  Added token '.' (76-77) as '.'
+
+Saved final word: 'for.' with SHAP +0.012273
+
+=== Final Word Contributions ===
+single                    +0.078384 (POS)
+All                       -0.040759 (NEG)
+sorry-ass                 -0.039346 (NEG)
+a                         +0.033312 (POS)
+thing                     +0.033311 (POS)
+my                        +0.031125 (POS)
+life                      -0.027112 (NEG)
+in                        +0.020840 (POS)
+worth                     +0.015818 (POS)
+for.                      +0.012273 (POS)
+I                         +0.009620 (POS)
+wanted                    +0.009358 (POS)
+ever                      -0.007854 (NEG)
+fighting                  -0.007736 (NEG)
+was                       -0.001981 (NEG)

@@ -1,0 +1,175 @@
+
+=== Processing text ===
+The definition should be based on the key functional characteristics of a general-purpose AI model, in particular the generality and the capability to competently perform a wide range of distinct tasks.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002656
+The             | 'The'                | 0     | 3     | +0.010470
+definition      | 'definition'         | 4     | 14    | +0.026069
+should          | 'should'             | 15    | 21    | +0.061197
+be              | 'be'                 | 22    | 24    | +0.029594
+based           | 'based'              | 25    | 30    | +0.039063
+on              | 'on'                 | 31    | 33    | +0.026421
+the             | 'the'                | 34    | 37    | +0.016038
+key             | 'key'                | 38    | 41    | +0.008531
+functional      | 'functional'         | 42    | 52    | +0.018345
+characteristics  | 'characteristics'    | 53    | 68    | +0.024417
+of              | 'of'                 | 69    | 71    | +0.022033
+a               | 'a'                  | 72    | 73    | +0.018921
+general         | 'general'            | 74    | 81    | +0.015439
+-               | '-'                  | 81    | 82    | +0.014620
+purpose         | 'purpose'            | 82    | 89    | +0.015916
+AI              | 'AI'                 | 90    | 92    | +0.013214
+model           | 'model'              | 93    | 98    | +0.016575
+,               | ','                  | 98    | 99    | +0.034715
+in              | 'in'                 | 100   | 102   | +0.009887
+particular      | 'particular'         | 103   | 113   | +0.009887
+the             | 'the'                | 114   | 117   | +0.007843
+generali        | 'generali'           | 118   | 126   | +0.016340
+ty              | 'ty'                 | 126   | 128   | -0.002949
+and             | 'and'                | 129   | 132   | +0.019154
+the             | 'the'                | 133   | 136   | +0.011318
+capability      | 'capability'         | 137   | 147   | +0.011318
+to              | 'to'                 | 148   | 150   | +0.011318
+compete         | 'compete'            | 151   | 158   | +0.005448
+ntly            | 'ntly'               | 158   | 162   | +0.005448
+perform         | 'perform'            | 163   | 170   | +0.006241
+a               | 'a'                  | 171   | 172   | +0.006241
+wide            | 'wide'               | 173   | 177   | +0.003627
+range           | 'range'              | 178   | 183   | +0.003627
+of              | 'of'                 | 184   | 186   | +0.019611
+distinct        | 'distinct'           | 187   | 195   | +0.019611
+tasks           | 'tasks'              | 196   | 201   | +0.019611
+.               | '.'                  | 201   | 202   | +0.014613
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP +0.010470
+  Added token 'definition ' (4-14) as 'definition'
+
+Saved word: 'definition' with SHAP +0.026069
+  Added token 'should ' (15-21) as 'should'
+
+Saved word: 'should' with SHAP +0.061197
+  Added token 'be ' (22-24) as 'be'
+
+Saved word: 'be' with SHAP +0.029594
+  Added token 'based ' (25-30) as 'based'
+
+Saved word: 'based' with SHAP +0.039063
+  Added token 'on ' (31-33) as 'on'
+
+Saved word: 'on' with SHAP +0.026421
+  Added token 'the ' (34-37) as 'the'
+
+Saved word: 'the' with SHAP +0.016038
+  Added token 'key ' (38-41) as 'key'
+
+Saved word: 'key' with SHAP +0.008531
+  Added token 'functional ' (42-52) as 'functional'
+
+Saved word: 'functional' with SHAP +0.018345
+  Added token 'characteristics ' (53-68) as 'characteristics'
+
+Saved word: 'characteristics' with SHAP +0.024417
+  Added token 'of ' (69-71) as 'of'
+
+Saved word: 'of' with SHAP +0.022033
+  Added token 'a ' (72-73) as 'a'
+
+Saved word: 'a' with SHAP +0.018921
+  Added token 'general' (74-81) as 'general'
+  Added token '-' (81-82) as '-'
+  Added token 'purpose ' (82-89) as 'purpose'
+
+Saved word: 'general-purpose' with SHAP +0.045975
+  Added token 'AI ' (90-92) as 'AI'
+
+Saved word: 'AI' with SHAP +0.013214
+  Added token 'model' (93-98) as 'model'
+  Added token ', ' (98-99) as ','
+
+Saved word: 'model,' with SHAP +0.051290
+  Added token 'in ' (100-102) as 'in'
+
+Saved word: 'in' with SHAP +0.009887
+  Added token 'particular ' (103-113) as 'particular'
+
+Saved word: 'particular' with SHAP +0.009887
+  Added token 'the ' (114-117) as 'the'
+
+Saved word: 'the' with SHAP +0.007843
+  Added token 'generali' (118-126) as 'generali'
+  Added token 'ty ' (126-128) as 'ty'
+
+Saved word: 'generality' with SHAP +0.013391
+  Added token 'and ' (129-132) as 'and'
+
+Saved word: 'and' with SHAP +0.019154
+  Added token 'the ' (133-136) as 'the'
+
+Saved word: 'the' with SHAP +0.011318
+  Added token 'capability ' (137-147) as 'capability'
+
+Saved word: 'capability' with SHAP +0.011318
+  Added token 'to ' (148-150) as 'to'
+
+Saved word: 'to' with SHAP +0.011318
+  Added token 'compete' (151-158) as 'compete'
+  Added token 'ntly ' (158-162) as 'ntly'
+
+Saved word: 'competently' with SHAP +0.010895
+  Added token 'perform ' (163-170) as 'perform'
+
+Saved word: 'perform' with SHAP +0.006241
+  Added token 'a ' (171-172) as 'a'
+
+Saved word: 'a' with SHAP +0.006241
+  Added token 'wide ' (173-177) as 'wide'
+
+Saved word: 'wide' with SHAP +0.003627
+  Added token 'range ' (178-183) as 'range'
+
+Saved word: 'range' with SHAP +0.003627
+  Added token 'of ' (184-186) as 'of'
+
+Saved word: 'of' with SHAP +0.019611
+  Added token 'distinct ' (187-195) as 'distinct'
+
+Saved word: 'distinct' with SHAP +0.019611
+  Added token 'tasks' (196-201) as 'tasks'
+  Added token '.' (201-202) as '.'
+
+Saved final word: 'tasks.' with SHAP +0.034224
+
+=== Final Word Contributions ===
+should                    +0.061197 (POS)
+model,                    +0.051290 (POS)
+general-purpose           +0.045975 (POS)
+based                     +0.039063 (POS)
+tasks.                    +0.034224 (POS)
+be                        +0.029594 (POS)
+on                        +0.026421 (POS)
+definition                +0.026069 (POS)
+characteristics           +0.024417 (POS)
+of                        +0.019611 (POS)
+distinct                  +0.019611 (POS)
+and                       +0.019154 (POS)
+functional                +0.018345 (POS)
+generality                +0.013391 (POS)
+AI                        +0.013214 (POS)
+the                       +0.011318 (POS)
+capability                +0.011318 (POS)
+to                        +0.011318 (POS)
+competently               +0.010895 (POS)
+The                       +0.010470 (POS)
+in                        +0.009887 (POS)
+particular                +0.009887 (POS)
+key                       +0.008531 (POS)
+a                         +0.006241 (POS)
+perform                   +0.006241 (POS)
+wide                      +0.003627 (POS)
+range                     +0.003627 (POS)

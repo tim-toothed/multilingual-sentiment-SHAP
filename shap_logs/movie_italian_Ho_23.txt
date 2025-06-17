@@ -1,0 +1,224 @@
+
+=== Processing text ===
+Ho sempre odiato questo tappeto. Si macchia e si sbiadisce in modo cosi' particolare. E' di lana. Quindi... non sono sul tappeto nel mio appartamento. Il che significa che non sono nel mio appartamento.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000561
+Ho              | 'Ho'                 | 0     | 2     | -0.003611
+sempre          | 'sempre'             | 3     | 9     | -0.018920
+od              | 'od'                 | 10    | 12    | +0.052443
+iato            | 'iato'               | 12    | 16    | +0.034483
+questo          | 'questo'             | 17    | 23    | +0.016977
+tap             | 'tap'                | 24    | 27    | +0.015028
+pet             | 'pet'                | 27    | 30    | +0.021028
+o               | 'o'                  | 30    | 31    | +0.015108
+.               | '.'                  | 31    | 32    | +0.002787
+Si              | 'Si'                 | 33    | 35    | +0.001162
+mac             | 'mac'                | 36    | 39    | +0.001503
+chia            | 'chia'               | 39    | 43    | +0.001503
+e               | 'e'                  | 44    | 45    | -0.001366
+si              | 'si'                 | 46    | 48    | -0.001366
+s               | 's'                  | 49    | 50    | +0.002368
+bia             | 'bia'                | 50    | 53    | +0.002368
+disce           | 'disce'              | 53    | 58    | +0.002368
+in              | 'in'                 | 59    | 61    | -0.000043
+modo            | 'modo'               | 62    | 66    | -0.000043
+cos             | 'cos'                | 67    | 70    | -0.002106
+i               | 'i'                  | 70    | 71    | -0.002106
+'               | "'"                  | 71    | 72    | -0.002106
+particolare     | 'particolare'        | 73    | 84    | -0.017430
+.               | '.'                  | 84    | 85    | -0.016188
+E               | 'E'                  | 86    | 87    | +0.002959
+'               | "'"                  | 87    | 88    | +0.002959
+di              | 'di'                 | 89    | 91    | +0.003635
+lana            | 'lana'               | 92    | 96    | +0.003635
+.               | '.'                  | 96    | 97    | +0.000683
+Qui             | 'Qui'                | 98    | 101   | -0.015475
+ndi             | 'ndi'                | 101   | 104   | -0.008137
+.               | '.'                  | 104   | 105   | -0.006307
+.               | '.'                  | 105   | 106   | -0.005400
+.               | '.'                  | 106   | 107   | +0.003704
+non             | 'non'                | 108   | 111   | -0.002396
+sono            | 'sono'               | 112   | 116   | -0.002396
+sul             | 'sul'                | 117   | 120   | -0.002396
+tap             | 'tap'                | 121   | 124   | +0.001548
+pet             | 'pet'                | 124   | 127   | +0.001548
+o               | 'o'                  | 127   | 128   | +0.001548
+nel             | 'nel'                | 129   | 132   | -0.000513
+mio             | 'mio'                | 133   | 136   | -0.000513
+app             | 'app'                | 137   | 140   | +0.006185
+arta            | 'arta'               | 140   | 144   | +0.006185
+mento           | 'mento'              | 144   | 149   | +0.006185
+.               | '.'                  | 149   | 150   | +0.010188
+Il              | 'Il'                 | 151   | 153   | +0.003394
+che             | 'che'                | 154   | 157   | +0.003394
+significa       | 'significa'          | 158   | 167   | -0.002531
+che             | 'che'                | 168   | 171   | -0.002531
+non             | 'non'                | 172   | 175   | +0.021053
+sono            | 'sono'               | 176   | 180   | +0.007262
+nel             | 'nel'                | 181   | 184   | +0.000899
+mio             | 'mio'                | 185   | 188   | +0.000899
+app             | 'app'                | 189   | 192   | +0.004526
+arta            | 'arta'               | 192   | 196   | +0.004526
+mento           | 'mento'              | 196   | 201   | +0.008395
+.               | '.'                  | 201   | 202   | -0.000044
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ho ' (0-2) as 'Ho'
+
+Saved word: 'Ho' with SHAP -0.003611
+  Added token 'sempre ' (3-9) as 'sempre'
+
+Saved word: 'sempre' with SHAP -0.018920
+  Added token 'od' (10-12) as 'od'
+  Added token 'iato ' (12-16) as 'iato'
+
+Saved word: 'odiato' with SHAP +0.086927
+  Added token 'questo ' (17-23) as 'questo'
+
+Saved word: 'questo' with SHAP +0.016977
+  Added token 'tap' (24-27) as 'tap'
+  Added token 'pet' (27-30) as 'pet'
+  Added token 'o' (30-31) as 'o'
+  Added token '. ' (31-32) as '.'
+
+Saved word: 'tappeto.' with SHAP +0.053951
+  Added token 'Si ' (33-35) as 'Si'
+
+Saved word: 'Si' with SHAP +0.001162
+  Added token 'mac' (36-39) as 'mac'
+  Added token 'chia ' (39-43) as 'chia'
+
+Saved word: 'macchia' with SHAP +0.003007
+  Added token 'e ' (44-45) as 'e'
+
+Saved word: 'e' with SHAP -0.001366
+  Added token 'si ' (46-48) as 'si'
+
+Saved word: 'si' with SHAP -0.001366
+  Added token 's' (49-50) as 's'
+  Added token 'bia' (50-53) as 'bia'
+  Added token 'disce ' (53-58) as 'disce'
+
+Saved word: 'sbiadisce' with SHAP +0.007103
+  Added token 'in ' (59-61) as 'in'
+
+Saved word: 'in' with SHAP -0.000043
+  Added token 'modo ' (62-66) as 'modo'
+
+Saved word: 'modo' with SHAP -0.000043
+  Added token 'cos' (67-70) as 'cos'
+  Added token 'i' (70-71) as 'i'
+  Added token '' ' (71-72) as '''
+
+Saved word: 'cosi'' with SHAP -0.006319
+  Added token 'particolare' (73-84) as 'particolare'
+  Added token '. ' (84-85) as '.'
+
+Saved word: 'particolare.' with SHAP -0.033618
+  Added token 'E' (86-87) as 'E'
+  Added token '' ' (87-88) as '''
+
+Saved word: 'E'' with SHAP +0.005918
+  Added token 'di ' (89-91) as 'di'
+
+Saved word: 'di' with SHAP +0.003635
+  Added token 'lana' (92-96) as 'lana'
+  Added token '. ' (96-97) as '.'
+
+Saved word: 'lana.' with SHAP +0.004318
+  Added token 'Qui' (98-101) as 'Qui'
+  Added token 'ndi' (101-104) as 'ndi'
+  Added token '.' (104-105) as '.'
+  Added token '.' (105-106) as '.'
+  Added token '. ' (106-107) as '.'
+
+Saved word: 'Quindi...' with SHAP -0.031614
+  Added token 'non ' (108-111) as 'non'
+
+Saved word: 'non' with SHAP -0.002396
+  Added token 'sono ' (112-116) as 'sono'
+
+Saved word: 'sono' with SHAP -0.002396
+  Added token 'sul ' (117-120) as 'sul'
+
+Saved word: 'sul' with SHAP -0.002396
+  Added token 'tap' (121-124) as 'tap'
+  Added token 'pet' (124-127) as 'pet'
+  Added token 'o ' (127-128) as 'o'
+
+Saved word: 'tappeto' with SHAP +0.004644
+  Added token 'nel ' (129-132) as 'nel'
+
+Saved word: 'nel' with SHAP -0.000513
+  Added token 'mio ' (133-136) as 'mio'
+
+Saved word: 'mio' with SHAP -0.000513
+  Added token 'app' (137-140) as 'app'
+  Added token 'arta' (140-144) as 'arta'
+  Added token 'mento' (144-149) as 'mento'
+  Added token '. ' (149-150) as '.'
+
+Saved word: 'appartamento.' with SHAP +0.028743
+  Added token 'Il ' (151-153) as 'Il'
+
+Saved word: 'Il' with SHAP +0.003394
+  Added token 'che ' (154-157) as 'che'
+
+Saved word: 'che' with SHAP +0.003394
+  Added token 'significa ' (158-167) as 'significa'
+
+Saved word: 'significa' with SHAP -0.002531
+  Added token 'che ' (168-171) as 'che'
+
+Saved word: 'che' with SHAP -0.002531
+  Added token 'non ' (172-175) as 'non'
+
+Saved word: 'non' with SHAP +0.021053
+  Added token 'sono ' (176-180) as 'sono'
+
+Saved word: 'sono' with SHAP +0.007262
+  Added token 'nel ' (181-184) as 'nel'
+
+Saved word: 'nel' with SHAP +0.000899
+  Added token 'mio ' (185-188) as 'mio'
+
+Saved word: 'mio' with SHAP +0.000899
+  Added token 'app' (189-192) as 'app'
+  Added token 'arta' (192-196) as 'arta'
+  Added token 'mento' (196-201) as 'mento'
+  Added token '.' (201-202) as '.'
+
+Saved final word: 'appartamento.' with SHAP +0.017402
+
+=== Final Word Contributions ===
+odiato                    +0.086927 (POS)
+tappeto.                  +0.053951 (POS)
+particolare.              -0.033618 (NEG)
+Quindi...                 -0.031614 (NEG)
+non                       +0.021053 (POS)
+sempre                    -0.018920 (NEG)
+appartamento.             +0.017402 (POS)
+questo                    +0.016977 (POS)
+sono                      +0.007262 (POS)
+sbiadisce                 +0.007103 (POS)
+cosi'                     -0.006319 (NEG)
+E'                        +0.005918 (POS)
+tappeto                   +0.004644 (POS)
+lana.                     +0.004318 (POS)
+di                        +0.003635 (POS)
+Ho                        -0.003611 (NEG)
+Il                        +0.003394 (POS)
+macchia                   +0.003007 (POS)
+che                       -0.002531 (NEG)
+significa                 -0.002531 (NEG)
+sul                       -0.002396 (NEG)
+e                         -0.001366 (NEG)
+si                        -0.001366 (NEG)
+Si                        +0.001162 (POS)
+nel                       +0.000899 (POS)
+mio                       +0.000899 (POS)
+in                        -0.000043 (NEG)
+modo                      -0.000043 (NEG)

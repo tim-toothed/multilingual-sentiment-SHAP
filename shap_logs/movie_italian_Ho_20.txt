@@ -1,0 +1,78 @@
+
+=== Processing text ===
+Ho detto che conosco e ammiro il suo meraviglioso lavoro.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000125
+Ho              | 'Ho'                 | 0     | 2     | +0.028851
+detto           | 'detto'              | 3     | 8     | +0.031625
+che             | 'che'                | 9     | 12    | +0.020304
+con             | 'con'                | 13    | 16    | +0.000979
+os              | 'os'                 | 16    | 18    | +0.014221
+co              | 'co'                 | 18    | 20    | -0.014718
+e               | 'e'                  | 21    | 22    | +0.002033
+am              | 'am'                 | 23    | 25    | +0.048207
+mir             | 'mir'                | 25    | 28    | +0.099266
+o               | 'o'                  | 28    | 29    | -0.006134
+il              | 'il'                 | 30    | 32    | -0.001390
+suo             | 'suo'                | 33    | 36    | -0.028226
+mera            | 'mera'               | 37    | 41    | +0.081884
+vig             | 'vig'                | 41    | 44    | +0.102638
+lios            | 'lios'               | 44    | 48    | +0.071171
+o               | 'o'                  | 48    | 49    | -0.007367
+lavoro          | 'lavoro'             | 50    | 56    | -0.022258
+.               | '.'                  | 56    | 57    | -0.006386
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Ho ' (0-2) as 'Ho'
+
+Saved word: 'Ho' with SHAP +0.028851
+  Added token 'detto ' (3-8) as 'detto'
+
+Saved word: 'detto' with SHAP +0.031625
+  Added token 'che ' (9-12) as 'che'
+
+Saved word: 'che' with SHAP +0.020304
+  Added token 'con' (13-16) as 'con'
+  Added token 'os' (16-18) as 'os'
+  Added token 'co ' (18-20) as 'co'
+
+Saved word: 'conosco' with SHAP +0.000483
+  Added token 'e ' (21-22) as 'e'
+
+Saved word: 'e' with SHAP +0.002033
+  Added token 'am' (23-25) as 'am'
+  Added token 'mir' (25-28) as 'mir'
+  Added token 'o ' (28-29) as 'o'
+
+Saved word: 'ammiro' with SHAP +0.141340
+  Added token 'il ' (30-32) as 'il'
+
+Saved word: 'il' with SHAP -0.001390
+  Added token 'suo ' (33-36) as 'suo'
+
+Saved word: 'suo' with SHAP -0.028226
+  Added token 'mera' (37-41) as 'mera'
+  Added token 'vig' (41-44) as 'vig'
+  Added token 'lios' (44-48) as 'lios'
+  Added token 'o ' (48-49) as 'o'
+
+Saved word: 'meraviglioso' with SHAP +0.248325
+  Added token 'lavoro' (50-56) as 'lavoro'
+  Added token '.' (56-57) as '.'
+
+Saved final word: 'lavoro.' with SHAP -0.028644
+
+=== Final Word Contributions ===
+meraviglioso              +0.248325 (POS)
+ammiro                    +0.141340 (POS)
+detto                     +0.031625 (POS)
+Ho                        +0.028851 (POS)
+lavoro.                   -0.028644 (NEG)
+suo                       -0.028226 (NEG)
+che                       +0.020304 (POS)
+e                         +0.002033 (POS)
+il                        -0.001390 (NEG)
+conosco                   +0.000483 (POS)

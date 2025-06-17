@@ -1,0 +1,351 @@
+
+=== Processing text ===
+General-purpose AI models could pose systemic risks which include, but are not limited to, any actual or reasonably foreseeable negative effects in relation to major accidents, disruptions of critical sectors and serious consequences to public health and safety; any actual or reasonably foreseeable negative effects on democratic processes, public and economic security; the dissemination of illegal, false, or discriminatory content.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005578
+General         | 'General'            | 0     | 7     | +0.005578
+-               | '-'                  | 7     | 8     | +0.004701
+purpose         | 'purpose'            | 8     | 15    | +0.004701
+AI              | 'AI'                 | 16    | 18    | +0.003210
+models          | 'models'             | 19    | 25    | +0.003210
+could           | 'could'              | 26    | 31    | +0.008774
+pose            | 'pose'               | 32    | 36    | +0.008050
+system          | 'system'             | 37    | 43    | +0.000574
+ic              | 'ic'                 | 43    | 45    | +0.000574
+risks           | 'risks'              | 46    | 51    | -0.005829
+which           | 'which'              | 52    | 57    | -0.005829
+include         | 'include'            | 58    | 65    | -0.005425
+,               | ','                  | 65    | 66    | +0.003637
+but             | 'but'                | 67    | 70    | +0.057235
+are             | 'are'                | 71    | 74    | +0.005298
+not             | 'not'                | 75    | 78    | +0.005298
+limited         | 'limited'            | 79    | 86    | +0.003989
+to              | 'to'                 | 87    | 89    | +0.003989
+,               | ','                  | 89    | 90    | +0.002115
+any             | 'any'                | 91    | 94    | +0.003192
+actual          | 'actual'             | 95    | 101   | +0.003192
+or              | 'or'                 | 102   | 104   | +0.008168
+reason          | 'reason'             | 105   | 111   | +0.002773
+ably            | 'ably'               | 111   | 115   | +0.002773
+for             | 'for'                | 116   | 119   | +0.002018
+ese             | 'ese'                | 119   | 122   | +0.002018
+ea              | 'ea'                 | 122   | 124   | +0.002018
+ble             | 'ble'                | 124   | 127   | +0.002018
+negative        | 'negative'           | 128   | 136   | +0.008188
+effects         | 'effects'            | 137   | 144   | +0.010377
+in              | 'in'                 | 145   | 147   | +0.006177
+relation        | 'relation'           | 148   | 156   | +0.006177
+to              | 'to'                 | 157   | 159   | +0.001069
+major           | 'major'              | 160   | 165   | +0.001069
+accidents       | 'accidents'          | 166   | 175   | +0.001069
+,               | ','                  | 175   | 176   | +0.001338
+dis             | 'dis'                | 177   | 180   | -0.001402
+ruption         | 'ruption'            | 180   | 187   | -0.001402
+s               | 's'                  | 187   | 188   | -0.001402
+of              | 'of'                 | 189   | 191   | +0.000636
+critical        | 'critical'           | 192   | 200   | +0.000636
+sectors         | 'sectors'            | 201   | 208   | +0.000636
+and             | 'and'                | 209   | 212   | -0.010767
+serious         | 'serious'            | 213   | 220   | -0.010767
+consequences    | 'consequences'       | 221   | 233   | -0.010767
+to              | 'to'                 | 234   | 236   | -0.003177
+public          | 'public'             | 237   | 243   | -0.003177
+health          | 'health'             | 244   | 250   | -0.003177
+and             | 'and'                | 251   | 254   | -0.005513
+safety          | 'safety'             | 255   | 261   | -0.004145
+;               | ';'                  | 261   | 262   | -0.004145
+any             | 'any'                | 263   | 266   | -0.004145
+actual          | 'actual'             | 267   | 273   | -0.004145
+or              | 'or'                 | 274   | 276   | -0.000661
+reason          | 'reason'             | 277   | 283   | -0.000661
+ably            | 'ably'               | 283   | 287   | -0.000661
+for             | 'for'                | 288   | 291   | -0.000425
+ese             | 'ese'                | 291   | 294   | -0.000425
+ea              | 'ea'                 | 294   | 296   | -0.000425
+ble             | 'ble'                | 296   | 299   | -0.000425
+negative        | 'negative'           | 300   | 308   | +0.001483
+effects         | 'effects'            | 309   | 316   | +0.001483
+on              | 'on'                 | 317   | 319   | +0.001555
+democratic      | 'democratic'         | 320   | 330   | +0.001555
+processes       | 'processes'          | 331   | 340   | +0.001555
+,               | ','                  | 340   | 341   | +0.001623
+public          | 'public'             | 342   | 348   | -0.003003
+and             | 'and'                | 349   | 352   | -0.003003
+economic        | 'economic'           | 353   | 361   | -0.002822
+security        | 'security'           | 362   | 370   | -0.002822
+;               | ';'                  | 370   | 371   | -0.002822
+the             | 'the'                | 372   | 375   | -0.002822
+disse           | 'disse'              | 376   | 381   | -0.000848
+mination        | 'mination'           | 381   | 389   | -0.000848
+of              | 'of'                 | 390   | 392   | -0.000848
+illegal         | 'illegal'            | 393   | 400   | -0.000848
+,               | ','                  | 400   | 401   | -0.000848
+false           | 'false'              | 402   | 407   | +0.003146
+,               | ','                  | 407   | 408   | +0.003146
+or              | 'or'                 | 409   | 411   | -0.002035
+disc            | 'disc'               | 412   | 416   | +0.000054
+rimi            | 'rimi'               | 416   | 420   | +0.000054
+nato            | 'nato'               | 420   | 424   | +0.000054
+ry              | 'ry'                 | 424   | 426   | +0.000054
+content         | 'content'            | 427   | 434   | +0.000054
+.               | '.'                  | 434   | 435   | +0.000054
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'General' (0-7) as 'General'
+  Added token '-' (7-8) as '-'
+  Added token 'purpose ' (8-15) as 'purpose'
+
+Saved word: 'General-purpose' with SHAP +0.014979
+  Added token 'AI ' (16-18) as 'AI'
+
+Saved word: 'AI' with SHAP +0.003210
+  Added token 'models ' (19-25) as 'models'
+
+Saved word: 'models' with SHAP +0.003210
+  Added token 'could ' (26-31) as 'could'
+
+Saved word: 'could' with SHAP +0.008774
+  Added token 'pose ' (32-36) as 'pose'
+
+Saved word: 'pose' with SHAP +0.008050
+  Added token 'system' (37-43) as 'system'
+  Added token 'ic ' (43-45) as 'ic'
+
+Saved word: 'systemic' with SHAP +0.001147
+  Added token 'risks ' (46-51) as 'risks'
+
+Saved word: 'risks' with SHAP -0.005829
+  Added token 'which ' (52-57) as 'which'
+
+Saved word: 'which' with SHAP -0.005829
+  Added token 'include' (58-65) as 'include'
+  Added token ', ' (65-66) as ','
+
+Saved word: 'include,' with SHAP -0.001788
+  Added token 'but ' (67-70) as 'but'
+
+Saved word: 'but' with SHAP +0.057235
+  Added token 'are ' (71-74) as 'are'
+
+Saved word: 'are' with SHAP +0.005298
+  Added token 'not ' (75-78) as 'not'
+
+Saved word: 'not' with SHAP +0.005298
+  Added token 'limited ' (79-86) as 'limited'
+
+Saved word: 'limited' with SHAP +0.003989
+  Added token 'to' (87-89) as 'to'
+  Added token ', ' (89-90) as ','
+
+Saved word: 'to,' with SHAP +0.006104
+  Added token 'any ' (91-94) as 'any'
+
+Saved word: 'any' with SHAP +0.003192
+  Added token 'actual ' (95-101) as 'actual'
+
+Saved word: 'actual' with SHAP +0.003192
+  Added token 'or ' (102-104) as 'or'
+
+Saved word: 'or' with SHAP +0.008168
+  Added token 'reason' (105-111) as 'reason'
+  Added token 'ably ' (111-115) as 'ably'
+
+Saved word: 'reasonably' with SHAP +0.005546
+  Added token 'for' (116-119) as 'for'
+  Added token 'ese' (119-122) as 'ese'
+  Added token 'ea' (122-124) as 'ea'
+  Added token 'ble ' (124-127) as 'ble'
+
+Saved word: 'foreseeable' with SHAP +0.008073
+  Added token 'negative ' (128-136) as 'negative'
+
+Saved word: 'negative' with SHAP +0.008188
+  Added token 'effects ' (137-144) as 'effects'
+
+Saved word: 'effects' with SHAP +0.010377
+  Added token 'in ' (145-147) as 'in'
+
+Saved word: 'in' with SHAP +0.006177
+  Added token 'relation ' (148-156) as 'relation'
+
+Saved word: 'relation' with SHAP +0.006177
+  Added token 'to ' (157-159) as 'to'
+
+Saved word: 'to' with SHAP +0.001069
+  Added token 'major ' (160-165) as 'major'
+
+Saved word: 'major' with SHAP +0.001069
+  Added token 'accidents' (166-175) as 'accidents'
+  Added token ', ' (175-176) as ','
+
+Saved word: 'accidents,' with SHAP +0.002406
+  Added token 'dis' (177-180) as 'dis'
+  Added token 'ruption' (180-187) as 'ruption'
+  Added token 's ' (187-188) as 's'
+
+Saved word: 'disruptions' with SHAP -0.004206
+  Added token 'of ' (189-191) as 'of'
+
+Saved word: 'of' with SHAP +0.000636
+  Added token 'critical ' (192-200) as 'critical'
+
+Saved word: 'critical' with SHAP +0.000636
+  Added token 'sectors ' (201-208) as 'sectors'
+
+Saved word: 'sectors' with SHAP +0.000636
+  Added token 'and ' (209-212) as 'and'
+
+Saved word: 'and' with SHAP -0.010767
+  Added token 'serious ' (213-220) as 'serious'
+
+Saved word: 'serious' with SHAP -0.010767
+  Added token 'consequences ' (221-233) as 'consequences'
+
+Saved word: 'consequences' with SHAP -0.010767
+  Added token 'to ' (234-236) as 'to'
+
+Saved word: 'to' with SHAP -0.003177
+  Added token 'public ' (237-243) as 'public'
+
+Saved word: 'public' with SHAP -0.003177
+  Added token 'health ' (244-250) as 'health'
+
+Saved word: 'health' with SHAP -0.003177
+  Added token 'and ' (251-254) as 'and'
+
+Saved word: 'and' with SHAP -0.005513
+  Added token 'safety' (255-261) as 'safety'
+  Added token '; ' (261-262) as ';'
+
+Saved word: 'safety;' with SHAP -0.008290
+  Added token 'any ' (263-266) as 'any'
+
+Saved word: 'any' with SHAP -0.004145
+  Added token 'actual ' (267-273) as 'actual'
+
+Saved word: 'actual' with SHAP -0.004145
+  Added token 'or ' (274-276) as 'or'
+
+Saved word: 'or' with SHAP -0.000661
+  Added token 'reason' (277-283) as 'reason'
+  Added token 'ably ' (283-287) as 'ably'
+
+Saved word: 'reasonably' with SHAP -0.001323
+  Added token 'for' (288-291) as 'for'
+  Added token 'ese' (291-294) as 'ese'
+  Added token 'ea' (294-296) as 'ea'
+  Added token 'ble ' (296-299) as 'ble'
+
+Saved word: 'foreseeable' with SHAP -0.001700
+  Added token 'negative ' (300-308) as 'negative'
+
+Saved word: 'negative' with SHAP +0.001483
+  Added token 'effects ' (309-316) as 'effects'
+
+Saved word: 'effects' with SHAP +0.001483
+  Added token 'on ' (317-319) as 'on'
+
+Saved word: 'on' with SHAP +0.001555
+  Added token 'democratic ' (320-330) as 'democratic'
+
+Saved word: 'democratic' with SHAP +0.001555
+  Added token 'processes' (331-340) as 'processes'
+  Added token ', ' (340-341) as ','
+
+Saved word: 'processes,' with SHAP +0.003178
+  Added token 'public ' (342-348) as 'public'
+
+Saved word: 'public' with SHAP -0.003003
+  Added token 'and ' (349-352) as 'and'
+
+Saved word: 'and' with SHAP -0.003003
+  Added token 'economic ' (353-361) as 'economic'
+
+Saved word: 'economic' with SHAP -0.002822
+  Added token 'security' (362-370) as 'security'
+  Added token '; ' (370-371) as ';'
+
+Saved word: 'security;' with SHAP -0.005644
+  Added token 'the ' (372-375) as 'the'
+
+Saved word: 'the' with SHAP -0.002822
+  Added token 'disse' (376-381) as 'disse'
+  Added token 'mination ' (381-389) as 'mination'
+
+Saved word: 'dissemination' with SHAP -0.001697
+  Added token 'of ' (390-392) as 'of'
+
+Saved word: 'of' with SHAP -0.000848
+  Added token 'illegal' (393-400) as 'illegal'
+  Added token ', ' (400-401) as ','
+
+Saved word: 'illegal,' with SHAP -0.001697
+  Added token 'false' (402-407) as 'false'
+  Added token ', ' (407-408) as ','
+
+Saved word: 'false,' with SHAP +0.006293
+  Added token 'or ' (409-411) as 'or'
+
+Saved word: 'or' with SHAP -0.002035
+  Added token 'disc' (412-416) as 'disc'
+  Added token 'rimi' (416-420) as 'rimi'
+  Added token 'nato' (420-424) as 'nato'
+  Added token 'ry ' (424-426) as 'ry'
+
+Saved word: 'discriminatory' with SHAP +0.000215
+  Added token 'content' (427-434) as 'content'
+  Added token '.' (434-435) as '.'
+
+Saved final word: 'content.' with SHAP +0.000107
+
+=== Final Word Contributions ===
+but                       +0.057235 (POS)
+General-purpose           +0.014979 (POS)
+serious                   -0.010767 (NEG)
+consequences              -0.010767 (NEG)
+could                     +0.008774 (POS)
+safety;                   -0.008290 (NEG)
+pose                      +0.008050 (POS)
+false,                    +0.006293 (POS)
+in                        +0.006177 (POS)
+relation                  +0.006177 (POS)
+to,                       +0.006104 (POS)
+risks                     -0.005829 (NEG)
+which                     -0.005829 (NEG)
+security;                 -0.005644 (NEG)
+are                       +0.005298 (POS)
+not                       +0.005298 (POS)
+disruptions               -0.004206 (NEG)
+any                       -0.004145 (NEG)
+actual                    -0.004145 (NEG)
+limited                   +0.003989 (POS)
+AI                        +0.003210 (POS)
+models                    +0.003210 (POS)
+processes,                +0.003178 (POS)
+to                        -0.003177 (NEG)
+health                    -0.003177 (NEG)
+and                       -0.003003 (NEG)
+public                    -0.003003 (NEG)
+economic                  -0.002822 (NEG)
+the                       -0.002822 (NEG)
+accidents,                +0.002406 (POS)
+or                        -0.002035 (NEG)
+include,                  -0.001788 (NEG)
+foreseeable               -0.001700 (NEG)
+dissemination             -0.001697 (NEG)
+illegal,                  -0.001697 (NEG)
+on                        +0.001555 (POS)
+democratic                +0.001555 (POS)
+negative                  +0.001483 (POS)
+effects                   +0.001483 (POS)
+reasonably                -0.001323 (NEG)
+systemic                  +0.001147 (POS)
+major                     +0.001069 (POS)
+of                        -0.000848 (NEG)
+critical                  +0.000636 (POS)
+sectors                   +0.000636 (POS)
+discriminatory            +0.000215 (POS)
+content.                  +0.000107 (POS)

@@ -1,0 +1,212 @@
+
+=== Processing text ===
+Everyone knows you're with the Stasi! Spy, betrayer! If you don't take a stand, you're not human! If you ever want to take action, call. If not, we don't have to meet again.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.011114
+Every           | 'Every'              | 0     | 5     | +0.020057
+one             | 'one'                | 5     | 8     | +0.020057
+knows           | 'knows'              | 9     | 14    | -0.020113
+you             | 'you'                | 15    | 18    | -0.001656
+'               | "'"                  | 18    | 19    | -0.001656
+re              | 're'                 | 19    | 21    | -0.005303
+with            | 'with'               | 22    | 26    | -0.005303
+the             | 'the'                | 27    | 30    | -0.003982
+St              | 'St'                 | 31    | 33    | +0.006525
+asi             | 'asi'                | 33    | 36    | +0.006525
+!               | '!'                  | 36    | 37    | +0.005370
+Spy             | 'Spy'                | 38    | 41    | -0.012504
+,               | ','                  | 41    | 42    | -0.024989
+bet             | 'bet'                | 43    | 46    | +0.030662
+ray             | 'ray'                | 46    | 49    | +0.024657
+er              | 'er'                 | 49    | 51    | +0.010432
+!               | '!'                  | 51    | 52    | +0.021983
+If              | 'If'                 | 53    | 55    | -0.023969
+you             | 'you'                | 56    | 59    | -0.019035
+don             | 'don'                | 60    | 63    | +0.004394
+'               | "'"                  | 63    | 64    | +0.004394
+t               | 't'                  | 64    | 65    | +0.010312
+take            | 'take'               | 66    | 70    | +0.003553
+a               | 'a'                  | 71    | 72    | +0.003553
+stand           | 'stand'              | 73    | 78    | +0.003553
+,               | ','                  | 78    | 79    | +0.008045
+you             | 'you'                | 80    | 83    | +0.003338
+'               | "'"                  | 83    | 84    | +0.003338
+re              | 're'                 | 84    | 86    | +0.013317
+not             | 'not'                | 87    | 90    | +0.020819
+human           | 'human'              | 91    | 96    | +0.004803
+!               | '!'                  | 96    | 97    | +0.014033
+If              | 'If'                 | 98    | 100   | +0.004899
+you             | 'you'                | 101   | 104   | +0.000532
+ever            | 'ever'               | 105   | 109   | +0.009497
+want            | 'want'               | 110   | 114   | +0.012544
+to              | 'to'                 | 115   | 117   | -0.007542
+take            | 'take'               | 118   | 122   | -0.007542
+action          | 'action'             | 123   | 129   | -0.010222
+,               | ','                  | 129   | 130   | -0.011380
+call            | 'call'               | 131   | 135   | +0.003664
+.               | '.'                  | 135   | 136   | +0.017804
+If              | 'If'                 | 137   | 139   | -0.033535
+not             | 'not'                | 140   | 143   | -0.012814
+,               | ','                  | 143   | 144   | +0.008877
+we              | 'we'                 | 145   | 147   | -0.002179
+don             | 'don'                | 148   | 151   | +0.009508
+'               | "'"                  | 151   | 152   | +0.009508
+t               | 't'                  | 152   | 153   | +0.016431
+have            | 'have'               | 154   | 158   | +0.000431
+to              | 'to'                 | 159   | 161   | +0.000431
+meet            | 'meet'               | 162   | 166   | +0.000431
+again           | 'again'              | 167   | 172   | +0.000431
+.               | '.'                  | 172   | 173   | +0.012149
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Every' (0-5) as 'Every'
+  Added token 'one ' (5-8) as 'one'
+
+Saved word: 'Everyone' with SHAP +0.040113
+  Added token 'knows ' (9-14) as 'knows'
+
+Saved word: 'knows' with SHAP -0.020113
+  Added token 'you' (15-18) as 'you'
+  Added token ''' (18-19) as '''
+  Added token 're ' (19-21) as 're'
+
+Saved word: 'you're' with SHAP -0.008615
+  Added token 'with ' (22-26) as 'with'
+
+Saved word: 'with' with SHAP -0.005303
+  Added token 'the ' (27-30) as 'the'
+
+Saved word: 'the' with SHAP -0.003982
+  Added token 'St' (31-33) as 'St'
+  Added token 'asi' (33-36) as 'asi'
+  Added token '! ' (36-37) as '!'
+
+Saved word: 'Stasi!' with SHAP +0.018421
+  Added token 'Spy' (38-41) as 'Spy'
+  Added token ', ' (41-42) as ','
+
+Saved word: 'Spy,' with SHAP -0.037494
+  Added token 'bet' (43-46) as 'bet'
+  Added token 'ray' (46-49) as 'ray'
+  Added token 'er' (49-51) as 'er'
+  Added token '! ' (51-52) as '!'
+
+Saved word: 'betrayer!' with SHAP +0.087734
+  Added token 'If ' (53-55) as 'If'
+
+Saved word: 'If' with SHAP -0.023969
+  Added token 'you ' (56-59) as 'you'
+
+Saved word: 'you' with SHAP -0.019035
+  Added token 'don' (60-63) as 'don'
+  Added token ''' (63-64) as '''
+  Added token 't ' (64-65) as 't'
+
+Saved word: 'don't' with SHAP +0.019100
+  Added token 'take ' (66-70) as 'take'
+
+Saved word: 'take' with SHAP +0.003553
+  Added token 'a ' (71-72) as 'a'
+
+Saved word: 'a' with SHAP +0.003553
+  Added token 'stand' (73-78) as 'stand'
+  Added token ', ' (78-79) as ','
+
+Saved word: 'stand,' with SHAP +0.011598
+  Added token 'you' (80-83) as 'you'
+  Added token ''' (83-84) as '''
+  Added token 're ' (84-86) as 're'
+
+Saved word: 'you're' with SHAP +0.019994
+  Added token 'not ' (87-90) as 'not'
+
+Saved word: 'not' with SHAP +0.020819
+  Added token 'human' (91-96) as 'human'
+  Added token '! ' (96-97) as '!'
+
+Saved word: 'human!' with SHAP +0.018836
+  Added token 'If ' (98-100) as 'If'
+
+Saved word: 'If' with SHAP +0.004899
+  Added token 'you ' (101-104) as 'you'
+
+Saved word: 'you' with SHAP +0.000532
+  Added token 'ever ' (105-109) as 'ever'
+
+Saved word: 'ever' with SHAP +0.009497
+  Added token 'want ' (110-114) as 'want'
+
+Saved word: 'want' with SHAP +0.012544
+  Added token 'to ' (115-117) as 'to'
+
+Saved word: 'to' with SHAP -0.007542
+  Added token 'take ' (118-122) as 'take'
+
+Saved word: 'take' with SHAP -0.007542
+  Added token 'action' (123-129) as 'action'
+  Added token ', ' (129-130) as ','
+
+Saved word: 'action,' with SHAP -0.021601
+  Added token 'call' (131-135) as 'call'
+  Added token '. ' (135-136) as '.'
+
+Saved word: 'call.' with SHAP +0.021468
+  Added token 'If ' (137-139) as 'If'
+
+Saved word: 'If' with SHAP -0.033535
+  Added token 'not' (140-143) as 'not'
+  Added token ', ' (143-144) as ','
+
+Saved word: 'not,' with SHAP -0.003937
+  Added token 'we ' (145-147) as 'we'
+
+Saved word: 'we' with SHAP -0.002179
+  Added token 'don' (148-151) as 'don'
+  Added token ''' (151-152) as '''
+  Added token 't ' (152-153) as 't'
+
+Saved word: 'don't' with SHAP +0.035448
+  Added token 'have ' (154-158) as 'have'
+
+Saved word: 'have' with SHAP +0.000431
+  Added token 'to ' (159-161) as 'to'
+
+Saved word: 'to' with SHAP +0.000431
+  Added token 'meet ' (162-166) as 'meet'
+
+Saved word: 'meet' with SHAP +0.000431
+  Added token 'again' (167-172) as 'again'
+  Added token '.' (172-173) as '.'
+
+Saved final word: 'again.' with SHAP +0.012581
+
+=== Final Word Contributions ===
+betrayer!                 +0.087734 (POS)
+Everyone                  +0.040113 (POS)
+Spy,                      -0.037494 (NEG)
+don't                     +0.035448 (POS)
+If                        -0.033535 (NEG)
+action,                   -0.021601 (NEG)
+call.                     +0.021468 (POS)
+not                       +0.020819 (POS)
+knows                     -0.020113 (NEG)
+you're                    +0.019994 (POS)
+human!                    +0.018836 (POS)
+Stasi!                    +0.018421 (POS)
+again.                    +0.012581 (POS)
+want                      +0.012544 (POS)
+stand,                    +0.011598 (POS)
+ever                      +0.009497 (POS)
+take                      -0.007542 (NEG)
+with                      -0.005303 (NEG)
+the                       -0.003982 (NEG)
+not,                      -0.003937 (NEG)
+a                         +0.003553 (POS)
+we                        -0.002179 (NEG)
+you                       +0.000532 (POS)
+to                        +0.000431 (POS)
+have                      +0.000431 (POS)
+meet                      +0.000431 (POS)

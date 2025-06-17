@@ -1,0 +1,182 @@
+
+=== Processing text ===
+L'alfabetizzazione in materia di IA dovrebbe dotare i fornitori, i deployer e le persone interessate delle nozioni necessarie per prendere decisioni informate in merito ai sistemi di IA
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000290
+L               | 'L'                  | 0     | 1     | -0.000879
+'               | "'"                  | 1     | 2     | -0.000879
+alfabet         | 'alfabet'            | 2     | 9     | +0.003070
+izzazione       | 'izzazione'          | 9     | 18    | +0.002337
+in              | 'in'                 | 19    | 21    | +0.010436
+materia         | 'materia'            | 22    | 29    | +0.011149
+di              | 'di'                 | 30    | 32    | +0.011067
+IA              | 'IA'                 | 33    | 35    | +0.013331
+do              | 'do'                 | 36    | 38    | +0.033540
+vre             | 'vre'                | 38    | 41    | +0.026668
+bbe             | 'bbe'                | 41    | 44    | +0.007287
+dot             | 'dot'                | 45    | 48    | -0.046709
+are             | 'are'                | 48    | 51    | -0.018886
+i               | 'i'                  | 52    | 53    | +0.015927
+for             | 'for'                | 54    | 57    | +0.022124
+nito            | 'nito'               | 57    | 61    | +0.016883
+ri              | 'ri'                 | 61    | 63    | +0.004559
+,               | ','                  | 63    | 64    | -0.004223
+i               | 'i'                  | 65    | 66    | -0.003439
+de              | 'de'                 | 67    | 69    | +0.006581
+ploy            | 'ploy'               | 69    | 73    | +0.008034
+er              | 'er'                 | 73    | 75    | -0.000590
+e               | 'e'                  | 76    | 77    | +0.005537
+le              | 'le'                 | 78    | 80    | +0.004176
+persone         | 'persone'            | 81    | 88    | +0.009168
+interes         | 'interes'            | 89    | 96    | +0.012700
+sat             | 'sat'                | 96    | 99    | +0.014445
+e               | 'e'                  | 99    | 100   | +0.005385
+delle           | 'delle'              | 101   | 106   | +0.002041
+no              | 'no'                 | 107   | 109   | +0.001325
+zioni           | 'zioni'              | 109   | 114   | +0.001325
+necessari       | 'necessari'          | 115   | 124   | +0.017676
+e               | 'e'                  | 124   | 125   | +0.013761
+per             | 'per'                | 126   | 129   | +0.016564
+prendere        | 'prendere'           | 130   | 138   | +0.019436
+decision        | 'decision'           | 139   | 147   | +0.008088
+i               | 'i'                  | 147   | 148   | +0.007355
+informa         | 'informa'            | 149   | 156   | +0.015381
+te              | 'te'                 | 156   | 158   | +0.014780
+in              | 'in'                 | 159   | 161   | +0.001117
+merito          | 'merito'             | 162   | 168   | +0.001117
+ai              | 'ai'                 | 169   | 171   | +0.004874
+sistemi         | 'sistemi'            | 172   | 179   | +0.003824
+di              | 'di'                 | 180   | 182   | -0.002486
+IA              | 'IA'                 | 183   | 185   | -0.011253
+                | ''                   | 0     | 0     | +0.000592
+  Added token 'L' (0-1) as 'L'
+  Added token ''' (1-2) as '''
+  Added token 'alfabet' (2-9) as 'alfabet'
+  Added token 'izzazione ' (9-18) as 'izzazione'
+
+Saved word: 'L'alfabetizzazione' with SHAP +0.003649
+  Added token 'in ' (19-21) as 'in'
+
+Saved word: 'in' with SHAP +0.010436
+  Added token 'materia ' (22-29) as 'materia'
+
+Saved word: 'materia' with SHAP +0.011149
+  Added token 'di ' (30-32) as 'di'
+
+Saved word: 'di' with SHAP +0.011067
+  Added token 'IA ' (33-35) as 'IA'
+
+Saved word: 'IA' with SHAP +0.013331
+  Added token 'do' (36-38) as 'do'
+  Added token 'vre' (38-41) as 'vre'
+  Added token 'bbe ' (41-44) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.067494
+  Added token 'dot' (45-48) as 'dot'
+  Added token 'are ' (48-51) as 'are'
+
+Saved word: 'dotare' with SHAP -0.065595
+  Added token 'i ' (52-53) as 'i'
+
+Saved word: 'i' with SHAP +0.015927
+  Added token 'for' (54-57) as 'for'
+  Added token 'nito' (57-61) as 'nito'
+  Added token 'ri' (61-63) as 'ri'
+  Added token ', ' (63-64) as ','
+
+Saved word: 'fornitori,' with SHAP +0.039343
+  Added token 'i ' (65-66) as 'i'
+
+Saved word: 'i' with SHAP -0.003439
+  Added token 'de' (67-69) as 'de'
+  Added token 'ploy' (69-73) as 'ploy'
+  Added token 'er ' (73-75) as 'er'
+
+Saved word: 'deployer' with SHAP +0.014025
+  Added token 'e ' (76-77) as 'e'
+
+Saved word: 'e' with SHAP +0.005537
+  Added token 'le ' (78-80) as 'le'
+
+Saved word: 'le' with SHAP +0.004176
+  Added token 'persone ' (81-88) as 'persone'
+
+Saved word: 'persone' with SHAP +0.009168
+  Added token 'interes' (89-96) as 'interes'
+  Added token 'sat' (96-99) as 'sat'
+  Added token 'e ' (99-100) as 'e'
+
+Saved word: 'interessate' with SHAP +0.032529
+  Added token 'delle ' (101-106) as 'delle'
+
+Saved word: 'delle' with SHAP +0.002041
+  Added token 'no' (107-109) as 'no'
+  Added token 'zioni ' (109-114) as 'zioni'
+
+Saved word: 'nozioni' with SHAP +0.002650
+  Added token 'necessari' (115-124) as 'necessari'
+  Added token 'e ' (124-125) as 'e'
+
+Saved word: 'necessarie' with SHAP +0.031437
+  Added token 'per ' (126-129) as 'per'
+
+Saved word: 'per' with SHAP +0.016564
+  Added token 'prendere ' (130-138) as 'prendere'
+
+Saved word: 'prendere' with SHAP +0.019436
+  Added token 'decision' (139-147) as 'decision'
+  Added token 'i ' (147-148) as 'i'
+
+Saved word: 'decisioni' with SHAP +0.015443
+  Added token 'informa' (149-156) as 'informa'
+  Added token 'te ' (156-158) as 'te'
+
+Saved word: 'informate' with SHAP +0.030161
+  Added token 'in ' (159-161) as 'in'
+
+Saved word: 'in' with SHAP +0.001117
+  Added token 'merito ' (162-168) as 'merito'
+
+Saved word: 'merito' with SHAP +0.001117
+  Added token 'ai ' (169-171) as 'ai'
+
+Saved word: 'ai' with SHAP +0.004874
+  Added token 'sistemi ' (172-179) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.003824
+  Added token 'di ' (180-182) as 'di'
+
+Saved word: 'di' with SHAP -0.002486
+  Added token 'IA' (183-185) as 'IA'
+
+Saved final word: 'IA' with SHAP -0.011253
+
+=== Final Word Contributions ===
+dovrebbe                  +0.067494 (POS)
+dotare                    -0.065595 (NEG)
+fornitori,                +0.039343 (POS)
+interessate               +0.032529 (POS)
+necessarie                +0.031437 (POS)
+informate                 +0.030161 (POS)
+prendere                  +0.019436 (POS)
+per                       +0.016564 (POS)
+decisioni                 +0.015443 (POS)
+deployer                  +0.014025 (POS)
+IA                        -0.011253 (NEG)
+materia                   +0.011149 (POS)
+persone                   +0.009168 (POS)
+e                         +0.005537 (POS)
+ai                        +0.004874 (POS)
+le                        +0.004176 (POS)
+sistemi                   +0.003824 (POS)
+L'alfabetizzazione        +0.003649 (POS)
+i                         -0.003439 (NEG)
+nozioni                   +0.002650 (POS)
+di                        -0.002486 (NEG)
+delle                     +0.002041 (POS)
+in                        +0.001117 (POS)
+merito                    +0.001117 (POS)

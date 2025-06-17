@@ -1,0 +1,184 @@
+
+=== Processing text ===
+Non ti ucciderò. È così che si fa! Ed è bene. Sarò ricordato. Ho combattuto con Toruk Macto! Ed eravamo fratelli. Lui è stato la mia ultima ombra.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004735
+Non             | 'Non'                | 0     | 3     | -0.013554
+ti              | 'ti'                 | 4     | 6     | +0.027140
+u               | 'u'                  | 7     | 8     | -0.009461
+cci             | 'cci'                | 8     | 11    | -0.003376
+der             | 'der'                | 11    | 14    | -0.005394
+ò               | 'ò'                  | 14    | 15    | -0.002751
+.               | '.'                  | 15    | 16    | -0.043982
+È               | 'È'                  | 17    | 18    | +0.044048
+così            | 'così'               | 19    | 23    | +0.040150
+che             | 'che'                | 24    | 27    | -0.003010
+si              | 'si'                 | 28    | 30    | -0.007262
+fa              | 'fa'                 | 31    | 33    | -0.008860
+!               | '!'                  | 33    | 34    | +0.106353
+Ed              | 'Ed'                 | 35    | 37    | +0.029123
+è               | 'è'                  | 38    | 39    | +0.059686
+bene            | 'bene'               | 40    | 44    | +0.165267
+.               | '.'                  | 44    | 45    | -0.022976
+Sar             | 'Sar'                | 46    | 49    | -0.003773
+ò               | 'ò'                  | 49    | 50    | +0.000305
+ricorda         | 'ricorda'            | 51    | 58    | +0.015446
+to              | 'to'                 | 58    | 60    | +0.014092
+.               | '.'                  | 60    | 61    | +0.016374
+Ho              | 'Ho'                 | 62    | 64    | -0.000110
+combat          | 'combat'             | 65    | 71    | -0.003597
+tuto            | 'tuto'               | 71    | 75    | -0.003597
+con             | 'con'                | 76    | 79    | +0.006243
+Tor             | 'Tor'                | 80    | 83    | +0.007558
+uk              | 'uk'                 | 83    | 85    | +0.007558
+Mac             | 'Mac'                | 86    | 89    | +0.004318
+to              | 'to'                 | 89    | 91    | +0.004318
+!               | '!'                  | 91    | 92    | +0.044667
+Ed              | 'Ed'                 | 93    | 95    | +0.018694
+era             | 'era'                | 96    | 99    | +0.001431
+vam             | 'vam'                | 99    | 102   | +0.001431
+o               | 'o'                  | 102   | 103   | +0.001324
+fratelli        | 'fratelli'           | 104   | 112   | -0.000209
+.               | '.'                  | 112   | 113   | +0.000327
+Lui             | 'Lui'                | 114   | 117   | +0.018373
+è               | 'è'                  | 118   | 119   | +0.030132
+stato           | 'stato'              | 120   | 125   | +0.003418
+la              | 'la'                 | 126   | 128   | +0.003418
+mia             | 'mia'                | 129   | 132   | +0.017353
+ultima          | 'ultima'             | 133   | 139   | +0.017353
+ombra           | 'ombra'              | 140   | 145   | +0.013707
+.               | '.'                  | 145   | 146   | -0.002744
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Non ' (0-3) as 'Non'
+
+Saved word: 'Non' with SHAP -0.013554
+  Added token 'ti ' (4-6) as 'ti'
+
+Saved word: 'ti' with SHAP +0.027140
+  Added token 'u' (7-8) as 'u'
+  Added token 'cci' (8-11) as 'cci'
+  Added token 'der' (11-14) as 'der'
+  Added token 'ò' (14-15) as 'ò'
+  Added token '. ' (15-16) as '.'
+
+Saved word: 'ucciderò.' with SHAP -0.064965
+  Added token 'È ' (17-18) as 'È'
+
+Saved word: 'È' with SHAP +0.044048
+  Added token 'così ' (19-23) as 'così'
+
+Saved word: 'così' with SHAP +0.040150
+  Added token 'che ' (24-27) as 'che'
+
+Saved word: 'che' with SHAP -0.003010
+  Added token 'si ' (28-30) as 'si'
+
+Saved word: 'si' with SHAP -0.007262
+  Added token 'fa' (31-33) as 'fa'
+  Added token '! ' (33-34) as '!'
+
+Saved word: 'fa!' with SHAP +0.097493
+  Added token 'Ed ' (35-37) as 'Ed'
+
+Saved word: 'Ed' with SHAP +0.029123
+  Added token 'è ' (38-39) as 'è'
+
+Saved word: 'è' with SHAP +0.059686
+  Added token 'bene' (40-44) as 'bene'
+  Added token '. ' (44-45) as '.'
+
+Saved word: 'bene.' with SHAP +0.142291
+  Added token 'Sar' (46-49) as 'Sar'
+  Added token 'ò ' (49-50) as 'ò'
+
+Saved word: 'Sarò' with SHAP -0.003467
+  Added token 'ricorda' (51-58) as 'ricorda'
+  Added token 'to' (58-60) as 'to'
+  Added token '. ' (60-61) as '.'
+
+Saved word: 'ricordato.' with SHAP +0.045911
+  Added token 'Ho ' (62-64) as 'Ho'
+
+Saved word: 'Ho' with SHAP -0.000110
+  Added token 'combat' (65-71) as 'combat'
+  Added token 'tuto ' (71-75) as 'tuto'
+
+Saved word: 'combattuto' with SHAP -0.007193
+  Added token 'con ' (76-79) as 'con'
+
+Saved word: 'con' with SHAP +0.006243
+  Added token 'Tor' (80-83) as 'Tor'
+  Added token 'uk ' (83-85) as 'uk'
+
+Saved word: 'Toruk' with SHAP +0.015116
+  Added token 'Mac' (86-89) as 'Mac'
+  Added token 'to' (89-91) as 'to'
+  Added token '! ' (91-92) as '!'
+
+Saved word: 'Macto!' with SHAP +0.053303
+  Added token 'Ed ' (93-95) as 'Ed'
+
+Saved word: 'Ed' with SHAP +0.018694
+  Added token 'era' (96-99) as 'era'
+  Added token 'vam' (99-102) as 'vam'
+  Added token 'o ' (102-103) as 'o'
+
+Saved word: 'eravamo' with SHAP +0.004186
+  Added token 'fratelli' (104-112) as 'fratelli'
+  Added token '. ' (112-113) as '.'
+
+Saved word: 'fratelli.' with SHAP +0.000118
+  Added token 'Lui ' (114-117) as 'Lui'
+
+Saved word: 'Lui' with SHAP +0.018373
+  Added token 'è ' (118-119) as 'è'
+
+Saved word: 'è' with SHAP +0.030132
+  Added token 'stato ' (120-125) as 'stato'
+
+Saved word: 'stato' with SHAP +0.003418
+  Added token 'la ' (126-128) as 'la'
+
+Saved word: 'la' with SHAP +0.003418
+  Added token 'mia ' (129-132) as 'mia'
+
+Saved word: 'mia' with SHAP +0.017353
+  Added token 'ultima ' (133-139) as 'ultima'
+
+Saved word: 'ultima' with SHAP +0.017353
+  Added token 'ombra' (140-145) as 'ombra'
+  Added token '.' (145-146) as '.'
+
+Saved final word: 'ombra.' with SHAP +0.010963
+
+=== Final Word Contributions ===
+bene.                     +0.142291 (POS)
+fa!                       +0.097493 (POS)
+ucciderò.                 -0.064965 (NEG)
+Macto!                    +0.053303 (POS)
+ricordato.                +0.045911 (POS)
+È                         +0.044048 (POS)
+così                      +0.040150 (POS)
+è                         +0.030132 (POS)
+ti                        +0.027140 (POS)
+Ed                        +0.018694 (POS)
+Lui                       +0.018373 (POS)
+mia                       +0.017353 (POS)
+ultima                    +0.017353 (POS)
+Toruk                     +0.015116 (POS)
+Non                       -0.013554 (NEG)
+ombra.                    +0.010963 (POS)
+si                        -0.007262 (NEG)
+combattuto                -0.007193 (NEG)
+con                       +0.006243 (POS)
+eravamo                   +0.004186 (POS)
+Sarò                      -0.003467 (NEG)
+stato                     +0.003418 (POS)
+la                        +0.003418 (POS)
+che                       -0.003010 (NEG)
+fratelli.                 +0.000118 (POS)
+Ho                        -0.000110 (NEG)

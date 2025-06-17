@@ -1,0 +1,178 @@
+
+=== Processing text ===
+Normative nazionali divergenti possono determinare una frammentazione del mercato interno e diminuire la certezza del diritto per gli operatori che sviluppano, importano o utilizzano sistemi di IA
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000414
+Norma           | 'Norma'              | 0     | 5     | +0.025166
+tive            | 'tive'               | 5     | 9     | +0.009392
+nazionali       | 'nazionali'          | 10    | 19    | -0.006360
+div             | 'div'                | 20    | 23    | +0.002050
+erg             | 'erg'                | 23    | 26    | +0.002050
+enti            | 'enti'               | 26    | 30    | +0.014876
+possono         | 'possono'            | 31    | 38    | +0.043394
+determinar      | 'determinar'         | 39    | 49    | +0.098954
+e               | 'e'                  | 49    | 50    | -0.022020
+una             | 'una'                | 51    | 54    | +0.010431
+fram            | 'fram'               | 55    | 59    | +0.002137
+mentazione      | 'mentazione'         | 59    | 69    | +0.000859
+del             | 'del'                | 70    | 73    | +0.017007
+mercato         | 'mercato'            | 74    | 81    | +0.013078
+interno         | 'interno'            | 82    | 89    | +0.031416
+e               | 'e'                  | 90    | 91    | -0.003463
+di              | 'di'                 | 92    | 94    | +0.007452
+min             | 'min'                | 94    | 97    | +0.011988
+uire            | 'uire'               | 97    | 101   | +0.008385
+la              | 'la'                 | 102   | 104   | +0.012099
+ce              | 'ce'                 | 105   | 107   | +0.009191
+rte             | 'rte'                | 107   | 110   | +0.014503
+zza             | 'zza'                | 110   | 113   | -0.000411
+del             | 'del'                | 114   | 117   | +0.017172
+diritto         | 'diritto'            | 118   | 125   | +0.012250
+per             | 'per'                | 126   | 129   | +0.025669
+gli             | 'gli'                | 130   | 133   | +0.018918
+operator        | 'operator'           | 134   | 142   | +0.007109
+i               | 'i'                  | 142   | 143   | +0.007109
+che             | 'che'                | 144   | 147   | +0.011721
+svi             | 'svi'                | 148   | 151   | +0.011596
+lu              | 'lu'                 | 151   | 153   | +0.011035
+ppan            | 'ppan'               | 153   | 157   | +0.007778
+o               | 'o'                  | 157   | 158   | +0.011250
+,               | ','                  | 158   | 159   | +0.001003
+import          | 'import'             | 160   | 166   | +0.007876
+ano             | 'ano'                | 166   | 169   | +0.004685
+o               | 'o'                  | 170   | 171   | +0.062263
+utilizza        | 'utilizza'           | 172   | 180   | +0.005467
+no              | 'no'                 | 180   | 182   | +0.005467
+sistemi         | 'sistemi'            | 183   | 190   | +0.001112
+di              | 'di'                 | 191   | 193   | +0.001112
+IA              | 'IA'                 | 194   | 196   | +0.003280
+                | ''                   | 0     | 0     | +0.003280
+  Added token 'Norma' (0-5) as 'Norma'
+  Added token 'tive ' (5-9) as 'tive'
+
+Saved word: 'Normative' with SHAP +0.034559
+  Added token 'nazionali ' (10-19) as 'nazionali'
+
+Saved word: 'nazionali' with SHAP -0.006360
+  Added token 'div' (20-23) as 'div'
+  Added token 'erg' (23-26) as 'erg'
+  Added token 'enti ' (26-30) as 'enti'
+
+Saved word: 'divergenti' with SHAP +0.018975
+  Added token 'possono ' (31-38) as 'possono'
+
+Saved word: 'possono' with SHAP +0.043394
+  Added token 'determinar' (39-49) as 'determinar'
+  Added token 'e ' (49-50) as 'e'
+
+Saved word: 'determinare' with SHAP +0.076934
+  Added token 'una ' (51-54) as 'una'
+
+Saved word: 'una' with SHAP +0.010431
+  Added token 'fram' (55-59) as 'fram'
+  Added token 'mentazione ' (59-69) as 'mentazione'
+
+Saved word: 'frammentazione' with SHAP +0.002996
+  Added token 'del ' (70-73) as 'del'
+
+Saved word: 'del' with SHAP +0.017007
+  Added token 'mercato ' (74-81) as 'mercato'
+
+Saved word: 'mercato' with SHAP +0.013078
+  Added token 'interno ' (82-89) as 'interno'
+
+Saved word: 'interno' with SHAP +0.031416
+  Added token 'e ' (90-91) as 'e'
+
+Saved word: 'e' with SHAP -0.003463
+  Added token 'di' (92-94) as 'di'
+  Added token 'min' (94-97) as 'min'
+  Added token 'uire ' (97-101) as 'uire'
+
+Saved word: 'diminuire' with SHAP +0.027825
+  Added token 'la ' (102-104) as 'la'
+
+Saved word: 'la' with SHAP +0.012099
+  Added token 'ce' (105-107) as 'ce'
+  Added token 'rte' (107-110) as 'rte'
+  Added token 'zza ' (110-113) as 'zza'
+
+Saved word: 'certezza' with SHAP +0.023283
+  Added token 'del ' (114-117) as 'del'
+
+Saved word: 'del' with SHAP +0.017172
+  Added token 'diritto ' (118-125) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.012250
+  Added token 'per ' (126-129) as 'per'
+
+Saved word: 'per' with SHAP +0.025669
+  Added token 'gli ' (130-133) as 'gli'
+
+Saved word: 'gli' with SHAP +0.018918
+  Added token 'operator' (134-142) as 'operator'
+  Added token 'i ' (142-143) as 'i'
+
+Saved word: 'operatori' with SHAP +0.014218
+  Added token 'che ' (144-147) as 'che'
+
+Saved word: 'che' with SHAP +0.011721
+  Added token 'svi' (148-151) as 'svi'
+  Added token 'lu' (151-153) as 'lu'
+  Added token 'ppan' (153-157) as 'ppan'
+  Added token 'o' (157-158) as 'o'
+  Added token ', ' (158-159) as ','
+
+Saved word: 'sviluppano,' with SHAP +0.042662
+  Added token 'import' (160-166) as 'import'
+  Added token 'ano ' (166-169) as 'ano'
+
+Saved word: 'importano' with SHAP +0.012562
+  Added token 'o ' (170-171) as 'o'
+
+Saved word: 'o' with SHAP +0.062263
+  Added token 'utilizza' (172-180) as 'utilizza'
+  Added token 'no ' (180-182) as 'no'
+
+Saved word: 'utilizzano' with SHAP +0.010934
+  Added token 'sistemi ' (183-190) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.001112
+  Added token 'di ' (191-193) as 'di'
+
+Saved word: 'di' with SHAP +0.001112
+  Added token 'IA' (194-196) as 'IA'
+
+Saved final word: 'IA' with SHAP +0.003280
+
+=== Final Word Contributions ===
+determinare               +0.076934 (POS)
+o                         +0.062263 (POS)
+possono                   +0.043394 (POS)
+sviluppano,               +0.042662 (POS)
+Normative                 +0.034559 (POS)
+interno                   +0.031416 (POS)
+diminuire                 +0.027825 (POS)
+per                       +0.025669 (POS)
+certezza                  +0.023283 (POS)
+divergenti                +0.018975 (POS)
+gli                       +0.018918 (POS)
+del                       +0.017172 (POS)
+operatori                 +0.014218 (POS)
+mercato                   +0.013078 (POS)
+importano                 +0.012562 (POS)
+diritto                   +0.012250 (POS)
+la                        +0.012099 (POS)
+che                       +0.011721 (POS)
+utilizzano                +0.010934 (POS)
+una                       +0.010431 (POS)
+nazionali                 -0.006360 (NEG)
+e                         -0.003463 (NEG)
+IA                        +0.003280 (POS)
+frammentazione            +0.002996 (POS)
+sistemi                   +0.001112 (POS)
+di                        +0.001112 (POS)

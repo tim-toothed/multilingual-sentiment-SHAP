@@ -1,0 +1,188 @@
+
+=== Processing text ===
+When I think of my wife, I always think of her head. I picture cracking her lovely skull, unspooling her brains, trying to get answers. The primal questions of any marriage.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005414
+When            | 'When'               | 0     | 4     | +0.005414
+I               | 'I'                  | 5     | 6     | +0.018990
+think           | 'think'              | 7     | 12    | +0.008474
+of              | 'of'                 | 13    | 15    | +0.000402
+my              | 'my'                 | 16    | 18    | +0.000402
+wife            | 'wife'               | 19    | 23    | +0.002231
+,               | ','                  | 23    | 24    | -0.005414
+I               | 'I'                  | 25    | 26    | -0.001009
+always          | 'always'             | 27    | 33    | -0.003446
+think           | 'think'              | 34    | 39    | -0.001376
+of              | 'of'                 | 40    | 42    | -0.001376
+her             | 'her'                | 43    | 46    | +0.003232
+head            | 'head'               | 47    | 51    | +0.007018
+.               | '.'                  | 51    | 52    | -0.000697
+I               | 'I'                  | 53    | 54    | -0.006006
+picture         | 'picture'            | 55    | 62    | -0.004770
+c               | 'c'                  | 63    | 64    | +0.028955
+rack            | 'rack'               | 64    | 68    | +0.053287
+ing             | 'ing'                | 68    | 71    | +0.017712
+her             | 'her'                | 72    | 75    | -0.007667
+love            | 'love'               | 76    | 80    | -0.025543
+ly              | 'ly'                 | 80    | 82    | -0.018216
+skull           | 'skull'              | 83    | 88    | +0.083550
+,               | ','                  | 88    | 89    | +0.025173
+uns             | 'uns'                | 90    | 93    | +0.073597
+pool            | 'pool'               | 93    | 97    | +0.039881
+ing             | 'ing'                | 97    | 100   | +0.024772
+her             | 'her'                | 101   | 104   | +0.002406
+brain           | 'brain'              | 105   | 110   | +0.001317
+s               | 's'                  | 110   | 111   | +0.001317
+,               | ','                  | 111   | 112   | +0.005498
+trying          | 'trying'             | 113   | 119   | +0.048836
+to              | 'to'                 | 120   | 122   | +0.025641
+get             | 'get'                | 123   | 126   | +0.013908
+answer          | 'answer'             | 127   | 133   | +0.005210
+s               | 's'                  | 133   | 134   | +0.005210
+.               | '.'                  | 134   | 135   | +0.007895
+The             | 'The'                | 136   | 139   | -0.014314
+prima           | 'prima'              | 140   | 145   | -0.011722
+l               | 'l'                  | 145   | 146   | -0.011722
+questions       | 'questions'          | 147   | 156   | +0.002857
+of              | 'of'                 | 157   | 159   | +0.002857
+any             | 'any'                | 160   | 163   | +0.002857
+marriage        | 'marriage'           | 164   | 172   | +0.002857
+.               | '.'                  | 172   | 173   | -0.003439
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'When ' (0-4) as 'When'
+
+Saved word: 'When' with SHAP +0.005414
+  Added token 'I ' (5-6) as 'I'
+
+Saved word: 'I' with SHAP +0.018990
+  Added token 'think ' (7-12) as 'think'
+
+Saved word: 'think' with SHAP +0.008474
+  Added token 'of ' (13-15) as 'of'
+
+Saved word: 'of' with SHAP +0.000402
+  Added token 'my ' (16-18) as 'my'
+
+Saved word: 'my' with SHAP +0.000402
+  Added token 'wife' (19-23) as 'wife'
+  Added token ', ' (23-24) as ','
+
+Saved word: 'wife,' with SHAP -0.003183
+  Added token 'I ' (25-26) as 'I'
+
+Saved word: 'I' with SHAP -0.001009
+  Added token 'always ' (27-33) as 'always'
+
+Saved word: 'always' with SHAP -0.003446
+  Added token 'think ' (34-39) as 'think'
+
+Saved word: 'think' with SHAP -0.001376
+  Added token 'of ' (40-42) as 'of'
+
+Saved word: 'of' with SHAP -0.001376
+  Added token 'her ' (43-46) as 'her'
+
+Saved word: 'her' with SHAP +0.003232
+  Added token 'head' (47-51) as 'head'
+  Added token '. ' (51-52) as '.'
+
+Saved word: 'head.' with SHAP +0.006322
+  Added token 'I ' (53-54) as 'I'
+
+Saved word: 'I' with SHAP -0.006006
+  Added token 'picture ' (55-62) as 'picture'
+
+Saved word: 'picture' with SHAP -0.004770
+  Added token 'c' (63-64) as 'c'
+  Added token 'rack' (64-68) as 'rack'
+  Added token 'ing ' (68-71) as 'ing'
+
+Saved word: 'cracking' with SHAP +0.099954
+  Added token 'her ' (72-75) as 'her'
+
+Saved word: 'her' with SHAP -0.007667
+  Added token 'love' (76-80) as 'love'
+  Added token 'ly ' (80-82) as 'ly'
+
+Saved word: 'lovely' with SHAP -0.043759
+  Added token 'skull' (83-88) as 'skull'
+  Added token ', ' (88-89) as ','
+
+Saved word: 'skull,' with SHAP +0.108723
+  Added token 'uns' (90-93) as 'uns'
+  Added token 'pool' (93-97) as 'pool'
+  Added token 'ing ' (97-100) as 'ing'
+
+Saved word: 'unspooling' with SHAP +0.138251
+  Added token 'her ' (101-104) as 'her'
+
+Saved word: 'her' with SHAP +0.002406
+  Added token 'brain' (105-110) as 'brain'
+  Added token 's' (110-111) as 's'
+  Added token ', ' (111-112) as ','
+
+Saved word: 'brains,' with SHAP +0.008133
+  Added token 'trying ' (113-119) as 'trying'
+
+Saved word: 'trying' with SHAP +0.048836
+  Added token 'to ' (120-122) as 'to'
+
+Saved word: 'to' with SHAP +0.025641
+  Added token 'get ' (123-126) as 'get'
+
+Saved word: 'get' with SHAP +0.013908
+  Added token 'answer' (127-133) as 'answer'
+  Added token 's' (133-134) as 's'
+  Added token '. ' (134-135) as '.'
+
+Saved word: 'answers.' with SHAP +0.018316
+  Added token 'The ' (136-139) as 'The'
+
+Saved word: 'The' with SHAP -0.014314
+  Added token 'prima' (140-145) as 'prima'
+  Added token 'l ' (145-146) as 'l'
+
+Saved word: 'primal' with SHAP -0.023444
+  Added token 'questions ' (147-156) as 'questions'
+
+Saved word: 'questions' with SHAP +0.002857
+  Added token 'of ' (157-159) as 'of'
+
+Saved word: 'of' with SHAP +0.002857
+  Added token 'any ' (160-163) as 'any'
+
+Saved word: 'any' with SHAP +0.002857
+  Added token 'marriage' (164-172) as 'marriage'
+  Added token '.' (172-173) as '.'
+
+Saved final word: 'marriage.' with SHAP -0.000582
+
+=== Final Word Contributions ===
+unspooling                +0.138251 (POS)
+skull,                    +0.108723 (POS)
+cracking                  +0.099954 (POS)
+trying                    +0.048836 (POS)
+lovely                    -0.043759 (NEG)
+to                        +0.025641 (POS)
+primal                    -0.023444 (NEG)
+answers.                  +0.018316 (POS)
+The                       -0.014314 (NEG)
+get                       +0.013908 (POS)
+brains,                   +0.008133 (POS)
+head.                     +0.006322 (POS)
+I                         -0.006006 (NEG)
+When                      +0.005414 (POS)
+picture                   -0.004770 (NEG)
+always                    -0.003446 (NEG)
+wife,                     -0.003183 (NEG)
+of                        +0.002857 (POS)
+questions                 +0.002857 (POS)
+any                       +0.002857 (POS)
+her                       +0.002406 (POS)
+think                     -0.001376 (NEG)
+marriage.                 -0.000582 (NEG)
+my                        +0.000402 (POS)

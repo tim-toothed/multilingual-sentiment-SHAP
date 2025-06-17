@@ -1,0 +1,124 @@
+
+=== Processing text ===
+The company's broke. No one comes to see her anymore. Uh, nobody actually comes to see ballet, full stop.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001225
+The             | 'The'                | 0     | 3     | +0.029161
+company         | 'company'            | 4     | 11    | +0.008468
+'               | "'"                  | 11    | 12    | +0.006248
+s               | 's'                  | 12    | 13    | -0.003186
+broke           | 'broke'              | 14    | 19    | +0.216728
+.               | '.'                  | 19    | 20    | +0.028021
+No              | 'No'                 | 21    | 23    | +0.088026
+one             | 'one'                | 24    | 27    | +0.037626
+comes           | 'comes'              | 28    | 33    | -0.008380
+to              | 'to'                 | 34    | 36    | +0.011915
+see             | 'see'                | 37    | 40    | -0.005173
+her             | 'her'                | 41    | 44    | +0.016066
+any             | 'any'                | 45    | 48    | +0.052481
+more            | 'more'               | 48    | 52    | -0.008868
+.               | '.'                  | 52    | 53    | +0.024772
+U               | 'U'                  | 54    | 55    | +0.001565
+h               | 'h'                  | 55    | 56    | +0.001203
+,               | ','                  | 56    | 57    | +0.001282
+no              | 'no'                 | 58    | 60    | +0.024417
+body            | 'body'               | 60    | 64    | +0.005617
+actually        | 'actually'           | 65    | 73    | -0.003588
+comes           | 'comes'              | 74    | 79    | -0.003720
+to              | 'to'                 | 80    | 82    | -0.016268
+see             | 'see'                | 83    | 86    | -0.016268
+ballet          | 'ballet'             | 87    | 93    | -0.025528
+,               | ','                  | 93    | 94    | -0.005237
+full            | 'full'               | 95    | 99    | -0.022224
+stop            | 'stop'               | 100   | 104   | -0.016734
+.               | '.'                  | 104   | 105   | -0.010964
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP +0.029161
+  Added token 'company' (4-11) as 'company'
+  Added token ''' (11-12) as '''
+  Added token 's ' (12-13) as 's'
+
+Saved word: 'company's' with SHAP +0.011529
+  Added token 'broke' (14-19) as 'broke'
+  Added token '. ' (19-20) as '.'
+
+Saved word: 'broke.' with SHAP +0.244749
+  Added token 'No ' (21-23) as 'No'
+
+Saved word: 'No' with SHAP +0.088026
+  Added token 'one ' (24-27) as 'one'
+
+Saved word: 'one' with SHAP +0.037626
+  Added token 'comes ' (28-33) as 'comes'
+
+Saved word: 'comes' with SHAP -0.008380
+  Added token 'to ' (34-36) as 'to'
+
+Saved word: 'to' with SHAP +0.011915
+  Added token 'see ' (37-40) as 'see'
+
+Saved word: 'see' with SHAP -0.005173
+  Added token 'her ' (41-44) as 'her'
+
+Saved word: 'her' with SHAP +0.016066
+  Added token 'any' (45-48) as 'any'
+  Added token 'more' (48-52) as 'more'
+  Added token '. ' (52-53) as '.'
+
+Saved word: 'anymore.' with SHAP +0.068385
+  Added token 'U' (54-55) as 'U'
+  Added token 'h' (55-56) as 'h'
+  Added token ', ' (56-57) as ','
+
+Saved word: 'Uh,' with SHAP +0.004049
+  Added token 'no' (58-60) as 'no'
+  Added token 'body ' (60-64) as 'body'
+
+Saved word: 'nobody' with SHAP +0.030033
+  Added token 'actually ' (65-73) as 'actually'
+
+Saved word: 'actually' with SHAP -0.003588
+  Added token 'comes ' (74-79) as 'comes'
+
+Saved word: 'comes' with SHAP -0.003720
+  Added token 'to ' (80-82) as 'to'
+
+Saved word: 'to' with SHAP -0.016268
+  Added token 'see ' (83-86) as 'see'
+
+Saved word: 'see' with SHAP -0.016268
+  Added token 'ballet' (87-93) as 'ballet'
+  Added token ', ' (93-94) as ','
+
+Saved word: 'ballet,' with SHAP -0.030766
+  Added token 'full ' (95-99) as 'full'
+
+Saved word: 'full' with SHAP -0.022224
+  Added token 'stop' (100-104) as 'stop'
+  Added token '.' (104-105) as '.'
+
+Saved final word: 'stop.' with SHAP -0.027698
+
+=== Final Word Contributions ===
+broke.                    +0.244749 (POS)
+No                        +0.088026 (POS)
+anymore.                  +0.068385 (POS)
+one                       +0.037626 (POS)
+ballet,                   -0.030766 (NEG)
+nobody                    +0.030033 (POS)
+The                       +0.029161 (POS)
+stop.                     -0.027698 (NEG)
+full                      -0.022224 (NEG)
+to                        -0.016268 (NEG)
+see                       -0.016268 (NEG)
+her                       +0.016066 (POS)
+company's                 +0.011529 (POS)
+Uh,                       +0.004049 (POS)
+comes                     -0.003720 (NEG)
+actually                  -0.003588 (NEG)

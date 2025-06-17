@@ -1,0 +1,206 @@
+
+=== Processing text ===
+After 30 years behind this bar, I'm an expert. I can even give you the recipe. Take two regulars. Let each think the other fancies them. Leave it to simmer. It never fails.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005504
+After           | 'After'              | 0     | 5     | +0.005504
+30              | '30'                 | 6     | 8     | +0.018423
+years           | 'years'              | 9     | 14    | +0.027926
+behind          | 'behind'             | 15    | 21    | +0.016832
+this            | 'this'               | 22    | 26    | +0.016832
+bar             | 'bar'                | 27    | 30    | +0.006490
+,               | ','                  | 30    | 31    | +0.014056
+I               | 'I'                  | 32    | 33    | +0.007921
+'               | "'"                  | 33    | 34    | +0.005311
+m               | 'm'                  | 34    | 35    | +0.018961
+an              | 'an'                 | 36    | 38    | +0.018961
+expert          | 'expert'             | 39    | 45    | +0.096720
+.               | '.'                  | 45    | 46    | +0.070701
+I               | 'I'                  | 47    | 48    | +0.012510
+can             | 'can'                | 49    | 52    | +0.019275
+even            | 'even'               | 53    | 57    | +0.056507
+give            | 'give'               | 58    | 62    | +0.014702
+you             | 'you'                | 63    | 66    | +0.015285
+the             | 'the'                | 67    | 70    | +0.012230
+re              | 're'                 | 71    | 73    | +0.006418
+ci              | 'ci'                 | 73    | 75    | +0.006418
+pe              | 'pe'                 | 75    | 77    | +0.002763
+.               | '.'                  | 77    | 78    | +0.016892
+Take            | 'Take'               | 79    | 83    | -0.009954
+two             | 'two'                | 84    | 87    | -0.046065
+regular         | 'regular'            | 88    | 95    | -0.015506
+s               | 's'                  | 95    | 96    | -0.015506
+.               | '.'                  | 96    | 97    | -0.022793
+Let             | 'Let'                | 98    | 101   | +0.007589
+each            | 'each'               | 102   | 106   | +0.009952
+think           | 'think'              | 107   | 112   | -0.008954
+the             | 'the'                | 113   | 116   | -0.008954
+other           | 'other'              | 117   | 122   | -0.009447
+fan             | 'fan'                | 123   | 126   | +0.006496
+cies            | 'cies'               | 126   | 130   | +0.006496
+them            | 'them'               | 131   | 135   | +0.007151
+.               | '.'                  | 135   | 136   | -0.003439
+Leave           | 'Leave'              | 137   | 142   | -0.006855
+it              | 'it'                 | 143   | 145   | -0.006855
+to              | 'to'                 | 146   | 148   | -0.006918
+sim             | 'sim'                | 149   | 152   | -0.000071
+mer             | 'mer'                | 152   | 155   | -0.000071
+.               | '.'                  | 155   | 156   | -0.019845
+It              | 'It'                 | 157   | 159   | +0.006679
+never           | 'never'              | 160   | 165   | +0.023916
+fail            | 'fail'               | 166   | 170   | -0.005842
+s               | 's'                  | 170   | 171   | +0.007022
+.               | '.'                  | 171   | 172   | -0.007659
+                | ''                   | 0     | 0     | +0.000212
+  Added token 'After ' (0-5) as 'After'
+
+Saved word: 'After' with SHAP +0.005504
+  Added token '30 ' (6-8) as '30'
+
+Saved word: '30' with SHAP +0.018423
+  Added token 'years ' (9-14) as 'years'
+
+Saved word: 'years' with SHAP +0.027926
+  Added token 'behind ' (15-21) as 'behind'
+
+Saved word: 'behind' with SHAP +0.016832
+  Added token 'this ' (22-26) as 'this'
+
+Saved word: 'this' with SHAP +0.016832
+  Added token 'bar' (27-30) as 'bar'
+  Added token ', ' (30-31) as ','
+
+Saved word: 'bar,' with SHAP +0.020546
+  Added token 'I' (32-33) as 'I'
+  Added token ''' (33-34) as '''
+  Added token 'm ' (34-35) as 'm'
+
+Saved word: 'I'm' with SHAP +0.032193
+  Added token 'an ' (36-38) as 'an'
+
+Saved word: 'an' with SHAP +0.018961
+  Added token 'expert' (39-45) as 'expert'
+  Added token '. ' (45-46) as '.'
+
+Saved word: 'expert.' with SHAP +0.167420
+  Added token 'I ' (47-48) as 'I'
+
+Saved word: 'I' with SHAP +0.012510
+  Added token 'can ' (49-52) as 'can'
+
+Saved word: 'can' with SHAP +0.019275
+  Added token 'even ' (53-57) as 'even'
+
+Saved word: 'even' with SHAP +0.056507
+  Added token 'give ' (58-62) as 'give'
+
+Saved word: 'give' with SHAP +0.014702
+  Added token 'you ' (63-66) as 'you'
+
+Saved word: 'you' with SHAP +0.015285
+  Added token 'the ' (67-70) as 'the'
+
+Saved word: 'the' with SHAP +0.012230
+  Added token 're' (71-73) as 're'
+  Added token 'ci' (73-75) as 'ci'
+  Added token 'pe' (75-77) as 'pe'
+  Added token '. ' (77-78) as '.'
+
+Saved word: 'recipe.' with SHAP +0.032490
+  Added token 'Take ' (79-83) as 'Take'
+
+Saved word: 'Take' with SHAP -0.009954
+  Added token 'two ' (84-87) as 'two'
+
+Saved word: 'two' with SHAP -0.046065
+  Added token 'regular' (88-95) as 'regular'
+  Added token 's' (95-96) as 's'
+  Added token '. ' (96-97) as '.'
+
+Saved word: 'regulars.' with SHAP -0.053805
+  Added token 'Let ' (98-101) as 'Let'
+
+Saved word: 'Let' with SHAP +0.007589
+  Added token 'each ' (102-106) as 'each'
+
+Saved word: 'each' with SHAP +0.009952
+  Added token 'think ' (107-112) as 'think'
+
+Saved word: 'think' with SHAP -0.008954
+  Added token 'the ' (113-116) as 'the'
+
+Saved word: 'the' with SHAP -0.008954
+  Added token 'other ' (117-122) as 'other'
+
+Saved word: 'other' with SHAP -0.009447
+  Added token 'fan' (123-126) as 'fan'
+  Added token 'cies ' (126-130) as 'cies'
+
+Saved word: 'fancies' with SHAP +0.012992
+  Added token 'them' (131-135) as 'them'
+  Added token '. ' (135-136) as '.'
+
+Saved word: 'them.' with SHAP +0.003712
+  Added token 'Leave ' (137-142) as 'Leave'
+
+Saved word: 'Leave' with SHAP -0.006855
+  Added token 'it ' (143-145) as 'it'
+
+Saved word: 'it' with SHAP -0.006855
+  Added token 'to ' (146-148) as 'to'
+
+Saved word: 'to' with SHAP -0.006918
+  Added token 'sim' (149-152) as 'sim'
+  Added token 'mer' (152-155) as 'mer'
+  Added token '. ' (155-156) as '.'
+
+Saved word: 'simmer.' with SHAP -0.019988
+  Added token 'It ' (157-159) as 'It'
+
+Saved word: 'It' with SHAP +0.006679
+  Added token 'never ' (160-165) as 'never'
+
+Saved word: 'never' with SHAP +0.023916
+  Added token 'fail' (166-170) as 'fail'
+  Added token 's' (170-171) as 's'
+  Added token '.' (171-172) as '.'
+
+Saved final word: 'fails.' with SHAP -0.006479
+
+=== Final Word Contributions ===
+expert.                   +0.167420 (POS)
+even                      +0.056507 (POS)
+regulars.                 -0.053805 (NEG)
+two                       -0.046065 (NEG)
+recipe.                   +0.032490 (POS)
+I'm                       +0.032193 (POS)
+years                     +0.027926 (POS)
+never                     +0.023916 (POS)
+bar,                      +0.020546 (POS)
+simmer.                   -0.019988 (NEG)
+can                       +0.019275 (POS)
+an                        +0.018961 (POS)
+30                        +0.018423 (POS)
+behind                    +0.016832 (POS)
+this                      +0.016832 (POS)
+you                       +0.015285 (POS)
+give                      +0.014702 (POS)
+fancies                   +0.012992 (POS)
+I                         +0.012510 (POS)
+Take                      -0.009954 (NEG)
+each                      +0.009952 (POS)
+other                     -0.009447 (NEG)
+the                       -0.008954 (NEG)
+think                     -0.008954 (NEG)
+Let                       +0.007589 (POS)
+to                        -0.006918 (NEG)
+Leave                     -0.006855 (NEG)
+it                        -0.006855 (NEG)
+It                        +0.006679 (POS)
+fails.                    -0.006479 (NEG)
+After                     +0.005504 (POS)
+them.                     +0.003712 (POS)

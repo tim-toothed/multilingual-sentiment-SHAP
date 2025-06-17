@@ -1,0 +1,438 @@
+
+=== Processing text ===
+Aside from the many beneficial uses of AI, it can also be misused and provide novel and powerful tools for manipulative, exploitative and social control practices. Such practices are particularly harmful and abusive and should be prohibited because they contradict Union values of respect for human dignity, freedom, equality, democracy and the rule of law and fundamental rights enshrined in the Charter, including the right to non-discrimination, to data protection and to privacy and the rights of the child.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.001304
+As              | 'As'                 | 0     | 2     | -0.006771
+ide             | 'ide'                | 2     | 5     | -0.003488
+from            | 'from'               | 6     | 10    | +0.005286
+the             | 'the'                | 11    | 14    | +0.005286
+many            | 'many'               | 15    | 19    | +0.001023
+bene            | 'bene'               | 20    | 24    | -0.003366
+ficial          | 'ficial'             | 24    | 30    | -0.003366
+uses            | 'uses'               | 31    | 35    | -0.002314
+of              | 'of'                 | 36    | 38    | -0.002314
+AI              | 'AI'                 | 39    | 41    | +0.000454
+,               | ','                  | 41    | 42    | +0.005026
+it              | 'it'                 | 43    | 45    | -0.002624
+can             | 'can'                | 46    | 49    | -0.002624
+also            | 'also'               | 50    | 54    | -0.002490
+be              | 'be'                 | 55    | 57    | -0.002490
+mis             | 'mis'                | 58    | 61    | +0.015067
+used            | 'used'               | 61    | 65    | +0.015067
+and             | 'and'                | 66    | 69    | +0.011694
+provide         | 'provide'            | 70    | 77    | -0.006798
+novel           | 'novel'              | 78    | 83    | -0.006798
+and             | 'and'                | 84    | 87    | -0.005151
+powerful        | 'powerful'           | 88    | 96    | -0.010812
+tools           | 'tools'              | 97    | 102   | -0.009943
+for             | 'for'                | 103   | 106   | -0.003500
+mani            | 'mani'               | 107   | 111   | +0.001535
+pul             | 'pul'                | 111   | 114   | +0.001535
+ative           | 'ative'              | 114   | 119   | +0.001535
+,               | ','                  | 119   | 120   | +0.001535
+ex              | 'ex'                 | 121   | 123   | +0.002077
+plo             | 'plo'                | 123   | 126   | +0.002077
+itative         | 'itative'            | 126   | 133   | +0.002077
+and             | 'and'                | 134   | 137   | +0.008325
+social          | 'social'             | 138   | 144   | -0.002045
+control         | 'control'            | 145   | 152   | -0.002045
+practices       | 'practices'          | 153   | 162   | -0.002045
+.               | '.'                  | 162   | 163   | -0.003471
+Such            | 'Such'               | 164   | 168   | +0.012260
+practices       | 'practices'          | 169   | 178   | +0.012387
+are             | 'are'                | 179   | 182   | +0.005610
+particularly    | 'particularly'       | 183   | 195   | +0.005610
+harm            | 'harm'               | 196   | 200   | +0.047393
+ful             | 'ful'                | 200   | 203   | +0.047950
+and             | 'and'                | 204   | 207   | +0.027879
+abu             | 'abu'                | 208   | 211   | +0.028886
+sive            | 'sive'               | 211   | 215   | +0.022846
+and             | 'and'                | 216   | 219   | +0.023934
+should          | 'should'             | 220   | 226   | +0.000700
+be              | 'be'                 | 227   | 229   | +0.000700
+prohibited      | 'prohibited'         | 230   | 240   | +0.002510
+because         | 'because'            | 241   | 248   | +0.002510
+they            | 'they'               | 249   | 253   | +0.002510
+contra          | 'contra'             | 254   | 260   | +0.007598
+dic             | 'dic'                | 260   | 263   | +0.007598
+t               | 't'                  | 263   | 264   | +0.007598
+Union           | 'Union'              | 265   | 270   | +0.001441
+values          | 'values'             | 271   | 277   | +0.001441
+of              | 'of'                 | 278   | 280   | +0.001441
+respect         | 'respect'            | 281   | 288   | +0.001441
+for             | 'for'                | 289   | 292   | +0.003253
+human           | 'human'              | 293   | 298   | +0.003253
+dig             | 'dig'                | 299   | 302   | +0.003253
+nity            | 'nity'               | 302   | 306   | +0.003253
+,               | ','                  | 306   | 307   | +0.003253
+freedom         | 'freedom'            | 308   | 315   | -0.000174
+,               | ','                  | 315   | 316   | -0.000174
+equality        | 'equality'           | 317   | 325   | +0.000151
+,               | ','                  | 325   | 326   | +0.000151
+democracy       | 'democracy'          | 327   | 336   | +0.000238
+and             | 'and'                | 337   | 340   | +0.000238
+the             | 'the'                | 341   | 344   | -0.000351
+rule            | 'rule'               | 345   | 349   | -0.000351
+of              | 'of'                 | 350   | 352   | -0.000351
+law             | 'law'                | 353   | 356   | -0.000351
+and             | 'and'                | 357   | 360   | +0.002824
+fundamental     | 'fundamental'        | 361   | 372   | +0.002824
+rights          | 'rights'             | 373   | 379   | +0.002824
+ens             | 'ens'                | 380   | 383   | +0.002645
+hri             | 'hri'                | 383   | 386   | +0.002645
+ned             | 'ned'                | 386   | 389   | +0.002645
+in              | 'in'                 | 390   | 392   | +0.001024
+the             | 'the'                | 393   | 396   | +0.001024
+Charter         | 'Charter'            | 397   | 404   | +0.001024
+,               | ','                  | 404   | 405   | +0.001024
+including       | 'including'          | 406   | 415   | +0.001513
+the             | 'the'                | 416   | 419   | +0.001513
+right           | 'right'              | 420   | 425   | +0.001513
+to              | 'to'                 | 426   | 428   | +0.001513
+non             | 'non'                | 429   | 432   | +0.001513
+-               | '-'                  | 432   | 433   | +0.001513
+discrimination  | 'discrimination'     | 433   | 447   | +0.001513
+,               | ','                  | 447   | 448   | +0.001513
+to              | 'to'                 | 449   | 451   | +0.000441
+data            | 'data'               | 452   | 456   | +0.000441
+protection      | 'protection'         | 457   | 467   | +0.000441
+and             | 'and'                | 468   | 471   | +0.000441
+to              | 'to'                 | 472   | 474   | +0.000441
+pri             | 'pri'                | 475   | 478   | +0.000441
+vacy            | 'vacy'               | 478   | 482   | +0.000441
+and             | 'and'                | 483   | 486   | +0.000441
+the             | 'the'                | 487   | 490   | +0.000441
+rights          | 'rights'             | 491   | 497   | +0.000441
+of              | 'of'                 | 498   | 500   | +0.000441
+the             | 'the'                | 501   | 504   | +0.000441
+child           | 'child'              | 505   | 510   | +0.000441
+.               | '.'                  | 510   | 511   | +0.000441
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'As' (0-2) as 'As'
+  Added token 'ide ' (2-5) as 'ide'
+
+Saved word: 'Aside' with SHAP -0.010259
+  Added token 'from ' (6-10) as 'from'
+
+Saved word: 'from' with SHAP +0.005286
+  Added token 'the ' (11-14) as 'the'
+
+Saved word: 'the' with SHAP +0.005286
+  Added token 'many ' (15-19) as 'many'
+
+Saved word: 'many' with SHAP +0.001023
+  Added token 'bene' (20-24) as 'bene'
+  Added token 'ficial ' (24-30) as 'ficial'
+
+Saved word: 'beneficial' with SHAP -0.006731
+  Added token 'uses ' (31-35) as 'uses'
+
+Saved word: 'uses' with SHAP -0.002314
+  Added token 'of ' (36-38) as 'of'
+
+Saved word: 'of' with SHAP -0.002314
+  Added token 'AI' (39-41) as 'AI'
+  Added token ', ' (41-42) as ','
+
+Saved word: 'AI,' with SHAP +0.005480
+  Added token 'it ' (43-45) as 'it'
+
+Saved word: 'it' with SHAP -0.002624
+  Added token 'can ' (46-49) as 'can'
+
+Saved word: 'can' with SHAP -0.002624
+  Added token 'also ' (50-54) as 'also'
+
+Saved word: 'also' with SHAP -0.002490
+  Added token 'be ' (55-57) as 'be'
+
+Saved word: 'be' with SHAP -0.002490
+  Added token 'mis' (58-61) as 'mis'
+  Added token 'used ' (61-65) as 'used'
+
+Saved word: 'misused' with SHAP +0.030134
+  Added token 'and ' (66-69) as 'and'
+
+Saved word: 'and' with SHAP +0.011694
+  Added token 'provide ' (70-77) as 'provide'
+
+Saved word: 'provide' with SHAP -0.006798
+  Added token 'novel ' (78-83) as 'novel'
+
+Saved word: 'novel' with SHAP -0.006798
+  Added token 'and ' (84-87) as 'and'
+
+Saved word: 'and' with SHAP -0.005151
+  Added token 'powerful ' (88-96) as 'powerful'
+
+Saved word: 'powerful' with SHAP -0.010812
+  Added token 'tools ' (97-102) as 'tools'
+
+Saved word: 'tools' with SHAP -0.009943
+  Added token 'for ' (103-106) as 'for'
+
+Saved word: 'for' with SHAP -0.003500
+  Added token 'mani' (107-111) as 'mani'
+  Added token 'pul' (111-114) as 'pul'
+  Added token 'ative' (114-119) as 'ative'
+  Added token ', ' (119-120) as ','
+
+Saved word: 'manipulative,' with SHAP +0.006141
+  Added token 'ex' (121-123) as 'ex'
+  Added token 'plo' (123-126) as 'plo'
+  Added token 'itative ' (126-133) as 'itative'
+
+Saved word: 'exploitative' with SHAP +0.006231
+  Added token 'and ' (134-137) as 'and'
+
+Saved word: 'and' with SHAP +0.008325
+  Added token 'social ' (138-144) as 'social'
+
+Saved word: 'social' with SHAP -0.002045
+  Added token 'control ' (145-152) as 'control'
+
+Saved word: 'control' with SHAP -0.002045
+  Added token 'practices' (153-162) as 'practices'
+  Added token '. ' (162-163) as '.'
+
+Saved word: 'practices.' with SHAP -0.005516
+  Added token 'Such ' (164-168) as 'Such'
+
+Saved word: 'Such' with SHAP +0.012260
+  Added token 'practices ' (169-178) as 'practices'
+
+Saved word: 'practices' with SHAP +0.012387
+  Added token 'are ' (179-182) as 'are'
+
+Saved word: 'are' with SHAP +0.005610
+  Added token 'particularly ' (183-195) as 'particularly'
+
+Saved word: 'particularly' with SHAP +0.005610
+  Added token 'harm' (196-200) as 'harm'
+  Added token 'ful ' (200-203) as 'ful'
+
+Saved word: 'harmful' with SHAP +0.095344
+  Added token 'and ' (204-207) as 'and'
+
+Saved word: 'and' with SHAP +0.027879
+  Added token 'abu' (208-211) as 'abu'
+  Added token 'sive ' (211-215) as 'sive'
+
+Saved word: 'abusive' with SHAP +0.051731
+  Added token 'and ' (216-219) as 'and'
+
+Saved word: 'and' with SHAP +0.023934
+  Added token 'should ' (220-226) as 'should'
+
+Saved word: 'should' with SHAP +0.000700
+  Added token 'be ' (227-229) as 'be'
+
+Saved word: 'be' with SHAP +0.000700
+  Added token 'prohibited ' (230-240) as 'prohibited'
+
+Saved word: 'prohibited' with SHAP +0.002510
+  Added token 'because ' (241-248) as 'because'
+
+Saved word: 'because' with SHAP +0.002510
+  Added token 'they ' (249-253) as 'they'
+
+Saved word: 'they' with SHAP +0.002510
+  Added token 'contra' (254-260) as 'contra'
+  Added token 'dic' (260-263) as 'dic'
+  Added token 't ' (263-264) as 't'
+
+Saved word: 'contradict' with SHAP +0.022795
+  Added token 'Union ' (265-270) as 'Union'
+
+Saved word: 'Union' with SHAP +0.001441
+  Added token 'values ' (271-277) as 'values'
+
+Saved word: 'values' with SHAP +0.001441
+  Added token 'of ' (278-280) as 'of'
+
+Saved word: 'of' with SHAP +0.001441
+  Added token 'respect ' (281-288) as 'respect'
+
+Saved word: 'respect' with SHAP +0.001441
+  Added token 'for ' (289-292) as 'for'
+
+Saved word: 'for' with SHAP +0.003253
+  Added token 'human ' (293-298) as 'human'
+
+Saved word: 'human' with SHAP +0.003253
+  Added token 'dig' (299-302) as 'dig'
+  Added token 'nity' (302-306) as 'nity'
+  Added token ', ' (306-307) as ','
+
+Saved word: 'dignity,' with SHAP +0.009759
+  Added token 'freedom' (308-315) as 'freedom'
+  Added token ', ' (315-316) as ','
+
+Saved word: 'freedom,' with SHAP -0.000348
+  Added token 'equality' (317-325) as 'equality'
+  Added token ', ' (325-326) as ','
+
+Saved word: 'equality,' with SHAP +0.000301
+  Added token 'democracy ' (327-336) as 'democracy'
+
+Saved word: 'democracy' with SHAP +0.000238
+  Added token 'and ' (337-340) as 'and'
+
+Saved word: 'and' with SHAP +0.000238
+  Added token 'the ' (341-344) as 'the'
+
+Saved word: 'the' with SHAP -0.000351
+  Added token 'rule ' (345-349) as 'rule'
+
+Saved word: 'rule' with SHAP -0.000351
+  Added token 'of ' (350-352) as 'of'
+
+Saved word: 'of' with SHAP -0.000351
+  Added token 'law ' (353-356) as 'law'
+
+Saved word: 'law' with SHAP -0.000351
+  Added token 'and ' (357-360) as 'and'
+
+Saved word: 'and' with SHAP +0.002824
+  Added token 'fundamental ' (361-372) as 'fundamental'
+
+Saved word: 'fundamental' with SHAP +0.002824
+  Added token 'rights ' (373-379) as 'rights'
+
+Saved word: 'rights' with SHAP +0.002824
+  Added token 'ens' (380-383) as 'ens'
+  Added token 'hri' (383-386) as 'hri'
+  Added token 'ned ' (386-389) as 'ned'
+
+Saved word: 'enshrined' with SHAP +0.007936
+  Added token 'in ' (390-392) as 'in'
+
+Saved word: 'in' with SHAP +0.001024
+  Added token 'the ' (393-396) as 'the'
+
+Saved word: 'the' with SHAP +0.001024
+  Added token 'Charter' (397-404) as 'Charter'
+  Added token ', ' (404-405) as ','
+
+Saved word: 'Charter,' with SHAP +0.002047
+  Added token 'including ' (406-415) as 'including'
+
+Saved word: 'including' with SHAP +0.001513
+  Added token 'the ' (416-419) as 'the'
+
+Saved word: 'the' with SHAP +0.001513
+  Added token 'right ' (420-425) as 'right'
+
+Saved word: 'right' with SHAP +0.001513
+  Added token 'to ' (426-428) as 'to'
+
+Saved word: 'to' with SHAP +0.001513
+  Added token 'non' (429-432) as 'non'
+  Added token '-' (432-433) as '-'
+  Added token 'discrimination' (433-447) as 'discrimination'
+  Added token ', ' (447-448) as ','
+
+Saved word: 'non-discrimination,' with SHAP +0.006053
+  Added token 'to ' (449-451) as 'to'
+
+Saved word: 'to' with SHAP +0.000441
+  Added token 'data ' (452-456) as 'data'
+
+Saved word: 'data' with SHAP +0.000441
+  Added token 'protection ' (457-467) as 'protection'
+
+Saved word: 'protection' with SHAP +0.000441
+  Added token 'and ' (468-471) as 'and'
+
+Saved word: 'and' with SHAP +0.000441
+  Added token 'to ' (472-474) as 'to'
+
+Saved word: 'to' with SHAP +0.000441
+  Added token 'pri' (475-478) as 'pri'
+  Added token 'vacy ' (478-482) as 'vacy'
+
+Saved word: 'privacy' with SHAP +0.000882
+  Added token 'and ' (483-486) as 'and'
+
+Saved word: 'and' with SHAP +0.000441
+  Added token 'the ' (487-490) as 'the'
+
+Saved word: 'the' with SHAP +0.000441
+  Added token 'rights ' (491-497) as 'rights'
+
+Saved word: 'rights' with SHAP +0.000441
+  Added token 'of ' (498-500) as 'of'
+
+Saved word: 'of' with SHAP +0.000441
+  Added token 'the ' (501-504) as 'the'
+
+Saved word: 'the' with SHAP +0.000441
+  Added token 'child' (505-510) as 'child'
+  Added token '.' (510-511) as '.'
+
+Saved final word: 'child.' with SHAP +0.000882
+
+=== Final Word Contributions ===
+harmful                   +0.095344 (POS)
+abusive                   +0.051731 (POS)
+misused                   +0.030134 (POS)
+contradict                +0.022795 (POS)
+practices                 +0.012387 (POS)
+Such                      +0.012260 (POS)
+powerful                  -0.010812 (NEG)
+Aside                     -0.010259 (NEG)
+tools                     -0.009943 (NEG)
+dignity,                  +0.009759 (POS)
+enshrined                 +0.007936 (POS)
+provide                   -0.006798 (NEG)
+novel                     -0.006798 (NEG)
+beneficial                -0.006731 (NEG)
+exploitative              +0.006231 (POS)
+manipulative,             +0.006141 (POS)
+non-discrimination,       +0.006053 (POS)
+are                       +0.005610 (POS)
+particularly              +0.005610 (POS)
+practices.                -0.005516 (NEG)
+AI,                       +0.005480 (POS)
+from                      +0.005286 (POS)
+for                       +0.003253 (POS)
+human                     +0.003253 (POS)
+fundamental               +0.002824 (POS)
+it                        -0.002624 (NEG)
+can                       -0.002624 (NEG)
+prohibited                +0.002510 (POS)
+because                   +0.002510 (POS)
+they                      +0.002510 (POS)
+also                      -0.002490 (NEG)
+uses                      -0.002314 (NEG)
+Charter,                  +0.002047 (POS)
+social                    -0.002045 (NEG)
+control                   -0.002045 (NEG)
+including                 +0.001513 (POS)
+right                     +0.001513 (POS)
+Union                     +0.001441 (POS)
+values                    +0.001441 (POS)
+respect                   +0.001441 (POS)
+in                        +0.001024 (POS)
+many                      +0.001023 (POS)
+privacy                   +0.000882 (POS)
+child.                    +0.000882 (POS)
+be                        +0.000700 (POS)
+should                    +0.000700 (POS)
+and                       +0.000441 (POS)
+rights                    +0.000441 (POS)
+to                        +0.000441 (POS)
+the                       +0.000441 (POS)
+of                        +0.000441 (POS)
+data                      +0.000441 (POS)
+protection                +0.000441 (POS)
+rule                      -0.000351 (NEG)
+law                       -0.000351 (NEG)
+freedom,                  -0.000348 (NEG)
+equality,                 +0.000301 (POS)
+democracy                 +0.000238 (POS)

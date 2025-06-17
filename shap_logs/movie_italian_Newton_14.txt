@@ -1,0 +1,194 @@
+
+=== Processing text ===
+Newton ha scoperto il teorema binomiale a 22 anni. Einstein scrisse 4 articoli che cambiarono il mondo prima di compiere 26 anni. E da come la vedo io, sono... solo nella media.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.002687
+Newton          | 'Newton'             | 0     | 6     | -0.013418
+ha              | 'ha'                 | 7     | 9     | +0.007552
+scoperto        | 'scoperto'           | 10    | 18    | +0.008570
+il              | 'il'                 | 19    | 21    | +0.000599
+teorema         | 'teorema'            | 22    | 29    | -0.000122
+bin             | 'bin'                | 30    | 33    | +0.017771
+omial           | 'omial'              | 33    | 38    | +0.013898
+e               | 'e'                  | 38    | 39    | +0.005673
+a               | 'a'                  | 40    | 41    | -0.000928
+22              | '22'                 | 42    | 44    | -0.001921
+anni            | 'anni'               | 45    | 49    | +0.002731
+.               | '.'                  | 49    | 50    | +0.000649
+Einstein        | 'Einstein'           | 51    | 59    | +0.032949
+scrisse         | 'scrisse'            | 60    | 67    | +0.033863
+4               | '4'                  | 68    | 69    | +0.010665
+articoli        | 'articoli'           | 70    | 78    | +0.010665
+che             | 'che'                | 79    | 82    | +0.010665
+cambiar         | 'cambiar'            | 83    | 90    | +0.001342
+ono             | 'ono'                | 90    | 93    | +0.001342
+il              | 'il'                 | 94    | 96    | -0.000844
+mondo           | 'mondo'              | 97    | 102   | -0.000844
+prima           | 'prima'              | 103   | 108   | +0.006530
+di              | 'di'                 | 109   | 111   | +0.006530
+com             | 'com'                | 112   | 115   | +0.005028
+piere           | 'piere'              | 115   | 120   | +0.005028
+26              | '26'                 | 121   | 123   | -0.005179
+anni            | 'anni'               | 124   | 128   | -0.005179
+.               | '.'                  | 128   | 129   | -0.005731
+E               | 'E'                  | 130   | 131   | +0.003376
+da              | 'da'                 | 132   | 134   | +0.003376
+come            | 'come'               | 135   | 139   | +0.002658
+la              | 'la'                 | 140   | 142   | +0.002658
+ved             | 'ved'                | 143   | 146   | +0.004787
+o               | 'o'                  | 146   | 147   | +0.004787
+io              | 'io'                 | 148   | 150   | +0.004787
+,               | ','                  | 150   | 151   | +0.008886
+sono            | 'sono'               | 152   | 156   | +0.025705
+.               | '.'                  | 156   | 157   | +0.008049
+.               | '.'                  | 157   | 158   | +0.001170
+.               | '.'                  | 158   | 159   | -0.003648
+solo            | 'solo'               | 160   | 164   | +0.032225
+nella           | 'nella'              | 165   | 170   | -0.011803
+media           | 'media'              | 171   | 176   | +0.109665
+.               | '.'                  | 176   | 177   | +0.002286
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Newton ' (0-6) as 'Newton'
+
+Saved word: 'Newton' with SHAP -0.013418
+  Added token 'ha ' (7-9) as 'ha'
+
+Saved word: 'ha' with SHAP +0.007552
+  Added token 'scoperto ' (10-18) as 'scoperto'
+
+Saved word: 'scoperto' with SHAP +0.008570
+  Added token 'il ' (19-21) as 'il'
+
+Saved word: 'il' with SHAP +0.000599
+  Added token 'teorema ' (22-29) as 'teorema'
+
+Saved word: 'teorema' with SHAP -0.000122
+  Added token 'bin' (30-33) as 'bin'
+  Added token 'omial' (33-38) as 'omial'
+  Added token 'e ' (38-39) as 'e'
+
+Saved word: 'binomiale' with SHAP +0.037342
+  Added token 'a ' (40-41) as 'a'
+
+Saved word: 'a' with SHAP -0.000928
+  Added token '22 ' (42-44) as '22'
+
+Saved word: '22' with SHAP -0.001921
+  Added token 'anni' (45-49) as 'anni'
+  Added token '. ' (49-50) as '.'
+
+Saved word: 'anni.' with SHAP +0.003380
+  Added token 'Einstein ' (51-59) as 'Einstein'
+
+Saved word: 'Einstein' with SHAP +0.032949
+  Added token 'scrisse ' (60-67) as 'scrisse'
+
+Saved word: 'scrisse' with SHAP +0.033863
+  Added token '4 ' (68-69) as '4'
+
+Saved word: '4' with SHAP +0.010665
+  Added token 'articoli ' (70-78) as 'articoli'
+
+Saved word: 'articoli' with SHAP +0.010665
+  Added token 'che ' (79-82) as 'che'
+
+Saved word: 'che' with SHAP +0.010665
+  Added token 'cambiar' (83-90) as 'cambiar'
+  Added token 'ono ' (90-93) as 'ono'
+
+Saved word: 'cambiarono' with SHAP +0.002683
+  Added token 'il ' (94-96) as 'il'
+
+Saved word: 'il' with SHAP -0.000844
+  Added token 'mondo ' (97-102) as 'mondo'
+
+Saved word: 'mondo' with SHAP -0.000844
+  Added token 'prima ' (103-108) as 'prima'
+
+Saved word: 'prima' with SHAP +0.006530
+  Added token 'di ' (109-111) as 'di'
+
+Saved word: 'di' with SHAP +0.006530
+  Added token 'com' (112-115) as 'com'
+  Added token 'piere ' (115-120) as 'piere'
+
+Saved word: 'compiere' with SHAP +0.010057
+  Added token '26 ' (121-123) as '26'
+
+Saved word: '26' with SHAP -0.005179
+  Added token 'anni' (124-128) as 'anni'
+  Added token '. ' (128-129) as '.'
+
+Saved word: 'anni.' with SHAP -0.010910
+  Added token 'E ' (130-131) as 'E'
+
+Saved word: 'E' with SHAP +0.003376
+  Added token 'da ' (132-134) as 'da'
+
+Saved word: 'da' with SHAP +0.003376
+  Added token 'come ' (135-139) as 'come'
+
+Saved word: 'come' with SHAP +0.002658
+  Added token 'la ' (140-142) as 'la'
+
+Saved word: 'la' with SHAP +0.002658
+  Added token 'ved' (143-146) as 'ved'
+  Added token 'o ' (146-147) as 'o'
+
+Saved word: 'vedo' with SHAP +0.009575
+  Added token 'io' (148-150) as 'io'
+  Added token ', ' (150-151) as ','
+
+Saved word: 'io,' with SHAP +0.013674
+  Added token 'sono' (152-156) as 'sono'
+  Added token '.' (156-157) as '.'
+  Added token '.' (157-158) as '.'
+  Added token '. ' (158-159) as '.'
+
+Saved word: 'sono...' with SHAP +0.031276
+  Added token 'solo ' (160-164) as 'solo'
+
+Saved word: 'solo' with SHAP +0.032225
+  Added token 'nella ' (165-170) as 'nella'
+
+Saved word: 'nella' with SHAP -0.011803
+  Added token 'media' (171-176) as 'media'
+  Added token '.' (176-177) as '.'
+
+Saved final word: 'media.' with SHAP +0.111951
+
+=== Final Word Contributions ===
+media.                    +0.111951 (POS)
+binomiale                 +0.037342 (POS)
+scrisse                   +0.033863 (POS)
+Einstein                  +0.032949 (POS)
+solo                      +0.032225 (POS)
+sono...                   +0.031276 (POS)
+io,                       +0.013674 (POS)
+Newton                    -0.013418 (NEG)
+nella                     -0.011803 (NEG)
+anni.                     -0.010910 (NEG)
+4                         +0.010665 (POS)
+articoli                  +0.010665 (POS)
+che                       +0.010665 (POS)
+compiere                  +0.010057 (POS)
+vedo                      +0.009575 (POS)
+scoperto                  +0.008570 (POS)
+ha                        +0.007552 (POS)
+prima                     +0.006530 (POS)
+di                        +0.006530 (POS)
+26                        -0.005179 (NEG)
+E                         +0.003376 (POS)
+da                        +0.003376 (POS)
+cambiarono                +0.002683 (POS)
+come                      +0.002658 (POS)
+la                        +0.002658 (POS)
+22                        -0.001921 (NEG)
+a                         -0.000928 (NEG)
+il                        -0.000844 (NEG)
+mondo                     -0.000844 (NEG)
+teorema                   -0.000122 (NEG)

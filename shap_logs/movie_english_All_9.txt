@@ -1,0 +1,120 @@
+
+=== Processing text ===
+All right, fire them up! We go live in five! It's time for ignition and straight automobile pimping.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004669
+All             | 'All'                | 0     | 3     | +0.031013
+right           | 'right'              | 4     | 9     | +0.011402
+,               | ','                  | 9     | 10    | -0.034390
+fire            | 'fire'               | 11    | 15    | +0.060183
+them            | 'them'               | 16    | 20    | +0.034751
+up              | 'up'                 | 21    | 23    | +0.000303
+!               | '!'                  | 23    | 24    | +0.120436
+We              | 'We'                 | 25    | 27    | +0.033830
+go              | 'go'                 | 28    | 30    | +0.025013
+live            | 'live'               | 31    | 35    | -0.008489
+in              | 'in'                 | 36    | 38    | +0.003162
+five            | 'five'               | 39    | 43    | +0.029116
+!               | '!'                  | 43    | 44    | +0.117243
+It              | 'It'                 | 45    | 47    | -0.002601
+'               | "'"                  | 47    | 48    | -0.003041
+s               | 's'                  | 48    | 49    | +0.002210
+time            | 'time'               | 50    | 54    | -0.003523
+for             | 'for'                | 55    | 58    | -0.003077
+ig              | 'ig'                 | 59    | 61    | -0.040269
+nition          | 'nition'             | 61    | 67    | -0.003025
+and             | 'and'                | 68    | 71    | +0.006338
+straight        | 'straight'           | 72    | 80    | +0.004867
+automobile      | 'automobile'         | 81    | 91    | +0.005802
+pi              | 'pi'                 | 92    | 94    | -0.000496
+mpi             | 'mpi'                | 94    | 97    | -0.000496
+ng              | 'ng'                 | 97    | 99    | -0.000540
+.               | '.'                  | 99    | 100   | -0.012222
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'All ' (0-3) as 'All'
+
+Saved word: 'All' with SHAP +0.031013
+  Added token 'right' (4-9) as 'right'
+  Added token ', ' (9-10) as ','
+
+Saved word: 'right,' with SHAP -0.022988
+  Added token 'fire ' (11-15) as 'fire'
+
+Saved word: 'fire' with SHAP +0.060183
+  Added token 'them ' (16-20) as 'them'
+
+Saved word: 'them' with SHAP +0.034751
+  Added token 'up' (21-23) as 'up'
+  Added token '! ' (23-24) as '!'
+
+Saved word: 'up!' with SHAP +0.120739
+  Added token 'We ' (25-27) as 'We'
+
+Saved word: 'We' with SHAP +0.033830
+  Added token 'go ' (28-30) as 'go'
+
+Saved word: 'go' with SHAP +0.025013
+  Added token 'live ' (31-35) as 'live'
+
+Saved word: 'live' with SHAP -0.008489
+  Added token 'in ' (36-38) as 'in'
+
+Saved word: 'in' with SHAP +0.003162
+  Added token 'five' (39-43) as 'five'
+  Added token '! ' (43-44) as '!'
+
+Saved word: 'five!' with SHAP +0.146359
+  Added token 'It' (45-47) as 'It'
+  Added token ''' (47-48) as '''
+  Added token 's ' (48-49) as 's'
+
+Saved word: 'It's' with SHAP -0.003432
+  Added token 'time ' (50-54) as 'time'
+
+Saved word: 'time' with SHAP -0.003523
+  Added token 'for ' (55-58) as 'for'
+
+Saved word: 'for' with SHAP -0.003077
+  Added token 'ig' (59-61) as 'ig'
+  Added token 'nition ' (61-67) as 'nition'
+
+Saved word: 'ignition' with SHAP -0.043294
+  Added token 'and ' (68-71) as 'and'
+
+Saved word: 'and' with SHAP +0.006338
+  Added token 'straight ' (72-80) as 'straight'
+
+Saved word: 'straight' with SHAP +0.004867
+  Added token 'automobile ' (81-91) as 'automobile'
+
+Saved word: 'automobile' with SHAP +0.005802
+  Added token 'pi' (92-94) as 'pi'
+  Added token 'mpi' (94-97) as 'mpi'
+  Added token 'ng' (97-99) as 'ng'
+  Added token '.' (99-100) as '.'
+
+Saved final word: 'pimping.' with SHAP -0.013754
+
+=== Final Word Contributions ===
+five!                     +0.146359 (POS)
+up!                       +0.120739 (POS)
+fire                      +0.060183 (POS)
+ignition                  -0.043294 (NEG)
+them                      +0.034751 (POS)
+We                        +0.033830 (POS)
+All                       +0.031013 (POS)
+go                        +0.025013 (POS)
+right,                    -0.022988 (NEG)
+pimping.                  -0.013754 (NEG)
+live                      -0.008489 (NEG)
+and                       +0.006338 (POS)
+automobile                +0.005802 (POS)
+straight                  +0.004867 (POS)
+time                      -0.003523 (NEG)
+It's                      -0.003432 (NEG)
+in                        +0.003162 (POS)
+for                       -0.003077 (NEG)

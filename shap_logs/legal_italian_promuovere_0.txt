@@ -1,0 +1,385 @@
+
+=== Processing text ===
+promuovere la diffusione di un'intelligenza artificiale (IA) antropocentrica e affidabile, garantendo nel contempo un livello elevato di protezione della salute, della sicurezza e dei diritti fondamentali sanciti dalla Carta dei diritti fondamentali dell'Unione europea («Carta»), compresi la democrazia, lo Stato di diritto e la protezione dell'ambiente, proteggere contro gli effetti nocivi dei sistemi di IA nell'Unione, nonché promuovere l'innovazione.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.007867
+promu           | 'promu'              | 0     | 5     | +0.009227
+overe           | 'overe'              | 5     | 10    | +0.009227
+la              | 'la'                 | 11    | 13    | +0.001853
+diffusione      | 'diffusione'         | 14    | 24    | +0.001853
+di              | 'di'                 | 25    | 27    | +0.001853
+un              | 'un'                 | 28    | 30    | +0.001833
+'               | "'"                  | 30    | 31    | +0.001833
+intel           | 'intel'              | 31    | 36    | +0.005623
+ligen           | 'ligen'              | 36    | 41    | +0.005623
+za              | 'za'                 | 41    | 43    | +0.005623
+artificial      | 'artificial'         | 44    | 54    | +0.006682
+e               | 'e'                  | 54    | 55    | +0.006682
+(               | '('                  | 56    | 57    | +0.005584
+IA              | 'IA'                 | 57    | 59    | +0.005584
+)               | ')'                  | 59    | 60    | +0.005584
+ant             | 'ant'                | 61    | 64    | +0.022338
+rop             | 'rop'                | 64    | 67    | +0.010235
+ocent           | 'ocent'              | 67    | 72    | +0.001784
+rica            | 'rica'               | 72    | 76    | +0.001784
+e               | 'e'                  | 77    | 78    | +0.019491
+af              | 'af'                 | 79    | 81    | +0.007762
+fida            | 'fida'               | 81    | 85    | +0.007762
+bile            | 'bile'               | 85    | 89    | +0.007762
+,               | ','                  | 89    | 90    | +0.016287
+gara            | 'gara'               | 91    | 95    | +0.008050
+nten            | 'nten'               | 95    | 99    | +0.007813
+do              | 'do'                 | 99    | 101   | +0.004971
+nel             | 'nel'                | 102   | 105   | +0.000234
+conte           | 'conte'              | 106   | 111   | +0.003675
+mpo             | 'mpo'                | 111   | 114   | +0.003675
+un              | 'un'                 | 115   | 117   | +0.017886
+livello         | 'livello'            | 118   | 125   | +0.032810
+elevato         | 'elevato'            | 126   | 133   | +0.035687
+di              | 'di'                 | 134   | 136   | +0.006569
+protezione      | 'protezione'         | 137   | 147   | +0.004945
+della           | 'della'              | 148   | 153   | +0.004945
+salute          | 'salute'             | 154   | 160   | +0.006145
+,               | ','                  | 160   | 161   | +0.005712
+della           | 'della'              | 162   | 167   | +0.002018
+sicurezza       | 'sicurezza'          | 168   | 177   | +0.002018
+e               | 'e'                  | 178   | 179   | +0.002018
+dei             | 'dei'                | 180   | 183   | +0.002018
+diritti         | 'diritti'            | 184   | 191   | +0.002018
+fonda           | 'fonda'              | 192   | 197   | +0.002808
+mentali         | 'mentali'            | 197   | 204   | +0.002808
+san             | 'san'                | 205   | 208   | +0.002808
+citi            | 'citi'               | 208   | 212   | +0.002808
+dalla           | 'dalla'              | 213   | 218   | +0.002340
+Carta           | 'Carta'              | 219   | 224   | +0.002340
+dei             | 'dei'                | 225   | 228   | +0.002340
+diritti         | 'diritti'            | 229   | 236   | +0.002340
+fonda           | 'fonda'              | 237   | 242   | +0.003298
+mentali         | 'mentali'            | 242   | 249   | +0.003298
+dell            | 'dell'               | 250   | 254   | +0.003298
+'               | "'"                  | 254   | 255   | +0.003298
+Unione          | 'Unione'             | 255   | 261   | +0.003284
+europea         | 'europea'            | 262   | 269   | +0.003284
+(               | '('                  | 270   | 271   | +0.003157
+«               | '«'                  | 271   | 272   | +0.003157
+Carta           | 'Carta'              | 272   | 277   | +0.003157
+»               | '»'                  | 277   | 278   | +0.003157
+)               | ')'                  | 278   | 279   | +0.003157
+,               | ','                  | 279   | 280   | +0.003157
+com             | 'com'                | 281   | 284   | +0.002812
+presi           | 'presi'              | 284   | 289   | +0.002812
+la              | 'la'                 | 290   | 292   | +0.002812
+demo            | 'demo'               | 293   | 297   | +0.010022
+crazia          | 'crazia'             | 297   | 303   | +0.010022
+,               | ','                  | 303   | 304   | +0.010551
+lo              | 'lo'                 | 305   | 307   | +0.005995
+Stato           | 'Stato'              | 308   | 313   | +0.005995
+di              | 'di'                 | 314   | 316   | +0.005995
+diritto         | 'diritto'            | 317   | 324   | +0.005995
+e               | 'e'                  | 325   | 326   | +0.006460
+la              | 'la'                 | 327   | 329   | +0.006460
+protezione      | 'protezione'         | 330   | 340   | +0.006460
+dell            | 'dell'               | 341   | 345   | +0.006709
+'               | "'"                  | 345   | 346   | +0.006709
+ambiente        | 'ambiente'           | 346   | 354   | +0.006709
+,               | ','                  | 354   | 355   | +0.006709
+pro             | 'pro'                | 356   | 359   | +0.000851
+teg             | 'teg'                | 359   | 362   | +0.000851
+gere            | 'gere'               | 362   | 366   | +0.000851
+contro          | 'contro'             | 367   | 373   | +0.000851
+gli             | 'gli'                | 374   | 377   | +0.000851
+effetti         | 'effetti'            | 378   | 385   | +0.000851
+noci            | 'noci'               | 386   | 390   | +0.000909
+vi              | 'vi'                 | 390   | 392   | +0.000909
+dei             | 'dei'                | 393   | 396   | +0.000909
+sistemi         | 'sistemi'            | 397   | 404   | +0.000909
+di              | 'di'                 | 405   | 407   | +0.003753
+IA              | 'IA'                 | 408   | 410   | +0.003753
+nell            | 'nell'               | 411   | 415   | +0.003753
+'               | "'"                  | 415   | 416   | +0.003753
+Unione          | 'Unione'             | 416   | 422   | +0.003753
+,               | ','                  | 422   | 423   | +0.004800
+nonché          | 'nonché'             | 424   | 430   | +0.007202
+promu           | 'promu'              | 431   | 436   | +0.007202
+overe           | 'overe'              | 436   | 441   | +0.007202
+l               | 'l'                  | 442   | 443   | +0.006675
+'               | "'"                  | 443   | 444   | +0.006675
+inn             | 'inn'                | 444   | 447   | +0.004280
+ova             | 'ova'                | 447   | 450   | +0.004280
+zione           | 'zione'              | 450   | 455   | +0.004280
+.               | '.'                  | 455   | 456   | +0.004280
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'promu' (0-5) as 'promu'
+  Added token 'overe ' (5-10) as 'overe'
+
+Saved word: 'promuovere' with SHAP +0.018455
+  Added token 'la ' (11-13) as 'la'
+
+Saved word: 'la' with SHAP +0.001853
+  Added token 'diffusione ' (14-24) as 'diffusione'
+
+Saved word: 'diffusione' with SHAP +0.001853
+  Added token 'di ' (25-27) as 'di'
+
+Saved word: 'di' with SHAP +0.001853
+  Added token 'un' (28-30) as 'un'
+  Added token ''' (30-31) as '''
+  Added token 'intel' (31-36) as 'intel'
+  Added token 'ligen' (36-41) as 'ligen'
+  Added token 'za ' (41-43) as 'za'
+
+Saved word: 'un'intelligenza' with SHAP +0.020536
+  Added token 'artificial' (44-54) as 'artificial'
+  Added token 'e ' (54-55) as 'e'
+
+Saved word: 'artificiale' with SHAP +0.013365
+  Added token '(' (56-57) as '('
+  Added token 'IA' (57-59) as 'IA'
+  Added token ') ' (59-60) as ')'
+
+Saved word: '(IA)' with SHAP +0.016753
+  Added token 'ant' (61-64) as 'ant'
+  Added token 'rop' (64-67) as 'rop'
+  Added token 'ocent' (67-72) as 'ocent'
+  Added token 'rica ' (72-76) as 'rica'
+
+Saved word: 'antropocentrica' with SHAP +0.036141
+  Added token 'e ' (77-78) as 'e'
+
+Saved word: 'e' with SHAP +0.019491
+  Added token 'af' (79-81) as 'af'
+  Added token 'fida' (81-85) as 'fida'
+  Added token 'bile' (85-89) as 'bile'
+  Added token ', ' (89-90) as ','
+
+Saved word: 'affidabile,' with SHAP +0.039574
+  Added token 'gara' (91-95) as 'gara'
+  Added token 'nten' (95-99) as 'nten'
+  Added token 'do ' (99-101) as 'do'
+
+Saved word: 'garantendo' with SHAP +0.020833
+  Added token 'nel ' (102-105) as 'nel'
+
+Saved word: 'nel' with SHAP +0.000234
+  Added token 'conte' (106-111) as 'conte'
+  Added token 'mpo ' (111-114) as 'mpo'
+
+Saved word: 'contempo' with SHAP +0.007350
+  Added token 'un ' (115-117) as 'un'
+
+Saved word: 'un' with SHAP +0.017886
+  Added token 'livello ' (118-125) as 'livello'
+
+Saved word: 'livello' with SHAP +0.032810
+  Added token 'elevato ' (126-133) as 'elevato'
+
+Saved word: 'elevato' with SHAP +0.035687
+  Added token 'di ' (134-136) as 'di'
+
+Saved word: 'di' with SHAP +0.006569
+  Added token 'protezione ' (137-147) as 'protezione'
+
+Saved word: 'protezione' with SHAP +0.004945
+  Added token 'della ' (148-153) as 'della'
+
+Saved word: 'della' with SHAP +0.004945
+  Added token 'salute' (154-160) as 'salute'
+  Added token ', ' (160-161) as ','
+
+Saved word: 'salute,' with SHAP +0.011857
+  Added token 'della ' (162-167) as 'della'
+
+Saved word: 'della' with SHAP +0.002018
+  Added token 'sicurezza ' (168-177) as 'sicurezza'
+
+Saved word: 'sicurezza' with SHAP +0.002018
+  Added token 'e ' (178-179) as 'e'
+
+Saved word: 'e' with SHAP +0.002018
+  Added token 'dei ' (180-183) as 'dei'
+
+Saved word: 'dei' with SHAP +0.002018
+  Added token 'diritti ' (184-191) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.002018
+  Added token 'fonda' (192-197) as 'fonda'
+  Added token 'mentali ' (197-204) as 'mentali'
+
+Saved word: 'fondamentali' with SHAP +0.005617
+  Added token 'san' (205-208) as 'san'
+  Added token 'citi ' (208-212) as 'citi'
+
+Saved word: 'sanciti' with SHAP +0.005617
+  Added token 'dalla ' (213-218) as 'dalla'
+
+Saved word: 'dalla' with SHAP +0.002340
+  Added token 'Carta ' (219-224) as 'Carta'
+
+Saved word: 'Carta' with SHAP +0.002340
+  Added token 'dei ' (225-228) as 'dei'
+
+Saved word: 'dei' with SHAP +0.002340
+  Added token 'diritti ' (229-236) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.002340
+  Added token 'fonda' (237-242) as 'fonda'
+  Added token 'mentali ' (242-249) as 'mentali'
+
+Saved word: 'fondamentali' with SHAP +0.006596
+  Added token 'dell' (250-254) as 'dell'
+  Added token ''' (254-255) as '''
+  Added token 'Unione ' (255-261) as 'Unione'
+
+Saved word: 'dell'Unione' with SHAP +0.009880
+  Added token 'europea ' (262-269) as 'europea'
+
+Saved word: 'europea' with SHAP +0.003284
+  Added token '(' (270-271) as '('
+  Added token '«' (271-272) as '«'
+  Added token 'Carta' (272-277) as 'Carta'
+  Added token '»' (277-278) as '»'
+  Added token ')' (278-279) as ')'
+  Added token ', ' (279-280) as ','
+
+Saved word: '(«Carta»),' with SHAP +0.018943
+  Added token 'com' (281-284) as 'com'
+  Added token 'presi ' (284-289) as 'presi'
+
+Saved word: 'compresi' with SHAP +0.005623
+  Added token 'la ' (290-292) as 'la'
+
+Saved word: 'la' with SHAP +0.002812
+  Added token 'demo' (293-297) as 'demo'
+  Added token 'crazia' (297-303) as 'crazia'
+  Added token ', ' (303-304) as ','
+
+Saved word: 'democrazia,' with SHAP +0.030596
+  Added token 'lo ' (305-307) as 'lo'
+
+Saved word: 'lo' with SHAP +0.005995
+  Added token 'Stato ' (308-313) as 'Stato'
+
+Saved word: 'Stato' with SHAP +0.005995
+  Added token 'di ' (314-316) as 'di'
+
+Saved word: 'di' with SHAP +0.005995
+  Added token 'diritto ' (317-324) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.005995
+  Added token 'e ' (325-326) as 'e'
+
+Saved word: 'e' with SHAP +0.006460
+  Added token 'la ' (327-329) as 'la'
+
+Saved word: 'la' with SHAP +0.006460
+  Added token 'protezione ' (330-340) as 'protezione'
+
+Saved word: 'protezione' with SHAP +0.006460
+  Added token 'dell' (341-345) as 'dell'
+  Added token ''' (345-346) as '''
+  Added token 'ambiente' (346-354) as 'ambiente'
+  Added token ', ' (354-355) as ','
+
+Saved word: 'dell'ambiente,' with SHAP +0.026838
+  Added token 'pro' (356-359) as 'pro'
+  Added token 'teg' (359-362) as 'teg'
+  Added token 'gere ' (362-366) as 'gere'
+
+Saved word: 'proteggere' with SHAP +0.002554
+  Added token 'contro ' (367-373) as 'contro'
+
+Saved word: 'contro' with SHAP +0.000851
+  Added token 'gli ' (374-377) as 'gli'
+
+Saved word: 'gli' with SHAP +0.000851
+  Added token 'effetti ' (378-385) as 'effetti'
+
+Saved word: 'effetti' with SHAP +0.000851
+  Added token 'noci' (386-390) as 'noci'
+  Added token 'vi ' (390-392) as 'vi'
+
+Saved word: 'nocivi' with SHAP +0.001817
+  Added token 'dei ' (393-396) as 'dei'
+
+Saved word: 'dei' with SHAP +0.000909
+  Added token 'sistemi ' (397-404) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.000909
+  Added token 'di ' (405-407) as 'di'
+
+Saved word: 'di' with SHAP +0.003753
+  Added token 'IA ' (408-410) as 'IA'
+
+Saved word: 'IA' with SHAP +0.003753
+  Added token 'nell' (411-415) as 'nell'
+  Added token ''' (415-416) as '''
+  Added token 'Unione' (416-422) as 'Unione'
+  Added token ', ' (422-423) as ','
+
+Saved word: 'nell'Unione,' with SHAP +0.016059
+  Added token 'nonché ' (424-430) as 'nonché'
+
+Saved word: 'nonché' with SHAP +0.007202
+  Added token 'promu' (431-436) as 'promu'
+  Added token 'overe ' (436-441) as 'overe'
+
+Saved word: 'promuovere' with SHAP +0.014404
+  Added token 'l' (442-443) as 'l'
+  Added token ''' (443-444) as '''
+  Added token 'inn' (444-447) as 'inn'
+  Added token 'ova' (447-450) as 'ova'
+  Added token 'zione' (450-455) as 'zione'
+  Added token '.' (455-456) as '.'
+
+Saved final word: 'l'innovazione.' with SHAP +0.030470
+
+=== Final Word Contributions ===
+affidabile,               +0.039574 (POS)
+antropocentrica           +0.036141 (POS)
+elevato                   +0.035687 (POS)
+livello                   +0.032810 (POS)
+democrazia,               +0.030596 (POS)
+l'innovazione.            +0.030470 (POS)
+dell'ambiente,            +0.026838 (POS)
+garantendo                +0.020833 (POS)
+un'intelligenza           +0.020536 (POS)
+(«Carta»),                +0.018943 (POS)
+un                        +0.017886 (POS)
+(IA)                      +0.016753 (POS)
+nell'Unione,              +0.016059 (POS)
+promuovere                +0.014404 (POS)
+artificiale               +0.013365 (POS)
+salute,                   +0.011857 (POS)
+dell'Unione               +0.009880 (POS)
+contempo                  +0.007350 (POS)
+nonché                    +0.007202 (POS)
+fondamentali              +0.006596 (POS)
+la                        +0.006460 (POS)
+e                         +0.006460 (POS)
+protezione                +0.006460 (POS)
+lo                        +0.005995 (POS)
+Stato                     +0.005995 (POS)
+diritto                   +0.005995 (POS)
+compresi                  +0.005623 (POS)
+sanciti                   +0.005617 (POS)
+di                        +0.003753 (POS)
+IA                        +0.003753 (POS)
+europea                   +0.003284 (POS)
+proteggere                +0.002554 (POS)
+diritti                   +0.002340 (POS)
+dalla                     +0.002340 (POS)
+Carta                     +0.002340 (POS)
+della                     +0.002018 (POS)
+sicurezza                 +0.002018 (POS)
+diffusione                +0.001853 (POS)
+nocivi                    +0.001817 (POS)
+dei                       +0.000909 (POS)
+sistemi                   +0.000909 (POS)
+contro                    +0.000851 (POS)
+gli                       +0.000851 (POS)
+effetti                   +0.000851 (POS)
+nel                       +0.000234 (POS)

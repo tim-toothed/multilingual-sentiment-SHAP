@@ -1,0 +1,132 @@
+
+=== Processing text ===
+Le grandi imprese si pagano care, signor Parcher. Solo chi rimane in disparte può permettersi di condannare, signor Nash.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000807
+Le              | 'Le'                 | 0     | 2     | -0.003567
+grandi          | 'grandi'             | 3     | 9     | +0.095417
+im              | 'im'                 | 10    | 12    | +0.008512
+prese           | 'prese'              | 12    | 17    | +0.011964
+si              | 'si'                 | 18    | 20    | +0.006287
+pag             | 'pag'                | 21    | 24    | +0.008510
+ano             | 'ano'                | 24    | 27    | +0.005408
+care            | 'care'               | 28    | 32    | +0.009378
+,               | ','                  | 32    | 33    | +0.027560
+sign            | 'sign'               | 34    | 38    | +0.042083
+or              | 'or'                 | 38    | 40    | +0.006308
+Parc            | 'Parc'               | 41    | 45    | -0.012200
+her             | 'her'                | 45    | 48    | +0.028974
+.               | '.'                  | 48    | 49    | +0.006570
+Solo            | 'Solo'               | 50    | 54    | +0.030082
+chi             | 'chi'                | 55    | 58    | +0.026296
+rimane          | 'rimane'             | 59    | 65    | -0.021788
+in              | 'in'                 | 66    | 68    | -0.004891
+dis             | 'dis'                | 69    | 72    | -0.007440
+parte           | 'parte'              | 72    | 77    | -0.006409
+può             | 'può'                | 78    | 81    | -0.002616
+permette        | 'permette'           | 82    | 90    | +0.015595
+rsi             | 'rsi'                | 90    | 93    | -0.002589
+di              | 'di'                 | 94    | 96    | -0.023787
+con             | 'con'                | 97    | 100   | -0.023841
+danna           | 'danna'              | 100   | 105   | -0.100302
+re              | 're'                 | 105   | 107   | +0.007987
+,               | ','                  | 107   | 108   | +0.006496
+sign            | 'sign'               | 109   | 113   | -0.004886
+or              | 'or'                 | 113   | 115   | -0.005592
+Nash            | 'Nash'               | 116   | 120   | -0.003739
+.               | '.'                  | 120   | 121   | -0.006508
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Le ' (0-2) as 'Le'
+
+Saved word: 'Le' with SHAP -0.003567
+  Added token 'grandi ' (3-9) as 'grandi'
+
+Saved word: 'grandi' with SHAP +0.095417
+  Added token 'im' (10-12) as 'im'
+  Added token 'prese ' (12-17) as 'prese'
+
+Saved word: 'imprese' with SHAP +0.020477
+  Added token 'si ' (18-20) as 'si'
+
+Saved word: 'si' with SHAP +0.006287
+  Added token 'pag' (21-24) as 'pag'
+  Added token 'ano ' (24-27) as 'ano'
+
+Saved word: 'pagano' with SHAP +0.013919
+  Added token 'care' (28-32) as 'care'
+  Added token ', ' (32-33) as ','
+
+Saved word: 'care,' with SHAP +0.036938
+  Added token 'sign' (34-38) as 'sign'
+  Added token 'or ' (38-40) as 'or'
+
+Saved word: 'signor' with SHAP +0.048392
+  Added token 'Parc' (41-45) as 'Parc'
+  Added token 'her' (45-48) as 'her'
+  Added token '. ' (48-49) as '.'
+
+Saved word: 'Parcher.' with SHAP +0.023344
+  Added token 'Solo ' (50-54) as 'Solo'
+
+Saved word: 'Solo' with SHAP +0.030082
+  Added token 'chi ' (55-58) as 'chi'
+
+Saved word: 'chi' with SHAP +0.026296
+  Added token 'rimane ' (59-65) as 'rimane'
+
+Saved word: 'rimane' with SHAP -0.021788
+  Added token 'in ' (66-68) as 'in'
+
+Saved word: 'in' with SHAP -0.004891
+  Added token 'dis' (69-72) as 'dis'
+  Added token 'parte ' (72-77) as 'parte'
+
+Saved word: 'disparte' with SHAP -0.013850
+  Added token 'può ' (78-81) as 'può'
+
+Saved word: 'può' with SHAP -0.002616
+  Added token 'permette' (82-90) as 'permette'
+  Added token 'rsi ' (90-93) as 'rsi'
+
+Saved word: 'permettersi' with SHAP +0.013006
+  Added token 'di ' (94-96) as 'di'
+
+Saved word: 'di' with SHAP -0.023787
+  Added token 'con' (97-100) as 'con'
+  Added token 'danna' (100-105) as 'danna'
+  Added token 're' (105-107) as 're'
+  Added token ', ' (107-108) as ','
+
+Saved word: 'condannare,' with SHAP -0.109659
+  Added token 'sign' (109-113) as 'sign'
+  Added token 'or ' (113-115) as 'or'
+
+Saved word: 'signor' with SHAP -0.010479
+  Added token 'Nash' (116-120) as 'Nash'
+  Added token '.' (120-121) as '.'
+
+Saved final word: 'Nash.' with SHAP -0.010247
+
+=== Final Word Contributions ===
+condannare,               -0.109659 (NEG)
+grandi                    +0.095417 (POS)
+care,                     +0.036938 (POS)
+Solo                      +0.030082 (POS)
+chi                       +0.026296 (POS)
+di                        -0.023787 (NEG)
+Parcher.                  +0.023344 (POS)
+rimane                    -0.021788 (NEG)
+imprese                   +0.020477 (POS)
+pagano                    +0.013919 (POS)
+disparte                  -0.013850 (NEG)
+permettersi               +0.013006 (POS)
+signor                    -0.010479 (NEG)
+Nash.                     -0.010247 (NEG)
+si                        +0.006287 (POS)
+in                        -0.004891 (NEG)
+Le                        -0.003567 (NEG)
+può                       -0.002616 (NEG)

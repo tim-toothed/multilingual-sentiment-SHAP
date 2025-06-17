@@ -1,0 +1,149 @@
+
+=== Processing text ===
+La capacità inferenziale di un sistema di IA trascende l'elaborazione di base dei dati consentendo l'apprendimento, il ragionamento o la modellizzazione.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.001050
+La              | 'La'                 | 0     | 2     | +0.007053
+capacità        | 'capacità'           | 3     | 11    | +0.047437
+in              | 'in'                 | 12    | 14    | +0.018967
+fere            | 'fere'               | 14    | 18    | +0.018979
+nziale          | 'nziale'             | 18    | 24    | +0.003939
+di              | 'di'                 | 25    | 27    | -0.002655
+un              | 'un'                 | 28    | 30    | -0.001046
+sistema         | 'sistema'            | 31    | 38    | +0.007087
+di              | 'di'                 | 39    | 41    | +0.002284
+IA              | 'IA'                 | 42    | 44    | +0.008942
+tras            | 'tras'               | 45    | 49    | +0.035505
+cend            | 'cend'               | 49    | 53    | +0.031429
+e               | 'e'                  | 53    | 54    | +0.007089
+l               | 'l'                  | 55    | 56    | +0.013199
+'               | "'"                  | 56    | 57    | +0.004657
+ela             | 'ela'                | 57    | 60    | +0.024369
+bora            | 'bora'               | 60    | 64    | -0.027207
+zione           | 'zione'              | 64    | 69    | +0.029527
+di              | 'di'                 | 70    | 72    | -0.003424
+base            | 'base'               | 73    | 77    | -0.004579
+dei             | 'dei'                | 78    | 81    | -0.002480
+dati            | 'dati'               | 82    | 86    | -0.012007
+consente        | 'consente'           | 87    | 95    | +0.032388
+ndo             | 'ndo'                | 95    | 98    | +0.003888
+l               | 'l'                  | 99    | 100   | +0.016307
+'               | "'"                  | 100   | 101   | +0.011792
+apprend         | 'apprend'            | 101   | 108   | +0.010519
+imento          | 'imento'             | 108   | 114   | +0.009712
+,               | ','                  | 114   | 115   | +0.016543
+il              | 'il'                 | 116   | 118   | +0.046773
+ra              | 'ra'                 | 119   | 121   | +0.007122
+gion            | 'gion'               | 121   | 125   | -0.011307
+amento          | 'amento'             | 125   | 131   | +0.002921
+o               | 'o'                  | 132   | 133   | +0.019782
+la              | 'la'                 | 134   | 136   | +0.005565
+modelli         | 'modelli'            | 137   | 144   | +0.004465
+zzazione        | 'zzazione'           | 144   | 152   | +0.004465
+.               | '.'                  | 152   | 153   | -0.001014
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.007053
+  Added token 'capacità ' (3-11) as 'capacità'
+
+Saved word: 'capacità' with SHAP +0.047437
+  Added token 'in' (12-14) as 'in'
+  Added token 'fere' (14-18) as 'fere'
+  Added token 'nziale ' (18-24) as 'nziale'
+
+Saved word: 'inferenziale' with SHAP +0.041884
+  Added token 'di ' (25-27) as 'di'
+
+Saved word: 'di' with SHAP -0.002655
+  Added token 'un ' (28-30) as 'un'
+
+Saved word: 'un' with SHAP -0.001046
+  Added token 'sistema ' (31-38) as 'sistema'
+
+Saved word: 'sistema' with SHAP +0.007087
+  Added token 'di ' (39-41) as 'di'
+
+Saved word: 'di' with SHAP +0.002284
+  Added token 'IA ' (42-44) as 'IA'
+
+Saved word: 'IA' with SHAP +0.008942
+  Added token 'tras' (45-49) as 'tras'
+  Added token 'cend' (49-53) as 'cend'
+  Added token 'e ' (53-54) as 'e'
+
+Saved word: 'trascende' with SHAP +0.074023
+  Added token 'l' (55-56) as 'l'
+  Added token ''' (56-57) as '''
+  Added token 'ela' (57-60) as 'ela'
+  Added token 'bora' (60-64) as 'bora'
+  Added token 'zione ' (64-69) as 'zione'
+
+Saved word: 'l'elaborazione' with SHAP +0.044545
+  Added token 'di ' (70-72) as 'di'
+
+Saved word: 'di' with SHAP -0.003424
+  Added token 'base ' (73-77) as 'base'
+
+Saved word: 'base' with SHAP -0.004579
+  Added token 'dei ' (78-81) as 'dei'
+
+Saved word: 'dei' with SHAP -0.002480
+  Added token 'dati ' (82-86) as 'dati'
+
+Saved word: 'dati' with SHAP -0.012007
+  Added token 'consente' (87-95) as 'consente'
+  Added token 'ndo ' (95-98) as 'ndo'
+
+Saved word: 'consentendo' with SHAP +0.036277
+  Added token 'l' (99-100) as 'l'
+  Added token ''' (100-101) as '''
+  Added token 'apprend' (101-108) as 'apprend'
+  Added token 'imento' (108-114) as 'imento'
+  Added token ', ' (114-115) as ','
+
+Saved word: 'l'apprendimento,' with SHAP +0.064874
+  Added token 'il ' (116-118) as 'il'
+
+Saved word: 'il' with SHAP +0.046773
+  Added token 'ra' (119-121) as 'ra'
+  Added token 'gion' (121-125) as 'gion'
+  Added token 'amento ' (125-131) as 'amento'
+
+Saved word: 'ragionamento' with SHAP -0.001264
+  Added token 'o ' (132-133) as 'o'
+
+Saved word: 'o' with SHAP +0.019782
+  Added token 'la ' (134-136) as 'la'
+
+Saved word: 'la' with SHAP +0.005565
+  Added token 'modelli' (137-144) as 'modelli'
+  Added token 'zzazione' (144-152) as 'zzazione'
+  Added token '.' (152-153) as '.'
+
+Saved final word: 'modellizzazione.' with SHAP +0.007916
+
+=== Final Word Contributions ===
+trascende                 +0.074023 (POS)
+l'apprendimento,          +0.064874 (POS)
+capacità                  +0.047437 (POS)
+il                        +0.046773 (POS)
+l'elaborazione            +0.044545 (POS)
+inferenziale              +0.041884 (POS)
+consentendo               +0.036277 (POS)
+o                         +0.019782 (POS)
+dati                      -0.012007 (NEG)
+IA                        +0.008942 (POS)
+modellizzazione.          +0.007916 (POS)
+sistema                   +0.007087 (POS)
+La                        +0.007053 (POS)
+la                        +0.005565 (POS)
+base                      -0.004579 (NEG)
+di                        -0.003424 (NEG)
+dei                       -0.002480 (NEG)
+ragionamento              -0.001264 (NEG)
+un                        -0.001046 (NEG)

@@ -1,0 +1,63 @@
+
+=== Processing text ===
+Gli farò un'offerta che non può rifiutare.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Gli             | 'Gli'                | 0     | 3     | +0.006342
+far             | 'far'                | 4     | 7     | +0.040433
+ò               | 'ò'                  | 7     | 8     | +0.052113
+un              | 'un'                 | 9     | 11    | -0.041274
+'               | "'"                  | 11    | 12    | +0.040527
+offer           | 'offer'              | 12    | 17    | -0.027956
+ta              | 'ta'                 | 17    | 19    | +0.008940
+che             | 'che'                | 20    | 23    | +0.010016
+non             | 'non'                | 24    | 27    | +0.095180
+può             | 'può'                | 28    | 31    | -0.031565
+ri              | 'ri'                 | 32    | 34    | +0.008402
+fi              | 'fi'                 | 34    | 36    | -0.032723
+utar            | 'utar'               | 36    | 40    | +0.075410
+e               | 'e'                  | 40    | 41    | -0.001429
+.               | '.'                  | 41    | 42    | +0.028718
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Gli ' (0-3) as 'Gli'
+
+Saved word: 'Gli' with SHAP +0.006342
+  Added token 'far' (4-7) as 'far'
+  Added token 'ò ' (7-8) as 'ò'
+
+Saved word: 'farò' with SHAP +0.092546
+  Added token 'un' (9-11) as 'un'
+  Added token ''' (11-12) as '''
+  Added token 'offer' (12-17) as 'offer'
+  Added token 'ta ' (17-19) as 'ta'
+
+Saved word: 'un'offerta' with SHAP -0.019763
+  Added token 'che ' (20-23) as 'che'
+
+Saved word: 'che' with SHAP +0.010016
+  Added token 'non ' (24-27) as 'non'
+
+Saved word: 'non' with SHAP +0.095180
+  Added token 'può ' (28-31) as 'può'
+
+Saved word: 'può' with SHAP -0.031565
+  Added token 'ri' (32-34) as 'ri'
+  Added token 'fi' (34-36) as 'fi'
+  Added token 'utar' (36-40) as 'utar'
+  Added token 'e' (40-41) as 'e'
+  Added token '.' (41-42) as '.'
+
+Saved final word: 'rifiutare.' with SHAP +0.078378
+
+=== Final Word Contributions ===
+non                       +0.095180 (POS)
+farò                      +0.092546 (POS)
+rifiutare.                +0.078378 (POS)
+può                       -0.031565 (NEG)
+un'offerta                -0.019763 (NEG)
+che                       +0.010016 (POS)
+Gli                       +0.006342 (POS)

@@ -1,0 +1,79 @@
+
+=== Processing text ===
+I fear this may be the last time we ever see each other.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+I               | 'I'                  | 0     | 1     | -0.022300
+fear            | 'fear'               | 2     | 6     | +0.102695
+this            | 'this'               | 7     | 11    | +0.044070
+may             | 'may'                | 12    | 15    | -0.023776
+be              | 'be'                 | 16    | 18    | +0.023016
+the             | 'the'                | 19    | 22    | +0.013641
+last            | 'last'               | 23    | 27    | +0.068073
+time            | 'time'               | 28    | 32    | +0.039243
+we              | 'we'                 | 33    | 35    | +0.019113
+ever            | 'ever'               | 36    | 40    | -0.002977
+see             | 'see'                | 41    | 44    | -0.010876
+each            | 'each'               | 45    | 49    | +0.023231
+other           | 'other'              | 50    | 55    | +0.030784
+.               | '.'                  | 55    | 56    | +0.001276
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP -0.022300
+  Added token 'fear ' (2-6) as 'fear'
+
+Saved word: 'fear' with SHAP +0.102695
+  Added token 'this ' (7-11) as 'this'
+
+Saved word: 'this' with SHAP +0.044070
+  Added token 'may ' (12-15) as 'may'
+
+Saved word: 'may' with SHAP -0.023776
+  Added token 'be ' (16-18) as 'be'
+
+Saved word: 'be' with SHAP +0.023016
+  Added token 'the ' (19-22) as 'the'
+
+Saved word: 'the' with SHAP +0.013641
+  Added token 'last ' (23-27) as 'last'
+
+Saved word: 'last' with SHAP +0.068073
+  Added token 'time ' (28-32) as 'time'
+
+Saved word: 'time' with SHAP +0.039243
+  Added token 'we ' (33-35) as 'we'
+
+Saved word: 'we' with SHAP +0.019113
+  Added token 'ever ' (36-40) as 'ever'
+
+Saved word: 'ever' with SHAP -0.002977
+  Added token 'see ' (41-44) as 'see'
+
+Saved word: 'see' with SHAP -0.010876
+  Added token 'each ' (45-49) as 'each'
+
+Saved word: 'each' with SHAP +0.023231
+  Added token 'other' (50-55) as 'other'
+  Added token '.' (55-56) as '.'
+
+Saved final word: 'other.' with SHAP +0.032061
+
+=== Final Word Contributions ===
+fear                      +0.102695 (POS)
+last                      +0.068073 (POS)
+this                      +0.044070 (POS)
+time                      +0.039243 (POS)
+other.                    +0.032061 (POS)
+may                       -0.023776 (NEG)
+each                      +0.023231 (POS)
+be                        +0.023016 (POS)
+I                         -0.022300 (NEG)
+we                        +0.019113 (POS)
+the                       +0.013641 (POS)
+see                       -0.010876 (NEG)
+ever                      -0.002977 (NEG)

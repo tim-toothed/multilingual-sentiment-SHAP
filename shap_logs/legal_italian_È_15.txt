@@ -1,0 +1,337 @@
+
+=== Processing text ===
+È altresì importante chiarire che possono esservi casi specifici in cui i sistemi di IA riferiti a settori predefiniti indicati nel presente regolamento non comportano un rischio significativo di pregiudicare gli interessi giuridici tutelati nell'ambito di tali settori in quanto non influenzano materialmente il processo decisionale né pregiudicano tali interessi in modo sostanziale.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004650
+È               | 'È'                  | 0     | 1     | +0.006905
+altres          | 'altres'             | 2     | 8     | -0.010292
+ì               | 'ì'                  | 8     | 9     | -0.002460
+importante      | 'importante'         | 10    | 20    | +0.016040
+chiar           | 'chiar'              | 21    | 26    | +0.013387
+ire             | 'ire'                | 26    | 29    | +0.013387
+che             | 'che'                | 30    | 33    | +0.011782
+possono         | 'possono'            | 34    | 41    | +0.013758
+esse            | 'esse'               | 42    | 46    | -0.004784
+rvi             | 'rvi'                | 46    | 49    | -0.004784
+casi            | 'casi'               | 50    | 54    | -0.011880
+specific        | 'specific'           | 55    | 63    | +0.038977
+i               | 'i'                  | 63    | 64    | +0.019984
+in              | 'in'                 | 65    | 67    | +0.010378
+cui             | 'cui'                | 68    | 71    | +0.010378
+i               | 'i'                  | 72    | 73    | +0.005852
+sistemi         | 'sistemi'            | 74    | 81    | +0.005852
+di              | 'di'                 | 82    | 84    | +0.006871
+IA              | 'IA'                 | 85    | 87    | +0.006871
+ri              | 'ri'                 | 88    | 90    | +0.008823
+feri            | 'feri'               | 90    | 94    | +0.008823
+ti              | 'ti'                 | 94    | 96    | +0.006544
+a               | 'a'                  | 97    | 98    | +0.005759
+sett            | 'sett'               | 99    | 103   | +0.005759
+ori             | 'ori'                | 103   | 106   | +0.005759
+pred            | 'pred'               | 107   | 111   | +0.001631
+ef              | 'ef'                 | 111   | 113   | +0.001631
+ini             | 'ini'                | 113   | 116   | +0.001631
+ti              | 'ti'                 | 116   | 118   | +0.001631
+indica          | 'indica'             | 119   | 125   | +0.004857
+ti              | 'ti'                 | 125   | 127   | +0.004857
+nel             | 'nel'                | 128   | 131   | +0.004646
+presente        | 'presente'           | 132   | 140   | +0.004646
+re              | 're'                 | 141   | 143   | +0.001760
+gola            | 'gola'               | 143   | 147   | +0.001760
+mento           | 'mento'              | 147   | 152   | +0.001760
+non             | 'non'                | 153   | 156   | +0.018113
+comporta        | 'comporta'           | 157   | 165   | +0.002146
+no              | 'no'                 | 165   | 167   | +0.002146
+un              | 'un'                 | 168   | 170   | +0.002478
+rischio         | 'rischio'            | 171   | 178   | +0.002478
+significativo   | 'significativo'      | 179   | 192   | +0.003058
+di              | 'di'                 | 193   | 195   | +0.003058
+pre             | 'pre'                | 196   | 199   | -0.000699
+giu             | 'giu'                | 199   | 202   | -0.000699
+dica            | 'dica'               | 202   | 206   | -0.000699
+re              | 're'                 | 206   | 208   | -0.000699
+gli             | 'gli'                | 209   | 212   | +0.004402
+interes         | 'interes'            | 213   | 220   | +0.004402
+si              | 'si'                 | 220   | 222   | +0.004402
+gi              | 'gi'                 | 223   | 225   | +0.001006
+uri             | 'uri'                | 225   | 228   | +0.001006
+dici            | 'dici'               | 228   | 232   | +0.001006
+tutela          | 'tutela'             | 233   | 239   | +0.001484
+ti              | 'ti'                 | 239   | 241   | +0.001484
+nell            | 'nell'               | 242   | 246   | +0.001484
+'               | "'"                  | 246   | 247   | +0.001484
+ambito          | 'ambito'             | 247   | 253   | +0.002015
+di              | 'di'                 | 254   | 256   | +0.002015
+tali            | 'tali'               | 257   | 261   | +0.002015
+sett            | 'sett'               | 262   | 266   | +0.002015
+ori             | 'ori'                | 266   | 269   | +0.002015
+in              | 'in'                 | 270   | 272   | +0.014947
+quanto          | 'quanto'             | 273   | 279   | +0.014947
+non             | 'non'                | 280   | 283   | +0.010385
+influenza       | 'influenza'          | 284   | 293   | +0.001447
+no              | 'no'                 | 293   | 295   | +0.001447
+material        | 'material'           | 296   | 304   | +0.001447
+mente           | 'mente'              | 304   | 309   | +0.001447
+il              | 'il'                 | 310   | 312   | +0.002554
+processo        | 'processo'           | 313   | 321   | +0.002554
+decision        | 'decision'           | 322   | 330   | +0.002554
+ale             | 'ale'                | 330   | 333   | +0.002554
+né              | 'né'                 | 334   | 336   | +0.002554
+pre             | 'pre'                | 337   | 340   | +0.003802
+giu             | 'giu'                | 340   | 343   | +0.003802
+dica            | 'dica'               | 343   | 347   | +0.003802
+no              | 'no'                 | 347   | 349   | +0.003802
+tali            | 'tali'               | 350   | 354   | +0.001999
+interes         | 'interes'            | 355   | 362   | +0.001999
+si              | 'si'                 | 362   | 364   | +0.001999
+in              | 'in'                 | 365   | 367   | +0.001999
+modo            | 'modo'               | 368   | 372   | +0.001999
+sos             | 'sos'                | 373   | 376   | +0.002321
+tan             | 'tan'                | 376   | 379   | +0.002321
+ziale           | 'ziale'              | 379   | 384   | +0.002321
+.               | '.'                  | 384   | 385   | +0.002321
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'È ' (0-1) as 'È'
+
+Saved word: 'È' with SHAP +0.006905
+  Added token 'altres' (2-8) as 'altres'
+  Added token 'ì ' (8-9) as 'ì'
+
+Saved word: 'altresì' with SHAP -0.012752
+  Added token 'importante ' (10-20) as 'importante'
+
+Saved word: 'importante' with SHAP +0.016040
+  Added token 'chiar' (21-26) as 'chiar'
+  Added token 'ire ' (26-29) as 'ire'
+
+Saved word: 'chiarire' with SHAP +0.026774
+  Added token 'che ' (30-33) as 'che'
+
+Saved word: 'che' with SHAP +0.011782
+  Added token 'possono ' (34-41) as 'possono'
+
+Saved word: 'possono' with SHAP +0.013758
+  Added token 'esse' (42-46) as 'esse'
+  Added token 'rvi ' (46-49) as 'rvi'
+
+Saved word: 'esservi' with SHAP -0.009569
+  Added token 'casi ' (50-54) as 'casi'
+
+Saved word: 'casi' with SHAP -0.011880
+  Added token 'specific' (55-63) as 'specific'
+  Added token 'i ' (63-64) as 'i'
+
+Saved word: 'specifici' with SHAP +0.058961
+  Added token 'in ' (65-67) as 'in'
+
+Saved word: 'in' with SHAP +0.010378
+  Added token 'cui ' (68-71) as 'cui'
+
+Saved word: 'cui' with SHAP +0.010378
+  Added token 'i ' (72-73) as 'i'
+
+Saved word: 'i' with SHAP +0.005852
+  Added token 'sistemi ' (74-81) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.005852
+  Added token 'di ' (82-84) as 'di'
+
+Saved word: 'di' with SHAP +0.006871
+  Added token 'IA ' (85-87) as 'IA'
+
+Saved word: 'IA' with SHAP +0.006871
+  Added token 'ri' (88-90) as 'ri'
+  Added token 'feri' (90-94) as 'feri'
+  Added token 'ti ' (94-96) as 'ti'
+
+Saved word: 'riferiti' with SHAP +0.024191
+  Added token 'a ' (97-98) as 'a'
+
+Saved word: 'a' with SHAP +0.005759
+  Added token 'sett' (99-103) as 'sett'
+  Added token 'ori ' (103-106) as 'ori'
+
+Saved word: 'settori' with SHAP +0.011519
+  Added token 'pred' (107-111) as 'pred'
+  Added token 'ef' (111-113) as 'ef'
+  Added token 'ini' (113-116) as 'ini'
+  Added token 'ti ' (116-118) as 'ti'
+
+Saved word: 'predefiniti' with SHAP +0.006523
+  Added token 'indica' (119-125) as 'indica'
+  Added token 'ti ' (125-127) as 'ti'
+
+Saved word: 'indicati' with SHAP +0.009714
+  Added token 'nel ' (128-131) as 'nel'
+
+Saved word: 'nel' with SHAP +0.004646
+  Added token 'presente ' (132-140) as 'presente'
+
+Saved word: 'presente' with SHAP +0.004646
+  Added token 're' (141-143) as 're'
+  Added token 'gola' (143-147) as 'gola'
+  Added token 'mento ' (147-152) as 'mento'
+
+Saved word: 'regolamento' with SHAP +0.005281
+  Added token 'non ' (153-156) as 'non'
+
+Saved word: 'non' with SHAP +0.018113
+  Added token 'comporta' (157-165) as 'comporta'
+  Added token 'no ' (165-167) as 'no'
+
+Saved word: 'comportano' with SHAP +0.004292
+  Added token 'un ' (168-170) as 'un'
+
+Saved word: 'un' with SHAP +0.002478
+  Added token 'rischio ' (171-178) as 'rischio'
+
+Saved word: 'rischio' with SHAP +0.002478
+  Added token 'significativo ' (179-192) as 'significativo'
+
+Saved word: 'significativo' with SHAP +0.003058
+  Added token 'di ' (193-195) as 'di'
+
+Saved word: 'di' with SHAP +0.003058
+  Added token 'pre' (196-199) as 'pre'
+  Added token 'giu' (199-202) as 'giu'
+  Added token 'dica' (202-206) as 'dica'
+  Added token 're ' (206-208) as 're'
+
+Saved word: 'pregiudicare' with SHAP -0.002796
+  Added token 'gli ' (209-212) as 'gli'
+
+Saved word: 'gli' with SHAP +0.004402
+  Added token 'interes' (213-220) as 'interes'
+  Added token 'si ' (220-222) as 'si'
+
+Saved word: 'interessi' with SHAP +0.008803
+  Added token 'gi' (223-225) as 'gi'
+  Added token 'uri' (225-228) as 'uri'
+  Added token 'dici ' (228-232) as 'dici'
+
+Saved word: 'giuridici' with SHAP +0.003018
+  Added token 'tutela' (233-239) as 'tutela'
+  Added token 'ti ' (239-241) as 'ti'
+
+Saved word: 'tutelati' with SHAP +0.002968
+  Added token 'nell' (242-246) as 'nell'
+  Added token ''' (246-247) as '''
+  Added token 'ambito ' (247-253) as 'ambito'
+
+Saved word: 'nell'ambito' with SHAP +0.004983
+  Added token 'di ' (254-256) as 'di'
+
+Saved word: 'di' with SHAP +0.002015
+  Added token 'tali ' (257-261) as 'tali'
+
+Saved word: 'tali' with SHAP +0.002015
+  Added token 'sett' (262-266) as 'sett'
+  Added token 'ori ' (266-269) as 'ori'
+
+Saved word: 'settori' with SHAP +0.004029
+  Added token 'in ' (270-272) as 'in'
+
+Saved word: 'in' with SHAP +0.014947
+  Added token 'quanto ' (273-279) as 'quanto'
+
+Saved word: 'quanto' with SHAP +0.014947
+  Added token 'non ' (280-283) as 'non'
+
+Saved word: 'non' with SHAP +0.010385
+  Added token 'influenza' (284-293) as 'influenza'
+  Added token 'no ' (293-295) as 'no'
+
+Saved word: 'influenzano' with SHAP +0.002893
+  Added token 'material' (296-304) as 'material'
+  Added token 'mente ' (304-309) as 'mente'
+
+Saved word: 'materialmente' with SHAP +0.002893
+  Added token 'il ' (310-312) as 'il'
+
+Saved word: 'il' with SHAP +0.002554
+  Added token 'processo ' (313-321) as 'processo'
+
+Saved word: 'processo' with SHAP +0.002554
+  Added token 'decision' (322-330) as 'decision'
+  Added token 'ale ' (330-333) as 'ale'
+
+Saved word: 'decisionale' with SHAP +0.005108
+  Added token 'né ' (334-336) as 'né'
+
+Saved word: 'né' with SHAP +0.002554
+  Added token 'pre' (337-340) as 'pre'
+  Added token 'giu' (340-343) as 'giu'
+  Added token 'dica' (343-347) as 'dica'
+  Added token 'no ' (347-349) as 'no'
+
+Saved word: 'pregiudicano' with SHAP +0.015207
+  Added token 'tali ' (350-354) as 'tali'
+
+Saved word: 'tali' with SHAP +0.001999
+  Added token 'interes' (355-362) as 'interes'
+  Added token 'si ' (362-364) as 'si'
+
+Saved word: 'interessi' with SHAP +0.003997
+  Added token 'in ' (365-367) as 'in'
+
+Saved word: 'in' with SHAP +0.001999
+  Added token 'modo ' (368-372) as 'modo'
+
+Saved word: 'modo' with SHAP +0.001999
+  Added token 'sos' (373-376) as 'sos'
+  Added token 'tan' (376-379) as 'tan'
+  Added token 'ziale' (379-384) as 'ziale'
+  Added token '.' (384-385) as '.'
+
+Saved final word: 'sostanziale.' with SHAP +0.009282
+
+=== Final Word Contributions ===
+specifici                 +0.058961 (POS)
+chiarire                  +0.026774 (POS)
+riferiti                  +0.024191 (POS)
+importante                +0.016040 (POS)
+pregiudicano              +0.015207 (POS)
+quanto                    +0.014947 (POS)
+possono                   +0.013758 (POS)
+altresì                   -0.012752 (NEG)
+casi                      -0.011880 (NEG)
+che                       +0.011782 (POS)
+non                       +0.010385 (POS)
+cui                       +0.010378 (POS)
+indicati                  +0.009714 (POS)
+esservi                   -0.009569 (NEG)
+sostanziale.              +0.009282 (POS)
+È                         +0.006905 (POS)
+IA                        +0.006871 (POS)
+predefiniti               +0.006523 (POS)
+i                         +0.005852 (POS)
+sistemi                   +0.005852 (POS)
+a                         +0.005759 (POS)
+regolamento               +0.005281 (POS)
+decisionale               +0.005108 (POS)
+nell'ambito               +0.004983 (POS)
+nel                       +0.004646 (POS)
+presente                  +0.004646 (POS)
+gli                       +0.004402 (POS)
+comportano                +0.004292 (POS)
+settori                   +0.004029 (POS)
+interessi                 +0.003997 (POS)
+significativo             +0.003058 (POS)
+giuridici                 +0.003018 (POS)
+tutelati                  +0.002968 (POS)
+influenzano               +0.002893 (POS)
+materialmente             +0.002893 (POS)
+pregiudicare              -0.002796 (NEG)
+il                        +0.002554 (POS)
+processo                  +0.002554 (POS)
+né                        +0.002554 (POS)
+un                        +0.002478 (POS)
+rischio                   +0.002478 (POS)
+di                        +0.002015 (POS)
+in                        +0.001999 (POS)
+tali                      +0.001999 (POS)
+modo                      +0.001999 (POS)

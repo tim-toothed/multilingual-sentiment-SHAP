@@ -1,0 +1,102 @@
+
+=== Processing text ===
+I called the theater, and I told them you weren't feeling well. I have to go.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000543
+I               | 'I'                  | 0     | 1     | -0.002430
+called          | 'called'             | 2     | 8     | +0.007310
+the             | 'the'                | 9     | 12    | +0.003902
+theater         | 'theater'            | 13    | 20    | -0.009189
+,               | ','                  | 20    | 21    | -0.002665
+and             | 'and'                | 22    | 25    | +0.005521
+I               | 'I'                  | 26    | 27    | -0.002527
+told            | 'told'               | 28    | 32    | +0.005842
+them            | 'them'               | 33    | 37    | -0.000524
+you             | 'you'                | 38    | 41    | -0.030233
+were            | 'were'               | 42    | 46    | +0.014370
+n               | 'n'                  | 46    | 47    | +0.006810
+'               | "'"                  | 47    | 48    | +0.003845
+t               | 't'                  | 48    | 49    | +0.168374
+feeling         | 'feeling'            | 50    | 57    | +0.024545
+well            | 'well'               | 58    | 62    | +0.026412
+.               | '.'                  | 62    | 63    | -0.004387
+I               | 'I'                  | 64    | 65    | -0.010283
+have            | 'have'               | 66    | 70    | -0.002512
+to              | 'to'                 | 71    | 73    | -0.006103
+go              | 'go'                 | 74    | 76    | -0.012384
+.               | '.'                  | 76    | 77    | -0.011678
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP -0.002430
+  Added token 'called ' (2-8) as 'called'
+
+Saved word: 'called' with SHAP +0.007310
+  Added token 'the ' (9-12) as 'the'
+
+Saved word: 'the' with SHAP +0.003902
+  Added token 'theater' (13-20) as 'theater'
+  Added token ', ' (20-21) as ','
+
+Saved word: 'theater,' with SHAP -0.011854
+  Added token 'and ' (22-25) as 'and'
+
+Saved word: 'and' with SHAP +0.005521
+  Added token 'I ' (26-27) as 'I'
+
+Saved word: 'I' with SHAP -0.002527
+  Added token 'told ' (28-32) as 'told'
+
+Saved word: 'told' with SHAP +0.005842
+  Added token 'them ' (33-37) as 'them'
+
+Saved word: 'them' with SHAP -0.000524
+  Added token 'you ' (38-41) as 'you'
+
+Saved word: 'you' with SHAP -0.030233
+  Added token 'were' (42-46) as 'were'
+  Added token 'n' (46-47) as 'n'
+  Added token ''' (47-48) as '''
+  Added token 't ' (48-49) as 't'
+
+Saved word: 'weren't' with SHAP +0.193400
+  Added token 'feeling ' (50-57) as 'feeling'
+
+Saved word: 'feeling' with SHAP +0.024545
+  Added token 'well' (58-62) as 'well'
+  Added token '. ' (62-63) as '.'
+
+Saved word: 'well.' with SHAP +0.022025
+  Added token 'I ' (64-65) as 'I'
+
+Saved word: 'I' with SHAP -0.010283
+  Added token 'have ' (66-70) as 'have'
+
+Saved word: 'have' with SHAP -0.002512
+  Added token 'to ' (71-73) as 'to'
+
+Saved word: 'to' with SHAP -0.006103
+  Added token 'go' (74-76) as 'go'
+  Added token '.' (76-77) as '.'
+
+Saved final word: 'go.' with SHAP -0.024062
+
+=== Final Word Contributions ===
+weren't                   +0.193400 (POS)
+you                       -0.030233 (NEG)
+feeling                   +0.024545 (POS)
+go.                       -0.024062 (NEG)
+well.                     +0.022025 (POS)
+theater,                  -0.011854 (NEG)
+I                         -0.010283 (NEG)
+called                    +0.007310 (POS)
+to                        -0.006103 (NEG)
+told                      +0.005842 (POS)
+and                       +0.005521 (POS)
+the                       +0.003902 (POS)
+have                      -0.002512 (NEG)
+them                      -0.000524 (NEG)

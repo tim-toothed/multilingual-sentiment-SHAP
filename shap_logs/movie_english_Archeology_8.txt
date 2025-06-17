@@ -1,0 +1,157 @@
+
+=== Processing text ===
+Archeology is the search for fact... not truth. If it's truth you're interested in, Dr. Tyree's philosophy class is right down the hall.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Arch            | 'Arch'               | 0     | 4     | -0.010789
+eo              | 'eo'                 | 4     | 6     | +0.003195
+logy            | 'logy'               | 6     | 10    | +0.001319
+is              | 'is'                 | 11    | 13    | -0.001894
+the             | 'the'                | 14    | 17    | -0.001894
+search          | 'search'             | 18    | 24    | +0.004557
+for             | 'for'                | 25    | 28    | +0.004557
+fact            | 'fact'               | 29    | 33    | +0.002588
+.               | '.'                  | 33    | 34    | -0.010734
+.               | '.'                  | 34    | 35    | +0.012664
+.               | '.'                  | 35    | 36    | +0.015232
+not             | 'not'                | 37    | 40    | +0.060228
+truth           | 'truth'              | 41    | 46    | +0.006780
+.               | '.'                  | 46    | 47    | +0.010328
+If              | 'If'                 | 48    | 50    | +0.006676
+it              | 'it'                 | 51    | 53    | +0.007224
+'               | "'"                  | 53    | 54    | +0.007224
+s               | 's'                  | 54    | 55    | +0.007224
+truth           | 'truth'              | 56    | 61    | +0.004817
+you             | 'you'                | 62    | 65    | +0.004571
+'               | "'"                  | 65    | 66    | +0.004571
+re              | 're'                 | 66    | 68    | +0.004911
+interested      | 'interested'         | 69    | 79    | +0.004911
+in              | 'in'                 | 80    | 82    | +0.004911
+,               | ','                  | 82    | 83    | +0.002871
+Dr              | 'Dr'                 | 84    | 86    | +0.010412
+.               | '.'                  | 86    | 87    | -0.000924
+Ty              | 'Ty'                 | 88    | 90    | +0.004256
+ree             | 'ree'                | 90    | 93    | +0.004256
+'               | "'"                  | 93    | 94    | +0.004058
+s               | 's'                  | 94    | 95    | +0.004058
+philosophy      | 'philosophy'         | 96    | 106   | -0.001054
+class           | 'class'              | 107   | 112   | -0.001054
+is              | 'is'                 | 113   | 115   | -0.001542
+right           | 'right'              | 116   | 121   | -0.001542
+down            | 'down'               | 122   | 126   | +0.004479
+the             | 'the'                | 127   | 130   | +0.004479
+hall            | 'hall'               | 131   | 135   | +0.004352
+.               | '.'                  | 135   | 136   | -0.004225
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Arch' (0-4) as 'Arch'
+  Added token 'eo' (4-6) as 'eo'
+  Added token 'logy ' (6-10) as 'logy'
+
+Saved word: 'Archeology' with SHAP -0.006274
+  Added token 'is ' (11-13) as 'is'
+
+Saved word: 'is' with SHAP -0.001894
+  Added token 'the ' (14-17) as 'the'
+
+Saved word: 'the' with SHAP -0.001894
+  Added token 'search ' (18-24) as 'search'
+
+Saved word: 'search' with SHAP +0.004557
+  Added token 'for ' (25-28) as 'for'
+
+Saved word: 'for' with SHAP +0.004557
+  Added token 'fact' (29-33) as 'fact'
+  Added token '.' (33-34) as '.'
+  Added token '.' (34-35) as '.'
+  Added token '. ' (35-36) as '.'
+
+Saved word: 'fact...' with SHAP +0.019749
+  Added token 'not ' (37-40) as 'not'
+
+Saved word: 'not' with SHAP +0.060228
+  Added token 'truth' (41-46) as 'truth'
+  Added token '. ' (46-47) as '.'
+
+Saved word: 'truth.' with SHAP +0.017108
+  Added token 'If ' (48-50) as 'If'
+
+Saved word: 'If' with SHAP +0.006676
+  Added token 'it' (51-53) as 'it'
+  Added token ''' (53-54) as '''
+  Added token 's ' (54-55) as 's'
+
+Saved word: 'it's' with SHAP +0.021672
+  Added token 'truth ' (56-61) as 'truth'
+
+Saved word: 'truth' with SHAP +0.004817
+  Added token 'you' (62-65) as 'you'
+  Added token ''' (65-66) as '''
+  Added token 're ' (66-68) as 're'
+
+Saved word: 'you're' with SHAP +0.014053
+  Added token 'interested ' (69-79) as 'interested'
+
+Saved word: 'interested' with SHAP +0.004911
+  Added token 'in' (80-82) as 'in'
+  Added token ', ' (82-83) as ','
+
+Saved word: 'in,' with SHAP +0.007782
+  Added token 'Dr' (84-86) as 'Dr'
+  Added token '. ' (86-87) as '.'
+
+Saved word: 'Dr.' with SHAP +0.009487
+  Added token 'Ty' (88-90) as 'Ty'
+  Added token 'ree' (90-93) as 'ree'
+  Added token ''' (93-94) as '''
+  Added token 's ' (94-95) as 's'
+
+Saved word: 'Tyree's' with SHAP +0.016629
+  Added token 'philosophy ' (96-106) as 'philosophy'
+
+Saved word: 'philosophy' with SHAP -0.001054
+  Added token 'class ' (107-112) as 'class'
+
+Saved word: 'class' with SHAP -0.001054
+  Added token 'is ' (113-115) as 'is'
+
+Saved word: 'is' with SHAP -0.001542
+  Added token 'right ' (116-121) as 'right'
+
+Saved word: 'right' with SHAP -0.001542
+  Added token 'down ' (122-126) as 'down'
+
+Saved word: 'down' with SHAP +0.004479
+  Added token 'the ' (127-130) as 'the'
+
+Saved word: 'the' with SHAP +0.004479
+  Added token 'hall' (131-135) as 'hall'
+  Added token '.' (135-136) as '.'
+
+Saved final word: 'hall.' with SHAP +0.000127
+
+=== Final Word Contributions ===
+not                       +0.060228 (POS)
+it's                      +0.021672 (POS)
+fact...                   +0.019749 (POS)
+truth.                    +0.017108 (POS)
+Tyree's                   +0.016629 (POS)
+you're                    +0.014053 (POS)
+Dr.                       +0.009487 (POS)
+in,                       +0.007782 (POS)
+If                        +0.006676 (POS)
+Archeology                -0.006274 (NEG)
+interested                +0.004911 (POS)
+truth                     +0.004817 (POS)
+search                    +0.004557 (POS)
+for                       +0.004557 (POS)
+the                       +0.004479 (POS)
+down                      +0.004479 (POS)
+is                        -0.001542 (NEG)
+right                     -0.001542 (NEG)
+philosophy                -0.001054 (NEG)
+class                     -0.001054 (NEG)
+hall.                     +0.000127 (POS)

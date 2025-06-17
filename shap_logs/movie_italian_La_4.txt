@@ -1,0 +1,136 @@
+
+=== Processing text ===
+La compagnia e' sciolta. Nessuno viene piu' a vederci. Oh, nessuno viene piu' a vedere il balletto in generale...
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004065
+La              | 'La'                 | 0     | 2     | +0.013015
+compagnia       | 'compagnia'          | 3     | 12    | -0.007600
+e               | 'e'                  | 13    | 14    | -0.005388
+'               | "'"                  | 14    | 15    | -0.005388
+sci             | 'sci'                | 16    | 19    | +0.108233
+olta            | 'olta'               | 19    | 23    | +0.077059
+.               | '.'                  | 23    | 24    | +0.046899
+Nes             | 'Nes'                | 25    | 28    | +0.021183
+sun             | 'sun'                | 28    | 31    | +0.021183
+o               | 'o'                  | 31    | 32    | +0.017381
+viene           | 'viene'              | 33    | 38    | +0.023300
+pi              | 'pi'                 | 39    | 41    | +0.013217
+u               | 'u'                  | 41    | 42    | +0.013277
+'               | "'"                  | 42    | 43    | +0.011104
+a               | 'a'                  | 44    | 45    | -0.004212
+vede            | 'vede'               | 46    | 50    | -0.003420
+rci             | 'rci'                | 50    | 53    | -0.003420
+.               | '.'                  | 53    | 54    | +0.014801
+Oh              | 'Oh'                 | 55    | 57    | +0.050089
+,               | ','                  | 57    | 58    | +0.009151
+nessuno         | 'nessuno'            | 59    | 66    | +0.010871
+viene           | 'viene'              | 67    | 72    | +0.010871
+pi              | 'pi'                 | 73    | 75    | +0.008225
+u               | 'u'                  | 75    | 76    | +0.008225
+'               | "'"                  | 76    | 77    | +0.008225
+a               | 'a'                  | 78    | 79    | +0.004748
+vedere          | 'vedere'             | 80    | 86    | +0.004748
+il              | 'il'                 | 87    | 89    | +0.005264
+ballet          | 'ballet'             | 90    | 96    | -0.010432
+to              | 'to'                 | 96    | 98    | -0.010432
+in              | 'in'                 | 99    | 101   | -0.010744
+generale        | 'generale'           | 102   | 110   | -0.010744
+.               | '.'                  | 110   | 111   | +0.004222
+.               | '.'                  | 111   | 112   | +0.007290
+.               | '.'                  | 112   | 113   | -0.012575
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.013015
+  Added token 'compagnia ' (3-12) as 'compagnia'
+
+Saved word: 'compagnia' with SHAP -0.007600
+  Added token 'e' (13-14) as 'e'
+  Added token '' ' (14-15) as '''
+
+Saved word: 'e'' with SHAP -0.010775
+  Added token 'sci' (16-19) as 'sci'
+  Added token 'olta' (19-23) as 'olta'
+  Added token '. ' (23-24) as '.'
+
+Saved word: 'sciolta.' with SHAP +0.232192
+  Added token 'Nes' (25-28) as 'Nes'
+  Added token 'sun' (28-31) as 'sun'
+  Added token 'o ' (31-32) as 'o'
+
+Saved word: 'Nessuno' with SHAP +0.059747
+  Added token 'viene ' (33-38) as 'viene'
+
+Saved word: 'viene' with SHAP +0.023300
+  Added token 'pi' (39-41) as 'pi'
+  Added token 'u' (41-42) as 'u'
+  Added token '' ' (42-43) as '''
+
+Saved word: 'piu'' with SHAP +0.037598
+  Added token 'a ' (44-45) as 'a'
+
+Saved word: 'a' with SHAP -0.004212
+  Added token 'vede' (46-50) as 'vede'
+  Added token 'rci' (50-53) as 'rci'
+  Added token '. ' (53-54) as '.'
+
+Saved word: 'vederci.' with SHAP +0.007961
+  Added token 'Oh' (55-57) as 'Oh'
+  Added token ', ' (57-58) as ','
+
+Saved word: 'Oh,' with SHAP +0.059240
+  Added token 'nessuno ' (59-66) as 'nessuno'
+
+Saved word: 'nessuno' with SHAP +0.010871
+  Added token 'viene ' (67-72) as 'viene'
+
+Saved word: 'viene' with SHAP +0.010871
+  Added token 'pi' (73-75) as 'pi'
+  Added token 'u' (75-76) as 'u'
+  Added token '' ' (76-77) as '''
+
+Saved word: 'piu'' with SHAP +0.024674
+  Added token 'a ' (78-79) as 'a'
+
+Saved word: 'a' with SHAP +0.004748
+  Added token 'vedere ' (80-86) as 'vedere'
+
+Saved word: 'vedere' with SHAP +0.004748
+  Added token 'il ' (87-89) as 'il'
+
+Saved word: 'il' with SHAP +0.005264
+  Added token 'ballet' (90-96) as 'ballet'
+  Added token 'to ' (96-98) as 'to'
+
+Saved word: 'balletto' with SHAP -0.020863
+  Added token 'in ' (99-101) as 'in'
+
+Saved word: 'in' with SHAP -0.010744
+  Added token 'generale' (102-110) as 'generale'
+  Added token '.' (110-111) as '.'
+  Added token '.' (111-112) as '.'
+  Added token '.' (112-113) as '.'
+
+Saved final word: 'generale...' with SHAP -0.011807
+
+=== Final Word Contributions ===
+sciolta.                  +0.232192 (POS)
+Nessuno                   +0.059747 (POS)
+Oh,                       +0.059240 (POS)
+piu'                      +0.024674 (POS)
+balletto                  -0.020863 (NEG)
+La                        +0.013015 (POS)
+generale...               -0.011807 (NEG)
+viene                     +0.010871 (POS)
+nessuno                   +0.010871 (POS)
+e'                        -0.010775 (NEG)
+in                        -0.010744 (NEG)
+vederci.                  +0.007961 (POS)
+compagnia                 -0.007600 (NEG)
+il                        +0.005264 (POS)
+a                         +0.004748 (POS)
+vedere                    +0.004748 (POS)

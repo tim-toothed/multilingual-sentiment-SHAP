@@ -1,0 +1,114 @@
+
+=== Processing text ===
+For goodness sake, there's no reason for you to leave us if you'd... Come with me.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.001135
+For             | 'For'                | 0     | 3     | -0.003308
+good            | 'good'               | 4     | 8     | -0.015918
+ness            | 'ness'               | 8     | 12    | +0.012044
+sa              | 'sa'                 | 13    | 15    | +0.054339
+ke              | 'ke'                 | 15    | 17    | +0.049909
+,               | ','                  | 17    | 18    | -0.033213
+there           | 'there'              | 19    | 24    | -0.033392
+'               | "'"                  | 24    | 25    | -0.001193
+s               | 's'                  | 25    | 26    | -0.030609
+no              | 'no'                 | 27    | 29    | +0.113046
+reason          | 'reason'             | 30    | 36    | +0.007481
+for             | 'for'                | 37    | 40    | +0.016245
+you             | 'you'                | 41    | 44    | +0.022016
+to              | 'to'                 | 45    | 47    | +0.017527
+leave           | 'leave'              | 48    | 53    | +0.027935
+us              | 'us'                 | 54    | 56    | +0.006897
+if              | 'if'                 | 57    | 59    | +0.023062
+you             | 'you'                | 60    | 63    | +0.007038
+'               | "'"                  | 63    | 64    | +0.007755
+d               | 'd'                  | 64    | 65    | +0.007044
+.               | '.'                  | 65    | 66    | +0.012878
+.               | '.'                  | 66    | 67    | -0.007742
+.               | '.'                  | 67    | 68    | -0.007501
+Come            | 'Come'               | 69    | 73    | -0.015622
+with            | 'with'               | 74    | 78    | -0.016926
+me              | 'me'                 | 79    | 81    | +0.000014
+.               | '.'                  | 81    | 82    | -0.017849
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'For ' (0-3) as 'For'
+
+Saved word: 'For' with SHAP -0.003308
+  Added token 'good' (4-8) as 'good'
+  Added token 'ness ' (8-12) as 'ness'
+
+Saved word: 'goodness' with SHAP -0.003874
+  Added token 'sa' (13-15) as 'sa'
+  Added token 'ke' (15-17) as 'ke'
+  Added token ', ' (17-18) as ','
+
+Saved word: 'sake,' with SHAP +0.071035
+  Added token 'there' (19-24) as 'there'
+  Added token ''' (24-25) as '''
+  Added token 's ' (25-26) as 's'
+
+Saved word: 'there's' with SHAP -0.065194
+  Added token 'no ' (27-29) as 'no'
+
+Saved word: 'no' with SHAP +0.113046
+  Added token 'reason ' (30-36) as 'reason'
+
+Saved word: 'reason' with SHAP +0.007481
+  Added token 'for ' (37-40) as 'for'
+
+Saved word: 'for' with SHAP +0.016245
+  Added token 'you ' (41-44) as 'you'
+
+Saved word: 'you' with SHAP +0.022016
+  Added token 'to ' (45-47) as 'to'
+
+Saved word: 'to' with SHAP +0.017527
+  Added token 'leave ' (48-53) as 'leave'
+
+Saved word: 'leave' with SHAP +0.027935
+  Added token 'us ' (54-56) as 'us'
+
+Saved word: 'us' with SHAP +0.006897
+  Added token 'if ' (57-59) as 'if'
+
+Saved word: 'if' with SHAP +0.023062
+  Added token 'you' (60-63) as 'you'
+  Added token ''' (63-64) as '''
+  Added token 'd' (64-65) as 'd'
+  Added token '.' (65-66) as '.'
+  Added token '.' (66-67) as '.'
+  Added token '. ' (67-68) as '.'
+
+Saved word: 'you'd...' with SHAP +0.019472
+  Added token 'Come ' (69-73) as 'Come'
+
+Saved word: 'Come' with SHAP -0.015622
+  Added token 'with ' (74-78) as 'with'
+
+Saved word: 'with' with SHAP -0.016926
+  Added token 'me' (79-81) as 'me'
+  Added token '.' (81-82) as '.'
+
+Saved final word: 'me.' with SHAP -0.017835
+
+=== Final Word Contributions ===
+no                        +0.113046 (POS)
+sake,                     +0.071035 (POS)
+there's                   -0.065194 (NEG)
+leave                     +0.027935 (POS)
+if                        +0.023062 (POS)
+you                       +0.022016 (POS)
+you'd...                  +0.019472 (POS)
+me.                       -0.017835 (NEG)
+to                        +0.017527 (POS)
+with                      -0.016926 (NEG)
+for                       +0.016245 (POS)
+Come                      -0.015622 (NEG)
+reason                    +0.007481 (POS)
+us                        +0.006897 (POS)
+goodness                  -0.003874 (NEG)
+For                       -0.003308 (NEG)

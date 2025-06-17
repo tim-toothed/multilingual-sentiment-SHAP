@@ -1,0 +1,263 @@
+
+=== Processing text ===
+È opportuno che il fornitore istituisca un solido sistema di gestione della qualità, garantisca l'espletamento della procedura di valutazione della conformità richiesta, rediga la documentazione pertinente e istituisca un sistema robusto per il monitoraggio successivo all'immissione sul mercato..
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000846
+È               | 'È'                  | 0     | 1     | -0.003664
+opp             | 'opp'                | 2     | 5     | +0.034866
+ort             | 'ort'                | 5     | 8     | +0.021900
+uno             | 'uno'                | 8     | 11    | +0.008905
+che             | 'che'                | 12    | 15    | +0.009200
+il              | 'il'                 | 16    | 18    | +0.009200
+for             | 'for'                | 19    | 22    | +0.004785
+nito            | 'nito'               | 22    | 26    | +0.004785
+re              | 're'                 | 26    | 28    | +0.004785
+isti            | 'isti'               | 29    | 33    | +0.000248
+tui             | 'tui'                | 33    | 36    | +0.000248
+sca             | 'sca'                | 36    | 39    | +0.000248
+un              | 'un'                 | 40    | 42    | +0.002504
+solid           | 'solid'              | 43    | 48    | +0.001222
+o               | 'o'                  | 48    | 49    | +0.001222
+sistema         | 'sistema'            | 50    | 57    | +0.007703
+di              | 'di'                 | 58    | 60    | +0.007209
+gestione        | 'gestione'           | 61    | 69    | +0.002094
+della           | 'della'              | 70    | 75    | +0.002094
+qualità         | 'qualità'            | 76    | 83    | +0.002094
+,               | ','                  | 83    | 84    | -0.000871
+gara            | 'gara'               | 85    | 89    | +0.003991
+ntis            | 'ntis'               | 89    | 93    | +0.004133
+ca              | 'ca'                 | 93    | 95    | +0.002025
+l               | 'l'                  | 96    | 97    | +0.005440
+'               | "'"                  | 97    | 98    | +0.005440
+es              | 'es'                 | 98    | 100   | +0.007866
+ple             | 'ple'                | 100   | 103   | +0.007866
+tamento         | 'tamento'            | 103   | 110   | +0.006579
+della           | 'della'              | 111   | 116   | +0.009652
+pro             | 'pro'                | 117   | 120   | +0.004636
+ced             | 'ced'                | 120   | 123   | +0.004636
+ura             | 'ura'                | 123   | 126   | +0.004636
+di              | 'di'                 | 127   | 129   | +0.007359
+val             | 'val'                | 130   | 133   | +0.007359
+utazione        | 'utazione'           | 133   | 141   | +0.007359
+della           | 'della'              | 142   | 147   | +0.006904
+conform         | 'conform'            | 148   | 155   | +0.006904
+ità             | 'ità'                | 155   | 158   | +0.006904
+richiesta       | 'richiesta'          | 159   | 168   | +0.013852
+,               | ','                  | 168   | 169   | +0.013852
+red             | 'red'                | 170   | 173   | +0.007690
+iga             | 'iga'                | 173   | 176   | +0.007690
+la              | 'la'                 | 177   | 179   | +0.007690
+document        | 'document'           | 180   | 188   | +0.008080
+azione          | 'azione'             | 188   | 194   | +0.008080
+per             | 'per'                | 195   | 198   | +0.001732
+tinent          | 'tinent'             | 198   | 204   | +0.001732
+e               | 'e'                  | 204   | 205   | +0.001732
+e               | 'e'                  | 206   | 207   | +0.001732
+isti            | 'isti'               | 208   | 212   | +0.001767
+tui             | 'tui'                | 212   | 215   | +0.001767
+sca             | 'sca'                | 215   | 218   | +0.001767
+un              | 'un'                 | 219   | 221   | +0.001767
+sistema         | 'sistema'            | 222   | 229   | +0.001767
+ro              | 'ro'                 | 230   | 232   | +0.003017
+bust            | 'bust'               | 232   | 236   | +0.003017
+o               | 'o'                  | 236   | 237   | +0.003017
+per             | 'per'                | 238   | 241   | +0.003514
+il              | 'il'                 | 242   | 244   | +0.003514
+monitor         | 'monitor'            | 245   | 252   | +0.010681
+aggio           | 'aggio'              | 252   | 257   | +0.010681
+successivo      | 'successivo'         | 258   | 268   | +0.009757
+all             | 'all'                | 269   | 272   | +0.004678
+'               | "'"                  | 272   | 273   | +0.004678
+im              | 'im'                 | 273   | 275   | +0.002970
+mission         | 'mission'            | 275   | 282   | +0.002970
+e               | 'e'                  | 282   | 283   | +0.002970
+sul             | 'sul'                | 284   | 287   | +0.002967
+mercato         | 'mercato'            | 288   | 295   | +0.002967
+.               | '.'                  | 295   | 296   | +0.002426
+.               | '.'                  | 296   | 297   | +0.002969
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'È ' (0-1) as 'È'
+
+Saved word: 'È' with SHAP -0.003664
+  Added token 'opp' (2-5) as 'opp'
+  Added token 'ort' (5-8) as 'ort'
+  Added token 'uno ' (8-11) as 'uno'
+
+Saved word: 'opportuno' with SHAP +0.065671
+  Added token 'che ' (12-15) as 'che'
+
+Saved word: 'che' with SHAP +0.009200
+  Added token 'il ' (16-18) as 'il'
+
+Saved word: 'il' with SHAP +0.009200
+  Added token 'for' (19-22) as 'for'
+  Added token 'nito' (22-26) as 'nito'
+  Added token 're ' (26-28) as 're'
+
+Saved word: 'fornitore' with SHAP +0.014355
+  Added token 'isti' (29-33) as 'isti'
+  Added token 'tui' (33-36) as 'tui'
+  Added token 'sca ' (36-39) as 'sca'
+
+Saved word: 'istituisca' with SHAP +0.000745
+  Added token 'un ' (40-42) as 'un'
+
+Saved word: 'un' with SHAP +0.002504
+  Added token 'solid' (43-48) as 'solid'
+  Added token 'o ' (48-49) as 'o'
+
+Saved word: 'solido' with SHAP +0.002444
+  Added token 'sistema ' (50-57) as 'sistema'
+
+Saved word: 'sistema' with SHAP +0.007703
+  Added token 'di ' (58-60) as 'di'
+
+Saved word: 'di' with SHAP +0.007209
+  Added token 'gestione ' (61-69) as 'gestione'
+
+Saved word: 'gestione' with SHAP +0.002094
+  Added token 'della ' (70-75) as 'della'
+
+Saved word: 'della' with SHAP +0.002094
+  Added token 'qualità' (76-83) as 'qualità'
+  Added token ', ' (83-84) as ','
+
+Saved word: 'qualità,' with SHAP +0.001223
+  Added token 'gara' (85-89) as 'gara'
+  Added token 'ntis' (89-93) as 'ntis'
+  Added token 'ca ' (93-95) as 'ca'
+
+Saved word: 'garantisca' with SHAP +0.010148
+  Added token 'l' (96-97) as 'l'
+  Added token ''' (97-98) as '''
+  Added token 'es' (98-100) as 'es'
+  Added token 'ple' (100-103) as 'ple'
+  Added token 'tamento ' (103-110) as 'tamento'
+
+Saved word: 'l'espletamento' with SHAP +0.033189
+  Added token 'della ' (111-116) as 'della'
+
+Saved word: 'della' with SHAP +0.009652
+  Added token 'pro' (117-120) as 'pro'
+  Added token 'ced' (120-123) as 'ced'
+  Added token 'ura ' (123-126) as 'ura'
+
+Saved word: 'procedura' with SHAP +0.013909
+  Added token 'di ' (127-129) as 'di'
+
+Saved word: 'di' with SHAP +0.007359
+  Added token 'val' (130-133) as 'val'
+  Added token 'utazione ' (133-141) as 'utazione'
+
+Saved word: 'valutazione' with SHAP +0.014717
+  Added token 'della ' (142-147) as 'della'
+
+Saved word: 'della' with SHAP +0.006904
+  Added token 'conform' (148-155) as 'conform'
+  Added token 'ità ' (155-158) as 'ità'
+
+Saved word: 'conformità' with SHAP +0.013807
+  Added token 'richiesta' (159-168) as 'richiesta'
+  Added token ', ' (168-169) as ','
+
+Saved word: 'richiesta,' with SHAP +0.027704
+  Added token 'red' (170-173) as 'red'
+  Added token 'iga ' (173-176) as 'iga'
+
+Saved word: 'rediga' with SHAP +0.015380
+  Added token 'la ' (177-179) as 'la'
+
+Saved word: 'la' with SHAP +0.007690
+  Added token 'document' (180-188) as 'document'
+  Added token 'azione ' (188-194) as 'azione'
+
+Saved word: 'documentazione' with SHAP +0.016159
+  Added token 'per' (195-198) as 'per'
+  Added token 'tinent' (198-204) as 'tinent'
+  Added token 'e ' (204-205) as 'e'
+
+Saved word: 'pertinente' with SHAP +0.005197
+  Added token 'e ' (206-207) as 'e'
+
+Saved word: 'e' with SHAP +0.001732
+  Added token 'isti' (208-212) as 'isti'
+  Added token 'tui' (212-215) as 'tui'
+  Added token 'sca ' (215-218) as 'sca'
+
+Saved word: 'istituisca' with SHAP +0.005300
+  Added token 'un ' (219-221) as 'un'
+
+Saved word: 'un' with SHAP +0.001767
+  Added token 'sistema ' (222-229) as 'sistema'
+
+Saved word: 'sistema' with SHAP +0.001767
+  Added token 'ro' (230-232) as 'ro'
+  Added token 'bust' (232-236) as 'bust'
+  Added token 'o ' (236-237) as 'o'
+
+Saved word: 'robusto' with SHAP +0.009052
+  Added token 'per ' (238-241) as 'per'
+
+Saved word: 'per' with SHAP +0.003514
+  Added token 'il ' (242-244) as 'il'
+
+Saved word: 'il' with SHAP +0.003514
+  Added token 'monitor' (245-252) as 'monitor'
+  Added token 'aggio ' (252-257) as 'aggio'
+
+Saved word: 'monitoraggio' with SHAP +0.021363
+  Added token 'successivo ' (258-268) as 'successivo'
+
+Saved word: 'successivo' with SHAP +0.009757
+  Added token 'all' (269-272) as 'all'
+  Added token ''' (272-273) as '''
+  Added token 'im' (273-275) as 'im'
+  Added token 'mission' (275-282) as 'mission'
+  Added token 'e ' (282-283) as 'e'
+
+Saved word: 'all'immissione' with SHAP +0.018265
+  Added token 'sul ' (284-287) as 'sul'
+
+Saved word: 'sul' with SHAP +0.002967
+  Added token 'mercato' (288-295) as 'mercato'
+  Added token '.' (295-296) as '.'
+  Added token '.' (296-297) as '.'
+
+Saved final word: 'mercato..' with SHAP +0.008363
+
+=== Final Word Contributions ===
+opportuno                 +0.065671 (POS)
+l'espletamento            +0.033189 (POS)
+richiesta,                +0.027704 (POS)
+monitoraggio              +0.021363 (POS)
+all'immissione            +0.018265 (POS)
+documentazione            +0.016159 (POS)
+rediga                    +0.015380 (POS)
+valutazione               +0.014717 (POS)
+fornitore                 +0.014355 (POS)
+procedura                 +0.013909 (POS)
+conformità                +0.013807 (POS)
+garantisca                +0.010148 (POS)
+successivo                +0.009757 (POS)
+che                       +0.009200 (POS)
+robusto                   +0.009052 (POS)
+mercato..                 +0.008363 (POS)
+la                        +0.007690 (POS)
+di                        +0.007359 (POS)
+della                     +0.006904 (POS)
+istituisca                +0.005300 (POS)
+pertinente                +0.005197 (POS)
+È                         -0.003664 (NEG)
+il                        +0.003514 (POS)
+per                       +0.003514 (POS)
+sul                       +0.002967 (POS)
+solido                    +0.002444 (POS)
+gestione                  +0.002094 (POS)
+un                        +0.001767 (POS)
+sistema                   +0.001767 (POS)
+e                         +0.001732 (POS)
+qualità,                  +0.001223 (POS)

@@ -1,0 +1,171 @@
+
+=== Processing text ===
+Sono stata debole, non potrò rimediare a quel che gli ho fatto. Non preoccuparti, ho tolto io la macchina. Perdonami, Christa! Perdonami! Perdonami!
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003298
+Sono            | 'Sono'               | 0     | 4     | +0.040715
+stata           | 'stata'              | 5     | 10    | +0.004288
+deb             | 'deb'                | 11    | 14    | -0.081439
+ole             | 'ole'                | 14    | 17    | -0.009739
+,               | ','                  | 17    | 18    | +0.015966
+non             | 'non'                | 19    | 22    | +0.003821
+pot             | 'pot'                | 23    | 26    | +0.015027
+rò              | 'rò'                 | 26    | 28    | +0.005210
+ri              | 'ri'                 | 29    | 31    | +0.008429
+media           | 'media'              | 31    | 36    | -0.013466
+re              | 're'                 | 36    | 38    | +0.009530
+a               | 'a'                  | 39    | 40    | +0.005856
+quel            | 'quel'               | 41    | 45    | +0.005856
+che             | 'che'                | 46    | 49    | +0.019017
+gli             | 'gli'                | 50    | 53    | +0.019055
+ho              | 'ho'                 | 54    | 56    | +0.006032
+fatto           | 'fatto'              | 57    | 62    | -0.001872
+.               | '.'                  | 62    | 63    | -0.025135
+Non             | 'Non'                | 64    | 67    | -0.004910
+pre             | 'pre'                | 68    | 71    | -0.002936
+oc              | 'oc'                 | 71    | 73    | -0.007979
+cup             | 'cup'                | 73    | 76    | -0.004876
+arti            | 'arti'               | 76    | 80    | -0.004876
+,               | ','                  | 80    | 81    | +0.024155
+ho              | 'ho'                 | 82    | 84    | +0.010021
+tol             | 'tol'                | 85    | 88    | +0.007964
+to              | 'to'                 | 88    | 90    | -0.000145
+io              | 'io'                 | 91    | 93    | -0.004074
+la              | 'la'                 | 94    | 96    | -0.004074
+macchina        | 'macchina'           | 97    | 105   | -0.014208
+.               | '.'                  | 105   | 106   | -0.042946
+Per             | 'Per'                | 107   | 110   | +0.011769
+dona            | 'dona'               | 110   | 114   | +0.011769
+mi              | 'mi'                 | 114   | 116   | +0.010143
+,               | ','                  | 116   | 117   | +0.008871
+Christ          | 'Christ'             | 118   | 124   | +0.028616
+a               | 'a'                  | 124   | 125   | +0.014677
+!               | '!'                  | 125   | 126   | +0.025430
+Per             | 'Per'                | 127   | 130   | +0.010255
+dona            | 'dona'               | 130   | 134   | +0.010255
+mi              | 'mi'                 | 134   | 136   | +0.010265
+!               | '!'                  | 136   | 137   | +0.014660
+Per             | 'Per'                | 138   | 141   | +0.013984
+dona            | 'dona'               | 141   | 145   | +0.013984
+mi              | 'mi'                 | 145   | 147   | +0.013984
+!               | '!'                  | 147   | 148   | +0.022419
+                | ''                   | 0     | 0     | +0.002058
+  Added token 'Sono ' (0-4) as 'Sono'
+
+Saved word: 'Sono' with SHAP +0.040715
+  Added token 'stata ' (5-10) as 'stata'
+
+Saved word: 'stata' with SHAP +0.004288
+  Added token 'deb' (11-14) as 'deb'
+  Added token 'ole' (14-17) as 'ole'
+  Added token ', ' (17-18) as ','
+
+Saved word: 'debole,' with SHAP -0.075212
+  Added token 'non ' (19-22) as 'non'
+
+Saved word: 'non' with SHAP +0.003821
+  Added token 'pot' (23-26) as 'pot'
+  Added token 'rò ' (26-28) as 'rò'
+
+Saved word: 'potrò' with SHAP +0.020237
+  Added token 'ri' (29-31) as 'ri'
+  Added token 'media' (31-36) as 'media'
+  Added token 're ' (36-38) as 're'
+
+Saved word: 'rimediare' with SHAP +0.004492
+  Added token 'a ' (39-40) as 'a'
+
+Saved word: 'a' with SHAP +0.005856
+  Added token 'quel ' (41-45) as 'quel'
+
+Saved word: 'quel' with SHAP +0.005856
+  Added token 'che ' (46-49) as 'che'
+
+Saved word: 'che' with SHAP +0.019017
+  Added token 'gli ' (50-53) as 'gli'
+
+Saved word: 'gli' with SHAP +0.019055
+  Added token 'ho ' (54-56) as 'ho'
+
+Saved word: 'ho' with SHAP +0.006032
+  Added token 'fatto' (57-62) as 'fatto'
+  Added token '. ' (62-63) as '.'
+
+Saved word: 'fatto.' with SHAP -0.027007
+  Added token 'Non ' (64-67) as 'Non'
+
+Saved word: 'Non' with SHAP -0.004910
+  Added token 'pre' (68-71) as 'pre'
+  Added token 'oc' (71-73) as 'oc'
+  Added token 'cup' (73-76) as 'cup'
+  Added token 'arti' (76-80) as 'arti'
+  Added token ', ' (80-81) as ','
+
+Saved word: 'preoccuparti,' with SHAP +0.003488
+  Added token 'ho ' (82-84) as 'ho'
+
+Saved word: 'ho' with SHAP +0.010021
+  Added token 'tol' (85-88) as 'tol'
+  Added token 'to ' (88-90) as 'to'
+
+Saved word: 'tolto' with SHAP +0.007819
+  Added token 'io ' (91-93) as 'io'
+
+Saved word: 'io' with SHAP -0.004074
+  Added token 'la ' (94-96) as 'la'
+
+Saved word: 'la' with SHAP -0.004074
+  Added token 'macchina' (97-105) as 'macchina'
+  Added token '. ' (105-106) as '.'
+
+Saved word: 'macchina.' with SHAP -0.057154
+  Added token 'Per' (107-110) as 'Per'
+  Added token 'dona' (110-114) as 'dona'
+  Added token 'mi' (114-116) as 'mi'
+  Added token ', ' (116-117) as ','
+
+Saved word: 'Perdonami,' with SHAP +0.042552
+  Added token 'Christ' (118-124) as 'Christ'
+  Added token 'a' (124-125) as 'a'
+  Added token '! ' (125-126) as '!'
+
+Saved word: 'Christa!' with SHAP +0.068724
+  Added token 'Per' (127-130) as 'Per'
+  Added token 'dona' (130-134) as 'dona'
+  Added token 'mi' (134-136) as 'mi'
+  Added token '! ' (136-137) as '!'
+
+Saved word: 'Perdonami!' with SHAP +0.045434
+  Added token 'Per' (138-141) as 'Per'
+  Added token 'dona' (141-145) as 'dona'
+  Added token 'mi' (145-147) as 'mi'
+  Added token '!' (147-148) as '!'
+
+Saved final word: 'Perdonami!' with SHAP +0.064370
+
+=== Final Word Contributions ===
+debole,                   -0.075212 (NEG)
+Christa!                  +0.068724 (POS)
+Perdonami!                +0.064370 (POS)
+macchina.                 -0.057154 (NEG)
+Perdonami,                +0.042552 (POS)
+Sono                      +0.040715 (POS)
+fatto.                    -0.027007 (NEG)
+potrò                     +0.020237 (POS)
+gli                       +0.019055 (POS)
+che                       +0.019017 (POS)
+ho                        +0.010021 (POS)
+tolto                     +0.007819 (POS)
+a                         +0.005856 (POS)
+quel                      +0.005856 (POS)
+Non                       -0.004910 (NEG)
+rimediare                 +0.004492 (POS)
+stata                     +0.004288 (POS)
+io                        -0.004074 (NEG)
+la                        -0.004074 (NEG)
+non                       +0.003821 (POS)
+preoccuparti,             +0.003488 (POS)

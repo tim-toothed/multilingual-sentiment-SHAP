@@ -1,0 +1,306 @@
+
+=== Processing text ===
+In order to increase transparency on the data that is used in the pre-training and training of general-purpose AI models, including text and data protected by copyright law, it is adequate that providers of such models draw up and make publicly available a sufficiently detailed summary of the content used for training the general-purpose AI model.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.003354
+In              | 'In'                 | 0     | 2     | +0.018477
+order           | 'order'              | 3     | 8     | +0.005048
+to              | 'to'                 | 9     | 11    | +0.004949
+increase        | 'increase'           | 12    | 20    | -0.004815
+trans           | 'trans'              | 21    | 26    | +0.005443
+pare            | 'pare'               | 26    | 30    | +0.005443
+ncy             | 'ncy'                | 30    | 33    | +0.004270
+on              | 'on'                 | 34    | 36    | +0.007969
+the             | 'the'                | 37    | 40    | +0.007969
+data            | 'data'               | 41    | 45    | +0.006724
+that            | 'that'               | 46    | 50    | +0.006724
+is              | 'is'                 | 51    | 53    | +0.018650
+used            | 'used'               | 54    | 58    | +0.025717
+in              | 'in'                 | 59    | 61    | +0.010370
+the             | 'the'                | 62    | 65    | +0.010370
+pre             | 'pre'                | 66    | 69    | +0.006923
+-               | '-'                  | 69    | 70    | +0.006923
+training        | 'training'           | 70    | 78    | +0.006923
+and             | 'and'                | 79    | 82    | +0.008321
+training        | 'training'           | 83    | 91    | +0.008919
+of              | 'of'                 | 92    | 94    | +0.008919
+general         | 'general'            | 95    | 102   | +0.009183
+-               | '-'                  | 102   | 103   | +0.009183
+purpose         | 'purpose'            | 103   | 110   | +0.012139
+AI              | 'AI'                 | 111   | 113   | +0.012139
+models          | 'models'             | 114   | 120   | +0.012150
+,               | ','                  | 120   | 121   | +0.012207
+including       | 'including'          | 122   | 131   | +0.015571
+text            | 'text'               | 132   | 136   | +0.011591
+and             | 'and'                | 137   | 140   | +0.008523
+data            | 'data'               | 141   | 145   | -0.000974
+protected       | 'protected'          | 146   | 155   | -0.000974
+by              | 'by'                 | 156   | 158   | -0.000319
+copyright       | 'copyright'          | 159   | 168   | -0.000319
+law             | 'law'                | 169   | 172   | -0.000319
+,               | ','                  | 172   | 173   | +0.004815
+it              | 'it'                 | 174   | 176   | +0.007796
+is              | 'is'                 | 177   | 179   | +0.007796
+ad              | 'ad'                 | 180   | 182   | +0.010269
+e               | 'e'                  | 182   | 183   | +0.014048
+quate           | 'quate'              | 183   | 188   | +0.006894
+that            | 'that'               | 189   | 193   | +0.000900
+providers       | 'providers'          | 194   | 203   | +0.000900
+of              | 'of'                 | 204   | 206   | +0.000900
+such            | 'such'               | 207   | 211   | +0.000900
+models          | 'models'             | 212   | 218   | +0.005167
+draw            | 'draw'               | 219   | 223   | +0.005167
+up              | 'up'                 | 224   | 226   | +0.005167
+and             | 'and'                | 227   | 230   | +0.005199
+make            | 'make'               | 231   | 235   | +0.001190
+publicly        | 'publicly'           | 236   | 244   | +0.001190
+available       | 'available'          | 245   | 254   | +0.001190
+a               | 'a'                  | 255   | 256   | +0.001190
+sufficient      | 'sufficient'         | 257   | 267   | +0.014824
+ly              | 'ly'                 | 267   | 269   | +0.014824
+detailed        | 'detailed'           | 270   | 278   | +0.023503
+summary         | 'summary'            | 279   | 286   | +0.023503
+of              | 'of'                 | 287   | 289   | +0.011082
+the             | 'the'                | 290   | 293   | +0.011082
+content         | 'content'            | 294   | 301   | +0.011675
+used            | 'used'               | 302   | 306   | +0.011675
+for             | 'for'                | 307   | 310   | +0.008809
+training        | 'training'           | 311   | 319   | +0.008809
+the             | 'the'                | 320   | 323   | +0.008809
+general         | 'general'            | 324   | 331   | +0.008809
+-               | '-'                  | 331   | 332   | +0.008982
+purpose         | 'purpose'            | 332   | 339   | +0.008982
+AI              | 'AI'                 | 340   | 342   | +0.008982
+model           | 'model'              | 343   | 348   | +0.008982
+.               | '.'                  | 348   | 349   | +0.013110
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'In ' (0-2) as 'In'
+
+Saved word: 'In' with SHAP +0.018477
+  Added token 'order ' (3-8) as 'order'
+
+Saved word: 'order' with SHAP +0.005048
+  Added token 'to ' (9-11) as 'to'
+
+Saved word: 'to' with SHAP +0.004949
+  Added token 'increase ' (12-20) as 'increase'
+
+Saved word: 'increase' with SHAP -0.004815
+  Added token 'trans' (21-26) as 'trans'
+  Added token 'pare' (26-30) as 'pare'
+  Added token 'ncy ' (30-33) as 'ncy'
+
+Saved word: 'transparency' with SHAP +0.015157
+  Added token 'on ' (34-36) as 'on'
+
+Saved word: 'on' with SHAP +0.007969
+  Added token 'the ' (37-40) as 'the'
+
+Saved word: 'the' with SHAP +0.007969
+  Added token 'data ' (41-45) as 'data'
+
+Saved word: 'data' with SHAP +0.006724
+  Added token 'that ' (46-50) as 'that'
+
+Saved word: 'that' with SHAP +0.006724
+  Added token 'is ' (51-53) as 'is'
+
+Saved word: 'is' with SHAP +0.018650
+  Added token 'used ' (54-58) as 'used'
+
+Saved word: 'used' with SHAP +0.025717
+  Added token 'in ' (59-61) as 'in'
+
+Saved word: 'in' with SHAP +0.010370
+  Added token 'the ' (62-65) as 'the'
+
+Saved word: 'the' with SHAP +0.010370
+  Added token 'pre' (66-69) as 'pre'
+  Added token '-' (69-70) as '-'
+  Added token 'training ' (70-78) as 'training'
+
+Saved word: 'pre-training' with SHAP +0.020769
+  Added token 'and ' (79-82) as 'and'
+
+Saved word: 'and' with SHAP +0.008321
+  Added token 'training ' (83-91) as 'training'
+
+Saved word: 'training' with SHAP +0.008919
+  Added token 'of ' (92-94) as 'of'
+
+Saved word: 'of' with SHAP +0.008919
+  Added token 'general' (95-102) as 'general'
+  Added token '-' (102-103) as '-'
+  Added token 'purpose ' (103-110) as 'purpose'
+
+Saved word: 'general-purpose' with SHAP +0.030505
+  Added token 'AI ' (111-113) as 'AI'
+
+Saved word: 'AI' with SHAP +0.012139
+  Added token 'models' (114-120) as 'models'
+  Added token ', ' (120-121) as ','
+
+Saved word: 'models,' with SHAP +0.024356
+  Added token 'including ' (122-131) as 'including'
+
+Saved word: 'including' with SHAP +0.015571
+  Added token 'text ' (132-136) as 'text'
+
+Saved word: 'text' with SHAP +0.011591
+  Added token 'and ' (137-140) as 'and'
+
+Saved word: 'and' with SHAP +0.008523
+  Added token 'data ' (141-145) as 'data'
+
+Saved word: 'data' with SHAP -0.000974
+  Added token 'protected ' (146-155) as 'protected'
+
+Saved word: 'protected' with SHAP -0.000974
+  Added token 'by ' (156-158) as 'by'
+
+Saved word: 'by' with SHAP -0.000319
+  Added token 'copyright ' (159-168) as 'copyright'
+
+Saved word: 'copyright' with SHAP -0.000319
+  Added token 'law' (169-172) as 'law'
+  Added token ', ' (172-173) as ','
+
+Saved word: 'law,' with SHAP +0.004496
+  Added token 'it ' (174-176) as 'it'
+
+Saved word: 'it' with SHAP +0.007796
+  Added token 'is ' (177-179) as 'is'
+
+Saved word: 'is' with SHAP +0.007796
+  Added token 'ad' (180-182) as 'ad'
+  Added token 'e' (182-183) as 'e'
+  Added token 'quate ' (183-188) as 'quate'
+
+Saved word: 'adequate' with SHAP +0.031211
+  Added token 'that ' (189-193) as 'that'
+
+Saved word: 'that' with SHAP +0.000900
+  Added token 'providers ' (194-203) as 'providers'
+
+Saved word: 'providers' with SHAP +0.000900
+  Added token 'of ' (204-206) as 'of'
+
+Saved word: 'of' with SHAP +0.000900
+  Added token 'such ' (207-211) as 'such'
+
+Saved word: 'such' with SHAP +0.000900
+  Added token 'models ' (212-218) as 'models'
+
+Saved word: 'models' with SHAP +0.005167
+  Added token 'draw ' (219-223) as 'draw'
+
+Saved word: 'draw' with SHAP +0.005167
+  Added token 'up ' (224-226) as 'up'
+
+Saved word: 'up' with SHAP +0.005167
+  Added token 'and ' (227-230) as 'and'
+
+Saved word: 'and' with SHAP +0.005199
+  Added token 'make ' (231-235) as 'make'
+
+Saved word: 'make' with SHAP +0.001190
+  Added token 'publicly ' (236-244) as 'publicly'
+
+Saved word: 'publicly' with SHAP +0.001190
+  Added token 'available ' (245-254) as 'available'
+
+Saved word: 'available' with SHAP +0.001190
+  Added token 'a ' (255-256) as 'a'
+
+Saved word: 'a' with SHAP +0.001190
+  Added token 'sufficient' (257-267) as 'sufficient'
+  Added token 'ly ' (267-269) as 'ly'
+
+Saved word: 'sufficiently' with SHAP +0.029649
+  Added token 'detailed ' (270-278) as 'detailed'
+
+Saved word: 'detailed' with SHAP +0.023503
+  Added token 'summary ' (279-286) as 'summary'
+
+Saved word: 'summary' with SHAP +0.023503
+  Added token 'of ' (287-289) as 'of'
+
+Saved word: 'of' with SHAP +0.011082
+  Added token 'the ' (290-293) as 'the'
+
+Saved word: 'the' with SHAP +0.011082
+  Added token 'content ' (294-301) as 'content'
+
+Saved word: 'content' with SHAP +0.011675
+  Added token 'used ' (302-306) as 'used'
+
+Saved word: 'used' with SHAP +0.011675
+  Added token 'for ' (307-310) as 'for'
+
+Saved word: 'for' with SHAP +0.008809
+  Added token 'training ' (311-319) as 'training'
+
+Saved word: 'training' with SHAP +0.008809
+  Added token 'the ' (320-323) as 'the'
+
+Saved word: 'the' with SHAP +0.008809
+  Added token 'general' (324-331) as 'general'
+  Added token '-' (331-332) as '-'
+  Added token 'purpose ' (332-339) as 'purpose'
+
+Saved word: 'general-purpose' with SHAP +0.026772
+  Added token 'AI ' (340-342) as 'AI'
+
+Saved word: 'AI' with SHAP +0.008982
+  Added token 'model' (343-348) as 'model'
+  Added token '.' (348-349) as '.'
+
+Saved final word: 'model.' with SHAP +0.022092
+
+=== Final Word Contributions ===
+adequate                  +0.031211 (POS)
+sufficiently              +0.029649 (POS)
+general-purpose           +0.026772 (POS)
+models,                   +0.024356 (POS)
+detailed                  +0.023503 (POS)
+summary                   +0.023503 (POS)
+model.                    +0.022092 (POS)
+pre-training              +0.020769 (POS)
+In                        +0.018477 (POS)
+including                 +0.015571 (POS)
+transparency              +0.015157 (POS)
+used                      +0.011675 (POS)
+content                   +0.011675 (POS)
+text                      +0.011591 (POS)
+of                        +0.011082 (POS)
+in                        +0.010370 (POS)
+AI                        +0.008982 (POS)
+the                       +0.008809 (POS)
+training                  +0.008809 (POS)
+for                       +0.008809 (POS)
+on                        +0.007969 (POS)
+is                        +0.007796 (POS)
+it                        +0.007796 (POS)
+and                       +0.005199 (POS)
+models                    +0.005167 (POS)
+draw                      +0.005167 (POS)
+up                        +0.005167 (POS)
+order                     +0.005048 (POS)
+to                        +0.004949 (POS)
+increase                  -0.004815 (NEG)
+law,                      +0.004496 (POS)
+make                      +0.001190 (POS)
+publicly                  +0.001190 (POS)
+available                 +0.001190 (POS)
+a                         +0.001190 (POS)
+data                      -0.000974 (NEG)
+protected                 -0.000974 (NEG)
+that                      +0.000900 (POS)
+providers                 +0.000900 (POS)
+such                      +0.000900 (POS)
+by                        -0.000319 (NEG)
+copyright                 -0.000319 (NEG)

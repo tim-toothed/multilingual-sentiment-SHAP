@@ -1,0 +1,187 @@
+
+=== Processing text ===
+Such specific categories can relate to aspects such as sex, age, hair colour, eye colour, tattoos, behavioural or personality traits, language, religion, membership of a national minority, sexual or political orientation
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.001567
+Such            | 'Such'               | 0     | 4     | -0.025604
+specific        | 'specific'           | 5     | 13    | +0.028800
+categories      | 'categories'         | 14    | 24    | +0.037263
+can             | 'can'                | 25    | 28    | +0.031276
+relate          | 'relate'             | 29    | 35    | +0.044030
+to              | 'to'                 | 36    | 38    | +0.009319
+aspects         | 'aspects'            | 39    | 46    | +0.037587
+such            | 'such'               | 47    | 51    | +0.012907
+as              | 'as'                 | 52    | 54    | +0.018335
+sex             | 'sex'                | 55    | 58    | +0.011699
+,               | ','                  | 58    | 59    | +0.027608
+age             | 'age'                | 60    | 63    | +0.014090
+,               | ','                  | 63    | 64    | +0.019059
+hair            | 'hair'               | 65    | 69    | +0.004728
+colour          | 'colour'             | 70    | 76    | +0.005989
+,               | ','                  | 76    | 77    | +0.016013
+eye             | 'eye'                | 78    | 81    | +0.004841
+colour          | 'colour'             | 82    | 88    | +0.004841
+,               | ','                  | 88    | 89    | +0.011307
+tatt            | 'tatt'               | 90    | 94    | +0.003106
+oos             | 'oos'                | 94    | 97    | +0.003106
+,               | ','                  | 97    | 98    | +0.007453
+behaviour       | 'behaviour'          | 99    | 108   | +0.011156
+al              | 'al'                 | 108   | 110   | +0.011156
+or              | 'or'                 | 111   | 113   | +0.017877
+personality     | 'personality'        | 114   | 125   | +0.014507
+traits          | 'traits'             | 126   | 132   | +0.014507
+,               | ','                  | 132   | 133   | +0.019504
+language        | 'language'           | 134   | 142   | +0.007145
+,               | ','                  | 142   | 143   | +0.009312
+religion        | 'religion'           | 144   | 152   | +0.016526
+,               | ','                  | 152   | 153   | +0.018259
+membership      | 'membership'         | 154   | 164   | +0.003573
+of              | 'of'                 | 165   | 167   | +0.002750
+a               | 'a'                  | 168   | 169   | +0.006739
+national        | 'national'           | 170   | 178   | +0.006739
+minority        | 'minority'           | 179   | 187   | +0.005737
+,               | ','                  | 187   | 188   | +0.019930
+sexual          | 'sexual'             | 189   | 195   | +0.014989
+or              | 'or'                 | 196   | 198   | +0.021408
+political       | 'political'          | 199   | 208   | +0.011085
+orientation     | 'orientation'        | 209   | 220   | +0.011085
+                | ''                   | 0     | 0     | +0.002601
+  Added token 'Such ' (0-4) as 'Such'
+
+Saved word: 'Such' with SHAP -0.025604
+  Added token 'specific ' (5-13) as 'specific'
+
+Saved word: 'specific' with SHAP +0.028800
+  Added token 'categories ' (14-24) as 'categories'
+
+Saved word: 'categories' with SHAP +0.037263
+  Added token 'can ' (25-28) as 'can'
+
+Saved word: 'can' with SHAP +0.031276
+  Added token 'relate ' (29-35) as 'relate'
+
+Saved word: 'relate' with SHAP +0.044030
+  Added token 'to ' (36-38) as 'to'
+
+Saved word: 'to' with SHAP +0.009319
+  Added token 'aspects ' (39-46) as 'aspects'
+
+Saved word: 'aspects' with SHAP +0.037587
+  Added token 'such ' (47-51) as 'such'
+
+Saved word: 'such' with SHAP +0.012907
+  Added token 'as ' (52-54) as 'as'
+
+Saved word: 'as' with SHAP +0.018335
+  Added token 'sex' (55-58) as 'sex'
+  Added token ', ' (58-59) as ','
+
+Saved word: 'sex,' with SHAP +0.039307
+  Added token 'age' (60-63) as 'age'
+  Added token ', ' (63-64) as ','
+
+Saved word: 'age,' with SHAP +0.033149
+  Added token 'hair ' (65-69) as 'hair'
+
+Saved word: 'hair' with SHAP +0.004728
+  Added token 'colour' (70-76) as 'colour'
+  Added token ', ' (76-77) as ','
+
+Saved word: 'colour,' with SHAP +0.022003
+  Added token 'eye ' (78-81) as 'eye'
+
+Saved word: 'eye' with SHAP +0.004841
+  Added token 'colour' (82-88) as 'colour'
+  Added token ', ' (88-89) as ','
+
+Saved word: 'colour,' with SHAP +0.016148
+  Added token 'tatt' (90-94) as 'tatt'
+  Added token 'oos' (94-97) as 'oos'
+  Added token ', ' (97-98) as ','
+
+Saved word: 'tattoos,' with SHAP +0.013666
+  Added token 'behaviour' (99-108) as 'behaviour'
+  Added token 'al ' (108-110) as 'al'
+
+Saved word: 'behavioural' with SHAP +0.022313
+  Added token 'or ' (111-113) as 'or'
+
+Saved word: 'or' with SHAP +0.017877
+  Added token 'personality ' (114-125) as 'personality'
+
+Saved word: 'personality' with SHAP +0.014507
+  Added token 'traits' (126-132) as 'traits'
+  Added token ', ' (132-133) as ','
+
+Saved word: 'traits,' with SHAP +0.034012
+  Added token 'language' (134-142) as 'language'
+  Added token ', ' (142-143) as ','
+
+Saved word: 'language,' with SHAP +0.016458
+  Added token 'religion' (144-152) as 'religion'
+  Added token ', ' (152-153) as ','
+
+Saved word: 'religion,' with SHAP +0.034785
+  Added token 'membership ' (154-164) as 'membership'
+
+Saved word: 'membership' with SHAP +0.003573
+  Added token 'of ' (165-167) as 'of'
+
+Saved word: 'of' with SHAP +0.002750
+  Added token 'a ' (168-169) as 'a'
+
+Saved word: 'a' with SHAP +0.006739
+  Added token 'national ' (170-178) as 'national'
+
+Saved word: 'national' with SHAP +0.006739
+  Added token 'minority' (179-187) as 'minority'
+  Added token ', ' (187-188) as ','
+
+Saved word: 'minority,' with SHAP +0.025667
+  Added token 'sexual ' (189-195) as 'sexual'
+
+Saved word: 'sexual' with SHAP +0.014989
+  Added token 'or ' (196-198) as 'or'
+
+Saved word: 'or' with SHAP +0.021408
+  Added token 'political ' (199-208) as 'political'
+
+Saved word: 'political' with SHAP +0.011085
+  Added token 'orientation' (209-220) as 'orientation'
+
+Saved final word: 'orientation' with SHAP +0.011085
+
+=== Final Word Contributions ===
+relate                    +0.044030 (POS)
+sex,                      +0.039307 (POS)
+aspects                   +0.037587 (POS)
+categories                +0.037263 (POS)
+religion,                 +0.034785 (POS)
+traits,                   +0.034012 (POS)
+age,                      +0.033149 (POS)
+can                       +0.031276 (POS)
+specific                  +0.028800 (POS)
+minority,                 +0.025667 (POS)
+Such                      -0.025604 (NEG)
+behavioural               +0.022313 (POS)
+or                        +0.021408 (POS)
+as                        +0.018335 (POS)
+language,                 +0.016458 (POS)
+colour,                   +0.016148 (POS)
+sexual                    +0.014989 (POS)
+personality               +0.014507 (POS)
+tattoos,                  +0.013666 (POS)
+such                      +0.012907 (POS)
+political                 +0.011085 (POS)
+orientation               +0.011085 (POS)
+to                        +0.009319 (POS)
+a                         +0.006739 (POS)
+national                  +0.006739 (POS)
+eye                       +0.004841 (POS)
+hair                      +0.004728 (POS)
+membership                +0.003573 (POS)
+of                        +0.002750 (POS)

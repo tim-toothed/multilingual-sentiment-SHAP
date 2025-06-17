@@ -1,0 +1,212 @@
+
+=== Processing text ===
+Però non lo domandi con rispetto. Non offri amicizia. Non ti sogni nemmeno di chiamarmi Padrino. Ti presenti a casa mia il giorno che si marita mia figlia e mi chiedi un omicidio, a pagamento.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.002781
+Però            | 'Però'               | 0     | 4     | -0.015943
+non             | 'non'                | 5     | 8     | +0.012570
+lo              | 'lo'                 | 9     | 11    | +0.008867
+doma            | 'doma'               | 12    | 16    | +0.008469
+ndi             | 'ndi'                | 16    | 19    | +0.008469
+con             | 'con'                | 20    | 23    | +0.005444
+rispetto        | 'rispetto'           | 24    | 32    | +0.005444
+.               | '.'                  | 32    | 33    | -0.002449
+Non             | 'Non'                | 34    | 37    | +0.091676
+off             | 'off'                | 38    | 41    | +0.000165
+ri              | 'ri'                 | 41    | 43    | +0.000964
+amicizia        | 'amicizia'           | 44    | 52    | -0.039601
+.               | '.'                  | 52    | 53    | +0.003446
+Non             | 'Non'                | 54    | 57    | +0.012732
+ti              | 'ti'                 | 58    | 60    | +0.018206
+sog             | 'sog'                | 61    | 64    | +0.015775
+ni              | 'ni'                 | 64    | 66    | +0.013062
+nem             | 'nem'                | 67    | 70    | +0.006759
+meno            | 'meno'               | 70    | 74    | +0.006759
+di              | 'di'                 | 75    | 77    | +0.007550
+chiama          | 'chiama'             | 78    | 84    | +0.007659
+rmi             | 'rmi'                | 84    | 87    | +0.007659
+Pa              | 'Pa'                 | 88    | 90    | +0.006673
+dri             | 'dri'                | 90    | 93    | +0.006673
+no              | 'no'                 | 93    | 95    | +0.007383
+.               | '.'                  | 95    | 96    | +0.020611
+Ti              | 'Ti'                 | 97    | 99    | +0.001106
+presenti        | 'presenti'           | 100   | 108   | +0.001106
+a               | 'a'                  | 109   | 110   | +0.002940
+casa            | 'casa'               | 111   | 115   | +0.002940
+mia             | 'mia'                | 116   | 119   | +0.006574
+il              | 'il'                 | 120   | 122   | +0.005821
+giorno          | 'giorno'             | 123   | 129   | +0.005705
+che             | 'che'                | 130   | 133   | +0.005705
+si              | 'si'                 | 134   | 136   | +0.005033
+mari            | 'mari'               | 137   | 141   | +0.004111
+ta              | 'ta'                 | 141   | 143   | +0.003654
+mia             | 'mia'                | 144   | 147   | +0.003231
+figlia          | 'figlia'             | 148   | 154   | +0.005871
+e               | 'e'                  | 155   | 156   | +0.003893
+mi              | 'mi'                 | 157   | 159   | +0.003893
+chi             | 'chi'                | 160   | 163   | +0.004369
+edi             | 'edi'                | 163   | 166   | +0.004369
+un              | 'un'                 | 167   | 169   | +0.020422
+omicidio        | 'omicidio'           | 170   | 178   | +0.060300
+,               | ','                  | 178   | 179   | +0.015197
+a               | 'a'                  | 180   | 181   | +0.006853
+pagamento       | 'pagamento'          | 182   | 191   | +0.039681
+.               | '.'                  | 191   | 192   | +0.006559
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Però ' (0-4) as 'Però'
+
+Saved word: 'Però' with SHAP -0.015943
+  Added token 'non ' (5-8) as 'non'
+
+Saved word: 'non' with SHAP +0.012570
+  Added token 'lo ' (9-11) as 'lo'
+
+Saved word: 'lo' with SHAP +0.008867
+  Added token 'doma' (12-16) as 'doma'
+  Added token 'ndi ' (16-19) as 'ndi'
+
+Saved word: 'domandi' with SHAP +0.016937
+  Added token 'con ' (20-23) as 'con'
+
+Saved word: 'con' with SHAP +0.005444
+  Added token 'rispetto' (24-32) as 'rispetto'
+  Added token '. ' (32-33) as '.'
+
+Saved word: 'rispetto.' with SHAP +0.002995
+  Added token 'Non ' (34-37) as 'Non'
+
+Saved word: 'Non' with SHAP +0.091676
+  Added token 'off' (38-41) as 'off'
+  Added token 'ri ' (41-43) as 'ri'
+
+Saved word: 'offri' with SHAP +0.001129
+  Added token 'amicizia' (44-52) as 'amicizia'
+  Added token '. ' (52-53) as '.'
+
+Saved word: 'amicizia.' with SHAP -0.036154
+  Added token 'Non ' (54-57) as 'Non'
+
+Saved word: 'Non' with SHAP +0.012732
+  Added token 'ti ' (58-60) as 'ti'
+
+Saved word: 'ti' with SHAP +0.018206
+  Added token 'sog' (61-64) as 'sog'
+  Added token 'ni ' (64-66) as 'ni'
+
+Saved word: 'sogni' with SHAP +0.028836
+  Added token 'nem' (67-70) as 'nem'
+  Added token 'meno ' (70-74) as 'meno'
+
+Saved word: 'nemmeno' with SHAP +0.013518
+  Added token 'di ' (75-77) as 'di'
+
+Saved word: 'di' with SHAP +0.007550
+  Added token 'chiama' (78-84) as 'chiama'
+  Added token 'rmi ' (84-87) as 'rmi'
+
+Saved word: 'chiamarmi' with SHAP +0.015318
+  Added token 'Pa' (88-90) as 'Pa'
+  Added token 'dri' (90-93) as 'dri'
+  Added token 'no' (93-95) as 'no'
+  Added token '. ' (95-96) as '.'
+
+Saved word: 'Padrino.' with SHAP +0.041339
+  Added token 'Ti ' (97-99) as 'Ti'
+
+Saved word: 'Ti' with SHAP +0.001106
+  Added token 'presenti ' (100-108) as 'presenti'
+
+Saved word: 'presenti' with SHAP +0.001106
+  Added token 'a ' (109-110) as 'a'
+
+Saved word: 'a' with SHAP +0.002940
+  Added token 'casa ' (111-115) as 'casa'
+
+Saved word: 'casa' with SHAP +0.002940
+  Added token 'mia ' (116-119) as 'mia'
+
+Saved word: 'mia' with SHAP +0.006574
+  Added token 'il ' (120-122) as 'il'
+
+Saved word: 'il' with SHAP +0.005821
+  Added token 'giorno ' (123-129) as 'giorno'
+
+Saved word: 'giorno' with SHAP +0.005705
+  Added token 'che ' (130-133) as 'che'
+
+Saved word: 'che' with SHAP +0.005705
+  Added token 'si ' (134-136) as 'si'
+
+Saved word: 'si' with SHAP +0.005033
+  Added token 'mari' (137-141) as 'mari'
+  Added token 'ta ' (141-143) as 'ta'
+
+Saved word: 'marita' with SHAP +0.007766
+  Added token 'mia ' (144-147) as 'mia'
+
+Saved word: 'mia' with SHAP +0.003231
+  Added token 'figlia ' (148-154) as 'figlia'
+
+Saved word: 'figlia' with SHAP +0.005871
+  Added token 'e ' (155-156) as 'e'
+
+Saved word: 'e' with SHAP +0.003893
+  Added token 'mi ' (157-159) as 'mi'
+
+Saved word: 'mi' with SHAP +0.003893
+  Added token 'chi' (160-163) as 'chi'
+  Added token 'edi ' (163-166) as 'edi'
+
+Saved word: 'chiedi' with SHAP +0.008738
+  Added token 'un ' (167-169) as 'un'
+
+Saved word: 'un' with SHAP +0.020422
+  Added token 'omicidio' (170-178) as 'omicidio'
+  Added token ', ' (178-179) as ','
+
+Saved word: 'omicidio,' with SHAP +0.075498
+  Added token 'a ' (180-181) as 'a'
+
+Saved word: 'a' with SHAP +0.006853
+  Added token 'pagamento' (182-191) as 'pagamento'
+  Added token '.' (191-192) as '.'
+
+Saved final word: 'pagamento.' with SHAP +0.046240
+
+=== Final Word Contributions ===
+omicidio,                 +0.075498 (POS)
+pagamento.                +0.046240 (POS)
+Padrino.                  +0.041339 (POS)
+amicizia.                 -0.036154 (NEG)
+sogni                     +0.028836 (POS)
+un                        +0.020422 (POS)
+ti                        +0.018206 (POS)
+domandi                   +0.016937 (POS)
+Però                      -0.015943 (NEG)
+chiamarmi                 +0.015318 (POS)
+nemmeno                   +0.013518 (POS)
+Non                       +0.012732 (POS)
+non                       +0.012570 (POS)
+lo                        +0.008867 (POS)
+chiedi                    +0.008738 (POS)
+marita                    +0.007766 (POS)
+di                        +0.007550 (POS)
+a                         +0.006853 (POS)
+figlia                    +0.005871 (POS)
+il                        +0.005821 (POS)
+giorno                    +0.005705 (POS)
+che                       +0.005705 (POS)
+con                       +0.005444 (POS)
+si                        +0.005033 (POS)
+e                         +0.003893 (POS)
+mi                        +0.003893 (POS)
+mia                       +0.003231 (POS)
+rispetto.                 +0.002995 (POS)
+casa                      +0.002940 (POS)
+offri                     +0.001129 (POS)
+Ti                        +0.001106 (POS)
+presenti                  +0.001106 (POS)

@@ -1,0 +1,181 @@
+
+=== Processing text ===
+Come prerequisito, l'IA dovrebbe essere una tecnologia antropocentrica. Dovrebbe fungere da strumento per le persone, con il fine ultimo di migliorare il benessere degli esseri umani.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001303
+Come            | 'Come'               | 0     | 4     | +0.001182
+pre             | 'pre'                | 5     | 8     | +0.019279
+re              | 're'                 | 8     | 10    | +0.009943
+quis            | 'quis'               | 10    | 14    | -0.003777
+ito             | 'ito'                | 14    | 17    | -0.001599
+,               | ','                  | 17    | 18    | -0.000173
+l               | 'l'                  | 19    | 20    | +0.005875
+'               | "'"                  | 20    | 21    | +0.005129
+IA              | 'IA'                 | 21    | 23    | -0.003314
+do              | 'do'                 | 24    | 26    | -0.011360
+vre             | 'vre'                | 26    | 29    | -0.006207
+bbe             | 'bbe'                | 29    | 32    | -0.000166
+essere          | 'essere'             | 33    | 39    | +0.001295
+una             | 'una'                | 40    | 43    | -0.000044
+tecnologia      | 'tecnologia'         | 44    | 54    | -0.021346
+ant             | 'ant'                | 55    | 58    | +0.019258
+rop             | 'rop'                | 58    | 61    | +0.033295
+ocent           | 'ocent'              | 61    | 66    | +0.005105
+rica            | 'rica'               | 66    | 70    | +0.005761
+.               | '.'                  | 70    | 71    | -0.000803
+Dov             | 'Dov'                | 72    | 75    | +0.015890
+rebbe           | 'rebbe'              | 75    | 80    | +0.009411
+fun             | 'fun'                | 81    | 84    | -0.041247
+gere            | 'gere'               | 84    | 88    | -0.000044
+da              | 'da'                 | 89    | 91    | +0.001907
+strumento       | 'strumento'          | 92    | 101   | +0.001907
+per             | 'per'                | 102   | 105   | +0.001329
+le              | 'le'                 | 106   | 108   | +0.001329
+persone         | 'persone'            | 109   | 116   | +0.001329
+,               | ','                  | 116   | 117   | -0.009769
+con             | 'con'                | 118   | 121   | +0.001210
+il              | 'il'                 | 122   | 124   | +0.001210
+fine            | 'fine'               | 125   | 129   | +0.001210
+ultimo          | 'ultimo'             | 130   | 136   | +0.001210
+di              | 'di'                 | 137   | 139   | +0.001210
+miglior         | 'miglior'            | 140   | 147   | +0.008643
+are             | 'are'                | 147   | 150   | +0.008643
+il              | 'il'                 | 151   | 153   | +0.004959
+bene            | 'bene'               | 154   | 158   | +0.004250
+sser            | 'sser'               | 158   | 162   | +0.004250
+e               | 'e'                  | 162   | 163   | +0.004250
+degli           | 'degli'              | 164   | 169   | +0.001708
+esse            | 'esse'               | 170   | 174   | +0.001708
+ri              | 'ri'                 | 174   | 176   | +0.001708
+umani           | 'umani'              | 177   | 182   | -0.001661
+.               | '.'                  | 182   | 183   | -0.001661
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Come ' (0-4) as 'Come'
+
+Saved word: 'Come' with SHAP +0.001182
+  Added token 'pre' (5-8) as 'pre'
+  Added token 're' (8-10) as 're'
+  Added token 'quis' (10-14) as 'quis'
+  Added token 'ito' (14-17) as 'ito'
+  Added token ', ' (17-18) as ','
+
+Saved word: 'prerequisito,' with SHAP +0.023672
+  Added token 'l' (19-20) as 'l'
+  Added token ''' (20-21) as '''
+  Added token 'IA ' (21-23) as 'IA'
+
+Saved word: 'l'IA' with SHAP +0.007689
+  Added token 'do' (24-26) as 'do'
+  Added token 'vre' (26-29) as 'vre'
+  Added token 'bbe ' (29-32) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP -0.017733
+  Added token 'essere ' (33-39) as 'essere'
+
+Saved word: 'essere' with SHAP +0.001295
+  Added token 'una ' (40-43) as 'una'
+
+Saved word: 'una' with SHAP -0.000044
+  Added token 'tecnologia ' (44-54) as 'tecnologia'
+
+Saved word: 'tecnologia' with SHAP -0.021346
+  Added token 'ant' (55-58) as 'ant'
+  Added token 'rop' (58-61) as 'rop'
+  Added token 'ocent' (61-66) as 'ocent'
+  Added token 'rica' (66-70) as 'rica'
+  Added token '. ' (70-71) as '.'
+
+Saved word: 'antropocentrica.' with SHAP +0.062616
+  Added token 'Dov' (72-75) as 'Dov'
+  Added token 'rebbe ' (75-80) as 'rebbe'
+
+Saved word: 'Dovrebbe' with SHAP +0.025301
+  Added token 'fun' (81-84) as 'fun'
+  Added token 'gere ' (84-88) as 'gere'
+
+Saved word: 'fungere' with SHAP -0.041291
+  Added token 'da ' (89-91) as 'da'
+
+Saved word: 'da' with SHAP +0.001907
+  Added token 'strumento ' (92-101) as 'strumento'
+
+Saved word: 'strumento' with SHAP +0.001907
+  Added token 'per ' (102-105) as 'per'
+
+Saved word: 'per' with SHAP +0.001329
+  Added token 'le ' (106-108) as 'le'
+
+Saved word: 'le' with SHAP +0.001329
+  Added token 'persone' (109-116) as 'persone'
+  Added token ', ' (116-117) as ','
+
+Saved word: 'persone,' with SHAP -0.008440
+  Added token 'con ' (118-121) as 'con'
+
+Saved word: 'con' with SHAP +0.001210
+  Added token 'il ' (122-124) as 'il'
+
+Saved word: 'il' with SHAP +0.001210
+  Added token 'fine ' (125-129) as 'fine'
+
+Saved word: 'fine' with SHAP +0.001210
+  Added token 'ultimo ' (130-136) as 'ultimo'
+
+Saved word: 'ultimo' with SHAP +0.001210
+  Added token 'di ' (137-139) as 'di'
+
+Saved word: 'di' with SHAP +0.001210
+  Added token 'miglior' (140-147) as 'miglior'
+  Added token 'are ' (147-150) as 'are'
+
+Saved word: 'migliorare' with SHAP +0.017286
+  Added token 'il ' (151-153) as 'il'
+
+Saved word: 'il' with SHAP +0.004959
+  Added token 'bene' (154-158) as 'bene'
+  Added token 'sser' (158-162) as 'sser'
+  Added token 'e ' (162-163) as 'e'
+
+Saved word: 'benessere' with SHAP +0.012750
+  Added token 'degli ' (164-169) as 'degli'
+
+Saved word: 'degli' with SHAP +0.001708
+  Added token 'esse' (170-174) as 'esse'
+  Added token 'ri ' (174-176) as 'ri'
+
+Saved word: 'esseri' with SHAP +0.003417
+  Added token 'umani' (177-182) as 'umani'
+  Added token '.' (182-183) as '.'
+
+Saved final word: 'umani.' with SHAP -0.003323
+
+=== Final Word Contributions ===
+antropocentrica.          +0.062616 (POS)
+fungere                   -0.041291 (NEG)
+Dovrebbe                  +0.025301 (POS)
+prerequisito,             +0.023672 (POS)
+tecnologia                -0.021346 (NEG)
+dovrebbe                  -0.017733 (NEG)
+migliorare                +0.017286 (POS)
+benessere                 +0.012750 (POS)
+persone,                  -0.008440 (NEG)
+l'IA                      +0.007689 (POS)
+il                        +0.004959 (POS)
+esseri                    +0.003417 (POS)
+umani.                    -0.003323 (NEG)
+da                        +0.001907 (POS)
+strumento                 +0.001907 (POS)
+degli                     +0.001708 (POS)
+per                       +0.001329 (POS)
+le                        +0.001329 (POS)
+essere                    +0.001295 (POS)
+con                       +0.001210 (POS)
+fine                      +0.001210 (POS)
+ultimo                    +0.001210 (POS)
+di                        +0.001210 (POS)
+Come                      +0.001182 (POS)
+una                       -0.000044 (NEG)

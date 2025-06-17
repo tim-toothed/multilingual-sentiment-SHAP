@@ -1,0 +1,182 @@
+
+=== Processing text ===
+Sei un informatore della Stasi. Spie, approfittatori, vermi! Prima o poi dovrai prendere una posizione! Se vorrai tentare qualcosa, chiamami, altrimenti smettiamo di vederci.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005770
+Sei             | 'Sei'                | 0     | 3     | +0.011019
+un              | 'un'                 | 4     | 6     | +0.003951
+informa         | 'informa'            | 7     | 14    | -0.010924
+tore            | 'tore'               | 14    | 18    | -0.012612
+della           | 'della'              | 19    | 24    | +0.011415
+St              | 'St'                 | 25    | 27    | -0.002063
+asi             | 'asi'                | 27    | 30    | -0.003867
+.               | '.'                  | 30    | 31    | +0.007720
+Sp              | 'Sp'                 | 32    | 34    | +0.019160
+ie              | 'ie'                 | 34    | 36    | +0.005684
+,               | ','                  | 36    | 37    | +0.007829
+app             | 'app'                | 38    | 41    | +0.010480
+ro              | 'ro'                 | 41    | 43    | +0.010480
+fit             | 'fit'                | 43    | 46    | +0.004476
+tato            | 'tato'               | 46    | 50    | +0.004476
+ri              | 'ri'                 | 50    | 52    | +0.004476
+,               | ','                  | 52    | 53    | +0.008382
+ver             | 'ver'                | 54    | 57    | +0.006718
+mi              | 'mi'                 | 57    | 59    | +0.013724
+!               | '!'                  | 59    | 60    | +0.022952
+Prima           | 'Prima'              | 61    | 66    | +0.012560
+o               | 'o'                  | 67    | 68    | +0.013768
+poi             | 'poi'                | 69    | 72    | +0.012222
+do              | 'do'                 | 73    | 75    | -0.003681
+vra             | 'vra'                | 75    | 78    | -0.004941
+i               | 'i'                  | 78    | 79    | -0.000057
+prendere        | 'prendere'           | 80    | 88    | -0.004535
+una             | 'una'                | 89    | 92    | -0.006796
+posizione       | 'posizione'          | 93    | 102   | -0.000328
+!               | '!'                  | 102   | 103   | +0.014145
+Se              | 'Se'                 | 104   | 106   | +0.001070
+vor             | 'vor'                | 107   | 110   | +0.001070
+rai             | 'rai'                | 110   | 113   | +0.001070
+tentar          | 'tentar'             | 114   | 120   | -0.001498
+e               | 'e'                  | 120   | 121   | -0.001498
+qualcosa        | 'qualcosa'           | 122   | 130   | -0.001498
+,               | ','                  | 130   | 131   | -0.001427
+chiama          | 'chiama'             | 132   | 138   | +0.000684
+mi              | 'mi'                 | 138   | 140   | +0.000684
+,               | ','                  | 140   | 141   | +0.000860
+altri           | 'altri'              | 142   | 147   | -0.002262
+menti           | 'menti'              | 147   | 152   | -0.002262
+sm              | 'sm'                 | 153   | 155   | -0.002406
+etti            | 'etti'               | 155   | 159   | -0.002406
+amo             | 'amo'                | 159   | 162   | -0.002406
+di              | 'di'                 | 163   | 165   | +0.005075
+vede            | 'vede'               | 166   | 170   | +0.005075
+rci             | 'rci'                | 170   | 173   | +0.005075
+.               | '.'                  | 173   | 174   | -0.000120
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Sei ' (0-3) as 'Sei'
+
+Saved word: 'Sei' with SHAP +0.011019
+  Added token 'un ' (4-6) as 'un'
+
+Saved word: 'un' with SHAP +0.003951
+  Added token 'informa' (7-14) as 'informa'
+  Added token 'tore ' (14-18) as 'tore'
+
+Saved word: 'informatore' with SHAP -0.023536
+  Added token 'della ' (19-24) as 'della'
+
+Saved word: 'della' with SHAP +0.011415
+  Added token 'St' (25-27) as 'St'
+  Added token 'asi' (27-30) as 'asi'
+  Added token '. ' (30-31) as '.'
+
+Saved word: 'Stasi.' with SHAP +0.001790
+  Added token 'Sp' (32-34) as 'Sp'
+  Added token 'ie' (34-36) as 'ie'
+  Added token ', ' (36-37) as ','
+
+Saved word: 'Spie,' with SHAP +0.032672
+  Added token 'app' (38-41) as 'app'
+  Added token 'ro' (41-43) as 'ro'
+  Added token 'fit' (43-46) as 'fit'
+  Added token 'tato' (46-50) as 'tato'
+  Added token 'ri' (50-52) as 'ri'
+  Added token ', ' (52-53) as ','
+
+Saved word: 'approfittatori,' with SHAP +0.042770
+  Added token 'ver' (54-57) as 'ver'
+  Added token 'mi' (57-59) as 'mi'
+  Added token '! ' (59-60) as '!'
+
+Saved word: 'vermi!' with SHAP +0.043394
+  Added token 'Prima ' (61-66) as 'Prima'
+
+Saved word: 'Prima' with SHAP +0.012560
+  Added token 'o ' (67-68) as 'o'
+
+Saved word: 'o' with SHAP +0.013768
+  Added token 'poi ' (69-72) as 'poi'
+
+Saved word: 'poi' with SHAP +0.012222
+  Added token 'do' (73-75) as 'do'
+  Added token 'vra' (75-78) as 'vra'
+  Added token 'i ' (78-79) as 'i'
+
+Saved word: 'dovrai' with SHAP -0.008679
+  Added token 'prendere ' (80-88) as 'prendere'
+
+Saved word: 'prendere' with SHAP -0.004535
+  Added token 'una ' (89-92) as 'una'
+
+Saved word: 'una' with SHAP -0.006796
+  Added token 'posizione' (93-102) as 'posizione'
+  Added token '! ' (102-103) as '!'
+
+Saved word: 'posizione!' with SHAP +0.013818
+  Added token 'Se ' (104-106) as 'Se'
+
+Saved word: 'Se' with SHAP +0.001070
+  Added token 'vor' (107-110) as 'vor'
+  Added token 'rai ' (110-113) as 'rai'
+
+Saved word: 'vorrai' with SHAP +0.002140
+  Added token 'tentar' (114-120) as 'tentar'
+  Added token 'e ' (120-121) as 'e'
+
+Saved word: 'tentare' with SHAP -0.002995
+  Added token 'qualcosa' (122-130) as 'qualcosa'
+  Added token ', ' (130-131) as ','
+
+Saved word: 'qualcosa,' with SHAP -0.002924
+  Added token 'chiama' (132-138) as 'chiama'
+  Added token 'mi' (138-140) as 'mi'
+  Added token ', ' (140-141) as ','
+
+Saved word: 'chiamami,' with SHAP +0.002228
+  Added token 'altri' (142-147) as 'altri'
+  Added token 'menti ' (147-152) as 'menti'
+
+Saved word: 'altrimenti' with SHAP -0.004524
+  Added token 'sm' (153-155) as 'sm'
+  Added token 'etti' (155-159) as 'etti'
+  Added token 'amo ' (159-162) as 'amo'
+
+Saved word: 'smettiamo' with SHAP -0.007219
+  Added token 'di ' (163-165) as 'di'
+
+Saved word: 'di' with SHAP +0.005075
+  Added token 'vede' (166-170) as 'vede'
+  Added token 'rci' (170-173) as 'rci'
+  Added token '.' (173-174) as '.'
+
+Saved final word: 'vederci.' with SHAP +0.010030
+
+=== Final Word Contributions ===
+vermi!                    +0.043394 (POS)
+approfittatori,           +0.042770 (POS)
+Spie,                     +0.032672 (POS)
+informatore               -0.023536 (NEG)
+posizione!                +0.013818 (POS)
+o                         +0.013768 (POS)
+Prima                     +0.012560 (POS)
+poi                       +0.012222 (POS)
+della                     +0.011415 (POS)
+Sei                       +0.011019 (POS)
+vederci.                  +0.010030 (POS)
+dovrai                    -0.008679 (NEG)
+smettiamo                 -0.007219 (NEG)
+una                       -0.006796 (NEG)
+di                        +0.005075 (POS)
+prendere                  -0.004535 (NEG)
+altrimenti                -0.004524 (NEG)
+un                        +0.003951 (POS)
+tentare                   -0.002995 (NEG)
+qualcosa,                 -0.002924 (NEG)
+chiamami,                 +0.002228 (POS)
+vorrai                    +0.002140 (POS)
+Stasi.                    +0.001790 (POS)
+Se                        +0.001070 (POS)

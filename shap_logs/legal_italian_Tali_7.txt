@@ -1,0 +1,259 @@
+
+=== Processing text ===
+Tali categorie specifiche possono riguardare aspetti quali il sesso, l'età, il colore dei capelli, il colore degli occhi, i tatuaggi, i tratti comportamentali o di personalità, la lingua, la religione, l'appartenenza a una minoranza nazionale, l'orientamento sessuale o politico.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000414
+Tal             | 'Tal'                | 0     | 3     | -0.003060
+i               | 'i'                  | 3     | 4     | -0.003060
+categorie       | 'categorie'          | 5     | 14    | +0.019568
+specific        | 'specific'           | 15    | 23    | +0.024237
+he              | 'he'                 | 23    | 25    | +0.007328
+possono         | 'possono'            | 26    | 33    | +0.036682
+riguarda        | 'riguarda'           | 34    | 42    | +0.016339
+re              | 're'                 | 42    | 44    | +0.016339
+aspetti         | 'aspetti'            | 45    | 52    | +0.032876
+quali           | 'quali'              | 53    | 58    | +0.029966
+il              | 'il'                 | 59    | 61    | +0.014000
+ses             | 'ses'                | 62    | 65    | -0.000051
+so              | 'so'                 | 65    | 67    | -0.000051
+,               | ','                  | 67    | 68    | +0.002434
+l               | 'l'                  | 69    | 70    | +0.010438
+'               | "'"                  | 70    | 71    | +0.010438
+età             | 'età'                | 71    | 74    | +0.010438
+,               | ','                  | 74    | 75    | +0.008904
+il              | 'il'                 | 76    | 78    | +0.011378
+colore          | 'colore'             | 79    | 85    | +0.011378
+dei             | 'dei'                | 86    | 89    | +0.010697
+cap             | 'cap'                | 90    | 93    | +0.009110
+elli            | 'elli'               | 93    | 97    | +0.009110
+,               | ','                  | 97    | 98    | +0.009410
+il              | 'il'                 | 99    | 101   | +0.008045
+colore          | 'colore'             | 102   | 108   | +0.008045
+degli           | 'degli'              | 109   | 114   | +0.005760
+occhi           | 'occhi'              | 115   | 120   | +0.005760
+,               | ','                  | 120   | 121   | +0.008653
+i               | 'i'                  | 122   | 123   | +0.005494
+tat             | 'tat'                | 124   | 127   | +0.005494
+ua              | 'ua'                 | 127   | 129   | +0.005494
+ggi             | 'ggi'                | 129   | 132   | +0.005494
+,               | ','                  | 132   | 133   | +0.008341
+i               | 'i'                  | 134   | 135   | +0.009626
+tratti          | 'tratti'             | 136   | 142   | +0.009626
+comporta        | 'comporta'           | 143   | 151   | +0.012637
+mentali         | 'mentali'            | 151   | 158   | +0.012637
+o               | 'o'                  | 159   | 160   | +0.019681
+di              | 'di'                 | 161   | 163   | +0.019681
+personalità     | 'personalità'        | 164   | 175   | +0.014472
+,               | ','                  | 175   | 176   | +0.015342
+la              | 'la'                 | 177   | 179   | +0.004114
+lingua          | 'lingua'             | 180   | 186   | +0.004114
+,               | ','                  | 186   | 187   | +0.004114
+la              | 'la'                 | 188   | 190   | +0.005443
+religione       | 'religione'          | 191   | 200   | +0.005443
+,               | ','                  | 200   | 201   | +0.006232
+l               | 'l'                  | 202   | 203   | +0.004042
+'               | "'"                  | 203   | 204   | +0.004042
+app             | 'app'                | 204   | 207   | +0.004927
+arten           | 'arten'              | 207   | 212   | +0.004927
+enza            | 'enza'               | 212   | 216   | +0.004927
+a               | 'a'                  | 217   | 218   | +0.003634
+una             | 'una'                | 219   | 222   | +0.003634
+minor           | 'minor'              | 223   | 228   | +0.003634
+anza            | 'anza'               | 228   | 232   | +0.003634
+nazionale       | 'nazionale'          | 233   | 242   | +0.003634
+,               | ','                  | 242   | 243   | +0.004843
+l               | 'l'                  | 244   | 245   | +0.006059
+'               | "'"                  | 245   | 246   | +0.006059
+ori             | 'ori'                | 246   | 249   | +0.006049
+enta            | 'enta'               | 249   | 253   | +0.006049
+mento           | 'mento'              | 253   | 258   | +0.006049
+sessuale        | 'sessuale'           | 259   | 267   | +0.007353
+o               | 'o'                  | 268   | 269   | +0.007353
+politico        | 'politico'           | 270   | 278   | +0.007353
+.               | '.'                  | 278   | 279   | +0.008089
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Tal' (0-3) as 'Tal'
+  Added token 'i ' (3-4) as 'i'
+
+Saved word: 'Tali' with SHAP -0.006121
+  Added token 'categorie ' (5-14) as 'categorie'
+
+Saved word: 'categorie' with SHAP +0.019568
+  Added token 'specific' (15-23) as 'specific'
+  Added token 'he ' (23-25) as 'he'
+
+Saved word: 'specifiche' with SHAP +0.031566
+  Added token 'possono ' (26-33) as 'possono'
+
+Saved word: 'possono' with SHAP +0.036682
+  Added token 'riguarda' (34-42) as 'riguarda'
+  Added token 're ' (42-44) as 're'
+
+Saved word: 'riguardare' with SHAP +0.032678
+  Added token 'aspetti ' (45-52) as 'aspetti'
+
+Saved word: 'aspetti' with SHAP +0.032876
+  Added token 'quali ' (53-58) as 'quali'
+
+Saved word: 'quali' with SHAP +0.029966
+  Added token 'il ' (59-61) as 'il'
+
+Saved word: 'il' with SHAP +0.014000
+  Added token 'ses' (62-65) as 'ses'
+  Added token 'so' (65-67) as 'so'
+  Added token ', ' (67-68) as ','
+
+Saved word: 'sesso,' with SHAP +0.002332
+  Added token 'l' (69-70) as 'l'
+  Added token ''' (70-71) as '''
+  Added token 'età' (71-74) as 'età'
+  Added token ', ' (74-75) as ','
+
+Saved word: 'l'età,' with SHAP +0.040218
+  Added token 'il ' (76-78) as 'il'
+
+Saved word: 'il' with SHAP +0.011378
+  Added token 'colore ' (79-85) as 'colore'
+
+Saved word: 'colore' with SHAP +0.011378
+  Added token 'dei ' (86-89) as 'dei'
+
+Saved word: 'dei' with SHAP +0.010697
+  Added token 'cap' (90-93) as 'cap'
+  Added token 'elli' (93-97) as 'elli'
+  Added token ', ' (97-98) as ','
+
+Saved word: 'capelli,' with SHAP +0.027630
+  Added token 'il ' (99-101) as 'il'
+
+Saved word: 'il' with SHAP +0.008045
+  Added token 'colore ' (102-108) as 'colore'
+
+Saved word: 'colore' with SHAP +0.008045
+  Added token 'degli ' (109-114) as 'degli'
+
+Saved word: 'degli' with SHAP +0.005760
+  Added token 'occhi' (115-120) as 'occhi'
+  Added token ', ' (120-121) as ','
+
+Saved word: 'occhi,' with SHAP +0.014414
+  Added token 'i ' (122-123) as 'i'
+
+Saved word: 'i' with SHAP +0.005494
+  Added token 'tat' (124-127) as 'tat'
+  Added token 'ua' (127-129) as 'ua'
+  Added token 'ggi' (129-132) as 'ggi'
+  Added token ', ' (132-133) as ','
+
+Saved word: 'tatuaggi,' with SHAP +0.024822
+  Added token 'i ' (134-135) as 'i'
+
+Saved word: 'i' with SHAP +0.009626
+  Added token 'tratti ' (136-142) as 'tratti'
+
+Saved word: 'tratti' with SHAP +0.009626
+  Added token 'comporta' (143-151) as 'comporta'
+  Added token 'mentali ' (151-158) as 'mentali'
+
+Saved word: 'comportamentali' with SHAP +0.025274
+  Added token 'o ' (159-160) as 'o'
+
+Saved word: 'o' with SHAP +0.019681
+  Added token 'di ' (161-163) as 'di'
+
+Saved word: 'di' with SHAP +0.019681
+  Added token 'personalità' (164-175) as 'personalità'
+  Added token ', ' (175-176) as ','
+
+Saved word: 'personalità,' with SHAP +0.029814
+  Added token 'la ' (177-179) as 'la'
+
+Saved word: 'la' with SHAP +0.004114
+  Added token 'lingua' (180-186) as 'lingua'
+  Added token ', ' (186-187) as ','
+
+Saved word: 'lingua,' with SHAP +0.008228
+  Added token 'la ' (188-190) as 'la'
+
+Saved word: 'la' with SHAP +0.005443
+  Added token 'religione' (191-200) as 'religione'
+  Added token ', ' (200-201) as ','
+
+Saved word: 'religione,' with SHAP +0.011675
+  Added token 'l' (202-203) as 'l'
+  Added token ''' (203-204) as '''
+  Added token 'app' (204-207) as 'app'
+  Added token 'arten' (207-212) as 'arten'
+  Added token 'enza ' (212-216) as 'enza'
+
+Saved word: 'l'appartenenza' with SHAP +0.022865
+  Added token 'a ' (217-218) as 'a'
+
+Saved word: 'a' with SHAP +0.003634
+  Added token 'una ' (219-222) as 'una'
+
+Saved word: 'una' with SHAP +0.003634
+  Added token 'minor' (223-228) as 'minor'
+  Added token 'anza ' (228-232) as 'anza'
+
+Saved word: 'minoranza' with SHAP +0.007269
+  Added token 'nazionale' (233-242) as 'nazionale'
+  Added token ', ' (242-243) as ','
+
+Saved word: 'nazionale,' with SHAP +0.008477
+  Added token 'l' (244-245) as 'l'
+  Added token ''' (245-246) as '''
+  Added token 'ori' (246-249) as 'ori'
+  Added token 'enta' (249-253) as 'enta'
+  Added token 'mento ' (253-258) as 'mento'
+
+Saved word: 'l'orientamento' with SHAP +0.030264
+  Added token 'sessuale ' (259-267) as 'sessuale'
+
+Saved word: 'sessuale' with SHAP +0.007353
+  Added token 'o ' (268-269) as 'o'
+
+Saved word: 'o' with SHAP +0.007353
+  Added token 'politico' (270-278) as 'politico'
+  Added token '.' (278-279) as '.'
+
+Saved final word: 'politico.' with SHAP +0.015443
+
+=== Final Word Contributions ===
+l'età,                    +0.040218 (POS)
+possono                   +0.036682 (POS)
+aspetti                   +0.032876 (POS)
+riguardare                +0.032678 (POS)
+specifiche                +0.031566 (POS)
+l'orientamento            +0.030264 (POS)
+quali                     +0.029966 (POS)
+personalità,              +0.029814 (POS)
+capelli,                  +0.027630 (POS)
+comportamentali           +0.025274 (POS)
+tatuaggi,                 +0.024822 (POS)
+l'appartenenza            +0.022865 (POS)
+di                        +0.019681 (POS)
+categorie                 +0.019568 (POS)
+politico.                 +0.015443 (POS)
+occhi,                    +0.014414 (POS)
+religione,                +0.011675 (POS)
+dei                       +0.010697 (POS)
+i                         +0.009626 (POS)
+tratti                    +0.009626 (POS)
+nazionale,                +0.008477 (POS)
+lingua,                   +0.008228 (POS)
+il                        +0.008045 (POS)
+colore                    +0.008045 (POS)
+o                         +0.007353 (POS)
+sessuale                  +0.007353 (POS)
+minoranza                 +0.007269 (POS)
+Tali                      -0.006121 (NEG)
+degli                     +0.005760 (POS)
+la                        +0.005443 (POS)
+a                         +0.003634 (POS)
+una                       +0.003634 (POS)
+sesso,                    +0.002332 (POS)

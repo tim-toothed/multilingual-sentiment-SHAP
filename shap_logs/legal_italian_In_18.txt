@@ -1,0 +1,393 @@
+
+=== Processing text ===
+In considerazione dell'importanza e dell'utilizzo crescenti dei sistemi di IA, l'applicazione dei principi della progettazione universale a tutti i nuovi servizi e tecnologie dovrebbe garantire un accesso pieno e paritario a tutti coloro che sono potenzialmente interessati dalle tecnologie di IA o che le utilizzano, ivi comprese le persone con disabilità, in modo da tenere pienamente conto delle loro dignità e diversità intrinseche.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001960
+In              | 'In'                 | 0     | 2     | +0.001960
+considera       | 'considera'          | 3     | 12    | +0.007088
+zione           | 'zione'              | 12    | 17    | +0.002633
+dell            | 'dell'               | 18    | 22    | -0.001296
+'               | "'"                  | 22    | 23    | -0.001296
+importanza      | 'importanza'         | 23    | 33    | -0.001296
+e               | 'e'                  | 34    | 35    | -0.001296
+dell            | 'dell'               | 36    | 40    | -0.001872
+'               | "'"                  | 40    | 41    | -0.001872
+utilizzo        | 'utilizzo'           | 41    | 49    | -0.001872
+c               | 'c'                  | 50    | 51    | +0.008647
+res             | 'res'                | 51    | 54    | +0.014251
+cent            | 'cent'               | 54    | 58    | -0.000689
+i               | 'i'                  | 58    | 59    | +0.003844
+dei             | 'dei'                | 60    | 63    | -0.003060
+sistemi         | 'sistemi'            | 64    | 71    | -0.003060
+di              | 'di'                 | 72    | 74    | -0.003060
+IA              | 'IA'                 | 75    | 77    | -0.003060
+,               | ','                  | 77    | 78    | -0.005356
+l               | 'l'                  | 79    | 80    | +0.002173
+'               | "'"                  | 80    | 81    | +0.002173
+applicazione    | 'applicazione'       | 81    | 93    | +0.002173
+dei             | 'dei'                | 94    | 97    | +0.002173
+principi        | 'principi'           | 98    | 106   | +0.002025
+della           | 'della'              | 107   | 112   | +0.002025
+pro             | 'pro'                | 113   | 116   | +0.002025
+get             | 'get'                | 116   | 119   | +0.002025
+tazione         | 'tazione'            | 119   | 126   | +0.002025
+universale      | 'universale'         | 127   | 137   | -0.003910
+a               | 'a'                  | 138   | 139   | -0.003910
+tutti           | 'tutti'              | 140   | 145   | -0.002136
+i               | 'i'                  | 146   | 147   | -0.002136
+nuovi           | 'nuovi'              | 148   | 153   | +0.005164
+servizi         | 'servizi'            | 154   | 161   | +0.005164
+e               | 'e'                  | 162   | 163   | +0.005164
+te              | 'te'                 | 164   | 166   | +0.005164
+c               | 'c'                  | 166   | 167   | +0.005164
+nologie         | 'nologie'            | 167   | 174   | +0.005164
+do              | 'do'                 | 175   | 177   | +0.005608
+vre             | 'vre'                | 177   | 180   | +0.005608
+bbe             | 'bbe'                | 180   | 183   | +0.005608
+garantir        | 'garantir'           | 184   | 192   | +0.005061
+e               | 'e'                  | 192   | 193   | +0.005061
+un              | 'un'                 | 194   | 196   | +0.005061
+accesso         | 'accesso'            | 197   | 204   | +0.005061
+pieno           | 'pieno'              | 205   | 210   | +0.000315
+e               | 'e'                  | 211   | 212   | +0.000315
+pari            | 'pari'               | 213   | 217   | +0.000315
+tario           | 'tario'              | 217   | 222   | +0.000315
+a               | 'a'                  | 223   | 224   | -0.000091
+tutti           | 'tutti'              | 225   | 230   | -0.000091
+coloro          | 'coloro'             | 231   | 237   | -0.000091
+che             | 'che'                | 238   | 241   | -0.000091
+sono            | 'sono'               | 242   | 246   | -0.000091
+pot             | 'pot'                | 247   | 250   | -0.000051
+enz             | 'enz'                | 250   | 253   | -0.000051
+ial             | 'ial'                | 253   | 256   | -0.000051
+mente           | 'mente'              | 256   | 261   | -0.000051
+interes         | 'interes'            | 262   | 269   | -0.000024
+sat             | 'sat'                | 269   | 272   | -0.000024
+i               | 'i'                  | 272   | 273   | -0.000024
+dalle           | 'dalle'              | 274   | 279   | -0.000024
+te              | 'te'                 | 280   | 282   | -0.000175
+c               | 'c'                  | 282   | 283   | -0.000175
+nologie         | 'nologie'            | 283   | 290   | -0.000175
+di              | 'di'                 | 291   | 293   | -0.000175
+IA              | 'IA'                 | 294   | 296   | -0.000175
+o               | 'o'                  | 297   | 298   | -0.000977
+che             | 'che'                | 299   | 302   | -0.000977
+le              | 'le'                 | 303   | 305   | -0.000977
+utilizza        | 'utilizza'           | 306   | 314   | -0.000977
+no              | 'no'                 | 314   | 316   | -0.000977
+,               | ','                  | 316   | 317   | -0.000977
+i               | 'i'                  | 318   | 319   | +0.001481
+vi              | 'vi'                 | 319   | 321   | +0.001481
+com             | 'com'                | 322   | 325   | +0.001481
+prese           | 'prese'              | 325   | 330   | +0.001481
+le              | 'le'                 | 331   | 333   | +0.003523
+persone         | 'persone'            | 334   | 341   | +0.003523
+con             | 'con'                | 342   | 345   | +0.003523
+disa            | 'disa'               | 346   | 350   | -0.003656
+bilità          | 'bilità'             | 350   | 356   | -0.003656
+,               | ','                  | 356   | 357   | -0.001776
+in              | 'in'                 | 358   | 360   | +0.000556
+modo            | 'modo'               | 361   | 365   | +0.000556
+da              | 'da'                 | 366   | 368   | -0.000748
+tenere          | 'tenere'             | 369   | 375   | -0.000748
+piena           | 'piena'              | 376   | 381   | +0.001893
+mente           | 'mente'              | 381   | 386   | +0.001893
+conto           | 'conto'              | 387   | 392   | +0.001893
+delle           | 'delle'              | 393   | 398   | +0.001893
+loro            | 'loro'               | 399   | 403   | +0.001893
+dig             | 'dig'                | 404   | 407   | +0.002628
+nità            | 'nità'               | 407   | 411   | +0.002628
+e               | 'e'                  | 412   | 413   | +0.007381
+diversi         | 'diversi'            | 414   | 421   | +0.000981
+tà              | 'tà'                 | 421   | 423   | +0.000981
+int             | 'int'                | 424   | 427   | +0.002749
+rins            | 'rins'               | 427   | 431   | +0.002749
+eche            | 'eche'               | 431   | 435   | +0.002749
+.               | '.'                  | 435   | 436   | +0.002749
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'In ' (0-2) as 'In'
+
+Saved word: 'In' with SHAP +0.001960
+  Added token 'considera' (3-12) as 'considera'
+  Added token 'zione ' (12-17) as 'zione'
+
+Saved word: 'considerazione' with SHAP +0.009721
+  Added token 'dell' (18-22) as 'dell'
+  Added token ''' (22-23) as '''
+  Added token 'importanza ' (23-33) as 'importanza'
+
+Saved word: 'dell'importanza' with SHAP -0.003889
+  Added token 'e ' (34-35) as 'e'
+
+Saved word: 'e' with SHAP -0.001296
+  Added token 'dell' (36-40) as 'dell'
+  Added token ''' (40-41) as '''
+  Added token 'utilizzo ' (41-49) as 'utilizzo'
+
+Saved word: 'dell'utilizzo' with SHAP -0.005617
+  Added token 'c' (50-51) as 'c'
+  Added token 'res' (51-54) as 'res'
+  Added token 'cent' (54-58) as 'cent'
+  Added token 'i ' (58-59) as 'i'
+
+Saved word: 'crescenti' with SHAP +0.026054
+  Added token 'dei ' (60-63) as 'dei'
+
+Saved word: 'dei' with SHAP -0.003060
+  Added token 'sistemi ' (64-71) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP -0.003060
+  Added token 'di ' (72-74) as 'di'
+
+Saved word: 'di' with SHAP -0.003060
+  Added token 'IA' (75-77) as 'IA'
+  Added token ', ' (77-78) as ','
+
+Saved word: 'IA,' with SHAP -0.008417
+  Added token 'l' (79-80) as 'l'
+  Added token ''' (80-81) as '''
+  Added token 'applicazione ' (81-93) as 'applicazione'
+
+Saved word: 'l'applicazione' with SHAP +0.006519
+  Added token 'dei ' (94-97) as 'dei'
+
+Saved word: 'dei' with SHAP +0.002173
+  Added token 'principi ' (98-106) as 'principi'
+
+Saved word: 'principi' with SHAP +0.002025
+  Added token 'della ' (107-112) as 'della'
+
+Saved word: 'della' with SHAP +0.002025
+  Added token 'pro' (113-116) as 'pro'
+  Added token 'get' (116-119) as 'get'
+  Added token 'tazione ' (119-126) as 'tazione'
+
+Saved word: 'progettazione' with SHAP +0.006076
+  Added token 'universale ' (127-137) as 'universale'
+
+Saved word: 'universale' with SHAP -0.003910
+  Added token 'a ' (138-139) as 'a'
+
+Saved word: 'a' with SHAP -0.003910
+  Added token 'tutti ' (140-145) as 'tutti'
+
+Saved word: 'tutti' with SHAP -0.002136
+  Added token 'i ' (146-147) as 'i'
+
+Saved word: 'i' with SHAP -0.002136
+  Added token 'nuovi ' (148-153) as 'nuovi'
+
+Saved word: 'nuovi' with SHAP +0.005164
+  Added token 'servizi ' (154-161) as 'servizi'
+
+Saved word: 'servizi' with SHAP +0.005164
+  Added token 'e ' (162-163) as 'e'
+
+Saved word: 'e' with SHAP +0.005164
+  Added token 'te' (164-166) as 'te'
+  Added token 'c' (166-167) as 'c'
+  Added token 'nologie ' (167-174) as 'nologie'
+
+Saved word: 'tecnologie' with SHAP +0.015492
+  Added token 'do' (175-177) as 'do'
+  Added token 'vre' (177-180) as 'vre'
+  Added token 'bbe ' (180-183) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.016824
+  Added token 'garantir' (184-192) as 'garantir'
+  Added token 'e ' (192-193) as 'e'
+
+Saved word: 'garantire' with SHAP +0.010121
+  Added token 'un ' (194-196) as 'un'
+
+Saved word: 'un' with SHAP +0.005061
+  Added token 'accesso ' (197-204) as 'accesso'
+
+Saved word: 'accesso' with SHAP +0.005061
+  Added token 'pieno ' (205-210) as 'pieno'
+
+Saved word: 'pieno' with SHAP +0.000315
+  Added token 'e ' (211-212) as 'e'
+
+Saved word: 'e' with SHAP +0.000315
+  Added token 'pari' (213-217) as 'pari'
+  Added token 'tario ' (217-222) as 'tario'
+
+Saved word: 'paritario' with SHAP +0.000629
+  Added token 'a ' (223-224) as 'a'
+
+Saved word: 'a' with SHAP -0.000091
+  Added token 'tutti ' (225-230) as 'tutti'
+
+Saved word: 'tutti' with SHAP -0.000091
+  Added token 'coloro ' (231-237) as 'coloro'
+
+Saved word: 'coloro' with SHAP -0.000091
+  Added token 'che ' (238-241) as 'che'
+
+Saved word: 'che' with SHAP -0.000091
+  Added token 'sono ' (242-246) as 'sono'
+
+Saved word: 'sono' with SHAP -0.000091
+  Added token 'pot' (247-250) as 'pot'
+  Added token 'enz' (250-253) as 'enz'
+  Added token 'ial' (253-256) as 'ial'
+  Added token 'mente ' (256-261) as 'mente'
+
+Saved word: 'potenzialmente' with SHAP -0.000203
+  Added token 'interes' (262-269) as 'interes'
+  Added token 'sat' (269-272) as 'sat'
+  Added token 'i ' (272-273) as 'i'
+
+Saved word: 'interessati' with SHAP -0.000073
+  Added token 'dalle ' (274-279) as 'dalle'
+
+Saved word: 'dalle' with SHAP -0.000024
+  Added token 'te' (280-282) as 'te'
+  Added token 'c' (282-283) as 'c'
+  Added token 'nologie ' (283-290) as 'nologie'
+
+Saved word: 'tecnologie' with SHAP -0.000526
+  Added token 'di ' (291-293) as 'di'
+
+Saved word: 'di' with SHAP -0.000175
+  Added token 'IA ' (294-296) as 'IA'
+
+Saved word: 'IA' with SHAP -0.000175
+  Added token 'o ' (297-298) as 'o'
+
+Saved word: 'o' with SHAP -0.000977
+  Added token 'che ' (299-302) as 'che'
+
+Saved word: 'che' with SHAP -0.000977
+  Added token 'le ' (303-305) as 'le'
+
+Saved word: 'le' with SHAP -0.000977
+  Added token 'utilizza' (306-314) as 'utilizza'
+  Added token 'no' (314-316) as 'no'
+  Added token ', ' (316-317) as ','
+
+Saved word: 'utilizzano,' with SHAP -0.002932
+  Added token 'i' (318-319) as 'i'
+  Added token 'vi ' (319-321) as 'vi'
+
+Saved word: 'ivi' with SHAP +0.002961
+  Added token 'com' (322-325) as 'com'
+  Added token 'prese ' (325-330) as 'prese'
+
+Saved word: 'comprese' with SHAP +0.002961
+  Added token 'le ' (331-333) as 'le'
+
+Saved word: 'le' with SHAP +0.003523
+  Added token 'persone ' (334-341) as 'persone'
+
+Saved word: 'persone' with SHAP +0.003523
+  Added token 'con ' (342-345) as 'con'
+
+Saved word: 'con' with SHAP +0.003523
+  Added token 'disa' (346-350) as 'disa'
+  Added token 'bilità' (350-356) as 'bilità'
+  Added token ', ' (356-357) as ','
+
+Saved word: 'disabilità,' with SHAP -0.009089
+  Added token 'in ' (358-360) as 'in'
+
+Saved word: 'in' with SHAP +0.000556
+  Added token 'modo ' (361-365) as 'modo'
+
+Saved word: 'modo' with SHAP +0.000556
+  Added token 'da ' (366-368) as 'da'
+
+Saved word: 'da' with SHAP -0.000748
+  Added token 'tenere ' (369-375) as 'tenere'
+
+Saved word: 'tenere' with SHAP -0.000748
+  Added token 'piena' (376-381) as 'piena'
+  Added token 'mente ' (381-386) as 'mente'
+
+Saved word: 'pienamente' with SHAP +0.003786
+  Added token 'conto ' (387-392) as 'conto'
+
+Saved word: 'conto' with SHAP +0.001893
+  Added token 'delle ' (393-398) as 'delle'
+
+Saved word: 'delle' with SHAP +0.001893
+  Added token 'loro ' (399-403) as 'loro'
+
+Saved word: 'loro' with SHAP +0.001893
+  Added token 'dig' (404-407) as 'dig'
+  Added token 'nità ' (407-411) as 'nità'
+
+Saved word: 'dignità' with SHAP +0.005256
+  Added token 'e ' (412-413) as 'e'
+
+Saved word: 'e' with SHAP +0.007381
+  Added token 'diversi' (414-421) as 'diversi'
+  Added token 'tà ' (421-423) as 'tà'
+
+Saved word: 'diversità' with SHAP +0.001963
+  Added token 'int' (424-427) as 'int'
+  Added token 'rins' (427-431) as 'rins'
+  Added token 'eche' (431-435) as 'eche'
+  Added token '.' (435-436) as '.'
+
+Saved final word: 'intrinseche.' with SHAP +0.010997
+
+=== Final Word Contributions ===
+crescenti                 +0.026054 (POS)
+dovrebbe                  +0.016824 (POS)
+intrinseche.              +0.010997 (POS)
+garantire                 +0.010121 (POS)
+considerazione            +0.009721 (POS)
+disabilità,               -0.009089 (NEG)
+IA,                       -0.008417 (NEG)
+e                         +0.007381 (POS)
+l'applicazione            +0.006519 (POS)
+progettazione             +0.006076 (POS)
+dell'utilizzo             -0.005617 (NEG)
+dignità                   +0.005256 (POS)
+nuovi                     +0.005164 (POS)
+servizi                   +0.005164 (POS)
+un                        +0.005061 (POS)
+accesso                   +0.005061 (POS)
+universale                -0.003910 (NEG)
+dell'importanza           -0.003889 (NEG)
+pienamente                +0.003786 (POS)
+le                        +0.003523 (POS)
+persone                   +0.003523 (POS)
+con                       +0.003523 (POS)
+sistemi                   -0.003060 (NEG)
+ivi                       +0.002961 (POS)
+comprese                  +0.002961 (POS)
+utilizzano,               -0.002932 (NEG)
+dei                       +0.002173 (POS)
+i                         -0.002136 (NEG)
+principi                  +0.002025 (POS)
+della                     +0.002025 (POS)
+diversità                 +0.001963 (POS)
+In                        +0.001960 (POS)
+conto                     +0.001893 (POS)
+delle                     +0.001893 (POS)
+loro                      +0.001893 (POS)
+che                       -0.000977 (NEG)
+o                         -0.000977 (NEG)
+da                        -0.000748 (NEG)
+tenere                    -0.000748 (NEG)
+paritario                 +0.000629 (POS)
+in                        +0.000556 (POS)
+modo                      +0.000556 (POS)
+tecnologie                -0.000526 (NEG)
+pieno                     +0.000315 (POS)
+potenzialmente            -0.000203 (NEG)
+di                        -0.000175 (NEG)
+IA                        -0.000175 (NEG)
+a                         -0.000091 (NEG)
+tutti                     -0.000091 (NEG)
+coloro                    -0.000091 (NEG)
+sono                      -0.000091 (NEG)
+interessati               -0.000073 (NEG)
+dalle                     -0.000024 (NEG)

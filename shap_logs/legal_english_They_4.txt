@@ -1,0 +1,202 @@
+
+=== Processing text ===
+They should also take into account the European Declaration on Digital Rights and Principles for the Digital Decade and the Ethics guidelines for trustworthy AI of the High-Level Expert Group on Artificial Intelligence (AI HLEG)
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002183
+They            | 'They'               | 0     | 4     | +0.001041
+should          | 'should'             | 5     | 11    | +0.077405
+also            | 'also'               | 12    | 16    | +0.005642
+take            | 'take'               | 17    | 21    | +0.010962
+into            | 'into'               | 22    | 26    | +0.010027
+account         | 'account'            | 27    | 34    | +0.016459
+the             | 'the'                | 35    | 38    | +0.011906
+European        | 'European'           | 39    | 47    | +0.003420
+Declaration     | 'Declaration'        | 48    | 59    | +0.003855
+on              | 'on'                 | 60    | 62    | +0.004414
+Digital         | 'Digital'            | 63    | 70    | +0.004414
+Rights          | 'Rights'             | 71    | 77    | +0.006053
+and             | 'and'                | 78    | 81    | -0.008888
+Principles      | 'Principles'         | 82    | 92    | +0.017316
+for             | 'for'                | 93    | 96    | +0.013370
+the             | 'the'                | 97    | 100   | +0.002954
+Digital         | 'Digital'            | 101   | 108   | +0.002954
+Dec             | 'Dec'                | 109   | 112   | -0.003419
+ade             | 'ade'                | 112   | 115   | -0.004526
+and             | 'and'                | 116   | 119   | -0.003061
+the             | 'the'                | 120   | 123   | +0.007663
+Ethics          | 'Ethics'             | 124   | 130   | +0.007195
+guide           | 'guide'              | 131   | 136   | +0.016390
+lines           | 'lines'              | 136   | 141   | +0.017889
+for             | 'for'                | 142   | 145   | +0.041664
+trust           | 'trust'              | 146   | 151   | -0.001155
+worthy          | 'worthy'             | 151   | 157   | -0.041752
+AI              | 'AI'                 | 158   | 160   | -0.005114
+of              | 'of'                 | 161   | 163   | -0.005755
+the             | 'the'                | 164   | 167   | -0.004382
+High            | 'High'               | 168   | 172   | -0.004688
+-               | '-'                  | 172   | 173   | -0.007217
+Level           | 'Level'              | 173   | 178   | -0.008638
+Ex              | 'Ex'                 | 179   | 181   | -0.000482
+pert            | 'pert'               | 181   | 185   | -0.000614
+Group           | 'Group'              | 186   | 191   | +0.006798
+on              | 'on'                 | 192   | 194   | +0.006976
+Arti            | 'Arti'               | 195   | 199   | +0.003795
+ficial          | 'ficial'             | 199   | 205   | +0.003795
+Intelligence    | 'Intelligence'       | 206   | 218   | +0.003439
+(               | '('                  | 219   | 220   | -0.003196
+AI              | 'AI'                 | 220   | 222   | -0.003196
+H               | 'H'                  | 223   | 224   | +0.001797
+LE              | 'LE'                 | 224   | 226   | +0.001797
+G               | 'G'                  | 226   | 227   | +0.001797
+)               | ')'                  | 227   | 228   | +0.007309
+                | ''                   | 0     | 0     | +0.000023
+  Added token 'They ' (0-4) as 'They'
+
+Saved word: 'They' with SHAP +0.001041
+  Added token 'should ' (5-11) as 'should'
+
+Saved word: 'should' with SHAP +0.077405
+  Added token 'also ' (12-16) as 'also'
+
+Saved word: 'also' with SHAP +0.005642
+  Added token 'take ' (17-21) as 'take'
+
+Saved word: 'take' with SHAP +0.010962
+  Added token 'into ' (22-26) as 'into'
+
+Saved word: 'into' with SHAP +0.010027
+  Added token 'account ' (27-34) as 'account'
+
+Saved word: 'account' with SHAP +0.016459
+  Added token 'the ' (35-38) as 'the'
+
+Saved word: 'the' with SHAP +0.011906
+  Added token 'European ' (39-47) as 'European'
+
+Saved word: 'European' with SHAP +0.003420
+  Added token 'Declaration ' (48-59) as 'Declaration'
+
+Saved word: 'Declaration' with SHAP +0.003855
+  Added token 'on ' (60-62) as 'on'
+
+Saved word: 'on' with SHAP +0.004414
+  Added token 'Digital ' (63-70) as 'Digital'
+
+Saved word: 'Digital' with SHAP +0.004414
+  Added token 'Rights ' (71-77) as 'Rights'
+
+Saved word: 'Rights' with SHAP +0.006053
+  Added token 'and ' (78-81) as 'and'
+
+Saved word: 'and' with SHAP -0.008888
+  Added token 'Principles ' (82-92) as 'Principles'
+
+Saved word: 'Principles' with SHAP +0.017316
+  Added token 'for ' (93-96) as 'for'
+
+Saved word: 'for' with SHAP +0.013370
+  Added token 'the ' (97-100) as 'the'
+
+Saved word: 'the' with SHAP +0.002954
+  Added token 'Digital ' (101-108) as 'Digital'
+
+Saved word: 'Digital' with SHAP +0.002954
+  Added token 'Dec' (109-112) as 'Dec'
+  Added token 'ade ' (112-115) as 'ade'
+
+Saved word: 'Decade' with SHAP -0.007945
+  Added token 'and ' (116-119) as 'and'
+
+Saved word: 'and' with SHAP -0.003061
+  Added token 'the ' (120-123) as 'the'
+
+Saved word: 'the' with SHAP +0.007663
+  Added token 'Ethics ' (124-130) as 'Ethics'
+
+Saved word: 'Ethics' with SHAP +0.007195
+  Added token 'guide' (131-136) as 'guide'
+  Added token 'lines ' (136-141) as 'lines'
+
+Saved word: 'guidelines' with SHAP +0.034280
+  Added token 'for ' (142-145) as 'for'
+
+Saved word: 'for' with SHAP +0.041664
+  Added token 'trust' (146-151) as 'trust'
+  Added token 'worthy ' (151-157) as 'worthy'
+
+Saved word: 'trustworthy' with SHAP -0.042907
+  Added token 'AI ' (158-160) as 'AI'
+
+Saved word: 'AI' with SHAP -0.005114
+  Added token 'of ' (161-163) as 'of'
+
+Saved word: 'of' with SHAP -0.005755
+  Added token 'the ' (164-167) as 'the'
+
+Saved word: 'the' with SHAP -0.004382
+  Added token 'High' (168-172) as 'High'
+  Added token '-' (172-173) as '-'
+  Added token 'Level ' (173-178) as 'Level'
+
+Saved word: 'High-Level' with SHAP -0.020543
+  Added token 'Ex' (179-181) as 'Ex'
+  Added token 'pert ' (181-185) as 'pert'
+
+Saved word: 'Expert' with SHAP -0.001097
+  Added token 'Group ' (186-191) as 'Group'
+
+Saved word: 'Group' with SHAP +0.006798
+  Added token 'on ' (192-194) as 'on'
+
+Saved word: 'on' with SHAP +0.006976
+  Added token 'Arti' (195-199) as 'Arti'
+  Added token 'ficial ' (199-205) as 'ficial'
+
+Saved word: 'Artificial' with SHAP +0.007590
+  Added token 'Intelligence ' (206-218) as 'Intelligence'
+
+Saved word: 'Intelligence' with SHAP +0.003439
+  Added token '(' (219-220) as '('
+  Added token 'AI ' (220-222) as 'AI'
+
+Saved word: '(AI' with SHAP -0.006392
+  Added token 'H' (223-224) as 'H'
+  Added token 'LE' (224-226) as 'LE'
+  Added token 'G' (226-227) as 'G'
+  Added token ')' (227-228) as ')'
+
+Saved final word: 'HLEG)' with SHAP +0.012701
+
+=== Final Word Contributions ===
+should                    +0.077405 (POS)
+trustworthy               -0.042907 (NEG)
+for                       +0.041664 (POS)
+guidelines                +0.034280 (POS)
+High-Level                -0.020543 (NEG)
+Principles                +0.017316 (POS)
+account                   +0.016459 (POS)
+HLEG)                     +0.012701 (POS)
+take                      +0.010962 (POS)
+into                      +0.010027 (POS)
+Decade                    -0.007945 (NEG)
+Artificial                +0.007590 (POS)
+Ethics                    +0.007195 (POS)
+on                        +0.006976 (POS)
+Group                     +0.006798 (POS)
+(AI                       -0.006392 (NEG)
+Rights                    +0.006053 (POS)
+of                        -0.005755 (NEG)
+also                      +0.005642 (POS)
+AI                        -0.005114 (NEG)
+the                       -0.004382 (NEG)
+Declaration               +0.003855 (POS)
+Intelligence              +0.003439 (POS)
+European                  +0.003420 (POS)
+and                       -0.003061 (NEG)
+Digital                   +0.002954 (POS)
+Expert                    -0.001097 (NEG)
+They                      +0.001041 (POS)

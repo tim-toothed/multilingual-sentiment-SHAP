@@ -1,0 +1,137 @@
+
+=== Processing text ===
+Forza, accendete i motori amici! Cinque minuti e andiamo in diretta! Dategli l'ultima lucidata e preparatevi al decollo.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.001085
+Forza           | 'Forza'              | 0     | 5     | +0.059909
+,               | ','                  | 5     | 6     | +0.006466
+ac              | 'ac'                 | 7     | 9     | +0.036290
+cend            | 'cend'               | 9     | 13    | +0.028599
+ete             | 'ete'                | 13    | 16    | +0.020761
+i               | 'i'                  | 17    | 18    | +0.008540
+motori          | 'motori'             | 19    | 25    | +0.008263
+amici           | 'amici'              | 26    | 31    | +0.031552
+!               | '!'                  | 31    | 32    | +0.095576
+Cinq            | 'Cinq'               | 33    | 37    | +0.041862
+ue              | 'ue'                 | 37    | 39    | +0.022525
+minuti          | 'minuti'             | 40    | 46    | +0.000685
+e               | 'e'                  | 47    | 48    | +0.013187
+and             | 'and'                | 49    | 52    | +0.026411
+iamo            | 'iamo'               | 52    | 56    | +0.010588
+in              | 'in'                 | 57    | 59    | +0.017513
+diretta         | 'diretta'            | 60    | 67    | +0.015984
+!               | '!'                  | 67    | 68    | +0.084797
+Date            | 'Date'               | 69    | 73    | -0.011686
+gli             | 'gli'                | 73    | 76    | -0.011686
+l               | 'l'                  | 77    | 78    | -0.003216
+'               | "'"                  | 78    | 79    | -0.002190
+ultima          | 'ultima'             | 79    | 85    | +0.008226
+lu              | 'lu'                 | 86    | 88    | +0.004398
+cida            | 'cida'               | 88    | 92    | +0.004398
+ta              | 'ta'                 | 92    | 94    | -0.001331
+e               | 'e'                  | 95    | 96    | +0.000988
+pre             | 'pre'                | 97    | 100   | +0.003532
+para            | 'para'               | 100   | 104   | +0.003532
+tev             | 'tev'                | 104   | 107   | -0.000329
+i               | 'i'                  | 107   | 108   | +0.001056
+al              | 'al'                 | 109   | 111   | +0.003933
+de              | 'de'                 | 112   | 114   | -0.015059
+col             | 'col'                | 114   | 117   | -0.009800
+lo              | 'lo'                 | 117   | 119   | +0.003178
+.               | '.'                  | 119   | 120   | -0.013223
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Forza' (0-5) as 'Forza'
+  Added token ', ' (5-6) as ','
+
+Saved word: 'Forza,' with SHAP +0.066376
+  Added token 'ac' (7-9) as 'ac'
+  Added token 'cend' (9-13) as 'cend'
+  Added token 'ete ' (13-16) as 'ete'
+
+Saved word: 'accendete' with SHAP +0.085650
+  Added token 'i ' (17-18) as 'i'
+
+Saved word: 'i' with SHAP +0.008540
+  Added token 'motori ' (19-25) as 'motori'
+
+Saved word: 'motori' with SHAP +0.008263
+  Added token 'amici' (26-31) as 'amici'
+  Added token '! ' (31-32) as '!'
+
+Saved word: 'amici!' with SHAP +0.127129
+  Added token 'Cinq' (33-37) as 'Cinq'
+  Added token 'ue ' (37-39) as 'ue'
+
+Saved word: 'Cinque' with SHAP +0.064387
+  Added token 'minuti ' (40-46) as 'minuti'
+
+Saved word: 'minuti' with SHAP +0.000685
+  Added token 'e ' (47-48) as 'e'
+
+Saved word: 'e' with SHAP +0.013187
+  Added token 'and' (49-52) as 'and'
+  Added token 'iamo ' (52-56) as 'iamo'
+
+Saved word: 'andiamo' with SHAP +0.036999
+  Added token 'in ' (57-59) as 'in'
+
+Saved word: 'in' with SHAP +0.017513
+  Added token 'diretta' (60-67) as 'diretta'
+  Added token '! ' (67-68) as '!'
+
+Saved word: 'diretta!' with SHAP +0.100781
+  Added token 'Date' (69-73) as 'Date'
+  Added token 'gli ' (73-76) as 'gli'
+
+Saved word: 'Dategli' with SHAP -0.023372
+  Added token 'l' (77-78) as 'l'
+  Added token ''' (78-79) as '''
+  Added token 'ultima ' (79-85) as 'ultima'
+
+Saved word: 'l'ultima' with SHAP +0.002820
+  Added token 'lu' (86-88) as 'lu'
+  Added token 'cida' (88-92) as 'cida'
+  Added token 'ta ' (92-94) as 'ta'
+
+Saved word: 'lucidata' with SHAP +0.007465
+  Added token 'e ' (95-96) as 'e'
+
+Saved word: 'e' with SHAP +0.000988
+  Added token 'pre' (97-100) as 'pre'
+  Added token 'para' (100-104) as 'para'
+  Added token 'tev' (104-107) as 'tev'
+  Added token 'i ' (107-108) as 'i'
+
+Saved word: 'preparatevi' with SHAP +0.007791
+  Added token 'al ' (109-111) as 'al'
+
+Saved word: 'al' with SHAP +0.003933
+  Added token 'de' (112-114) as 'de'
+  Added token 'col' (114-117) as 'col'
+  Added token 'lo' (117-119) as 'lo'
+  Added token '.' (119-120) as '.'
+
+Saved final word: 'decollo.' with SHAP -0.034904
+
+=== Final Word Contributions ===
+amici!                    +0.127129 (POS)
+diretta!                  +0.100781 (POS)
+accendete                 +0.085650 (POS)
+Forza,                    +0.066376 (POS)
+Cinque                    +0.064387 (POS)
+andiamo                   +0.036999 (POS)
+decollo.                  -0.034904 (NEG)
+Dategli                   -0.023372 (NEG)
+in                        +0.017513 (POS)
+i                         +0.008540 (POS)
+motori                    +0.008263 (POS)
+preparatevi               +0.007791 (POS)
+lucidata                  +0.007465 (POS)
+al                        +0.003933 (POS)
+l'ultima                  +0.002820 (POS)
+e                         +0.000988 (POS)
+minuti                    +0.000685 (POS)

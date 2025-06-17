@@ -1,0 +1,201 @@
+
+=== Processing text ===
+Se venivi da me in amicizia, quei bastardi che hanno sfigurato tua figlia avrebbero la loro punizione oggi stesso. E, se per questo dovessi farti dei nemici, quelli diventerebbero nemici miei.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000798
+Se              | 'Se'                 | 0     | 2     | +0.029371
+ven             | 'ven'                | 3     | 6     | +0.003542
+ivi             | 'ivi'                | 6     | 9     | -0.009686
+da              | 'da'                 | 10    | 12    | +0.004187
+me              | 'me'                 | 13    | 15    | +0.005612
+in              | 'in'                 | 16    | 18    | -0.013405
+amicizia        | 'amicizia'           | 19    | 27    | -0.030745
+,               | ','                  | 27    | 28    | -0.020519
+quei            | 'quei'               | 29    | 33    | +0.015115
+bas             | 'bas'                | 34    | 37    | +0.028587
+tard            | 'tard'               | 37    | 41    | +0.028587
+i               | 'i'                  | 41    | 42    | +0.007774
+che             | 'che'                | 43    | 46    | -0.002329
+hanno           | 'hanno'              | 47    | 52    | -0.005384
+s               | 's'                  | 53    | 54    | +0.016707
+figur           | 'figur'              | 54    | 59    | +0.016707
+ato             | 'ato'                | 59    | 62    | +0.016922
+tua             | 'tua'                | 63    | 66    | +0.014787
+figlia          | 'figlia'             | 67    | 73    | +0.016540
+avrebbero       | 'avrebbero'          | 74    | 83    | -0.003525
+la              | 'la'                 | 84    | 86    | -0.003525
+loro            | 'loro'               | 87    | 91    | -0.002400
+pun             | 'pun'                | 92    | 95    | +0.051885
+izione          | 'izione'             | 95    | 101   | +0.040370
+oggi            | 'oggi'               | 102   | 106   | +0.005033
+stesso          | 'stesso'             | 107   | 113   | +0.005033
+.               | '.'                  | 113   | 114   | +0.045411
+E               | 'E'                  | 115   | 116   | -0.022097
+,               | ','                  | 116   | 117   | -0.029955
+se              | 'se'                 | 118   | 120   | +0.003295
+per             | 'per'                | 121   | 124   | +0.003295
+questo          | 'questo'             | 125   | 131   | +0.003072
+dove            | 'dove'               | 132   | 136   | +0.000380
+ssi             | 'ssi'                | 136   | 139   | +0.000380
+far             | 'far'                | 140   | 143   | +0.000380
+ti              | 'ti'                 | 143   | 145   | +0.000380
+dei             | 'dei'                | 146   | 149   | +0.003750
+nemici          | 'nemici'             | 150   | 156   | +0.003750
+,               | ','                  | 156   | 157   | +0.003976
+quelli          | 'quelli'             | 158   | 164   | -0.011612
+div             | 'div'                | 165   | 168   | -0.000438
+enter           | 'enter'              | 168   | 173   | -0.000438
+ebb             | 'ebb'                | 173   | 176   | -0.000438
+ero             | 'ero'                | 176   | 179   | -0.000438
+nemici          | 'nemici'             | 180   | 186   | +0.015616
+mi              | 'mi'                 | 187   | 189   | +0.006976
+ei              | 'ei'                 | 189   | 191   | +0.006976
+.               | '.'                  | 191   | 192   | +0.000915
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Se ' (0-2) as 'Se'
+
+Saved word: 'Se' with SHAP +0.029371
+  Added token 'ven' (3-6) as 'ven'
+  Added token 'ivi ' (6-9) as 'ivi'
+
+Saved word: 'venivi' with SHAP -0.006144
+  Added token 'da ' (10-12) as 'da'
+
+Saved word: 'da' with SHAP +0.004187
+  Added token 'me ' (13-15) as 'me'
+
+Saved word: 'me' with SHAP +0.005612
+  Added token 'in ' (16-18) as 'in'
+
+Saved word: 'in' with SHAP -0.013405
+  Added token 'amicizia' (19-27) as 'amicizia'
+  Added token ', ' (27-28) as ','
+
+Saved word: 'amicizia,' with SHAP -0.051264
+  Added token 'quei ' (29-33) as 'quei'
+
+Saved word: 'quei' with SHAP +0.015115
+  Added token 'bas' (34-37) as 'bas'
+  Added token 'tard' (37-41) as 'tard'
+  Added token 'i ' (41-42) as 'i'
+
+Saved word: 'bastardi' with SHAP +0.064949
+  Added token 'che ' (43-46) as 'che'
+
+Saved word: 'che' with SHAP -0.002329
+  Added token 'hanno ' (47-52) as 'hanno'
+
+Saved word: 'hanno' with SHAP -0.005384
+  Added token 's' (53-54) as 's'
+  Added token 'figur' (54-59) as 'figur'
+  Added token 'ato ' (59-62) as 'ato'
+
+Saved word: 'sfigurato' with SHAP +0.050336
+  Added token 'tua ' (63-66) as 'tua'
+
+Saved word: 'tua' with SHAP +0.014787
+  Added token 'figlia ' (67-73) as 'figlia'
+
+Saved word: 'figlia' with SHAP +0.016540
+  Added token 'avrebbero ' (74-83) as 'avrebbero'
+
+Saved word: 'avrebbero' with SHAP -0.003525
+  Added token 'la ' (84-86) as 'la'
+
+Saved word: 'la' with SHAP -0.003525
+  Added token 'loro ' (87-91) as 'loro'
+
+Saved word: 'loro' with SHAP -0.002400
+  Added token 'pun' (92-95) as 'pun'
+  Added token 'izione ' (95-101) as 'izione'
+
+Saved word: 'punizione' with SHAP +0.092255
+  Added token 'oggi ' (102-106) as 'oggi'
+
+Saved word: 'oggi' with SHAP +0.005033
+  Added token 'stesso' (107-113) as 'stesso'
+  Added token '. ' (113-114) as '.'
+
+Saved word: 'stesso.' with SHAP +0.050445
+  Added token 'E' (115-116) as 'E'
+  Added token ', ' (116-117) as ','
+
+Saved word: 'E,' with SHAP -0.052052
+  Added token 'se ' (118-120) as 'se'
+
+Saved word: 'se' with SHAP +0.003295
+  Added token 'per ' (121-124) as 'per'
+
+Saved word: 'per' with SHAP +0.003295
+  Added token 'questo ' (125-131) as 'questo'
+
+Saved word: 'questo' with SHAP +0.003072
+  Added token 'dove' (132-136) as 'dove'
+  Added token 'ssi ' (136-139) as 'ssi'
+
+Saved word: 'dovessi' with SHAP +0.000761
+  Added token 'far' (140-143) as 'far'
+  Added token 'ti ' (143-145) as 'ti'
+
+Saved word: 'farti' with SHAP +0.000761
+  Added token 'dei ' (146-149) as 'dei'
+
+Saved word: 'dei' with SHAP +0.003750
+  Added token 'nemici' (150-156) as 'nemici'
+  Added token ', ' (156-157) as ','
+
+Saved word: 'nemici,' with SHAP +0.007726
+  Added token 'quelli ' (158-164) as 'quelli'
+
+Saved word: 'quelli' with SHAP -0.011612
+  Added token 'div' (165-168) as 'div'
+  Added token 'enter' (168-173) as 'enter'
+  Added token 'ebb' (173-176) as 'ebb'
+  Added token 'ero ' (176-179) as 'ero'
+
+Saved word: 'diventerebbero' with SHAP -0.001750
+  Added token 'nemici ' (180-186) as 'nemici'
+
+Saved word: 'nemici' with SHAP +0.015616
+  Added token 'mi' (187-189) as 'mi'
+  Added token 'ei' (189-191) as 'ei'
+  Added token '.' (191-192) as '.'
+
+Saved final word: 'miei.' with SHAP +0.014868
+
+=== Final Word Contributions ===
+punizione                 +0.092255 (POS)
+bastardi                  +0.064949 (POS)
+E,                        -0.052052 (NEG)
+amicizia,                 -0.051264 (NEG)
+stesso.                   +0.050445 (POS)
+sfigurato                 +0.050336 (POS)
+Se                        +0.029371 (POS)
+figlia                    +0.016540 (POS)
+nemici                    +0.015616 (POS)
+quei                      +0.015115 (POS)
+miei.                     +0.014868 (POS)
+tua                       +0.014787 (POS)
+in                        -0.013405 (NEG)
+quelli                    -0.011612 (NEG)
+nemici,                   +0.007726 (POS)
+venivi                    -0.006144 (NEG)
+me                        +0.005612 (POS)
+hanno                     -0.005384 (NEG)
+oggi                      +0.005033 (POS)
+da                        +0.004187 (POS)
+dei                       +0.003750 (POS)
+avrebbero                 -0.003525 (NEG)
+la                        -0.003525 (NEG)
+se                        +0.003295 (POS)
+per                       +0.003295 (POS)
+questo                    +0.003072 (POS)
+loro                      -0.002400 (NEG)
+che                       -0.002329 (NEG)
+diventerebbero            -0.001750 (NEG)
+dovessi                   +0.000761 (POS)
+farti                     +0.000761 (POS)

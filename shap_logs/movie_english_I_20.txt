@@ -1,0 +1,66 @@
+
+=== Processing text ===
+I said, I know and admire your wonderful work.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+I               | 'I'                  | 0     | 1     | -0.004495
+said            | 'said'               | 2     | 6     | -0.025139
+,               | ','                  | 6     | 7     | +0.000577
+I               | 'I'                  | 8     | 9     | +0.021594
+know            | 'know'               | 10    | 14    | -0.018235
+and             | 'and'                | 15    | 18    | +0.030059
+ad              | 'ad'                 | 19    | 21    | -0.047805
+mire            | 'mire'               | 21    | 25    | +0.037830
+your            | 'your'               | 26    | 30    | +0.059055
+won             | 'won'                | 31    | 34    | +0.179375
+der             | 'der'                | 34    | 37    | +0.011701
+ful             | 'ful'                | 37    | 40    | +0.101826
+work            | 'work'               | 41    | 45    | -0.038877
+.               | '.'                  | 45    | 46    | -0.027926
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'I ' (0-1) as 'I'
+
+Saved word: 'I' with SHAP -0.004495
+  Added token 'said' (2-6) as 'said'
+  Added token ', ' (6-7) as ','
+
+Saved word: 'said,' with SHAP -0.024562
+  Added token 'I ' (8-9) as 'I'
+
+Saved word: 'I' with SHAP +0.021594
+  Added token 'know ' (10-14) as 'know'
+
+Saved word: 'know' with SHAP -0.018235
+  Added token 'and ' (15-18) as 'and'
+
+Saved word: 'and' with SHAP +0.030059
+  Added token 'ad' (19-21) as 'ad'
+  Added token 'mire ' (21-25) as 'mire'
+
+Saved word: 'admire' with SHAP -0.009975
+  Added token 'your ' (26-30) as 'your'
+
+Saved word: 'your' with SHAP +0.059055
+  Added token 'won' (31-34) as 'won'
+  Added token 'der' (34-37) as 'der'
+  Added token 'ful ' (37-40) as 'ful'
+
+Saved word: 'wonderful' with SHAP +0.292902
+  Added token 'work' (41-45) as 'work'
+  Added token '.' (45-46) as '.'
+
+Saved final word: 'work.' with SHAP -0.066803
+
+=== Final Word Contributions ===
+wonderful                 +0.292902 (POS)
+work.                     -0.066803 (NEG)
+your                      +0.059055 (POS)
+and                       +0.030059 (POS)
+said,                     -0.024562 (NEG)
+I                         +0.021594 (POS)
+know                      -0.018235 (NEG)
+admire                    -0.009975 (NEG)

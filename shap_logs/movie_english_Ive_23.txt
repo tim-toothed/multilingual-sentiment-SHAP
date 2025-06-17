@@ -1,0 +1,238 @@
+
+=== Processing text ===
+I've always hated this carpet. It's stained and frayed in such distinctive ways. But very definitely made of wool. Right... so I'm not on the carpet in my apartment. Which means I'm not in my apartment.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.002175
+I               | 'I'                  | 0     | 1     | +0.002856
+'               | "'"                  | 1     | 2     | +0.002856
+ve              | 've'                 | 2     | 4     | -0.001966
+always          | 'always'             | 5     | 11    | -0.001966
+hat             | 'hat'                | 12    | 15    | +0.038226
+ed              | 'ed'                 | 15    | 17    | +0.033903
+this            | 'this'               | 18    | 22    | +0.040122
+car             | 'car'                | 23    | 26    | +0.013869
+pet             | 'pet'                | 26    | 29    | +0.013869
+.               | '.'                  | 29    | 30    | +0.024645
+It              | 'It'                 | 31    | 33    | -0.000298
+'               | "'"                  | 33    | 34    | -0.000298
+s               | 's'                  | 34    | 35    | -0.001948
+sta             | 'sta'                | 36    | 39    | +0.007504
+ined            | 'ined'               | 39    | 43    | +0.010157
+and             | 'and'                | 44    | 47    | +0.005713
+fra             | 'fra'                | 48    | 51    | +0.026255
+yed             | 'yed'                | 51    | 54    | +0.026255
+in              | 'in'                 | 55    | 57    | +0.013272
+such            | 'such'               | 58    | 62    | +0.013272
+distinctive     | 'distinctive'        | 63    | 74    | -0.024123
+ways            | 'ways'               | 75    | 79    | -0.024123
+.               | '.'                  | 79    | 80    | -0.007305
+But             | 'But'                | 81    | 84    | +0.001008
+very            | 'very'               | 85    | 89    | +0.008587
+def             | 'def'                | 90    | 93    | -0.019953
+inite           | 'inite'              | 93    | 98    | -0.019723
+ly              | 'ly'                 | 98    | 100   | -0.007175
+made            | 'made'               | 101   | 105   | +0.000929
+of              | 'of'                 | 106   | 108   | +0.000929
+wo              | 'wo'                 | 109   | 111   | +0.002383
+ol              | 'ol'                 | 111   | 113   | +0.002383
+.               | '.'                  | 113   | 114   | +0.009116
+Right           | 'Right'              | 115   | 120   | +0.002981
+.               | '.'                  | 120   | 121   | +0.009156
+.               | '.'                  | 121   | 122   | +0.005489
+.               | '.'                  | 122   | 123   | +0.006971
+so              | 'so'                 | 124   | 126   | +0.000854
+I               | 'I'                  | 127   | 128   | +0.000854
+'               | "'"                  | 128   | 129   | +0.000854
+m               | 'm'                  | 129   | 130   | +0.021876
+not             | 'not'                | 131   | 134   | +0.024491
+on              | 'on'                 | 135   | 137   | +0.005363
+the             | 'the'                | 138   | 141   | +0.005363
+car             | 'car'                | 142   | 145   | +0.002834
+pet             | 'pet'                | 145   | 148   | +0.002834
+in              | 'in'                 | 149   | 151   | +0.003398
+my              | 'my'                 | 152   | 154   | +0.003398
+apartment       | 'apartment'          | 155   | 164   | +0.003398
+.               | '.'                  | 164   | 165   | +0.011078
+W               | 'W'                  | 166   | 167   | +0.002535
+hic             | 'hic'                | 167   | 170   | +0.002535
+h               | 'h'                  | 170   | 171   | +0.002535
+means           | 'means'              | 172   | 177   | -0.000143
+I               | 'I'                  | 178   | 179   | -0.000143
+'               | "'"                  | 179   | 180   | -0.000143
+m               | 'm'                  | 180   | 181   | +0.005860
+not             | 'not'                | 182   | 185   | +0.005860
+in              | 'in'                 | 186   | 188   | +0.003639
+my              | 'my'                 | 189   | 191   | +0.003639
+apartment       | 'apartment'          | 192   | 201   | +0.008389
+.               | '.'                  | 201   | 202   | -0.003964
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'I' (0-1) as 'I'
+  Added token ''' (1-2) as '''
+  Added token 've ' (2-4) as 've'
+
+Saved word: 'I've' with SHAP +0.003747
+  Added token 'always ' (5-11) as 'always'
+
+Saved word: 'always' with SHAP -0.001966
+  Added token 'hat' (12-15) as 'hat'
+  Added token 'ed ' (15-17) as 'ed'
+
+Saved word: 'hated' with SHAP +0.072129
+  Added token 'this ' (18-22) as 'this'
+
+Saved word: 'this' with SHAP +0.040122
+  Added token 'car' (23-26) as 'car'
+  Added token 'pet' (26-29) as 'pet'
+  Added token '. ' (29-30) as '.'
+
+Saved word: 'carpet.' with SHAP +0.052382
+  Added token 'It' (31-33) as 'It'
+  Added token ''' (33-34) as '''
+  Added token 's ' (34-35) as 's'
+
+Saved word: 'It's' with SHAP -0.002544
+  Added token 'sta' (36-39) as 'sta'
+  Added token 'ined ' (39-43) as 'ined'
+
+Saved word: 'stained' with SHAP +0.017661
+  Added token 'and ' (44-47) as 'and'
+
+Saved word: 'and' with SHAP +0.005713
+  Added token 'fra' (48-51) as 'fra'
+  Added token 'yed ' (51-54) as 'yed'
+
+Saved word: 'frayed' with SHAP +0.052511
+  Added token 'in ' (55-57) as 'in'
+
+Saved word: 'in' with SHAP +0.013272
+  Added token 'such ' (58-62) as 'such'
+
+Saved word: 'such' with SHAP +0.013272
+  Added token 'distinctive ' (63-74) as 'distinctive'
+
+Saved word: 'distinctive' with SHAP -0.024123
+  Added token 'ways' (75-79) as 'ways'
+  Added token '. ' (79-80) as '.'
+
+Saved word: 'ways.' with SHAP -0.031429
+  Added token 'But ' (81-84) as 'But'
+
+Saved word: 'But' with SHAP +0.001008
+  Added token 'very ' (85-89) as 'very'
+
+Saved word: 'very' with SHAP +0.008587
+  Added token 'def' (90-93) as 'def'
+  Added token 'inite' (93-98) as 'inite'
+  Added token 'ly ' (98-100) as 'ly'
+
+Saved word: 'definitely' with SHAP -0.046852
+  Added token 'made ' (101-105) as 'made'
+
+Saved word: 'made' with SHAP +0.000929
+  Added token 'of ' (106-108) as 'of'
+
+Saved word: 'of' with SHAP +0.000929
+  Added token 'wo' (109-111) as 'wo'
+  Added token 'ol' (111-113) as 'ol'
+  Added token '. ' (113-114) as '.'
+
+Saved word: 'wool.' with SHAP +0.013882
+  Added token 'Right' (115-120) as 'Right'
+  Added token '.' (120-121) as '.'
+  Added token '.' (121-122) as '.'
+  Added token '. ' (122-123) as '.'
+
+Saved word: 'Right...' with SHAP +0.024597
+  Added token 'so ' (124-126) as 'so'
+
+Saved word: 'so' with SHAP +0.000854
+  Added token 'I' (127-128) as 'I'
+  Added token ''' (128-129) as '''
+  Added token 'm ' (129-130) as 'm'
+
+Saved word: 'I'm' with SHAP +0.023585
+  Added token 'not ' (131-134) as 'not'
+
+Saved word: 'not' with SHAP +0.024491
+  Added token 'on ' (135-137) as 'on'
+
+Saved word: 'on' with SHAP +0.005363
+  Added token 'the ' (138-141) as 'the'
+
+Saved word: 'the' with SHAP +0.005363
+  Added token 'car' (142-145) as 'car'
+  Added token 'pet ' (145-148) as 'pet'
+
+Saved word: 'carpet' with SHAP +0.005668
+  Added token 'in ' (149-151) as 'in'
+
+Saved word: 'in' with SHAP +0.003398
+  Added token 'my ' (152-154) as 'my'
+
+Saved word: 'my' with SHAP +0.003398
+  Added token 'apartment' (155-164) as 'apartment'
+  Added token '. ' (164-165) as '.'
+
+Saved word: 'apartment.' with SHAP +0.014476
+  Added token 'W' (166-167) as 'W'
+  Added token 'hic' (167-170) as 'hic'
+  Added token 'h ' (170-171) as 'h'
+
+Saved word: 'Which' with SHAP +0.007604
+  Added token 'means ' (172-177) as 'means'
+
+Saved word: 'means' with SHAP -0.000143
+  Added token 'I' (178-179) as 'I'
+  Added token ''' (179-180) as '''
+  Added token 'm ' (180-181) as 'm'
+
+Saved word: 'I'm' with SHAP +0.005574
+  Added token 'not ' (182-185) as 'not'
+
+Saved word: 'not' with SHAP +0.005860
+  Added token 'in ' (186-188) as 'in'
+
+Saved word: 'in' with SHAP +0.003639
+  Added token 'my ' (189-191) as 'my'
+
+Saved word: 'my' with SHAP +0.003639
+  Added token 'apartment' (192-201) as 'apartment'
+  Added token '.' (201-202) as '.'
+
+Saved final word: 'apartment.' with SHAP +0.004425
+
+=== Final Word Contributions ===
+hated                     +0.072129 (POS)
+frayed                    +0.052511 (POS)
+carpet.                   +0.052382 (POS)
+definitely                -0.046852 (NEG)
+this                      +0.040122 (POS)
+ways.                     -0.031429 (NEG)
+Right...                  +0.024597 (POS)
+distinctive               -0.024123 (NEG)
+stained                   +0.017661 (POS)
+wool.                     +0.013882 (POS)
+such                      +0.013272 (POS)
+very                      +0.008587 (POS)
+Which                     +0.007604 (POS)
+not                       +0.005860 (POS)
+and                       +0.005713 (POS)
+carpet                    +0.005668 (POS)
+I'm                       +0.005574 (POS)
+on                        +0.005363 (POS)
+the                       +0.005363 (POS)
+apartment.                +0.004425 (POS)
+I've                      +0.003747 (POS)
+in                        +0.003639 (POS)
+my                        +0.003639 (POS)
+It's                      -0.002544 (NEG)
+always                    -0.001966 (NEG)
+But                       +0.001008 (POS)
+made                      +0.000929 (POS)
+of                        +0.000929 (POS)
+so                        +0.000854 (POS)
+means                     -0.000143 (NEG)

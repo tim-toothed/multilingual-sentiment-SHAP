@@ -1,0 +1,275 @@
+
+=== Processing text ===
+Technical robustness is a key requirement for high-risk AI systems. They should be resilient in relation to harmful or otherwise undesirable behaviour that may result from limitations within the systems or the environment in which the systems operate (e.g. errors, faults, inconsistencies, unexpected situations.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004982
+Technical       | 'Technical'          | 0     | 9     | +0.004982
+ro              | 'ro'                 | 10    | 12    | +0.003223
+bust            | 'bust'               | 12    | 16    | +0.003223
+ness            | 'ness'               | 16    | 20    | +0.003223
+is              | 'is'                 | 21    | 23    | +0.004837
+a               | 'a'                  | 24    | 25    | +0.004837
+key             | 'key'                | 26    | 29    | +0.005521
+requirement     | 'requirement'        | 30    | 41    | +0.005521
+for             | 'for'                | 42    | 45    | +0.001521
+high            | 'high'               | 46    | 50    | +0.001521
+-               | '-'                  | 50    | 51    | -0.005595
+risk            | 'risk'               | 51    | 55    | -0.011298
+AI              | 'AI'                 | 56    | 58    | +0.009896
+systems         | 'systems'            | 59    | 66    | +0.009896
+.               | '.'                  | 66    | 67    | +0.016737
+They            | 'They'               | 68    | 72    | +0.010622
+should          | 'should'             | 73    | 79    | +0.010622
+be              | 'be'                 | 80    | 82    | +0.008732
+res             | 'res'                | 83    | 86    | +0.007580
+ilien           | 'ilien'              | 86    | 91    | +0.007580
+t               | 't'                  | 91    | 92    | +0.007204
+in              | 'in'                 | 93    | 95    | +0.018782
+relation        | 'relation'           | 96    | 104   | +0.019246
+to              | 'to'                 | 105   | 107   | +0.005138
+harm            | 'harm'               | 108   | 112   | -0.001527
+ful             | 'ful'                | 112   | 115   | -0.001527
+or              | 'or'                 | 116   | 118   | +0.006197
+otherwise       | 'otherwise'          | 119   | 128   | +0.006197
+unde            | 'unde'               | 129   | 133   | +0.003876
+sir             | 'sir'                | 133   | 136   | +0.003876
+able            | 'able'               | 136   | 140   | +0.003876
+behaviour       | 'behaviour'          | 141   | 150   | +0.005977
+that            | 'that'               | 151   | 155   | +0.005977
+may             | 'may'                | 156   | 159   | +0.005977
+result          | 'result'             | 160   | 166   | +0.005977
+from            | 'from'               | 167   | 171   | +0.005977
+limita          | 'limita'             | 172   | 178   | +0.005772
+tions           | 'tions'              | 178   | 183   | +0.005772
+within          | 'within'             | 184   | 190   | +0.005597
+the             | 'the'                | 191   | 194   | +0.005597
+systems         | 'systems'            | 195   | 202   | +0.005597
+or              | 'or'                 | 203   | 205   | +0.004954
+the             | 'the'                | 206   | 209   | +0.003157
+environment     | 'environment'        | 210   | 221   | +0.003157
+in              | 'in'                 | 222   | 224   | +0.003157
+which           | 'which'              | 225   | 230   | +0.003157
+the             | 'the'                | 231   | 234   | +0.005750
+systems         | 'systems'            | 235   | 242   | +0.005750
+operate         | 'operate'            | 243   | 250   | +0.005750
+(               | '('                  | 251   | 252   | +0.012522
+e               | 'e'                  | 252   | 253   | +0.015057
+.               | '.'                  | 253   | 254   | +0.009939
+g               | 'g'                  | 254   | 255   | +0.009917
+.               | '.'                  | 255   | 256   | +0.009372
+errors          | 'errors'             | 257   | 263   | -0.002326
+,               | ','                  | 263   | 264   | -0.002326
+fault           | 'fault'              | 265   | 270   | +0.004582
+s               | 's'                  | 270   | 271   | +0.004582
+,               | ','                  | 271   | 272   | +0.004582
+in              | 'in'                 | 273   | 275   | +0.008882
+cons            | 'cons'               | 275   | 279   | +0.008882
+isten           | 'isten'              | 279   | 284   | +0.008882
+cies            | 'cies'               | 284   | 288   | +0.008882
+,               | ','                  | 288   | 289   | +0.008622
+une             | 'une'                | 290   | 293   | +0.013941
+xpected         | 'xpected'            | 293   | 300   | +0.013941
+situations      | 'situations'         | 301   | 311   | +0.013941
+.               | '.'                  | 311   | 312   | +0.021731
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Technical ' (0-9) as 'Technical'
+
+Saved word: 'Technical' with SHAP +0.004982
+  Added token 'ro' (10-12) as 'ro'
+  Added token 'bust' (12-16) as 'bust'
+  Added token 'ness ' (16-20) as 'ness'
+
+Saved word: 'robustness' with SHAP +0.009669
+  Added token 'is ' (21-23) as 'is'
+
+Saved word: 'is' with SHAP +0.004837
+  Added token 'a ' (24-25) as 'a'
+
+Saved word: 'a' with SHAP +0.004837
+  Added token 'key ' (26-29) as 'key'
+
+Saved word: 'key' with SHAP +0.005521
+  Added token 'requirement ' (30-41) as 'requirement'
+
+Saved word: 'requirement' with SHAP +0.005521
+  Added token 'for ' (42-45) as 'for'
+
+Saved word: 'for' with SHAP +0.001521
+  Added token 'high' (46-50) as 'high'
+  Added token '-' (50-51) as '-'
+  Added token 'risk ' (51-55) as 'risk'
+
+Saved word: 'high-risk' with SHAP -0.015371
+  Added token 'AI ' (56-58) as 'AI'
+
+Saved word: 'AI' with SHAP +0.009896
+  Added token 'systems' (59-66) as 'systems'
+  Added token '. ' (66-67) as '.'
+
+Saved word: 'systems.' with SHAP +0.026632
+  Added token 'They ' (68-72) as 'They'
+
+Saved word: 'They' with SHAP +0.010622
+  Added token 'should ' (73-79) as 'should'
+
+Saved word: 'should' with SHAP +0.010622
+  Added token 'be ' (80-82) as 'be'
+
+Saved word: 'be' with SHAP +0.008732
+  Added token 'res' (83-86) as 'res'
+  Added token 'ilien' (86-91) as 'ilien'
+  Added token 't ' (91-92) as 't'
+
+Saved word: 'resilient' with SHAP +0.022363
+  Added token 'in ' (93-95) as 'in'
+
+Saved word: 'in' with SHAP +0.018782
+  Added token 'relation ' (96-104) as 'relation'
+
+Saved word: 'relation' with SHAP +0.019246
+  Added token 'to ' (105-107) as 'to'
+
+Saved word: 'to' with SHAP +0.005138
+  Added token 'harm' (108-112) as 'harm'
+  Added token 'ful ' (112-115) as 'ful'
+
+Saved word: 'harmful' with SHAP -0.003054
+  Added token 'or ' (116-118) as 'or'
+
+Saved word: 'or' with SHAP +0.006197
+  Added token 'otherwise ' (119-128) as 'otherwise'
+
+Saved word: 'otherwise' with SHAP +0.006197
+  Added token 'unde' (129-133) as 'unde'
+  Added token 'sir' (133-136) as 'sir'
+  Added token 'able ' (136-140) as 'able'
+
+Saved word: 'undesirable' with SHAP +0.011629
+  Added token 'behaviour ' (141-150) as 'behaviour'
+
+Saved word: 'behaviour' with SHAP +0.005977
+  Added token 'that ' (151-155) as 'that'
+
+Saved word: 'that' with SHAP +0.005977
+  Added token 'may ' (156-159) as 'may'
+
+Saved word: 'may' with SHAP +0.005977
+  Added token 'result ' (160-166) as 'result'
+
+Saved word: 'result' with SHAP +0.005977
+  Added token 'from ' (167-171) as 'from'
+
+Saved word: 'from' with SHAP +0.005977
+  Added token 'limita' (172-178) as 'limita'
+  Added token 'tions ' (178-183) as 'tions'
+
+Saved word: 'limitations' with SHAP +0.011544
+  Added token 'within ' (184-190) as 'within'
+
+Saved word: 'within' with SHAP +0.005597
+  Added token 'the ' (191-194) as 'the'
+
+Saved word: 'the' with SHAP +0.005597
+  Added token 'systems ' (195-202) as 'systems'
+
+Saved word: 'systems' with SHAP +0.005597
+  Added token 'or ' (203-205) as 'or'
+
+Saved word: 'or' with SHAP +0.004954
+  Added token 'the ' (206-209) as 'the'
+
+Saved word: 'the' with SHAP +0.003157
+  Added token 'environment ' (210-221) as 'environment'
+
+Saved word: 'environment' with SHAP +0.003157
+  Added token 'in ' (222-224) as 'in'
+
+Saved word: 'in' with SHAP +0.003157
+  Added token 'which ' (225-230) as 'which'
+
+Saved word: 'which' with SHAP +0.003157
+  Added token 'the ' (231-234) as 'the'
+
+Saved word: 'the' with SHAP +0.005750
+  Added token 'systems ' (235-242) as 'systems'
+
+Saved word: 'systems' with SHAP +0.005750
+  Added token 'operate ' (243-250) as 'operate'
+
+Saved word: 'operate' with SHAP +0.005750
+  Added token '(' (251-252) as '('
+  Added token 'e' (252-253) as 'e'
+  Added token '.' (253-254) as '.'
+  Added token 'g' (254-255) as 'g'
+  Added token '. ' (255-256) as '.'
+
+Saved word: '(e.g.' with SHAP +0.056807
+  Added token 'errors' (257-263) as 'errors'
+  Added token ', ' (263-264) as ','
+
+Saved word: 'errors,' with SHAP -0.004652
+  Added token 'fault' (265-270) as 'fault'
+  Added token 's' (270-271) as 's'
+  Added token ', ' (271-272) as ','
+
+Saved word: 'faults,' with SHAP +0.013747
+  Added token 'in' (273-275) as 'in'
+  Added token 'cons' (275-279) as 'cons'
+  Added token 'isten' (279-284) as 'isten'
+  Added token 'cies' (284-288) as 'cies'
+  Added token ', ' (288-289) as ','
+
+Saved word: 'inconsistencies,' with SHAP +0.044150
+  Added token 'une' (290-293) as 'une'
+  Added token 'xpected ' (293-300) as 'xpected'
+
+Saved word: 'unexpected' with SHAP +0.027882
+  Added token 'situations' (301-311) as 'situations'
+  Added token '.' (311-312) as '.'
+
+Saved final word: 'situations.' with SHAP +0.035672
+
+=== Final Word Contributions ===
+(e.g.                     +0.056807 (POS)
+inconsistencies,          +0.044150 (POS)
+situations.               +0.035672 (POS)
+unexpected                +0.027882 (POS)
+systems.                  +0.026632 (POS)
+resilient                 +0.022363 (POS)
+relation                  +0.019246 (POS)
+high-risk                 -0.015371 (NEG)
+faults,                   +0.013747 (POS)
+undesirable               +0.011629 (POS)
+limitations               +0.011544 (POS)
+They                      +0.010622 (POS)
+should                    +0.010622 (POS)
+AI                        +0.009896 (POS)
+robustness                +0.009669 (POS)
+be                        +0.008732 (POS)
+otherwise                 +0.006197 (POS)
+behaviour                 +0.005977 (POS)
+that                      +0.005977 (POS)
+may                       +0.005977 (POS)
+result                    +0.005977 (POS)
+from                      +0.005977 (POS)
+the                       +0.005750 (POS)
+systems                   +0.005750 (POS)
+operate                   +0.005750 (POS)
+within                    +0.005597 (POS)
+key                       +0.005521 (POS)
+requirement               +0.005521 (POS)
+to                        +0.005138 (POS)
+Technical                 +0.004982 (POS)
+or                        +0.004954 (POS)
+is                        +0.004837 (POS)
+a                         +0.004837 (POS)
+errors,                   -0.004652 (NEG)
+in                        +0.003157 (POS)
+environment               +0.003157 (POS)
+which                     +0.003157 (POS)
+harmful                   -0.003054 (NEG)
+for                       +0.001521 (POS)

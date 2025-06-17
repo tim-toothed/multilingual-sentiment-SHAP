@@ -1,0 +1,89 @@
+
+=== Processing text ===
+Nella mia misera vita, volevo solo qualcosa per cui valesse la pena lottare.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.001098
+Nella           | 'Nella'              | 0     | 5     | -0.069448
+mia             | 'mia'                | 6     | 9     | -0.017578
+mise            | 'mise'               | 10    | 14    | +0.082741
+ra              | 'ra'                 | 14    | 16    | +0.040073
+vita            | 'vita'               | 17    | 21    | -0.044067
+,               | ','                  | 21    | 22    | +0.002674
+vol             | 'vol'                | 23    | 26    | +0.010905
+evo             | 'evo'                | 26    | 29    | -0.042796
+solo            | 'solo'               | 30    | 34    | +0.106872
+qualcosa        | 'qualcosa'           | 35    | 43    | -0.007918
+per             | 'per'                | 44    | 47    | +0.016970
+cui             | 'cui'                | 48    | 51    | +0.001200
+vale            | 'vale'               | 52    | 56    | -0.088742
+sse             | 'sse'                | 56    | 59    | +0.007472
+la              | 'la'                 | 60    | 62    | +0.018566
+pena            | 'pena'               | 63    | 67    | +0.030518
+lotta           | 'lotta'              | 68    | 73    | +0.046623
+re              | 're'                 | 73    | 75    | +0.025524
+.               | '.'                  | 75    | 76    | +0.027663
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Nella ' (0-5) as 'Nella'
+
+Saved word: 'Nella' with SHAP -0.069448
+  Added token 'mia ' (6-9) as 'mia'
+
+Saved word: 'mia' with SHAP -0.017578
+  Added token 'mise' (10-14) as 'mise'
+  Added token 'ra ' (14-16) as 'ra'
+
+Saved word: 'misera' with SHAP +0.122813
+  Added token 'vita' (17-21) as 'vita'
+  Added token ', ' (21-22) as ','
+
+Saved word: 'vita,' with SHAP -0.041394
+  Added token 'vol' (23-26) as 'vol'
+  Added token 'evo ' (26-29) as 'evo'
+
+Saved word: 'volevo' with SHAP -0.031891
+  Added token 'solo ' (30-34) as 'solo'
+
+Saved word: 'solo' with SHAP +0.106872
+  Added token 'qualcosa ' (35-43) as 'qualcosa'
+
+Saved word: 'qualcosa' with SHAP -0.007918
+  Added token 'per ' (44-47) as 'per'
+
+Saved word: 'per' with SHAP +0.016970
+  Added token 'cui ' (48-51) as 'cui'
+
+Saved word: 'cui' with SHAP +0.001200
+  Added token 'vale' (52-56) as 'vale'
+  Added token 'sse ' (56-59) as 'sse'
+
+Saved word: 'valesse' with SHAP -0.081271
+  Added token 'la ' (60-62) as 'la'
+
+Saved word: 'la' with SHAP +0.018566
+  Added token 'pena ' (63-67) as 'pena'
+
+Saved word: 'pena' with SHAP +0.030518
+  Added token 'lotta' (68-73) as 'lotta'
+  Added token 're' (73-75) as 're'
+  Added token '.' (75-76) as '.'
+
+Saved final word: 'lottare.' with SHAP +0.099810
+
+=== Final Word Contributions ===
+misera                    +0.122813 (POS)
+solo                      +0.106872 (POS)
+lottare.                  +0.099810 (POS)
+valesse                   -0.081271 (NEG)
+Nella                     -0.069448 (NEG)
+vita,                     -0.041394 (NEG)
+volevo                    -0.031891 (NEG)
+pena                      +0.030518 (POS)
+la                        +0.018566 (POS)
+mia                       -0.017578 (NEG)
+per                       +0.016970 (POS)
+qualcosa                  -0.007918 (NEG)
+cui                       +0.001200 (POS)

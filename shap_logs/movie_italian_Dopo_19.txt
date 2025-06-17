@@ -1,0 +1,238 @@
+
+=== Processing text ===
+Dopo 30 anni passati dietro ad un bancone, posso dire che sono un'esperta. Le posso dare la ricetta. Prende due clienti, fa loro credere che si piacciono. Li fa cuocere a fuoco lento... Funziona sempre.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004840
+Dopo            | 'Dopo'               | 0     | 4     | +0.004840
+30              | '30'                 | 5     | 7     | +0.008190
+anni            | 'anni'               | 8     | 12    | +0.019280
+passat          | 'passat'             | 13    | 19    | -0.004968
+i               | 'i'                  | 19    | 20    | -0.004968
+dietro          | 'dietro'             | 21    | 27    | -0.005582
+ad              | 'ad'                 | 28    | 30    | -0.005582
+un              | 'un'                 | 31    | 33    | -0.005582
+banco           | 'banco'              | 34    | 39    | -0.005253
+ne              | 'ne'                 | 39    | 41    | -0.005253
+,               | ','                  | 41    | 42    | -0.005253
+pos             | 'pos'                | 43    | 46    | +0.001966
+so              | 'so'                 | 46    | 48    | +0.001966
+dire            | 'dire'               | 49    | 53    | -0.000665
+che             | 'che'                | 54    | 57    | -0.000665
+sono            | 'sono'               | 58    | 62    | -0.000665
+un              | 'un'                 | 63    | 65    | +0.000014
+'               | "'"                  | 65    | 66    | +0.000014
+es              | 'es'                 | 66    | 68    | +0.021060
+pert            | 'pert'               | 68    | 72    | +0.021060
+a               | 'a'                  | 72    | 73    | +0.016834
+.               | '.'                  | 73    | 74    | +0.013026
+Le              | 'Le'                 | 75    | 77    | +0.000562
+pos             | 'pos'                | 78    | 81    | +0.001685
+so              | 'so'                 | 81    | 83    | +0.001685
+dare            | 'dare'               | 84    | 88    | +0.002211
+la              | 'la'                 | 89    | 91    | +0.002211
+rice            | 'rice'               | 92    | 96    | +0.002211
+tta             | 'tta'                | 96    | 99    | +0.002211
+.               | '.'                  | 99    | 100   | +0.003550
+Pre             | 'Pre'                | 101   | 104   | -0.001357
+nde             | 'nde'                | 104   | 107   | -0.001357
+due             | 'due'                | 108   | 111   | -0.001357
+client          | 'client'             | 112   | 118   | -0.001155
+i               | 'i'                  | 118   | 119   | -0.001155
+,               | ','                  | 119   | 120   | -0.001155
+fa              | 'fa'                 | 121   | 123   | -0.009852
+loro            | 'loro'               | 124   | 128   | -0.009852
+crede           | 'crede'              | 129   | 134   | -0.009852
+re              | 're'                 | 134   | 136   | -0.009852
+che             | 'che'                | 137   | 140   | -0.006647
+si              | 'si'                 | 141   | 143   | -0.006647
+pia             | 'pia'                | 144   | 147   | -0.006647
+ccion           | 'ccion'              | 147   | 152   | -0.006647
+o               | 'o'                  | 152   | 153   | -0.006647
+.               | '.'                  | 153   | 154   | -0.006960
+Li              | 'Li'                 | 155   | 157   | -0.001354
+fa              | 'fa'                 | 158   | 160   | -0.001624
+cu              | 'cu'                 | 161   | 163   | -0.000555
+oce             | 'oce'                | 163   | 166   | -0.000555
+re              | 're'                 | 166   | 168   | -0.001441
+a               | 'a'                  | 169   | 170   | -0.007910
+fuoco           | 'fuoco'              | 171   | 176   | -0.007910
+lento           | 'lento'              | 177   | 182   | -0.044014
+.               | '.'                  | 182   | 183   | -0.010214
+.               | '.'                  | 183   | 184   | +0.003430
+.               | '.'                  | 184   | 185   | +0.002371
+Fun             | 'Fun'                | 186   | 189   | +0.050173
+zion            | 'zion'               | 189   | 193   | +0.005038
+a               | 'a'                  | 193   | 194   | +0.014957
+sempre          | 'sempre'             | 195   | 201   | +0.037062
+.               | '.'                  | 201   | 202   | +0.020398
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Dopo ' (0-4) as 'Dopo'
+
+Saved word: 'Dopo' with SHAP +0.004840
+  Added token '30 ' (5-7) as '30'
+
+Saved word: '30' with SHAP +0.008190
+  Added token 'anni ' (8-12) as 'anni'
+
+Saved word: 'anni' with SHAP +0.019280
+  Added token 'passat' (13-19) as 'passat'
+  Added token 'i ' (19-20) as 'i'
+
+Saved word: 'passati' with SHAP -0.009937
+  Added token 'dietro ' (21-27) as 'dietro'
+
+Saved word: 'dietro' with SHAP -0.005582
+  Added token 'ad ' (28-30) as 'ad'
+
+Saved word: 'ad' with SHAP -0.005582
+  Added token 'un ' (31-33) as 'un'
+
+Saved word: 'un' with SHAP -0.005582
+  Added token 'banco' (34-39) as 'banco'
+  Added token 'ne' (39-41) as 'ne'
+  Added token ', ' (41-42) as ','
+
+Saved word: 'bancone,' with SHAP -0.015760
+  Added token 'pos' (43-46) as 'pos'
+  Added token 'so ' (46-48) as 'so'
+
+Saved word: 'posso' with SHAP +0.003933
+  Added token 'dire ' (49-53) as 'dire'
+
+Saved word: 'dire' with SHAP -0.000665
+  Added token 'che ' (54-57) as 'che'
+
+Saved word: 'che' with SHAP -0.000665
+  Added token 'sono ' (58-62) as 'sono'
+
+Saved word: 'sono' with SHAP -0.000665
+  Added token 'un' (63-65) as 'un'
+  Added token ''' (65-66) as '''
+  Added token 'es' (66-68) as 'es'
+  Added token 'pert' (68-72) as 'pert'
+  Added token 'a' (72-73) as 'a'
+  Added token '. ' (73-74) as '.'
+
+Saved word: 'un'esperta.' with SHAP +0.072007
+  Added token 'Le ' (75-77) as 'Le'
+
+Saved word: 'Le' with SHAP +0.000562
+  Added token 'pos' (78-81) as 'pos'
+  Added token 'so ' (81-83) as 'so'
+
+Saved word: 'posso' with SHAP +0.003371
+  Added token 'dare ' (84-88) as 'dare'
+
+Saved word: 'dare' with SHAP +0.002211
+  Added token 'la ' (89-91) as 'la'
+
+Saved word: 'la' with SHAP +0.002211
+  Added token 'rice' (92-96) as 'rice'
+  Added token 'tta' (96-99) as 'tta'
+  Added token '. ' (99-100) as '.'
+
+Saved word: 'ricetta.' with SHAP +0.007972
+  Added token 'Pre' (101-104) as 'Pre'
+  Added token 'nde ' (104-107) as 'nde'
+
+Saved word: 'Prende' with SHAP -0.002714
+  Added token 'due ' (108-111) as 'due'
+
+Saved word: 'due' with SHAP -0.001357
+  Added token 'client' (112-118) as 'client'
+  Added token 'i' (118-119) as 'i'
+  Added token ', ' (119-120) as ','
+
+Saved word: 'clienti,' with SHAP -0.003466
+  Added token 'fa ' (121-123) as 'fa'
+
+Saved word: 'fa' with SHAP -0.009852
+  Added token 'loro ' (124-128) as 'loro'
+
+Saved word: 'loro' with SHAP -0.009852
+  Added token 'crede' (129-134) as 'crede'
+  Added token 're ' (134-136) as 're'
+
+Saved word: 'credere' with SHAP -0.019705
+  Added token 'che ' (137-140) as 'che'
+
+Saved word: 'che' with SHAP -0.006647
+  Added token 'si ' (141-143) as 'si'
+
+Saved word: 'si' with SHAP -0.006647
+  Added token 'pia' (144-147) as 'pia'
+  Added token 'ccion' (147-152) as 'ccion'
+  Added token 'o' (152-153) as 'o'
+  Added token '. ' (153-154) as '.'
+
+Saved word: 'piacciono.' with SHAP -0.026900
+  Added token 'Li ' (155-157) as 'Li'
+
+Saved word: 'Li' with SHAP -0.001354
+  Added token 'fa ' (158-160) as 'fa'
+
+Saved word: 'fa' with SHAP -0.001624
+  Added token 'cu' (161-163) as 'cu'
+  Added token 'oce' (163-166) as 'oce'
+  Added token 're ' (166-168) as 're'
+
+Saved word: 'cuocere' with SHAP -0.002552
+  Added token 'a ' (169-170) as 'a'
+
+Saved word: 'a' with SHAP -0.007910
+  Added token 'fuoco ' (171-176) as 'fuoco'
+
+Saved word: 'fuoco' with SHAP -0.007910
+  Added token 'lento' (177-182) as 'lento'
+  Added token '.' (182-183) as '.'
+  Added token '.' (183-184) as '.'
+  Added token '. ' (184-185) as '.'
+
+Saved word: 'lento...' with SHAP -0.048426
+  Added token 'Fun' (186-189) as 'Fun'
+  Added token 'zion' (189-193) as 'zion'
+  Added token 'a ' (193-194) as 'a'
+
+Saved word: 'Funziona' with SHAP +0.070168
+  Added token 'sempre' (195-201) as 'sempre'
+  Added token '.' (201-202) as '.'
+
+Saved final word: 'sempre.' with SHAP +0.057460
+
+=== Final Word Contributions ===
+un'esperta.               +0.072007 (POS)
+Funziona                  +0.070168 (POS)
+sempre.                   +0.057460 (POS)
+lento...                  -0.048426 (NEG)
+piacciono.                -0.026900 (NEG)
+credere                   -0.019705 (NEG)
+anni                      +0.019280 (POS)
+bancone,                  -0.015760 (NEG)
+passati                   -0.009937 (NEG)
+loro                      -0.009852 (NEG)
+30                        +0.008190 (POS)
+ricetta.                  +0.007972 (POS)
+a                         -0.007910 (NEG)
+fuoco                     -0.007910 (NEG)
+che                       -0.006647 (NEG)
+si                        -0.006647 (NEG)
+dietro                    -0.005582 (NEG)
+ad                        -0.005582 (NEG)
+un                        -0.005582 (NEG)
+Dopo                      +0.004840 (POS)
+clienti,                  -0.003466 (NEG)
+posso                     +0.003371 (POS)
+Prende                    -0.002714 (NEG)
+cuocere                   -0.002552 (NEG)
+dare                      +0.002211 (POS)
+la                        +0.002211 (POS)
+fa                        -0.001624 (NEG)
+due                       -0.001357 (NEG)
+Li                        -0.001354 (NEG)
+dire                      -0.000665 (NEG)
+sono                      -0.000665 (NEG)
+Le                        +0.000562 (POS)

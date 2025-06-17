@@ -1,0 +1,198 @@
+
+=== Processing text ===
+La definizione dovrebbe basarsi sulle principali caratteristiche funzionali di un modello di IA per finalità generali, in particolare la generalità e la capacità di svolgere con competenza un'ampia gamma di compiti distinti.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.005831
+La              | 'La'                 | 0     | 2     | +0.005831
+definizione     | 'definizione'        | 3     | 14    | +0.017868
+do              | 'do'                 | 15    | 17    | +0.004853
+vre             | 'vre'                | 17    | 20    | +0.002605
+bbe             | 'bbe'                | 20    | 23    | +0.004696
+basa            | 'basa'               | 24    | 28    | +0.029612
+rsi             | 'rsi'                | 28    | 31    | +0.014422
+sulle           | 'sulle'              | 32    | 37    | +0.030691
+principali      | 'principali'         | 38    | 48    | +0.019422
+caratteristiche  | 'caratteristiche'    | 49    | 64    | +0.018980
+fun             | 'fun'                | 65    | 68    | +0.012436
+zionali         | 'zionali'            | 68    | 75    | +0.008955
+di              | 'di'                 | 76    | 78    | +0.018075
+un              | 'un'                 | 79    | 81    | +0.017791
+modello         | 'modello'            | 82    | 89    | +0.014809
+di              | 'di'                 | 90    | 92    | +0.009816
+IA              | 'IA'                 | 93    | 95    | +0.012051
+per             | 'per'                | 96    | 99    | +0.011929
+finali          | 'finali'             | 100   | 106   | +0.006685
+tà              | 'tà'                 | 106   | 108   | +0.006685
+generali        | 'generali'           | 109   | 117   | +0.031425
+,               | ','                  | 117   | 118   | +0.027207
+in              | 'in'                 | 119   | 121   | +0.014472
+particolare     | 'particolare'        | 122   | 133   | +0.014472
+la              | 'la'                 | 134   | 136   | +0.020126
+generali        | 'generali'           | 137   | 145   | +0.006442
+tà              | 'tà'                 | 145   | 147   | +0.006442
+e               | 'e'                  | 148   | 149   | +0.007489
+la              | 'la'                 | 150   | 152   | +0.007489
+capacità        | 'capacità'           | 153   | 161   | +0.003815
+di              | 'di'                 | 162   | 164   | +0.003815
+svolge          | 'svolge'             | 165   | 171   | +0.006627
+re              | 're'                 | 171   | 173   | +0.006627
+con             | 'con'                | 174   | 177   | +0.006627
+compete         | 'compete'            | 178   | 185   | +0.001888
+nza             | 'nza'                | 185   | 188   | +0.001888
+un              | 'un'                 | 189   | 191   | +0.001888
+'               | "'"                  | 191   | 192   | +0.001888
+ampia           | 'ampia'              | 192   | 197   | +0.006232
+gamma           | 'gamma'              | 198   | 203   | +0.006232
+di              | 'di'                 | 204   | 206   | +0.006232
+com             | 'com'                | 207   | 210   | +0.007120
+piti            | 'piti'               | 210   | 214   | +0.007120
+dis             | 'dis'                | 215   | 218   | +0.004041
+tint            | 'tint'               | 218   | 222   | +0.004041
+i               | 'i'                  | 222   | 223   | +0.005594
+.               | '.'                  | 223   | 224   | +0.024294
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.005831
+  Added token 'definizione ' (3-14) as 'definizione'
+
+Saved word: 'definizione' with SHAP +0.017868
+  Added token 'do' (15-17) as 'do'
+  Added token 'vre' (17-20) as 'vre'
+  Added token 'bbe ' (20-23) as 'bbe'
+
+Saved word: 'dovrebbe' with SHAP +0.012154
+  Added token 'basa' (24-28) as 'basa'
+  Added token 'rsi ' (28-31) as 'rsi'
+
+Saved word: 'basarsi' with SHAP +0.044034
+  Added token 'sulle ' (32-37) as 'sulle'
+
+Saved word: 'sulle' with SHAP +0.030691
+  Added token 'principali ' (38-48) as 'principali'
+
+Saved word: 'principali' with SHAP +0.019422
+  Added token 'caratteristiche ' (49-64) as 'caratteristiche'
+
+Saved word: 'caratteristiche' with SHAP +0.018980
+  Added token 'fun' (65-68) as 'fun'
+  Added token 'zionali ' (68-75) as 'zionali'
+
+Saved word: 'funzionali' with SHAP +0.021391
+  Added token 'di ' (76-78) as 'di'
+
+Saved word: 'di' with SHAP +0.018075
+  Added token 'un ' (79-81) as 'un'
+
+Saved word: 'un' with SHAP +0.017791
+  Added token 'modello ' (82-89) as 'modello'
+
+Saved word: 'modello' with SHAP +0.014809
+  Added token 'di ' (90-92) as 'di'
+
+Saved word: 'di' with SHAP +0.009816
+  Added token 'IA ' (93-95) as 'IA'
+
+Saved word: 'IA' with SHAP +0.012051
+  Added token 'per ' (96-99) as 'per'
+
+Saved word: 'per' with SHAP +0.011929
+  Added token 'finali' (100-106) as 'finali'
+  Added token 'tà ' (106-108) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.013369
+  Added token 'generali' (109-117) as 'generali'
+  Added token ', ' (117-118) as ','
+
+Saved word: 'generali,' with SHAP +0.058631
+  Added token 'in ' (119-121) as 'in'
+
+Saved word: 'in' with SHAP +0.014472
+  Added token 'particolare ' (122-133) as 'particolare'
+
+Saved word: 'particolare' with SHAP +0.014472
+  Added token 'la ' (134-136) as 'la'
+
+Saved word: 'la' with SHAP +0.020126
+  Added token 'generali' (137-145) as 'generali'
+  Added token 'tà ' (145-147) as 'tà'
+
+Saved word: 'generalità' with SHAP +0.012883
+  Added token 'e ' (148-149) as 'e'
+
+Saved word: 'e' with SHAP +0.007489
+  Added token 'la ' (150-152) as 'la'
+
+Saved word: 'la' with SHAP +0.007489
+  Added token 'capacità ' (153-161) as 'capacità'
+
+Saved word: 'capacità' with SHAP +0.003815
+  Added token 'di ' (162-164) as 'di'
+
+Saved word: 'di' with SHAP +0.003815
+  Added token 'svolge' (165-171) as 'svolge'
+  Added token 're ' (171-173) as 're'
+
+Saved word: 'svolgere' with SHAP +0.013254
+  Added token 'con ' (174-177) as 'con'
+
+Saved word: 'con' with SHAP +0.006627
+  Added token 'compete' (178-185) as 'compete'
+  Added token 'nza ' (185-188) as 'nza'
+
+Saved word: 'competenza' with SHAP +0.003776
+  Added token 'un' (189-191) as 'un'
+  Added token ''' (191-192) as '''
+  Added token 'ampia ' (192-197) as 'ampia'
+
+Saved word: 'un'ampia' with SHAP +0.010008
+  Added token 'gamma ' (198-203) as 'gamma'
+
+Saved word: 'gamma' with SHAP +0.006232
+  Added token 'di ' (204-206) as 'di'
+
+Saved word: 'di' with SHAP +0.006232
+  Added token 'com' (207-210) as 'com'
+  Added token 'piti ' (210-214) as 'piti'
+
+Saved word: 'compiti' with SHAP +0.014240
+  Added token 'dis' (215-218) as 'dis'
+  Added token 'tint' (218-222) as 'tint'
+  Added token 'i' (222-223) as 'i'
+  Added token '.' (223-224) as '.'
+
+Saved final word: 'distinti.' with SHAP +0.037971
+
+=== Final Word Contributions ===
+generali,                 +0.058631 (POS)
+basarsi                   +0.044034 (POS)
+distinti.                 +0.037971 (POS)
+sulle                     +0.030691 (POS)
+funzionali                +0.021391 (POS)
+principali                +0.019422 (POS)
+caratteristiche           +0.018980 (POS)
+definizione               +0.017868 (POS)
+un                        +0.017791 (POS)
+modello                   +0.014809 (POS)
+in                        +0.014472 (POS)
+particolare               +0.014472 (POS)
+compiti                   +0.014240 (POS)
+finalità                  +0.013369 (POS)
+svolgere                  +0.013254 (POS)
+generalità                +0.012883 (POS)
+dovrebbe                  +0.012154 (POS)
+IA                        +0.012051 (POS)
+per                       +0.011929 (POS)
+un'ampia                  +0.010008 (POS)
+la                        +0.007489 (POS)
+e                         +0.007489 (POS)
+con                       +0.006627 (POS)
+di                        +0.006232 (POS)
+gamma                     +0.006232 (POS)
+La                        +0.005831 (POS)
+capacità                  +0.003815 (POS)
+competenza                +0.003776 (POS)

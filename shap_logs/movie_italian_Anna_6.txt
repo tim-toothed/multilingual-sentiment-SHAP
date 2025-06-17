@@ -1,0 +1,100 @@
+
+=== Processing text ===
+Anna, torna a dormire. Non ci riesco. Il cielo è sveglio, perciò sono sveglia.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000605
+Anna            | 'Anna'               | 0     | 4     | +0.040979
+,               | ','                  | 4     | 5     | +0.064820
+torna           | 'torna'              | 6     | 11    | -0.026629
+a               | 'a'                  | 12    | 13    | +0.013644
+dor             | 'dor'                | 14    | 17    | -0.024353
+mire            | 'mire'               | 17    | 21    | +0.006920
+.               | '.'                  | 21    | 22    | -0.056922
+Non             | 'Non'                | 23    | 26    | -0.115914
+ci              | 'ci'                 | 27    | 29    | +0.010155
+ri              | 'ri'                 | 30    | 32    | -0.009810
+esco            | 'esco'               | 32    | 36    | -0.004008
+.               | '.'                  | 36    | 37    | +0.053408
+Il              | 'Il'                 | 38    | 40    | -0.007644
+cielo           | 'cielo'              | 41    | 46    | +0.182037
+è               | 'è'                  | 47    | 48    | +0.049258
+sve             | 'sve'                | 49    | 52    | +0.023672
+glio            | 'glio'               | 52    | 56    | -0.020185
+,               | ','                  | 56    | 57    | +0.065138
+perciò          | 'perciò'             | 58    | 64    | +0.029282
+sono            | 'sono'               | 65    | 69    | +0.035052
+sve             | 'sve'                | 70    | 73    | +0.037182
+glia            | 'glia'               | 73    | 77    | +0.002641
+.               | '.'                  | 77    | 78    | +0.022151
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Anna' (0-4) as 'Anna'
+  Added token ', ' (4-5) as ','
+
+Saved word: 'Anna,' with SHAP +0.105799
+  Added token 'torna ' (6-11) as 'torna'
+
+Saved word: 'torna' with SHAP -0.026629
+  Added token 'a ' (12-13) as 'a'
+
+Saved word: 'a' with SHAP +0.013644
+  Added token 'dor' (14-17) as 'dor'
+  Added token 'mire' (17-21) as 'mire'
+  Added token '. ' (21-22) as '.'
+
+Saved word: 'dormire.' with SHAP -0.074355
+  Added token 'Non ' (23-26) as 'Non'
+
+Saved word: 'Non' with SHAP -0.115914
+  Added token 'ci ' (27-29) as 'ci'
+
+Saved word: 'ci' with SHAP +0.010155
+  Added token 'ri' (30-32) as 'ri'
+  Added token 'esco' (32-36) as 'esco'
+  Added token '. ' (36-37) as '.'
+
+Saved word: 'riesco.' with SHAP +0.039589
+  Added token 'Il ' (38-40) as 'Il'
+
+Saved word: 'Il' with SHAP -0.007644
+  Added token 'cielo ' (41-46) as 'cielo'
+
+Saved word: 'cielo' with SHAP +0.182037
+  Added token 'è ' (47-48) as 'è'
+
+Saved word: 'è' with SHAP +0.049258
+  Added token 'sve' (49-52) as 'sve'
+  Added token 'glio' (52-56) as 'glio'
+  Added token ', ' (56-57) as ','
+
+Saved word: 'sveglio,' with SHAP +0.068626
+  Added token 'perciò ' (58-64) as 'perciò'
+
+Saved word: 'perciò' with SHAP +0.029282
+  Added token 'sono ' (65-69) as 'sono'
+
+Saved word: 'sono' with SHAP +0.035052
+  Added token 'sve' (70-73) as 'sve'
+  Added token 'glia' (73-77) as 'glia'
+  Added token '.' (77-78) as '.'
+
+Saved final word: 'sveglia.' with SHAP +0.061974
+
+=== Final Word Contributions ===
+cielo                     +0.182037 (POS)
+Non                       -0.115914 (NEG)
+Anna,                     +0.105799 (POS)
+dormire.                  -0.074355 (NEG)
+sveglio,                  +0.068626 (POS)
+sveglia.                  +0.061974 (POS)
+è                         +0.049258 (POS)
+riesco.                   +0.039589 (POS)
+sono                      +0.035052 (POS)
+perciò                    +0.029282 (POS)
+torna                     -0.026629 (NEG)
+a                         +0.013644 (POS)
+ci                        +0.010155 (POS)
+Il                        -0.007644 (NEG)

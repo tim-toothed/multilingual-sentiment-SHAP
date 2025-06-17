@@ -1,0 +1,170 @@
+
+=== Processing text ===
+Sono stati i matematici a vincere la guerra. Sono stati i matematici a decifrare i codici giapponesi... e a costruire la bomba atomica. Matematici, come voi.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.006170
+Sono            | 'Sono'               | 0     | 4     | +0.010675
+stati           | 'stati'              | 5     | 10    | +0.005027
+i               | 'i'                  | 11    | 12    | +0.005027
+mate            | 'mate'               | 13    | 17    | +0.005960
+mati            | 'mati'               | 17    | 21    | +0.011557
+ci              | 'ci'                 | 21    | 23    | -0.002715
+a               | 'a'                  | 24    | 25    | +0.007339
+vincere         | 'vincere'            | 26    | 33    | +0.005837
+la              | 'la'                 | 34    | 36    | -0.003277
+guerra          | 'guerra'             | 37    | 43    | -0.007836
+.               | '.'                  | 43    | 44    | -0.003719
+Sono            | 'Sono'               | 45    | 49    | +0.002636
+stati           | 'stati'              | 50    | 55    | +0.001954
+i               | 'i'                  | 56    | 57    | +0.006886
+mate            | 'mate'               | 58    | 62    | -0.002752
+mati            | 'mati'               | 62    | 66    | -0.002752
+ci              | 'ci'                 | 66    | 68    | -0.002566
+a               | 'a'                  | 69    | 70    | +0.011818
+de              | 'de'                 | 71    | 73    | -0.019065
+ci              | 'ci'                 | 73    | 75    | -0.015647
+fra             | 'fra'                | 75    | 78    | -0.009132
+re              | 're'                 | 78    | 80    | -0.009132
+i               | 'i'                  | 81    | 82    | -0.000929
+codi            | 'codi'               | 83    | 87    | -0.001162
+ci              | 'ci'                 | 87    | 89    | -0.001162
+giapponesi      | 'giapponesi'         | 90    | 100   | -0.003148
+.               | '.'                  | 100   | 101   | -0.003148
+.               | '.'                  | 101   | 102   | -0.016918
+.               | '.'                  | 102   | 103   | -0.002772
+e               | 'e'                  | 104   | 105   | +0.008674
+a               | 'a'                  | 106   | 107   | +0.008401
+costruire       | 'costruire'          | 108   | 117   | +0.028049
+la              | 'la'                 | 118   | 120   | +0.018482
+bomba           | 'bomba'              | 121   | 126   | +0.004191
+atomic          | 'atomic'             | 127   | 133   | -0.027056
+a               | 'a'                  | 133   | 134   | -0.006139
+.               | '.'                  | 134   | 135   | -0.012089
+Mate            | 'Mate'               | 136   | 140   | +0.004855
+mati            | 'mati'               | 140   | 144   | +0.009236
+ci              | 'ci'                 | 144   | 146   | -0.001457
+,               | ','                  | 146   | 147   | +0.009259
+come            | 'come'               | 148   | 152   | +0.009221
+voi             | 'voi'                | 153   | 156   | +0.019415
+.               | '.'                  | 156   | 157   | -0.004120
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Sono ' (0-4) as 'Sono'
+
+Saved word: 'Sono' with SHAP +0.010675
+  Added token 'stati ' (5-10) as 'stati'
+
+Saved word: 'stati' with SHAP +0.005027
+  Added token 'i ' (11-12) as 'i'
+
+Saved word: 'i' with SHAP +0.005027
+  Added token 'mate' (13-17) as 'mate'
+  Added token 'mati' (17-21) as 'mati'
+  Added token 'ci ' (21-23) as 'ci'
+
+Saved word: 'matematici' with SHAP +0.014801
+  Added token 'a ' (24-25) as 'a'
+
+Saved word: 'a' with SHAP +0.007339
+  Added token 'vincere ' (26-33) as 'vincere'
+
+Saved word: 'vincere' with SHAP +0.005837
+  Added token 'la ' (34-36) as 'la'
+
+Saved word: 'la' with SHAP -0.003277
+  Added token 'guerra' (37-43) as 'guerra'
+  Added token '. ' (43-44) as '.'
+
+Saved word: 'guerra.' with SHAP -0.011555
+  Added token 'Sono ' (45-49) as 'Sono'
+
+Saved word: 'Sono' with SHAP +0.002636
+  Added token 'stati ' (50-55) as 'stati'
+
+Saved word: 'stati' with SHAP +0.001954
+  Added token 'i ' (56-57) as 'i'
+
+Saved word: 'i' with SHAP +0.006886
+  Added token 'mate' (58-62) as 'mate'
+  Added token 'mati' (62-66) as 'mati'
+  Added token 'ci ' (66-68) as 'ci'
+
+Saved word: 'matematici' with SHAP -0.008070
+  Added token 'a ' (69-70) as 'a'
+
+Saved word: 'a' with SHAP +0.011818
+  Added token 'de' (71-73) as 'de'
+  Added token 'ci' (73-75) as 'ci'
+  Added token 'fra' (75-78) as 'fra'
+  Added token 're ' (78-80) as 're'
+
+Saved word: 'decifrare' with SHAP -0.052976
+  Added token 'i ' (81-82) as 'i'
+
+Saved word: 'i' with SHAP -0.000929
+  Added token 'codi' (83-87) as 'codi'
+  Added token 'ci ' (87-89) as 'ci'
+
+Saved word: 'codici' with SHAP -0.002324
+  Added token 'giapponesi' (90-100) as 'giapponesi'
+  Added token '.' (100-101) as '.'
+  Added token '.' (101-102) as '.'
+  Added token '. ' (102-103) as '.'
+
+Saved word: 'giapponesi...' with SHAP -0.025986
+  Added token 'e ' (104-105) as 'e'
+
+Saved word: 'e' with SHAP +0.008674
+  Added token 'a ' (106-107) as 'a'
+
+Saved word: 'a' with SHAP +0.008401
+  Added token 'costruire ' (108-117) as 'costruire'
+
+Saved word: 'costruire' with SHAP +0.028049
+  Added token 'la ' (118-120) as 'la'
+
+Saved word: 'la' with SHAP +0.018482
+  Added token 'bomba ' (121-126) as 'bomba'
+
+Saved word: 'bomba' with SHAP +0.004191
+  Added token 'atomic' (127-133) as 'atomic'
+  Added token 'a' (133-134) as 'a'
+  Added token '. ' (134-135) as '.'
+
+Saved word: 'atomica.' with SHAP -0.045284
+  Added token 'Mate' (136-140) as 'Mate'
+  Added token 'mati' (140-144) as 'mati'
+  Added token 'ci' (144-146) as 'ci'
+  Added token ', ' (146-147) as ','
+
+Saved word: 'Matematici,' with SHAP +0.021893
+  Added token 'come ' (148-152) as 'come'
+
+Saved word: 'come' with SHAP +0.009221
+  Added token 'voi' (153-156) as 'voi'
+  Added token '.' (156-157) as '.'
+
+Saved final word: 'voi.' with SHAP +0.015295
+
+=== Final Word Contributions ===
+decifrare                 -0.052976 (NEG)
+atomica.                  -0.045284 (NEG)
+costruire                 +0.028049 (POS)
+giapponesi...             -0.025986 (NEG)
+Matematici,               +0.021893 (POS)
+la                        +0.018482 (POS)
+voi.                      +0.015295 (POS)
+guerra.                   -0.011555 (NEG)
+come                      +0.009221 (POS)
+e                         +0.008674 (POS)
+a                         +0.008401 (POS)
+matematici                -0.008070 (NEG)
+vincere                   +0.005837 (POS)
+bomba                     +0.004191 (POS)
+Sono                      +0.002636 (POS)
+codici                    -0.002324 (NEG)
+stati                     +0.001954 (POS)
+i                         -0.000929 (NEG)

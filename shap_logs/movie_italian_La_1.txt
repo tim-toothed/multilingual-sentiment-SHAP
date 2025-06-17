@@ -1,0 +1,133 @@
+
+=== Processing text ===
+La matematica... La matematica non ti svelerà mai una verità superiore. E sai perché? Perché è noiosa. Davvero noiosa.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000803
+La              | 'La'                 | 0     | 2     | +0.003671
+matematica      | 'matematica'         | 3     | 13    | +0.004488
+.               | '.'                  | 13    | 14    | -0.008659
+.               | '.'                  | 14    | 15    | +0.006440
+.               | '.'                  | 15    | 16    | +0.016820
+La              | 'La'                 | 17    | 19    | +0.007799
+matematica      | 'matematica'         | 20    | 30    | +0.007799
+non             | 'non'                | 31    | 34    | +0.011044
+ti              | 'ti'                 | 35    | 37    | +0.011044
+sve             | 'sve'                | 38    | 41    | +0.004994
+ler             | 'ler'                | 41    | 44    | +0.004994
+à               | 'à'                  | 44    | 45    | +0.006978
+mai             | 'mai'                | 46    | 49    | +0.006978
+una             | 'una'                | 50    | 53    | +0.002950
+verità          | 'verità'             | 54    | 60    | +0.002950
+superiore       | 'superiore'          | 61    | 70    | +0.003036
+.               | '.'                  | 70    | 71    | +0.008705
+E               | 'E'                  | 72    | 73    | +0.010412
+sai             | 'sai'                | 74    | 77    | +0.010412
+perché          | 'perché'             | 78    | 84    | +0.020918
+?               | '?'                  | 84    | 85    | +0.026440
+Per             | 'Per'                | 86    | 89    | +0.014996
+ché             | 'ché'                | 89    | 92    | +0.015510
+è               | 'è'                  | 93    | 94    | +0.028037
+noi             | 'noi'                | 95    | 98    | +0.036727
+osa             | 'osa'                | 98    | 101   | +0.041164
+.               | '.'                  | 101   | 102   | +0.027307
+Da              | 'Da'                 | 103   | 105   | +0.005083
+v               | 'v'                  | 105   | 106   | +0.002580
+vero            | 'vero'               | 106   | 110   | +0.041613
+noi             | 'noi'                | 111   | 114   | +0.051081
+osa             | 'osa'                | 114   | 117   | +0.052982
+.               | '.'                  | 117   | 118   | +0.016185
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'La ' (0-2) as 'La'
+
+Saved word: 'La' with SHAP +0.003671
+  Added token 'matematica' (3-13) as 'matematica'
+  Added token '.' (13-14) as '.'
+  Added token '.' (14-15) as '.'
+  Added token '. ' (15-16) as '.'
+
+Saved word: 'matematica...' with SHAP +0.019090
+  Added token 'La ' (17-19) as 'La'
+
+Saved word: 'La' with SHAP +0.007799
+  Added token 'matematica ' (20-30) as 'matematica'
+
+Saved word: 'matematica' with SHAP +0.007799
+  Added token 'non ' (31-34) as 'non'
+
+Saved word: 'non' with SHAP +0.011044
+  Added token 'ti ' (35-37) as 'ti'
+
+Saved word: 'ti' with SHAP +0.011044
+  Added token 'sve' (38-41) as 'sve'
+  Added token 'ler' (41-44) as 'ler'
+  Added token 'à ' (44-45) as 'à'
+
+Saved word: 'svelerà' with SHAP +0.016965
+  Added token 'mai ' (46-49) as 'mai'
+
+Saved word: 'mai' with SHAP +0.006978
+  Added token 'una ' (50-53) as 'una'
+
+Saved word: 'una' with SHAP +0.002950
+  Added token 'verità ' (54-60) as 'verità'
+
+Saved word: 'verità' with SHAP +0.002950
+  Added token 'superiore' (61-70) as 'superiore'
+  Added token '. ' (70-71) as '.'
+
+Saved word: 'superiore.' with SHAP +0.011741
+  Added token 'E ' (72-73) as 'E'
+
+Saved word: 'E' with SHAP +0.010412
+  Added token 'sai ' (74-77) as 'sai'
+
+Saved word: 'sai' with SHAP +0.010412
+  Added token 'perché' (78-84) as 'perché'
+  Added token '? ' (84-85) as '?'
+
+Saved word: 'perché?' with SHAP +0.047357
+  Added token 'Per' (86-89) as 'Per'
+  Added token 'ché ' (89-92) as 'ché'
+
+Saved word: 'Perché' with SHAP +0.030506
+  Added token 'è ' (93-94) as 'è'
+
+Saved word: 'è' with SHAP +0.028037
+  Added token 'noi' (95-98) as 'noi'
+  Added token 'osa' (98-101) as 'osa'
+  Added token '. ' (101-102) as '.'
+
+Saved word: 'noiosa.' with SHAP +0.105198
+  Added token 'Da' (103-105) as 'Da'
+  Added token 'v' (105-106) as 'v'
+  Added token 'vero ' (106-110) as 'vero'
+
+Saved word: 'Davvero' with SHAP +0.049276
+  Added token 'noi' (111-114) as 'noi'
+  Added token 'osa' (114-117) as 'osa'
+  Added token '.' (117-118) as '.'
+
+Saved final word: 'noiosa.' with SHAP +0.120249
+
+=== Final Word Contributions ===
+noiosa.                   +0.120249 (POS)
+Davvero                   +0.049276 (POS)
+perché?                   +0.047357 (POS)
+Perché                    +0.030506 (POS)
+è                         +0.028037 (POS)
+matematica...             +0.019090 (POS)
+svelerà                   +0.016965 (POS)
+superiore.                +0.011741 (POS)
+non                       +0.011044 (POS)
+ti                        +0.011044 (POS)
+E                         +0.010412 (POS)
+sai                       +0.010412 (POS)
+La                        +0.007799 (POS)
+matematica                +0.007799 (POS)
+mai                       +0.006978 (POS)
+una                       +0.002950 (POS)
+verità                    +0.002950 (POS)

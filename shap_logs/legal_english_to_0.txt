@@ -1,0 +1,353 @@
+
+=== Processing text ===
+to promote the uptake of human centric and trustworthy artificial intelligence (AI) while ensuring a high level of protection of health, safety, fundamental rights as enshrined in the Charter of Fundamental Rights of the European Union (the ‘Charter’), including democracy, the rule of law and environmental protection, to protect against the harmful effects of AI systems in the Union, and to support innovation.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000785
+to              | 'to'                 | 0     | 2     | +0.000785
+promote         | 'promote'            | 3     | 10    | -0.000510
+the             | 'the'                | 11    | 14    | -0.000510
+up              | 'up'                 | 15    | 17    | +0.001851
+take            | 'take'               | 17    | 21    | +0.001851
+of              | 'of'                 | 22    | 24    | -0.001328
+human           | 'human'              | 25    | 30    | -0.001328
+centri          | 'centri'             | 31    | 37    | -0.000426
+c               | 'c'                  | 37    | 38    | -0.000426
+and             | 'and'                | 39    | 42    | -0.000426
+trust           | 'trust'              | 43    | 48    | -0.004477
+worthy          | 'worthy'             | 48    | 54    | -0.004477
+artificial      | 'artificial'         | 55    | 65    | -0.000573
+intelligence    | 'intelligence'       | 66    | 78    | -0.000573
+(               | '('                  | 79    | 80    | -0.004083
+AI              | 'AI'                 | 80    | 82    | -0.004083
+)               | ')'                  | 82    | 83    | -0.004083
+while           | 'while'              | 84    | 89    | +0.020105
+ens             | 'ens'                | 90    | 93    | +0.002231
+uring           | 'uring'              | 93    | 98    | +0.002231
+a               | 'a'                  | 99    | 100   | -0.003069
+high            | 'high'               | 101   | 105   | -0.003069
+level           | 'level'              | 106   | 111   | -0.002821
+of              | 'of'                 | 112   | 114   | -0.002821
+protection      | 'protection'         | 115   | 125   | -0.002764
+of              | 'of'                 | 126   | 128   | -0.002764
+health          | 'health'             | 129   | 135   | -0.002764
+,               | ','                  | 135   | 136   | -0.003538
+safety          | 'safety'             | 137   | 143   | -0.006861
+,               | ','                  | 143   | 144   | -0.004160
+fundamental     | 'fundamental'        | 145   | 156   | -0.003463
+rights          | 'rights'             | 157   | 163   | -0.003463
+as              | 'as'                 | 164   | 166   | -0.003463
+ens             | 'ens'                | 167   | 170   | -0.004072
+hri             | 'hri'                | 170   | 173   | -0.004072
+ned             | 'ned'                | 173   | 176   | -0.004072
+in              | 'in'                 | 177   | 179   | +0.000057
+the             | 'the'                | 180   | 183   | +0.000057
+Charter         | 'Charter'            | 184   | 191   | +0.000057
+of              | 'of'                 | 192   | 194   | +0.000057
+Fund            | 'Fund'               | 195   | 199   | -0.001162
+amental         | 'amental'            | 199   | 206   | -0.001162
+Rights          | 'Rights'             | 207   | 213   | -0.001162
+of              | 'of'                 | 214   | 216   | -0.001162
+the             | 'the'                | 217   | 220   | +0.000962
+European        | 'European'           | 221   | 229   | +0.000962
+Union           | 'Union'              | 230   | 235   | +0.000962
+(               | '('                  | 236   | 237   | -0.000744
+the             | 'the'                | 237   | 240   | -0.000744
+‘               | '‘'                  | 241   | 242   | -0.000744
+Charter         | 'Charter'            | 242   | 249   | -0.000744
+’               | '’'                  | 249   | 250   | -0.000744
+)               | ')'                  | 250   | 251   | -0.000744
+,               | ','                  | 251   | 252   | +0.005033
+including       | 'including'          | 253   | 262   | +0.007179
+democracy       | 'democracy'          | 263   | 272   | +0.002006
+,               | ','                  | 272   | 273   | +0.001919
+the             | 'the'                | 274   | 277   | +0.005344
+rule            | 'rule'               | 278   | 282   | +0.005344
+of              | 'of'                 | 283   | 285   | +0.006098
+law             | 'law'                | 286   | 289   | +0.006098
+and             | 'and'                | 290   | 293   | +0.001290
+environmental   | 'environmental'      | 294   | 307   | +0.001290
+protection      | 'protection'         | 308   | 318   | +0.001290
+,               | ','                  | 318   | 319   | +0.001290
+to              | 'to'                 | 320   | 322   | +0.002809
+protect         | 'protect'            | 323   | 330   | +0.002809
+against         | 'against'            | 331   | 338   | +0.002542
+the             | 'the'                | 339   | 342   | +0.002542
+harm            | 'harm'               | 343   | 347   | +0.007551
+ful             | 'ful'                | 347   | 350   | +0.007513
+effects         | 'effects'            | 351   | 358   | +0.009665
+of              | 'of'                 | 359   | 361   | +0.009665
+AI              | 'AI'                 | 362   | 364   | +0.003817
+systems         | 'systems'            | 365   | 372   | +0.003817
+in              | 'in'                 | 373   | 375   | +0.003817
+the             | 'the'                | 376   | 379   | +0.003817
+Union           | 'Union'              | 380   | 385   | +0.003817
+,               | ','                  | 385   | 386   | +0.004215
+and             | 'and'                | 387   | 390   | -0.001228
+to              | 'to'                 | 391   | 393   | +0.005009
+support         | 'support'            | 394   | 401   | +0.005009
+innovation      | 'innovation'         | 402   | 412   | +0.005009
+.               | '.'                  | 412   | 413   | +0.002927
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'to ' (0-2) as 'to'
+
+Saved word: 'to' with SHAP +0.000785
+  Added token 'promote ' (3-10) as 'promote'
+
+Saved word: 'promote' with SHAP -0.000510
+  Added token 'the ' (11-14) as 'the'
+
+Saved word: 'the' with SHAP -0.000510
+  Added token 'up' (15-17) as 'up'
+  Added token 'take ' (17-21) as 'take'
+
+Saved word: 'uptake' with SHAP +0.003702
+  Added token 'of ' (22-24) as 'of'
+
+Saved word: 'of' with SHAP -0.001328
+  Added token 'human ' (25-30) as 'human'
+
+Saved word: 'human' with SHAP -0.001328
+  Added token 'centri' (31-37) as 'centri'
+  Added token 'c ' (37-38) as 'c'
+
+Saved word: 'centric' with SHAP -0.000851
+  Added token 'and ' (39-42) as 'and'
+
+Saved word: 'and' with SHAP -0.000426
+  Added token 'trust' (43-48) as 'trust'
+  Added token 'worthy ' (48-54) as 'worthy'
+
+Saved word: 'trustworthy' with SHAP -0.008954
+  Added token 'artificial ' (55-65) as 'artificial'
+
+Saved word: 'artificial' with SHAP -0.000573
+  Added token 'intelligence ' (66-78) as 'intelligence'
+
+Saved word: 'intelligence' with SHAP -0.000573
+  Added token '(' (79-80) as '('
+  Added token 'AI' (80-82) as 'AI'
+  Added token ') ' (82-83) as ')'
+
+Saved word: '(AI)' with SHAP -0.012250
+  Added token 'while ' (84-89) as 'while'
+
+Saved word: 'while' with SHAP +0.020105
+  Added token 'ens' (90-93) as 'ens'
+  Added token 'uring ' (93-98) as 'uring'
+
+Saved word: 'ensuring' with SHAP +0.004462
+  Added token 'a ' (99-100) as 'a'
+
+Saved word: 'a' with SHAP -0.003069
+  Added token 'high ' (101-105) as 'high'
+
+Saved word: 'high' with SHAP -0.003069
+  Added token 'level ' (106-111) as 'level'
+
+Saved word: 'level' with SHAP -0.002821
+  Added token 'of ' (112-114) as 'of'
+
+Saved word: 'of' with SHAP -0.002821
+  Added token 'protection ' (115-125) as 'protection'
+
+Saved word: 'protection' with SHAP -0.002764
+  Added token 'of ' (126-128) as 'of'
+
+Saved word: 'of' with SHAP -0.002764
+  Added token 'health' (129-135) as 'health'
+  Added token ', ' (135-136) as ','
+
+Saved word: 'health,' with SHAP -0.006302
+  Added token 'safety' (137-143) as 'safety'
+  Added token ', ' (143-144) as ','
+
+Saved word: 'safety,' with SHAP -0.011021
+  Added token 'fundamental ' (145-156) as 'fundamental'
+
+Saved word: 'fundamental' with SHAP -0.003463
+  Added token 'rights ' (157-163) as 'rights'
+
+Saved word: 'rights' with SHAP -0.003463
+  Added token 'as ' (164-166) as 'as'
+
+Saved word: 'as' with SHAP -0.003463
+  Added token 'ens' (167-170) as 'ens'
+  Added token 'hri' (170-173) as 'hri'
+  Added token 'ned ' (173-176) as 'ned'
+
+Saved word: 'enshrined' with SHAP -0.012216
+  Added token 'in ' (177-179) as 'in'
+
+Saved word: 'in' with SHAP +0.000057
+  Added token 'the ' (180-183) as 'the'
+
+Saved word: 'the' with SHAP +0.000057
+  Added token 'Charter ' (184-191) as 'Charter'
+
+Saved word: 'Charter' with SHAP +0.000057
+  Added token 'of ' (192-194) as 'of'
+
+Saved word: 'of' with SHAP +0.000057
+  Added token 'Fund' (195-199) as 'Fund'
+  Added token 'amental ' (199-206) as 'amental'
+
+Saved word: 'Fundamental' with SHAP -0.002323
+  Added token 'Rights ' (207-213) as 'Rights'
+
+Saved word: 'Rights' with SHAP -0.001162
+  Added token 'of ' (214-216) as 'of'
+
+Saved word: 'of' with SHAP -0.001162
+  Added token 'the ' (217-220) as 'the'
+
+Saved word: 'the' with SHAP +0.000962
+  Added token 'European ' (221-229) as 'European'
+
+Saved word: 'European' with SHAP +0.000962
+  Added token 'Union ' (230-235) as 'Union'
+
+Saved word: 'Union' with SHAP +0.000962
+  Added token '(' (236-237) as '('
+  Added token 'the ' (237-240) as 'the'
+
+Saved word: '(the' with SHAP -0.001489
+  Added token '‘' (241-242) as '‘'
+  Added token 'Charter' (242-249) as 'Charter'
+  Added token '’' (249-250) as '’'
+  Added token ')' (250-251) as ')'
+  Added token ', ' (251-252) as ','
+
+Saved word: '‘Charter’),' with SHAP +0.002055
+  Added token 'including ' (253-262) as 'including'
+
+Saved word: 'including' with SHAP +0.007179
+  Added token 'democracy' (263-272) as 'democracy'
+  Added token ', ' (272-273) as ','
+
+Saved word: 'democracy,' with SHAP +0.003926
+  Added token 'the ' (274-277) as 'the'
+
+Saved word: 'the' with SHAP +0.005344
+  Added token 'rule ' (278-282) as 'rule'
+
+Saved word: 'rule' with SHAP +0.005344
+  Added token 'of ' (283-285) as 'of'
+
+Saved word: 'of' with SHAP +0.006098
+  Added token 'law ' (286-289) as 'law'
+
+Saved word: 'law' with SHAP +0.006098
+  Added token 'and ' (290-293) as 'and'
+
+Saved word: 'and' with SHAP +0.001290
+  Added token 'environmental ' (294-307) as 'environmental'
+
+Saved word: 'environmental' with SHAP +0.001290
+  Added token 'protection' (308-318) as 'protection'
+  Added token ', ' (318-319) as ','
+
+Saved word: 'protection,' with SHAP +0.002579
+  Added token 'to ' (320-322) as 'to'
+
+Saved word: 'to' with SHAP +0.002809
+  Added token 'protect ' (323-330) as 'protect'
+
+Saved word: 'protect' with SHAP +0.002809
+  Added token 'against ' (331-338) as 'against'
+
+Saved word: 'against' with SHAP +0.002542
+  Added token 'the ' (339-342) as 'the'
+
+Saved word: 'the' with SHAP +0.002542
+  Added token 'harm' (343-347) as 'harm'
+  Added token 'ful ' (347-350) as 'ful'
+
+Saved word: 'harmful' with SHAP +0.015063
+  Added token 'effects ' (351-358) as 'effects'
+
+Saved word: 'effects' with SHAP +0.009665
+  Added token 'of ' (359-361) as 'of'
+
+Saved word: 'of' with SHAP +0.009665
+  Added token 'AI ' (362-364) as 'AI'
+
+Saved word: 'AI' with SHAP +0.003817
+  Added token 'systems ' (365-372) as 'systems'
+
+Saved word: 'systems' with SHAP +0.003817
+  Added token 'in ' (373-375) as 'in'
+
+Saved word: 'in' with SHAP +0.003817
+  Added token 'the ' (376-379) as 'the'
+
+Saved word: 'the' with SHAP +0.003817
+  Added token 'Union' (380-385) as 'Union'
+  Added token ', ' (385-386) as ','
+
+Saved word: 'Union,' with SHAP +0.008032
+  Added token 'and ' (387-390) as 'and'
+
+Saved word: 'and' with SHAP -0.001228
+  Added token 'to ' (391-393) as 'to'
+
+Saved word: 'to' with SHAP +0.005009
+  Added token 'support ' (394-401) as 'support'
+
+Saved word: 'support' with SHAP +0.005009
+  Added token 'innovation' (402-412) as 'innovation'
+  Added token '.' (412-413) as '.'
+
+Saved final word: 'innovation.' with SHAP +0.007936
+
+=== Final Word Contributions ===
+while                     +0.020105 (POS)
+harmful                   +0.015063 (POS)
+(AI)                      -0.012250 (NEG)
+enshrined                 -0.012216 (NEG)
+safety,                   -0.011021 (NEG)
+of                        +0.009665 (POS)
+effects                   +0.009665 (POS)
+trustworthy               -0.008954 (NEG)
+Union,                    +0.008032 (POS)
+innovation.               +0.007936 (POS)
+including                 +0.007179 (POS)
+health,                   -0.006302 (NEG)
+law                       +0.006098 (POS)
+rule                      +0.005344 (POS)
+to                        +0.005009 (POS)
+support                   +0.005009 (POS)
+ensuring                  +0.004462 (POS)
+democracy,                +0.003926 (POS)
+the                       +0.003817 (POS)
+in                        +0.003817 (POS)
+AI                        +0.003817 (POS)
+systems                   +0.003817 (POS)
+uptake                    +0.003702 (POS)
+fundamental               -0.003463 (NEG)
+rights                    -0.003463 (NEG)
+as                        -0.003463 (NEG)
+a                         -0.003069 (NEG)
+high                      -0.003069 (NEG)
+level                     -0.002821 (NEG)
+protect                   +0.002809 (POS)
+protection                -0.002764 (NEG)
+protection,               +0.002579 (POS)
+against                   +0.002542 (POS)
+Fundamental               -0.002323 (NEG)
+‘Charter’),               +0.002055 (POS)
+(the                      -0.001489 (NEG)
+human                     -0.001328 (NEG)
+environmental             +0.001290 (POS)
+and                       -0.001228 (NEG)
+Rights                    -0.001162 (NEG)
+European                  +0.000962 (POS)
+Union                     +0.000962 (POS)
+centric                   -0.000851 (NEG)
+artificial                -0.000573 (NEG)
+intelligence              -0.000573 (NEG)
+promote                   -0.000510 (NEG)
+Charter                   +0.000057 (POS)

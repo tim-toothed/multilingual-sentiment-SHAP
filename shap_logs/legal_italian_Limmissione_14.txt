@@ -1,0 +1,432 @@
+
+=== Processing text ===
+L'immissione sul mercato, la messa in servizio per tale finalità specifica o l'uso di sistemi di IA che creano o ampliano le banche dati di riconoscimento facciale mediante scraping non mirato di immagini facciali da internet o da filmati di telecamere a circuito chiuso dovrebbero essere vietati, in quanto tale pratica accresce il senso di sorveglianza di massa e può portare a gravi violazioni dei diritti fondamentali, compreso il diritto alla vita privata.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004384
+L               | 'L'                  | 0     | 1     | +0.004384
+'               | "'"                  | 1     | 2     | +0.004384
+im              | 'im'                 | 2     | 4     | +0.001709
+mission         | 'mission'            | 4     | 11    | +0.001709
+e               | 'e'                  | 11    | 12    | +0.001709
+sul             | 'sul'                | 13    | 16    | +0.000167
+mercato         | 'mercato'            | 17    | 24    | +0.000167
+,               | ','                  | 24    | 25    | +0.001816
+la              | 'la'                 | 26    | 28    | -0.001183
+messa           | 'messa'              | 29    | 34    | -0.001183
+in              | 'in'                 | 35    | 37    | -0.001183
+servizio        | 'servizio'           | 38    | 46    | -0.001183
+per             | 'per'                | 47    | 50    | +0.002380
+tale            | 'tale'               | 51    | 55    | +0.002380
+finali          | 'finali'             | 56    | 62    | +0.002380
+tà              | 'tà'                 | 62    | 64    | +0.002380
+specific        | 'specific'           | 65    | 73    | -0.002722
+a               | 'a'                  | 73    | 74    | -0.002722
+o               | 'o'                  | 75    | 76    | -0.001098
+l               | 'l'                  | 77    | 78    | +0.003876
+'               | "'"                  | 78    | 79    | +0.003876
+uso             | 'uso'                | 79    | 82    | +0.003876
+di              | 'di'                 | 83    | 85    | +0.003876
+sistemi         | 'sistemi'            | 86    | 93    | +0.002359
+di              | 'di'                 | 94    | 96    | +0.002359
+IA              | 'IA'                 | 97    | 99    | +0.002359
+che             | 'che'                | 100   | 103   | +0.002359
+crea            | 'crea'               | 104   | 108   | +0.002359
+no              | 'no'                 | 108   | 110   | +0.002359
+o               | 'o'                  | 111   | 112   | +0.002359
+amplia          | 'amplia'             | 113   | 119   | -0.003477
+no              | 'no'                 | 119   | 121   | -0.003477
+le              | 'le'                 | 122   | 124   | -0.003477
+ban             | 'ban'                | 125   | 128   | -0.003477
+che             | 'che'                | 128   | 131   | -0.003477
+dati            | 'dati'               | 132   | 136   | -0.001358
+di              | 'di'                 | 137   | 139   | -0.001358
+riconoscimento  | 'riconoscimento'     | 140   | 154   | -0.001358
+faccia          | 'faccia'             | 155   | 161   | -0.001358
+le              | 'le'                 | 161   | 163   | -0.001358
+mediante        | 'mediante'           | 164   | 172   | -0.001358
+s               | 's'                  | 173   | 174   | +0.003686
+cra             | 'cra'                | 174   | 177   | +0.003686
+ping            | 'ping'               | 177   | 181   | +0.003686
+non             | 'non'                | 182   | 185   | +0.003686
+mira            | 'mira'               | 186   | 190   | +0.003686
+to              | 'to'                 | 190   | 192   | +0.003686
+di              | 'di'                 | 193   | 195   | +0.001449
+immagini        | 'immagini'           | 196   | 204   | +0.001449
+faccia          | 'faccia'             | 205   | 211   | +0.001449
+li              | 'li'                 | 211   | 213   | +0.001449
+da              | 'da'                 | 214   | 216   | +0.001449
+internet        | 'internet'           | 217   | 225   | +0.001449
+o               | 'o'                  | 226   | 227   | +0.001449
+da              | 'da'                 | 228   | 230   | +0.001449
+filma           | 'filma'              | 231   | 236   | +0.000513
+ti              | 'ti'                 | 236   | 238   | +0.000513
+di              | 'di'                 | 239   | 241   | +0.000513
+tele            | 'tele'               | 242   | 246   | +0.001027
+cam             | 'cam'                | 246   | 249   | +0.001027
+ere             | 'ere'                | 249   | 252   | +0.001027
+a               | 'a'                  | 253   | 254   | +0.002627
+circuito        | 'circuito'           | 255   | 263   | +0.002627
+chiuso          | 'chiuso'             | 264   | 270   | +0.002627
+do              | 'do'                 | 271   | 273   | +0.002627
+vre             | 'vre'                | 273   | 276   | +0.002627
+bber            | 'bber'               | 276   | 280   | +0.002627
+o               | 'o'                  | 280   | 281   | +0.002627
+essere          | 'essere'             | 282   | 288   | +0.002316
+vieta           | 'vieta'              | 289   | 294   | +0.002316
+ti              | 'ti'                 | 294   | 296   | +0.002316
+,               | ','                  | 296   | 297   | +0.002316
+in              | 'in'                 | 298   | 300   | +0.000973
+quanto          | 'quanto'             | 301   | 307   | +0.000973
+tale            | 'tale'               | 308   | 312   | +0.021909
+pratica         | 'pratica'            | 313   | 320   | +0.013429
+ac              | 'ac'                 | 321   | 323   | -0.011064
+cre             | 'cre'                | 323   | 326   | -0.011064
+sce             | 'sce'                | 326   | 329   | -0.000114
+il              | 'il'                 | 330   | 332   | -0.004654
+senso           | 'senso'              | 333   | 338   | -0.004654
+di              | 'di'                 | 339   | 341   | -0.002565
+sor             | 'sor'                | 342   | 345   | +0.000439
+veg             | 'veg'                | 345   | 348   | +0.000439
+lian            | 'lian'               | 348   | 352   | +0.000439
+za              | 'za'                 | 352   | 354   | +0.000439
+di              | 'di'                 | 355   | 357   | -0.001697
+massa           | 'massa'              | 358   | 363   | -0.001697
+e               | 'e'                  | 364   | 365   | -0.001697
+può             | 'può'                | 366   | 369   | -0.001697
+portare         | 'portare'            | 370   | 377   | +0.010372
+a               | 'a'                  | 378   | 379   | +0.010372
+gravi           | 'gravi'              | 380   | 385   | +0.038842
+viola           | 'viola'              | 386   | 391   | +0.071421
+zioni           | 'zioni'              | 391   | 396   | +0.026439
+dei             | 'dei'                | 397   | 400   | +0.012832
+diritti         | 'diritti'            | 401   | 408   | +0.012832
+fonda           | 'fonda'              | 409   | 414   | -0.005680
+mentali         | 'mentali'            | 414   | 421   | -0.005680
+,               | ','                  | 421   | 422   | -0.008573
+compreso        | 'compreso'           | 423   | 431   | -0.000851
+il              | 'il'                 | 432   | 434   | -0.006636
+diritto         | 'diritto'            | 435   | 442   | +0.008144
+alla            | 'alla'               | 443   | 447   | +0.006451
+vita            | 'vita'               | 448   | 452   | +0.025079
+privata         | 'privata'            | 453   | 460   | +0.025883
+.               | '.'                  | 460   | 461   | +0.001012
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'L' (0-1) as 'L'
+  Added token ''' (1-2) as '''
+  Added token 'im' (2-4) as 'im'
+  Added token 'mission' (4-11) as 'mission'
+  Added token 'e ' (11-12) as 'e'
+
+Saved word: 'L'immissione' with SHAP +0.013893
+  Added token 'sul ' (13-16) as 'sul'
+
+Saved word: 'sul' with SHAP +0.000167
+  Added token 'mercato' (17-24) as 'mercato'
+  Added token ', ' (24-25) as ','
+
+Saved word: 'mercato,' with SHAP +0.001983
+  Added token 'la ' (26-28) as 'la'
+
+Saved word: 'la' with SHAP -0.001183
+  Added token 'messa ' (29-34) as 'messa'
+
+Saved word: 'messa' with SHAP -0.001183
+  Added token 'in ' (35-37) as 'in'
+
+Saved word: 'in' with SHAP -0.001183
+  Added token 'servizio ' (38-46) as 'servizio'
+
+Saved word: 'servizio' with SHAP -0.001183
+  Added token 'per ' (47-50) as 'per'
+
+Saved word: 'per' with SHAP +0.002380
+  Added token 'tale ' (51-55) as 'tale'
+
+Saved word: 'tale' with SHAP +0.002380
+  Added token 'finali' (56-62) as 'finali'
+  Added token 'tà ' (62-64) as 'tà'
+
+Saved word: 'finalità' with SHAP +0.004760
+  Added token 'specific' (65-73) as 'specific'
+  Added token 'a ' (73-74) as 'a'
+
+Saved word: 'specifica' with SHAP -0.005444
+  Added token 'o ' (75-76) as 'o'
+
+Saved word: 'o' with SHAP -0.001098
+  Added token 'l' (77-78) as 'l'
+  Added token ''' (78-79) as '''
+  Added token 'uso ' (79-82) as 'uso'
+
+Saved word: 'l'uso' with SHAP +0.011628
+  Added token 'di ' (83-85) as 'di'
+
+Saved word: 'di' with SHAP +0.003876
+  Added token 'sistemi ' (86-93) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.002359
+  Added token 'di ' (94-96) as 'di'
+
+Saved word: 'di' with SHAP +0.002359
+  Added token 'IA ' (97-99) as 'IA'
+
+Saved word: 'IA' with SHAP +0.002359
+  Added token 'che ' (100-103) as 'che'
+
+Saved word: 'che' with SHAP +0.002359
+  Added token 'crea' (104-108) as 'crea'
+  Added token 'no ' (108-110) as 'no'
+
+Saved word: 'creano' with SHAP +0.004718
+  Added token 'o ' (111-112) as 'o'
+
+Saved word: 'o' with SHAP +0.002359
+  Added token 'amplia' (113-119) as 'amplia'
+  Added token 'no ' (119-121) as 'no'
+
+Saved word: 'ampliano' with SHAP -0.006955
+  Added token 'le ' (122-124) as 'le'
+
+Saved word: 'le' with SHAP -0.003477
+  Added token 'ban' (125-128) as 'ban'
+  Added token 'che ' (128-131) as 'che'
+
+Saved word: 'banche' with SHAP -0.006955
+  Added token 'dati ' (132-136) as 'dati'
+
+Saved word: 'dati' with SHAP -0.001358
+  Added token 'di ' (137-139) as 'di'
+
+Saved word: 'di' with SHAP -0.001358
+  Added token 'riconoscimento ' (140-154) as 'riconoscimento'
+
+Saved word: 'riconoscimento' with SHAP -0.001358
+  Added token 'faccia' (155-161) as 'faccia'
+  Added token 'le ' (161-163) as 'le'
+
+Saved word: 'facciale' with SHAP -0.002715
+  Added token 'mediante ' (164-172) as 'mediante'
+
+Saved word: 'mediante' with SHAP -0.001358
+  Added token 's' (173-174) as 's'
+  Added token 'cra' (174-177) as 'cra'
+  Added token 'ping ' (177-181) as 'ping'
+
+Saved word: 'scraping' with SHAP +0.011059
+  Added token 'non ' (182-185) as 'non'
+
+Saved word: 'non' with SHAP +0.003686
+  Added token 'mira' (186-190) as 'mira'
+  Added token 'to ' (190-192) as 'to'
+
+Saved word: 'mirato' with SHAP +0.007373
+  Added token 'di ' (193-195) as 'di'
+
+Saved word: 'di' with SHAP +0.001449
+  Added token 'immagini ' (196-204) as 'immagini'
+
+Saved word: 'immagini' with SHAP +0.001449
+  Added token 'faccia' (205-211) as 'faccia'
+  Added token 'li ' (211-213) as 'li'
+
+Saved word: 'facciali' with SHAP +0.002898
+  Added token 'da ' (214-216) as 'da'
+
+Saved word: 'da' with SHAP +0.001449
+  Added token 'internet ' (217-225) as 'internet'
+
+Saved word: 'internet' with SHAP +0.001449
+  Added token 'o ' (226-227) as 'o'
+
+Saved word: 'o' with SHAP +0.001449
+  Added token 'da ' (228-230) as 'da'
+
+Saved word: 'da' with SHAP +0.001449
+  Added token 'filma' (231-236) as 'filma'
+  Added token 'ti ' (236-238) as 'ti'
+
+Saved word: 'filmati' with SHAP +0.001026
+  Added token 'di ' (239-241) as 'di'
+
+Saved word: 'di' with SHAP +0.000513
+  Added token 'tele' (242-246) as 'tele'
+  Added token 'cam' (246-249) as 'cam'
+  Added token 'ere ' (249-252) as 'ere'
+
+Saved word: 'telecamere' with SHAP +0.003081
+  Added token 'a ' (253-254) as 'a'
+
+Saved word: 'a' with SHAP +0.002627
+  Added token 'circuito ' (255-263) as 'circuito'
+
+Saved word: 'circuito' with SHAP +0.002627
+  Added token 'chiuso ' (264-270) as 'chiuso'
+
+Saved word: 'chiuso' with SHAP +0.002627
+  Added token 'do' (271-273) as 'do'
+  Added token 'vre' (273-276) as 'vre'
+  Added token 'bber' (276-280) as 'bber'
+  Added token 'o ' (280-281) as 'o'
+
+Saved word: 'dovrebbero' with SHAP +0.010510
+  Added token 'essere ' (282-288) as 'essere'
+
+Saved word: 'essere' with SHAP +0.002316
+  Added token 'vieta' (289-294) as 'vieta'
+  Added token 'ti' (294-296) as 'ti'
+  Added token ', ' (296-297) as ','
+
+Saved word: 'vietati,' with SHAP +0.006947
+  Added token 'in ' (298-300) as 'in'
+
+Saved word: 'in' with SHAP +0.000973
+  Added token 'quanto ' (301-307) as 'quanto'
+
+Saved word: 'quanto' with SHAP +0.000973
+  Added token 'tale ' (308-312) as 'tale'
+
+Saved word: 'tale' with SHAP +0.021909
+  Added token 'pratica ' (313-320) as 'pratica'
+
+Saved word: 'pratica' with SHAP +0.013429
+  Added token 'ac' (321-323) as 'ac'
+  Added token 'cre' (323-326) as 'cre'
+  Added token 'sce ' (326-329) as 'sce'
+
+Saved word: 'accresce' with SHAP -0.022242
+  Added token 'il ' (330-332) as 'il'
+
+Saved word: 'il' with SHAP -0.004654
+  Added token 'senso ' (333-338) as 'senso'
+
+Saved word: 'senso' with SHAP -0.004654
+  Added token 'di ' (339-341) as 'di'
+
+Saved word: 'di' with SHAP -0.002565
+  Added token 'sor' (342-345) as 'sor'
+  Added token 'veg' (345-348) as 'veg'
+  Added token 'lian' (348-352) as 'lian'
+  Added token 'za ' (352-354) as 'za'
+
+Saved word: 'sorveglianza' with SHAP +0.001756
+  Added token 'di ' (355-357) as 'di'
+
+Saved word: 'di' with SHAP -0.001697
+  Added token 'massa ' (358-363) as 'massa'
+
+Saved word: 'massa' with SHAP -0.001697
+  Added token 'e ' (364-365) as 'e'
+
+Saved word: 'e' with SHAP -0.001697
+  Added token 'può ' (366-369) as 'può'
+
+Saved word: 'può' with SHAP -0.001697
+  Added token 'portare ' (370-377) as 'portare'
+
+Saved word: 'portare' with SHAP +0.010372
+  Added token 'a ' (378-379) as 'a'
+
+Saved word: 'a' with SHAP +0.010372
+  Added token 'gravi ' (380-385) as 'gravi'
+
+Saved word: 'gravi' with SHAP +0.038842
+  Added token 'viola' (386-391) as 'viola'
+  Added token 'zioni ' (391-396) as 'zioni'
+
+Saved word: 'violazioni' with SHAP +0.097861
+  Added token 'dei ' (397-400) as 'dei'
+
+Saved word: 'dei' with SHAP +0.012832
+  Added token 'diritti ' (401-408) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.012832
+  Added token 'fonda' (409-414) as 'fonda'
+  Added token 'mentali' (414-421) as 'mentali'
+  Added token ', ' (421-422) as ','
+
+Saved word: 'fondamentali,' with SHAP -0.019934
+  Added token 'compreso ' (423-431) as 'compreso'
+
+Saved word: 'compreso' with SHAP -0.000851
+  Added token 'il ' (432-434) as 'il'
+
+Saved word: 'il' with SHAP -0.006636
+  Added token 'diritto ' (435-442) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.008144
+  Added token 'alla ' (443-447) as 'alla'
+
+Saved word: 'alla' with SHAP +0.006451
+  Added token 'vita ' (448-452) as 'vita'
+
+Saved word: 'vita' with SHAP +0.025079
+  Added token 'privata' (453-460) as 'privata'
+  Added token '.' (460-461) as '.'
+
+Saved final word: 'privata.' with SHAP +0.026895
+
+=== Final Word Contributions ===
+violazioni                +0.097861 (POS)
+gravi                     +0.038842 (POS)
+privata.                  +0.026895 (POS)
+vita                      +0.025079 (POS)
+accresce                  -0.022242 (NEG)
+tale                      +0.021909 (POS)
+fondamentali,             -0.019934 (NEG)
+L'immissione              +0.013893 (POS)
+pratica                   +0.013429 (POS)
+dei                       +0.012832 (POS)
+diritti                   +0.012832 (POS)
+l'uso                     +0.011628 (POS)
+scraping                  +0.011059 (POS)
+dovrebbero                +0.010510 (POS)
+a                         +0.010372 (POS)
+portare                   +0.010372 (POS)
+diritto                   +0.008144 (POS)
+mirato                    +0.007373 (POS)
+ampliano                  -0.006955 (NEG)
+banche                    -0.006955 (NEG)
+vietati,                  +0.006947 (POS)
+il                        -0.006636 (NEG)
+alla                      +0.006451 (POS)
+specifica                 -0.005444 (NEG)
+finalità                  +0.004760 (POS)
+creano                    +0.004718 (POS)
+senso                     -0.004654 (NEG)
+non                       +0.003686 (POS)
+le                        -0.003477 (NEG)
+telecamere                +0.003081 (POS)
+facciali                  +0.002898 (POS)
+facciale                  -0.002715 (NEG)
+circuito                  +0.002627 (POS)
+chiuso                    +0.002627 (POS)
+per                       +0.002380 (POS)
+sistemi                   +0.002359 (POS)
+IA                        +0.002359 (POS)
+che                       +0.002359 (POS)
+essere                    +0.002316 (POS)
+mercato,                  +0.001983 (POS)
+sorveglianza              +0.001756 (POS)
+di                        -0.001697 (NEG)
+massa                     -0.001697 (NEG)
+e                         -0.001697 (NEG)
+può                       -0.001697 (NEG)
+o                         +0.001449 (POS)
+immagini                  +0.001449 (POS)
+da                        +0.001449 (POS)
+internet                  +0.001449 (POS)
+dati                      -0.001358 (NEG)
+riconoscimento            -0.001358 (NEG)
+mediante                  -0.001358 (NEG)
+la                        -0.001183 (NEG)
+messa                     -0.001183 (NEG)
+servizio                  -0.001183 (NEG)
+filmati                   +0.001026 (POS)
+in                        +0.000973 (POS)
+quanto                    +0.000973 (POS)
+compreso                  -0.000851 (NEG)
+sul                       +0.000167 (POS)

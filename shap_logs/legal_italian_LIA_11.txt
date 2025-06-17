@@ -1,0 +1,525 @@
+
+=== Processing text ===
+L'IA presenta, accanto a molti utilizzi benefici, la possibilità di essere utilizzata impropriamente e di fornire strumenti nuovi e potenti per pratiche di manipolazione, sfruttamento e controllo sociale. Tali pratiche sono particolarmente dannose e abusive e dovrebbero essere vietate poiché sono contrarie ai valori dell'Unione relativi al rispetto della dignità umana, alla libertà, all'uguaglianza, alla democrazia e allo Stato di diritto e ai diritti fondamentali sanciti dalla Carta, compresi il diritto alla non discriminazione, alla protezione dei dati e alla vita privata e i diritti dei minori.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000013
+L               | 'L'                  | 0     | 1     | -0.000013
+'               | "'"                  | 1     | 2     | -0.000013
+IA              | 'IA'                 | 2     | 4     | +0.000264
+presenta        | 'presenta'           | 5     | 13    | +0.000264
+,               | ','                  | 13    | 14    | +0.000264
+accanto         | 'accanto'            | 15    | 22    | +0.003887
+a               | 'a'                  | 23    | 24    | +0.002724
+molti           | 'molti'              | 25    | 30    | -0.001338
+ut              | 'ut'                 | 31    | 33    | -0.000579
+ili             | 'ili'                | 33    | 36    | -0.000579
+zzi             | 'zzi'                | 36    | 39    | -0.000579
+bene            | 'bene'               | 40    | 44    | -0.014491
+fici            | 'fici'               | 44    | 48    | -0.013737
+,               | ','                  | 48    | 49    | +0.003238
+la              | 'la'                 | 50    | 52    | -0.000516
+possibilità     | 'possibilità'        | 53    | 64    | -0.000516
+di              | 'di'                 | 65    | 67    | -0.000516
+essere          | 'essere'             | 68    | 74    | -0.000516
+utilizzata      | 'utilizzata'         | 75    | 85    | -0.000516
+im              | 'im'                 | 86    | 88    | +0.012143
+pro             | 'pro'                | 88    | 91    | +0.012143
+pri             | 'pri'                | 91    | 94    | +0.012143
+amente          | 'amente'             | 94    | 100   | +0.012143
+e               | 'e'                  | 101   | 102   | +0.003970
+di              | 'di'                 | 103   | 105   | +0.003970
+for             | 'for'                | 106   | 109   | +0.003970
+nire            | 'nire'               | 109   | 113   | +0.003970
+strumenti       | 'strumenti'          | 114   | 123   | -0.005692
+nuovi           | 'nuovi'              | 124   | 129   | -0.005692
+e               | 'e'                  | 130   | 131   | -0.005692
+pot             | 'pot'                | 132   | 135   | -0.001960
+enti            | 'enti'               | 135   | 139   | -0.001960
+per             | 'per'                | 140   | 143   | -0.001960
+pra             | 'pra'                | 144   | 147   | +0.001565
+tiche           | 'tiche'              | 147   | 152   | +0.001565
+di              | 'di'                 | 153   | 155   | +0.001565
+mani            | 'mani'               | 156   | 160   | +0.001565
+pola            | 'pola'               | 160   | 164   | +0.001565
+zione           | 'zione'              | 164   | 169   | +0.001565
+,               | ','                  | 169   | 170   | +0.001565
+s               | 's'                  | 171   | 172   | +0.002631
+fr              | 'fr'                 | 172   | 174   | +0.002631
+utta            | 'utta'               | 174   | 178   | +0.003431
+mento           | 'mento'              | 178   | 183   | +0.003431
+e               | 'e'                  | 184   | 185   | -0.000107
+controllo       | 'controllo'          | 186   | 195   | -0.000107
+sociale         | 'sociale'            | 196   | 203   | -0.000107
+.               | '.'                  | 203   | 204   | -0.011167
+Tal             | 'Tal'                | 205   | 208   | -0.000555
+i               | 'i'                  | 208   | 209   | -0.000555
+pra             | 'pra'                | 210   | 213   | -0.000202
+tiche           | 'tiche'              | 213   | 218   | -0.000202
+sono            | 'sono'               | 219   | 223   | +0.011949
+particolarmente  | 'particolarmente'    | 224   | 239   | +0.011949
+danno           | 'danno'              | 240   | 245   | +0.067727
+se              | 'se'                 | 245   | 247   | +0.044031
+e               | 'e'                  | 248   | 249   | +0.027600
+abu             | 'abu'                | 250   | 253   | +0.028963
+sive            | 'sive'               | 253   | 257   | +0.028963
+e               | 'e'                  | 258   | 259   | +0.022150
+do              | 'do'                 | 260   | 262   | -0.001050
+vre             | 'vre'                | 262   | 265   | -0.001050
+bber            | 'bber'               | 265   | 269   | -0.001051
+o               | 'o'                  | 269   | 270   | -0.001051
+essere          | 'essere'             | 271   | 277   | +0.002249
+vieta           | 'vieta'              | 278   | 283   | +0.002249
+te              | 'te'                 | 283   | 285   | +0.002249
+poiché          | 'poiché'             | 286   | 292   | +0.008532
+sono            | 'sono'               | 293   | 297   | +0.008532
+contrari        | 'contrari'           | 298   | 306   | +0.017478
+e               | 'e'                  | 306   | 307   | +0.017478
+ai              | 'ai'                 | 308   | 310   | +0.000050
+valori          | 'valori'             | 311   | 317   | +0.000050
+dell            | 'dell'               | 318   | 322   | +0.000050
+'               | "'"                  | 322   | 323   | +0.000050
+Unione          | 'Unione'             | 323   | 329   | +0.000050
+relativ         | 'relativ'            | 330   | 337   | +0.000418
+i               | 'i'                  | 337   | 338   | +0.000418
+al              | 'al'                 | 339   | 341   | +0.000418
+rispetto        | 'rispetto'           | 342   | 350   | +0.000418
+della           | 'della'              | 351   | 356   | +0.000418
+dig             | 'dig'                | 357   | 360   | +0.000945
+nità            | 'nità'               | 360   | 364   | +0.000945
+umana           | 'umana'              | 365   | 370   | +0.000945
+,               | ','                  | 370   | 371   | +0.000945
+alla            | 'alla'               | 372   | 376   | +0.005030
+libertà         | 'libertà'            | 377   | 384   | +0.005030
+,               | ','                  | 384   | 385   | +0.005030
+all             | 'all'                | 386   | 389   | +0.003767
+'               | "'"                  | 389   | 390   | +0.003767
+ug              | 'ug'                 | 390   | 392   | +0.003767
+ua              | 'ua'                 | 392   | 394   | +0.003767
+glia            | 'glia'               | 394   | 398   | +0.003767
+nza             | 'nza'                | 398   | 401   | +0.003767
+,               | ','                  | 401   | 402   | +0.004468
+alla            | 'alla'               | 403   | 407   | +0.003042
+demo            | 'demo'               | 408   | 412   | +0.003042
+crazia          | 'crazia'             | 412   | 418   | +0.003042
+e               | 'e'                  | 419   | 420   | +0.003042
+allo            | 'allo'               | 421   | 425   | +0.003042
+Stato           | 'Stato'              | 426   | 431   | +0.003042
+di              | 'di'                 | 432   | 434   | +0.003042
+diritto         | 'diritto'            | 435   | 442   | +0.003906
+e               | 'e'                  | 443   | 444   | +0.003906
+ai              | 'ai'                 | 445   | 447   | +0.003906
+diritti         | 'diritti'            | 448   | 455   | +0.003906
+fonda           | 'fonda'              | 456   | 461   | +0.003090
+mentali         | 'mentali'            | 461   | 468   | +0.003090
+san             | 'san'                | 469   | 472   | +0.003090
+citi            | 'citi'               | 472   | 476   | +0.003090
+dalla           | 'dalla'              | 477   | 482   | +0.004700
+Carta           | 'Carta'              | 483   | 488   | +0.004700
+,               | ','                  | 488   | 489   | +0.004700
+com             | 'com'                | 490   | 493   | +0.001575
+presi           | 'presi'              | 493   | 498   | +0.001575
+il              | 'il'                 | 499   | 501   | +0.001575
+diritto         | 'diritto'            | 502   | 509   | +0.001575
+alla            | 'alla'               | 510   | 514   | +0.001575
+non             | 'non'                | 515   | 518   | +0.001575
+disc            | 'disc'               | 519   | 523   | +0.001575
+rimi            | 'rimi'               | 523   | 527   | +0.001575
+nazione         | 'nazione'            | 527   | 534   | +0.001575
+,               | ','                  | 534   | 535   | +0.001575
+alla            | 'alla'               | 536   | 540   | +0.000736
+protezione      | 'protezione'         | 541   | 551   | +0.000736
+dei             | 'dei'                | 552   | 555   | +0.000736
+dati            | 'dati'               | 556   | 560   | +0.000736
+e               | 'e'                  | 561   | 562   | +0.000736
+alla            | 'alla'               | 563   | 567   | +0.000736
+vita            | 'vita'               | 568   | 572   | +0.000736
+privata         | 'privata'            | 573   | 580   | +0.000736
+e               | 'e'                  | 581   | 582   | +0.000736
+i               | 'i'                  | 583   | 584   | +0.000736
+diritti         | 'diritti'            | 585   | 592   | +0.000736
+dei             | 'dei'                | 593   | 596   | +0.000736
+minori          | 'minori'             | 597   | 603   | +0.000736
+.               | '.'                  | 603   | 604   | +0.000736
+                | ''                   | 0     | 0     | +0.000052
+  Added token 'L' (0-1) as 'L'
+  Added token ''' (1-2) as '''
+  Added token 'IA ' (2-4) as 'IA'
+
+Saved word: 'L'IA' with SHAP +0.000239
+  Added token 'presenta' (5-13) as 'presenta'
+  Added token ', ' (13-14) as ','
+
+Saved word: 'presenta,' with SHAP +0.000529
+  Added token 'accanto ' (15-22) as 'accanto'
+
+Saved word: 'accanto' with SHAP +0.003887
+  Added token 'a ' (23-24) as 'a'
+
+Saved word: 'a' with SHAP +0.002724
+  Added token 'molti ' (25-30) as 'molti'
+
+Saved word: 'molti' with SHAP -0.001338
+  Added token 'ut' (31-33) as 'ut'
+  Added token 'ili' (33-36) as 'ili'
+  Added token 'zzi ' (36-39) as 'zzi'
+
+Saved word: 'utilizzi' with SHAP -0.001736
+  Added token 'bene' (40-44) as 'bene'
+  Added token 'fici' (44-48) as 'fici'
+  Added token ', ' (48-49) as ','
+
+Saved word: 'benefici,' with SHAP -0.024991
+  Added token 'la ' (50-52) as 'la'
+
+Saved word: 'la' with SHAP -0.000516
+  Added token 'possibilità ' (53-64) as 'possibilità'
+
+Saved word: 'possibilità' with SHAP -0.000516
+  Added token 'di ' (65-67) as 'di'
+
+Saved word: 'di' with SHAP -0.000516
+  Added token 'essere ' (68-74) as 'essere'
+
+Saved word: 'essere' with SHAP -0.000516
+  Added token 'utilizzata ' (75-85) as 'utilizzata'
+
+Saved word: 'utilizzata' with SHAP -0.000516
+  Added token 'im' (86-88) as 'im'
+  Added token 'pro' (88-91) as 'pro'
+  Added token 'pri' (91-94) as 'pri'
+  Added token 'amente ' (94-100) as 'amente'
+
+Saved word: 'impropriamente' with SHAP +0.048571
+  Added token 'e ' (101-102) as 'e'
+
+Saved word: 'e' with SHAP +0.003970
+  Added token 'di ' (103-105) as 'di'
+
+Saved word: 'di' with SHAP +0.003970
+  Added token 'for' (106-109) as 'for'
+  Added token 'nire ' (109-113) as 'nire'
+
+Saved word: 'fornire' with SHAP +0.007939
+  Added token 'strumenti ' (114-123) as 'strumenti'
+
+Saved word: 'strumenti' with SHAP -0.005692
+  Added token 'nuovi ' (124-129) as 'nuovi'
+
+Saved word: 'nuovi' with SHAP -0.005692
+  Added token 'e ' (130-131) as 'e'
+
+Saved word: 'e' with SHAP -0.005692
+  Added token 'pot' (132-135) as 'pot'
+  Added token 'enti ' (135-139) as 'enti'
+
+Saved word: 'potenti' with SHAP -0.003920
+  Added token 'per ' (140-143) as 'per'
+
+Saved word: 'per' with SHAP -0.001960
+  Added token 'pra' (144-147) as 'pra'
+  Added token 'tiche ' (147-152) as 'tiche'
+
+Saved word: 'pratiche' with SHAP +0.003130
+  Added token 'di ' (153-155) as 'di'
+
+Saved word: 'di' with SHAP +0.001565
+  Added token 'mani' (156-160) as 'mani'
+  Added token 'pola' (160-164) as 'pola'
+  Added token 'zione' (164-169) as 'zione'
+  Added token ', ' (169-170) as ','
+
+Saved word: 'manipolazione,' with SHAP +0.006260
+  Added token 's' (171-172) as 's'
+  Added token 'fr' (172-174) as 'fr'
+  Added token 'utta' (174-178) as 'utta'
+  Added token 'mento ' (178-183) as 'mento'
+
+Saved word: 'sfruttamento' with SHAP +0.012124
+  Added token 'e ' (184-185) as 'e'
+
+Saved word: 'e' with SHAP -0.000107
+  Added token 'controllo ' (186-195) as 'controllo'
+
+Saved word: 'controllo' with SHAP -0.000107
+  Added token 'sociale' (196-203) as 'sociale'
+  Added token '. ' (203-204) as '.'
+
+Saved word: 'sociale.' with SHAP -0.011275
+  Added token 'Tal' (205-208) as 'Tal'
+  Added token 'i ' (208-209) as 'i'
+
+Saved word: 'Tali' with SHAP -0.001111
+  Added token 'pra' (210-213) as 'pra'
+  Added token 'tiche ' (213-218) as 'tiche'
+
+Saved word: 'pratiche' with SHAP -0.000404
+  Added token 'sono ' (219-223) as 'sono'
+
+Saved word: 'sono' with SHAP +0.011949
+  Added token 'particolarmente ' (224-239) as 'particolarmente'
+
+Saved word: 'particolarmente' with SHAP +0.011949
+  Added token 'danno' (240-245) as 'danno'
+  Added token 'se ' (245-247) as 'se'
+
+Saved word: 'dannose' with SHAP +0.111758
+  Added token 'e ' (248-249) as 'e'
+
+Saved word: 'e' with SHAP +0.027600
+  Added token 'abu' (250-253) as 'abu'
+  Added token 'sive ' (253-257) as 'sive'
+
+Saved word: 'abusive' with SHAP +0.057927
+  Added token 'e ' (258-259) as 'e'
+
+Saved word: 'e' with SHAP +0.022150
+  Added token 'do' (260-262) as 'do'
+  Added token 'vre' (262-265) as 'vre'
+  Added token 'bber' (265-269) as 'bber'
+  Added token 'o ' (269-270) as 'o'
+
+Saved word: 'dovrebbero' with SHAP -0.004203
+  Added token 'essere ' (271-277) as 'essere'
+
+Saved word: 'essere' with SHAP +0.002249
+  Added token 'vieta' (278-283) as 'vieta'
+  Added token 'te ' (283-285) as 'te'
+
+Saved word: 'vietate' with SHAP +0.004499
+  Added token 'poiché ' (286-292) as 'poiché'
+
+Saved word: 'poiché' with SHAP +0.008532
+  Added token 'sono ' (293-297) as 'sono'
+
+Saved word: 'sono' with SHAP +0.008532
+  Added token 'contrari' (298-306) as 'contrari'
+  Added token 'e ' (306-307) as 'e'
+
+Saved word: 'contrarie' with SHAP +0.034956
+  Added token 'ai ' (308-310) as 'ai'
+
+Saved word: 'ai' with SHAP +0.000050
+  Added token 'valori ' (311-317) as 'valori'
+
+Saved word: 'valori' with SHAP +0.000050
+  Added token 'dell' (318-322) as 'dell'
+  Added token ''' (322-323) as '''
+  Added token 'Unione ' (323-329) as 'Unione'
+
+Saved word: 'dell'Unione' with SHAP +0.000150
+  Added token 'relativ' (330-337) as 'relativ'
+  Added token 'i ' (337-338) as 'i'
+
+Saved word: 'relativi' with SHAP +0.000836
+  Added token 'al ' (339-341) as 'al'
+
+Saved word: 'al' with SHAP +0.000418
+  Added token 'rispetto ' (342-350) as 'rispetto'
+
+Saved word: 'rispetto' with SHAP +0.000418
+  Added token 'della ' (351-356) as 'della'
+
+Saved word: 'della' with SHAP +0.000418
+  Added token 'dig' (357-360) as 'dig'
+  Added token 'nità ' (360-364) as 'nità'
+
+Saved word: 'dignità' with SHAP +0.001891
+  Added token 'umana' (365-370) as 'umana'
+  Added token ', ' (370-371) as ','
+
+Saved word: 'umana,' with SHAP +0.001891
+  Added token 'alla ' (372-376) as 'alla'
+
+Saved word: 'alla' with SHAP +0.005030
+  Added token 'libertà' (377-384) as 'libertà'
+  Added token ', ' (384-385) as ','
+
+Saved word: 'libertà,' with SHAP +0.010059
+  Added token 'all' (386-389) as 'all'
+  Added token ''' (389-390) as '''
+  Added token 'ug' (390-392) as 'ug'
+  Added token 'ua' (392-394) as 'ua'
+  Added token 'glia' (394-398) as 'glia'
+  Added token 'nza' (398-401) as 'nza'
+  Added token ', ' (401-402) as ','
+
+Saved word: 'all'uguaglianza,' with SHAP +0.027069
+  Added token 'alla ' (403-407) as 'alla'
+
+Saved word: 'alla' with SHAP +0.003042
+  Added token 'demo' (408-412) as 'demo'
+  Added token 'crazia ' (412-418) as 'crazia'
+
+Saved word: 'democrazia' with SHAP +0.006084
+  Added token 'e ' (419-420) as 'e'
+
+Saved word: 'e' with SHAP +0.003042
+  Added token 'allo ' (421-425) as 'allo'
+
+Saved word: 'allo' with SHAP +0.003042
+  Added token 'Stato ' (426-431) as 'Stato'
+
+Saved word: 'Stato' with SHAP +0.003042
+  Added token 'di ' (432-434) as 'di'
+
+Saved word: 'di' with SHAP +0.003042
+  Added token 'diritto ' (435-442) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.003906
+  Added token 'e ' (443-444) as 'e'
+
+Saved word: 'e' with SHAP +0.003906
+  Added token 'ai ' (445-447) as 'ai'
+
+Saved word: 'ai' with SHAP +0.003906
+  Added token 'diritti ' (448-455) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.003906
+  Added token 'fonda' (456-461) as 'fonda'
+  Added token 'mentali ' (461-468) as 'mentali'
+
+Saved word: 'fondamentali' with SHAP +0.006181
+  Added token 'san' (469-472) as 'san'
+  Added token 'citi ' (472-476) as 'citi'
+
+Saved word: 'sanciti' with SHAP +0.006181
+  Added token 'dalla ' (477-482) as 'dalla'
+
+Saved word: 'dalla' with SHAP +0.004700
+  Added token 'Carta' (483-488) as 'Carta'
+  Added token ', ' (488-489) as ','
+
+Saved word: 'Carta,' with SHAP +0.009400
+  Added token 'com' (490-493) as 'com'
+  Added token 'presi ' (493-498) as 'presi'
+
+Saved word: 'compresi' with SHAP +0.003151
+  Added token 'il ' (499-501) as 'il'
+
+Saved word: 'il' with SHAP +0.001575
+  Added token 'diritto ' (502-509) as 'diritto'
+
+Saved word: 'diritto' with SHAP +0.001575
+  Added token 'alla ' (510-514) as 'alla'
+
+Saved word: 'alla' with SHAP +0.001575
+  Added token 'non ' (515-518) as 'non'
+
+Saved word: 'non' with SHAP +0.001575
+  Added token 'disc' (519-523) as 'disc'
+  Added token 'rimi' (523-527) as 'rimi'
+  Added token 'nazione' (527-534) as 'nazione'
+  Added token ', ' (534-535) as ','
+
+Saved word: 'discriminazione,' with SHAP +0.006301
+  Added token 'alla ' (536-540) as 'alla'
+
+Saved word: 'alla' with SHAP +0.000736
+  Added token 'protezione ' (541-551) as 'protezione'
+
+Saved word: 'protezione' with SHAP +0.000736
+  Added token 'dei ' (552-555) as 'dei'
+
+Saved word: 'dei' with SHAP +0.000736
+  Added token 'dati ' (556-560) as 'dati'
+
+Saved word: 'dati' with SHAP +0.000736
+  Added token 'e ' (561-562) as 'e'
+
+Saved word: 'e' with SHAP +0.000736
+  Added token 'alla ' (563-567) as 'alla'
+
+Saved word: 'alla' with SHAP +0.000736
+  Added token 'vita ' (568-572) as 'vita'
+
+Saved word: 'vita' with SHAP +0.000736
+  Added token 'privata ' (573-580) as 'privata'
+
+Saved word: 'privata' with SHAP +0.000736
+  Added token 'e ' (581-582) as 'e'
+
+Saved word: 'e' with SHAP +0.000736
+  Added token 'i ' (583-584) as 'i'
+
+Saved word: 'i' with SHAP +0.000736
+  Added token 'diritti ' (585-592) as 'diritti'
+
+Saved word: 'diritti' with SHAP +0.000736
+  Added token 'dei ' (593-596) as 'dei'
+
+Saved word: 'dei' with SHAP +0.000736
+  Added token 'minori' (597-603) as 'minori'
+  Added token '.' (603-604) as '.'
+
+Saved final word: 'minori.' with SHAP +0.001472
+
+=== Final Word Contributions ===
+dannose                   +0.111758 (POS)
+abusive                   +0.057927 (POS)
+impropriamente            +0.048571 (POS)
+contrarie                 +0.034956 (POS)
+all'uguaglianza,          +0.027069 (POS)
+benefici,                 -0.024991 (NEG)
+sfruttamento              +0.012124 (POS)
+particolarmente           +0.011949 (POS)
+sociale.                  -0.011275 (NEG)
+libertà,                  +0.010059 (POS)
+Carta,                    +0.009400 (POS)
+sono                      +0.008532 (POS)
+poiché                    +0.008532 (POS)
+fornire                   +0.007939 (POS)
+discriminazione,          +0.006301 (POS)
+manipolazione,            +0.006260 (POS)
+fondamentali              +0.006181 (POS)
+sanciti                   +0.006181 (POS)
+democrazia                +0.006084 (POS)
+strumenti                 -0.005692 (NEG)
+nuovi                     -0.005692 (NEG)
+dalla                     +0.004700 (POS)
+vietate                   +0.004499 (POS)
+dovrebbero                -0.004203 (NEG)
+potenti                   -0.003920 (NEG)
+ai                        +0.003906 (POS)
+accanto                   +0.003887 (POS)
+compresi                  +0.003151 (POS)
+di                        +0.003042 (POS)
+allo                      +0.003042 (POS)
+Stato                     +0.003042 (POS)
+a                         +0.002724 (POS)
+essere                    +0.002249 (POS)
+per                       -0.001960 (NEG)
+dignità                   +0.001891 (POS)
+umana,                    +0.001891 (POS)
+utilizzi                  -0.001736 (NEG)
+diritto                   +0.001575 (POS)
+il                        +0.001575 (POS)
+non                       +0.001575 (POS)
+minori.                   +0.001472 (POS)
+molti                     -0.001338 (NEG)
+Tali                      -0.001111 (NEG)
+relativi                  +0.000836 (POS)
+e                         +0.000736 (POS)
+alla                      +0.000736 (POS)
+diritti                   +0.000736 (POS)
+protezione                +0.000736 (POS)
+dei                       +0.000736 (POS)
+dati                      +0.000736 (POS)
+vita                      +0.000736 (POS)
+privata                   +0.000736 (POS)
+i                         +0.000736 (POS)
+presenta,                 +0.000529 (POS)
+la                        -0.000516 (NEG)
+possibilità               -0.000516 (NEG)
+utilizzata                -0.000516 (NEG)
+al                        +0.000418 (POS)
+rispetto                  +0.000418 (POS)
+della                     +0.000418 (POS)
+pratiche                  -0.000404 (NEG)
+L'IA                      +0.000239 (POS)
+dell'Unione               +0.000150 (POS)
+controllo                 -0.000107 (NEG)
+valori                    +0.000050 (POS)

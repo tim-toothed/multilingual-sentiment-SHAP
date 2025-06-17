@@ -1,0 +1,384 @@
+
+=== Processing text ===
+Tuttavia, le modifiche apportate all'algoritmo e alle prestazioni dei sistemi di IA che proseguono il loro «apprendimento» dopo essere stati immessi sul mercato o messi in servizio, in particolare adattando automaticamente le modalità di svolgimento delle funzioni, non dovrebbero costituire una modifica sostanziale, a condizione che tali modifiche siano state predeterminate dal fornitore e valutate al momento della valutazione della conformità.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004188
+Tuttavia        | 'Tuttavia'           | 0     | 8     | -0.003767
+,               | ','                  | 8     | 9     | -0.008373
+le              | 'le'                 | 10    | 12    | +0.008234
+modifiche       | 'modifiche'          | 13    | 22    | +0.008501
+app             | 'app'                | 23    | 26    | +0.005258
+ort             | 'ort'                | 26    | 29    | +0.005258
+ate             | 'ate'                | 29    | 32    | +0.005258
+all             | 'all'                | 33    | 36    | +0.006123
+'               | "'"                  | 36    | 37    | +0.006123
+algoritmo       | 'algoritmo'          | 37    | 46    | +0.006123
+e               | 'e'                  | 47    | 48    | +0.006123
+alle            | 'alle'               | 49    | 53    | +0.006337
+prestazioni     | 'prestazioni'        | 54    | 65    | +0.006337
+dei             | 'dei'                | 66    | 69    | +0.006337
+sistemi         | 'sistemi'            | 70    | 77    | +0.006337
+di              | 'di'                 | 78    | 80    | +0.011863
+IA              | 'IA'                 | 81    | 83    | +0.011863
+che             | 'che'                | 84    | 87    | +0.010781
+prose           | 'prose'              | 88    | 93    | +0.017391
+guo             | 'guo'                | 93    | 96    | +0.023894
+no              | 'no'                 | 96    | 98    | +0.003751
+il              | 'il'                 | 99    | 101   | +0.001375
+loro            | 'loro'               | 102   | 106   | +0.001375
+«               | '«'                  | 107   | 108   | -0.003898
+apprend         | 'apprend'            | 108   | 115   | +0.002474
+imento          | 'imento'             | 115   | 121   | +0.002474
+»               | '»'                  | 121   | 122   | +0.000362
+dopo            | 'dopo'               | 123   | 127   | +0.000362
+essere          | 'essere'             | 128   | 134   | +0.003295
+stati           | 'stati'              | 135   | 140   | +0.003295
+im              | 'im'                 | 141   | 143   | +0.003295
+messi           | 'messi'              | 143   | 148   | +0.003295
+sul             | 'sul'                | 149   | 152   | +0.011374
+mercato         | 'mercato'            | 153   | 160   | +0.011374
+o               | 'o'                  | 161   | 162   | +0.032698
+mes             | 'mes'                | 163   | 166   | +0.004354
+si              | 'si'                 | 166   | 168   | +0.004354
+in              | 'in'                 | 169   | 171   | +0.004354
+servizio        | 'servizio'           | 172   | 180   | +0.004354
+,               | ','                  | 180   | 181   | +0.006594
+in              | 'in'                 | 182   | 184   | +0.007481
+particolare     | 'particolare'        | 185   | 196   | +0.007481
+adat            | 'adat'               | 197   | 201   | +0.010949
+tando           | 'tando'              | 201   | 206   | +0.010949
+automatic       | 'automatic'          | 207   | 216   | +0.003867
+amente          | 'amente'             | 216   | 222   | +0.003867
+le              | 'le'                 | 223   | 225   | +0.004441
+modalità        | 'modalità'           | 226   | 234   | +0.004441
+di              | 'di'                 | 235   | 237   | +0.004441
+svo             | 'svo'                | 238   | 241   | +0.001672
+lgi             | 'lgi'                | 241   | 244   | +0.001672
+mento           | 'mento'              | 244   | 249   | +0.001672
+delle           | 'delle'              | 250   | 255   | +0.005141
+funzioni        | 'funzioni'           | 256   | 264   | +0.005141
+,               | ','                  | 264   | 265   | +0.006566
+non             | 'non'                | 266   | 269   | -0.008553
+do              | 'do'                 | 270   | 272   | +0.000939
+vre             | 'vre'                | 272   | 275   | +0.000939
+bber            | 'bber'               | 275   | 279   | +0.000939
+o               | 'o'                  | 279   | 280   | +0.000939
+costi           | 'costi'              | 281   | 286   | +0.001951
+tui             | 'tui'                | 286   | 289   | +0.001951
+re              | 're'                 | 289   | 291   | +0.001951
+una             | 'una'                | 292   | 295   | +0.001951
+modi            | 'modi'               | 296   | 300   | +0.001951
+fica            | 'fica'               | 300   | 304   | +0.001951
+sos             | 'sos'                | 305   | 308   | +0.004559
+tan             | 'tan'                | 308   | 311   | +0.004559
+ziale           | 'ziale'              | 311   | 316   | +0.004559
+,               | ','                  | 316   | 317   | +0.004559
+a               | 'a'                  | 318   | 319   | +0.005513
+condizione      | 'condizione'         | 320   | 330   | +0.005513
+che             | 'che'                | 331   | 334   | +0.005513
+tali            | 'tali'               | 335   | 339   | +0.005513
+modifiche       | 'modifiche'          | 340   | 349   | +0.008470
+siano           | 'siano'              | 350   | 355   | +0.008470
+state           | 'state'              | 356   | 361   | +0.008470
+pred            | 'pred'               | 362   | 366   | +0.001275
+eter            | 'eter'               | 366   | 370   | +0.001275
+minat           | 'minat'              | 370   | 375   | +0.001275
+e               | 'e'                  | 375   | 376   | +0.001275
+dal             | 'dal'                | 377   | 380   | +0.001275
+for             | 'for'                | 381   | 384   | +0.001275
+nito            | 'nito'               | 384   | 388   | +0.001275
+re              | 're'                 | 388   | 390   | +0.001275
+e               | 'e'                  | 391   | 392   | +0.001500
+val             | 'val'                | 393   | 396   | +0.001500
+utat            | 'utat'               | 396   | 400   | +0.001500
+e               | 'e'                  | 400   | 401   | +0.001500
+al              | 'al'                 | 402   | 404   | +0.004493
+momento         | 'momento'            | 405   | 412   | +0.004493
+della           | 'della'              | 413   | 418   | +0.004493
+val             | 'val'                | 419   | 422   | +0.005074
+utazione        | 'utazione'           | 422   | 430   | +0.005074
+della           | 'della'              | 431   | 436   | +0.005074
+conform         | 'conform'            | 437   | 444   | +0.009901
+ità             | 'ità'                | 444   | 447   | +0.009901
+.               | '.'                  | 447   | 448   | +0.004803
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Tuttavia' (0-8) as 'Tuttavia'
+  Added token ', ' (8-9) as ','
+
+Saved word: 'Tuttavia,' with SHAP -0.012140
+  Added token 'le ' (10-12) as 'le'
+
+Saved word: 'le' with SHAP +0.008234
+  Added token 'modifiche ' (13-22) as 'modifiche'
+
+Saved word: 'modifiche' with SHAP +0.008501
+  Added token 'app' (23-26) as 'app'
+  Added token 'ort' (26-29) as 'ort'
+  Added token 'ate ' (29-32) as 'ate'
+
+Saved word: 'apportate' with SHAP +0.015775
+  Added token 'all' (33-36) as 'all'
+  Added token ''' (36-37) as '''
+  Added token 'algoritmo ' (37-46) as 'algoritmo'
+
+Saved word: 'all'algoritmo' with SHAP +0.018368
+  Added token 'e ' (47-48) as 'e'
+
+Saved word: 'e' with SHAP +0.006123
+  Added token 'alle ' (49-53) as 'alle'
+
+Saved word: 'alle' with SHAP +0.006337
+  Added token 'prestazioni ' (54-65) as 'prestazioni'
+
+Saved word: 'prestazioni' with SHAP +0.006337
+  Added token 'dei ' (66-69) as 'dei'
+
+Saved word: 'dei' with SHAP +0.006337
+  Added token 'sistemi ' (70-77) as 'sistemi'
+
+Saved word: 'sistemi' with SHAP +0.006337
+  Added token 'di ' (78-80) as 'di'
+
+Saved word: 'di' with SHAP +0.011863
+  Added token 'IA ' (81-83) as 'IA'
+
+Saved word: 'IA' with SHAP +0.011863
+  Added token 'che ' (84-87) as 'che'
+
+Saved word: 'che' with SHAP +0.010781
+  Added token 'prose' (88-93) as 'prose'
+  Added token 'guo' (93-96) as 'guo'
+  Added token 'no ' (96-98) as 'no'
+
+Saved word: 'proseguono' with SHAP +0.045037
+  Added token 'il ' (99-101) as 'il'
+
+Saved word: 'il' with SHAP +0.001375
+  Added token 'loro ' (102-106) as 'loro'
+
+Saved word: 'loro' with SHAP +0.001375
+  Added token '«' (107-108) as '«'
+  Added token 'apprend' (108-115) as 'apprend'
+  Added token 'imento' (115-121) as 'imento'
+  Added token '» ' (121-122) as '»'
+
+Saved word: '«apprendimento»' with SHAP +0.001412
+  Added token 'dopo ' (123-127) as 'dopo'
+
+Saved word: 'dopo' with SHAP +0.000362
+  Added token 'essere ' (128-134) as 'essere'
+
+Saved word: 'essere' with SHAP +0.003295
+  Added token 'stati ' (135-140) as 'stati'
+
+Saved word: 'stati' with SHAP +0.003295
+  Added token 'im' (141-143) as 'im'
+  Added token 'messi ' (143-148) as 'messi'
+
+Saved word: 'immessi' with SHAP +0.006590
+  Added token 'sul ' (149-152) as 'sul'
+
+Saved word: 'sul' with SHAP +0.011374
+  Added token 'mercato ' (153-160) as 'mercato'
+
+Saved word: 'mercato' with SHAP +0.011374
+  Added token 'o ' (161-162) as 'o'
+
+Saved word: 'o' with SHAP +0.032698
+  Added token 'mes' (163-166) as 'mes'
+  Added token 'si ' (166-168) as 'si'
+
+Saved word: 'messi' with SHAP +0.008708
+  Added token 'in ' (169-171) as 'in'
+
+Saved word: 'in' with SHAP +0.004354
+  Added token 'servizio' (172-180) as 'servizio'
+  Added token ', ' (180-181) as ','
+
+Saved word: 'servizio,' with SHAP +0.010947
+  Added token 'in ' (182-184) as 'in'
+
+Saved word: 'in' with SHAP +0.007481
+  Added token 'particolare ' (185-196) as 'particolare'
+
+Saved word: 'particolare' with SHAP +0.007481
+  Added token 'adat' (197-201) as 'adat'
+  Added token 'tando ' (201-206) as 'tando'
+
+Saved word: 'adattando' with SHAP +0.021898
+  Added token 'automatic' (207-216) as 'automatic'
+  Added token 'amente ' (216-222) as 'amente'
+
+Saved word: 'automaticamente' with SHAP +0.007734
+  Added token 'le ' (223-225) as 'le'
+
+Saved word: 'le' with SHAP +0.004441
+  Added token 'modalità ' (226-234) as 'modalità'
+
+Saved word: 'modalità' with SHAP +0.004441
+  Added token 'di ' (235-237) as 'di'
+
+Saved word: 'di' with SHAP +0.004441
+  Added token 'svo' (238-241) as 'svo'
+  Added token 'lgi' (241-244) as 'lgi'
+  Added token 'mento ' (244-249) as 'mento'
+
+Saved word: 'svolgimento' with SHAP +0.005015
+  Added token 'delle ' (250-255) as 'delle'
+
+Saved word: 'delle' with SHAP +0.005141
+  Added token 'funzioni' (256-264) as 'funzioni'
+  Added token ', ' (264-265) as ','
+
+Saved word: 'funzioni,' with SHAP +0.011707
+  Added token 'non ' (266-269) as 'non'
+
+Saved word: 'non' with SHAP -0.008553
+  Added token 'do' (270-272) as 'do'
+  Added token 'vre' (272-275) as 'vre'
+  Added token 'bber' (275-279) as 'bber'
+  Added token 'o ' (279-280) as 'o'
+
+Saved word: 'dovrebbero' with SHAP +0.003757
+  Added token 'costi' (281-286) as 'costi'
+  Added token 'tui' (286-289) as 'tui'
+  Added token 're ' (289-291) as 're'
+
+Saved word: 'costituire' with SHAP +0.005854
+  Added token 'una ' (292-295) as 'una'
+
+Saved word: 'una' with SHAP +0.001951
+  Added token 'modi' (296-300) as 'modi'
+  Added token 'fica ' (300-304) as 'fica'
+
+Saved word: 'modifica' with SHAP +0.003903
+  Added token 'sos' (305-308) as 'sos'
+  Added token 'tan' (308-311) as 'tan'
+  Added token 'ziale' (311-316) as 'ziale'
+  Added token ', ' (316-317) as ','
+
+Saved word: 'sostanziale,' with SHAP +0.018238
+  Added token 'a ' (318-319) as 'a'
+
+Saved word: 'a' with SHAP +0.005513
+  Added token 'condizione ' (320-330) as 'condizione'
+
+Saved word: 'condizione' with SHAP +0.005513
+  Added token 'che ' (331-334) as 'che'
+
+Saved word: 'che' with SHAP +0.005513
+  Added token 'tali ' (335-339) as 'tali'
+
+Saved word: 'tali' with SHAP +0.005513
+  Added token 'modifiche ' (340-349) as 'modifiche'
+
+Saved word: 'modifiche' with SHAP +0.008470
+  Added token 'siano ' (350-355) as 'siano'
+
+Saved word: 'siano' with SHAP +0.008470
+  Added token 'state ' (356-361) as 'state'
+
+Saved word: 'state' with SHAP +0.008470
+  Added token 'pred' (362-366) as 'pred'
+  Added token 'eter' (366-370) as 'eter'
+  Added token 'minat' (370-375) as 'minat'
+  Added token 'e ' (375-376) as 'e'
+
+Saved word: 'predeterminate' with SHAP +0.005102
+  Added token 'dal ' (377-380) as 'dal'
+
+Saved word: 'dal' with SHAP +0.001275
+  Added token 'for' (381-384) as 'for'
+  Added token 'nito' (384-388) as 'nito'
+  Added token 're ' (388-390) as 're'
+
+Saved word: 'fornitore' with SHAP +0.003826
+  Added token 'e ' (391-392) as 'e'
+
+Saved word: 'e' with SHAP +0.001500
+  Added token 'val' (393-396) as 'val'
+  Added token 'utat' (396-400) as 'utat'
+  Added token 'e ' (400-401) as 'e'
+
+Saved word: 'valutate' with SHAP +0.004500
+  Added token 'al ' (402-404) as 'al'
+
+Saved word: 'al' with SHAP +0.004493
+  Added token 'momento ' (405-412) as 'momento'
+
+Saved word: 'momento' with SHAP +0.004493
+  Added token 'della ' (413-418) as 'della'
+
+Saved word: 'della' with SHAP +0.004493
+  Added token 'val' (419-422) as 'val'
+  Added token 'utazione ' (422-430) as 'utazione'
+
+Saved word: 'valutazione' with SHAP +0.010147
+  Added token 'della ' (431-436) as 'della'
+
+Saved word: 'della' with SHAP +0.005074
+  Added token 'conform' (437-444) as 'conform'
+  Added token 'ità' (444-447) as 'ità'
+  Added token '.' (447-448) as '.'
+
+Saved final word: 'conformità.' with SHAP +0.024605
+
+=== Final Word Contributions ===
+proseguono                +0.045037 (POS)
+o                         +0.032698 (POS)
+conformità.               +0.024605 (POS)
+adattando                 +0.021898 (POS)
+all'algoritmo             +0.018368 (POS)
+sostanziale,              +0.018238 (POS)
+apportate                 +0.015775 (POS)
+Tuttavia,                 -0.012140 (NEG)
+IA                        +0.011863 (POS)
+funzioni,                 +0.011707 (POS)
+sul                       +0.011374 (POS)
+mercato                   +0.011374 (POS)
+servizio,                 +0.010947 (POS)
+valutazione               +0.010147 (POS)
+messi                     +0.008708 (POS)
+non                       -0.008553 (NEG)
+modifiche                 +0.008470 (POS)
+siano                     +0.008470 (POS)
+state                     +0.008470 (POS)
+automaticamente           +0.007734 (POS)
+in                        +0.007481 (POS)
+particolare               +0.007481 (POS)
+immessi                   +0.006590 (POS)
+alle                      +0.006337 (POS)
+prestazioni               +0.006337 (POS)
+dei                       +0.006337 (POS)
+sistemi                   +0.006337 (POS)
+costituire                +0.005854 (POS)
+che                       +0.005513 (POS)
+a                         +0.005513 (POS)
+condizione                +0.005513 (POS)
+tali                      +0.005513 (POS)
+delle                     +0.005141 (POS)
+predeterminate            +0.005102 (POS)
+della                     +0.005074 (POS)
+svolgimento               +0.005015 (POS)
+valutate                  +0.004500 (POS)
+al                        +0.004493 (POS)
+momento                   +0.004493 (POS)
+le                        +0.004441 (POS)
+di                        +0.004441 (POS)
+modalità                  +0.004441 (POS)
+modifica                  +0.003903 (POS)
+fornitore                 +0.003826 (POS)
+dovrebbero                +0.003757 (POS)
+essere                    +0.003295 (POS)
+stati                     +0.003295 (POS)
+una                       +0.001951 (POS)
+e                         +0.001500 (POS)
+«apprendimento»           +0.001412 (POS)
+il                        +0.001375 (POS)
+loro                      +0.001375 (POS)
+dal                       +0.001275 (POS)
+dopo                      +0.000362 (POS)

@@ -1,0 +1,81 @@
+
+=== Processing text ===
+Listen. If we can't break the ice how about we drown it?
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.000000
+Listen          | 'Listen'             | 0     | 6     | +0.021115
+.               | '.'                  | 6     | 7     | +0.011237
+If              | 'If'                 | 8     | 10    | +0.060295
+we              | 'we'                 | 11    | 13    | +0.007815
+can             | 'can'                | 14    | 17    | -0.002057
+'               | "'"                  | 17    | 18    | -0.000141
+t               | 't'                  | 18    | 19    | +0.001018
+break           | 'break'              | 20    | 25    | -0.005579
+the             | 'the'                | 26    | 29    | -0.008386
+ice             | 'ice'                | 30    | 33    | -0.035373
+how             | 'how'                | 34    | 37    | +0.002703
+about           | 'about'              | 38    | 43    | +0.044162
+we              | 'we'                 | 44    | 46    | +0.021101
+dro             | 'dro'                | 47    | 50    | -0.042051
+wn              | 'wn'                 | 50    | 52    | +0.010515
+it              | 'it'                 | 53    | 55    | +0.005554
+?               | '?'                  | 55    | 56    | +0.006441
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Listen' (0-6) as 'Listen'
+  Added token '. ' (6-7) as '.'
+
+Saved word: 'Listen.' with SHAP +0.032352
+  Added token 'If ' (8-10) as 'If'
+
+Saved word: 'If' with SHAP +0.060295
+  Added token 'we ' (11-13) as 'we'
+
+Saved word: 'we' with SHAP +0.007815
+  Added token 'can' (14-17) as 'can'
+  Added token ''' (17-18) as '''
+  Added token 't ' (18-19) as 't'
+
+Saved word: 'can't' with SHAP -0.001181
+  Added token 'break ' (20-25) as 'break'
+
+Saved word: 'break' with SHAP -0.005579
+  Added token 'the ' (26-29) as 'the'
+
+Saved word: 'the' with SHAP -0.008386
+  Added token 'ice ' (30-33) as 'ice'
+
+Saved word: 'ice' with SHAP -0.035373
+  Added token 'how ' (34-37) as 'how'
+
+Saved word: 'how' with SHAP +0.002703
+  Added token 'about ' (38-43) as 'about'
+
+Saved word: 'about' with SHAP +0.044162
+  Added token 'we ' (44-46) as 'we'
+
+Saved word: 'we' with SHAP +0.021101
+  Added token 'dro' (47-50) as 'dro'
+  Added token 'wn ' (50-52) as 'wn'
+
+Saved word: 'drown' with SHAP -0.031536
+  Added token 'it' (53-55) as 'it'
+  Added token '?' (55-56) as '?'
+
+Saved final word: 'it?' with SHAP +0.011995
+
+=== Final Word Contributions ===
+If                        +0.060295 (POS)
+about                     +0.044162 (POS)
+ice                       -0.035373 (NEG)
+Listen.                   +0.032352 (POS)
+drown                     -0.031536 (NEG)
+we                        +0.021101 (POS)
+it?                       +0.011995 (POS)
+the                       -0.008386 (NEG)
+break                     -0.005579 (NEG)
+how                       +0.002703 (POS)
+can't                     -0.001181 (NEG)

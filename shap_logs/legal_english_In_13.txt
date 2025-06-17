@@ -1,0 +1,439 @@
+
+=== Processing text ===
+In line with the presumption of innocence, natural persons in the Union should always be judged on their actual behaviour. Natural persons should never be judged on AI-predicted behaviour based solely on their profiling, personality traits or characteristics, such as nationality, place of birth, place of residence, number of children, level of debt or type of car, without a reasonable suspicion of that person being involved in a criminal activity based on objective verifiable facts and without human assessment thereof.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004193
+In              | 'In'                 | 0     | 2     | +0.004193
+line            | 'line'               | 3     | 7     | +0.016393
+with            | 'with'               | 8     | 12    | +0.010855
+the             | 'the'                | 13    | 16    | +0.011213
+pre             | 'pre'                | 17    | 20    | -0.002408
+sum             | 'sum'                | 20    | 23    | -0.001821
+ption           | 'ption'              | 23    | 28    | -0.000871
+of              | 'of'                 | 29    | 31    | +0.015090
+inn             | 'inn'                | 32    | 35    | -0.025745
+ocence          | 'ocence'             | 35    | 41    | -0.033554
+,               | ','                  | 41    | 42    | +0.004717
+natural         | 'natural'            | 43    | 50    | +0.016585
+persons         | 'persons'            | 51    | 58    | +0.015572
+in              | 'in'                 | 59    | 61    | +0.009260
+the             | 'the'                | 62    | 65    | +0.009260
+Union           | 'Union'              | 66    | 71    | +0.005186
+should          | 'should'             | 72    | 78    | +0.012824
+always          | 'always'             | 79    | 85    | +0.023623
+be              | 'be'                 | 86    | 88    | +0.015521
+judge           | 'judge'              | 89    | 94    | +0.021293
+d               | 'd'                  | 94    | 95    | +0.011856
+on              | 'on'                 | 96    | 98    | +0.013729
+their           | 'their'              | 99    | 104   | +0.013729
+actual          | 'actual'             | 105   | 111   | +0.007382
+behaviour       | 'behaviour'          | 112   | 121   | +0.007382
+.               | '.'                  | 121   | 122   | +0.010340
+Natural         | 'Natural'            | 123   | 130   | -0.011137
+persons         | 'persons'            | 131   | 138   | -0.011137
+should          | 'should'             | 139   | 145   | -0.015828
+never           | 'never'              | 146   | 151   | -0.015828
+be              | 'be'                 | 152   | 154   | -0.015828
+judge           | 'judge'              | 155   | 160   | +0.004838
+d               | 'd'                  | 160   | 161   | +0.004838
+on              | 'on'                 | 162   | 164   | +0.004838
+AI              | 'AI'                 | 165   | 167   | +0.004838
+-               | '-'                  | 167   | 168   | +0.009797
+predicted       | 'predicted'          | 168   | 177   | +0.009797
+behaviour       | 'behaviour'          | 178   | 187   | +0.009797
+based           | 'based'              | 188   | 193   | +0.009797
+solely          | 'solely'             | 194   | 200   | +0.001277
+on              | 'on'                 | 201   | 203   | +0.001277
+their           | 'their'              | 204   | 209   | +0.001277
+profil          | 'profil'             | 210   | 216   | +0.001277
+ing             | 'ing'                | 216   | 219   | +0.001277
+,               | ','                  | 219   | 220   | +0.001277
+personality     | 'personality'        | 221   | 232   | +0.002424
+traits          | 'traits'             | 233   | 239   | +0.002424
+or              | 'or'                 | 240   | 242   | +0.002424
+characteristics | 'characteristics'    | 243   | 258   | +0.003151
+,               | ','                  | 258   | 259   | +0.003151
+such            | 'such'               | 260   | 264   | +0.005881
+as              | 'as'                 | 265   | 267   | +0.005881
+nationality     | 'nationality'        | 268   | 279   | +0.005881
+,               | ','                  | 279   | 280   | +0.005881
+place           | 'place'              | 281   | 286   | +0.007382
+of              | 'of'                 | 287   | 289   | +0.007382
+birth           | 'birth'              | 290   | 295   | +0.007382
+,               | ','                  | 295   | 296   | +0.007382
+place           | 'place'              | 297   | 302   | +0.001645
+of              | 'of'                 | 303   | 305   | +0.001645
+residence       | 'residence'          | 306   | 315   | +0.001645
+,               | ','                  | 315   | 316   | +0.001645
+number          | 'number'             | 317   | 323   | +0.001275
+of              | 'of'                 | 324   | 326   | +0.001275
+children        | 'children'           | 327   | 335   | +0.001275
+,               | ','                  | 335   | 336   | +0.001275
+level           | 'level'              | 337   | 342   | -0.003337
+of              | 'of'                 | 343   | 345   | -0.003337
+debt            | 'debt'               | 346   | 350   | -0.003337
+or              | 'or'                 | 351   | 353   | -0.003337
+type            | 'type'               | 354   | 358   | -0.002089
+of              | 'of'                 | 359   | 361   | -0.002089
+car             | 'car'                | 362   | 365   | -0.002089
+,               | ','                  | 365   | 366   | -0.002089
+without         | 'without'            | 367   | 374   | +0.001579
+a               | 'a'                  | 375   | 376   | +0.001579
+reason          | 'reason'             | 377   | 383   | +0.001579
+able            | 'able'               | 383   | 387   | +0.001579
+sus             | 'sus'                | 388   | 391   | +0.001579
+pic             | 'pic'                | 391   | 394   | +0.001579
+ion             | 'ion'                | 394   | 397   | +0.001579
+of              | 'of'                 | 398   | 400   | +0.000064
+that            | 'that'               | 401   | 405   | +0.000064
+person          | 'person'             | 406   | 412   | +0.000064
+being           | 'being'              | 413   | 418   | +0.000064
+involved        | 'involved'           | 419   | 427   | +0.000064
+in              | 'in'                 | 428   | 430   | +0.000064
+a               | 'a'                  | 431   | 432   | +0.000064
+criminal        | 'criminal'           | 433   | 441   | +0.000064
+activity        | 'activity'           | 442   | 450   | +0.008222
+based           | 'based'              | 451   | 456   | +0.008222
+on              | 'on'                 | 457   | 459   | +0.008222
+objective       | 'objective'          | 460   | 469   | +0.008222
+veri            | 'veri'               | 470   | 474   | +0.006658
+fia             | 'fia'                | 474   | 477   | +0.006658
+ble             | 'ble'                | 477   | 480   | +0.006658
+facts           | 'facts'              | 481   | 486   | +0.006658
+and             | 'and'                | 487   | 490   | +0.002032
+without         | 'without'            | 491   | 498   | +0.002032
+human           | 'human'              | 499   | 504   | +0.002032
+assessment      | 'assessment'         | 505   | 515   | +0.002032
+there           | 'there'              | 516   | 521   | +0.002032
+of              | 'of'                 | 521   | 523   | +0.002032
+.               | '.'                  | 523   | 524   | +0.002032
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'In ' (0-2) as 'In'
+
+Saved word: 'In' with SHAP +0.004193
+  Added token 'line ' (3-7) as 'line'
+
+Saved word: 'line' with SHAP +0.016393
+  Added token 'with ' (8-12) as 'with'
+
+Saved word: 'with' with SHAP +0.010855
+  Added token 'the ' (13-16) as 'the'
+
+Saved word: 'the' with SHAP +0.011213
+  Added token 'pre' (17-20) as 'pre'
+  Added token 'sum' (20-23) as 'sum'
+  Added token 'ption ' (23-28) as 'ption'
+
+Saved word: 'presumption' with SHAP -0.005100
+  Added token 'of ' (29-31) as 'of'
+
+Saved word: 'of' with SHAP +0.015090
+  Added token 'inn' (32-35) as 'inn'
+  Added token 'ocence' (35-41) as 'ocence'
+  Added token ', ' (41-42) as ','
+
+Saved word: 'innocence,' with SHAP -0.054582
+  Added token 'natural ' (43-50) as 'natural'
+
+Saved word: 'natural' with SHAP +0.016585
+  Added token 'persons ' (51-58) as 'persons'
+
+Saved word: 'persons' with SHAP +0.015572
+  Added token 'in ' (59-61) as 'in'
+
+Saved word: 'in' with SHAP +0.009260
+  Added token 'the ' (62-65) as 'the'
+
+Saved word: 'the' with SHAP +0.009260
+  Added token 'Union ' (66-71) as 'Union'
+
+Saved word: 'Union' with SHAP +0.005186
+  Added token 'should ' (72-78) as 'should'
+
+Saved word: 'should' with SHAP +0.012824
+  Added token 'always ' (79-85) as 'always'
+
+Saved word: 'always' with SHAP +0.023623
+  Added token 'be ' (86-88) as 'be'
+
+Saved word: 'be' with SHAP +0.015521
+  Added token 'judge' (89-94) as 'judge'
+  Added token 'd ' (94-95) as 'd'
+
+Saved word: 'judged' with SHAP +0.033149
+  Added token 'on ' (96-98) as 'on'
+
+Saved word: 'on' with SHAP +0.013729
+  Added token 'their ' (99-104) as 'their'
+
+Saved word: 'their' with SHAP +0.013729
+  Added token 'actual ' (105-111) as 'actual'
+
+Saved word: 'actual' with SHAP +0.007382
+  Added token 'behaviour' (112-121) as 'behaviour'
+  Added token '. ' (121-122) as '.'
+
+Saved word: 'behaviour.' with SHAP +0.017722
+  Added token 'Natural ' (123-130) as 'Natural'
+
+Saved word: 'Natural' with SHAP -0.011137
+  Added token 'persons ' (131-138) as 'persons'
+
+Saved word: 'persons' with SHAP -0.011137
+  Added token 'should ' (139-145) as 'should'
+
+Saved word: 'should' with SHAP -0.015828
+  Added token 'never ' (146-151) as 'never'
+
+Saved word: 'never' with SHAP -0.015828
+  Added token 'be ' (152-154) as 'be'
+
+Saved word: 'be' with SHAP -0.015828
+  Added token 'judge' (155-160) as 'judge'
+  Added token 'd ' (160-161) as 'd'
+
+Saved word: 'judged' with SHAP +0.009675
+  Added token 'on ' (162-164) as 'on'
+
+Saved word: 'on' with SHAP +0.004838
+  Added token 'AI' (165-167) as 'AI'
+  Added token '-' (167-168) as '-'
+  Added token 'predicted ' (168-177) as 'predicted'
+
+Saved word: 'AI-predicted' with SHAP +0.024432
+  Added token 'behaviour ' (178-187) as 'behaviour'
+
+Saved word: 'behaviour' with SHAP +0.009797
+  Added token 'based ' (188-193) as 'based'
+
+Saved word: 'based' with SHAP +0.009797
+  Added token 'solely ' (194-200) as 'solely'
+
+Saved word: 'solely' with SHAP +0.001277
+  Added token 'on ' (201-203) as 'on'
+
+Saved word: 'on' with SHAP +0.001277
+  Added token 'their ' (204-209) as 'their'
+
+Saved word: 'their' with SHAP +0.001277
+  Added token 'profil' (210-216) as 'profil'
+  Added token 'ing' (216-219) as 'ing'
+  Added token ', ' (219-220) as ','
+
+Saved word: 'profiling,' with SHAP +0.003830
+  Added token 'personality ' (221-232) as 'personality'
+
+Saved word: 'personality' with SHAP +0.002424
+  Added token 'traits ' (233-239) as 'traits'
+
+Saved word: 'traits' with SHAP +0.002424
+  Added token 'or ' (240-242) as 'or'
+
+Saved word: 'or' with SHAP +0.002424
+  Added token 'characteristics' (243-258) as 'characteristics'
+  Added token ', ' (258-259) as ','
+
+Saved word: 'characteristics,' with SHAP +0.006302
+  Added token 'such ' (260-264) as 'such'
+
+Saved word: 'such' with SHAP +0.005881
+  Added token 'as ' (265-267) as 'as'
+
+Saved word: 'as' with SHAP +0.005881
+  Added token 'nationality' (268-279) as 'nationality'
+  Added token ', ' (279-280) as ','
+
+Saved word: 'nationality,' with SHAP +0.011763
+  Added token 'place ' (281-286) as 'place'
+
+Saved word: 'place' with SHAP +0.007382
+  Added token 'of ' (287-289) as 'of'
+
+Saved word: 'of' with SHAP +0.007382
+  Added token 'birth' (290-295) as 'birth'
+  Added token ', ' (295-296) as ','
+
+Saved word: 'birth,' with SHAP +0.014764
+  Added token 'place ' (297-302) as 'place'
+
+Saved word: 'place' with SHAP +0.001645
+  Added token 'of ' (303-305) as 'of'
+
+Saved word: 'of' with SHAP +0.001645
+  Added token 'residence' (306-315) as 'residence'
+  Added token ', ' (315-316) as ','
+
+Saved word: 'residence,' with SHAP +0.003289
+  Added token 'number ' (317-323) as 'number'
+
+Saved word: 'number' with SHAP +0.001275
+  Added token 'of ' (324-326) as 'of'
+
+Saved word: 'of' with SHAP +0.001275
+  Added token 'children' (327-335) as 'children'
+  Added token ', ' (335-336) as ','
+
+Saved word: 'children,' with SHAP +0.002550
+  Added token 'level ' (337-342) as 'level'
+
+Saved word: 'level' with SHAP -0.003337
+  Added token 'of ' (343-345) as 'of'
+
+Saved word: 'of' with SHAP -0.003337
+  Added token 'debt ' (346-350) as 'debt'
+
+Saved word: 'debt' with SHAP -0.003337
+  Added token 'or ' (351-353) as 'or'
+
+Saved word: 'or' with SHAP -0.003337
+  Added token 'type ' (354-358) as 'type'
+
+Saved word: 'type' with SHAP -0.002089
+  Added token 'of ' (359-361) as 'of'
+
+Saved word: 'of' with SHAP -0.002089
+  Added token 'car' (362-365) as 'car'
+  Added token ', ' (365-366) as ','
+
+Saved word: 'car,' with SHAP -0.004177
+  Added token 'without ' (367-374) as 'without'
+
+Saved word: 'without' with SHAP +0.001579
+  Added token 'a ' (375-376) as 'a'
+
+Saved word: 'a' with SHAP +0.001579
+  Added token 'reason' (377-383) as 'reason'
+  Added token 'able ' (383-387) as 'able'
+
+Saved word: 'reasonable' with SHAP +0.003157
+  Added token 'sus' (388-391) as 'sus'
+  Added token 'pic' (391-394) as 'pic'
+  Added token 'ion ' (394-397) as 'ion'
+
+Saved word: 'suspicion' with SHAP +0.004736
+  Added token 'of ' (398-400) as 'of'
+
+Saved word: 'of' with SHAP +0.000064
+  Added token 'that ' (401-405) as 'that'
+
+Saved word: 'that' with SHAP +0.000064
+  Added token 'person ' (406-412) as 'person'
+
+Saved word: 'person' with SHAP +0.000064
+  Added token 'being ' (413-418) as 'being'
+
+Saved word: 'being' with SHAP +0.000064
+  Added token 'involved ' (419-427) as 'involved'
+
+Saved word: 'involved' with SHAP +0.000064
+  Added token 'in ' (428-430) as 'in'
+
+Saved word: 'in' with SHAP +0.000064
+  Added token 'a ' (431-432) as 'a'
+
+Saved word: 'a' with SHAP +0.000064
+  Added token 'criminal ' (433-441) as 'criminal'
+
+Saved word: 'criminal' with SHAP +0.000064
+  Added token 'activity ' (442-450) as 'activity'
+
+Saved word: 'activity' with SHAP +0.008222
+  Added token 'based ' (451-456) as 'based'
+
+Saved word: 'based' with SHAP +0.008222
+  Added token 'on ' (457-459) as 'on'
+
+Saved word: 'on' with SHAP +0.008222
+  Added token 'objective ' (460-469) as 'objective'
+
+Saved word: 'objective' with SHAP +0.008222
+  Added token 'veri' (470-474) as 'veri'
+  Added token 'fia' (474-477) as 'fia'
+  Added token 'ble ' (477-480) as 'ble'
+
+Saved word: 'verifiable' with SHAP +0.019974
+  Added token 'facts ' (481-486) as 'facts'
+
+Saved word: 'facts' with SHAP +0.006658
+  Added token 'and ' (487-490) as 'and'
+
+Saved word: 'and' with SHAP +0.002032
+  Added token 'without ' (491-498) as 'without'
+
+Saved word: 'without' with SHAP +0.002032
+  Added token 'human ' (499-504) as 'human'
+
+Saved word: 'human' with SHAP +0.002032
+  Added token 'assessment ' (505-515) as 'assessment'
+
+Saved word: 'assessment' with SHAP +0.002032
+  Added token 'there' (516-521) as 'there'
+  Added token 'of' (521-523) as 'of'
+  Added token '.' (523-524) as '.'
+
+Saved final word: 'thereof.' with SHAP +0.006095
+
+=== Final Word Contributions ===
+innocence,                -0.054582 (NEG)
+AI-predicted              +0.024432 (POS)
+always                    +0.023623 (POS)
+verifiable                +0.019974 (POS)
+behaviour.                +0.017722 (POS)
+natural                   +0.016585 (POS)
+line                      +0.016393 (POS)
+should                    -0.015828 (NEG)
+be                        -0.015828 (NEG)
+never                     -0.015828 (NEG)
+birth,                    +0.014764 (POS)
+nationality,              +0.011763 (POS)
+persons                   -0.011137 (NEG)
+Natural                   -0.011137 (NEG)
+with                      +0.010855 (POS)
+behaviour                 +0.009797 (POS)
+judged                    +0.009675 (POS)
+the                       +0.009260 (POS)
+on                        +0.008222 (POS)
+based                     +0.008222 (POS)
+activity                  +0.008222 (POS)
+objective                 +0.008222 (POS)
+actual                    +0.007382 (POS)
+facts                     +0.006658 (POS)
+characteristics,          +0.006302 (POS)
+thereof.                  +0.006095 (POS)
+such                      +0.005881 (POS)
+as                        +0.005881 (POS)
+Union                     +0.005186 (POS)
+presumption               -0.005100 (NEG)
+suspicion                 +0.004736 (POS)
+In                        +0.004193 (POS)
+car,                      -0.004177 (NEG)
+profiling,                +0.003830 (POS)
+or                        -0.003337 (NEG)
+level                     -0.003337 (NEG)
+debt                      -0.003337 (NEG)
+residence,                +0.003289 (POS)
+reasonable                +0.003157 (POS)
+children,                 +0.002550 (POS)
+personality               +0.002424 (POS)
+traits                    +0.002424 (POS)
+type                      -0.002089 (NEG)
+without                   +0.002032 (POS)
+and                       +0.002032 (POS)
+human                     +0.002032 (POS)
+assessment                +0.002032 (POS)
+place                     +0.001645 (POS)
+their                     +0.001277 (POS)
+solely                    +0.001277 (POS)
+number                    +0.001275 (POS)
+of                        +0.000064 (POS)
+in                        +0.000064 (POS)
+a                         +0.000064 (POS)
+that                      +0.000064 (POS)
+person                    +0.000064 (POS)
+being                     +0.000064 (POS)
+involved                  +0.000064 (POS)
+criminal                  +0.000064 (POS)

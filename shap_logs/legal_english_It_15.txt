@@ -1,0 +1,301 @@
+
+=== Processing text ===
+It is also important to clarify that there may be specific cases in which AI systems referred to in pre-defined areas specified in this Regulation do not lead to a significant risk of harm to the legal interests protected under those areas because they do not materially influence the decision-making or do not harm those interests substantially.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.007038
+It              | 'It'                 | 0     | 2     | +0.007038
+is              | 'is'                 | 3     | 5     | +0.007063
+also            | 'also'               | 6     | 10    | +0.007063
+important       | 'important'          | 11    | 20    | +0.024431
+to              | 'to'                 | 21    | 23    | +0.018702
+clar            | 'clar'               | 24    | 28    | +0.019225
+ify             | 'ify'                | 28    | 31    | +0.015462
+that            | 'that'               | 32    | 36    | +0.011168
+there           | 'there'              | 37    | 42    | +0.011168
+may             | 'may'                | 43    | 46    | +0.011909
+be              | 'be'                 | 47    | 49    | +0.012004
+specific        | 'specific'           | 50    | 58    | +0.038651
+cases           | 'cases'              | 59    | 64    | +0.020558
+in              | 'in'                 | 65    | 67    | +0.005023
+which           | 'which'              | 68    | 73    | +0.005023
+AI              | 'AI'                 | 74    | 76    | +0.006252
+systems         | 'systems'            | 77    | 84    | +0.006252
+referred        | 'referred'           | 85    | 93    | +0.006252
+to              | 'to'                 | 94    | 96    | +0.006252
+in              | 'in'                 | 97    | 99    | +0.007195
+pre             | 'pre'                | 100   | 103   | +0.007195
+-               | '-'                  | 103   | 104   | +0.007195
+defined         | 'defined'            | 104   | 111   | +0.007195
+areas           | 'areas'              | 112   | 117   | +0.009633
+specified       | 'specified'          | 118   | 127   | +0.009633
+in              | 'in'                 | 128   | 130   | +0.008592
+this            | 'this'               | 131   | 135   | +0.008592
+Reg             | 'Reg'                | 136   | 139   | +0.003743
+ulation         | 'ulation'            | 139   | 146   | +0.003743
+do              | 'do'                 | 147   | 149   | +0.018020
+not             | 'not'                | 150   | 153   | +0.050921
+lead            | 'lead'               | 154   | 158   | +0.004599
+to              | 'to'                 | 159   | 161   | +0.004599
+a               | 'a'                  | 162   | 163   | +0.000364
+significant     | 'significant'        | 164   | 175   | +0.000364
+risk            | 'risk'               | 176   | 180   | -0.004071
+of              | 'of'                 | 181   | 183   | -0.000037
+harm            | 'harm'               | 184   | 188   | +0.000626
+to              | 'to'                 | 189   | 191   | +0.000626
+the             | 'the'                | 192   | 195   | +0.003959
+legal           | 'legal'              | 196   | 201   | +0.003959
+interests       | 'interests'          | 202   | 211   | +0.003959
+protected       | 'protected'          | 212   | 221   | +0.003959
+under           | 'under'              | 222   | 227   | +0.009189
+those           | 'those'              | 228   | 233   | +0.009189
+areas           | 'areas'              | 234   | 239   | +0.009189
+because         | 'because'            | 240   | 247   | +0.009189
+they            | 'they'               | 248   | 252   | +0.009189
+do              | 'do'                 | 253   | 255   | +0.009189
+not             | 'not'                | 256   | 259   | +0.009189
+material        | 'material'           | 260   | 268   | +0.007529
+ly              | 'ly'                 | 268   | 270   | +0.007529
+influence       | 'influence'          | 271   | 280   | +0.007529
+the             | 'the'                | 281   | 284   | +0.007529
+decision        | 'decision'           | 285   | 293   | +0.007506
+-               | '-'                  | 293   | 294   | +0.007506
+making          | 'making'             | 294   | 300   | +0.007506
+or              | 'or'                 | 301   | 303   | +0.020609
+do              | 'do'                 | 304   | 306   | +0.012246
+not             | 'not'                | 307   | 310   | +0.012246
+harm            | 'harm'               | 311   | 315   | +0.003199
+those           | 'those'              | 316   | 321   | +0.003199
+interests       | 'interests'          | 322   | 331   | +0.003199
+substantial     | 'substantial'        | 332   | 343   | +0.005813
+ly              | 'ly'                 | 343   | 345   | +0.005813
+.               | '.'                  | 345   | 346   | +0.002127
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'It ' (0-2) as 'It'
+
+Saved word: 'It' with SHAP +0.007038
+  Added token 'is ' (3-5) as 'is'
+
+Saved word: 'is' with SHAP +0.007063
+  Added token 'also ' (6-10) as 'also'
+
+Saved word: 'also' with SHAP +0.007063
+  Added token 'important ' (11-20) as 'important'
+
+Saved word: 'important' with SHAP +0.024431
+  Added token 'to ' (21-23) as 'to'
+
+Saved word: 'to' with SHAP +0.018702
+  Added token 'clar' (24-28) as 'clar'
+  Added token 'ify ' (28-31) as 'ify'
+
+Saved word: 'clarify' with SHAP +0.034687
+  Added token 'that ' (32-36) as 'that'
+
+Saved word: 'that' with SHAP +0.011168
+  Added token 'there ' (37-42) as 'there'
+
+Saved word: 'there' with SHAP +0.011168
+  Added token 'may ' (43-46) as 'may'
+
+Saved word: 'may' with SHAP +0.011909
+  Added token 'be ' (47-49) as 'be'
+
+Saved word: 'be' with SHAP +0.012004
+  Added token 'specific ' (50-58) as 'specific'
+
+Saved word: 'specific' with SHAP +0.038651
+  Added token 'cases ' (59-64) as 'cases'
+
+Saved word: 'cases' with SHAP +0.020558
+  Added token 'in ' (65-67) as 'in'
+
+Saved word: 'in' with SHAP +0.005023
+  Added token 'which ' (68-73) as 'which'
+
+Saved word: 'which' with SHAP +0.005023
+  Added token 'AI ' (74-76) as 'AI'
+
+Saved word: 'AI' with SHAP +0.006252
+  Added token 'systems ' (77-84) as 'systems'
+
+Saved word: 'systems' with SHAP +0.006252
+  Added token 'referred ' (85-93) as 'referred'
+
+Saved word: 'referred' with SHAP +0.006252
+  Added token 'to ' (94-96) as 'to'
+
+Saved word: 'to' with SHAP +0.006252
+  Added token 'in ' (97-99) as 'in'
+
+Saved word: 'in' with SHAP +0.007195
+  Added token 'pre' (100-103) as 'pre'
+  Added token '-' (103-104) as '-'
+  Added token 'defined ' (104-111) as 'defined'
+
+Saved word: 'pre-defined' with SHAP +0.021585
+  Added token 'areas ' (112-117) as 'areas'
+
+Saved word: 'areas' with SHAP +0.009633
+  Added token 'specified ' (118-127) as 'specified'
+
+Saved word: 'specified' with SHAP +0.009633
+  Added token 'in ' (128-130) as 'in'
+
+Saved word: 'in' with SHAP +0.008592
+  Added token 'this ' (131-135) as 'this'
+
+Saved word: 'this' with SHAP +0.008592
+  Added token 'Reg' (136-139) as 'Reg'
+  Added token 'ulation ' (139-146) as 'ulation'
+
+Saved word: 'Regulation' with SHAP +0.007487
+  Added token 'do ' (147-149) as 'do'
+
+Saved word: 'do' with SHAP +0.018020
+  Added token 'not ' (150-153) as 'not'
+
+Saved word: 'not' with SHAP +0.050921
+  Added token 'lead ' (154-158) as 'lead'
+
+Saved word: 'lead' with SHAP +0.004599
+  Added token 'to ' (159-161) as 'to'
+
+Saved word: 'to' with SHAP +0.004599
+  Added token 'a ' (162-163) as 'a'
+
+Saved word: 'a' with SHAP +0.000364
+  Added token 'significant ' (164-175) as 'significant'
+
+Saved word: 'significant' with SHAP +0.000364
+  Added token 'risk ' (176-180) as 'risk'
+
+Saved word: 'risk' with SHAP -0.004071
+  Added token 'of ' (181-183) as 'of'
+
+Saved word: 'of' with SHAP -0.000037
+  Added token 'harm ' (184-188) as 'harm'
+
+Saved word: 'harm' with SHAP +0.000626
+  Added token 'to ' (189-191) as 'to'
+
+Saved word: 'to' with SHAP +0.000626
+  Added token 'the ' (192-195) as 'the'
+
+Saved word: 'the' with SHAP +0.003959
+  Added token 'legal ' (196-201) as 'legal'
+
+Saved word: 'legal' with SHAP +0.003959
+  Added token 'interests ' (202-211) as 'interests'
+
+Saved word: 'interests' with SHAP +0.003959
+  Added token 'protected ' (212-221) as 'protected'
+
+Saved word: 'protected' with SHAP +0.003959
+  Added token 'under ' (222-227) as 'under'
+
+Saved word: 'under' with SHAP +0.009189
+  Added token 'those ' (228-233) as 'those'
+
+Saved word: 'those' with SHAP +0.009189
+  Added token 'areas ' (234-239) as 'areas'
+
+Saved word: 'areas' with SHAP +0.009189
+  Added token 'because ' (240-247) as 'because'
+
+Saved word: 'because' with SHAP +0.009189
+  Added token 'they ' (248-252) as 'they'
+
+Saved word: 'they' with SHAP +0.009189
+  Added token 'do ' (253-255) as 'do'
+
+Saved word: 'do' with SHAP +0.009189
+  Added token 'not ' (256-259) as 'not'
+
+Saved word: 'not' with SHAP +0.009189
+  Added token 'material' (260-268) as 'material'
+  Added token 'ly ' (268-270) as 'ly'
+
+Saved word: 'materially' with SHAP +0.015058
+  Added token 'influence ' (271-280) as 'influence'
+
+Saved word: 'influence' with SHAP +0.007529
+  Added token 'the ' (281-284) as 'the'
+
+Saved word: 'the' with SHAP +0.007529
+  Added token 'decision' (285-293) as 'decision'
+  Added token '-' (293-294) as '-'
+  Added token 'making ' (294-300) as 'making'
+
+Saved word: 'decision-making' with SHAP +0.022517
+  Added token 'or ' (301-303) as 'or'
+
+Saved word: 'or' with SHAP +0.020609
+  Added token 'do ' (304-306) as 'do'
+
+Saved word: 'do' with SHAP +0.012246
+  Added token 'not ' (307-310) as 'not'
+
+Saved word: 'not' with SHAP +0.012246
+  Added token 'harm ' (311-315) as 'harm'
+
+Saved word: 'harm' with SHAP +0.003199
+  Added token 'those ' (316-321) as 'those'
+
+Saved word: 'those' with SHAP +0.003199
+  Added token 'interests ' (322-331) as 'interests'
+
+Saved word: 'interests' with SHAP +0.003199
+  Added token 'substantial' (332-343) as 'substantial'
+  Added token 'ly' (343-345) as 'ly'
+  Added token '.' (345-346) as '.'
+
+Saved final word: 'substantially.' with SHAP +0.013754
+
+=== Final Word Contributions ===
+specific                  +0.038651 (POS)
+clarify                   +0.034687 (POS)
+important                 +0.024431 (POS)
+decision-making           +0.022517 (POS)
+pre-defined               +0.021585 (POS)
+or                        +0.020609 (POS)
+cases                     +0.020558 (POS)
+materially                +0.015058 (POS)
+substantially.            +0.013754 (POS)
+do                        +0.012246 (POS)
+not                       +0.012246 (POS)
+be                        +0.012004 (POS)
+may                       +0.011909 (POS)
+that                      +0.011168 (POS)
+there                     +0.011168 (POS)
+specified                 +0.009633 (POS)
+areas                     +0.009189 (POS)
+under                     +0.009189 (POS)
+because                   +0.009189 (POS)
+they                      +0.009189 (POS)
+in                        +0.008592 (POS)
+this                      +0.008592 (POS)
+the                       +0.007529 (POS)
+influence                 +0.007529 (POS)
+Regulation                +0.007487 (POS)
+is                        +0.007063 (POS)
+also                      +0.007063 (POS)
+It                        +0.007038 (POS)
+AI                        +0.006252 (POS)
+systems                   +0.006252 (POS)
+referred                  +0.006252 (POS)
+which                     +0.005023 (POS)
+lead                      +0.004599 (POS)
+risk                      -0.004071 (NEG)
+legal                     +0.003959 (POS)
+protected                 +0.003959 (POS)
+harm                      +0.003199 (POS)
+interests                 +0.003199 (POS)
+those                     +0.003199 (POS)
+to                        +0.000626 (POS)
+a                         +0.000364 (POS)
+significant               +0.000364 (POS)
+of                        -0.000037 (NEG)

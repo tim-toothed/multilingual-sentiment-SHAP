@@ -1,0 +1,259 @@
+
+=== Processing text ===
+Furthermore, in the context of employment and protection of workers, this Regulation should therefore not affect Union law on social policy and national labour law, in compliance with Union law, concerning employment and working conditions, including health and safety at work and the relationship between employers and workers.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | +0.004642
+Furthermore     | 'Furthermore'        | 0     | 11    | +0.009860
+,               | ','                  | 11    | 12    | -0.000940
+in              | 'in'                 | 13    | 15    | +0.008345
+the             | 'the'                | 16    | 19    | +0.009001
+context         | 'context'            | 20    | 27    | +0.020117
+of              | 'of'                 | 28    | 30    | +0.020117
+employment      | 'employment'         | 31    | 41    | +0.015557
+and             | 'and'                | 42    | 45    | +0.013325
+protection      | 'protection'         | 46    | 56    | +0.002428
+of              | 'of'                 | 57    | 59    | +0.002428
+workers         | 'workers'            | 60    | 67    | +0.002428
+,               | ','                  | 67    | 68    | +0.002428
+this            | 'this'               | 69    | 73    | -0.004860
+Reg             | 'Reg'                | 74    | 77    | -0.002746
+ulation         | 'ulation'            | 77    | 84    | -0.002746
+should          | 'should'             | 85    | 91    | +0.011585
+therefore       | 'therefore'          | 92    | 101   | +0.011585
+not             | 'not'                | 102   | 105   | -0.000677
+affect          | 'affect'             | 106   | 112   | +0.003480
+Union           | 'Union'              | 113   | 118   | +0.003974
+law             | 'law'                | 119   | 122   | +0.003974
+on              | 'on'                 | 123   | 125   | +0.008209
+social          | 'social'             | 126   | 132   | +0.008209
+policy          | 'policy'             | 133   | 139   | +0.007985
+and             | 'and'                | 140   | 143   | +0.006919
+national        | 'national'           | 144   | 152   | +0.002176
+labour          | 'labour'             | 153   | 159   | +0.002176
+law             | 'law'                | 160   | 163   | +0.006539
+,               | ','                  | 163   | 164   | +0.013760
+in              | 'in'                 | 165   | 167   | +0.009140
+com             | 'com'                | 168   | 171   | +0.011590
+pliance         | 'pliance'            | 171   | 178   | +0.007966
+with            | 'with'               | 179   | 183   | +0.004341
+Union           | 'Union'              | 184   | 189   | +0.004341
+law             | 'law'                | 190   | 193   | +0.004720
+,               | ','                  | 193   | 194   | +0.004780
+concerning      | 'concerning'         | 195   | 205   | +0.003151
+employment      | 'employment'         | 206   | 216   | +0.006587
+and             | 'and'                | 217   | 220   | +0.000755
+working         | 'working'            | 221   | 228   | +0.007491
+conditions      | 'conditions'         | 229   | 239   | +0.007491
+,               | ','                  | 239   | 240   | +0.010039
+including       | 'including'          | 241   | 250   | +0.007846
+health          | 'health'             | 251   | 257   | +0.007846
+and             | 'and'                | 258   | 261   | +0.007352
+safety          | 'safety'             | 262   | 268   | +0.002086
+at              | 'at'                 | 269   | 271   | +0.002086
+work            | 'work'               | 272   | 276   | +0.002086
+and             | 'and'                | 277   | 280   | +0.002086
+the             | 'the'                | 281   | 284   | +0.018119
+relationship    | 'relationship'       | 285   | 297   | +0.018119
+between         | 'between'            | 298   | 305   | +0.021615
+employer        | 'employer'           | 306   | 314   | +0.006129
+s               | 's'                  | 314   | 315   | +0.006129
+and             | 'and'                | 316   | 319   | +0.006456
+workers         | 'workers'            | 320   | 327   | +0.006456
+.               | '.'                  | 327   | 328   | +0.006456
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Furthermore' (0-11) as 'Furthermore'
+  Added token ', ' (11-12) as ','
+
+Saved word: 'Furthermore,' with SHAP +0.008919
+  Added token 'in ' (13-15) as 'in'
+
+Saved word: 'in' with SHAP +0.008345
+  Added token 'the ' (16-19) as 'the'
+
+Saved word: 'the' with SHAP +0.009001
+  Added token 'context ' (20-27) as 'context'
+
+Saved word: 'context' with SHAP +0.020117
+  Added token 'of ' (28-30) as 'of'
+
+Saved word: 'of' with SHAP +0.020117
+  Added token 'employment ' (31-41) as 'employment'
+
+Saved word: 'employment' with SHAP +0.015557
+  Added token 'and ' (42-45) as 'and'
+
+Saved word: 'and' with SHAP +0.013325
+  Added token 'protection ' (46-56) as 'protection'
+
+Saved word: 'protection' with SHAP +0.002428
+  Added token 'of ' (57-59) as 'of'
+
+Saved word: 'of' with SHAP +0.002428
+  Added token 'workers' (60-67) as 'workers'
+  Added token ', ' (67-68) as ','
+
+Saved word: 'workers,' with SHAP +0.004856
+  Added token 'this ' (69-73) as 'this'
+
+Saved word: 'this' with SHAP -0.004860
+  Added token 'Reg' (74-77) as 'Reg'
+  Added token 'ulation ' (77-84) as 'ulation'
+
+Saved word: 'Regulation' with SHAP -0.005491
+  Added token 'should ' (85-91) as 'should'
+
+Saved word: 'should' with SHAP +0.011585
+  Added token 'therefore ' (92-101) as 'therefore'
+
+Saved word: 'therefore' with SHAP +0.011585
+  Added token 'not ' (102-105) as 'not'
+
+Saved word: 'not' with SHAP -0.000677
+  Added token 'affect ' (106-112) as 'affect'
+
+Saved word: 'affect' with SHAP +0.003480
+  Added token 'Union ' (113-118) as 'Union'
+
+Saved word: 'Union' with SHAP +0.003974
+  Added token 'law ' (119-122) as 'law'
+
+Saved word: 'law' with SHAP +0.003974
+  Added token 'on ' (123-125) as 'on'
+
+Saved word: 'on' with SHAP +0.008209
+  Added token 'social ' (126-132) as 'social'
+
+Saved word: 'social' with SHAP +0.008209
+  Added token 'policy ' (133-139) as 'policy'
+
+Saved word: 'policy' with SHAP +0.007985
+  Added token 'and ' (140-143) as 'and'
+
+Saved word: 'and' with SHAP +0.006919
+  Added token 'national ' (144-152) as 'national'
+
+Saved word: 'national' with SHAP +0.002176
+  Added token 'labour ' (153-159) as 'labour'
+
+Saved word: 'labour' with SHAP +0.002176
+  Added token 'law' (160-163) as 'law'
+  Added token ', ' (163-164) as ','
+
+Saved word: 'law,' with SHAP +0.020298
+  Added token 'in ' (165-167) as 'in'
+
+Saved word: 'in' with SHAP +0.009140
+  Added token 'com' (168-171) as 'com'
+  Added token 'pliance ' (171-178) as 'pliance'
+
+Saved word: 'compliance' with SHAP +0.019557
+  Added token 'with ' (179-183) as 'with'
+
+Saved word: 'with' with SHAP +0.004341
+  Added token 'Union ' (184-189) as 'Union'
+
+Saved word: 'Union' with SHAP +0.004341
+  Added token 'law' (190-193) as 'law'
+  Added token ', ' (193-194) as ','
+
+Saved word: 'law,' with SHAP +0.009501
+  Added token 'concerning ' (195-205) as 'concerning'
+
+Saved word: 'concerning' with SHAP +0.003151
+  Added token 'employment ' (206-216) as 'employment'
+
+Saved word: 'employment' with SHAP +0.006587
+  Added token 'and ' (217-220) as 'and'
+
+Saved word: 'and' with SHAP +0.000755
+  Added token 'working ' (221-228) as 'working'
+
+Saved word: 'working' with SHAP +0.007491
+  Added token 'conditions' (229-239) as 'conditions'
+  Added token ', ' (239-240) as ','
+
+Saved word: 'conditions,' with SHAP +0.017530
+  Added token 'including ' (241-250) as 'including'
+
+Saved word: 'including' with SHAP +0.007846
+  Added token 'health ' (251-257) as 'health'
+
+Saved word: 'health' with SHAP +0.007846
+  Added token 'and ' (258-261) as 'and'
+
+Saved word: 'and' with SHAP +0.007352
+  Added token 'safety ' (262-268) as 'safety'
+
+Saved word: 'safety' with SHAP +0.002086
+  Added token 'at ' (269-271) as 'at'
+
+Saved word: 'at' with SHAP +0.002086
+  Added token 'work ' (272-276) as 'work'
+
+Saved word: 'work' with SHAP +0.002086
+  Added token 'and ' (277-280) as 'and'
+
+Saved word: 'and' with SHAP +0.002086
+  Added token 'the ' (281-284) as 'the'
+
+Saved word: 'the' with SHAP +0.018119
+  Added token 'relationship ' (285-297) as 'relationship'
+
+Saved word: 'relationship' with SHAP +0.018119
+  Added token 'between ' (298-305) as 'between'
+
+Saved word: 'between' with SHAP +0.021615
+  Added token 'employer' (306-314) as 'employer'
+  Added token 's ' (314-315) as 's'
+
+Saved word: 'employers' with SHAP +0.012258
+  Added token 'and ' (316-319) as 'and'
+
+Saved word: 'and' with SHAP +0.006456
+  Added token 'workers' (320-327) as 'workers'
+  Added token '.' (327-328) as '.'
+
+Saved final word: 'workers.' with SHAP +0.012913
+
+=== Final Word Contributions ===
+between                   +0.021615 (POS)
+context                   +0.020117 (POS)
+compliance                +0.019557 (POS)
+the                       +0.018119 (POS)
+relationship              +0.018119 (POS)
+conditions,               +0.017530 (POS)
+workers.                  +0.012913 (POS)
+employers                 +0.012258 (POS)
+should                    +0.011585 (POS)
+therefore                 +0.011585 (POS)
+law,                      +0.009501 (POS)
+in                        +0.009140 (POS)
+Furthermore,              +0.008919 (POS)
+on                        +0.008209 (POS)
+social                    +0.008209 (POS)
+policy                    +0.007985 (POS)
+including                 +0.007846 (POS)
+health                    +0.007846 (POS)
+working                   +0.007491 (POS)
+employment                +0.006587 (POS)
+and                       +0.006456 (POS)
+Regulation                -0.005491 (NEG)
+this                      -0.004860 (NEG)
+workers,                  +0.004856 (POS)
+Union                     +0.004341 (POS)
+with                      +0.004341 (POS)
+law                       +0.003974 (POS)
+affect                    +0.003480 (POS)
+concerning                +0.003151 (POS)
+of                        +0.002428 (POS)
+protection                +0.002428 (POS)
+national                  +0.002176 (POS)
+labour                    +0.002176 (POS)
+safety                    +0.002086 (POS)
+at                        +0.002086 (POS)
+work                      +0.002086 (POS)
+not                       -0.000677 (NEG)

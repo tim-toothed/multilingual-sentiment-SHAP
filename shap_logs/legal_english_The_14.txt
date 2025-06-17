@@ -1,0 +1,356 @@
+
+=== Processing text ===
+The placing on the market, the putting into service for that specific purpose, or the use of AI systems that create or expand facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage, should be prohibited because that practice adds to the feeling of mass surveillance and can lead to gross violations of fundamental rights, including the right to privacy.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.002114
+The             | 'The'                | 0     | 3     | -0.002114
+placing         | 'placing'            | 4     | 11    | -0.002707
+on              | 'on'                 | 12    | 14    | -0.002707
+the             | 'the'                | 15    | 18    | -0.001334
+market          | 'market'             | 19    | 25    | -0.001334
+,               | ','                  | 25    | 26    | -0.001334
+the             | 'the'                | 27    | 30    | +0.000243
+putting         | 'putting'            | 31    | 38    | +0.000243
+into            | 'into'               | 39    | 43    | +0.000243
+service         | 'service'            | 44    | 51    | +0.000243
+for             | 'for'                | 52    | 55    | +0.003618
+that            | 'that'               | 56    | 60    | +0.003618
+specific        | 'specific'           | 61    | 69    | +0.003618
+purpose         | 'purpose'            | 70    | 77    | +0.003618
+,               | ','                  | 77    | 78    | +0.002621
+or              | 'or'                 | 79    | 81    | +0.007557
+the             | 'the'                | 82    | 85    | +0.001551
+use             | 'use'                | 86    | 89    | +0.001551
+of              | 'of'                 | 90    | 92    | +0.001551
+AI              | 'AI'                 | 93    | 95    | +0.001551
+systems         | 'systems'            | 96    | 103   | +0.002225
+that            | 'that'               | 104   | 108   | +0.002225
+create          | 'create'             | 109   | 115   | +0.002225
+or              | 'or'                 | 116   | 118   | +0.001990
+expand          | 'expand'             | 119   | 125   | +0.006319
+fac             | 'fac'                | 126   | 129   | +0.003000
+ial             | 'ial'                | 129   | 132   | +0.003000
+recognition     | 'recognition'        | 133   | 144   | +0.003627
+databases       | 'databases'          | 145   | 154   | +0.003627
+through         | 'through'            | 155   | 162   | +0.003627
+the             | 'the'                | 163   | 166   | +0.003627
+un              | 'un'                 | 167   | 169   | -0.015933
+tar             | 'tar'                | 169   | 172   | -0.015381
+get             | 'get'                | 172   | 175   | -0.007485
+ed              | 'ed'                 | 175   | 177   | -0.007485
+s               | 's'                  | 178   | 179   | +0.000202
+cra             | 'cra'                | 179   | 182   | +0.000202
+ping            | 'ping'               | 182   | 186   | +0.000202
+of              | 'of'                 | 187   | 189   | -0.000066
+fac             | 'fac'                | 190   | 193   | -0.000066
+ial             | 'ial'                | 193   | 196   | -0.000066
+images          | 'images'             | 197   | 203   | +0.001172
+from            | 'from'               | 204   | 208   | +0.001172
+the             | 'the'                | 209   | 212   | +0.001172
+internet        | 'internet'           | 213   | 221   | +0.001172
+or              | 'or'                 | 222   | 224   | -0.000258
+CC              | 'CC'                 | 225   | 227   | +0.004548
+TV              | 'TV'                 | 227   | 229   | +0.004548
+footage         | 'footage'            | 230   | 237   | +0.004548
+,               | ','                  | 237   | 238   | +0.008293
+should          | 'should'             | 239   | 245   | +0.018141
+be              | 'be'                 | 246   | 248   | +0.017165
+prohibited      | 'prohibited'         | 249   | 259   | -0.000003
+because         | 'because'            | 260   | 267   | +0.002920
+that            | 'that'               | 268   | 272   | +0.005316
+practice        | 'practice'           | 273   | 281   | +0.005316
+adds            | 'adds'               | 282   | 286   | +0.005316
+to              | 'to'                 | 287   | 289   | +0.005316
+the             | 'the'                | 290   | 293   | +0.009052
+feeling         | 'feeling'            | 294   | 301   | +0.009052
+of              | 'of'                 | 302   | 304   | +0.004932
+mass            | 'mass'               | 305   | 309   | +0.004932
+surveillance    | 'surveillance'       | 310   | 322   | +0.004932
+and             | 'and'                | 323   | 326   | +0.000252
+can             | 'can'                | 327   | 330   | -0.002835
+lead            | 'lead'               | 331   | 335   | -0.002835
+to              | 'to'                 | 336   | 338   | -0.002835
+gross           | 'gross'              | 339   | 344   | -0.002835
+violation       | 'violation'          | 345   | 354   | -0.032419
+s               | 's'                  | 354   | 355   | -0.007310
+of              | 'of'                 | 356   | 358   | -0.003257
+fundamental     | 'fundamental'        | 359   | 370   | -0.003257
+rights          | 'rights'             | 371   | 377   | -0.003257
+,               | ','                  | 377   | 378   | +0.016560
+including       | 'including'          | 379   | 388   | +0.009088
+the             | 'the'                | 389   | 392   | +0.007045
+right           | 'right'              | 393   | 398   | +0.004247
+to              | 'to'                 | 399   | 401   | +0.004247
+pri             | 'pri'                | 402   | 405   | +0.000354
+vacy            | 'vacy'               | 405   | 409   | +0.000354
+.               | '.'                  | 409   | 410   | -0.005192
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'The ' (0-3) as 'The'
+
+Saved word: 'The' with SHAP -0.002114
+  Added token 'placing ' (4-11) as 'placing'
+
+Saved word: 'placing' with SHAP -0.002707
+  Added token 'on ' (12-14) as 'on'
+
+Saved word: 'on' with SHAP -0.002707
+  Added token 'the ' (15-18) as 'the'
+
+Saved word: 'the' with SHAP -0.001334
+  Added token 'market' (19-25) as 'market'
+  Added token ', ' (25-26) as ','
+
+Saved word: 'market,' with SHAP -0.002667
+  Added token 'the ' (27-30) as 'the'
+
+Saved word: 'the' with SHAP +0.000243
+  Added token 'putting ' (31-38) as 'putting'
+
+Saved word: 'putting' with SHAP +0.000243
+  Added token 'into ' (39-43) as 'into'
+
+Saved word: 'into' with SHAP +0.000243
+  Added token 'service ' (44-51) as 'service'
+
+Saved word: 'service' with SHAP +0.000243
+  Added token 'for ' (52-55) as 'for'
+
+Saved word: 'for' with SHAP +0.003618
+  Added token 'that ' (56-60) as 'that'
+
+Saved word: 'that' with SHAP +0.003618
+  Added token 'specific ' (61-69) as 'specific'
+
+Saved word: 'specific' with SHAP +0.003618
+  Added token 'purpose' (70-77) as 'purpose'
+  Added token ', ' (77-78) as ','
+
+Saved word: 'purpose,' with SHAP +0.006239
+  Added token 'or ' (79-81) as 'or'
+
+Saved word: 'or' with SHAP +0.007557
+  Added token 'the ' (82-85) as 'the'
+
+Saved word: 'the' with SHAP +0.001551
+  Added token 'use ' (86-89) as 'use'
+
+Saved word: 'use' with SHAP +0.001551
+  Added token 'of ' (90-92) as 'of'
+
+Saved word: 'of' with SHAP +0.001551
+  Added token 'AI ' (93-95) as 'AI'
+
+Saved word: 'AI' with SHAP +0.001551
+  Added token 'systems ' (96-103) as 'systems'
+
+Saved word: 'systems' with SHAP +0.002225
+  Added token 'that ' (104-108) as 'that'
+
+Saved word: 'that' with SHAP +0.002225
+  Added token 'create ' (109-115) as 'create'
+
+Saved word: 'create' with SHAP +0.002225
+  Added token 'or ' (116-118) as 'or'
+
+Saved word: 'or' with SHAP +0.001990
+  Added token 'expand ' (119-125) as 'expand'
+
+Saved word: 'expand' with SHAP +0.006319
+  Added token 'fac' (126-129) as 'fac'
+  Added token 'ial ' (129-132) as 'ial'
+
+Saved word: 'facial' with SHAP +0.005999
+  Added token 'recognition ' (133-144) as 'recognition'
+
+Saved word: 'recognition' with SHAP +0.003627
+  Added token 'databases ' (145-154) as 'databases'
+
+Saved word: 'databases' with SHAP +0.003627
+  Added token 'through ' (155-162) as 'through'
+
+Saved word: 'through' with SHAP +0.003627
+  Added token 'the ' (163-166) as 'the'
+
+Saved word: 'the' with SHAP +0.003627
+  Added token 'un' (167-169) as 'un'
+  Added token 'tar' (169-172) as 'tar'
+  Added token 'get' (172-175) as 'get'
+  Added token 'ed ' (175-177) as 'ed'
+
+Saved word: 'untargeted' with SHAP -0.046284
+  Added token 's' (178-179) as 's'
+  Added token 'cra' (179-182) as 'cra'
+  Added token 'ping ' (182-186) as 'ping'
+
+Saved word: 'scraping' with SHAP +0.000606
+  Added token 'of ' (187-189) as 'of'
+
+Saved word: 'of' with SHAP -0.000066
+  Added token 'fac' (190-193) as 'fac'
+  Added token 'ial ' (193-196) as 'ial'
+
+Saved word: 'facial' with SHAP -0.000133
+  Added token 'images ' (197-203) as 'images'
+
+Saved word: 'images' with SHAP +0.001172
+  Added token 'from ' (204-208) as 'from'
+
+Saved word: 'from' with SHAP +0.001172
+  Added token 'the ' (209-212) as 'the'
+
+Saved word: 'the' with SHAP +0.001172
+  Added token 'internet ' (213-221) as 'internet'
+
+Saved word: 'internet' with SHAP +0.001172
+  Added token 'or ' (222-224) as 'or'
+
+Saved word: 'or' with SHAP -0.000258
+  Added token 'CC' (225-227) as 'CC'
+  Added token 'TV ' (227-229) as 'TV'
+
+Saved word: 'CCTV' with SHAP +0.009095
+  Added token 'footage' (230-237) as 'footage'
+  Added token ', ' (237-238) as ','
+
+Saved word: 'footage,' with SHAP +0.012841
+  Added token 'should ' (239-245) as 'should'
+
+Saved word: 'should' with SHAP +0.018141
+  Added token 'be ' (246-248) as 'be'
+
+Saved word: 'be' with SHAP +0.017165
+  Added token 'prohibited ' (249-259) as 'prohibited'
+
+Saved word: 'prohibited' with SHAP -0.000003
+  Added token 'because ' (260-267) as 'because'
+
+Saved word: 'because' with SHAP +0.002920
+  Added token 'that ' (268-272) as 'that'
+
+Saved word: 'that' with SHAP +0.005316
+  Added token 'practice ' (273-281) as 'practice'
+
+Saved word: 'practice' with SHAP +0.005316
+  Added token 'adds ' (282-286) as 'adds'
+
+Saved word: 'adds' with SHAP +0.005316
+  Added token 'to ' (287-289) as 'to'
+
+Saved word: 'to' with SHAP +0.005316
+  Added token 'the ' (290-293) as 'the'
+
+Saved word: 'the' with SHAP +0.009052
+  Added token 'feeling ' (294-301) as 'feeling'
+
+Saved word: 'feeling' with SHAP +0.009052
+  Added token 'of ' (302-304) as 'of'
+
+Saved word: 'of' with SHAP +0.004932
+  Added token 'mass ' (305-309) as 'mass'
+
+Saved word: 'mass' with SHAP +0.004932
+  Added token 'surveillance ' (310-322) as 'surveillance'
+
+Saved word: 'surveillance' with SHAP +0.004932
+  Added token 'and ' (323-326) as 'and'
+
+Saved word: 'and' with SHAP +0.000252
+  Added token 'can ' (327-330) as 'can'
+
+Saved word: 'can' with SHAP -0.002835
+  Added token 'lead ' (331-335) as 'lead'
+
+Saved word: 'lead' with SHAP -0.002835
+  Added token 'to ' (336-338) as 'to'
+
+Saved word: 'to' with SHAP -0.002835
+  Added token 'gross ' (339-344) as 'gross'
+
+Saved word: 'gross' with SHAP -0.002835
+  Added token 'violation' (345-354) as 'violation'
+  Added token 's ' (354-355) as 's'
+
+Saved word: 'violations' with SHAP -0.039728
+  Added token 'of ' (356-358) as 'of'
+
+Saved word: 'of' with SHAP -0.003257
+  Added token 'fundamental ' (359-370) as 'fundamental'
+
+Saved word: 'fundamental' with SHAP -0.003257
+  Added token 'rights' (371-377) as 'rights'
+  Added token ', ' (377-378) as ','
+
+Saved word: 'rights,' with SHAP +0.013302
+  Added token 'including ' (379-388) as 'including'
+
+Saved word: 'including' with SHAP +0.009088
+  Added token 'the ' (389-392) as 'the'
+
+Saved word: 'the' with SHAP +0.007045
+  Added token 'right ' (393-398) as 'right'
+
+Saved word: 'right' with SHAP +0.004247
+  Added token 'to ' (399-401) as 'to'
+
+Saved word: 'to' with SHAP +0.004247
+  Added token 'pri' (402-405) as 'pri'
+  Added token 'vacy' (405-409) as 'vacy'
+  Added token '.' (409-410) as '.'
+
+Saved final word: 'privacy.' with SHAP -0.004484
+
+=== Final Word Contributions ===
+untargeted                -0.046284 (NEG)
+violations                -0.039728 (NEG)
+should                    +0.018141 (POS)
+be                        +0.017165 (POS)
+rights,                   +0.013302 (POS)
+footage,                  +0.012841 (POS)
+CCTV                      +0.009095 (POS)
+including                 +0.009088 (POS)
+feeling                   +0.009052 (POS)
+the                       +0.007045 (POS)
+expand                    +0.006319 (POS)
+purpose,                  +0.006239 (POS)
+that                      +0.005316 (POS)
+practice                  +0.005316 (POS)
+adds                      +0.005316 (POS)
+mass                      +0.004932 (POS)
+surveillance              +0.004932 (POS)
+privacy.                  -0.004484 (NEG)
+to                        +0.004247 (POS)
+right                     +0.004247 (POS)
+recognition               +0.003627 (POS)
+databases                 +0.003627 (POS)
+through                   +0.003627 (POS)
+for                       +0.003618 (POS)
+specific                  +0.003618 (POS)
+of                        -0.003257 (NEG)
+fundamental               -0.003257 (NEG)
+because                   +0.002920 (POS)
+can                       -0.002835 (NEG)
+lead                      -0.002835 (NEG)
+gross                     -0.002835 (NEG)
+placing                   -0.002707 (NEG)
+on                        -0.002707 (NEG)
+market,                   -0.002667 (NEG)
+systems                   +0.002225 (POS)
+create                    +0.002225 (POS)
+The                       -0.002114 (NEG)
+use                       +0.001551 (POS)
+AI                        +0.001551 (POS)
+images                    +0.001172 (POS)
+from                      +0.001172 (POS)
+internet                  +0.001172 (POS)
+scraping                  +0.000606 (POS)
+or                        -0.000258 (NEG)
+and                       +0.000252 (POS)
+putting                   +0.000243 (POS)
+into                      +0.000243 (POS)
+service                   +0.000243 (POS)
+facial                    -0.000133 (NEG)
+prohibited                -0.000003 (NEG)

@@ -1,0 +1,285 @@
+
+=== Processing text ===
+Given the growing importance and use of AI systems, the application of universal design principles to all new technologies and services should ensure full and equal access for everyone potentially affected by or using AI technologies, including persons with disabilities, in a way that takes full account of their inherent dignity and diversity.
+
+
+Tokenization details:
+Token           | Text                 | Start | End   | SHAP Value  
+----------------------------------------------------------------------
+                | ''                   | 0     | 0     | -0.000133
+Given           | 'Given'              | 0     | 5     | -0.025489
+the             | 'the'                | 6     | 9     | +0.000115
+growing         | 'growing'            | 10    | 17    | +0.000115
+importance      | 'importance'         | 18    | 28    | +0.000115
+and             | 'and'                | 29    | 32    | +0.028112
+use             | 'use'                | 33    | 36    | +0.001027
+of              | 'of'                 | 37    | 39    | +0.001027
+AI              | 'AI'                 | 40    | 42    | +0.003000
+systems         | 'systems'            | 43    | 50    | +0.003000
+,               | ','                  | 50    | 51    | +0.007766
+the             | 'the'                | 52    | 55    | -0.001493
+application     | 'application'        | 56    | 67    | -0.002792
+of              | 'of'                 | 68    | 70    | -0.007133
+universal       | 'universal'          | 71    | 80    | +0.063106
+design          | 'design'             | 81    | 87    | +0.005138
+principles      | 'principles'         | 88    | 98    | +0.005138
+to              | 'to'                 | 99    | 101   | +0.012716
+all             | 'all'                | 102   | 105   | +0.012716
+new             | 'new'                | 106   | 109   | +0.008397
+technologies    | 'technologies'       | 110   | 122   | +0.008397
+and             | 'and'                | 123   | 126   | +0.012870
+services        | 'services'           | 127   | 135   | -0.003946
+should          | 'should'             | 136   | 142   | -0.069198
+ensure          | 'ensure'             | 143   | 149   | +0.024980
+full            | 'full'               | 150   | 154   | +0.020204
+and             | 'and'                | 155   | 158   | +0.017812
+equal           | 'equal'              | 159   | 164   | +0.012113
+access          | 'access'             | 165   | 171   | +0.012113
+for             | 'for'                | 172   | 175   | +0.015111
+everyone        | 'everyone'           | 176   | 184   | +0.015111
+potentially     | 'potentially'        | 185   | 196   | -0.002998
+affected        | 'affected'           | 197   | 205   | -0.002998
+by              | 'by'                 | 206   | 208   | -0.002998
+or              | 'or'                 | 209   | 211   | -0.002998
+using           | 'using'              | 212   | 217   | +0.002152
+AI              | 'AI'                 | 218   | 220   | +0.002152
+technologies    | 'technologies'       | 221   | 233   | +0.002152
+,               | ','                  | 233   | 234   | +0.002292
+including       | 'including'          | 235   | 244   | -0.002149
+persons         | 'persons'            | 245   | 252   | -0.001714
+with            | 'with'               | 253   | 257   | -0.002482
+disa            | 'disa'               | 258   | 262   | -0.000653
+bili            | 'bili'               | 262   | 266   | +0.000252
+ties            | 'ties'               | 266   | 270   | +0.001654
+,               | ','                  | 270   | 271   | +0.001065
+in              | 'in'                 | 272   | 274   | +0.000940
+a               | 'a'                  | 275   | 276   | +0.000940
+way             | 'way'                | 277   | 280   | +0.000940
+that            | 'that'               | 281   | 285   | +0.000940
+takes           | 'takes'              | 286   | 291   | +0.000436
+full            | 'full'               | 292   | 296   | +0.000436
+account         | 'account'            | 297   | 304   | +0.000436
+of              | 'of'                 | 305   | 307   | +0.000436
+their           | 'their'              | 308   | 313   | +0.000436
+in              | 'in'                 | 314   | 316   | +0.004434
+herent          | 'herent'             | 316   | 322   | +0.004434
+dig             | 'dig'                | 323   | 326   | +0.007674
+nity            | 'nity'               | 326   | 330   | +0.007674
+and             | 'and'                | 331   | 334   | +0.007484
+diversity       | 'diversity'          | 335   | 344   | +0.007484
+.               | '.'                  | 344   | 345   | +0.007484
+                | ''                   | 0     | 0     | +0.000000
+  Added token 'Given ' (0-5) as 'Given'
+
+Saved word: 'Given' with SHAP -0.025489
+  Added token 'the ' (6-9) as 'the'
+
+Saved word: 'the' with SHAP +0.000115
+  Added token 'growing ' (10-17) as 'growing'
+
+Saved word: 'growing' with SHAP +0.000115
+  Added token 'importance ' (18-28) as 'importance'
+
+Saved word: 'importance' with SHAP +0.000115
+  Added token 'and ' (29-32) as 'and'
+
+Saved word: 'and' with SHAP +0.028112
+  Added token 'use ' (33-36) as 'use'
+
+Saved word: 'use' with SHAP +0.001027
+  Added token 'of ' (37-39) as 'of'
+
+Saved word: 'of' with SHAP +0.001027
+  Added token 'AI ' (40-42) as 'AI'
+
+Saved word: 'AI' with SHAP +0.003000
+  Added token 'systems' (43-50) as 'systems'
+  Added token ', ' (50-51) as ','
+
+Saved word: 'systems,' with SHAP +0.010767
+  Added token 'the ' (52-55) as 'the'
+
+Saved word: 'the' with SHAP -0.001493
+  Added token 'application ' (56-67) as 'application'
+
+Saved word: 'application' with SHAP -0.002792
+  Added token 'of ' (68-70) as 'of'
+
+Saved word: 'of' with SHAP -0.007133
+  Added token 'universal ' (71-80) as 'universal'
+
+Saved word: 'universal' with SHAP +0.063106
+  Added token 'design ' (81-87) as 'design'
+
+Saved word: 'design' with SHAP +0.005138
+  Added token 'principles ' (88-98) as 'principles'
+
+Saved word: 'principles' with SHAP +0.005138
+  Added token 'to ' (99-101) as 'to'
+
+Saved word: 'to' with SHAP +0.012716
+  Added token 'all ' (102-105) as 'all'
+
+Saved word: 'all' with SHAP +0.012716
+  Added token 'new ' (106-109) as 'new'
+
+Saved word: 'new' with SHAP +0.008397
+  Added token 'technologies ' (110-122) as 'technologies'
+
+Saved word: 'technologies' with SHAP +0.008397
+  Added token 'and ' (123-126) as 'and'
+
+Saved word: 'and' with SHAP +0.012870
+  Added token 'services ' (127-135) as 'services'
+
+Saved word: 'services' with SHAP -0.003946
+  Added token 'should ' (136-142) as 'should'
+
+Saved word: 'should' with SHAP -0.069198
+  Added token 'ensure ' (143-149) as 'ensure'
+
+Saved word: 'ensure' with SHAP +0.024980
+  Added token 'full ' (150-154) as 'full'
+
+Saved word: 'full' with SHAP +0.020204
+  Added token 'and ' (155-158) as 'and'
+
+Saved word: 'and' with SHAP +0.017812
+  Added token 'equal ' (159-164) as 'equal'
+
+Saved word: 'equal' with SHAP +0.012113
+  Added token 'access ' (165-171) as 'access'
+
+Saved word: 'access' with SHAP +0.012113
+  Added token 'for ' (172-175) as 'for'
+
+Saved word: 'for' with SHAP +0.015111
+  Added token 'everyone ' (176-184) as 'everyone'
+
+Saved word: 'everyone' with SHAP +0.015111
+  Added token 'potentially ' (185-196) as 'potentially'
+
+Saved word: 'potentially' with SHAP -0.002998
+  Added token 'affected ' (197-205) as 'affected'
+
+Saved word: 'affected' with SHAP -0.002998
+  Added token 'by ' (206-208) as 'by'
+
+Saved word: 'by' with SHAP -0.002998
+  Added token 'or ' (209-211) as 'or'
+
+Saved word: 'or' with SHAP -0.002998
+  Added token 'using ' (212-217) as 'using'
+
+Saved word: 'using' with SHAP +0.002152
+  Added token 'AI ' (218-220) as 'AI'
+
+Saved word: 'AI' with SHAP +0.002152
+  Added token 'technologies' (221-233) as 'technologies'
+  Added token ', ' (233-234) as ','
+
+Saved word: 'technologies,' with SHAP +0.004444
+  Added token 'including ' (235-244) as 'including'
+
+Saved word: 'including' with SHAP -0.002149
+  Added token 'persons ' (245-252) as 'persons'
+
+Saved word: 'persons' with SHAP -0.001714
+  Added token 'with ' (253-257) as 'with'
+
+Saved word: 'with' with SHAP -0.002482
+  Added token 'disa' (258-262) as 'disa'
+  Added token 'bili' (262-266) as 'bili'
+  Added token 'ties' (266-270) as 'ties'
+  Added token ', ' (270-271) as ','
+
+Saved word: 'disabilities,' with SHAP +0.002317
+  Added token 'in ' (272-274) as 'in'
+
+Saved word: 'in' with SHAP +0.000940
+  Added token 'a ' (275-276) as 'a'
+
+Saved word: 'a' with SHAP +0.000940
+  Added token 'way ' (277-280) as 'way'
+
+Saved word: 'way' with SHAP +0.000940
+  Added token 'that ' (281-285) as 'that'
+
+Saved word: 'that' with SHAP +0.000940
+  Added token 'takes ' (286-291) as 'takes'
+
+Saved word: 'takes' with SHAP +0.000436
+  Added token 'full ' (292-296) as 'full'
+
+Saved word: 'full' with SHAP +0.000436
+  Added token 'account ' (297-304) as 'account'
+
+Saved word: 'account' with SHAP +0.000436
+  Added token 'of ' (305-307) as 'of'
+
+Saved word: 'of' with SHAP +0.000436
+  Added token 'their ' (308-313) as 'their'
+
+Saved word: 'their' with SHAP +0.000436
+  Added token 'in' (314-316) as 'in'
+  Added token 'herent ' (316-322) as 'herent'
+
+Saved word: 'inherent' with SHAP +0.008867
+  Added token 'dig' (323-326) as 'dig'
+  Added token 'nity ' (326-330) as 'nity'
+
+Saved word: 'dignity' with SHAP +0.015349
+  Added token 'and ' (331-334) as 'and'
+
+Saved word: 'and' with SHAP +0.007484
+  Added token 'diversity' (335-344) as 'diversity'
+  Added token '.' (344-345) as '.'
+
+Saved final word: 'diversity.' with SHAP +0.014968
+
+=== Final Word Contributions ===
+should                    -0.069198 (NEG)
+universal                 +0.063106 (POS)
+Given                     -0.025489 (NEG)
+ensure                    +0.024980 (POS)
+dignity                   +0.015349 (POS)
+for                       +0.015111 (POS)
+everyone                  +0.015111 (POS)
+diversity.                +0.014968 (POS)
+to                        +0.012716 (POS)
+all                       +0.012716 (POS)
+equal                     +0.012113 (POS)
+access                    +0.012113 (POS)
+systems,                  +0.010767 (POS)
+inherent                  +0.008867 (POS)
+new                       +0.008397 (POS)
+technologies              +0.008397 (POS)
+and                       +0.007484 (POS)
+design                    +0.005138 (POS)
+principles                +0.005138 (POS)
+technologies,             +0.004444 (POS)
+services                  -0.003946 (NEG)
+potentially               -0.002998 (NEG)
+affected                  -0.002998 (NEG)
+by                        -0.002998 (NEG)
+or                        -0.002998 (NEG)
+application               -0.002792 (NEG)
+with                      -0.002482 (NEG)
+disabilities,             +0.002317 (POS)
+AI                        +0.002152 (POS)
+using                     +0.002152 (POS)
+including                 -0.002149 (NEG)
+persons                   -0.001714 (NEG)
+the                       -0.001493 (NEG)
+use                       +0.001027 (POS)
+in                        +0.000940 (POS)
+a                         +0.000940 (POS)
+way                       +0.000940 (POS)
+that                      +0.000940 (POS)
+of                        +0.000436 (POS)
+account                   +0.000436 (POS)
+their                     +0.000436 (POS)
+full                      +0.000436 (POS)
+takes                     +0.000436 (POS)
+growing                   +0.000115 (POS)
+importance                +0.000115 (POS)
