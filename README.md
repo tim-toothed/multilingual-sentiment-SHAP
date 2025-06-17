@@ -105,4 +105,8 @@ The project provides two types of visualizations:
 
 ## License
 
-[Your chosen license] 
+[MIT License](LICENSE)
+
+## Authors of the Research
+Timur Sharifullin, Francesco Chialli
+WU Digital Economy 2025
