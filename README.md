@@ -2,6 +2,8 @@
 
 This project implements multilingual sentiment analysis using SHAP (SHapley Additive exPlanations) for model interpretability. It analyzes sentiment in parallel texts across multiple languages (English, Russian, and Italian) and provides detailed visualizations of how each **word** contributes to the sentiment predictions.
 
+![Alt Text](images/slide.png)
+
 ## Features
 
 - Multilingual sentiment analysis using DistilBERT-based model
@@ -77,19 +79,22 @@ The project provides two types of visualizations:
    - Interactive tooltips
    - Sentiment-specific coloring
 
-![]('images/custom_vis.png')
+![Alt Text](images/custom_vis.png)
 
 2. SHAP Force Plot
    - Shows cumulative feature impact
    - Base value to prediction flow
 
-![]('images/shap_vis.png')
+![Alt Text](images/shap_vis.png)
 
 ## Output Files
 
+- `shap_clean.ipynb`: main Jupiter Notebook file with code
+- `movie.csv`: original dataset with 25 text chunks of parallel movie subtitles on EN-RU-IT
+- `ai_act.csv`: original dataset with 25 text chunks from AI Act on EN-IT
 - `simple_movie.json`: Processed movie subtitle analysis
 - `simple_legal.json`: Processed legal text analysis
-- `shap_logs/`: Directory containing detailed processing logs
+- `shap_logs/`: Directory containing detailed processing logs (from tokens to words)
 
 ## Notes
 
