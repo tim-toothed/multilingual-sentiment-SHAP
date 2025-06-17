@@ -42,10 +42,10 @@ pip install -r requirements.txt
 
 ## Sentiment Analsys Model
 
-Distilbert-based Multilingual Sentiment Classification Model ["tabularisai/multilingual-sentiment-analysis"](https://huggingface.co/tabularisai/multilingual-sentiment-analysis) is used.
-`Task:` Text Classification (Sentiment Analysis)
-`Languages:` Supports English plus Chinese (中文), Spanish (Español), Hindi (हिन्दी), Arabic (العربية), Bengali (বাংলা), Portuguese (Português), Russian (Русский), Japanese (日本語), German (Deutsch), Malay (Bahasa Melayu), Telugu (తెలుగు), Vietnamese (Tiếng Việt), Korean (한국어), French (Français), Turkish (Türkçe), Italian (Italiano), Polish (Polski), Ukrainian (Українська), Tagalog, Dutch (Nederlands), Swiss German (Schweizerdeutsch).
-`Number of Classes:` 5 (Very Negative, Negative, Neutral, Positive, Very Positive)
+Distilbert-based Multilingual Sentiment Classification Model ["tabularisai/multilingual-sentiment-analysis"](https://huggingface.co/tabularisai/multilingual-sentiment-analysis) is used.  
+`Task:` Text Classification (Sentiment Analysis)  
+`Languages:` Supports English plus Chinese (中文), Spanish (Español), Hindi (हिन्दी), Arabic (العربية), Bengali (বাংলা), Portuguese (Português), Russian (Русский), Japanese (日本語), German (Deutsch), Malay (Bahasa Melayu), Telugu (తెలుగు), Vietnamese (Tiếng Việt), Korean (한국어), French (Français), Turkish (Türkçe), Italian (Italiano), Polish (Polski), Ukrainian (Українська), Tagalog, Dutch (Nederlands), Swiss German (Schweizerdeutsch).  
+`Number of Classes:` 5 (Very Negative, Negative, Neutral, Positive, Very Positive)  
 
 ## Data Format
 
