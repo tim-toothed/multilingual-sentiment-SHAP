@@ -77,13 +77,13 @@ The project provides two types of visualizations:
    - Interactive tooltips
    - Sentiment-specific coloring
 
-![]('images/custom_vis.png')
+![Alt Text](images/custom_vis.png)
 
 2. SHAP Force Plot
    - Shows cumulative feature impact
    - Base value to prediction flow
 
-![]('images/shap_vis.png')
+![Alt Text](images/shap_vis.png)
 
 ## Output Files
 
