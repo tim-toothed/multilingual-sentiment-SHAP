@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1f7lvv7RuGWDW1p3ssn4gAG5c62eEJuPB?usp=sharing)
 
 
-This project implements multilingual sentiment analysis using SHAP (SHapley Additive exPlanations) for model interpretability. It analyzes sentiment in parallel texts across multiple languages (English, Russian, and Italian) and provides detailed visualizations of how each **word** contributes to the sentiment predictions.
+This project implements multilingual sentiment classification analysis using SHAP (SHapley Additive exPlanations) for model interpretability. It analyzes sentiment in parallel texts across multiple languages (English, Russian, and Italian) and provides detailed visualizations of how each **word** contributes to the sentiment predictions.
 
 ![Alt Text](images/slide.svg)
 
@@ -102,6 +102,7 @@ The project provides two types of visualizations:
 ## Notes
 
 - CUDA support is recommended for optimal performance
+- Sentiment **Classification** model ["tabularisai/multilingual-sentiment-analysis"](https://huggingface.co/tabularisai/multilingual-sentiment-analysis) is used
 
 ## License
 
