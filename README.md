@@ -2,7 +2,7 @@
 
 This project implements multilingual sentiment analysis using SHAP (SHapley Additive exPlanations) for model interpretability. It analyzes sentiment in parallel texts across multiple languages (English, Russian, and Italian) and provides detailed visualizations of how each **word** contributes to the sentiment predictions.
 
-![Alt Text](images/slide.png)
+![Alt Text](images/slide.svg)
 
 ## Features
 
