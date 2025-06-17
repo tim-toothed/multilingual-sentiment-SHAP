@@ -87,9 +87,12 @@ The project provides two types of visualizations:
 
 ## Output Files
 
+- `shap_clean.ipynb`: main Jupiter Notebook file with code
+- `movie.csv`: original dataset with 25 text chunks of parallel movie subtitles on EN-RU-IT
+- `ai_act.csv`: original dataset with 25 text chunks from AI Act on EN-IT
 - `simple_movie.json`: Processed movie subtitle analysis
 - `simple_legal.json`: Processed legal text analysis
-- `shap_logs/`: Directory containing detailed processing logs
+- `shap_logs/`: Directory containing detailed processing logs (from tokens to words)
 
 ## Notes
 
