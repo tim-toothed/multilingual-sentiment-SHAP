@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluating SHAP Explanations: A Cross-Linguistic Study</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            /* Subtle radial gradient background */
+            background: radial-gradient(at top left, #e0f2fe, #f0f9ff);
+            min-height: 100vh; /* Ensure body takes full height for scroll events */
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a202c; /* Darker text for headings */
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            color: #1a202c;
+            font-size: 2.25rem; /* text-4xl */
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 80px; /* Slightly wider line */
+            height: 5px; /* Thicker line */
+            background-color: #6366f1; /* Indigo line */
+            border-radius: 3px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Larger shadow */
+            padding: 2.5rem; /* Slightly more padding */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        /* Optional: Add a subtle hover effect to cards if desired, e.g., lift up */
+         .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 20px -3px rgba(0, 0, 0, 0.15), 0 6px 8px -2px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Sidebar specific styles */
+        #sidebar {
+            width: 4rem; /* w-16: 64px */
+            background: rgba(17, 24, 39, 0.85); /* Tailwind: bg-gray-900/85 */
+            backdrop-filter: blur(8px); /* Frosted glass effect */
+            transition: width 0.3s ease-in-out, background 0.3s ease-in-out;
+            border-top-right-radius: 1.5rem; /* Rounded top-right for visual appeal */
+            border-bottom-right-radius: 1.5rem; /* Rounded bottom-right */
+        }
+        #sidebar.expanded {
+            width: 16rem; /* w-64: 256px */
+            background: rgba(17, 24, 39, 0.95); /* Slightly less transparent when expanded */
+        }
+        #sidebar a {
+            padding: 0.75rem 1rem; /* py-3 px-4 */
+            display: flex;
+            align-items: center;
+            border-radius: 9999px; /* Rounded pill shape for active state */
+            margin-right: 0.5rem; /* Space from right edge */
+        }
+        #sidebar a.active {
+            background-color: #4338ca; /* Tailwind: bg-indigo-700, slightly darker for active */
+            color: white;
+        }
+        #sidebar .nav-text {
+            white-space: nowrap;
+            overflow: hidden;
+            opacity: 0;
+            width: 0;
+            transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+        }
+        #sidebar.expanded .nav-text {
+            opacity: 1;
+            width: auto;
+            margin-left: 1rem; /* Space between icon and text */
+        }
+        #sidebar .nav-icon {
+            min-width: 1.5rem; /* Ensure icon doesn't shrink */
+        }
+
+        /* Methodology specific styles */
+        .stage-icon {
+            width: 5rem; /* w-20 */
+            height: 5rem; /* h-20 */
+            border-radius: 9999px; /* rounded-full */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #e0e7ff; /* Tailwind: bg-indigo-100 */
+            color: #4f46e5; /* Tailwind: text-indigo-700 */
+            font-size: 0.875rem; /* text-sm */
+            font-weight: 600; /* font-semibold */
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .stage-icon:hover {
+            background-color: #c7d2fe; /* Tailwind: bg-indigo-200 */
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .stage-icon.active {
+            background-color: #4f46e5; /* Tailwind: bg-indigo-600 */
+            color: white;
+            box-shadow: 0 15px 20px -3px rgba(0, 0, 0, 0.2), 0 6px 8px -2px rgba(0, 0, 0, 0.1);
+        }
+        .stage-icon i {
+            font-size: 2.25rem; /* text-4xl */
+            margin-bottom: 0.25rem; /* mb-1 */
+        }
+        .stage-line {
+            width: 2px;
+            height: 2rem; /* h-8 */
+            background-color: #a5b4fc; /* Tailwind: bg-indigo-300 */
+        }
+        .details-panel {
+            min-height: 400px; /* Ensure consistent height for the details panel */
+            background-color: #f8fafc; /* bg-slate-50 */
+            border-radius: 1rem; /* rounded-xl */
+            padding: 2rem; /* p-8 */
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); /* inset shadow */
+            overflow-y: auto; /* Enable scrolling for long content */
+        }
+        .details-panel h3 {
+            color: #1e293b; /* text-slate-800 */
+            font-size: 1.75rem; /* text-3xl */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .details-panel p, .details-panel ul {
+            color: #475569; /* text-slate-700 */
+            font-size: 1rem; /* text-base */
+            line-height: 1.7;
+        }
+        .details-panel ul li {
+            margin-bottom: 0.5rem;
+        }
+        .details-panel ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+        .details-panel ul ul { /* Nested list */
+            list-style-type: circle;
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Problem Statement Framing Icons */
+        .framing-icon-card {
+            background-color: #f0f9ff; /* bg-blue-50 */
+            border-radius: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .framing-icon-card:hover {
+            background-color: #e0f2fe; /* bg-blue-100 */
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .framing-icon-card i {
+            font-size: 3rem; /* text-5xl */
+            color: #4f46e5; /* text-indigo-700 */
+            margin-bottom: 0.75rem; /* mb-3 */
+        }
+        .framing-icon-card h4 {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            color: #1a202c;
+            margin-bottom: 0.5rem;
+        }
+        .framing-icon-card p {
+            font-size: 0.9rem; /* text-sm */
+            color: #475569;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="fixed left-0 top-0 h-full text-white shadow-lg z-20">
+        <div class="p-4 flex items-center justify-center h-20 bg-gradient-to-r from-indigo-700 to-purple-800 rounded-tr-2xl rounded-br-2xl mb-4">
+            <span class="text-3xl font-bold nav-text transition-all duration-300 ease-in-out transform scale-x-0 origin-left opacity-0">SHAP</span>
+            <i class="fas fa-language text-4xl text-white nav-icon"></i>
+        </div>
+        <ul class="space-y-2 px-2">
+            <li>
+                <a href="#hero-intro" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-home nav-icon"></i>
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#resources" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-link nav-icon"></i>
+                    <span class="nav-text">Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="#problem-statement" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-exclamation-triangle nav-icon"></i>
+                    <span class="nav-text">Problem Statement</span>
+                </a>
+            </li>
+            <li>
+                <a href="#research-questions" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-question-circle nav-icon"></i>
+                    <span class="nav-text">Research Questions</span>
+                </a>
+            </li>
+            <li>
+                <a href="#methodology" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-cogs nav-icon"></i>
+                    <span class="nav-text">Methodology</span>
+                </a>
+            </li>
+            <li>
+                <a href="#shapley-values-challenges" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-chart-line nav-icon"></i>
+                    <span class="nav-text">SHAPley Values Challenges</span>
+                </a>
+            </li>
+            <li>
+                <a href="#shap-package-limitations" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-chart-bar nav-icon"></i>
+                    <span class="nav-text">SHAP Package Limitations</span>
+                </a>
+            </li>
+            <li>
+                <a href="#respondents-vs-shap-alignment" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-users nav-icon"></i>
+                    <span class="nav-text">Respondents vs SHAP</span>
+                </a>
+            </li>
+            <li>
+                <a href="#conclusion" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-lightbulb nav-icon"></i>
+                    <span class="nav-text">Conclusion</span>
+                </a>
+            </li>
+            <!-- Removed Contact from sidebar -->
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="ml-16 pt-8 pb-12 transition-all duration-300 ease-in-out">
+        <div class="container mx-auto px-4">
+
+            <!-- Hero Section / Title -->
+            <section id="hero-intro" class="text-center py-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl mb-12 shadow-lg">
+                <h1 class="text-white text-5xl font-extrabold mb-4 leading-tight">
+                    Evaluating SHAP Explanations for Multilingual Sentiment Analysis
+                </h1>
+                <p class="text-white text-xl font-light mb-2">
+                    A Cross-Linguistic Study on Human Perception and Interpretability
+                </p>
+                <p class="text-white text-lg font-light">
+                    Timur Sharifullin, Francesco Chialli<br>WU Digital Economy 2025
+                </p>
+            </section>
+
+            <!-- Resources Section -->
+            <section id="resources" class="mb-12 card">
+                <h2 class="section-title mb-8">Project Resources</h2>
+                <p class="text-gray-700 text-lg mb-6">
+                    Access the code, datasets, and detailed results related to this research project.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+
+                    <!-- Widget: GitHub Page -->
+                    <a href="https://github.com/tim-toothed/multilingual-sentiment-SHAP" target="_blank" class="block w-full max-w-xs">
+                        <div class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col justify-center items-center">
+                            <i class="fab fa-github text-5xl text-gray-700 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">GitHub Repository</h3>
+                            <p class="text-gray-600 text-sm">Explore the full source code and project files.</p>
+                        </div>
+                    </a>
+
+                    <!-- Widget: Google Colab Code Demo -->
+                    <a href="https://colab.research.google.com/drive/1f7lvv7RuGWDW1p3ssn4gAG5c62eEJuPB?usp=sharing" target="_blank" class="block w-full max-w-xs">
+                        <div class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col justify-center items-center">
+                            <i class="fas fa-terminal text-5xl text-gray-700 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Google Colab Code Demo</h3>
+                            <p class="text-gray-600 text-sm">Run and interact with the research code.</p>
+                        </div>
+                    </a>
+
+                    <!-- Widget: Movie Dataset on Kaggle -->
+                    <a href="https://www.kaggle.com/datasets/timursharifullindata/movie-parallel-subtitles-small-sentiment-dataset" target="_blank" class="block w-full max-w-xs">
+                        <div class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col justify-center items-center">
+                            <i class="fas fa-film text-5xl text-gray-700 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Movie Dataset (Kaggle)</h3>
+                            <p class="text-gray-600 text-sm">Access the movie sentiment dataset.</p>
+                        </div>
+                    </a>
+
+                    <!-- Widget: AI Act Dataset on Kaggle -->
+                    <a href="https://www.kaggle.com/datasets/timursharifullindata/eu-ai-act-legal-parallel-corpus-englishitalian" target="_blank" class="block w-full max-w-xs">
+                        <div class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col justify-center items-center">
+                            <i class="fas fa-gavel text-5xl text-gray-700 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">AI Act Dataset (Kaggle)</h3>
+                            <p class="text-gray-600 text-sm">Download the EU AI Act legal corpus.</p>
+                        </div>
+                    </a>
+
+                    <!-- Widget: Results Table (Google Sheets) -->
+                    <a href="https://docs.google.com/spreadsheets/d/1oUnzdHT0W6cxxTkynSMkRgAFRxW1dnkJHle1UZWj0b4/edit?usp=sharing" target="_blank" class="block w-full max-w-xs">
+                        <div class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col justify-center items-center">
+                            <i class="fas fa-table text-5xl text-gray-700 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Results Table (Google Sheets)</h3>
+                            <p class="text-gray-600 text-sm">View the comprehensive research results.</p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- Problem Statement -->
+            <section id="problem-statement" class="mb-12 card">
+                <h2 class="section-title mb-8">Problem Statement</h2>
+                <p class="text-gray-700 text-lg">
+                    As multilingual sentiment analysis models are increasingly deployed, the interpretability of their predictions via XAI tools like SHAP becomes crucial for trust and transparency. However, the effectiveness of SHAP explanations—particularly in multilingual and non-expert evaluation contexts— remains underexplored. This research investigates how native speakers of English, Italian, and Russian perceive SHAP explanations for a multilingual sentiment analysis model, focusing on the alignment between SHAP attributions and human reasoning, and the practical challenges in generating and visualizing such explanations.
+                </p>
+                <!-- New icons for research framing -->
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                    <div class="framing-icon-card">
+                        <i class="fas fa-user-check"></i>
+                        <h4>Human-Centered Evaluation</h4>
+                        <p>Assessing SHAP explanations' interpretability and usefulness for native speakers in multilingual sentiment analysis.</p>
+                    </div>
+                    <div class="framing-icon-card">
+                        <i class="fas fa-scale-balanced"></i>
+                        <h4>Human vs. Model vs. SHAP</h4>
+                        <p>Comparing human interpretation, model prediction, and SHAP explanation to evaluate explanation quality.</p>
+                    </div>
+                    <div class="framing-icon-card">
+                        <i class="fas fa-circle-exclamation"></i>
+                        <h4>SHAP Limitations</h4>
+                        <p>Exploring practical utility, visualization challenges, and attribution level (token/word/phrase) limitations of SHAP.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Overarching & Sub-Questions -->
+            <section id="research-questions" class="mb-12 card">
+                <h2 class="section-title mb-8">Research Questions</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Overarching Research Question:</h3>
+                        <ul class="list-disc list-inside text-gray-700 text-lg ml-4 space-y-2">
+                            <li>How interpretable and useful are SHAP explanations for native speakers evaluating multilingual sentiment analysis models across different languages and sentiment classes?</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Sub-Questions:</h3>
+                        <ul class="list-disc list-inside text-gray-700 text-lg ml-4 space-y-2">
+                            <li>To what extent do SHAP-based explanations align with native speakers’ judgments about which words contribute to sentiment in English, Italian, and Russian?</li>
+                            <li>What are the main challenges in mapping SHAPley values to human-interpretable explanations in case of text classification model for sentiment analysis?</li>
+                            <li>How do the limitations of SHAP’s standard visualizations and attribution schemes affect the practical utility of explanations for non-expert users?</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Methodology Section (Interactive) -->
+            <section id="methodology" class="mb-12 card">
+                <h2 class="section-title mb-8">Methodology</h2>
+                <p class="text-gray-700 text-lg mb-6">
+                    Explore the different stages of our research methodology by clicking on the icons below.
+                </p>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="flex flex-col items-center gap-2 md:w-1/3 lg:w-1/4">
+                        <div class="stage-icon active" data-stage="data-collection">
+                            <i class="fas fa-database"></i>
+                            <span>Data Collection</span>
+                        </div>
+                        <div class="stage-line"></div>
+                        <div class="stage-icon" data-stage="sentiment-model">
+                            <i class="fas fa-brain"></i>
+                            <span>Sentiment Model</span>
+                        </div>
+                        <div class="stage-line"></div>
+                        <div class="stage-icon" data-stage="shap-explanation">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>SHAP Explanation</span>
+                        </div>
+                        <div class="stage-line"></div>
+                        <div class="stage-icon" data-stage="human-evaluation">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Human Evaluation</span>
+                        </div>
+                        <div class="stage-line"></div>
+                        <div class="stage-icon" data-stage="tools-libraries">
+                            <i class="fas fa-tools"></i>
+                            <span>Tools & Libraries</span>
+                        </div>
+                    </div>
+
+                    <div id="methodology-details-panel" class="details-panel flex-grow md:w-2/3 lg:w-3/4">
+                        <div id="data-collection-details" class="methodology-detail-content">
+                            <h3>Initial Data Collection</h3>
+                            <p>Two datasets were formulated for the purpose of sentiment analysis task.</p>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li><strong>Movie Parallel Subtitles Dataset</strong> (<a href="https://www.kaggle.com/datasets/timursharifullindata/movie-parallel-subtitles-small-sentiment-dataset" target="_blank" class="text-indigo-600 hover:underline">Kaggle Link</a>) contains 25 aligned movie subtitle segments in English, Russian, and Italian, extracted from the ParTree corpus (<a href="https://www.swissubase.ch/en/catalogue/studies/20295/latest/datasets/2253/2582/overview" target="_blank" class="text-indigo-600 hover:underline">Parallel Treebanks</a>). Initial full scripts text files were filtered by languages. Non-movies (TV Shows) were excluded from the datasets. Large text files were selected with support of LLM tool (Claude Sonnet 4.0, Google Gemini 2.5 Flash), and the resulting phrases were validated by native Russian and Italian speakers to avoid any LLM hallucinations.</li>
+                                <li><strong>EU AI Act Legal Parallel Dataset</strong> (<a href="https://www.kaggle.com/datasets/timursharifullindata/eu-ai-act-legal-parallel-corpus-englishitalian" target="_blank" class="text-indigo-600 hover:underline">Kaggle Link</a>) contains 25 aligned text fragments from the official European Union AI Act in English and Italian. PDF documents were uploaded into Google Gemini 2.5 (Flash) LLM tool to select the article fragments that could have sentiment controversies. The resulting text fragments were validated by native Italian speaker to avoid any LLM hallucinations.</li>
+                            </ul>
+                        </div>
+
+                        <div id="sentiment-model-details" class="methodology-detail-content hidden">
+                            <h3>Sentiment Analysis Model</h3>
+                            <p>Multilingual DistilBERT-based model "<a href="https://huggingface.co/tabularisai/multilingual-sentiment-analysis" target="_blank" class="text-indigo-600 hover:underline">tabularisai/multilingual-sentiment-analysis</a>" fine-tuned for Sentiment Classification task was selected for the project. This model supports all three languages - English, Italian and Russian, therefore we achieve consistency and unity among the resulting predictions and can make conclusions about the underlying model. The model output is five Sentiment classes (Very Negative, Negative, Neutral, Positive, Very Positive) with the confidence level (probability in %). The example of the output:</p>
+
+                            <style>
+                                pre {
+                                    margin: 0;
+                                    background-color: #f4f4f4;
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                }
+                                .json-key {
+                                    color: #0070C1;
+                                }
+                                .json-value {
+                                    color: #008000;
+                                }
+                                .json-string {
+                                    color: #A31515;
+                                }
+                            </style>
+<pre><code>[
+    [
+        {'label': <span class="json-string">'Very Negative'</span>, 'score': <span class="json-value">0.39152342081069946</span>},
+        {'label': <span class="json-string">'Neutral'</span>, 'score': <span class="json-value">0.1992652714252472</span>},
+        {'label': <span class="json-string">'Negative'</span>, 'score': <span class="json-value">0.16455510258674622</span>},
+        {'label': <span class="json-string">'Very Positive'</span>, 'score': <span class="json-value">0.12673407793045044</span>},
+        {'label': <span class="json-string">'Positive'</span>, 'score': <span class="json-value">0.11792213469743729</span>}
+    ]
+]
+</code></pre>
+
+                        </div>
+
+                        <div id="shap-explanation-details" class="methodology-detail-content hidden">
+                            <h3>SHAP Explanation</h3>
+                            <p>In order to increase the interpretability of the resulting SHAP explanations, <b>token-level explanations</b> were combined to create <b>word-level explanations</b>. The algorithm reconstructs complete words by combining subword tokens (using the tokenizer's offset mappings) and summing their SHAP values, using whitespace boundaries to determine word segmentation.<br><br>The process was validated by checking the logs. <b>All the logs are available</b> in specified GitHub Repository folder (<a href="https://github.com/tim-toothed/multilingual-sentiment-SHAP/tree/main/shap_logs" target="_blank" class="text-indigo-600 hover:underline">SHAP Logs</a>).</p>
+                        </div>
+
+                        <div id="human-evaluation-details" class="methodology-detail-content hidden">
+                            <h3>Human Qualitative Evaluation</h3>
+                            <p class="mb-4">
+                                <strong>3 native Italian and 3 native Russian speakers</strong> participated in a semi-structured survey to assess the interpretability of SHAP explanations for sentiment analysis. The survey was administered in a semi-structured format, with the researcher present to clarify questions and record responses. Participants reviewed individual phrases in their native language, each accompanied by the model’s sentiment prediction and a SHAP-based visual explanation highlighting influential words.
+                            </p>
+                            <p class="mt-4 mb-2 font-bold">For each phrase, respondents:</p>
+                            <ol class="list-decimal list-inside ml-6 mt-2 mb-4">
+                                <li class="mb-2"><strong>Provided their own sentiment judgement</strong> (Very Positive, Positive, Neutral, Negative, Very Negative)</li>
+                                <li class="mb-2"><strong>Identified words</strong> they felt contributed most to the sentiment</li>
+                                <li class="mb-2"><strong>Evaluated the quality of the SHAP visualization</strong> by the 5-point Likert Scale (1– Strongly disagree, 5 - Strongly agree)</li>
+                                <li class="mb-2"><strong>Compared the sentiment to the English equivalent</strong> ("Do you feel the same way about the similar English phrase or does it have a different mood?" If different - provided short explanation)</li>
+                            </ol>
+                            <p class="mt-4 mb-2">
+                                The researcher recorded responses and determined whether participants’ word choices aligned with the SHAP highlights ("Agree" or "Disagree"). To categorize agreement between the model’s sentiment prediction and the human annotator’s judgment, a scoring system was used:
+                            </p>
+                            <ul class="list-disc list-inside ml-6 mt-2">
+                                <li class="mb-2"><strong>+5:</strong> Exact Match (e.g., Positive–Positive, Negative–Negative)</li>
+                                <li class="mb-2"><strong>+3:</strong> Direction Match (e.g., Positive–Very Positive, Negative–Very Negative)</li>
+                                <li class="mb-2"><strong>–1:</strong> Neutral Mismatch ±1 (e.g., Neutral–Positive, Neutral–Negative)</li>
+                                <li class="mb-2"><strong>–2:</strong> Neutral Mismatch ±2 (e.g., Neutral–Very Positive, Neutral–Very Negative)</li>
+                                <li class="mb-2"><strong>–3:</strong> Direction Mismatch ±2 (e.g., Positive–Negative)</li>
+                                <li class="mb-2"><strong>–4:</strong> Direction Mismatch ±3 (e.g., Positive–Very Negative, Negative–Very Positive)</li>
+                                <li class="mb-2"><strong>–5:</strong> Max Direction Mismatch (e.g., Very Positive–Very Negative)</li>
+                            </ul>
+                        </div>
+
+
+                        <div id="tools-libraries-details" class="methodology-detail-content hidden">
+                            <h3>Main Tools and Libraries</h3>
+                            <p>Such Python packages were used in the project:</p>
+                            <ul class="list-decimal list-inside ml-4 mt-2">
+                                <li><strong>Hugging Face Transformers</strong> - to run the Sentiment Classification Model.</li>
+                                <li><strong>SHAP</strong> - to explain the token-level contributions in resulting predictions and create visualizations.</li>
+                                <li><strong>Plotly</strong> - to create custom visualization based on word-level SHAPley values.</li>
+                            </ul>
+                            <p class="mt-2">Detailed information about other used packages is available in the GitHub Repository (<a href="https://github.com/tim-toothed/multilingual-sentiment-SHAP" target="_blank" class="text-indigo-600 hover:underline">GitHub Repository</a>).</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Result 1: SHAPley Values Challenges (Now a top-level section) -->
+            <section id="shapley-values-challenges" class="mb-12 card">
+                <h2 class="section-title mb-8">1. SHAPley Values: Challenges in Human-Interpretable Explanations</h2>
+                <p class="text-gray-700 text-lg mb-4">
+                    The main underlying problem is the point of view: SHAPley values are applied to the tokens of the words in terms of sentiment analysis, however if SHAP is meant to explain, then we have a problem of non-explainability of explanation: people usually cannot interpret the exact tokens, so the tokens should be combined into words or n-grams. Therefore, we have a problem of correct description vs explainable results. In our project we formulate word-level explanation, by combining the token-level predictions.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    This approach is intuitive, but not for every case: e.g. the word “atomic” will not be negative, it is more of a neutral word in general case, but in the context of A-bomb - this is negative. While in English “A-bomb” will be read as one word, in Russian and Italian it will be two words - equivalent to “atomic” and “bomb”. So, the right choice would be to use n-gram explanation, however this approach cannot be fully automated, therefore there is a problem of “explainability” - technically it is presented, but it will vary due to the interpretation because of the human-machine logic issues.
+                </p>
+                <!-- Placeholders for visualizations related to this section -->
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="shapley-values-visualizations">
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Plotly Graph: Visualization of Mathema+tician+s vs Mathematicians</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Image: Visualization of A-bomb vs Atomic Bomb</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Image: Visualization of "not something" vs "something"</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Result 2: SHAP Package Limitations (Now a top-level section) -->
+            <section id="shap-package-limitations" class="mb-12 card">
+                <h2 class="section-title mb-8">2. SHAP Package: Limitations in Practical Utility</h2>
+                <p class="text-gray-700 text-lg mb-4">
+                    The main problem of SHAP as a package is that it's not really universal and flexible. Technically SHAP is showing not the “Positive” or “Negative” sentiment, but the positive or negative SHAPley values - it works in Force Plot, but as a result we got absolutely misleading results for respondents’ evaluation. If the prediction is Negative - then the negative SHAPley values will technically match the positive words by sentiment (because it contributes negatively to the result), so Positive words are red because they negatively contribute to “Negative” prediction - absolutely non-intuitive experience.
+                </p>
+                <p class="text-gray-700 text-lg mb-4">
+                    Text Plot seems to work incorrectly with CUDA and newer versions of package (>v0.46.0). While technically the color scheme can be tuned in the SHAP package and the version problems certainly could be solved, some aspects still will not be understandable for the non-expert respondent. It seems excessive from the pragmatic point of view. What should simplify the process - predefined color scheme and plots - actually make the visualization task harder if there is something outside-the-box.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    Therefore it is easier to just get the basic SHAPley values and then create a plot with Plotly, Matplotlib, Seaborn or any other popular visualization package of choice. Common users - researchers and data analysts - will still need other plots for the full report and they certainly will have extensive knowledge on classic visualization packages. From this perspective, SHAP could only suggest simplified and faster ways to create pretty plots designated for clear explanations. However, our project demonstrates that SHAP has major problems with accomplishing this task. It does not take into account the difference in the level of knowledge of stakeholders who need explanations. Therefore, for non-expert observers the plot will be too complex and rather incomprehensible, while for some experts such plots may seem too simplistic and describe too little. Package has problems with support. For example, the previously described bug with color mapping on Text Plot was discussed in October 2024 on the official SHAP github page, but is still open and unresolved. It is typical for highly specialized packages. It is difficult to customize, as it is not designed for general visualization.
+                </p>
+                <!-- Placeholders for visualizations related to this section -->
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="shap-package-visualizations">
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Plotly Graph: SHAP Force Plot of Negative sentence</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Image: SHAP Black Text Plot</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
+                        <p class="text-gray-500">Image: Explaining SHAP explanations</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Result 3: Respondents vs SHAP Alignment (Now a top-level section) -->
+            <section id="respondents-vs-shap-alignment" class="mb-12 card">
+                <h2 class="section-title mb-8">3. Respondents vs SHAP Alignment: Human-Machine Logic Conflict</h2>
+                <p class="text-gray-700 text-lg mb-4">
+                    That is the interesting question as again we have a conflict of human-machine logic. The results that we have are quite controversial: most of the predictions made by the model agreed with the evaluation of the respondents - so we should conclude that mostly the model works correctly. However, in a lot of cases the respondents did not agree with the visual explanation based on SHAPley values.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    And what should the potential developer do with such results? Should the model be tuned again because it does not correspond with human logic? But the model does not work by human logic anyway, and if statistically the model shows good quality of overall prediction - why should the developer care about the incorrectness by explanation? Are SHAP values incorrect? Technically it cannot be the case, but we can neither confirm or deny the correctness of the explanations - it is just contributions, we do not know the exact algorithm of how the model actually works. Therefore, we go back to the case of why we need to use SHAPley values: the result is correct, but we got it from the “incorrect” processes (from the point of view of human logic).
+                </p>
+                <!-- Placeholders for visualizations related to this section -->
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="respondents-alignment-visualizations">
+                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
+                        <p class="text-gray-500">Plotly Graph: prediction_movie.json / prediction_legal.json</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
+                        <p class="text-gray-500">Plotly Graph: word_selection_movie.json / word_selection_legal.json</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
+                        <p class="text-gray-500">Plotly Graph: explanation_movie.json / explanation_legal.json</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conclusion -->
+            <section id="conclusion" class="mb-12 card">
+                <h2 class="section-title mb-8">Conclusion</h2>
+                <p class="text-gray-700 text-lg">
+                    The interpretability and usefulness of SHAP in this particular context is controversial.
+                </p>
+            </section>
+
+            <!-- Author Info / Ending Phrase -->
+            <section id="contact" class="mb-12 card text-center">
+                <h2 class="section-title mx-auto w-fit mb-8">Thank you for your attention!</h2>
+                <p class="text-gray-700 text-lg">
+                    Would appreciate any stars for <a href="https://github.com/tim-toothed/multilingual-sentiment-SHAP" target="_blank" class="text-indigo-600 hover:underline">Github Repo</a> and upvotes for <a href="https://www.kaggle.com/timursharifullindata" target="_blank" class="text-indigo-600 hover:underline">Kaggle datasets</a>!
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center mt-auto">
+        <p>&copy; 2025 Timur Sharifullin & Francesco Chialli | All rights reserved.</p>
+        <p class="text-sm mt-2">Built with HTML, Tailwind CSS, JS and a touch of AI.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebar = document.getElementById('sidebar');
+            const navLinks = document.querySelectorAll('#sidebar .nav-link');
+            const sections = document.querySelectorAll('main section');
+
+            // Methodology section elements
+            const stageIcons = document.querySelectorAll('.stage-icon');
+            const detailContents = document.querySelectorAll('.methodology-detail-content');
+
+            // Function to show/hide methodology details
+            const showMethodologyDetails = (stageId) => {
+                detailContents.forEach(content => {
+                    content.classList.add('hidden');
+                });
+                document.getElementById(`${stageId}-details`).classList.remove('hidden');
+
+                stageIcons.forEach(icon => {
+                    icon.classList.remove('active');
+                });
+                document.querySelector(`.stage-icon[data-stage="${stageId}"]`).classList.add('active');
+            };
+
+            // Add click listeners to methodology stage icons
+            stageIcons.forEach(icon => {
+                icon.addEventListener('click', () => {
+                    const stageId = icon.dataset.stage;
+                    showMethodologyDetails(stageId);
+                });
+            });
+
+            // Initial display for methodology details (show the first one)
+            if (stageIcons.length > 0) {
+                showMethodologyDetails(stageIcons[0].dataset.stage);
+            }
+
+            // Expand sidebar on hover
+            sidebar.addEventListener('mouseenter', () => {
+                sidebar.classList.add('expanded');
+                sidebar.querySelector('.nav-text').classList.remove('scale-x-0', 'opacity-0');
+            });
+
+            // Collapse sidebar on mouse leave
+            sidebar.addEventListener('mouseleave', () => {
+                sidebar.classList.remove('expanded');
+                sidebar.querySelector('.nav-text').classList.add('scale-x-0', 'opacity-0');
+            });
+
+            // Function to highlight active section in sidebar
+            const highlightActiveNavLink = () => {
+                let currentActiveSectionId = '';
+                for (let i = sections.length - 1; i >= 0; i--) {
+                    const section = sections[i];
+                    const rect = section.getBoundingClientRect();
+                    const offset = window.innerHeight * 0.3; // Highlight when 30% of section is visible
+
+                    if (rect.top <= offset && rect.bottom >= offset) {
+                        currentActiveSectionId = section.id;
+                        break;
+                    }
+                }
+
+                if (!currentActiveSectionId && window.scrollY < sections[0].offsetTop + 50) {
+                     currentActiveSectionId = sections[0].id;
+                }
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentActiveSectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', highlightActiveNavLink);
+            highlightActiveNavLink(); // Call once on load
+        });
+    </script>
+</body>
+</html>
