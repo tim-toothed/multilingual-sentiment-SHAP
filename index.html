@@ -194,6 +194,60 @@
             font-size: 0.9rem; /* text-sm */
             color: #475569;
         }
+
+        /* Plotly iframe container for responsiveness */
+        .plotly-embed-container {
+            position: relative;
+            width: 100%;
+            /* Adjust padding-top for desired aspect ratio. 75% for 4:3, 56.25% for 16:9 */
+            padding-top: 75%;
+            overflow: hidden;
+            background-color: #f0f4f8; /* Light background for loading */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .plotly-embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove default iframe border */
+            border-radius: inherit; /* Inherit border-radius from container */
+        }
+
+        /* Specific styles for the table within the problem statement */
+        .shap-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .shap-table th, .shap-table td {
+            border: 1px solid #e2e8f0; /* Tailwind: border-gray-200 */
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .shap-table th {
+            background-color: #f8fafc; /* Tailwind: bg-slate-50 */
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .shap-table td {
+            color: #475569;
+        }
+
+        .shap-table tbody tr:nth-child(odd) {
+            background-color: #fdfefe; /* Slightly different background for odd rows */
+        }
+
+        .shap-table tbody tr:hover {
+            background-color: #f0f4f8; /* Highlight row on hover */
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -215,6 +269,12 @@
                 <a href="#resources" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
                     <i class="fas fa-link nav-icon"></i>
                     <span class="nav-text">Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="#introduction-examples" class="nav-link text-gray-300 hover:text-white hover:bg-gray-700/50">
+                    <i class="fas fa-eye nav-icon"></i>
+                    <span class="nav-text">Introduction</span>
                 </a>
             </li>
             <li>
@@ -259,7 +319,6 @@
                     <span class="nav-text">Conclusion</span>
                 </a>
             </li>
-            <!-- Removed Contact from sidebar -->
         </ul>
     </nav>
 
@@ -333,6 +392,38 @@
                         </div>
                     </a>
 
+                </div>
+            </section>
+
+            <!-- Introduction to SHAP Explanations (New Section) -->
+            <section id="introduction-examples" class="mb-12 card">
+                <h2 class="section-title mb-8">Introduction to SHAP Explanations</h2>
+                <p class="text-gray-700 text-lg mb-6">
+                    Interact with the sentiment analysis model's explanations! Click the buttons below to see how SHAP highlights influential words in English, Italian, and Russian examples.
+                </p>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+                    <button id="show-english-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-200 transform hover:scale-105">
+                        <i class="fas fa-globe mr-2"></i> Show English Result
+                    </button>
+                    <button id="show-foreign-btn" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-200 transform hover:scale-105">
+                        <i class="fas fa-comments mr-2"></i> Show Italian and Russian Results
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8" id="intro-plots-container">
+                    <!-- English Example -->
+                    <div id="english-plot-container" class="plotly-embed-container hidden">
+                        <iframe id="example-en-plot" src="example_en.html" title="English SHAP Example"></iframe>
+                    </div>
+                    <!-- Italian Example -->
+                    <div id="italian-plot-container" class="plotly-embed-container hidden">
+                        <iframe id="example-it-plot" src="example_it.html" title="Italian SHAP Example"></iframe>
+                    </div>
+                    <!-- Russian Example -->
+                    <div id="russian-plot-container" class="plotly-embed-container hidden">
+                        <iframe id="example-ru-plot" src="example_ru.html" title="Russian SHAP Example"></iframe>
+                    </div>
                 </div>
             </section>
 
@@ -507,89 +598,233 @@
                 </div>
             </section>
 
-            <!-- Result 1: SHAPley Values Challenges (Now a top-level section) -->
+            <!-- Result 1: SHAPley Values Challenges (Updated Section) -->
             <section id="shapley-values-challenges" class="mb-12 card">
                 <h2 class="section-title mb-8">1. SHAPley Values: Challenges in Human-Interpretable Explanations</h2>
+                
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">RQ: What are the main challenges in mapping SHAPley values to human-interpretable explanations in case of text classification model for sentiment analysis?</h3>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Token-Level vs. Word-Level Explanations</h4>
                 <p class="text-gray-700 text-lg mb-4">
-                    The main underlying problem is the point of view: SHAPley values are applied to the tokens of the words in terms of sentiment analysis, however if SHAP is meant to explain, then we have a problem of non-explainability of explanation: people usually cannot interpret the exact tokens, so the tokens should be combined into words or n-grams. Therefore, we have a problem of correct description vs explainable results. In our project we formulate word-level explanation, by combining the token-level predictions.
+                    SHAP (SHapley Additive exPlanations) values are typically computed at the token level in sentiment analysis models. However, this granularity poses a challenge for interpretability: human users naturally reason about text in terms of words or phrases, not individual tokens. To bridge this gap, our project aggregates token-level SHAP values into word-level explanations. While this approach improves intuitiveness, it is not without limitations.
                 </p>
-                <p class="text-gray-700 text-lg">
-                    This approach is intuitive, but not for every case: e.g. the word “atomic” will not be negative, it is more of a neutral word in general case, but in the context of A-bomb - this is negative. While in English “A-bomb” will be read as one word, in Russian and Italian it will be two words - equivalent to “atomic” and “bomb”. So, the right choice would be to use n-gram explanation, however this approach cannot be fully automated, therefore there is a problem of “explainability” - technically it is presented, but it will vary due to the interpretation because of the human-machine logic issues.
-                </p>
-                <!-- Placeholders for visualizations related to this section -->
-                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="shapley-values-visualizations">
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Plotly Graph: Visualization of Mathema+tician+s vs Mathematicians</p>
-                    </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Image: Visualization of A-bomb vs Atomic Bomb</p>
-                    </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Image: Visualization of "not something" vs "something"</p>
-                    </div>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Example: Combining Tokens into Words</h4>
+                <div class="overflow-x-auto">
+                    <table class="shap-table">
+                        <thead>
+                            <tr>
+                                <th>Explanation Level</th>
+                                <th>Text</th>
+                                <th>SHAP Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Token-level</td>
+                                <td>'Math'</td>
+                                <td>+0.009696</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>'ema'</td>
+                                <td>+0.001574</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>'tician'</td>
+                                <td>+0.002578</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>'s'</td>
+                                <td>+0.002578</td>
+                            </tr>
+                            <tr class="font-bold">
+                                <td>Word-level</td>
+                                <td>Mathematicians</td>
+                                <td>+0.016426</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Contextual and Cross-Linguistic Challenges</h4>
+                <p class="text-gray-700 text-lg mb-4">
+                    The interpretability of SHAP explanations further complicates when words carry context-dependent sentiment or when languages handle compound terms differently. For instance:
+                </p>
+                <ul class="list-disc list-inside text-gray-700 text-lg ml-4 space-y-2 mb-4">
+                    <li>In English, "A-bomb" is treated as a single word with a strongly negative sentiment.</li>
+                    <li>In Italian and Russian, the equivalent phrase ("bomba atomica" or "атомная бомба") is split into multiple words, each contributing differently to the sentiment.</li>
+                </ul>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Examples Across Languages:</h4>
+                <div class="overflow-x-auto">
+                    <table class="shap-table">
+                        <thead>
+                            <tr>
+                                <th>Language</th>
+                                <th>Phrase</th>
+                                <th>Word</th>
+                                <th>SHAP Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="1"><strong>English</strong></td>
+                                <td>"A-bomb."</td>
+                                <td>A-bomb</td>
+                                <td>+0.113532</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"><strong>Italian</strong></td>
+                                <td rowspan="2">"bomba atomica."</td>
+                                <td>bomba</td>
+                                <td>+0.004191</td>
+                            </tr>
+                            <tr>
+                                <td>atomica.</td>
+                                <td>-0.045284</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"><strong>Russian</strong></td>
+                                <td rowspan="2">"атомные бомбы."</td>
+                                <td>атомные</td>
+                                <td>-0.003834</td>
+                            </tr>
+                            <tr>
+                                <td>бомбы.</td>
+                                <td>+0.076413</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Limitations of Automation and Human-Machine Logic</h4>
+                <p class="text-gray-700 text-lg">
+                    While n-gram explanations offer a more accurate reflection of human reasoning, they cannot be fully automated. This introduces variability in interpretability, as the "correct" grouping of tokens may depend on subjective or contextual judgments. The tension between technical precision (token-level accuracy) and human-friendly explanations (word or phrase-level) remains unresolved, posing a fundamental challenge for explainable AI (XAI) in multilingual settings.
+                </p>
             </section>
 
-            <!-- Result 2: SHAP Package Limitations (Now a top-level section) -->
+            <!-- Result 2: SHAP Package Limitations (Updated Section) -->
             <section id="shap-package-limitations" class="mb-12 card">
                 <h2 class="section-title mb-8">2. SHAP Package: Limitations in Practical Utility</h2>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">RQ: How do the limitations of SHAP’s standard visualizations and attribution schemes affect the practical utility of explanations for non-expert users?</h3>
                 <p class="text-gray-700 text-lg mb-4">
-                    The main problem of SHAP as a package is that it's not really universal and flexible. Technically SHAP is showing not the “Positive” or “Negative” sentiment, but the positive or negative SHAPley values - it works in Force Plot, but as a result we got absolutely misleading results for respondents’ evaluation. If the prediction is Negative - then the negative SHAPley values will technically match the positive words by sentiment (because it contributes negatively to the result), so Positive words are red because they negatively contribute to “Negative” prediction - absolutely non-intuitive experience.
+                    In the context of project's case, SHAP’s standard visualizations often confuse non-expert users because they display <em>SHAP values</em> (feature contributions to the model’s output) rather than direct sentiment labels. For example:
                 </p>
-                <p class="text-gray-700 text-lg mb-4">
-                    Text Plot seems to work incorrectly with CUDA and newer versions of package (>v0.46.0). While technically the color scheme can be tuned in the SHAP package and the version problems certainly could be solved, some aspects still will not be understandable for the non-expert respondent. It seems excessive from the pragmatic point of view. What should simplify the process - predefined color scheme and plots - actually make the visualization task harder if there is something outside-the-box.
-                </p>
-                <p class="text-gray-700 text-lg">
-                    Therefore it is easier to just get the basic SHAPley values and then create a plot with Plotly, Matplotlib, Seaborn or any other popular visualization package of choice. Common users - researchers and data analysts - will still need other plots for the full report and they certainly will have extensive knowledge on classic visualization packages. From this perspective, SHAP could only suggest simplified and faster ways to create pretty plots designated for clear explanations. However, our project demonstrates that SHAP has major problems with accomplishing this task. It does not take into account the difference in the level of knowledge of stakeholders who need explanations. Therefore, for non-expert observers the plot will be too complex and rather incomprehensible, while for some experts such plots may seem too simplistic and describe too little. Package has problems with support. For example, the previously described bug with color mapping on Text Plot was discussed in October 2024 on the official SHAP github page, but is still open and unresolved. It is typical for highly specialized packages. It is difficult to customize, as it is not designed for general visualization.
-                </p>
-                <!-- Placeholders for visualizations related to this section -->
-                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="shap-package-visualizations">
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Plotly Graph: SHAP Force Plot of Negative sentence</p>
-                    </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Image: SHAP Black Text Plot</p>
-                    </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center h-64 flex items-center justify-center">
-                        <p class="text-gray-500">Image: Explaining SHAP explanations</p>
-                    </div>
+                <ul class="list-disc list-inside text-gray-700 text-lg ml-4 space-y-2 mb-4">
+                    <li>In a <strong>standard SHAP Force Plot</strong>, words with <em>positive SHAP values</em> push the model’s prediction toward a class (e.g., &quot;Negative&quot;), but this can appear counterintuitive. A word like &quot;happy&quot; might show a <em>negative SHAP value</em> in a negative sentiment prediction (because it reduces the model’s confidence in &quot;Negative&quot;), yet users expect &quot;happy&quot; to align with <em>positive sentiment</em>.</li>
+                    <li>This disconnect creates misleading interpretations, as users conflate SHAP’s technical output (contributions to the prediction) with subjective sentiment associations.</li>
+                </ul>
+                <div class="mt-6 mb-6">
+                    <img src="shap_negative_example.png" alt="SHAP Negative Example Plot" class="w-full rounded-lg shadow-md">
                 </div>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Technical and Usability Challenges</h4>
+                <ol class="list-decimal list-inside text-gray-700 text-lg ml-4 space-y-2 mb-4">
+                    <li><strong>Visualization Bugs and Inconsistencies</strong>
+                        <ul class="list-disc list-inside ml-6 mt-1 mb-2">
+                            <li>Package has problems with support. For example, the bug with color mapping on <strong>Text Plot</strong> was discussed in October 2024 on the official SHAP github page, but is still open and unresolved. It is typical for highly specialized packages.</li>
+                        </ul>
+                        <div class="mt-4 mb-4">
+                            <img src="very_bad_example.png" alt="Very Bad Example Plot" class="w-full rounded-lg shadow-md">
+                        </div>
+                        <ul class="list-disc list-inside ml-6 mt-1">
+                            <li>While color schemes and version-specific workarounds exist, they require technical expertise, limiting accessibility for non-experts.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Rigid Design for Diverse Audiences</strong>
+                        <ul class="list-disc list-inside ml-6 mt-1 mb-2">
+                            <li>SHAP’s predefined plots are either *too complex* for non-experts (e.g., Force Plots with bidirectional arrows) or *too simplistic* for experts seeking granular insights.</li>
+                            <li>Customization is cumbersome, as the package prioritizes algorithmic accuracy over user-centric design.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Practical Workarounds</strong>
+                        <p class="mt-1 mb-2 ml-6">
+                            Practitioners would bypass SHAP’s native visualizations, extracting raw SHAP values and plotting them with tools like <strong>Matplotlib</strong> or <strong>Plotly</strong>. This approach offers:
+                        </p>
+                        <ul class="list-disc list-inside ml-10 mt-1">
+                            <li>Greater flexibility in tailoring explanations to audience needs.</li>
+                            <li>Integration with broader reporting workflows (e.g., combining SHAP outputs with traditional EDA plots).</li>
+                        </ul>
+                    </li>
+                </ol>
             </section>
 
             <!-- Result 3: Respondents vs SHAP Alignment (Now a top-level section) -->
             <section id="respondents-vs-shap-alignment" class="mb-12 card">
                 <h2 class="section-title mb-8">3. Respondents vs SHAP Alignment: Human-Machine Logic Conflict</h2>
-                <p class="text-gray-700 text-lg mb-4">
-                    That is the interesting question as again we have a conflict of human-machine logic. The results that we have are quite controversial: most of the predictions made by the model agreed with the evaluation of the respondents - so we should conclude that mostly the model works correctly. However, in a lot of cases the respondents did not agree with the visual explanation based on SHAPley values.
-                </p>
-                <p class="text-gray-700 text-lg">
-                    And what should the potential developer do with such results? Should the model be tuned again because it does not correspond with human logic? But the model does not work by human logic anyway, and if statistically the model shows good quality of overall prediction - why should the developer care about the incorrectness by explanation? Are SHAP values incorrect? Technically it cannot be the case, but we can neither confirm or deny the correctness of the explanations - it is just contributions, we do not know the exact algorithm of how the model actually works. Therefore, we go back to the case of why we need to use SHAPley values: the result is correct, but we got it from the “incorrect” processes (from the point of view of human logic).
-                </p>
-                <!-- Placeholders for visualizations related to this section -->
-                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8" id="respondents-alignment-visualizations">
-                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
-                        <p class="text-gray-500">Plotly Graph: prediction_movie.json / prediction_legal.json</p>
+                <p class="text-gray-700 text-lg mb-4"><strong>RQ: To what extent do SHAP-based explanations align with native speakers’ judgments about which words contribute to sentiment in English, Italian, and Russian?</strong></p>
+                <p class="text-gray-700 text-lg mb-4">The results of this project highlights the xAI issue of a difference between human and machine logic. The results that we have are quite controversial. On the one hand most of the predictions made by the model agreed with the evaluation of the respondents for both languages, which should prove that the model predictions are generally correct.</p>
+                
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-prediction-movie" src="prediction_movie.html" title="Plotly Prediction Movie"></iframe>
                     </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
-                        <p class="text-gray-500">Plotly Graph: word_selection_movie.json / word_selection_legal.json</p>
-                    </div>
-                    <div class="bg-gray-100 p-6 rounded-lg text-center min-h-[400px] flex items-center justify-center">
-                        <p class="text-gray-500">Plotly Graph: explanation_movie.json / explanation_legal.json</p>
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-prediction-legal" src="prediction_legal.html" title="Plotly Prediction Legal"></iframe>
                     </div>
                 </div>
+
+                <p class="text-gray-700 text-lg mt-4 mb-4">However, in a lot of cases the respondents did not agree with the visual explanation based on SHAPley values. Thus, we had a sufficient number of cases where respondents were in agreement with the overall class of sentiment predicted by the model, but were in partial or complete disagreement with how this result was obtained.</p>
+                
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Example of Disagreement in Russian:</h4>
+                <div class="mt-6 mb-6">
+                    <img src="disagreement.png" alt="Disagreement Example Plot" class="w-full rounded-lg shadow-md">
+                </div>
+                <p class="text-gray-700 text-lg mb-4">For this sentence, all respondents rated the sentiment as “Positive”, which matches perfectly with the model's prediction. In the image, the positive words selected by the respondents are highlighted in purple. Respondents gave scores of 1, 2, and 2 to this visual explanation.</p>
+
+                <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Overall statistics:</h4>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-word-selection-movie" src="word_selection_movie.html" title="Plotly Word Selection Movie"></iframe>
+                    </div>
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-word-selection-legal" src="word_selection_legal.html" title="Plotly Word Selection Legal"></iframe>
+                    </div>
+                </div>
+
+                <p class="text-gray-700 text-lg mt-4 mb-4">These plots describe the percentage of aligned responses, where word selection of respondents were in agreement with the explanation given by SHAP.</p>
+                
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-explanation-movie" src="explanation_movie.html" title="Plotly Explanation Movie"></iframe>
+                    </div>
+                    <div class="plotly-embed-container">
+                        <iframe id="plot-explanation-legal" src="explanation_legal.html" title="Plotly Explanation Legal"></iframe>
+                    </div>
+                </div>
+
+                <p class="text-gray-700 text-lg mt-4 mb-4">These plots describe the distribution of respondents’ ratings on correctness of SHAP explanations.</p>
+                
+                <h4 class="text-xl font-bold text-gray-800 mt-6 mb-2">SHAP Explanations ≠ Human Explanations</h4>
+                <p class="text-gray-700 text-lg mb-4">
+                    The findings do not suggest that SHAPley values are fundamentally incorrect, but demonstrate the fundamental difference in logic between human and machine. While the SHAP framework is still useful for statistical analysis, it should not be interpreted as a human-centered explanation, but rather a detailed description. The interpretation of this description could vary drastically and still require an expertise on model architecture to make any conclusion on the quality of the observed model.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    <strong>Should Models Be Retrained to Match Human Logic?</strong> If the model achieves high accuracy, its &quot;black-box&quot; logic may not require adjustment - even if explanations seem counterintuitive. At the same time, in terms of stakeholder trust explanations must resonate with human reasoning. But the model does not and will not work by human logic, therefore in such cases SHAP could be used not for an explanation, but as a tool for justification.
+                </p>
             </section>
 
-            <!-- Conclusion -->
             <section id="conclusion" class="mb-12 card">
                 <h2 class="section-title mb-8">Conclusion</h2>
                 <p class="text-gray-700 text-lg">
-                    The interpretability and usefulness of SHAP in this particular context is controversial.
+                    SHAP explanations are statistically useful but <strong>interpretively limited for non-expert</strong> native speakers. Their utility depends on:
+                </p>
+                <ul class="list-disc list-inside text-gray-700 text-lg ml-4 space-y-2 mb-4">
+                    <li><strong>Audience</strong>. Experts can leverage SHAP’s granularity; non-experts need curated summaries.</li>
+                    <li><strong>Language Specifics</strong>. Morphological and syntactic differences (e.g., compounding, negation handling) require adaptive explanation strategies.</li>
+                    <li><strong>Purpose</strong>. SHAP excels in model diagnostics but falls short as a standalone communication tool.</li>
+                </ul>
+                <p class="text-gray-700 text-lg">
+                    SHAP tools remain valuable for tuning and validation but require careful framing and interpretation.
                 </p>
             </section>
 
             <!-- Author Info / Ending Phrase -->
             <section id="contact" class="mb-12 card text-center">
-                <h2 class="section-title mx-auto w-fit mb-8">Thank you for your attention!</h2>
+                <h2 class="section-title mx-auto w-fit mb-8">That's it!</h2>
                 <p class="text-gray-700 text-lg">
                     Would appreciate any stars for <a href="https://github.com/tim-toothed/multilingual-sentiment-SHAP" target="_blank" class="text-indigo-600 hover:underline">Github Repo</a> and upvotes for <a href="https://www.kaggle.com/timursharifullindata" target="_blank" class="text-indigo-600 hover:underline">Kaggle datasets</a>!
                 </p>
@@ -600,8 +835,8 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 text-center mt-auto">
-        <p>&copy; 2025 Timur Sharifullin & Francesco Chialli | All rights reserved.</p>
-        <p class="text-sm mt-2">Built with HTML, Tailwind CSS, JS and a touch of AI.</p>
+        <p>&copy; 2024 Your Name/Affiliation. All rights reserved.</p>
+        <p class="text-sm mt-2">Built with HTML, Tailwind CSS, and a touch of JavaScript.</p>
     </footer>
 
     <script>
@@ -613,6 +848,13 @@
             // Methodology section elements
             const stageIcons = document.querySelectorAll('.stage-icon');
             const detailContents = document.querySelectorAll('.methodology-detail-content');
+
+            // Introduction examples elements
+            const showEnglishBtn = document.getElementById('show-english-btn');
+            const showForeignBtn = document.getElementById('show-foreign-btn');
+            const englishPlotContainer = document.getElementById('english-plot-container');
+            const italianPlotContainer = document.getElementById('italian-plot-container');
+            const russianPlotContainer = document.getElementById('russian-plot-container');
 
             // Function to show/hide methodology details
             const showMethodologyDetails = (stageId) => {
@@ -639,6 +881,19 @@
             if (stageIcons.length > 0) {
                 showMethodologyDetails(stageIcons[0].dataset.stage);
             }
+
+            // Event listeners for introduction example buttons
+            showEnglishBtn.addEventListener('click', () => {
+                englishPlotContainer.classList.remove('hidden');
+                italianPlotContainer.classList.add('hidden');
+                russianPlotContainer.classList.add('hidden');
+            });
+
+            showForeignBtn.addEventListener('click', () => {
+                englishPlotContainer.classList.add('hidden');
+                italianPlotContainer.classList.remove('hidden');
+                russianPlotContainer.classList.remove('hidden');
+            });
 
             // Expand sidebar on hover
             sidebar.addEventListener('mouseenter', () => {
